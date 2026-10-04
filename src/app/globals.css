@@ -207,3 +207,18 @@ details > summary { cursor: pointer; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
 }
+
+/* Loading placeholders */
+.skel {
+  background: linear-gradient(90deg, var(--muted-bg) 0%, #e8ebef 50%, var(--muted-bg) 100%);
+  background-size: 200% 100%;
+  animation: skel 1.2s ease-in-out infinite;
+  border-radius: 10px;
+}
+@keyframes skel {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skel { animation: none; }
+}

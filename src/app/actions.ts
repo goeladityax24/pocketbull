@@ -1,9 +1,10 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { cookies } from "next/headers";
 import { ADMIN_COOKIE, adminToken, getMe, keyMatches } from "@/lib/app/auth";
 import { GITHUB_REPO } from "@/lib/app/config";
+import { DATA_TAG } from "@/lib/app/repo";
 import { db } from "@/lib/app/supabase/admin";
 import type { ManualTag } from "@/lib/app/view";
 import { GuidanceItem } from "@/lib/pipeline/guidance";
@@ -43,12 +44,14 @@ export async function unlockAdmin(input: { key: string }): Promise<ActionResult>
     path: "/",
     maxAge: 60 * 60 * 24 * 180,
   });
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: "Unlocked. This browser can now edit." };
 }
 
 export async function lockAdmin(): Promise<ActionResult> {
   (await cookies()).delete(ADMIN_COOKIE);
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: "Locked." };
 }
@@ -70,6 +73,7 @@ export async function changeTag(input: { symbol: string; guidanceId: string; per
     .single();
   if (error) return fail(error.message);
   await audit(me.name, "tag.change", "tag_overrides", String(data.id), { tag: input.previous, symbol: input.symbol, period: input.periodLabel }, { tag: input.tag, reason });
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Tag changed." };
 }
@@ -80,6 +84,7 @@ export async function revertTag(input: { overrideId: string; symbol?: string }):
   const { error } = await db().from("tag_overrides").update({ reverted_at: new Date().toISOString() }).eq("id", Number(input.overrideId));
   if (error) return fail(error.message);
   await audit(me.name, "tag.revert", "tag_overrides", input.overrideId, null, { symbol: input.symbol });
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: "Tag change reverted." };
 }
@@ -96,6 +101,7 @@ export async function editGuidance(input: { symbol: string; guidanceId: string; 
   const { error } = await sb.from("guidance").update({ edited_item: parsed.data, edited_at: new Date().toISOString() }).eq("id", Number(input.guidanceId));
   if (error) return fail(error.message);
   await audit(me.name, "guidance.edit", "guidance", input.guidanceId, before?.edited_item ?? before?.item ?? null, { ...parsed.data, symbol: input.symbol });
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Promise updated." };
 }
@@ -106,6 +112,7 @@ export async function resetGuidance(input: { symbol: string; guidanceId: string 
   const { error } = await db().from("guidance").update({ edited_item: null, edited_at: new Date().toISOString() }).eq("id", Number(input.guidanceId));
   if (error) return fail(error.message);
   await audit(me.name, "guidance.reset", "guidance", input.guidanceId, null, { symbol: input.symbol });
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Back to the extracted version." };
 }
@@ -126,6 +133,7 @@ export async function addNote(input: { symbol: string; body: string; guidanceId:
   if (!id) return fail("Company not found.");
   const { error } = await db().from("notes").insert({ company_id: id, guidance_id: input.guidanceId ? Number(input.guidanceId) : null, body, author_name: me.name });
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Note saved." };
 }
@@ -135,6 +143,7 @@ export async function deleteNote(input: { symbol: string; noteId: string }): Pro
   if ("ok" in me) return me;
   const { error } = await db().from("notes").delete().eq("id", Number(input.noteId));
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Note deleted." };
 }
@@ -154,6 +163,7 @@ export async function addLink(input: { symbol: string; url: string; title: strin
   if (!id) return fail("Company not found.");
   const { error } = await db().from("links").insert({ company_id: id, url: url.toString(), title: input.title.trim() || null, kind, added_by_name: me.name });
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Link added." };
 }
@@ -163,6 +173,7 @@ export async function deleteLink(input: { symbol: string; linkId: string }): Pro
   if ("ok" in me) return me;
   const { error } = await db().from("links").delete().eq("id", Number(input.linkId));
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
   return { ok: true, message: "Link removed." };
 }
@@ -216,6 +227,7 @@ export async function requestAnalysis(input: { company: string; name: string; no
     issue_url: issue?.url ?? null,
   });
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: issue ? `Requested. The Admin has been notified (issue #${issue.number}).` : "Requested. The Admin will see it in the queue." };
 }
@@ -225,6 +237,7 @@ export async function closeRequest(input: { requestId: string; status: "done" | 
   if ("ok" in me) return me;
   const { error } = await db().from("analysis_requests").update({ status: input.status }).eq("id", Number(input.requestId));
   if (error) return fail(error.message);
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: "Request updated." };
 }
@@ -238,6 +251,7 @@ export async function updateSetting(input: { key: "met_tolerance_pct"; value: nu
   const { error } = await db().from("settings").update({ value: input.value }).eq("key", input.key);
   if (error) return fail(error.message);
   await audit(me.name, "setting.update", "settings", input.key, null, { value: input.value });
+  updateTag(DATA_TAG);
   revalidatePath("/", "layout");
   return { ok: true, message: "Saved." };
 }

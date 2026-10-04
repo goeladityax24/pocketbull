@@ -48,9 +48,9 @@ export default async function InsightsPage({ params, searchParams }: PageProps<"
   const yoy = (x: { value: number; prev: number | null | undefined } | null) =>
     x?.prev ? `${x.value >= x.prev ? "+" : ""}${num((x.value / x.prev - 1) * 100, 0)}%` : null;
   const stats = [
-    ratio("current price") != null && { v: `₹${num(ratio("current price")!, 0)}`, l: "Share price" },
-    ratio("market cap") != null && { v: `₹${num(ratio("market cap")!, 0)} Cr`, l: "Market cap" },
-    ratio("stock p/e") != null && { v: `${num(ratio("stock p/e")!, 1)}x`, l: "P/E" },
+    ratio("current price") != null && { v: `₹${num(ratio("current price")!, 0)}`, l: `Share price · ${fmtDate(c.snapshotFetchedAt, false)}` },
+    ratio("market cap") != null && { v: `₹${num(ratio("market cap")!, 0)} Cr`, l: `Market cap · ${fmtDate(c.snapshotFetchedAt, false)}` },
+    ratio("stock p/e") != null && { v: `${num(ratio("stock p/e")!, 1)}x`, l: `P/E · ${fmtDate(c.snapshotFetchedAt, false)}` },
     sales && { v: `₹${num(sales.value, 0)} Cr`, l: `Revenue ${sales.period.label}${yoy(sales) ? ` (${yoy(sales)} YoY)` : ""}` },
     opm && { v: `${num(opm.value, 1)}%`, l: `Operating margin ${opm.period.label}` },
     pat && { v: `₹${num(pat.value, 0)} Cr`, l: `Net profit ${pat.period.label}${yoy(pat) ? ` (${yoy(pat)} YoY)` : ""}` },
@@ -111,7 +111,9 @@ export default async function InsightsPage({ params, searchParams }: PageProps<"
               </div>
             ))}
           </div>
-          <p className="sub m-0">From Screener as of {fmtDate(c.snapshotFetchedAt)}.</p>
+          <p className="sub m-0">
+            Not live: price, market cap and P/E are as of {fmtDate(c.snapshotFetchedAt)}, when Screener was last read. Results are the latest reported.
+          </p>
         </section>
       )}
 
