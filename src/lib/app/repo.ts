@@ -1,5 +1,6 @@
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import type { GuidanceItem, InsightReport } from "../pipeline/guidance";
 import type { QuoteCheck } from "../pipeline/documents";
@@ -234,27 +235,41 @@ async function dbBundles(symbol: string | null, withNotes: boolean): Promise<Com
 }
 
 // ---------------------------------------------------------------------------
-// Public API (cached per request)
+// Public API. Database reads are cached across requests under DATA_TAG; every
+// write in src/app/actions.ts expires it, and it refreshes on its own after a
+// minute so `npm run sync-db` shows up without a redeploy.
+
+export const DATA_TAG = "pb-data";
+const shared = { tags: [DATA_TAG], revalidate: 60 };
+
+const cachedBundles = unstable_cache((symbol: string | null, withNotes: boolean) => dbBundles(symbol, withNotes), ["bundles"], shared);
 
 export const listBundles = cache(async (): Promise<CompanyBundle[]> => {
   if (!supabaseConfigured()) {
     const bundles = await Promise.all((await fileSymbols()).map(fileBundle));
     return bundles.filter((b): b is CompanyBundle => b != null);
   }
-  return dbBundles(null, false);
+  return cachedBundles(null, false);
 });
 
 export const getBundle = cache(async (symbol: string, withNotes: boolean): Promise<CompanyBundle | null> => {
   const s = symbol.toUpperCase();
   if (!supabaseConfigured()) return fileBundle(s);
-  return (await dbBundles(s, withNotes))[0] ?? null;
+  return (await cachedBundles(s, withNotes))[0] ?? null;
 });
 
+const cachedSettings = unstable_cache(
+  async (): Promise<Settings> => {
+    const { data } = await db().from("settings").select("key, value").eq("key", "met_tolerance_pct").maybeSingle();
+    return { tolerancePct: data ? Number(data.value) : 3 };
+  },
+  ["settings"],
+  shared,
+);
+
 export const getSettings = cache(async (): Promise<Settings> => {
-  const defaults = { tolerancePct: 3 };
-  if (!supabaseConfigured()) return defaults;
-  const { data } = await db().from("settings").select("key, value").eq("key", "met_tolerance_pct").maybeSingle();
-  return { tolerancePct: data ? Number(data.value) : defaults.tolerancePct };
+  if (!supabaseConfigured()) return { tolerancePct: 3 };
+  return cachedSettings();
 });
 
 export interface AnalysisRequest {
@@ -270,22 +285,30 @@ export interface AnalysisRequest {
 
 export const listRequests = cache(async (status: "open" | "all" = "open"): Promise<AnalysisRequest[]> => {
   if (!supabaseConfigured()) return [];
-  let q = db()
-    .from("analysis_requests")
-    .select("id, symbol, note, requested_by_name, issue_number, issue_url, status, created_at")
-    .order("created_at", { ascending: false })
-    .limit(50);
-  if (status === "open") q = q.eq("status", "open");
-  const { data, error } = await q;
-  if (error) throw new Error(error.message);
-  return (data ?? []).map((r) => ({
-    id: String(r.id),
-    symbol: r.symbol,
-    note: r.note,
-    requestedBy: r.requested_by_name,
-    issueNumber: r.issue_number,
-    issueUrl: r.issue_url,
-    status: r.status,
-    createdAt: r.created_at,
-  }));
+  return cachedRequests(status);
 });
+
+const cachedRequests = unstable_cache(
+  async (status: "open" | "all"): Promise<AnalysisRequest[]> => {
+    let q = db()
+      .from("analysis_requests")
+      .select("id, symbol, note, requested_by_name, issue_number, issue_url, status, created_at")
+      .order("created_at", { ascending: false })
+      .limit(50);
+    if (status === "open") q = q.eq("status", "open");
+    const { data, error } = await q;
+    if (error) throw new Error(error.message);
+    return (data ?? []).map((r) => ({
+      id: String(r.id),
+      symbol: r.symbol,
+      note: r.note,
+      requestedBy: r.requested_by_name,
+      issueNumber: r.issue_number,
+      issueUrl: r.issue_url,
+      status: r.status,
+      createdAt: r.created_at,
+    }));
+  },
+  ["requests"],
+  shared,
+);
