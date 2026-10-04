@@ -41,5 +41,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# PocketBull local runs (analysis output)
-/data/runs/
+# PocketBull scratch files (transcripts, page captures, drafts)
+/tmp/

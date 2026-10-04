@@ -2,7 +2,7 @@ import type Anthropic from "@anthropic-ai/sdk";
 import { checkQuote, loadPdf, type PdfDoc, type QuoteCheck } from "./documents";
 import { evaluateGuidance, nextResultsPeriod, type GuidanceEvaluation, type ScoringOptions } from "./expected";
 import { extractGuidance } from "./extract";
-import type { GuidanceItem } from "./guidance";
+import { ExtractionResult, type GuidanceItem } from "./guidance";
 import { fetchCompany } from "./screener";
 import type { RunStore, SavedRun } from "./store";
 import type { CompanySnapshot, Concall } from "./types";
@@ -140,4 +140,63 @@ export async function analyzeCompany(
   await opts.store.saveRun(run);
   const allRuns = [...runs.filter((r) => r.concall.yearMonth !== concall.yearMonth), run];
   return { status: "analyzed", run, tracker: buildTracker(snapshot, allRuns, opts.scoring) };
+}
+
+/**
+ * Save an analysis that a Claude session produced on the Admin's own plan
+ * (no API call). It goes through the same checks as an API run: schema
+ * validation, word-for-word quote check against the transcript, scoring.
+ */
+export async function importRun(args: {
+  snapshot: CompanySnapshot;
+  extraction: unknown;
+  store: RunStore;
+  /** Concall to file it under, "YYYY-MM" (defaults to the latest with a transcript) */
+  concall?: string;
+  /** The transcript, if already in hand (otherwise it is downloaded) */
+  transcript?: PdfDoc | null;
+  by?: string | null;
+  scoring?: ScoringOptions;
+}): Promise<{ run: SavedRun; tracker: Tracker; problems: string[] }> {
+  const parsed = ExtractionResult.safeParse(args.extraction);
+  if (!parsed.success) {
+    const issues = parsed.error.issues.slice(0, 10).map((i) => `${i.path.join(".")}: ${i.message}`);
+    throw new Error(`The analysis does not match the app's format:\n  ${issues.join("\n  ")}`);
+  }
+  const s = args.snapshot;
+  const concall = pickConcall(s, args.concall);
+  if (!concall) throw new Error(`No concall ${args.concall ?? "with a transcript"} on Screener for ${s.symbol}`);
+
+  let transcript = args.transcript ?? null;
+  if (transcript === undefined || transcript === null) {
+    try {
+      transcript = await loadPdf(concall.transcriptUrl!);
+    } catch {
+      transcript = null; // quotes will show as unverifiable
+    }
+  }
+  const quoteChecks = parsed.data.guidance.map((g) => checkQuote(g.quote, transcript));
+  const problems = parsed.data.guidance
+    .map((g, i) => (quoteChecks[i] === "not_found" ? `Quote not found in transcript: “${g.quote.slice(0, 80)}”` : null))
+    .filter((x): x is string => x != null);
+
+  const run: SavedRun = {
+    symbol: s.symbol,
+    concall,
+    basis: s.basis,
+    createdAt: new Date().toISOString(),
+    createdBy: args.by ?? "claude-session",
+    usage: { model: "claude-session (Admin's plan)", inputTokens: 0, outputTokens: 0, costUsd: 0 },
+    extraction: parsed.data,
+    quoteChecks,
+    docs: {
+      transcriptUrl: concall.transcriptUrl!,
+      pptUrl: concall.pptUrl,
+      transcriptPages: transcript?.pages.length ?? 0,
+      transcriptHasText: transcript?.hasText ?? false,
+    },
+  };
+  await args.store.saveRun(run);
+  const runs = [...(await args.store.listRuns(s.symbol)).filter((r) => r.concall.yearMonth !== concall.yearMonth), run];
+  return { run, tracker: buildTracker(s, runs, args.scoring), problems };
 }

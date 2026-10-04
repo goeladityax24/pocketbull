@@ -2,20 +2,23 @@
 
 A private research tool for a small group investing in Indian equities. It reads a company's concall transcript and investor presentation, records management's guidance, and checks every promise against reported numbers from Screener.
 
-**Status: milestone 1, the analysis pipeline.** It runs from the command line. The web app (Google sign-in, roles, tracker UI) is milestone 2.
+**Status: milestone 1, the analysis pipeline.** It runs from the command line. The web app (Google sign-in, roles, tracker UI) is milestone 2. New here? Read `HANDOFF.md`.
+
+**No API bill:** analyses are written by a Claude session on the Admin's own plan and saved with `npm run import-run` (see `docs/ANALYSIS_PLAYBOOK.md`). `npm run analyze` does the same through the paid API, if a key is ever added.
 
 ## Setup
 
 ```bash
 npm install
 cp .env.example .env.local   # add your ANTHROPIC_API_KEY
-npm test                     # 22 offline tests, no API key needed
+npm test                     # 31 offline tests, no API key needed
 ```
 
 ## Use
 
 ```bash
-npm run analyze -- PARTH                    # analyse the latest concall, print report + tracker
+npm run import-run -- SKYGOLD --file tmp/SKYGOLD-2026-08.json --month 2026-08   # save a Claude-session analysis
+npm run analyze -- PARTH                    # (paid API) analyse the latest concall, print report + tracker
 npm run analyze -- https://www.screener.in/company/RELIANCE/consolidated/
 npm run analyze -- PARTH --check            # free: is there a newer concall on Screener?
 npm run analyze -- PARTH --month 2025-11    # analyse an older concall (builds history)
@@ -23,7 +26,7 @@ npm run analyze -- PARTH --force            # re-run AI on a saved concall
 npm run analyze -- PARTH --json             # machine-readable output
 ```
 
-Results are saved to `data/runs/<SYMBOL>/<YYYY-MM>.json`. **Each concall is analysed once**; later runs reuse the saved result and cost nothing. Analyse two or three past concalls of a company to build its track record.
+Results are saved to `data/runs/<SYMBOL>/<YYYY-MM>.json` and committed to the repo. **Each concall is analysed once**; later runs reuse the saved result and cost nothing. Analyse two or three past concalls of a company to build its track record.
 
 ## How it works
 

@@ -20,7 +20,8 @@ export interface ExtractionUsage {
   costUsd: number | null;
 }
 
-const SYSTEM = `You are an equity research assistant for a small private group of Indian retail investors.
+/** The extraction rules. Shared by the API call and by Claude sessions running on the Admin's plan (see docs/ANALYSIS_PLAYBOOK.md). */
+export const EXTRACTION_RULES = `You are an equity research assistant for a small private group of Indian retail investors.
 You read one company's earnings-call transcript (and investor presentation, if given) and record:
 1. Every piece of forward-looking guidance given by MANAGEMENT (never by analysts).
 2. A short insight report.
@@ -100,7 +101,7 @@ export async function extractGuidance(args: {
   const stream = client.messages.stream({
     model,
     max_tokens: 16000,
-    system: SYSTEM,
+    system: EXTRACTION_RULES,
     tools: [{ name: "record_analysis", description: "Save the extracted guidance and insight report", input_schema: toolSchema() }],
     tool_choice: { type: "tool", name: "record_analysis" },
     messages: [{ role: "user", content }],
