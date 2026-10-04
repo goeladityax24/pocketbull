@@ -1,0 +1,410 @@
+{
+  "symbol": "SKYGOLD",
+  "name": "Sky Gold & Diamonds Ltd",
+  "screenerUrl": "https://www.screener.in/company/SKYGOLD/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1274565",
+  "warehouseId": "96632989",
+  "ratios": {
+    "market cap": 12555,
+    "current price": 811,
+    "high": 869,
+    "low": 276,
+    "stock p/e": 37.5,
+    "roce": 27,
+    "roe": 29.2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-06-30",
+        "label": "Q1 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        376,
+        396,
+        460,
+        513,
+        723,
+        769,
+        998,
+        1058,
+        1131,
+        1484,
+        1768,
+        1912,
+        2013
+      ],
+      "expenses": [
+        357,
+        381,
+        442,
+        488,
+        686,
+        730,
+        941,
+        995,
+        1060,
+        1385,
+        1645,
+        1771,
+        1856
+      ],
+      "operating_profit": [
+        19,
+        15,
+        18,
+        25,
+        37,
+        39,
+        57,
+        63,
+        71,
+        100,
+        122,
+        141,
+        157
+      ],
+      "opm_pct": [
+        5,
+        3.9,
+        3.9,
+        4.9,
+        5,
+        5,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        8
+      ],
+      "other_income": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        20,
+        7,
+        5,
+        4,
+        8,
+        7,
+        17,
+        8
+      ],
+      "interest": [
+        4,
+        5,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        13,
+        18,
+        21,
+        27,
+        25
+      ],
+      "depreciation": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pbt": [
+        14,
+        10,
+        12,
+        18,
+        28,
+        46,
+        49,
+        50,
+        59,
+        88,
+        106,
+        126,
+        135
+      ],
+      "tax_pct": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        20,
+        26,
+        24,
+        26,
+        24,
+        24,
+        28,
+        22
+      ],
+      "net_profit": [
+        11,
+        7,
+        9,
+        14,
+        21,
+        37,
+        37,
+        38,
+        44,
+        67,
+        81,
+        91,
+        105
+      ],
+      "eps": [
+        0.99,
+        0.68,
+        0.68,
+        1.03,
+        1.6,
+        2.69,
+        2.49,
+        2.6,
+        2.93,
+        4.33,
+        5.2,
+        5.44,
+        6.67
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        786,
+        1154,
+        1745,
+        3548,
+        6295
+      ],
+      "operating_profit": [
+        20,
+        37,
+        78,
+        197,
+        434
+      ],
+      "opm_pct": [
+        2.6,
+        3.2,
+        4.5,
+        6,
+        7
+      ],
+      "interest": [
+        8,
+        11,
+        21,
+        45,
+        79
+      ],
+      "net_profit": [
+        17,
+        19,
+        40,
+        133,
+        282
+      ],
+      "eps": [
+        1.58,
+        1.73,
+        3.06,
+        9.04,
+        17.78
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=091c957f-979e-48b4-9d83-32deddd85b9a.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e01254a6-9433-47c4-8bbd-d423128f48f5.pdf",
+      "recordingUrl": "https://skygold.co.in/wp-content/uploads/2026/08/Audio-Recording-of-Q1-FY27-Earnings-Conference-Call-held-on-10th-August-2026.mp3"
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0307296-100c-444c-878d-c28ed047500c.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fa09418-ca81-4050-bdc6-cc0160d6e4b4.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=lt45bzK7m0g"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0a4c69c-e9d0-4a01-91e4-428920f1e81a.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5db66ca3-58ba-4aa3-9321-4f1f5be1e932.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d174d2a3-c8d3-4718-8afc-1b77f10a9923.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11-b",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94cf7f88-728f-410e-8a04-5d00e809fb54.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995f6da3-72d0-44f7-9765-a0b1aaa710bd.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2023",
+      "yearMonth": "2023-08",
+      "transcriptUrl": null,
+      "pptUrl": null,
+      "recordingUrl": "https://skygold.co.in/wp-content/uploads/2023/08/Sky-Gold-Limited-Investor-Meet-V1.m4a"
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-04T19:14:35.713Z"
+}

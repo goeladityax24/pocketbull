@@ -39,13 +39,15 @@ npm run import-run -- <SYMBOL> --file tmp/<SYMBOL>-<YYYY-MM>.json --month <YYYY-
 
 It validates the format, checks every quote against the transcript and prints the report. Exit code 2 means a quote was not found: fix the quote and import again. Never import with quotes marked `not_found`.
 
-## 5. Save and close
+## 5. Save, publish to the web app and close
 
 ```bash
-git add data/runs/<SYMBOL>
+npm run snapshot -- <SYMBOL> [--page tmp/<SYMBOL>.html]   # latest Screener numbers → data/snapshots/
+npm run sync-db -- <SYMBOL>                               # copies data/ into Supabase (needs .env.local)
+git add data/runs/<SYMBOL> data/snapshots/<SYMBOL>.json
 git commit -m "Analyse <SYMBOL> <Mon YYYY> concall"
 git push
 gh issue close <n> --comment "Done: <SYMBOL> <Mon YYYY> concall. <one-line headline>. Next results: <expected numbers>."
 ```
 
-Then tell the Admin in chat: the headline, numbers to check in the next results, and anything that needs a human tag.
+Mark the request done on the web app's Admin page (or it closes with the GitHub issue). Then tell the Admin in chat: the headline, numbers to check in the next results, and anything that needs a human tag.
