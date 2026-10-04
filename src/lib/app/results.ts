@@ -2,7 +2,7 @@ import { scoreValue, type Range, type ScoringOptions, type Tag } from "../pipeli
 import type { GuidanceItem } from "../pipeline/guidance";
 import { parsePeriodLabel, samePeriod, samePeriodLastYear, type Period } from "../pipeline/periods";
 import type { CompanySnapshot, MetricKey } from "../pipeline/types";
-import { said } from "./format";
+import { said, seasonalText } from "./format";
 import type { ItemView, TrackerView } from "./view";
 
 export type ResultMetric = "revenue" | "ebitda" | "pat";
@@ -54,7 +54,8 @@ function direct(view: TrackerView, metric: ResultMetric, p: Period) {
     const cell = item.cells.find((c) => c.check.period.label === p.label && c.check.expected?.unit === "inr_cr");
     if (cell?.check.expected) {
       const g = item.tracked.guidance;
-      return { expected: cell.check.expected, basis: `${said(g)}${g.period ? ` for ${g.period}` : ""} · ${item.tracked.source.month} call` };
+      const split = seasonalText(cell.check);
+      return { expected: cell.check.expected, basis: `${split ?? `${said(g)}${g.period ? ` for ${g.period}` : ""}`} · ${item.tracked.source.month} call` };
     }
   }
   return null;

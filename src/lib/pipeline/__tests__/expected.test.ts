@@ -130,5 +130,37 @@ describe("₹ target for a single quarter", () => {
     const ev = evaluateGuidance(guide({ kind: "absolute", unit: "inr_cr", low: 230, high: 240, period: "Q1 FY27" }), acme);
     expect(ev.checks).toHaveLength(1);
     expect(ev.checks[0]).toMatchObject({ tag: "met", actual: 238, expected: { low: 230, high: 240 } });
+describe("annual ₹ targets are split by season, not evenly", () => {
+  const target = (over: Partial<GuidanceItem> = {}) =>
+    guide({ kind: "absolute", unit: "inr_cr", low: 1100, high: 1100, period: "FY27", metric_label: "FY27 revenue", ...over });
+
+  it("gives each quarter its share of last year (quarterly reporter)", () => {
+    // FY26 quarters 200 / 212 / 220 / 236 of 868: Q2 FY26 was 212 / 868 = 24.4% of the year
+    const ev = evaluateGuidance(target(), acme);
+    const q2 = ev.checks.find((c) => c.period.label === "Q2 FY27")!;
+    expect(q2.expected!.low).toBeCloseTo((1100 * 212) / 868, 6);
+    expect(q2.seasonalShare!.pct).toBeCloseTo((212 / 868) * 100, 6);
+    expect(q2.seasonalShare!.year.label).toBe("FY26");
+    // Not an even split
+    expect(q2.expected!.low).not.toBeCloseTo(1100 / 4, 0);
+    const q1 = ev.checks.find((c) => c.period.label === "Q1 FY27")!;
+    expect(q1.expected!.low).toBeCloseTo((1100 * 200) / 868, 6);
+  });
+
+  it("splits by halves for a company that reports half-yearly", () => {
+    const h = (fy: number, i: number) => makePeriod("half", fy, i);
+    const sme: CompanySnapshot = {
+      ...acme,
+      interim: { granularity: "half", periods: [h(2026, 1), h(2026, 2), h(2027, 1)], rows: { sales: [40, 60, 50] } },
+      annual: { granularity: "year", periods: [makePeriod("year", 2026)], rows: { sales: [100] } },
+    };
+    const ev = evaluateGuidance(target({ low: 130, high: 130 }), sme);
+    expect(ev.checks.map((c) => c.period.label)).toEqual(["H1 FY27", "H2 FY27", "FY27"]);
+    const [h1, h2] = ev.checks;
+    expect(h1.expected!.low).toBeCloseTo(52, 6); // 40% of 130
+    expect(h1.tag).toBe("met"); // 50 is within ±3% of 52 (plus rounding slack)
+    expect(h2.expected!.low).toBeCloseTo(78, 6); // 60% of 130
+    expect(h2.seasonalShare!.pct).toBeCloseTo(60, 6);
+    expect(nextResultsPeriod(sme)?.label).toBe("H2 FY27");
   });
 });

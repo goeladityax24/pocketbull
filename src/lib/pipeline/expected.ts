@@ -31,6 +31,12 @@ export interface Check {
   gap: string;
   /** Growth % implied by an annual ₹ target, used to set this period's expected value */
   impliedGrowthPct: [number, number] | null;
+  /**
+   * For an annual ₹ target checked quarter by quarter (or half by half): this
+   * period's share of last year, so the target is split by seasonality, not evenly.
+   * Expected = target × share, which equals base × (1 + implied growth).
+   */
+  seasonalShare: { pct: number; year: Period; target: Range } | null;
 }
 
 export interface YearToDate {
@@ -205,14 +211,19 @@ export function evaluateGuidance(
       const expected: Range = { low: g.low, high: g.high ?? g.low, unit: "inr_cr" };
       const actual = valueAt(table, map.level, p);
       const scored = scoreValue(actual, expected, opts, reported);
-      check = { period: p, row: map.level, base: null, expected, impliedInr: null, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: growth ? [round(growth.low, 1), round(growth.high, 1)] : null };
+      check = { period: p, row: map.level, base: null, expected, impliedInr: null, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: growth ? [round(growth.low, 1), round(growth.high, 1)] : null, seasonalShare: null };
     } else if (growth && map.growth) {
       const bp = samePeriodLastYear(p);
       const bv = valueAt(table, map.growth, bp);
       const expected = bv != null ? growthRange(bv, growth) : null;
       const actual = valueAt(table, map.growth, p);
       const scored = expected ? scoreValue(actual, expected, opts, reported) : { tag: "not_comparable" as Tag, gap: "No base period" };
-      check = { period: p, row: map.growth, base: bv != null ? { period: bp, value: bv } : null, expected, impliedInr: null, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: growth.source === "implied" ? [round(growth.low, 1), round(growth.high, 1)] : null };
+      check = { period: p, row: map.growth, base: bv != null ? { period: bp, value: bv } : null, expected, impliedInr: null, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: growth.source === "implied" ? [round(growth.low, 1), round(growth.high, 1)] : null, seasonalShare: null };
+      if (growth.source === "implied" && p.kind !== "year" && bv != null) {
+        const year = makePeriod("year", p.fy - 1);
+        const total = valueAt(s.annual, map.growth, year);
+        if (total) check.seasonalShare = { pct: (bv / total) * 100, year, target: { low: g.low, high: g.high ?? g.low, unit: "inr_cr" } };
+      }
     } else if (g.kind === "margin_pct" && map.level) {
       const expected: Range = { low: g.low, high: g.high ?? g.low, unit: "pct" };
       const actual = valueAt(table, map.level, p);
@@ -225,7 +236,7 @@ export function evaluateGuidance(
         }
       }
       const scored = scoreValue(actual, expected, opts, reported);
-      check = { period: p, row: map.level, base: null, expected, impliedInr, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: null };
+      check = { period: p, row: map.level, base: null, expected, impliedInr, actual, tag: scored.tag, gap: scored.gap, impliedGrowthPct: null, seasonalShare: null };
     } else {
       continue;
     }

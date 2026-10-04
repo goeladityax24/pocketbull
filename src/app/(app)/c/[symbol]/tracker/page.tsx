@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { EditGuidance } from "@/components/EditGuidance";
 import { TagControl } from "@/components/TagControl";
-import { fmtActual, fmtRange, num, periodSpan, said, TAG_LABEL } from "@/lib/app/format";
+import { fmtActual, fmtRange, num, periodSpan, said, seasonalText, TAG_LABEL } from "@/lib/app/format";
 import { buildResultsGrid } from "@/lib/app/results";
 import type { CellView, ItemView } from "@/lib/app/view";
 import { loadCompany } from "../data";
@@ -155,7 +155,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
             <details className="text-sm">
               <summary className="btn btn-ghost btn-sm">How expected is worked out</summary>
               <p className="box m-0 mt-2 max-w-md p-3 text-[13px] leading-normal" style={{ color: "var(--ink-2)" }}>
-                Expected = same period last year × (1 + guided growth), {c.basis} numbers. A range gives a range. An annual ₹ target becomes the growth it implies over last year, so every quarter gets an expected number.
+                Growth guidance: expected = same {c.snapshot.interim.granularity === "half" ? "half" : "quarter"} last year × (1 + guided growth). An annual ₹ target is split by season, not evenly: each {c.snapshot.interim.granularity === "half" ? "half" : "quarter"} gets the share it had of last year&apos;s total (e.g. if Q2 was 24% of last year, Q2 is expected at 24% of the target). {c.basis[0].toUpperCase() + c.basis.slice(1)} numbers; a range gives a range.
               </p>
             </details>
           </div>
@@ -176,11 +176,15 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                     <td>
                       {said(item.tracked.guidance)} {item.tracked.guidance.period && `for ${item.tracked.guidance.period}`}
                       <div className="mt-1"><Source item={item} transcript={tx(item)} /></div>
-                      {cell.check.impliedGrowthPct && (
-                        <div className="sub">
-                          Implies {cell.check.impliedGrowthPct[0]}
-                          {cell.check.impliedGrowthPct[1] !== cell.check.impliedGrowthPct[0] ? `–${cell.check.impliedGrowthPct[1]}` : ""}% growth over last year
-                        </div>
+                      {seasonalText(cell.check) ? (
+                        <div className="sub">{seasonalText(cell.check)}</div>
+                      ) : (
+                        cell.check.impliedGrowthPct && (
+                          <div className="sub">
+                            Implies {cell.check.impliedGrowthPct[0]}
+                            {cell.check.impliedGrowthPct[1] !== cell.check.impliedGrowthPct[0] ? `–${cell.check.impliedGrowthPct[1]}` : ""}% growth over last year
+                          </div>
+                        )
                       )}
                     </td>
                     <td className="num">
@@ -311,9 +315,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                               {fmtRange(cell.check.expected)}
                             </div>
                             {cell.check.gap && cell.check.actual != null && <div className="sub">{cell.check.gap}</div>}
-                            {cell.check.impliedGrowthPct && p.kind !== "year" && (
-                              <div className="sub">{cell.check.impliedGrowthPct[0]}% growth implied by the {item.tracked.guidance.period} target</div>
-                            )}
+                            {seasonalText(cell.check) && <div className="sub">{seasonalText(cell.check)}</div>}
                           </td>
                         );
                       })}
