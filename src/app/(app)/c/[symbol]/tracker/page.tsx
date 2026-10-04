@@ -2,6 +2,7 @@ import Link from "next/link";
 import { EditGuidance } from "@/components/EditGuidance";
 import { TagControl } from "@/components/TagControl";
 import { fmtActual, fmtRange, num, periodSpan, said, TAG_LABEL } from "@/lib/app/format";
+import { buildResultsGrid } from "@/lib/app/results";
 import type { CellView, ItemView } from "@/lib/app/view";
 import { loadCompany } from "../data";
 
@@ -34,6 +35,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
   const latestScore = interimScores.at(-1);
   const prevScore = interimScores.at(-2);
   const editor = me.isAdmin && !me.demo;
+  const results = buildResultsGrid(c.snapshot, view, { tolerancePct: settings.tolerancePct });
 
   const tagCell = (item: ItemView, cell: CellView) => (
     <TagControl
@@ -69,6 +71,69 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
             </div>
           ))}
       </section>
+
+      {results.periods.length > 0 && (
+        <section className="flex flex-col gap-4">
+          <div className="flex flex-col gap-1">
+            <h2 className="h2">Revenue, EBITDA and PAT</h2>
+            <p className="sub m-0">
+              Reported numbers from Screener ({c.basis}), and what guidance implies for each. EBITDA and PAT come from guidance on them directly, or a guided margin on revenue.
+            </p>
+          </div>
+          <div className="box scroll-x">
+            <table className="tbl" style={{ minWidth: 160 + results.periods.length * 170 }}>
+              <thead>
+                <tr>
+                  <th>₹ Cr</th>
+                  {results.periods.map((p) => (
+                    <th key={p.label}>
+                      {p.label}
+                      <div style={{ textTransform: "none", letterSpacing: 0, fontFamily: "var(--font-plex-sans)" }} className="sub">
+                        {p.label === next?.label ? "next results" : periodSpan(p.endDate, p.kind)}
+                      </div>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {results.rows.map((row) => (
+                  <tr key={row.metric}>
+                    <td className="font-semibold">{row.label}</td>
+                    {row.cells.map((cell) => (
+                      <td key={cell.period.label} style={cell.period.label === next?.label ? { background: "var(--surface-2)" } : undefined}>
+                        {cell.actual != null ? (
+                          <>
+                            <div className="num font-semibold">₹{num(cell.actual)}</div>
+                            <div className="sub num">
+                              {[
+                                cell.yoyPct != null && `${cell.yoyPct >= 0 ? "+" : ""}${num(cell.yoyPct, 0)}% YoY`,
+                                cell.marginPct != null && `${num(cell.marginPct, 1)}% margin`,
+                              ]
+                                .filter(Boolean)
+                                .join(" · ")}
+                            </div>
+                          </>
+                        ) : (
+                          <div className="sub">Not reported yet</div>
+                        )}
+                        {cell.expected ? (
+                          <div className="mt-1.5 flex flex-col items-start gap-0.5">
+                            {cell.tag && <span className={`tag t-${cell.tag}`}>{TAG_LABEL[cell.tag]}</span>}
+                            <span className="sub num">Expected {fmtRange(cell.expected)}</span>
+                            <span className="sub">{cell.basis}</span>
+                          </div>
+                        ) : (
+                          <div className="sub mt-1.5">Not guided</div>
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {next && (
         <section className="box flex flex-col gap-4 p-5">
