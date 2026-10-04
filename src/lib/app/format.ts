@@ -64,3 +64,11 @@ export function periodSpan(endDate: string, kind: "quarter" | "half" | "year"): 
   const startY = m - len < 0 ? y - 1 : y;
   return `${MONTHS[startM - 1]}${startY !== y ? ` ${startY}` : ""}–${MONTHS[m - 1]} ${y}`;
 }
+
+/** "Q2 FY26 was 23.6% of FY26, so 23.6% of ₹8,100 Cr" for an annual target split by season */
+export function seasonalText(c: Check): string | null {
+  const sh = c.seasonalShare;
+  if (!sh || !c.base) return null;
+  const pct = `${num(sh.pct, 1)}%`;
+  return `${c.base.period.label} was ${pct} of ${sh.year.label}, so ${pct} of ${fmtRange(sh.target)}`;
+}

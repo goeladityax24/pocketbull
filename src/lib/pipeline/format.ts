@@ -76,8 +76,9 @@ export function formatTracker(t: Tracker, run: SavedRun | null): string {
     const line = (it: (typeof live)[number], c: Check) => {
       const base = c.base ? ` (base ${c.base.period.label}: ₹${num(c.base.value)} Cr)` : "";
       const inr = c.impliedInr ? ` → ${fmtRange(c.impliedInr)}` : "";
-      const implied =
-        c.impliedGrowthPct && c.period.kind !== "year" ? ` · ${c.impliedGrowthPct[0]}% growth implied by the ${it.guidance.period} target` : "";
+      const implied = c.seasonalShare && c.base
+        ? ` · ${c.base.period.label} was ${num(c.seasonalShare.pct, 1)}% of ${c.seasonalShare.year.label}, so that share of the ${it.guidance.period} target`
+        : c.impliedGrowthPct && c.period.kind !== "year" ? ` · ${c.impliedGrowthPct[0]}% growth implied by the ${it.guidance.period} target` : "";
       return `  ${it.guidance.metric_label}: expect ${fmtRange(c.expected)}${inr}${base}${implied} · ${it.source.month} call`;
     };
     const next = live.flatMap((it) =>
