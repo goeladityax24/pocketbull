@@ -17,6 +17,11 @@ export interface ResultCell {
   /** How the expected number was set, e.g. "₹8,100 Cr for FY27 · Aug 2026 call" */
   basis: string | null;
   tag: Tag | null;
+  /**
+   * Not guided, next results only: expected revenue × the margin of the last
+   * 4 reported periods. A rough guide, never scored.
+   */
+  estimate: { range: Range; marginPct: number; basis: string } | null;
 }
 
 export interface ResultsGrid {
@@ -87,6 +92,13 @@ export function buildResultsGrid(s: CompanySnapshot, view: TrackerView, opts: Sc
     return direct(view, "revenue", p)?.expected ?? null;
   };
 
+  // Margin over the last 4 reported periods, for estimates when nothing is guided
+  const trailingMargin = (row: MetricKey): number | null => {
+    const sum = (k: MetricKey) => reported.reduce((a, p) => a + (value(s, k, p) ?? NaN), 0);
+    const m = (sum(row) / sum("sales")) * 100;
+    return reported.length && Number.isFinite(m) ? m : null;
+  };
+
   const rows = (["revenue", "ebitda", "pat"] as ResultMetric[]).map((metric) => ({
     metric,
     label: LABEL[metric],
@@ -95,6 +107,9 @@ export function buildResultsGrid(s: CompanySnapshot, view: TrackerView, opts: Sc
       const prev = value(s, ROW[metric], samePeriodLastYear(p));
       const sales = value(s, "sales", p);
       const exp = direct(view, metric, p) ?? fromMargin(view, metric, p, revenueRange(p));
+      const isNext = !!next && samePeriod(p, next);
+      const rev = isNext && !exp && metric !== "revenue" ? direct(view, "revenue", p)?.expected : null;
+      const margin = rev ? trailingMargin(ROW[metric]) : null;
       return {
         period: p,
         actual,
@@ -103,6 +118,14 @@ export function buildResultsGrid(s: CompanySnapshot, view: TrackerView, opts: Sc
         expected: exp?.expected ?? null,
         basis: exp?.basis ?? null,
         tag: exp ? scoreValue(actual, exp.expected, opts, actual != null).tag : null,
+        estimate:
+          rev && margin != null
+            ? {
+                range: { low: (rev.low * margin) / 100, high: (rev.high * margin) / 100, unit: "inr_cr" },
+                marginPct: margin,
+                basis: `Not guided. Estimate: expected revenue at the last ${reported.length} ${reported[0]?.kind === "half" ? "halves'" : "quarters'"} margin`,
+              }
+            : null,
       };
     }),
   }));
