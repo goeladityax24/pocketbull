@@ -1,0 +1,420 @@
+{
+  "symbol": "SKYGOLD",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0307296-100c-444c-878d-c28ed047500c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fa09418-ca81-4050-bdc6-cc0160d6e4b4.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-04T00:00:00Z",
+  "createdBy": "stand-in extraction by Claude in chat (no API key yet)",
+  "usage": {
+    "model": "stand-in",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": null
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-28",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue",
+        "kind": "absolute",
+        "low": 8100,
+        "high": 8100,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "our annualized Q4 exit run rate for revenue of INR7,650 crores is already close to our FY27 guidance of INR8,100 crores.",
+        "page": 8,
+        "speaker": "Siddharth Sipani (CFO)",
+        "confidence": "high",
+        "keyword": "FY27 revenue 8,100",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue CAGR",
+        "kind": "growth_yoy",
+        "low": 30,
+        "high": 35,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY26 to FY30",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "We are targeting a sustainable revenue CAGR of 30% to 35%, projecting a PAT of INR945 crores by 2030.",
+        "page": 4,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "revenue CAGR",
+        "revises": null
+      },
+      {
+        "metric": "pat",
+        "metric_label": "FY30 PAT",
+        "kind": "absolute",
+        "low": 945,
+        "high": 945,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "We are targeting a sustainable revenue CAGR of 30% to 35%, projecting a PAT of INR945 crores by 2030.",
+        "page": 4,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "PAT 945 crore",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY30 revenue",
+        "kind": "absolute",
+        "low": 18000,
+        "high": 19000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "advance towards our FY30 target of achieving sales of INR18,000 crores to INR19,000 crores with a nil net debt position.",
+        "page": 6,
+        "speaker": "Darshan Chauhan (WTD)",
+        "confidence": "high",
+        "keyword": "FY30 sales target",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "FY30 PAT margin",
+        "kind": "margin_pct",
+        "low": 5.25,
+        "high": 5.25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "we have guided for a conservative 5.25% PAT margin by FY2030, which represents an expansion of 75 basis points from current levels.",
+        "page": 9,
+        "speaker": "Siddharth Sipani (CFO)",
+        "confidence": "high",
+        "keyword": "PAT margin 5.25%",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Net debt reduction in FY27",
+        "kind": "growth_yoy",
+        "low": -100,
+        "high": -50,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "through land sale and operational improvement",
+        "quote": "We would be reducing net debt by 50% above in FY27 itself through land sale and operational improvement.",
+        "page": 4,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "net debt down 50%",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Net debt free",
+        "kind": "absolute",
+        "low": 0,
+        "high": 0,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Growth will be funded strictly through internal cash generation to achieve a net debt-free balance sheet by FY30.",
+        "page": 3,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "net debt-free",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Operating cash flow as % of PAT",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our model targets a consistent conversion of 20% to 25% of PAT into operating cash flow",
+        "page": 4,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "cash conversion",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Gross margin expansion (percentage points)",
+        "kind": "margin_pct",
+        "low": 0.6,
+        "high": 0.9,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "not stated",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We expect our gross margin to expand by 60 to 90 basis points due to better mix of advanced gold and studded jewellery.",
+        "page": 9,
+        "speaker": "Siddharth Sipani (CFO)",
+        "confidence": "high",
+        "keyword": "gross margin expansion",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Receivable days",
+        "kind": "absolute",
+        "low": 22,
+        "high": 23,
+        "unit": "other",
+        "approx": false,
+        "period": null,
+        "horizon_text": "4 to 6 quarters",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "100% in 4 to 6 quarters, we'll be back to that 22 - 23 days and it will take 4 to 6 quarters.",
+        "page": 14,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "receivable days",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Export share of sales",
+        "kind": "margin_pct",
+        "low": 12,
+        "high": 12,
+        "unit": "pct",
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we are expecting in 1 quarter, it will be back to 12%.",
+        "page": 14,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "export share",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Export share of sales, long term",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "coming years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We are expecting that this -- the export should be close to 20% of the overall sales is what we are expecting.",
+        "page": 16,
+        "speaker": "Siddharth Sipani (CFO)",
+        "confidence": "high",
+        "keyword": "export share 20%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Land sale completed",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We are expecting it by August end. I think August or September last, we will encash it.",
+        "page": 15,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "land monetisation",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No new capacity needed until March 2028",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Till 2028 March, we don't have any problem of the capacity.",
+        "page": 17,
+        "speaker": "Mangesh Chauhan (MD)",
+        "confidence": "high",
+        "keyword": "capacity till 2028",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Sky Gold closed FY26 at ₹6,295 Cr revenue (+77%) and reiterated ₹8,100 Cr for FY27, with Q4 already running at ₹7,650 Cr a year. New long-term targets: ₹18,000–19,000 Cr revenue, ₹945 Cr PAT and zero net debt by FY30, with net debt to halve in FY27. Management stopped giving volume guidance, citing gold-price volatility.",
+      "what_changed": [
+        {
+          "change": "withdrawn",
+          "text": "Volume guidance dropped; only PAT and revenue targets from now on, because gold prices move revenue.",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "FY30 targets: ₹18,000–19,000 Cr revenue, ₹945 Cr PAT, 5.25% PAT margin, nil net debt.",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Net debt to fall by more than 50% in FY27, helped by a land sale expected by August–September.",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Promoters move to zero salary from FY27; rewards only through dividends paid from operating cash flow.",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Akash Talesara proposed as CEO; MSKA (BDO network) appointed statutory auditor.",
+          "page": 6
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "As a management team, we only provide achievable targets, and we routinely outperform them.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "Customs duty hike and the PM's appeal to cut gold buying",
+          "answer": "No softening seen at B2B level yet; lightweight jewellery and exchange schemes help.",
+          "page": 10
+        },
+        {
+          "topic": "Gold metal loans",
+          "answer": "Zero GML used now because local gold is cheaper; ₹170 Cr facility sanctioned but undrawn.",
+          "page": 11
+        },
+        {
+          "topic": "Volumes and capacity",
+          "answer": "About 650 kg a month in Q4 on 1.2 t capacity (~55% used); enough until March 2028.",
+          "page": 12
+        },
+        {
+          "topic": "Receivable days",
+          "answer": "Back to 22–23 days in 4 to 6 quarters as advance gold and exports grow.",
+          "page": 14
+        },
+        {
+          "topic": "Exports after Middle East disruption",
+          "answer": "Run-rate fell to 7–8% from 11%; expected back to 12% within a quarter.",
+          "page": 14
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Operating cash flow was still negative at ₹45 Cr for FY26.",
+          "page": 9
+        },
+        {
+          "text": "Volume guidance withdrawn, so revenue growth can no longer be split into volume and gold price.",
+          "page": 4
+        },
+        {
+          "text": "Inventory was higher at year-end; management blamed Akshaya Tritiya deliveries slipping into April.",
+          "page": 14
+        },
+        {
+          "text": "Exports dropped to a 7–8% run-rate from 11% after the Middle East disruption.",
+          "page": 14
+        }
+      ],
+      "watch_next": [
+        "Q1 FY27 revenue against the ₹8,100 Cr pace",
+        "Land sale closing by August–September",
+        "Net debt falling towards half of the FY26 level",
+        "Exports back to 12% of sales",
+        "Operating cash flow turning positive"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Lightweight gold jewellery for retailers: casting, 22K plus 18K/14K/9K and diamond-studded pieces; growing 'advance gold' job-work model",
+        "customers": "Large chains including Reliance Jewels, CaratLane, Malabar, Kalyan, Senco, Titan, Joyalukkas, Thangamayil, Lalithaa",
+        "revenue_mix": "About 88% domestic, 12% exports (FY26); advance gold 11.5% of FY26 volume",
+        "demand_drivers": "Weddings and festivals, shift from unorganised to organised jewellers, demand for lighter and lower-karat jewellery"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0307296-100c-444c-878d-c28ed047500c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fa09418-ca81-4050-bdc6-cc0160d6e4b4.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,3 @@
+@AGENTS.md
+@HANDOFF.md
+@docs/ANALYSIS_PLAYBOOK.md

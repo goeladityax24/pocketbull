@@ -1,0 +1,32 @@
+name: Analysis request
+description: Ask the Admin to analyse a company or a new concall
+title: "Analyse: "
+labels: ["analysis-request"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: NSE symbol or Screener link
+      placeholder: SKYGOLD or https://www.screener.in/company/SKYGOLD/consolidated/
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request
+      options:
+        - First analysis of this company
+        - Refresh after a new concall
+    validations:
+      required: true
+  - type: input
+    id: month
+    attributes:
+      label: Concall month (for a refresh)
+      placeholder: Nov 2026
+  - type: textarea
+    id: note
+    attributes:
+      label: Anything to look at?
+      placeholder: e.g. check whether they repeated the FY27 revenue target
