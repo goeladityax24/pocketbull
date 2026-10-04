@@ -1,0 +1,371 @@
+{
+  "symbol": "ZENTEC",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b433e3a0-0ec1-4be1-b19a-d68e6a81f6d1.pdf",
+    "recordingUrl": "https://www.zentechnologies.com/Q4FY26-Earnings-Call"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-04T20:30:04.056Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-04",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue FY27 and FY28 combined",
+        "kind": "absolute",
+        "low": 4000,
+        "high": 4000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY27 and FY28 combined",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 revenue was ₹688 Cr; needs order book to reach about ₹3,000 Cr",
+        "quote": "We stick to that prediction of our projection of Rs.4000 Crores turnover in FY2027 and 2028 put together, so, we are very comfortable with those figures now.",
+        "page": 10,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "4,000 crore FY27-28",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Operational EBITDA margin",
+        "kind": "margin_pct",
+        "low": 35,
+        "high": 35,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Called long-term guidance by the CFO (p.8)",
+        "quote": "I do not see any threat to our margin prediction of 25% PAT and 35% EBITDA margins.",
+        "page": 16,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "EBITDA 35%",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin",
+        "kind": "margin_pct",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I do not see any threat to our margin prediction of 25% PAT and 35% EBITDA margins.",
+        "page": 16,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "PAT margin 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed in FY27",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The other ₹326 Cr of the ₹1,336 Cr order book is AMC revenue spread over years",
+        "quote": "So out of the total order book Rs.1000 Crores is expected to be executed and most of the deliveries is going to happen in Q2 and Q3 of FY2027.",
+        "page": 9,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "execute 1,000 crore",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book peak",
+        "kind": "absolute",
+        "low": 3000,
+        "high": 3000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "during FY27-FY28",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I think it is reasonable to expect that the order book should touch Rs.3000 Crores at some point in time.",
+        "page": 10,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "order book 3,000",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Big orders in Q1",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "In fact, this first quarter should be a good quarter, but not later than second quarter, I think you should get some good news in the first quarter",
+        "page": 15,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "orders Q1",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Subsidiaries (UTS and ARI) revenue",
+        "kind": "absolute",
+        "low": 365,
+        "high": 365,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Subsidiaries UTS and ARI",
+        "condition": null,
+        "quote": "we think in FY2027, UTS and ARI together, they would be doing around Rs.365 Crores of revenue.",
+        "page": 17,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "UTS ARI 365",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Working capital days",
+        "kind": "absolute",
+        "low": 140,
+        "high": 150,
+        "unit": "other",
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "196 days at March 2026",
+        "quote": "but otherwise, it should be comfortably around 140 to 150 days.",
+        "page": 17,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "working capital 140-150 days",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Vrishabh UGV commercial launch",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "commercially we are planning to launch it in this financial year, FY2027",
+        "page": 5,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Vrishabh FY27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "HyperStrike interceptor drone production",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "with the production will start in this financial year",
+        "page": 6,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "HyperStrike FY27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Weapon systems launched",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So yes, the weapon systems will be launched during this year.",
+        "page": 14,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "weapons FY27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "30mm smart ammunition supplies",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Next year we should have started manufacturing and supplying it.",
+        "page": 18,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "ammunition FY28",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue fell 29% to ₹688 Cr (Q4 ₹178 Cr, down 45% YoY) because orders came late; operational EBITDA margin was 36% for the year but 28.6% in Q4. The order book was ₹1,336 Cr, of which about ₹1,000 Cr is to be delivered in FY27, mostly in Q2-Q3. Management stuck to ₹4,000 Cr revenue across FY27 and FY28 combined and 35% EBITDA / 25% PAT margins, and showed new products: an interceptor drone (HyperStrike), a UGV (Vrishabh), smart 30mm ammunition and a cyber-security suite.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "₹4,000 Cr of revenue across FY27 and FY28 combined",
+          "page": 10
+        },
+        {
+          "change": "reiterated",
+          "text": "Long-term 35% operational EBITDA and 25% PAT margin",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "New products launched: HyperStrike interceptor drone, Vrishabh UGV, 30mm programmable ammunition, CIWS with AI-Turing, anti-drone simulator",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Arms and ammunition licences received; weapon systems to launch this year",
+          "page": 14
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We stick to that prediction of our projection of Rs.4000 Crores turnover in FY2027 and 2028 put together, so, we are very comfortable with those figures now.",
+        "page": 10
+      },
+      "analyst_questions": [
+        {
+          "topic": "How ₹4,000 Cr is possible",
+          "answer": "The order book needs to touch about ₹3,000 Cr at some point; pipeline runs into a few thousand crores (₹1,500 Cr in bids plus single-vendor tenders).",
+          "page": 10
+        },
+        {
+          "topic": "Why orders were slow",
+          "answer": "After Operation Sindoor the government prioritised emergency anti-drone buys; simulator orders were pushed back.",
+          "page": 15
+        },
+        {
+          "topic": "Q4 margin drop",
+          "answer": "Lower revenue on a fixed cost base, year-end incentives (₹5 Cr), higher warranty provisions (₹3.1 Cr), export post-supply costs and R&D.",
+          "page": 8
+        },
+        {
+          "topic": "Subsidiaries",
+          "answer": "UTS and ARI did about ₹260 Cr in FY26; about ₹365 Cr expected in FY27 at 27-31% margins.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Revenue fell 29% in FY26; the ₹4,000 Cr two-year target needs revenue to roughly triple.",
+          "page": 8
+        },
+        {
+          "text": "Order book ₹1,336 Cr vs the ~₹3,000 Cr management says is needed.",
+          "page": 10
+        },
+        {
+          "text": "Orders were also promised 'in the first quarter' last year and came late.",
+          "page": 11
+        },
+        {
+          "text": "Warranty provisions raised for anti-drone systems supplied in FY25.",
+          "page": 8
+        },
+        {
+          "text": "Working capital at 196 days vs a 140-150 day target.",
+          "page": 9
+        }
+      ],
+      "watch_next": [
+        "Large simulator and anti-drone orders in Q1-Q2 FY27",
+        "Deliveries of about ₹1,000 Cr from the order book in Q2-Q3",
+        "Operational EBITDA margin recovering towards 35%",
+        "Working capital coming back towards 140-150 days"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Combat training simulators (tank, gunnery, naval, flight) and anti-drone systems; new: interceptor drones, UGVs, remote weapon stations, smart ammunition, cyber-security suite",
+        "customers": "Indian Army, Navy and Air Force, Ministry of Defence, paramilitary forces; exports to Middle East, Africa, Southeast Asia, CIS",
+        "revenue_mix": "Standalone ₹423 Cr and subsidiaries ₹260 Cr in FY26 (ARI ₹131 Cr); order book ₹1,000 Cr equipment and ₹326 Cr AMC",
+        "demand_drivers": "Drone warfare, defence indigenisation (IDDM), training needs, emergency procurement after Operation Sindoor"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48eebac2-93bf-420d-8b1a-57f4fbc44c32.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b433e3a0-0ec1-4be1-b19a-d68e6a81f6d1.pdf",
+    "transcriptPages": 21,
+    "transcriptHasText": true
+  }
+}

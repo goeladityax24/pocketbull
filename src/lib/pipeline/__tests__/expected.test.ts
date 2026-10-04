@@ -125,6 +125,11 @@ describe("evaluateGuidance", () => {
   });
 });
 
+describe("₹ target for a single quarter", () => {
+  it("checks the quarter against its own number", () => {
+    const ev = evaluateGuidance(guide({ kind: "absolute", unit: "inr_cr", low: 230, high: 240, period: "Q1 FY27" }), acme);
+    expect(ev.checks).toHaveLength(1);
+    expect(ev.checks[0]).toMatchObject({ tag: "met", actual: 238, expected: { low: 230, high: 240 } });
 describe("annual ₹ targets are split by season, not evenly", () => {
   const target = (over: Partial<GuidanceItem> = {}) =>
     guide({ kind: "absolute", unit: "inr_cr", low: 1100, high: 1100, period: "FY27", metric_label: "FY27 revenue", ...over });

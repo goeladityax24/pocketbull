@@ -206,8 +206,8 @@ export function evaluateGuidance(
     const reported = isReported(p);
     let check: Check;
 
-    if (g.kind === "absolute" && p.kind === "year" && map.level) {
-      // The year itself is checked against the ₹ target exactly
+    if (g.kind === "absolute" && (p.kind === "year" || samePeriod(p, target)) && map.level) {
+      // The target period itself (a year, or a quarter given its own ₹ target) is checked exactly
       const expected: Range = { low: g.low, high: g.high ?? g.low, unit: "inr_cr" };
       const actual = valueAt(table, map.level, p);
       const scored = scoreValue(actual, expected, opts, reported);

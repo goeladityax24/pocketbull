@@ -1,0 +1,241 @@
+{
+  "symbol": "ZENTEC",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18f85d0f-0dc1-46fa-afab-316fab4fc70e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112d61fd-d4c8-4343-aef4-fc9961aee2b8.pdf",
+    "recordingUrl": "https://workdrive.zohoexternal.in/file/ijoj2c06447313f2d4baba98bde4352501423"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-04T20:30:05.536Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-27",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Operational EBITDA margin",
+        "kind": "margin_pct",
+        "low": 34,
+        "high": 36,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we expect margins to recover and to end FY2027 with a full year operational EBITDA margin in the mid-30s, in line with our guidance.",
+        "page": 4,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "EBITDA mid-30s",
+        "revises": "May call: 35%"
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book at end of FY27",
+        "kind": "absolute",
+        "low": 2500,
+        "high": 2500,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "our expectation is that we will end the year at around Rs.2500 Crores of order book that is after the execution for the current year.",
+        "page": 5,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "order book 2,500",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue weighted to Q2 and Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "revenue for the year is expected to be weighted towards Q2 and Q3.",
+        "page": 3,
+        "speaker": "Hari Haran Chalat (CFO)",
+        "confidence": "high",
+        "keyword": "revenue Q2 Q3",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Simulator orders expected",
+        "kind": "absolute",
+        "low": 700,
+        "high": 800,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "next few months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹177.5 Cr of this came in July",
+        "quote": "but all together, I think we had said that Rs.700 Crores to Rs.800 Crores worth of orders are incoming I think that is going to happen soon.",
+        "page": 18,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "simulator orders 700-800",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Simulator revenue FY27 and FY28 combined",
+        "kind": "absolute",
+        "low": 2000,
+        "high": 2000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "FY27 and FY28 combined",
+        "basis": "segment",
+        "segment": "Simulators",
+        "condition": null,
+        "quote": "So it will be about Rs.2000 Crores close to that.",
+        "page": 8,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "simulators 2,000",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "US business",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "third year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We have very modest ambition that, even if we touch $100 million in the third year, we should be very happy with that result",
+        "page": 9,
+        "speaker": "Ashok Atluri (Chairman & MD)",
+        "confidence": "low",
+        "keyword": "US 100 million",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue was ₹141.6 Cr (down 10% YoY) with operational EBITDA margin of 27.3% and PAT of ₹34.5 Cr, including a ₹3.4 Cr fire loss. New orders were only ₹44.6 Cr, so the order book fell to ₹1,239 Cr; a ₹177.5 Cr Ministry of Defence simulator order came after the quarter. Management expects revenue to pick up in Q2-Q3, a mid-30s EBITDA margin for FY27 and a ₹2,500 Cr order book by March 2027, but blames a lack of government tenders for slow orders.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Order book target of about ₹2,500 Cr at the end of FY27",
+          "page": 5
+        },
+        {
+          "change": "reiterated",
+          "text": "Full-year operational EBITDA margin in the mid-30s despite 27.3% in Q1",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "₹177.5 Cr MoD order to upgrade and integrate tank and crew gunnery simulators",
+          "page": 4
+        },
+        {
+          "change": "delayed",
+          "text": "Big simulator orders (₹700-800 Cr) still expected 'soon'; one may take a couple of months",
+          "page": 18
+        }
+      ],
+      "tone": {
+        "label": "cautious",
+        "quote": "What I have learned from frequent prediction is not to make any prediction.",
+        "page": 18
+      },
+      "analyst_questions": [
+        {
+          "topic": "Margin fall",
+          "answer": "Fixed costs on lower revenue; Q1 FY26 had ₹7.65 Cr of provision releases; gross margin steady at 72.9%.",
+          "page": 4
+        },
+        {
+          "topic": "Weak order flow",
+          "answer": "MD: a demand problem, no anti-drone or simulator tenders floated recently; fast-track tenders expected.",
+          "page": 15
+        },
+        {
+          "topic": "Order book by year end",
+          "answer": "About ₹2,500 Cr after this year's execution, as pipeline converts.",
+          "page": 5
+        },
+        {
+          "topic": "US and EU markets",
+          "answer": "Working through compliance (FOCI, ITAR) and partnering primes; modest aim of $100 million in year three.",
+          "page": 9
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Only ₹44.6 Cr of orders in Q1; order book fell to ₹1,239 Cr, far from what ₹4,000 Cr of revenue in two years needs.",
+          "page": 4
+        },
+        {
+          "text": "Orders promised for Q1 did not arrive; MD says no tenders have been floated.",
+          "page": 15
+        },
+        {
+          "text": "Working capital rose to 257 days on supplier advances and inventory.",
+          "page": 4
+        },
+        {
+          "text": "Q1 EBITDA margin 27.3% vs 35% guided; one-off fire loss of ₹3.4 Cr.",
+          "page": 3
+        }
+      ],
+      "watch_next": [
+        "Q2 FY27 revenue jump as deliveries start",
+        "Conversion of the ₹700-800 Cr simulator pipeline",
+        "Anti-drone tenders being floated",
+        "Working capital coming down from 257 days"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Simulators for army, navy and air force; anti-drone systems with soft and hard kill; interceptor drones, UGVs, smart border suite",
+        "customers": "Indian Ministry of Defence and armed forces; friendly foreign governments; US primes as a subcontractor (early stage)",
+        "revenue_mix": "Order book ₹920.6 Cr equipment and ₹318.4 Cr AMC at June 2026; cash about ₹1,217 Cr, debt-free",
+        "demand_drivers": "Drone threats, simulator-based training, emergency (fast-track) defence procurement, exports"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18f85d0f-0dc1-46fa-afab-316fab4fc70e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112d61fd-d4c8-4343-aef4-fc9961aee2b8.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}
