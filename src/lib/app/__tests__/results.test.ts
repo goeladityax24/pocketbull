@@ -35,6 +35,20 @@ describe("results grid (Skygold)", () => {
     expect(rev.cells[4]).toMatchObject({ actual: null, tag: "expected" });
   });
 
+  it("estimates next-quarter EBITDA and PAT from expected revenue and the last 4 quarters' margin when not guided", () => {
+    const grid = buildResultsGrid(snapshot, buildTrackerView(snapshot, stored()));
+    const rev = grid.rows[0].cells[4].expected!;
+    const ebitda = grid.rows[1].cells[4];
+    const pat = grid.rows[2].cells[4];
+    // Q2 FY26–Q1 FY27: EBITDA 520 / revenue 7,177; PAT 344 / 7,177
+    expect(ebitda.expected).toBeNull();
+    expect(ebitda.estimate!.marginPct).toBeCloseTo((520 / 7177) * 100, 5);
+    expect(ebitda.estimate!.range.low).toBeCloseTo((rev.low * 520) / 7177, 5);
+    expect(pat.estimate!.range.high).toBeCloseTo((rev.high * 344) / 7177, 5);
+    expect(grid.rows[0].cells[4].estimate).toBeNull();
+    expect(grid.rows[1].cells[3].estimate).toBeNull(); // reported quarters never get one
+  });
+
   it("turns an FY27 EBITDA margin guide into ₹ on expected revenue for the next quarter", () => {
     const margin = { ...saved[1].extraction.guidance[0], metric: "ebitda_margin", metric_label: "EBITDA margin", kind: "margin_pct", low: 7, high: 8, unit: "pct", period: "FY27", keyword: "ebitda margin" } as GuidanceItem;
     const view = buildTrackerView(snapshot, stored([margin]));

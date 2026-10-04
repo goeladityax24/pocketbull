@@ -36,6 +36,10 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
   const prevScore = interimScores.at(-2);
   const editor = me.isAdmin && !me.demo;
   const results = buildResultsGrid(c.snapshot, view, { tolerancePct: settings.tolerancePct });
+  // EBITDA and PAT for the next results, guided or estimated, for the checklist
+  const nextResults = next
+    ? results.rows.map((r) => ({ metric: r.metric, label: r.label, cell: r.cells.find((x) => x.period.label === next.label)! })).filter((r) => r.cell)
+    : [];
 
   const tagCell = (item: ItemView, cell: CellView) => (
     <TagControl
@@ -122,6 +126,12 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                             <span className="sub num">Expected {fmtRange(cell.expected)}</span>
                             <span className="sub">{cell.basis}</span>
                           </div>
+                        ) : cell.estimate ? (
+                          <div className="mt-1.5 flex flex-col items-start gap-0.5">
+                            <span className="sub">Not guided</span>
+                            <span className="sub num">Estimate ≈ {fmtRange(cell.estimate.range)}</span>
+                            <span className="sub">at {num(cell.estimate.marginPct, 1)}% margin (last 4)</span>
+                          </div>
                         ) : (
                           <div className="sub mt-1.5">Not guided</div>
                         )}
@@ -183,6 +193,30 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                     </td>
                   </tr>
                 ))}
+                {nextResults
+                  .filter((r) => r.metric !== "revenue" && !view.next.some((n) => n.item.tracked.guidance.metric === r.metric))
+                  .map(({ metric, label, cell }) => (
+                    <tr key={`results-${metric}`}>
+                      <td className="font-semibold">{label}</td>
+                      <td>
+                        {cell.expected ? cell.basis : cell.estimate ? cell.estimate.basis : "Not guided, and no revenue expectation to estimate from."}
+                        {cell.estimate && <div className="sub">{num(cell.estimate.marginPct, 1)}% margin, {c.basis}</div>}
+                      </td>
+                      <td className="sub">On expected revenue</td>
+                      <td>
+                        {cell.expected ? (
+                          <span className="num font-semibold">{fmtRange(cell.expected)}</span>
+                        ) : cell.estimate ? (
+                          <>
+                            <span className="num font-semibold">≈ {fmtRange(cell.estimate.range)}</span>
+                            <div className="sub">estimate, not scored</div>
+                          </>
+                        ) : (
+                          <span className="sub">—</span>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
                 {handNext.map((item) => (
                   <tr key={item.id}>
                     <td className="font-semibold">{item.tracked.guidance.metric_label}</td>
@@ -192,7 +226,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                     </td>
                   </tr>
                 ))}
-                {view.next.length + handNext.length === 0 && (
+                {view.next.length + handNext.length + nextResults.length === 0 && (
                   <tr>
                     <td colSpan={4} className="sub">No promise applies to {next.label} yet.</td>
                   </tr>
