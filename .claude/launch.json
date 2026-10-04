@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "web", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 },
+    { "name": "web-admin", "runtimeExecutable": "env", "runtimeArgs": ["ADMIN_KEY=", "npm", "run", "dev", "--", "-p", "3001"], "port": 3001 }
+  ]
+}
