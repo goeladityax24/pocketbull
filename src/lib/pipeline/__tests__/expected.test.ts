@@ -124,3 +124,11 @@ describe("evaluateGuidance", () => {
     expect(nextResultsPeriod(acme)?.label).toBe("Q2 FY27");
   });
 });
+
+describe("₹ target for a single quarter", () => {
+  it("checks the quarter against its own number", () => {
+    const ev = evaluateGuidance(guide({ kind: "absolute", unit: "inr_cr", low: 230, high: 240, period: "Q1 FY27" }), acme);
+    expect(ev.checks).toHaveLength(1);
+    expect(ev.checks[0]).toMatchObject({ tag: "met", actual: 238, expected: { low: 230, high: 240 } });
+  });
+});

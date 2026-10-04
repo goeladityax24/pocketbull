@@ -1,0 +1,371 @@
+{
+  "symbol": "TARIL",
+  "concall": {
+    "month": "Apr 2026",
+    "yearMonth": "2026-04",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3148dc8c-2942-459f-a015-7a1e465046e4.pdf",
+    "pptUrl": null,
+    "recordingUrl": "https://youtu.be/07mHuE8DLLg"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-04T20:23:28.360Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-04-21",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue",
+        "kind": "absolute",
+        "low": 3250,
+        "high": 3250,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "CFO said FY27 numbers are not finalised",
+        "quote": "what we can say is around INR3,250 crores is what we are looking at currently.",
+        "page": 7,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "high",
+        "keyword": "FY27 revenue 3,250",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth",
+        "kind": "growth_yoy",
+        "low": 35,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "35-40% matches standalone FY26 (₹2,395 Cr → ₹3,250 Cr); on consolidated FY26 (₹2,509 Cr) ₹3,250 Cr is about 30%",
+        "quote": "It would be roughly around, say, 35%, 40% growth in terms of revenue.",
+        "page": 17,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "medium",
+        "keyword": "FY27 growth 35-40%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 15,
+        "high": 17,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Before backward-integration benefits; MD also said 16.5-17% on p.11 and 15-16% on p.14",
+        "quote": "the margins will remain in the range of, say, 15% to 17% as currently.",
+        "page": 15,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "medium",
+        "keyword": "EBITDA margin 15-17%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Margin uplift from backward integration",
+        "kind": "margin_pct",
+        "low": 2,
+        "high": 3,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": "starting next financial year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "which will also give us some, say 200 bps to 300 bps of additional margin.",
+        "page": 7,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "high",
+        "keyword": "backward integration 200-300 bps",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Gross margin",
+        "kind": "margin_pct",
+        "low": 35,
+        "high": 35,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "next 2 to 3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So that's how we are looking at around, say, 35% margins.",
+        "page": 7,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "medium",
+        "keyword": "gross margin 35%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Changodar expansion online",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "from Changodar facility will be up and running from this, say, quarter 2.",
+        "page": 10,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "high",
+        "keyword": "Changodar Q2",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Moraiya expansion",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": "after the monsoon (Q3 FY27, confirmed on the call)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Moraiya plant, we are planning after this year's monsoon.",
+        "page": 9,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "Moraiya after monsoon",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Changodar utilisation",
+        "kind": "margin_pct",
+        "low": 80,
+        "high": 80,
+        "unit": "pct",
+        "approx": true,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So I think by end of quarter 3, we should be almost at 80% capacity in Changodar plant.",
+        "page": 11,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "Changodar 80% Q3",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Overall capacity utilisation",
+        "kind": "margin_pct",
+        "low": 95,
+        "high": 95,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "this year, we should go at around 95% capacity.",
+        "page": 19,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "utilisation 95%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Q3 revenue step-up from new capacity",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "definitely, the quarter 3 numbers would be on a higher side because of the new capacities.",
+        "page": 11,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "high",
+        "keyword": "Q3 higher revenue",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "World Bank matter closed",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": "within 45 days of 21 Apr 2026",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I think it should be closed in 45 days. That's what our belief is.",
+        "page": 12,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "medium",
+        "keyword": "World Bank 45 days",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "US$1 billion revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "within next few years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our long-term vision to become 1 billion revenue company within next few years remains intact.",
+        "page": 3,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "1 billion revenue",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue was ₹2,509 Cr (up from ₹2,019 Cr), EBITDA ₹444 Cr and PAT about ₹272 Cr; Q4 consolidated revenue ₹783 Cr. Management again missed its own targets: FY26 revenue was first guided at ₹3,500 Cr, then ₹2,500-2,600 Cr, and the order book ended at ₹5,000 Cr against ₹8,000 Cr promised. For FY27 they gave a more modest outlook of about ₹3,250 Cr (35-40% growth) with 15-17% EBITDA margin, and said new capacity at Changodar slips to Q2 FY27.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 revenue outlook of about ₹3,250 Cr, described as conservative after FY26 misses",
+          "page": 15
+        },
+        {
+          "change": "cut",
+          "text": "FY26 order book closed at about ₹5,000 Cr against the ₹8,000 Cr guided; management says it is choosing orders deliverable within 24 months",
+          "page": 7
+        },
+        {
+          "change": "delayed",
+          "text": "Changodar expansion moved to Q2 FY27 because of the extended monsoon; Moraiya expansion after this monsoon",
+          "page": 9
+        },
+        {
+          "change": "reiterated",
+          "text": "Backward integration (CTC, pressboard, bushings, CRGO) on track, adding 200-300 bps of margin from FY28",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "defensive",
+        "quote": "We have realized -- Raj, we have realized this. And that is why this year, we have given an outlook of INR 3,250 crores, not beyond that.",
+        "page": 15
+      },
+      "analyst_questions": [
+        {
+          "topic": "Repeated guidance misses",
+          "answer": "Management said it deliberately slowed order intake to keep deliveries within 24 months, and gave a lower FY27 outlook.",
+          "page": 7
+        },
+        {
+          "topic": "Margins below peers",
+          "answer": "Current orders were taken 12-15 months ago at lower margins; new orders are chosen for margin, and backward integration should add 200-300 bps.",
+          "page": 17
+        },
+        {
+          "topic": "Receivables jump",
+          "answer": "Utilities delayed March payments; about ₹200 Cr of the ₹410 Cr rise was collected in the first 15 days of April.",
+          "page": 16
+        },
+        {
+          "topic": "HVDC entry",
+          "answer": "First HVDC repair order from PGCIL; empanelment possible 6 months after the repaired unit works well. HVDC transformers are about 40% of project cost.",
+          "page": 13
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Second year of missed guidance: FY26 revenue target cut from ₹3,500 Cr to ₹2,500-2,600 Cr, order book ₹5,000 Cr vs ₹8,000 Cr promised.",
+          "page": 7
+        },
+        {
+          "text": "Two FY27 numbers don't match: ₹3,250 Cr is about 30% growth on consolidated FY26, but the CFO also said 35-40%.",
+          "page": 17
+        },
+        {
+          "text": "Margin guidance changed within the call: 16.5-17%, 15-16% and 15-17%.",
+          "page": 15
+        },
+        {
+          "text": "Receivables up about ₹410 Cr and inventory doubled in FY26.",
+          "page": 16
+        },
+        {
+          "text": "Open World Bank matter; management expected closure within 45 days.",
+          "page": 12
+        }
+      ],
+      "watch_next": [
+        "Changodar expansion running by Q2 FY27 and utilisation climbing towards 80% by Q3",
+        "Order inflow quality and size after the self-imposed 24-month delivery limit",
+        "Receivables and inventory coming down",
+        "World Bank matter outcome"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Power, distribution and specialty transformers (furnace, rectifier, reactors) from 33 kV up to 1,200 kV; entering HVDC via a PGCIL repair order",
+        "customers": "About 55% state and central utilities (PGCIL, state transcos), 20% EPC contractors, rest private customers",
+        "revenue_mix": "Mostly domestic; minimal exports. Unexecuted order book about ₹5,000 Cr at March 2026 (18 months of revenue)",
+        "demand_drivers": "Transmission capex, renewables integration, India's power demand; capacity rising from about 40,000 to 75,000 MVA"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3148dc8c-2942-459f-a015-7a1e465046e4.pdf",
+    "pptUrl": null,
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

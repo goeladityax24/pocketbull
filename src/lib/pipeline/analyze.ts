@@ -46,13 +46,19 @@ export function buildTracker(snapshot: CompanySnapshot, runs: SavedRun[], opts: 
   );
   const items: TrackedGuidance[] = all.map(({ g, run, i }) => {
     const sameRun = run.extraction.guidance;
-    // A later call restating the same target replaces this one
+    // A later call's word on the same target replaces this one. For a named metric and
+    // period that holds whatever the form ("25% growth" replaces "₹3,250 Cr" for FY27
+    // revenue). "other" covers unrelated things (tax rate, segment margin), so those
+    // must also carry the same name.
     const later = all.some(
       (x) =>
         x.run.concall.yearMonth > run.concall.yearMonth &&
         x.g.metric === g.metric &&
-        x.g.kind === g.kind &&
-        (g.period != null ? x.g.period === g.period : x.g.keyword.toLowerCase() === g.keyword.toLowerCase()),
+        (g.metric === "other"
+          ? x.g.period === g.period && x.g.metric_label.toLowerCase() === g.metric_label.toLowerCase()
+          : g.period != null
+            ? x.g.period === g.period
+            : x.g.kind === g.kind && x.g.keyword.toLowerCase() === g.keyword.toLowerCase()),
     );
     return {
       ...evaluateGuidance(g, snapshot, sameRun, opts),

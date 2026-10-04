@@ -1,0 +1,372 @@
+{
+  "symbol": "SENORES",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f0da5d0-685b-4dd0-b80d-d18f8aa7a74c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=905eda76-56fe-4da9-baeb-efee22167225.pdf",
+    "recordingUrl": "https://senorespharma.com/wp-content/uploads/2026/07/Senores-Q1-FY27-Earnings-Call.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-04T20:26:05.797Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-27",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth",
+        "kind": "growth_yoy",
+        "low": 30,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we expect the revenue growth of approximately 30% to 40% and PAT growth for about 50% to 60% for FY27",
+        "page": 4,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "FY27 revenue 30-40%",
+        "revises": "Reiterated from the May 2026 call"
+      },
+      {
+        "metric": "pat",
+        "metric_label": "FY27 PAT growth",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 60,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we expect the revenue growth of approximately 30% to 40% and PAT growth for about 50% to 60% for FY27",
+        "page": 4,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "FY27 PAT 50-60%",
+        "revises": "Reiterated from the May 2026 call"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Emerging markets EBITDA margin",
+        "kind": "margin_pct",
+        "low": 18,
+        "high": 20,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Emerging markets",
+        "condition": "Full-year figure; H1 is seasonally weaker (Q1 was 14%)",
+        "quote": "we are quite confident that we should be able to achieve that 18% to 20% EBITDA on the emerging market side.",
+        "page": 6,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "EM EBITDA 18-20%",
+        "revises": "May call: about 20-21%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Emerging markets revenue",
+        "kind": "absolute",
+        "low": 170,
+        "high": 180,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Emerging markets",
+        "condition": null,
+        "quote": "is likely to give us around INR170 crores, INR180 crores kind of a revenue number this year.",
+        "page": 16,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "EM revenue 170-180",
+        "revises": "May call: about ₹180 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "India branded generics revenue",
+        "kind": "absolute",
+        "low": 50,
+        "high": 60,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "India branded generics",
+        "condition": null,
+        "quote": "we expect to do about INR50 crores to INR60 crores this year",
+        "page": 17,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "branded generics 50-60",
+        "revises": "Cut from ₹60-70 Cr (May call); focus moved to profitability"
+      },
+      {
+        "metric": "other",
+        "metric_label": "India branded generics EBITDA margin",
+        "kind": "margin_pct",
+        "low": 35,
+        "high": 40,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "India branded generics",
+        "condition": null,
+        "quote": "the idea is to now how we can how we can get to INR50 crores to INR60 crores sales number with good 35% to 40% EBITDA number.",
+        "page": 7,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "medium",
+        "keyword": "branded generics EBITDA 35-40%",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "FY27 capex",
+        "kind": "absolute",
+        "low": 100,
+        "high": 120,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Capex what we have planned is '27 we have planned almost INR100-120 crores of capex across all the subsidiaries taken together.",
+        "page": 13,
+        "speaker": "Deval Shah (CFO)",
+        "confidence": "high",
+        "keyword": "capex 100-120",
+        "revises": "Cut from about ₹200 Cr (May call) after scaling down the injectables plant"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "FY28 capex",
+        "kind": "absolute",
+        "low": 60,
+        "high": 75,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I think next year also you can take a minimum INR60 crores to INR75 crores run rate.",
+        "page": 13,
+        "speaker": "Sanjay Majmudar (Chairman)",
+        "confidence": "medium",
+        "keyword": "FY28 capex 60-75",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue in 3-4 years",
+        "kind": "absolute",
+        "low": 2500,
+        "high": 3000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "three to four years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Excludes NDA products (p.15); the May call put this figure on US revenue alone",
+        "quote": "So we feel in about three to four years that's a solid roadmap for us to achieve INR2,500 crores to INR3,000 crores kind of a revenue with what we have currently in our pipeline.",
+        "page": 11,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "revenue 2,500-3,000",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Zoraya and Amerisyn start operations",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, Zoraya should get operationalized from September, October of this year and similar time frame is also for Amerisyn.",
+        "page": 14,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "Zoraya Amerisyn Sep-Oct",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "PIC/S approval for emerging-market plant",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we are progressing towards obtaining European PIC/S approval for our Chhatral manufacturing facility by Q2, Q3.",
+        "page": 5,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "PIC/S Q2-Q3",
+        "revises": "May call: by June-July"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Sterile injectables pilot plant",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "second half of FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "IPO money redirected to oral-solid capacity, pending shareholder approval",
+        "quote": "but that has been pushed to later half of this year from the execution standpoint.",
+        "page": 10,
+        "speaker": "Swapnil Shah (MD)",
+        "confidence": "high",
+        "keyword": "injectables H2",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 consolidated revenue was ₹180 Cr (+36% per management; regulated markets +42%, emerging markets +30%) with EBITDA ₹54 Cr (about 30%) and PAT ₹31 Cr (+56%). Management kept FY27 guidance of 30-40% revenue and 50-60% PAT growth, and talked of ₹2,500-3,000 Cr revenue in 3-4 years. Sequentially profits dipped because Q4 had ₹14-15 Cr of forex gains, and emerging-market margin fell to 14% from 20%.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 guidance kept: revenue +30-40%, PAT +50-60%",
+          "page": 4
+        },
+        {
+          "change": "cut",
+          "text": "FY27 capex cut to ₹100-120 Cr from about ₹200 Cr; sterile injectables scaled down to a pilot, IPO money moved to oral solids",
+          "page": 13
+        },
+        {
+          "change": "cut",
+          "text": "India branded generics target cut to ₹50-60 Cr from ₹60-70 Cr, with focus on profitability",
+          "page": 17
+        },
+        {
+          "change": "delayed",
+          "text": "PIC/S approval now Q2-Q3 instead of June-July",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Approved ANDAs up to 58 (23 launched); 39 molecules in development",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "I think I will stick to our guidance what we have given for the full year",
+        "page": 10
+      },
+      "analyst_questions": [
+        {
+          "topic": "Emerging-market margin fell to 14%",
+          "answer": "H1 is seasonally weak; full-year 18-20% EBITDA margin still expected.",
+          "page": 6
+        },
+        {
+          "topic": "Sequential fall in profit",
+          "answer": "Q4 FY26 had ₹14-15 Cr of forex gains; Q1 had almost none. Other income is now presented differently.",
+          "page": 8
+        },
+        {
+          "topic": "Change in IPO fund use",
+          "answer": "Money moved from a new sterile plant to oral-solid capacity in the US and India; injectables start as a smaller pilot. Needs shareholder approval.",
+          "page": 10
+        },
+        {
+          "topic": "US generic tariffs",
+          "answer": "Waiting for the India-US trade deal; having plants in both countries makes them neutral.",
+          "page": 15
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Sequential decline in EBITDA and PAT once Q4's forex gains drop out.",
+          "page": 8
+        },
+        {
+          "text": "India branded generics fell 2% YoY and the FY27 target was cut.",
+          "page": 6
+        },
+        {
+          "text": "IPO proceeds being redirected from the stated sterile injectables project.",
+          "page": 10
+        },
+        {
+          "text": "Management misstated regulated-market growth on the call (said 36%, corrected to 42%).",
+          "page": 4
+        }
+      ],
+      "watch_next": [
+        "Emerging-market margin recovering towards 18-20% in H2",
+        "Launches from the 35 approved but unlaunched ANDAs",
+        "Zoraya and Amerisyn starting sales in September-October",
+        "Shareholder vote on the change in IPO fund use"
+      ],
+      "business_snapshot": {
+        "what_they_make": "US and regulated-market generics (own ANDAs and CDMO-CMO), emerging-market exports, India branded generics; plants in Atlanta (US), Chhatral and Baroda (Apnar)",
+        "customers": "US partners who sell under their own label, own front end (Zoraya), US government via Amerisyn, CDMO clients, emerging-market distributors",
+        "revenue_mix": "About 70% regulated and 30% emerging markets; India branded generics about ₹8 Cr a quarter",
+        "demand_drivers": "Launch of approved ANDAs, CGT and first-to-market products, 900+ emerging-market registrations pending"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f0da5d0-685b-4dd0-b80d-d18f8aa7a74c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=905eda76-56fe-4da9-baeb-efee22167225.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}
