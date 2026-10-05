@@ -66,7 +66,8 @@ export interface TrackerView {
   interimColumns: Period[];
   yearColumns: Period[];
   scores: PeriodScore[];
-  totals: { kept: number; scored: number };
+  /** kept = beaten + met; scored = kept + missed */
+  totals: { kept: number; scored: number; exceeded: number; met: number; missed: number };
 }
 
 const KEPT: Tag[] = ["met", "exceeded"];
@@ -143,9 +144,14 @@ export function buildTrackerView(
     })
     .filter((s) => s.scored > 0);
   const handTags = byHand.map((i) => i.overall?.tag).filter((t): t is ManualTag => !!t);
+  const scoredTags = [...allCells.map((c) => c.tag), ...handTags];
+  const count = (t: Tag) => scoredTags.filter((x) => x === t).length;
   const totals = {
     kept: scores.reduce((a, s) => a + s.kept, 0) + handTags.filter(isKept).length,
     scored: scores.reduce((a, s) => a + s.scored, 0) + handTags.filter((t) => SCORED.includes(t)).length,
+    exceeded: count("exceeded"),
+    met: count("met"),
+    missed: count("missed"),
   };
 
   return {

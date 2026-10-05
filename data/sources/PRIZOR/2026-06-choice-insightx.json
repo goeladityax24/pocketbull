@@ -1,0 +1,19 @@
+{
+  "id": "2026-06-choice-insightx",
+  "kind": "conference",
+  "event": "Choice INSIGHTX 2026 meet, Jun 2026",
+  "date": "2026-06-23",
+  "links": [
+    {
+      "url": "https://x.com/gaze_observer/status/2069398665060548625",
+      "author": "Choice International (posted by @gaze_observer)",
+      "grade": "broker_note",
+      "images": [
+        "data/sources/PRIZOR/2026-06-choice-insightx/choice-1.jpg",
+        "data/sources/PRIZOR/2026-06-choice-insightx/choice-2.jpg"
+      ],
+      "pages": [1, 2]
+    }
+  ],
+  "text_file": "data/sources/PRIZOR/2026-06-choice-insightx.txt"
+}

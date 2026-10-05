@@ -1,0 +1,33 @@
+[[page 1]]
+Insights from INSIGHTX 2026 Management Meet
+Industry Overview
+- Post-STQC, an INR 100 Bn domestic market has effectively re-opened as Chinese brands (historically ~70% share) vacate
+- Government STQC guidelines currently cover IP cameras, while DVR/Analog cameras (50% of CCTV market) remain under review
+- While the global SoC/memory shortage is real, PRIZOR's shortfall is only impacted by 1–2 months of supply, mitigated by forward procurement
+- CCTV replacement cycle is ~6 years which supports a recurring demand base
+- Government orders are routed exclusively via the GeM portal
+- Industry prices have risen ~8–9% over the last six months because of component inflation
+- PRIZOR currently holds a market share of 1.5%
+Revenue and Growth Drivers
+- FY27 revenue guidance: ~50–60% YoY growth
+- ~0.8 Mn CCTVs sold in FY26
+- Long-term vision: To sell 10 Mn camera units by FY30–31
+- Revenue Mix: Cameras contribute ~77% of revenue, displays ~23%. Within cameras, IP camera contributes ~35%
+- Pure B2B / distributor-led model — all revenue is routed through distributors and dealers
+Margins and EBITDA
+- CCTV-segment EBITDA is ~4–5 percentage points above the display segment (displays being lower-margin, third-party-manufactured product)
+- PRIZOR is passing through increased prices to distributors with a ~1-month lag
+
+[[page 2]]
+Margins and EBITDA
+- CCTV-segment EBITDA is ~4–5 percentage points above the display segment (displays being lower-margin, third-party-manufactured product)
+- PRIZOR is passing through increased prices to distributors with a ~1-month lag
+Operational Updates
+- Capacity: SMT/PCB line 5 Mn units per year; camera assembly 1.6 Mn units per year
+- FY26 camera assembly capacity utilisation ~50%
+- Raw-material supply locked through next year — procurement secured ~6–7 months ahead. SoC chips sourced from Taiwan
+- STQC certification: 12 models certified, ~20 more in the approval pipeline
+- Inventory build is deliberate — Management is pre-empting a potentially worse supply situation ahead driving working capital higher in FY26-end
+Expansion Plans
+- SMT capacity can be doubled for just ~INR 5 Mn
+- Aggressive team build-out: Headcount up from 35 to 160+ YoY, with most hiring in the sales team. Management views distributor relationship as the biggest moat, priority is deepening those relationships and adding experienced sales talent

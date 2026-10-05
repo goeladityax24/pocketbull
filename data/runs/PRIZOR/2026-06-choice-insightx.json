@@ -1,0 +1,259 @@
+{
+  "symbol": "PRIZOR",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06-choice-insightx",
+    "transcriptUrl": "https://x.com/gaze_observer/status/2069398665060548625",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T09:30:52.309Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "FY26",
+    "call_date": "2026-06-23",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 60,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "FY27 revenue guidance: ~50–60% YoY growth",
+        "page": 1,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "FY27 revenue guidance",
+        "revises": null,
+        "source_ref": "Choice note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Long-term target of 1 crore CCTV cameras a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by FY30-31",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Long-term vision: To sell 10 Mn camera units by FY30–31",
+        "page": 1,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "10 Mn camera units",
+        "revises": null,
+        "source_ref": "Choice note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Prices passed on to distributors with a ~1-month lag",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Industry prices up ~8–9% in six months on component inflation",
+        "quote": "PRIZOR is passing through increased prices to distributors with a ~1-month lag",
+        "page": 1,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "passing through prices",
+        "revises": null,
+        "source_ref": "Choice note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Raw material and SoC supply secured for the next year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": "through next year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Management says the SoC/memory shortage costs it only 1–2 months of supply",
+        "quote": "Raw-material supply locked through next year — procurement secured ~6–7 months ahead",
+        "page": 2,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "raw-material supply locked",
+        "revises": null,
+        "source_ref": "Choice note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "About 20 more camera models in STQC approval",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "STQC certification: 12 models certified, ~20 more in the approval pipeline",
+        "page": 2,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "STQC certification models",
+        "revises": null,
+        "source_ref": "Choice note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "SMT capacity can be doubled for ~₹0.5 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as demand grows",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "SMT capacity can be doubled for just ~INR 5 Mn",
+        "page": 2,
+        "speaker": "Management (as reported in Choice International's note)",
+        "confidence": "medium",
+        "keyword": "SMT capacity doubled",
+        "revises": null,
+        "source_ref": "Choice note"
+      }
+    ],
+    "insights": {
+      "summary": "At Choice International's INSIGHTX 2026 meet (note posted 23 Jun 2026), Prizor guided FY27 revenue growth of about 50-60% and repeated its target of 1 crore cameras a year by FY30-31. It sold about 8 lakh cameras in FY26, which meets the 7-8 lakh figure from March, and ran camera assembly at about 50% of its 16 lakh capacity. Management says raw material is secured for the next year and the higher year-end inventory was deliberate, built ahead of a chip and memory shortage.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "First revenue guidance: FY27 growth of ~50-60% (on FY26's ₹153 Cr, about ₹230-245 Cr)",
+          "page": 1
+        },
+        {
+          "change": "reiterated",
+          "text": "1 crore cameras by FY30-31",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "FY26 volumes of ~8 lakh cameras reported, meeting the 7-8 lakh guided in March",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Inventory build at FY26-end explained as deliberate stocking ahead of a component shortage",
+          "page": 2
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Post-STQC, an INR 100 Bn domestic market has effectively re-opened as Chinese brands (historically ~70% share) vacate",
+        "page": 1
+      },
+      "analyst_questions": [
+        {
+          "topic": "Chip and memory shortage",
+          "answer": "Only 1-2 months of supply affected, covered by buying ahead; supply locked through next year, SoC chips from Taiwan.",
+          "page": 1
+        },
+        {
+          "topic": "Working capital",
+          "answer": "The inventory build is deliberate, ahead of a possibly worse supply situation, so working capital was higher at FY26-end.",
+          "page": 2
+        },
+        {
+          "topic": "Margins",
+          "answer": "CCTV EBITDA margin is about 4-5 points above displays, which are made by third parties; price increases are passed to distributors with about a 1-month lag.",
+          "page": 1
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Higher working capital at FY26-end is explained as deliberate stocking; check that inventory and receivables come down as the shortage eases.",
+          "page": 2
+        },
+        {
+          "text": "STQC rules so far cover only IP cameras; DVR/analog (half the market) is still under review, and IP is only ~35% of Prizor's camera sales.",
+          "page": 1
+        },
+        {
+          "text": "Second-hand source: a broker's summary of a management meet, posted on X.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue growth against the 50-60% FY27 guide",
+        "Inventory and receivable days at H1 FY27",
+        "Number of STQC-certified models (12 now, ~20 in the pipeline)"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CCTV cameras (~77% of revenue; IP cameras ~35% of that) and displays made by third parties (~23%)",
+        "customers": "Pure B2B through distributors and dealers; government orders through GeM",
+        "revenue_mix": "Cameras ~77%, displays ~23%",
+        "demand_drivers": "STQC rules pushing out Chinese brands from a ₹10,000 Cr market (Prizor share 1.5%), a ~6-year replacement cycle, price increases"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-06-choice-insightx",
+    "kind": "conference",
+    "event": "Choice INSIGHTX 2026 meet, Jun 2026",
+    "date": "2026-06-23",
+    "links": [
+      {
+        "url": "https://x.com/gaze_observer/status/2069398665060548625",
+        "author": "Choice International (posted by @gaze_observer)",
+        "grade": "broker_note",
+        "images": [
+          "data/sources/PRIZOR/2026-06-choice-insightx/choice-1.jpg",
+          "data/sources/PRIZOR/2026-06-choice-insightx/choice-2.jpg"
+        ],
+        "pages": [
+          1,
+          2
+        ]
+      }
+    ],
+    "text_file": "data/sources/PRIZOR/2026-06-choice-insightx.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/gaze_observer/status/2069398665060548625",
+    "pptUrl": null,
+    "transcriptPages": 2,
+    "transcriptHasText": true
+  }
+}
