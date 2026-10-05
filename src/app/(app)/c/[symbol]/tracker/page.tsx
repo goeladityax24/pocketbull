@@ -2,11 +2,17 @@ import Link from "next/link";
 import { EditGuidance } from "@/components/EditGuidance";
 import { TagControl } from "@/components/TagControl";
 import { fmtActual, fmtRange, num, periodSpan, said, seasonalText, TAG_LABEL } from "@/lib/app/format";
-import { buildResultsGrid } from "@/lib/app/results";
+import { buildResultsGrid, buildYearTargets } from "@/lib/app/results";
 import type { CellView, ItemView } from "@/lib/app/view";
 import { loadCompany } from "../data";
 
 export const metadata = { title: "Guidance tracker" };
+
+/** "+28.7%", "−4%", "+186–202%" */
+function pctRange([lo, hi]: [number, number]) {
+  const f = (n: number) => `${n < 0 ? "−" : "+"}${num(Math.abs(n), 1)}%`;
+  return lo === hi ? f(lo) : `${f(lo)}–${f(hi).replace(/^\+/, "")}`;
+}
 
 function Source({ item, transcript }: { item: ItemView; transcript: string }) {
   const g = item.tracked.guidance;
@@ -47,6 +53,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
   const prevScore = interimScores.at(-2);
   const editor = me.isAdmin && !me.demo;
   const results = buildResultsGrid(c.snapshot, view, { tolerancePct: settings.tolerancePct });
+  const yearTargets = buildYearTargets(c.snapshot, view);
   // EBITDA and PAT for the next results, guided or estimated, for the checklist
   const nextResults = next
     ? results.rows.map((r) => ({ metric: r.metric, label: r.label, cell: r.cells.find((x) => x.period.label === next.label)! })).filter((r) => r.cell)
@@ -249,18 +256,41 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
               </tbody>
             </table>
           </div>
-          {view.fullYear.length > 0 && (
-            <div className="flex flex-col gap-1.5 text-sm">
-              <div className="label">Full-year targets</div>
-              {view.fullYear.map(({ item, cell }) => (
-                <div key={`${item.id}-${cell.check.period.label}`}>
-                  {cell.check.period.label}: {item.tracked.guidance.metric_label} <b className="num">{fmtRange(cell.check.expected)}</b>
-                  {item.tracked.ytd && (
-                    <span className="sub">
-                      {" "}· so far ({item.tracked.ytd.periods.join(", ")}): {item.tracked.ytd.growthPct}% growth, {item.tracked.ytd.status.replace("_", " ")}
-                      {item.tracked.ytd.shareOfTarget != null && `, ${item.tracked.ytd.shareOfTarget}% of the target done`}
-                    </span>
-                  )}
+          {yearTargets.length > 0 && (
+            <div className="flex flex-col gap-3 text-sm">
+              {yearTargets.map(({ period, rows }) => (
+                <div key={period.label} className="flex flex-col gap-1.5">
+                  <div className="label">Full-year targets · {period.label}</div>
+                  {rows.map((r) => {
+                    const ytd = view.fullYear.find(
+                      ({ item, cell }) => cell.check.period.label === period.label && item.tracked.guidance.metric === r.metric,
+                    )?.item.tracked.ytd;
+                    return (
+                      <div key={r.metric}>
+                        {r.label}{" "}
+                        {r.expected ? (
+                          <>
+                            <b className="num">{r.estimate ? "≈ " : ""}{fmtRange(r.expected)}</b>
+                            {r.changePct && r.lastYear && (
+                              <span className="num" style={{ color: r.changePct[0] < 0 ? "var(--bad)" : "var(--brand)" }}>
+                                {" "}({pctRange(r.changePct)} vs {r.lastYear.period.label}
+                                {r.cagrPct ? `, ${pctRange(r.cagrPct)} a year` : ""})
+                              </span>
+                            )}
+                            <span className="sub"> · {r.basis}{r.estimate ? ", not scored" : ""}</span>
+                          </>
+                        ) : (
+                          <span className="sub">not guided</span>
+                        )}
+                        {ytd && (
+                          <span className="sub">
+                            {" "}· so far ({ytd.periods.join(", ")}): {ytd.growthPct}% growth, {ytd.status.replace("_", " ")}
+                            {ytd.shareOfTarget != null && `, ${ytd.shareOfTarget}% of the target done`}
+                          </span>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               ))}
             </div>

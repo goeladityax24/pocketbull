@@ -134,3 +134,65 @@ export function buildResultsGrid(s: CompanySnapshot, view: TrackerView, opts: Sc
   }));
   return { periods, rows };
 }
+
+export interface YearTargetRow {
+  metric: ResultMetric;
+  label: string;
+  expected: Range | null;
+  /** How it was set: guided figure, margin on revenue, or an estimate */
+  basis: string | null;
+  /** Not guided: expected revenue × last year's margin, never scored */
+  estimate: boolean;
+  lastYear: { period: Period; value: number } | null;
+  /** Change of the expected range against last year, in % */
+  changePct: [number, number] | null;
+  /** Targets more than a year out: the yearly growth this needs (CAGR), in % */
+  cagrPct: [number, number] | null;
+}
+
+function annualValue(s: CompanySnapshot, row: MetricKey, p: Period): number | null {
+  const i = s.annual.periods.findIndex((x) => samePeriod(x, p));
+  return i < 0 ? null : (s.annual.rows[row]?.[i] ?? null);
+}
+
+/**
+ * Revenue, EBITDA and PAT for each full year with an open target, each against
+ * last year's reported number. EBITDA or PAT with no guidance get an estimate at
+ * last year's margin when revenue is guided.
+ */
+export function buildYearTargets(s: CompanySnapshot, view: TrackerView): { period: Period; rows: YearTargetRow[] }[] {
+  const years = [...new Map(view.fullYear.map(({ cell }) => [cell.check.period.label, cell.check.period])).values()].sort((a, b) => a.fy - b.fy);
+  return years.map((p) => {
+    // Last year, or for a target years out (FY30) the latest year reported
+    const reportedYears = s.annual.periods.filter((x) => x.fy < p.fy && annualValue(s, "sales", x) != null);
+    const prev = reportedYears.at(-1) ?? samePeriodLastYear(p);
+    const years = p.fy - prev.fy;
+    const revenue = direct(view, "revenue", p)?.expected ?? null;
+    const rows = (["revenue", "ebitda", "pat"] as ResultMetric[]).map((metric): YearTargetRow => {
+      const last = annualValue(s, ROW[metric], prev);
+      const guided = direct(view, metric, p) ?? fromMargin(view, metric, p, revenue);
+      let expected = guided?.expected ?? null;
+      let basis = guided?.basis ?? null;
+      const lastSales = annualValue(s, "sales", prev);
+      const estimate = !guided && metric !== "revenue" && !!revenue && last != null && !!lastSales;
+      if (estimate) {
+        const m = last! / lastSales!;
+        expected = { low: revenue!.low * m, high: revenue!.high * m, unit: "inr_cr" };
+        basis = `Not guided. Estimate: expected revenue at ${prev.label}'s ${Math.round(m * 1000) / 10}% margin`;
+      }
+      const pct = (v: number) => Math.round(((v / last!) - 1) * 1000) / 10;
+      const cagr = (v: number) => Math.round((Math.pow(v / last!, 1 / years) - 1) * 1000) / 10;
+      return {
+        metric,
+        label: LABEL[metric],
+        expected,
+        basis,
+        estimate,
+        lastYear: last != null ? { period: prev, value: last } : null,
+        changePct: expected && last != null && last > 0 ? [pct(expected.low), pct(expected.high)] : null,
+        cagrPct: expected && last != null && last > 0 && years > 1 ? [cagr(expected.low), cagr(expected.high)] : null,
+      };
+    });
+    return { period: p, rows };
+  });
+}

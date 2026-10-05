@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import type { GuidanceItem } from "../../pipeline/guidance";
 import { parseCompanyPage } from "../../pipeline/screener";
 import type { SavedRun } from "../../pipeline/store";
-import { buildResultsGrid } from "../results";
+import { buildResultsGrid, buildYearTargets } from "../results";
 import { buildTrackerView, type StoredRun } from "../view";
 
 const fx = (f: string) => readFileSync(join(__dirname, "../../pipeline/__tests__/fixtures", f), "utf8");
@@ -60,5 +60,19 @@ describe("results grid (Skygold)", () => {
     expect(ebitda.basis).toContain("margin for FY27");
     // Reported quarter: margin × actual revenue, scored against actual EBITDA (157 vs 141–161)
     expect(grid.rows[1].cells[3]).toMatchObject({ tag: "met" });
+  });
+});
+
+describe("full-year targets (Skygold)", () => {
+  it("shows revenue, EBITDA and PAT for the target year with the change against last year", () => {
+    const years = buildYearTargets(snapshot, buildTrackerView(snapshot, stored()));
+    const fy = years.find((y) => y.period.label === "FY27")!;
+    const [rev, ebitda, pat] = fy.rows;
+    expect(rev.lastYear!.period.label).toBe("FY26");
+    expect(rev.changePct![0]).toBeCloseTo(((rev.expected!.low / rev.lastYear!.value) - 1) * 100, 0);
+    // Not guided: estimated at last year's margin, so the change equals revenue's
+    expect(ebitda.estimate).toBe(true);
+    expect(ebitda.changePct![0]).toBeCloseTo(rev.changePct![0], 0);
+    expect(pat.estimate).toBe(true);
   });
 });
