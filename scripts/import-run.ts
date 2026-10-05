@@ -10,6 +10,8 @@
  *   --page <html>        a saved Screener page, if Screener can't be reached from here
  *   --transcript <file>  the transcript as .pdf, or .txt with [[page N]] markers, for the quote check
  *   --by <name>          who ran it (default: claude-session)
+ *   --source <json>      a conference or broker note (data/sources/<SYMBOL>/<id>.json) instead of a concall;
+ *                        its text file is the transcript for the quote check
  *   --json               print JSON instead of the text report
  */
 import { readFileSync } from "node:fs";
@@ -17,6 +19,7 @@ import { importRun } from "../src/lib/pipeline/analyze";
 import { loadPdf, type PdfDoc } from "../src/lib/pipeline/documents";
 import { formatTracker } from "../src/lib/pipeline/format";
 import { fetchCompany, normaliseSymbol, parseCompanyPage } from "../src/lib/pipeline/screener";
+import { ExternalSource } from "../src/lib/pipeline/source";
 import { FileRunStore } from "../src/lib/pipeline/store";
 import type { CompanySnapshot } from "../src/lib/pipeline/types";
 
@@ -47,8 +50,11 @@ async function main() {
     snapshot = await fetchCompany(input);
   }
 
+  const sourceFile = value("--source");
+  const source = sourceFile ? ExternalSource.parse(JSON.parse(readFileSync(sourceFile, "utf8"))) : undefined;
+
   let transcript: PdfDoc | null | undefined;
-  const t = value("--transcript");
+  const t = value("--transcript") ?? source?.text_file;
   if (t?.endsWith(".pdf")) {
     transcript = await loadPdf(t, new Uint8Array(readFileSync(t)));
   } else if (t) {
@@ -63,6 +69,7 @@ async function main() {
     concall: value("--month"),
     transcript,
     by: value("--by"),
+    source,
   });
 
   if (args.includes("--json")) {

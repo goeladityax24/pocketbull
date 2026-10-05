@@ -1,0 +1,61 @@
+[[page 1]]
+Post Conference Note
+Bharat Connect Conference Rising Stars - 2026
+Prizor Viztech Ltd
+Outlook: The company expects to sell ~7-8 lakh cameras in the near term and has a long-term target of selling 1 crore CCTV cameras by 2030-31, supported by expansion across more states, growth in the distributor network, and increasing employee strength. Management is also developing a camera SoC chip through a partnership with IndieSemic, which could strengthen technological capability and reduce dependence on imports in the future. Additionally, tightening government rules on Chinese surveillance products and BIS certification requirements may reduce competition and create opportunities for domestic players
+Company Overview
+The company was established in 2017 and initially operated as an assembler of CCTV cameras by importing components from China.
+In May 2025, the company started its own manufacturing facility and began backward integration by producing key components such as PCBs and camera housing in-house. Currently, it operates across 21 states, has more than 150 employees (up from around 35 employees last year), and works with 40+ distributors supported by a network of 9,000+ delivery/dealer points.
+Manufacturing & Capacity
+The company started its manufacturing operations in May 2025, focusing on backward integration to reduce import dependency.
+Key components such as PCBs and housing are now produced in-house, while some parts continue to be sourced externally. Currently, about 80% of components are sourced locally, while 20% are imported.
+Plant utilization remains relatively low at ~15-20%, indicating significant scope for scaling production.
+The current facility has space to accommodate up to four assembly lines, which together can produce roughly 30 lakh CCTV cameras annually. The company has already installed two assembly lines, and additional lines can be added as demand increases.
+Product Portfolio
+The company primarily offers CCTV surveillance cameras, along with televisions and interactive touch panels designed for educational institutions from nursery to class 12 with preloaded learning content.
+It offers a wide range of CCTV cameras with prices ranging from ~INR 1,200 to INR 3.5 lakh depending on the product category. The product range caters mainly to B2B customers through distributors and dealers rather than direct government or retail channels.
+Technology & R&D Initiatives
+The company has entered into a partnership with IndieSemic to develop a System-on-Chip (SoC) for CCTV cameras in India. The base intellectual property will remain with Indiesemic, while future development IP will be jointly owned by both companies.
+The SoC chip is a critical component, accounting for ~50% of the total camera cost, and the initiative aims to reduce dependence on foreign technology and improve product competitiveness. Development of the chip has already begun and is expected to take time before commercialization.
+Sales & Distribution Network
+The company sells its products mainly through a B2B distributor-based model, supplying to distributors who then sell to dealers and installers. The company has 40+ distributors and more than 9,000 dealer/delivery points across India.
+Gujarat currently contributes the highest revenue since some distributors based there supply products to multiple states.
+The company is expanding its sales team and has already 3x employee strength YoY, indicating an aggressive push to strengthen its distribution presence across India.
+Market Opportunity & Industry Trends
+The Indian CCTV market is estimated to sell ~5-6 crore cameras annually, growing at ~20% per year. The company aims to capture a meaningful share of this opportunity with a long-term goal of selling 1 crore CCTV cameras by 2030-31. Additionally, the government's increasing restrictions on Chinese surveillance equipment and new BIS certification requirements may reduce the number of competitors and create opportunities for domestic manufacturers.
+Pricing, Margins & Competitive Strategy
+The company competes mainly in the price-sensitive segment of the CCTV market and prices its products ~10-15% lower than competitors to attract dealers.
+Dealer incentives, warranty support, and service responsiveness are key differentiators.
+It offers piece-to-piece replacement warranty and provides technical support to dealers even late in the evening, which helps strengthen relationships in the distribution network.
+
+[[page 2]]
+Prizor Viztech Limited
+- Industry: CCTV camera manufacturing and assembly, with focus on security products
+- Team Growth: Employee strength increased from ~35 in previous year to over 150 currently
+- Distribution Network: Over 40 distributors and more than 9,000 dealers across 21 states in India
+- Business Model Evolution: Shifted from assembly and some trading (including TV products) to full manufacturing; exited reliance on fully imported Chinese parts for key components
+Operations and Capacity
+- Current Utilization: 15-20% of plant capacity (primarily SMT line for PCBs); assembly lines are scalable based on demand
+- Capacity Expansion: Can add assembly lines easily with nominal capex (< INR 1 crore per line, covering furniture, tools, and manpower); existing space allows for up to 4-5 lines without new facilities
+- Product Range: Broad portfolio of CCTV cameras (2 megapixel standard); prices range from INR 1,200-1,300 on average per unit, up to higher-end models (e.g., up to INR 1 lakh for specialized products)
+- Component Sourcing: Currently imports ~20% of components from China (non-critical for security); rest manufactured in-house
+- Backward Integration: In-house PCB and housing; no plans for lens manufacturing as it's not a security threat or government-restricted
+Partnerships and Innovations
+- Tie-up with India Semiconductor: Joint development of made-in-India SOC for cameras; basic IP with partner, further developments jointly owned
+- Timeline for SOC: Development ongoing; committed to purchase 50 lakh SOC units annually from FY28 for 3 years
+- Product Differentiation: Emphasis on quality, service; 2.5-year warranty (vs. competitors' 2 years); extended support (9 AM to 10 PM); technical training for sales team and dealers; 10-15% lower pricing than competitors like CP Plus, Secureye, or Dahua
+- Market Focus: Targets Tier 2-4 dealers; dealer incentives like gifts on small orders (10-15 cameras); sales are dealer-push rather than customer-pull
+- Certifications: Holds BIS/ER certification, clarified by government (February 2026 circular) as equivalent to STQC/IoTS; enables sales to government and full compliance; ongoing process for new models
+- Post-April 1, 2026 Impact: Ban on non-compliant Chinese cameras expected to shift demand to compliant brands like Prizor; reduces competition from ~1,000 unorganized players to a few certified ones (e.g., CP Plus); applies mainly to IP-based cameras, not analog/HD
+Financial and Growth Outlook
+- Volume Guidance: On track for 7-8 lakh units in FY26; long-term vision to sell 1 crore units by 2031 (industry sells 5-6 crore annually, growing at 20% YoY)
+- Revenue Guidance: No specific top-line or profit margin targets shared; growth driven by volume ramp-up, premium AI products, and government/institutional sales post-certification
+- Revenue Split: 100% B2B (via distributors); no direct B2C or B2G diversification; highest contribution from Gujarat
+- Price Adjustments: 10-15% hike implemented in H2 FY26 due to global cost increases (lenses, SOC, etc.); competitors also raising prices
+- Average Realization: ~INR 1,200-1,300 per camera (company-level, accounting for product mix)
+- Growth Drivers: Ramp up utilization; expand to new states by hiring sales teams; explore exports (as other countries ban Chinese products); potential tie-ups for large projects
+- Marketing Efforts: Two display centers in Ahmedabad; demo units at distributor locations; one brand (Prizor) with series for different segments (e.g., project vs. channel-specific)
+Challenges and Risks
+- Competition: Post-ban, limited to certified players; moat in service-oriented approach, lower margins for dealers, and relations
+- Demand Outlook: Ground demand strong; sales growth via network expansion and compliance advantage
+- Regulatory: No additional certifications needed beyond current BIS/ER for existing models; ongoing for new ones

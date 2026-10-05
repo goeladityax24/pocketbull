@@ -14,10 +14,21 @@ function Source({ item, transcript }: { item: ItemView; transcript: string }) {
   return (
     <span className="flex flex-wrap gap-1.5">
       <a className="src" href={g.page ? `${transcript}#page=${g.page}` : transcript} target="_blank" rel="noreferrer">
-        {item.tracked.source.month} call{g.page ? ` · p.${g.page}` : ""}
+        {item.tracked.source.label}{g.page ? ` · p.${g.page}` : ""}
       </a>
       {q !== "verified" && <span className="src" title="Quote check against the transcript">quote {q.replace("_", " ")}</span>}
+      {item.tracked.source.external && (
+        <span className="src" title="From conference notes, not a company filing. Quotes are checked against our saved copy of the notes.">
+          {g.source_ref ?? "conference notes"}
+        </span>
+      )}
       {item.edited && <span className="src">edited</span>}
+      {item.tracked.alsoSaid.map((o, i) => (
+        <span key={i} className="sub basis-full">
+          {o.external ? "Conference notes" : "The company"} ({o.label}) also gave {said(o.guidance)}
+          {o.guidance.period ? ` for ${o.guidance.period}` : ""}. Both are kept; neither replaces the other.
+        </span>
+      ))}
     </span>
   );
 }
@@ -415,7 +426,7 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
           <ul className="m-0 flex flex-col gap-2 pl-5 text-sm">
             {view.superseded.map((item) => (
               <li key={item.id}>
-                <b>{item.tracked.guidance.metric_label}</b> {said(item.tracked.guidance)} · {item.tracked.source.month} call · “{item.tracked.guidance.quote.slice(0, 140)}
+                <b>{item.tracked.guidance.metric_label}</b> {said(item.tracked.guidance)} · {item.tracked.source.label} · “{item.tracked.guidance.quote.slice(0, 140)}
                 {item.tracked.guidance.quote.length > 140 ? "…" : ""}”
               </li>
             ))}

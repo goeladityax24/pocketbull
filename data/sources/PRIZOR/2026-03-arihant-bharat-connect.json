@@ -1,0 +1,23 @@
+{
+  "id": "2026-03-arihant-bharat-connect",
+  "kind": "conference",
+  "event": "Arihant Bharat Connect, Mar 2026",
+  "date": "2026-03-06",
+  "links": [
+    {
+      "url": "https://x.com/drprashantmish6/status/2033044600072638825",
+      "author": "Arihant Capital (posted by @drprashantmish6)",
+      "grade": "broker_note",
+      "images": ["data/sources/PRIZOR/2026-03-arihant-bharat-connect/arihant-note.jpg"],
+      "pages": [1]
+    },
+    {
+      "url": "https://x.com/sachprat07/status/2030191163916058656",
+      "author": "@sachprat07 (attendee notes)",
+      "grade": "attendee_note",
+      "images": ["data/sources/PRIZOR/2026-03-arihant-bharat-connect/attendee-notes.jpg"],
+      "pages": [2]
+    }
+  ],
+  "text_file": "data/sources/PRIZOR/2026-03-arihant-bharat-connect.txt"
+}

@@ -1,7 +1,7 @@
 {
  "as_of": "2026-10-05",
  "descriptor": "CCTV camera maker (SME)",
- "lede": "A small Indian CCTV brand whose sales doubled as STQC rules pushed out uncertified Chinese cameras. Profit has grown, but cash hasn't, debt jumped, and the company holds no earnings calls and gives no guidance.",
+ "lede": "A small Indian CCTV brand whose sales doubled as STQC rules pushed out uncertified Chinese cameras. Profit has grown, but cash hasn't, debt jumped, and the company holds no earnings calls; its only guidance comes from broker-conference notes.",
  "market": {
   "price": 1254,
   "mcap_cr": 1354,
@@ -16,7 +16,7 @@
   },
   {
    "lead": "What to be sceptical about",
-   "text": "Operating cash flow was ₹0.3 Cr against ₹21 Cr of profit; short-term debt rose from ₹2.8 Cr to ₹31.8 Cr. A ₹10 Cr long-term advance and ₹12 Cr of intangibles under development are unexplained. There are no calls and no guidance to hold management to."
+   "text": "Operating cash flow was ₹0.3 Cr against ₹21 Cr of profit; short-term debt rose from ₹2.8 Cr to ₹31.8 Cr. A ₹10 Cr long-term advance and ₹12 Cr of intangibles under development are unexplained. There are no calls; the only guidance (7-8 lakh cameras in FY26) comes second-hand from conference notes."
   },
   {
    "lead": "Price",
@@ -257,7 +257,7 @@
    "blocks": [
     {
      "type": "text",
-     "text": "Prizor holds no earnings calls and gives no numeric guidance, so there is no track record to test. The table lists what its investor presentations claim and what the numbers show.",
+     "text": "Prizor holds no earnings calls and gives no numeric guidance in its own documents. At Arihant's Bharat Connect conference (Mar 2026) management spoke of volumes; those claims come from a broker note and attendee notes, not a transcript. The table sets them and the investor-presentation claims against the numbers.",
      "src": null
     },
     {
@@ -318,6 +318,39 @@
         {
          "text": "Untested",
          "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "7-8 lakh cameras in FY26 (conference notes)",
+        "FY26 CCTV revenue at an average ₹1,200-1,300 a camera implies roughly 9 lakh units",
+        {
+         "text": "Likely met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "1 crore cameras a year by 2030-31 (conference notes)",
+        "Needs over 10x FY26 volumes; four lines make about 30 lakh",
+        {
+         "text": "Too early",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Buy 50 lakh SoC chips a year from FY28 (attendee notes)",
+        "Several times current volumes; chip still in development",
+        {
+         "text": "Watch",
+         "tag": "partial"
         }
        ],
        "highlight": false
@@ -601,11 +634,13 @@
   "H1 FY27 revenue vs H2 FY26's ₹106 Cr",
   "Operating cash flow and short-term debt",
   "Explanation of the ₹10 Cr advance",
-  "Whether the company starts holding calls"
+  "Whether the company starts holding calls",
+  "SoC chip progress before the 50 lakh units a year purchase commitment starts in FY28"
  ],
  "sources": [
   "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
   "Investor presentations, H1 FY26 (Nov 2025) and FY26 (Apr 2026)",
+  "Arihant Bharat Connect conference, Mar 2026: Arihant post-conference note and attendee notes (posted on X)",
   "FY26 annual report",
   "Peer data from Screener"
  ]

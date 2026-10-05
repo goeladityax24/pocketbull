@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { InsightNote } from "@/components/InsightNote";
+import { sourceLabel } from "@/lib/pipeline/source";
 import { fmtDate, fmtRange, num } from "@/lib/app/format";
 import type { ResultsTable } from "@/lib/pipeline/types";
 import { loadCompany } from "../data";
@@ -59,15 +60,23 @@ export default async function InsightsPage({ params, searchParams }: PageProps<"
                     aria-current={r === run ? "page" : undefined}
                     style={r === run ? { background: "var(--muted-bg)", fontWeight: 600 } : undefined}
                   >
-                    {r.concall.month}
+                    {r.source ? r.source.event : r.concall.month}
                   </Link>
                 ))}
               </nav>
             )}
           </div>
           <div className="eyebrow">
-            {run.concall.month} concall · {run.extraction.call_period} results ·{" "}
-            <a href={run.docs.transcriptUrl} target="_blank" rel="noreferrer">transcript</a>
+            {run.source ? sourceLabel(run.source) : `${run.concall.month} concall`} · {run.extraction.call_period} results ·{" "}
+            {run.source ? (
+              run.source.links.map((l, i) => (
+                <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="mr-2">
+                  source {i + 1} ({l.author})
+                </a>
+              ))
+            ) : (
+              <a href={run.docs.transcriptUrl} target="_blank" rel="noreferrer">transcript</a>
+            )}
           </div>
           <p className="m-0 max-w-[68ch] leading-relaxed">{ins.summary}</p>
           <div className="box flex flex-wrap items-baseline gap-3 p-4">
@@ -100,8 +109,13 @@ export default async function InsightsPage({ params, searchParams }: PageProps<"
               </ul>
             </div>
           </div>
+          {run.source && (
+            <p className="sub m-0">
+              From notes on an investor conference, not a company filing. The notes summarise what management said; quotes are checked against our saved copy of them.
+            </p>
+          )}
           <p className="sub m-0">
-            Every promise from these calls is scored in the <Link href={`/c/${c.symbol}/tracker`}>guidance tracker</Link>.
+            Every promise from these calls and conferences is scored in the <Link href={`/c/${c.symbol}/tracker`}>guidance tracker</Link>.
           </p>
         </section>
       </InsightNote>

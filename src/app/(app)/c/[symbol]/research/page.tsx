@@ -4,7 +4,8 @@ import { loadCompany } from "../data";
 
 export const metadata = { title: "Research" };
 
-const KIND_TAG: Record<string, string> = { report: "t-exceeded", news: "t-pending", video: "t-warn", other: "t-pending" };
+const KIND_TAG: Record<string, string> = { report: "t-exceeded", news: "t-pending", video: "t-warn", conference: "t-met", other: "t-pending" };
+const KIND_LABEL: Record<string, string> = { report: "Report", news: "News", video: "Video", conference: "Conference", other: "Other" };
 
 export default async function ResearchPage({ params }: PageProps<"/c/[symbol]/research">) {
   const { symbol } = await params;
@@ -50,10 +51,17 @@ export default async function ResearchPage({ params }: PageProps<"/c/[symbol]/re
         <div className="flex flex-col">
           {bundle.links.map((l) => (
             <div key={l.id} className="flex items-start gap-3 py-3" style={{ borderTop: "1px solid var(--line)" }}>
-              <span className={`tag ${KIND_TAG[l.kind]} capitalize`}>{l.kind}</span>
+              <span className={`tag ${KIND_TAG[l.kind]}`}>{KIND_LABEL[l.kind] ?? l.kind}</span>
               <div className="min-w-0 flex-1">
                 <a href={l.url} target="_blank" rel="noreferrer" className="break-words">{l.title || l.url}</a>
-                <div className="sub">Added by {l.addedByName} · {fmtDate(l.createdAt, false)}</div>
+                <div className="sub">
+                  {l.eventDate && `Event ${fmtDate(l.eventDate)} · `}Added by {l.addedByName} · {fmtDate(l.createdAt, false)}
+                </div>
+                {l.kind === "conference" && (
+                  <div className="mt-1">
+                    <span className={`tag ${l.analysedAt ? "t-met" : "t-pending"}`}>{l.analysedAt ? `Analysed ${fmtDate(l.analysedAt, false)} · in the tracker` : "Waiting for analysis"}</span>
+                  </div>
+                )}
               </div>
               {editor && <DeleteButton symbol={c.symbol} kind="link" id={l.id} />}
             </div>
