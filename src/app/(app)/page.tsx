@@ -63,7 +63,12 @@ export default async function Home({ searchParams }: PageProps<"/">) {
                     <td>
                       {view.totals.scored ? (
                         <>
-                          <span className="num font-semibold">{view.totals.kept} of {view.totals.scored}</span> <span className="sub">met or beaten</span>
+                          <span className="num font-semibold">{view.totals.kept} of {view.totals.scored}</span> <span className="sub">kept</span>
+                          <div className="mt-1 flex flex-wrap gap-1">
+                            {view.totals.exceeded > 0 && <span className="tag t-exceeded">{view.totals.exceeded} beaten</span>}
+                            {view.totals.met > 0 && <span className="tag t-met">{view.totals.met} met</span>}
+                            {view.totals.missed > 0 && <span className="tag t-missed">{view.totals.missed} missed</span>}
+                          </div>
                         </>
                       ) : (
                         <span className="sub">Nothing reported to score yet</span>

@@ -62,3 +62,12 @@ describe("tracker view (Skygold)", () => {
     expect(view.byHand.every((i) => i.cells.length === 0)).toBe(true);
   });
 });
+
+describe("totals breakdown", () => {
+  it("beaten + met = kept, and kept + missed = scored", () => {
+    const t = buildTrackerView(snapshot, runs).totals;
+    expect(t.scored).toBeGreaterThan(0);
+    expect(t.exceeded + t.met).toBe(t.kept);
+    expect(t.kept + t.missed).toBe(t.scored);
+  });
+});
