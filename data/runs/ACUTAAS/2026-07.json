@@ -1,0 +1,352 @@
+{
+  "symbol": "ACUTAAS",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe97c4c1-571f-4e47-bc3c-0980da36d7bb.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4abd0291-38c8-472f-916c-bb450ca8ca24.pdf",
+    "recordingUrl": "https://backend.acutaas.com/resources/investor/10045187-1784897022638.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:45:16.139Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-24",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I remain confident of\ndelivering 25% revenue growth for the full year with stable margins.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "25% revenue growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin similar to FY26",
+        "kind": "margin_pct",
+        "low": 35.9,
+        "high": 35.9,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 EBITDA margin was 35.9%",
+        "quote": "we are confident to\nachieve similar margins as compared to last financial year.",
+        "page": 8,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "similar margins",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "CDMO revenue of ₹1,000 Cr by FY28",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": null,
+        "quote": "we are confident to beat this target.",
+        "page": 10,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "beat this target",
+        "revises": "Raised in tone: 'confident to beat' the ₹1,000 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Validated CDMO products start revenue",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we are expecting revenue to kick in from H2 FY '27 onwards.",
+        "page": 13,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "kick in from H2",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Electrolyte additive phase 2 capex complete",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "by end of Q2 FY '27,\nwe would be completing our capex.",
+        "page": 7,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "end of Q2 FY '27",
+        "revises": "May call: Q1 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Battery chemicals at full capacity in 3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": "3 years (by FY29)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "4,000 t capacity (2,000 t VC + 2,000 t FEC), contracted",
+        "quote": "it should hit our full capacity utilization,\nand we are more than confident to achieve that target.",
+        "page": 11,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "full capacity utilization",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Indichem plant capex complete; revenue from FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "capex is expected to get completed by end of this quarter. And maybe from\nnext financial year onwards, we will have the revenue coming up from that plant.",
+        "page": 6,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "end of this quarter",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Employee cost for FY27",
+        "kind": "absolute",
+        "low": 150,
+        "high": 150,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We should typically look at around INR150 crores\nof employee cost for the current year.",
+        "page": 7,
+        "speaker": "Bhavin Shah (CFO)",
+        "confidence": "high",
+        "keyword": "150 crores employee cost",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Planned FY27 capex",
+        "kind": "absolute",
+        "low": 90,
+        "high": 95,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Excludes the R&D centre and land, to be announced",
+        "quote": "around INR50 crores and around INR40 to INR45 crores of maintenance capex",
+        "page": 8,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "maintenance capex",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Specialty chemicals will not decline in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Specialty chemicals",
+        "condition": null,
+        "quote": "we don't\nexpect the overall specialty chemical business to decline this full financial year.",
+        "page": 5,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "specialty chemical business to decline",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Pharma share of revenue falls to ~80%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we\ncan expect that this revenue composition should come down to around maybe 80% from 87% in\nnext 3 years' time.",
+        "page": 16,
+        "speaker": "Abhishek Patel (President, Strategy)",
+        "confidence": "high",
+        "keyword": "80% from 87%",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 59% to ₹330 Cr with a 34.3% EBITDA margin and PAT of ₹75 Cr, as pharma intermediates grew 77% while specialty chemicals fell 11% on the planned exit from commodity products. Management repeated 25% revenue growth and FY26-like margins for FY27, said it is confident of beating ₹1,000 Cr CDMO revenue by FY28, and started commercial supply from the battery-chemicals plant. The Korean Indichem plant should be built by the end of Q2, with revenue from FY28.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "25% revenue growth and stable margins for FY27",
+          "page": 4
+        },
+        {
+          "change": "raised",
+          "text": "Confident of beating ₹1,000 Cr CDMO revenue by FY28",
+          "page": 10
+        },
+        {
+          "change": "delayed",
+          "text": "Third electrolyte additive capex now end of Q2 FY27 (was Q1)",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Battery chemicals plant commercial; full capacity in about 3 years",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "10% of the electrolyte subsidiary given to business partner ARZ",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are still very much confident to deliver 25% growth rate for the revenue as confirmed by the\nCMD also.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "Battery chemicals revenue",
+          "answer": "Supply has started and will ramp each quarter; demand is not the limit, capacity is. No number given.",
+          "page": 6
+        },
+        {
+          "topic": "Segment margins",
+          "answer": "Specialty chemicals about 24%, pharma about 36% in Q1.",
+          "page": 6
+        },
+        {
+          "topic": "Capex and land",
+          "answer": "₹50 Cr spillover plus ₹40-45 Cr maintenance in FY27; R&D centre and land to be announced. Sachin is near full; Ankleshwar fills by FY28.",
+          "page": 8
+        },
+        {
+          "topic": "Concentration risk",
+          "answer": "30-40 new molecules a year in development should dilute dependence on the anchor product over time.",
+          "page": 16
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Specialty chemicals revenue fell 10.6% as commodity products are phased out, with a transition gap before new products ramp.",
+          "page": 4
+        },
+        {
+          "text": "Other income fell to ₹1.8 Cr from ₹11 Cr; Q4 had ₹10 Cr of currency gains.",
+          "page": 9
+        },
+        {
+          "text": "No split of CDMO vs core intermediates, so the anchor-product share can't be checked.",
+          "page": 6
+        },
+        {
+          "text": "Working capital rose to 99 days from 91 on higher inventory.",
+          "page": 5
+        }
+      ],
+      "watch_next": [
+        "Q2 FY27 revenue: 25% growth needs a bigger H2 than H1",
+        "EBITDA margin near 36% for the year",
+        "Battery chemicals revenue as the new plant ramps",
+        "Indichem plant completion by end of Q2"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Advanced pharma intermediates and CDMO; specialty chemicals including battery electrolyte additives and semiconductor (photoresist) chemicals",
+        "customers": "Global innovators and generic makers; battery makers in North America, Korea and elsewhere; Heraeus and Japanese/Korean chip-chemical buyers",
+        "revenue_mix": "Pharma intermediates ₹293 Cr and specialty chemicals ₹37 Cr in Q1 FY27; pharma was 87% of FY26",
+        "demand_drivers": "Anchor CDMO product growth, generic launches (apixaban), tight global supply of battery additives, AI-driven memory-chip demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe97c4c1-571f-4e47-bc3c-0980da36d7bb.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4abd0291-38c8-472f-916c-bb450ca8ca24.pdf",
+    "transcriptPages": 16,
+    "transcriptHasText": true
+  }
+}

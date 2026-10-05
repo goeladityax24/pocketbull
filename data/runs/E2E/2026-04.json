@@ -1,0 +1,216 @@
+{
+  "symbol": "E2E",
+  "concall": {
+    "month": "Apr 2026",
+    "yearMonth": "2026-04",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/E2E_22042026154021_EC_Transcript_2.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_20042026161011_IP_20042026.pdf",
+    "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/10041979.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-05T19:50:31.911Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-04-20",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "First 1,024 B200 cluster live",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We expect our Cluster 1 B200 1024 to go live\nsomewhere in the mid-May",
+        "page": 4,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "B200 1024",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Second 1,024 B200 cluster",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "in a couple of months, we are expecting to be able to deploy\nanother cluster of 1024 which has already been planned.",
+        "page": 4,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "another cluster of 1024",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "At least ~6,000 GPUs by end of FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Answering 'by FY27 end ... around 6,000 of capacity'; ~3,900 at March 2026",
+        "quote": "I would not want to place a limiting number over there, but you could say that that is the\nminimum number.",
+        "page": 11,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "minimum number",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "GPU share of revenue 85-90%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next couple of quarters",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "in another couple of quarters, I think GPU\ncontribution would be closer to 85%-90% over coming quarters.",
+        "page": 8,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "85%-90%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue to outpace depreciation",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as utilisation rises",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 PAT loss of ₹15.6 Cr from GPU depreciation",
+        "quote": "As utilization continues to ramp up, revenue will progressively outpace depreciation, improving\nreported profitability.",
+        "page": 5,
+        "speaker": "Nitin Jain (CFO)",
+        "confidence": "high",
+        "keyword": "outpace depreciation",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q4 FY26 revenue rose 186% to ₹95.6 Cr with EBITDA of ₹58 Cr (60.7%) and a small profit of ₹6.4 Cr, as GPU utilisation reached about 80% in March and the monthly revenue run rate (MRR) hit ₹37.4 Cr. FY26 revenue grew 50% to ₹246 Cr but PAT was a ₹15.6 Cr loss because of GPU depreciation. Management gave no revenue or MRR guidance; the first 1,024 NVIDIA B200 cluster was due in mid-May with a second within months, and E2E is exploring asset-light GPU financing including an MoU with L&T.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "B200 cluster go-live slipped to mid-May on supply-chain delays",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "At least ~6,000 GPUs targeted by end of FY27",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "Exploring private credit and asset-light partnerships (L&T MoU)",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We gave a certain guidance in terms of where we would be by the end of this quarter a\ncouple of quarters back. I think we have more or less met and exceeded that target",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "MRR guidance",
+          "answer": "Declined; the market changes week to week, so judge quarter by quarter.",
+          "page": 6
+        },
+        {
+          "topic": "Government share",
+          "answer": "Government (India AI Mission) business no more than 35-40% of the quarter.",
+          "page": 8
+        },
+        {
+          "topic": "GPU pricing",
+          "answer": "No pressure; prices inching up; GPUs usable for 7-8 years.",
+          "page": 12
+        },
+        {
+          "topic": "Depreciation",
+          "answer": "GPU assets depreciated over 6 years.",
+          "page": 11
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "FY26 net loss of ₹15.6 Cr as depreciation (₹51 Cr in Q4) outran revenue.",
+          "page": 5
+        },
+        {
+          "text": "No revenue, MRR or capex guidance, so management can't be held to targets.",
+          "page": 6
+        },
+        {
+          "text": "Revenue was lumpy in recent quarters; small GPU base.",
+          "page": 9
+        },
+        {
+          "text": "B200 cluster was procured earlier but delayed.",
+          "page": 7
+        }
+      ],
+      "watch_next": [
+        "B200 cluster live and on revenue in Q1",
+        "Utilisation and MRR after new capacity",
+        "Net profit as depreciation rises",
+        "Financing of further GPUs"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Indian AI cloud: GPU (NVIDIA H100/H200/B200) and CPU cloud infrastructure with its TIR AI platform",
+        "customers": "AI start-ups and LLM teams, enterprises (BFSI), India AI Mission allottees; ~35-37% international",
+        "revenue_mix": "GPU heading to 85-90% of revenue; government ~35-40% in Q4 FY26",
+        "demand_drivers": "GPU shortage, AI training and inference demand, sovereign AI in India"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/E2E_22042026154021_EC_Transcript_2.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_20042026161011_IP_20042026.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "symbol": "HFCL",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04062a8c-13f7-4769-8d46-8232a221febc.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:48:48.875Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-22",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 40,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we, to\nthe best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and\nabove.",
+        "page": 4,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "revenue growth of 40%",
+        "revises": "May call: 20-25%"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin at least 23%",
+        "kind": "margin_pct",
+        "low": 23,
+        "high": 23,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Company-reported EBITDA (FY26 16.7%) is higher than Screener's operating profit (15.4%).",
+        "quote": "So this 23% margin is something\nminimum we would be able to protect to the best of my information at this point of time",
+        "page": 18,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "minimum we would be able to protect",
+        "revises": "May call: about 20%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre connectivity revenue",
+        "kind": "absolute",
+        "low": 800,
+        "high": 800,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Data-centre connectivity",
+        "condition": null,
+        "quote": "But the full year,\nwe are looking at INR800 crores number, roughly about INR800 crores number.",
+        "page": 20,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR800 crores number",
+        "revises": "May call: ₹400 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Defence revenue",
+        "kind": "absolute",
+        "low": 500,
+        "high": 500,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Defence and aerospace",
+        "condition": "Includes the aerospace acquisition, closing within calendar 2026",
+        "quote": "we remain firmly on track to\nachieve this objective.",
+        "page": 6,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "firmly on track",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Defence & aerospace revenue ₹3,000 Cr",
+        "kind": "absolute",
+        "low": 3000,
+        "high": 3000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Defence and aerospace",
+        "condition": "₹5,000 Cr the year after",
+        "quote": "'28, '29, we should be INR3,000 crores plus",
+        "page": 13,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR3,000 crores plus",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Optical fibre capacity to 34 mn fkm",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "The expansion of our Optical Fibre manufacturing capacity from 28\nmillion fibre kilometres to 34 million fibre kilometres is progressing well and will be\ncompleted by December 2026.",
+        "page": 5,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "34 million fibre kilometres",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex FY27",
+        "kind": "absolute",
+        "low": 640,
+        "high": 640,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So total would be INR640 crores.",
+        "page": 9,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR640 crores",
+        "revises": "May call: ~₹600 Cr"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex FY28",
+        "kind": "absolute",
+        "low": 615,
+        "high": 615,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Next year will be about INR615",
+        "page": 8,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR615",
+        "revises": "May call: ₹350 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Debt-equity around 0.3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "And it is likely to remain in this range only.",
+        "page": 25,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "remain in this range",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Export share ~60%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "export revenue, I would rather say should remain around 60% or so",
+        "page": 27,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "around 60%",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 was HFCL's best quarter: revenue up 120% to ₹1,915 Cr, reported EBITDA of ₹445 Cr (23.25%) and PAT of ₹246 Cr, with exports of ₹1,063 Cr. The MD raised FY27 revenue growth to 40%+ (from ~20%) and called 23% the minimum EBITDA margin he can protect. The order book reached ₹26,665 Cr; data-centre connectivity should bring ~₹800 Cr this year as capacity grows 5x, and defence and aerospace should cross ₹3,000 Cr by FY29.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 revenue growth raised to 40%+ from about 20%",
+          "page": 4
+        },
+        {
+          "change": "raised",
+          "text": "EBITDA margin: 23% now the floor, vs 20% expected in May",
+          "page": 18
+        },
+        {
+          "change": "raised",
+          "text": "Data-centre connectivity revenue ~₹800 Cr in FY27 (was ₹400 Cr)",
+          "page": 20
+        },
+        {
+          "change": "new",
+          "text": "₹215 Cr for MMC/SNMT data-centre connectivity capacity",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Defence and aerospace target ₹3,000 Cr+ by FY29, ₹5,000 Cr after",
+          "page": 13
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Look, I will give you a 5-year outlook. Why 3 years? 3 years is a no-brainer.",
+        "page": 11
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why only 40%?",
+          "answer": "Prefers to under-promise; Q1 annualised is higher.",
+          "page": 9
+        },
+        {
+          "topic": "Margin sustainability",
+          "answer": "No seasonality; Q1 margin came from average contracts and should hold all year.",
+          "page": 18
+        },
+        {
+          "topic": "Preform cost reset",
+          "answer": "Some long-term contracts run into next year; increases offset by customer prices and value-added products.",
+          "page": 21
+        },
+        {
+          "topic": "Revenue run rate",
+          "answer": "Roughly ₹1,900 Cr a quarter, give or take 10%.",
+          "page": 19
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Defence restructuring moves businesses into a subsidiary where HFCL may hold about 51%.",
+          "page": 26
+        },
+        {
+          "text": "Preform contracts will reset at higher prices; margin defence relies on customer price rises.",
+          "page": 21
+        },
+        {
+          "text": "Big capex step-up (₹640 Cr and ₹615 Cr) while working capital also rises.",
+          "page": 9
+        },
+        {
+          "text": "EPC losses only 'significantly come down', not gone, after the Army AMC.",
+          "page": 20
+        }
+      ],
+      "watch_next": [
+        "Quarterly revenue around ₹1,900 Cr",
+        "EBITDA margin at or above 23%",
+        "Army AMC signing and EPC losses",
+        "Closing of the aerospace acquisition"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Optical fibre, cables and data-centre connectivity; telecom radios, routers and Wi-Fi; defence (radars, fuzes, thermal imaging, ammunition, aerostructures); EPC",
+        "customers": "US hyperscalers and global telcos (exports), Indian telcos, BharatNet, armed forces",
+        "revenue_mix": "Q1 FY27: telecom products 85%; exports ₹1,063 Cr (~55%)",
+        "demand_drivers": "Hyperscaler data-centre build-out, fibre-optic drones, Indian defence modernisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04062a8c-13f7-4769-8d46-8232a221febc.pdf",
+    "transcriptPages": 29,
+    "transcriptHasText": true
+  }
+}

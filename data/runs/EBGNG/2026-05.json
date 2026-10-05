@@ -1,0 +1,263 @@
+{
+  "symbol": "EBGNG",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e89154-c5aa-4a84-8bf1-854b53a121e3.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a3131c3-f8cd-4d3a-8039-c74904220bc4.pdf",
+    "recordingUrl": "https://www.electronicsbazaar.com/media/investor/i/Q4_FY26_Earnings_Call_Recording.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:46:47.692Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-05",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "For next year guidance, we can give at around 25% revenue growth and PAT margin expansion\nof around 50 basis points.",
+        "page": 10,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "25% revenue growth",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin up at least 50 bps",
+        "kind": "margin_pct",
+        "low": 7.5,
+        "high": 7.5,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 PAT margin was 7.0%; +50 bps = 7.5%",
+        "quote": "The PAT level growth, an increment of at least 50 basis points from the current levels.",
+        "page": 10,
+        "speaker": "Ajay Pancholi (Director)",
+        "confidence": "high",
+        "keyword": "50 basis points",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin about 11.5%",
+        "kind": "margin_pct",
+        "low": 11.5,
+        "high": 11.5,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "10.6% to 11.5% or thereabouts in order for us to deliver at least a 50 basis point PAT expansion.",
+        "page": 14,
+        "speaker": "Ajay Pancholi (Director)",
+        "confidence": "high",
+        "keyword": "11.5% or thereabouts",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Net debt around ₹300 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "through FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Comfortable up to ~₹450 Cr; inventory ₹743 Cr at March 2026",
+        "quote": "As of March end, we've got\nthat number down to about INR300 crore. That is the trajectory we expect going forward.",
+        "page": 14,
+        "speaker": "Ajay Pancholi (Director)",
+        "confidence": "high",
+        "keyword": "INR300 crore",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Receivable days held at 40-45",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "No, we intend to maintain them at these levels. We do not want to increase them any further.",
+        "page": 18,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "maintain them at these levels",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No new equity needed through 2028-29",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "to 2028-29",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "By 2028 - 2029, we\ndo not see any need for any capital infusion in the company",
+        "page": 18,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "capital infusion",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Margins above Q4 from Q1",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q4 FY26 EBITDA margin was 9.8%",
+        "quote": "Yes, it's fair to assume that.",
+        "page": 14,
+        "speaker": "Ajay Pancholi (Director)",
+        "confidence": "high",
+        "keyword": "fair to assume",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 34% to ₹1,891 Cr, EBITDA margin rose to 10.6% and PAT nearly doubled to ₹132 Cr, well ahead of both the original and the raised guidance. Management says a global shortage of memory, SSDs and processors (driven by AI data centres) has pushed new laptop prices up 40-57% in six months, sending demand to refurbished PCs. It guided ~25% revenue growth and at least 50 bps higher PAT margin for FY27, and is deliberately holding high inventory (₹743 Cr) bought before prices rise.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27: ~25% revenue growth, PAT margin up at least 50 bps, EBITDA margin ~11.5%",
+          "page": 10
+        },
+        {
+          "change": "new",
+          "text": "Distribution tie-ups with Ingram Micro and Supertron (small so far)",
+          "page": 16
+        },
+        {
+          "change": "new",
+          "text": "EMI scheme: refurbished laptops for ₹1,000 a month through dealers",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Capacity of about 150,000 units a month after adding facilities in Mumbai and the UAE",
+          "page": 15
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We have by far exceeded both the original guidance we shared at the start of the year as well as the revised\nguidance we had communicated in our Q3 earnings call",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "High inventory and debt",
+          "answer": "Inventory ₹743 Cr is a deliberate bet on rising prices; net debt fell to ~₹300 Cr from ₹466 Cr in December.",
+          "page": 9
+        },
+        {
+          "topic": "Receivables up",
+          "answer": "New distributors need 30-45 days of credit, the same as OEMs give; to be held at that level.",
+          "page": 9
+        },
+        {
+          "topic": "Is 25% conservative?",
+          "answer": "'We like to give conservative estimates.'",
+          "page": 11
+        },
+        {
+          "topic": "UAE war risk",
+          "answer": "Sharjah facilities ran every day; shipments go by air.",
+          "page": 12
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Working-capital heavy: inventory ₹743 Cr (3-4 months of sales) and receivables up; borrowings back near pre-IPO levels.",
+          "page": 8
+        },
+        {
+          "text": "Margins depend on a component price boom that management expects to last until January 2028.",
+          "page": 17
+        },
+        {
+          "text": "Main refurbishing base is in the UAE during the Gulf conflict.",
+          "page": 12
+        },
+        {
+          "text": "Other expenses up 40% (freight, marketing, insurance).",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "Quarterly growth near or above 25%",
+        "PAT margin above 7.5% for the year",
+        "Inventory and net debt levels",
+        "Revenue from the new national distributors"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Refurbished laptops (~81% of revenue), desktops and other IT devices under the 'Electronics Bazaar' brand, with 1-3 year warranties",
+        "customers": "B2B: enterprises, institutions, distributors and dealers in 46 countries; 4,895 touch points",
+        "revenue_mix": "FY26: India 33%, UAE 12%, US 21%, Europe 20%, rest 14%; 727,000 units at ~₹26,000 average",
+        "demand_drivers": "Memory and component shortage raising new-PC prices, IDC forecasting an 11% fall in new PC shipments in 2026, cost-conscious buyers"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e89154-c5aa-4a84-8bf1-854b53a121e3.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a3131c3-f8cd-4d3a-8039-c74904220bc4.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

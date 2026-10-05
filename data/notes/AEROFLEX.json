@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Metal flexible hoses and data-centre cooling skids",
+ "lede": "India's largest maker of stainless-steel flexible hoses, exporting to 80+ countries, which has added liquid-cooling skids for AI data centres. Q1 FY27 revenue jumped 72%, but the skid business rests on one customer and the stock trades at over 100x earnings.",
+ "market": {
+  "price": 544,
+  "mcap_cr": 7203,
+  "pe": 107,
+  "pb": 16.1,
+  "ev_ebitda": 61
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Steady 18% growth for four years, EBITDA margin up to 23%, debt-free; skids went from zero to ₹32 Cr a quarter (23% of revenue) within a year, and capacity is going to 15,000 skids a year."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "All skid sales go to one US cooling company's Indian arm under an exclusive deal, with only two months of visibility. Return on new capital has dropped to ~7% as depreciation jumped, and a ₹40 Cr tax demand is under appeal."
+  },
+  {
+   "lead": "Price",
+   "text": "107x trailing earnings and ~61x EV/EBITDA, far above Uniparts (20x), Harsha (27x) and Shivalik Bimetal (58x)."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Aeroflex makes corrugated stainless-steel flexible hoses, braiding and hose assemblies, metal bellows and (through Hyd-Air) fittings at Taloja, Navi Mumbai. In FY26 it began making SFN skid assemblies that circulate coolant in liquid-cooled AI data centres, supplied exclusively to the India arm of a US-headquartered cooling company.",
+     "src": "May call p.6"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~60%",
+       "label": "Exports share of revenue (75-80% of hose assemblies)"
+      },
+      {
+       "value": "25-26%",
+       "label": "Largest export customer's share of sales"
+      },
+      {
+       "value": "9,000 → 15,000",
+       "label": "Skid capacity a year, by Oct-Nov 2026"
+      },
+      {
+       "value": "₹3-3.25 lakh",
+       "label": "Average price per skid"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Assemblies earn 22-26% margin vs 16-20% for plain hose; assemblies are 63% of hose revenue.",
+       "src": "Jul call p.5"
+      },
+      {
+       "lead": "",
+       "text": "Skids earn about the company-average margin; bellows the highest but still sub-scale.",
+       "src": "Jul call p.9"
+      },
+      {
+       "lead": "",
+       "text": "Landed cost 25-30% below local suppliers in export markets.",
+       "src": "May call p.16"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "IPO in 2023; parent is Aeroflex Enterprises (formerly Sat Industries).",
+       "src": "AR p.131"
+      },
+      {
+       "lead": "",
+       "text": "Bought Hyd-Air (fittings) and started metal bellows; miniature-bellows capex redirected to liquid cooling.",
+       "src": "May call p.13"
+      },
+      {
+       "lead": "",
+       "text": "Skids: 617 units in Q4 FY26, 1,040 in Q1 FY27.",
+       "src": "Jul call p.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        241,
+        269,
+        318,
+        376,
+        442
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹503 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        28,
+        30,
+        42,
+        53,
+        56
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        32,
+        7,
+        44,
+        27,
+        66
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "12%",
+        "18%",
+        "18%",
+        "18%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "20%",
+        "20%",
+        "20%",
+        "21%",
+        "23%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "28",
+        "30",
+        "42",
+        "53",
+        "56"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "36%",
+        "34%",
+        "26%",
+        "22%",
+        "19%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "32",
+        "7",
+        "44",
+        "27",
+        "66"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "84",
+        "132",
+        "116",
+        "129",
+        "112"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Debt-free:",
+       "text": "borrowings ₹9 Cr against ₹447 Cr of equity after the IPO.",
+       "src": null
+      },
+      {
+       "lead": "Depreciation jumped",
+       "text": "from ₹11 Cr to ₹26 Cr in FY26 with new capacity, so profit grew only 6% despite 25% higher EBITDA.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 7%.",
+       "text": "Capital employed rose ₹163 Cr from FY24 to FY26 while post-tax operating profit rose only ~₹11 Cr; ROCE fell from 36% to 19% in four years.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "About 35% revenue growth in FY27",
+        "May 26",
+        "Q1 FY27 +72% YoY",
+        {
+         "text": "Ahead so far",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin about 23% in FY27",
+        "May 26",
+        "Q1 FY27 23.0%",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Skids 20-22% of FY27 revenue",
+        "May 26",
+        "23% in Q1 FY27",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "15,000-skid capacity within two quarters",
+        "May 26",
+        "9,000 in Q1; 15,000 now Oct-Nov 2026",
+        {
+         "text": "Slightly late",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "~₹42 Cr of skids for immediate execution",
+        "Jan 26",
+        "₹21 Cr in Q4 FY26 because of design and audit delays",
+        {
+         "text": "Short",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Metal bellows to pick up with US orders",
+        "FY25",
+        "₹8 Cr in FY26, under 20% utilisation after US tariffs",
+        {
+         "text": "Behind",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoter group (Aeroflex Enterprises) holds 65.5%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions rose to 3.6% from 0.4% a year ago; domestic fell to 1.5%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "No materially significant related-party transactions reported.",
+       "src": "AR p.76"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged uncertain tax positions and litigation as a key audit matter.",
+       "src": "AR p.85"
+      },
+      {
+       "lead": "",
+       "text": "₹40 Cr income-tax demand on an old loan-interest waiver (AY 2018-19) under appeal, plus GST demands of ~₹5 Cr.",
+       "src": "May call p.14"
+      },
+      {
+       "lead": "",
+       "text": "MD declined to discuss group companies on the call.",
+       "src": "May call p.16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Aeroflex Industries",
+        "442",
+        "23%",
+        "56",
+        "19%",
+        "107x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Shivalik Bimetal Controls",
+        "571",
+        "23%",
+        "96",
+        "27%",
+        "58.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Uniparts India",
+        "1,170",
+        "21%",
+        "158",
+        "22%",
+        "20.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Harsha Engineers",
+        "1,627",
+        "15%",
+        "155",
+        "13%",
+        "27.3x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "No listed Indian company makes metal hoses at Aeroflex's scale; the peers are export-oriented precision engineering firms. Global rivals in skids and hoses include Parker and Senior.",
+     "src": "Jul call p.4"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Scale and cost:",
+       "text": "the only Indian maker at this scale, 25-30% cheaper landed in export markets.",
+       "src": "May call p.16"
+      },
+      {
+       "lead": "Speed in a new category:",
+       "text": "designed and supplied data-centre skids in under a year.",
+       "src": "Jul call p.15"
+      },
+      {
+       "lead": "Diverse export base",
+       "text": "across the US, Europe, Middle East and Africa.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "One skid customer:",
+       "text": "an exclusive deal with one cooling company; no order book disclosed.",
+       "src": "May call p.6"
+      },
+      {
+       "lead": "Design and audit bottlenecks",
+       "text": "slow skid dispatches.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "US tariffs and West Asia logistics",
+       "text": "hit bellows plans and freight costs.",
+       "src": "Jul call p.14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Loss or slowdown of the single skid customer",
+        "Operational",
+        "Two months of dispatch visibility only"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capacity commissioning delays",
+        "Operational",
+        "15,000-skid line slipped to Oct-Nov"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹40 Cr tax demand",
+        "Financial",
+        "Under appeal"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Falling returns on new capital",
+        "Financial",
+        "ROCE down to 19%"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹9,600 Cr",
+       "sub": "FY28 market cap · about +33%",
+       "text": "Revenue reaches ~₹1,000 Cr in FY28 (skids at full 15,000 a year plus 18% base growth) at a 15% net margin (₹150 Cr), valued at 64x."
+      },
+      {
+       "name": "Base",
+       "value": "₹6,000 Cr",
+       "sub": "FY28 market cap · about –17%",
+       "text": "Revenue ~₹800 Cr at a 14% net margin (₹112 Cr), valued at 54x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹2,800 Cr",
+       "sub": "FY28 market cap · about –61%",
+       "text": "Skid customer slows; revenue ~₹600 Cr at a 13% net margin (₹78 Cr), valued at 36x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "107x",
+       "label": "P/E, trailing (Shivalik 58x, Uniparts 20x)"
+      },
+      {
+       "value": "~61x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "16.1x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~7%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A solid, steadily growing hose exporter has been re-rated as an AI data-centre play. Skids are real and growing fast, but they depend on one customer, and the valuation already assumes they keep scaling; returns on the capital being added have so far been low.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "15,000-skid capacity live by Oct-Nov 2026",
+  "Skid revenue per quarter and a second skid customer",
+  "EBITDA margin near 23%",
+  "Metal bellows sales",
+  "Outcome of the ₹40 Cr tax appeal"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (6 May 2026) and Q1 FY27 (28 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

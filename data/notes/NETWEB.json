@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Indian-made AI servers and supercomputers",
+ "lede": "India's largest home-grown maker of high-end computing systems (Tyrone), now riding sovereign-AI GPU orders. Revenue has grown 50-90% a year with steady 13-14% margins and high returns, but this is hardware assembly priced like software, and growth now needs debt and possibly new equity for working capital.",
+ "market": {
+  "price": 4765,
+  "mcap_cr": 28333,
+  "pe": 109,
+  "pb": 37.5,
+  "ev_ebitda": 80
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue +90% to ₹2,184 Cr and Q1 FY27 +172% to ₹820 Cr, with operating EBITDA held at 13-15% and ROCE ~37-48%; order book plus L1 positions ₹3,355 Cr and a ₹10,410 Cr pipeline."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Growth depends on lumpy government and neocloud AI orders; inventory days hit 110 and the company swung to ₹200 Cr net debt, with an enabling resolution to raise capital. Promoters sold ~4% in February 2026."
+  },
+  {
+   "lead": "Price",
+   "text": "109x trailing earnings and ~80x EV/EBITDA, against Kaynes (66x) and Syrma (88x), for a business with 13-14% EBITDA margins."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Netweb designs and manufactures high-end computing systems in Faridabad under the Tyrone brand: AI GPU servers and clusters, HPC supercomputers, and private-cloud / hyper-converged systems, with its own software stack. About half its customers are government (India AI Mission, National Supercomputing Mission, research labs) and half enterprises and Indian cloud providers.",
+     "src": "May call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "62%",
+       "label": "AI systems share of Q1 FY27 revenue"
+      },
+      {
+       "value": "₹3,355 Cr",
+       "label": "Order book + L1, June 2026"
+      },
+      {
+       "value": "₹10,410 Cr",
+       "label": "Pipeline (60% converts in 18-24 months)"
+      },
+      {
+       "value": "~5%",
+       "label": "Exports share of revenue"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margins of 13-14% come from in-house design and integration rather than box selling.",
+       "src": "Aug call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Asset-light: gross fixed asset turnover ~44x; no major capex planned.",
+       "src": "Aug call p.5"
+      },
+      {
+       "lead": "",
+       "text": "Plans component stock ahead of orders, which has protected margins in the memory shortage.",
+       "src": "Aug call p.10"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "IPO in July 2023; revenue from ₹247 Cr (FY22) to ₹2,184 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "AI grew from ~15% to 43% (FY26) and 62% (Q1 FY27) of revenue.",
+       "src": "May call p.7"
+      },
+      {
+       "lead": "",
+       "text": "New 15,000 sq ft facility for dense liquid-cooled GPU racks.",
+       "src": "May call p.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        247,
+        445,
+        724,
+        1149,
+        2184
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹2,702 Cr (standalone)."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        22,
+        47,
+        76,
+        114,
+        206
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        5,
+        27,
+        18,
+        -13,
+        790
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "80%",
+        "63%",
+        "59%",
+        "90%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "14%",
+        "16%",
+        "14%",
+        "14%",
+        "13%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "22",
+        "47",
+        "76",
+        "114",
+        "206"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "52%",
+        "64%",
+        "38%",
+        "32%",
+        "37%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "5",
+        "27",
+        "18",
+        "–13",
+        "790"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "86",
+        "69",
+        "85",
+        "83",
+        "121"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash flow is lumpy:",
+       "text": "₹790 Cr in FY26 (customer advances and collections on strategic orders) after near-zero in earlier years; cumulative ₹827 Cr vs ₹465 Cr of profit.",
+       "src": null
+      },
+      {
+       "lead": "Borrowing returned:",
+       "text": "₹282 Cr at March 2026 and net debt ₹200 Cr at June, for working capital.",
+       "src": "Aug call p.5"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 24%.",
+       "text": "Capital employed rose ₹573 Cr from FY24 to FY26 and post-tax operating profit rose ~₹136 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "35-40% revenue growth in FY27",
+        "May 26",
+        "Q1 FY27 +172% YoY",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating EBITDA margin 13-14%",
+        "May 26",
+        "14.7% in Q1 FY27",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Strategic orders (₹1,600 Cr) executed in ~3 quarters",
+        "May 26",
+        "~₹430 Cr in Q1",
+        {
+         "text": "On track",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle 90-110 days",
+        "May 26",
+        "96 days at June 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No significant capex in FY27",
+        "May 26",
+        "None announced",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No promoter selling for 12 months after Feb 2026",
+        "May 26",
+        "No sales in Q1",
+        {
+         "text": "So far",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 67.0% after selling ~4% in February 2026; no pledge of shares.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions 9.3%, domestic 5.9%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "No related-party purchases or sales.",
+       "src": "AR p.75"
+      },
+      {
+       "lead": "",
+       "text": "Promoters back bank limits with fixed-deposit pledges and personal guarantees.",
+       "src": "AR p.116"
+      },
+      {
+       "lead": "",
+       "text": "Bank guarantees of ₹136 Cr outstanding.",
+       "src": "AR p.124"
+      },
+      {
+       "lead": "",
+       "text": "Mixed messages on whether FY27 guidance includes strategic orders; prior-period balance sheet restated after an inventory-method change.",
+       "src": "Aug call p.17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Netweb Technologies",
+        "2,184",
+        "13%",
+        "206",
+        "37%",
+        "109x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Kaynes Technology",
+        "3,626",
+        "16%",
+        "364",
+        "13%",
+        "65.9x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Syrma SGS",
+        "4,819",
+        "11%",
+        "346",
+        "17%",
+        "88.3x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Rashi Peripherals",
+        "15,827",
+        "3%",
+        "282",
+        "17%",
+        "19.6x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Global server makers (Dell, HPE, Supermicro) and their Indian partners are the real competition; listed Indian electronics manufacturers are shown for valuation.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Indian OEM with its own designs",
+       "text": "and software stack, favoured for sovereign and government work.",
+       "src": "Aug call p.3"
+      },
+      {
+       "lead": "Early partner of NVIDIA and other chipmakers;",
+       "text": "ships the latest GPU platforms.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "Repeat enterprise and government customers",
+       "text": "with long relationships.",
+       "src": "Aug call p.8"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Order lumpiness:",
+       "text": "big government AI orders drive quarters.",
+       "src": "May call p.8"
+      },
+      {
+       "lead": "Component supply and prices:",
+       "text": "memory shortage; needs high inventory.",
+       "src": "Aug call p.10"
+      },
+      {
+       "lead": "Thin margins:",
+       "text": "13-14% EBITDA leaves little room if pricing tightens.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Government AI spending slows or is delayed",
+        "Market",
+        "Pipeline strong for 18-24 months"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital and debt",
+        "Financial",
+        "Net debt ₹200 Cr; capital raise possible"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Component shortages",
+        "Operational",
+        "Managed with inventory"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Equity dilution",
+        "Financial",
+        "Enabling resolution in place"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹33,000 Cr",
+       "sub": "FY28 market cap · about +16%",
+       "text": "Revenue ~₹5,500 Cr in FY28 at a 10% net margin (₹550 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹21,600 Cr",
+       "sub": "FY28 market cap · about –24%",
+       "text": "60% growth in FY27, 30% in FY28 to ~₹4,550 Cr at a 9.5% net margin (₹432 Cr), valued at 50x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹9,500 Cr",
+       "sub": "FY28 market cap · about –66%",
+       "text": "AI orders slow: revenue ~₹3,200 Cr at an 8.5% net margin (₹272 Cr), valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "109x",
+       "label": "P/E, trailing (Kaynes 66x, Syrma 88x)"
+      },
+      {
+       "value": "~80x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "37.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "13-14%",
+       "label": "Guided operating EBITDA margin"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Netweb executes well and is central to India's sovereign-AI build-out. But it earns hardware margins and the valuation assumes years of very fast growth; even strong delivery in our base case does not support today's price, and working-capital needs may bring dilution.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 FY27 revenue from the order book and L1 positions",
+  "Operating EBITDA margin within 13-14%",
+  "Net debt and any capital raise",
+  "Conversion of the ₹10,410 Cr pipeline",
+  "Inventory days"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (4 May 2026) and Q1 FY27 (29 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

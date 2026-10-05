@@ -1,0 +1,200 @@
+{
+  "symbol": "E2E",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82a7e375-4e00-495b-9d10-410da70ba183.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4914c376-a06e-4123-8d8f-213f172c3539.pdf",
+    "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/E2E%20Networks%20Limited_Earnings%20Call%20Audio%20Recording_22-jun-2026.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-05T19:50:32.307Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-22",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Next 1,024 B200 lot",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we expect them to be here in the next couple of months.",
+        "page": 6,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "next couple of months",
+        "revises": "April call: 'in a couple of months' after mid-May"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Current margins sustainable",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 FY27 EBITDA margin 75.2%",
+        "quote": "I do believe that this is quite sustainable over the medium term and potentially the long term.",
+        "page": 7,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "quite sustainable",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "More GPUs: Blackwell and Vera Rubin",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we have plans to expand our capacity into Vera Rubin.",
+        "page": 10,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "Vera Rubin",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Older GPUs earn for 5-6 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we've always maintained that at least\nat the minimum a 6-year life cycle for all the GPU generations.",
+        "page": 11,
+        "speaker": "Tarun Dua (Managing Director)",
+        "confidence": "high",
+        "keyword": "6-year life cycle",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 334% to ₹156.8 Cr with EBITDA of ₹117.9 Cr (75.2%) and PAT of ₹43.9 Cr, after the 1,024 B200 GPUs went live and were nearly fully used. About 5,100 GPUs are live, with another 1,024 B200s due in the next couple of months; debt is about ₹450 Cr and will rise. Management again gave no revenue or MRR guidance but called current margins sustainable, raised GPU and CPU prices partly on higher memory costs, and is pushing a 'sovereign AI' platform built on open-source models.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "First B200 cluster live and on revenue",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "Price increases for GPU and CPU capacity; customers offered longer contracts to lock prices",
+          "page": 10
+        },
+        {
+          "change": "new",
+          "text": "New subsidiaries: SovCloud (infrastructure) and a Delaware entity for international sales",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Borrowings of ~₹450 Cr taken for B200s",
+          "page": 14
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So it is still day\nzero of AI.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "What drove growth",
+          "answer": "Mostly more capacity and utilisation; pricing had a modest effect.",
+          "page": 5
+        },
+        {
+          "topic": "Revenue mix",
+          "answer": "Previous quarter: India AI Mission ~20-21%, international ~37%.",
+          "page": 12
+        },
+        {
+          "topic": "Debt",
+          "answer": "About ₹450 Cr now, rising with the next lot; no peak debt figure.",
+          "page": 14
+        },
+        {
+          "topic": "Guidance",
+          "answer": "No MRR guidance; look at past exit MRR.",
+          "page": 6
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Debt rising to fund GPUs (₹450 Cr and growing), with no stated limit.",
+          "page": 14
+        },
+        {
+          "text": "Still no revenue or MRR guidance.",
+          "page": 6
+        },
+        {
+          "text": "A 75% EBITDA margin depends on near-full utilisation of a small GPU base.",
+          "page": 7
+        },
+        {
+          "text": "Questions on use of past preferential issue funds not fully answered on the call.",
+          "page": 14
+        }
+      ],
+      "watch_next": [
+        "Second B200 lot live and Q2 revenue",
+        "EBITDA margin holding near 75%",
+        "Net debt and any equity raise",
+        "Depreciation vs revenue"
+      ],
+      "business_snapshot": {
+        "what_they_make": "GPU cloud (H100, H200, B200) and CPU cloud with TIR and Jarvis Labs software for training, fine-tuning and inference",
+        "customers": "AI start-ups, enterprises, India AI Mission users, international customers (~37%)",
+        "revenue_mix": "Mostly GPU; training larger than inference",
+        "demand_drivers": "Global GPU shortage, sovereign AI and open-source models, India AI Mission"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82a7e375-4e00-495b-9d10-410da70ba183.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4914c376-a06e-4123-8d8f-213f172c3539.pdf",
+    "transcriptPages": 16,
+    "transcriptHasText": true
+  }
+}

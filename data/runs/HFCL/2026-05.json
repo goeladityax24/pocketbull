@@ -1,0 +1,352 @@
+{
+  "symbol": "HFCL",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa76fc75-e13e-477a-9311-73915e6e1575.pdf",
+    "recordingUrl": "https://youtu.be/yEF7LWyJlBY"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:48:42.049Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-04-30",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Called an expectation, 'no guidance'; ₹6,000-6,250 Cr on FY26's ₹4,949 Cr",
+        "quote": "So conservatively, you should take 20%. But yes, there is a good\npossibility of it becoming better.",
+        "page": 21,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "conservatively, you should take 20%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin up 3-4 points",
+        "kind": "margin_pct",
+        "low": 19.7,
+        "high": 20.7,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Company-reported EBITDA (FY26 16.7%) is higher than Screener's operating profit (15.4%). 16.7% + 3-4 points.",
+        "quote": "blended margin would -- instead of 16%, 17%, we\nhave, it would increase by 3% to 4%",
+        "page": 9,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "increase by 3% to 4%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre interconnect revenue",
+        "kind": "absolute",
+        "low": 400,
+        "high": 400,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Data-centre interconnect (HTL)",
+        "condition": null,
+        "quote": "It is expected that data centre interconnect solutions will\ncontribute about Rs.400 crore additional revenue in FY26-27 and about Rs.800 crore in FY27-\n28.",
+        "page": 4,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "Rs.400 crore additional revenue",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Defence share of revenue",
+        "kind": "absolute",
+        "low": 10,
+        "high": 12,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Defence and aerospace",
+        "condition": null,
+        "quote": "FY27, I think about 10%, 10% to 12%.",
+        "page": 15,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "10% to 12%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Optical fibre capacity to 33.9 mn fkm",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our current Optical Fibre capacity of 28 mn fkm is\nexpected to increase to 33.9 mn fkm by December 2026.",
+        "page": 6,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "33.9 mn fkm",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "OFC capacity to 42.36 mn fkm",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "is expected\nto reach 39 fkm by July 2026 and to reach 42.36 mn fkm by December 2026.",
+        "page": 6,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "42.36 mn fkm",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "EPC turns profitable",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "EPC / turnkey",
+        "condition": "Army network AMC (~₹170 Cr a year) expected to be signed in Q2",
+        "quote": "it would current year, we should be profitable.",
+        "page": 12,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "we should be profitable",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex FY27",
+        "kind": "absolute",
+        "low": 600,
+        "high": 600,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "All put together, it would be roughly\nabout INR600 crores.",
+        "page": 13,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "roughly\nabout INR600 crores",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex FY28",
+        "kind": "absolute",
+        "low": 350,
+        "high": 350,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "INR350 crores.",
+        "page": 13,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR350 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Preform plant (300 t) in about 2 years",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": "at least 2 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹580 Cr capex; cuts preform cost 15-20%",
+        "quote": "Well, it will take at least 2 years.",
+        "page": 10,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "at least 2 years",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue aspiration ₹10,000 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "3-5 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "As far as three to five years' revenue expectation, our aspiration is to reach to INR10,000\ncrores.",
+        "page": 16,
+        "speaker": "Mahendra Nahata (Promoter & MD)",
+        "confidence": "high",
+        "keyword": "INR10,000\ncrores",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 22% to ₹4,949 Cr with reported EBITDA of ₹827 Cr and PAT nearly doubling to ₹329 Cr, as OFC exports (41% of revenue, up from 12%) took off. The order book hit ₹21,200 Cr, including a ~$1.1 billion long-term OFC contract and ₹12,250 Cr of exports. The MD expects 20-25% revenue growth and a 3-4 point higher EBITDA margin in FY27 (calling it an expectation, not guidance), plus ₹400 Cr from new data-centre interconnect products and a defence push including an aerospace acquisition.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27: 20-25% revenue growth and 3-4 points higher EBITDA margin (expectation)",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "$1.1 billion long-term OFC supply contract; order book ₹21,200 Cr",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "₹580 Cr preform plant (300 t) for backward integration",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Aerospace acquisition into HFCL Advance Systems with ~₹1,930 Cr export order book",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Promoter warrants of ~₹555 Cr",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "This quarter and financial year mark a defining milestone for HFCL",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "FY27 numbers",
+          "answer": "No formal guidance; 20-25% revenue growth and 3-4 points of margin expansion 'expected'.",
+          "page": 8
+        },
+        {
+          "topic": "EPC losses",
+          "answer": "Due to unpaid warranty work on the Army network; AMC (~₹170 Cr a year) expected from Q2; BharatNet profitable.",
+          "page": 11
+        },
+        {
+          "topic": "Fibre prices",
+          "answer": "Prices have risen sharply, partly from drone demand (which HFCL does not supply); MD thinks they are near the top.",
+          "page": 13
+        },
+        {
+          "topic": "Capacity",
+          "answer": "Fibre at 100% use; HFCL keeps some capacity for spot orders, which earn more.",
+          "page": 14
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Receivables above ₹2,000 Cr; MD could not split EPC or overdue amounts on the call.",
+          "page": 25
+        },
+        {
+          "text": "EPC segment loss-making on the Army network warranty.",
+          "page": 11
+        },
+        {
+          "text": "Equity dilution via promoter warrants and defence restructuring (subsidiary stakes).",
+          "page": 7
+        },
+        {
+          "text": "Electronic fuzes needed upgrades after trials.",
+          "page": 14
+        }
+      ],
+      "watch_next": [
+        "Quarterly revenue growth near 20-25%",
+        "Reported EBITDA margin near 20%",
+        "Army AMC signing in Q2",
+        "Fibre and cable capacity additions by December"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Optical fibre and cables (incl. high-fibre-count IBR), data-centre connectivity, telecom equipment, defence products (radars, thermal sights, fuzes), and EPC for telecom networks",
+        "customers": "Global telecom and data-centre buyers (exports >70% of cable output), Indian telcos, BharatNet, Indian Army",
+        "revenue_mix": "FY26: exports 41%, products 62%; telecom products 66% of Q4 revenue",
+        "demand_drivers": "AI data centres in the US, fibre price increases, defence indigenisation, BharatNet"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa76fc75-e13e-477a-9311-73915e6e1575.pdf",
+    "transcriptPages": 26,
+    "transcriptHasText": true
+  }
+}

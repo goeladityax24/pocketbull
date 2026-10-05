@@ -1,0 +1,243 @@
+{
+  "symbol": "STLTECH",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a08fac5-bc05-4f79-acee-f6a5076525cd.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa18a79-e103-49db-ba78-2e6d478a9a9a.pdf",
+    "recordingUrl": "https://www.youtube.com/watch?v=gcWLxQjH66E"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:47:47.437Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-24",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 23%",
+        "kind": "margin_pct",
+        "low": 23,
+        "high": 23,
+        "unit": "pct",
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Company-reported EBITDA differs slightly from Screener's operating profit (e.g. FY26 13.2% reported vs 12.0% on Screener).",
+        "quote": "We are now revising our EBITDA margin guidance upward to 23%.",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "upward to 23%",
+        "revises": "May call: 20% by end of FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Enterprise & data centre share of revenue",
+        "kind": "absolute",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Enterprise and data centre",
+        "condition": null,
+        "quote": "we expect the combined data center and Enterprise segment to scale up to 50%\nof the revenues in the current fiscal",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "scale up to 50%",
+        "revises": "May call: 30%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Connectivity attach rate",
+        "kind": "absolute",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "16% in Q1 FY27",
+        "quote": "we are focused on further increasing our attach rate to above 20% from next\nquarter onwards and to 25% by the end of this financial year.",
+        "page": 7,
+        "speaker": "Ankit Agarwal (Managing Director)",
+        "confidence": "high",
+        "keyword": "attach rate",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed in Q2 FY27",
+        "kind": "absolute",
+        "low": 2228,
+        "high": 2228,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Open order book ₹18,618 Cr, including a $1.1 billion hyperscaler deal through FY29",
+        "quote": "INR2,228 crores are slated for execution in Q2 of FY27",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "slated for execution in Q2",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹500 Cr a year for 3 years",
+        "kind": "absolute",
+        "low": 500,
+        "high": 500,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": "next 3 years (₹1,500 Cr total)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We expect about INR500\ncrores of investment per year for the next 3 years.",
+        "page": 15,
+        "speaker": "Ankit Agarwal (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR500\ncrores of investment per year",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Net debt free during FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Already net cash ₹483 Cr after the ₹1,500 Cr QIP",
+        "quote": "we broadly believe that we'll be net debt free even during the financial\nyear.",
+        "page": 17,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "net debt free",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 was STL's best quarter: revenue up 87% to ₹1,910 Cr, reported EBITDA of ₹397 Cr (20.8%) and record PAT of ₹197 Cr. Orders of ₹13,100 Cr, including a $1.1 billion multi-year hyperscaler deal through FY29, lifted the open order book to ₹18,618 Cr. Having hit its 20% margin target in Q1, management raised EBITDA margin guidance to 23%, expects data centre and enterprise to reach 50% of FY27 revenue, and became net cash after a ₹1,500 Cr QIP.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "EBITDA margin guidance raised to 23% from 20%",
+          "page": 8
+        },
+        {
+          "change": "raised",
+          "text": "Data centre and enterprise to be 50% of FY27 revenue (was 30%)",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "$1.1 billion multi-year hyperscaler deal; order book ₹18,618 Cr",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "₹1,500 Cr QIP; net cash ₹483 Cr",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "Fujikura patent dispute in Europe resolved in STL's favour",
+          "page": 6
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I'm happy to take you through\nour financial highlights for Q1 FY27, a truly historic quarter",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "Capacity",
+          "answer": "No utilisation figures; debottlenecking and upgrades to take more orders; picking orders by capacity.",
+          "page": 11
+        },
+        {
+          "topic": "Gross margin flat",
+          "answer": "Input costs (germanium, helium, polymers) rose with the war; improvement expected.",
+          "page": 12
+        },
+        {
+          "topic": "Is Q1 sustainable?",
+          "answer": "No revenue guidance; utilisation should keep improving.",
+          "page": 15
+        },
+        {
+          "topic": "Capex",
+          "answer": "About ₹500 Cr a year for three years; $100 million US connectivity plant over five years.",
+          "page": 15
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Order book now concentrated in one $1.1 billion hyperscaler contract.",
+          "page": 6
+        },
+        {
+          "text": "Capacity is tight; growth needs debottlenecking and capex while raw materials are scarce.",
+          "page": 11
+        },
+        {
+          "text": "Still no revenue guidance or capacity disclosure.",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "Q2 revenue against ₹2,228 Cr of scheduled execution",
+        "EBITDA margin staying above 20% on the way to 23%",
+        "Attach rate above 20% from Q2",
+        "Germanium availability"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Optical fibre, cables, connectivity and pre-terminated AI data-centre solutions; new fibre types (G.654.E, hollow-core, multi-core)",
+        "customers": "Hyperscalers and neoclouds (mainly US), telecom operators in India, Europe and the US, BharatNet",
+        "revenue_mix": "Q1 FY27: North America 54%, Europe 25%, rest 22%; data centre 21% of revenue",
+        "demand_drivers": "AI data-centre fibre intensity, DCI, FTTH, rural broadband programmes"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a08fac5-bc05-4f79-acee-f6a5076525cd.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa18a79-e103-49db-ba78-2e6d478a9a9a.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

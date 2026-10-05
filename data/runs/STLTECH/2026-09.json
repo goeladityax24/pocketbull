@@ -1,0 +1,165 @@
+{
+  "symbol": "STLTECH",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46c547c0-9df0-40ce-9faa-1a89a37490b3.pdf",
+    "pptUrl": null,
+    "recordingUrl": "https://www.youtube.com/watch?v=Qpfy9F1Pm64"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:47:47.822Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-09-03",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue ₹20,000 Cr by FY29 (Lakshya)",
+        "kind": "absolute",
+        "low": 20000,
+        "high": 20000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "More than 4x FY26 revenue of ₹4,745 Cr",
+        "quote": "Under Lakshya, we’re targeting 20,000 crore revenue by FY29",
+        "page": 6,
+        "speaker": "Ankit Agarwal (Managing Director)",
+        "confidence": "high",
+        "keyword": "20,000 crore revenue",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 27%+ by FY29",
+        "kind": "margin_pct",
+        "low": 27,
+        "high": 27,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Company-reported EBITDA differs slightly from Screener's operating profit (e.g. FY26 13.2% reported vs 12.0% on Screener).",
+        "quote": "we are targeting an\nEBITDA margin of 27% plus by FY29",
+        "page": 7,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "27% plus",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹1,000 Cr a year for 3 years",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": "each of the next 3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "To expand preform, fibre and cable capacity by 50%, plus a new connectivity plant in India",
+        "quote": "Over the next 3 financial years, we plan to invest approximately 1,000 crores annually",
+        "page": 7,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "1,000 crores annually",
+        "revises": "July call: ₹500 Cr a year"
+      },
+      {
+        "metric": "other",
+        "metric_label": "R&D at about 2% of revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "committing approximately 2% of our average\nannual revenue to innovation.",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "2% of our average",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "At an investor meet on 3 September 2026 STL announced 'Lakshya': ₹20,000 Cr of revenue by FY29 (over 4x FY26) and an EBITDA margin above 27%. To get there it plans about ₹1,000 Cr of capex a year for three years, expanding preform, fibre and cable capacity by 50% and building a new optical connectivity plant in India. Management pointed to AI data centres (fibre per rack rising 64x over GPU generations), an order book above $2 billion and Q1's record results.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY29 target: ₹20,000 Cr revenue and 27%+ EBITDA margin",
+          "page": 6
+        },
+        {
+          "change": "raised",
+          "text": "Capex raised to about ₹1,000 Cr a year for three years (was ₹500 Cr)",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "In-house work on co-packaged and near-packaged optics",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Today, we are very proud to announce Lakshya, STL’s growth ambition for FY29.",
+        "page": 6
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "The FY29 target needs revenue to grow more than 4x in three years.",
+          "page": 7
+        },
+        {
+          "text": "₹3,000 Cr of capex over three years after years of losses; returns depend on the data-centre cycle.",
+          "page": 7
+        }
+      ],
+      "watch_next": [
+        "FY27 and FY28 revenue on the path to ₹20,000 Cr",
+        "Capex spend and capacity additions",
+        "EBITDA margin trend towards 27%"
+      ],
+      "business_snapshot": {
+        "what_they_make": "End-to-end optical: glass preform, fibre, cable and connectivity solutions",
+        "customers": "Almost all major hyperscalers, telecom operators, rural broadband programmes",
+        "revenue_mix": "About 9% of the global optical fibre market outside China",
+        "demand_drivers": "AI factories, data-centre interconnect, India's data-centre build-out (1.5 GW to 10 GW by 2030)"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46c547c0-9df0-40ce-9faa-1a89a37490b3.pdf",
+    "pptUrl": null,
+    "transcriptPages": 9,
+    "transcriptHasText": true
+  }
+}

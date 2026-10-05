@@ -1,0 +1,699 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Pharma intermediates, CDMO and battery chemicals",
+ "lede": "A Surat chemist (formerly Ami Organics) whose profits more than doubled on one big CDMO contract for a prostate-cancer drug. Management has a long record of ~25% growth and is now building battery-additive and semiconductor-chemical arms, but the stock prices in a lot of that.",
+ "market": {
+  "price": 3122,
+  "mcap_cr": 25572,
+  "pe": 66.2,
+  "pb": 15.5,
+  "ev_ebitda": 47
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue +33% to ₹1,339 Cr, EBITDA margin up to 36% and PAT ₹356 Cr; Q1 FY27 revenue +59%. Debt-free, ROCE 32%, and a contracted battery-additive plant now supplying."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Much of the jump comes from one CDMO anchor product, and the company won't split CDMO from the rest. Inventory days rose to 149 and free cash flow has been negative five years running as capex rises."
+  },
+  {
+   "lead": "Price",
+   "text": "66x trailing earnings and ~47x EV/EBITDA, above Neuland (56x) and Navin Fluorine (53x)."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Acutaas makes advanced pharmaceutical intermediates for generic and innovator drug makers (87% of FY26 revenue), including CDMO work where it is the primary supplier of an intermediate for darolutamide (Nubeqa, sold by Bayer, made by Orion/Fermion). Its specialty-chemicals arm makes battery electrolyte additives (VC, FEC) and, through Baba Fine Chemicals, semiconductor photoresist chemicals; a Korean JV (Indichem) is being built.",
+     "src": "Jul call p.14"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "87 / 13",
+       "label": "Pharma / specialty chemicals, FY26 revenue"
+      },
+      {
+       "value": "600+",
+       "label": "Customers; 100+ products"
+      },
+      {
+       "value": "4,000 t",
+       "label": "VC + FEC battery-additive capacity, contracted for 3 years"
+      },
+      {
+       "value": "₹1,000 Cr",
+       "label": "CDMO revenue target for FY28"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "High-value intermediates and CDMO earn ~36-44% EBITDA; specialty chemicals 24-29%.",
+       "src": "Jul call p.6"
+      },
+      {
+       "lead": "",
+       "text": "Portfolio reshuffled in FY26 to drop low-margin intermediates; commodity chemicals being phased out in FY27.",
+       "src": "Jul call p.9"
+      },
+      {
+       "lead": "",
+       "text": "Strong seasonality: H1 is ~40% of the year, Q4 always the strongest.",
+       "src": "May call p.6"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Renamed from Ami Organics; revenue from ₹520 Cr (FY22) to ₹1,339 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Bought Baba Fine Chemicals (semiconductor chemicals) and set up the Jhagadia battery-chemicals site.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "₹190 Cr put into the Indichem JV in Korea in FY26.",
+       "src": "May call p.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        520,
+        617,
+        717,
+        1007,
+        1339
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹1,462 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        72,
+        83,
+        49,
+        160,
+        356
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -12,
+        66,
+        125,
+        118,
+        292
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "19%",
+        "16%",
+        "40%",
+        "33%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "20%",
+        "20%",
+        "18%",
+        "23%",
+        "36%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "72",
+        "83",
+        "49",
+        "160",
+        "356"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "24%",
+        "21%",
+        "16%",
+        "20%",
+        "32%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–12",
+        "66",
+        "125",
+        "118",
+        "292"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "107",
+        "111",
+        "125",
+        "121",
+        "149"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Balance sheet is clean:",
+       "text": "borrowings ₹36 Cr against ₹1,654 Cr of equity; interest cover above 100x.",
+       "src": null
+      },
+      {
+       "lead": "Cash conversion is decent but not full:",
+       "text": "₹589 Cr of operating cash flow against ₹720 Cr of profit over FY22-26; free cash flow negative each year as capex rose (₹266 Cr invested in FY26).",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 37%.",
+       "text": "Capital employed rose ₹799 Cr from FY24 to FY26 and post-tax operating profit rose ~₹299 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "~25% revenue growth a year ('our history for a decade')",
+        "Every call",
+        "FY23 +19%, FY24 +16%, FY25 +40%, FY26 +33%; Q1 FY27 +59%",
+        {
+         "text": "Met on average",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "25% revenue growth in FY27",
+        "Apr 26",
+        "Q1 FY27 +59% YoY, in a seasonally weak quarter",
+        {
+         "text": "Ahead so far",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin similar to FY26 (~36%)",
+        "Apr 26",
+        "Q1 FY27 34.3%",
+        {
+         "text": "On track",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Electrolyte phase 2 capex done by Q1 FY27",
+        "Apr 26",
+        "Moved to end of Q2 FY27",
+        {
+         "text": "Delayed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Pilot plant by Q2 FY27",
+        "Apr 26",
+        "Already slipped once (equipment)",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Indichem Korea plant on stream by early CY27",
+        "Jan 26",
+        "Now expected by end of Q2 FY27, ahead of plan",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 32.7%, unchanged; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions up to 21.6% from 16.9% a year ago; domestic 19.6%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Related-party purchases only 0.33% of purchases; related-party sales tiny.",
+       "src": "AR p.136"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged inventory valuation as a key audit matter.",
+       "src": "AR p.165"
+      },
+      {
+       "lead": "",
+       "text": "₹17 Cr of income-tax demands disputed (contingent liability).",
+       "src": "AR p.205"
+      },
+      {
+       "lead": "",
+       "text": "₹48 Cr of goodwill booked on the Korean JV, which has no revenue yet, because the partner got 25% at par.",
+       "src": "May call p.9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Acutaas Chemicals",
+        "1,339",
+        "36%",
+        "356",
+        "32%",
+        "66.2x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Neuland Laboratories",
+        "2,023",
+        "29%",
+        "364",
+        "27%",
+        "56.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Navin Fluorine",
+        "3,314",
+        "33%",
+        "664",
+        "21%",
+        "53.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Anupam Rasayan",
+        "2,365",
+        "22%",
+        "222",
+        "7%",
+        "76.0x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Aarti Pharmalabs",
+        "1,819",
+        "20%",
+        "175",
+        "11%",
+        "40.0x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Process chemistry:",
+       "text": "flow chemistry and 30-40 new molecules developed a year for customers.",
+       "src": "Jul call p.14"
+      },
+      {
+       "lead": "Primary supplier on a fast-growing innovator drug,",
+       "text": "with a 10-year supply contract.",
+       "src": "May call p.14"
+      },
+      {
+       "lead": "Contracted battery-additive capacity",
+       "text": "with customers in North America and Korea; demand exceeds capacity.",
+       "src": "Jul call p.13"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Concentration:",
+       "text": "growth hinges on one CDMO product; the company won't disclose its share.",
+       "src": "Jul call p.6"
+      },
+      {
+       "lead": "Chinese competition",
+       "text": "in battery additives and commodity intermediates.",
+       "src": null
+      },
+      {
+       "lead": "Execution of new verticals:",
+       "text": "battery and semiconductor chemicals are new businesses with lower margins than CDMO.",
+       "src": "Jul call p.16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Anchor CDMO product slows or loses share",
+        "Operational",
+        "Not disclosed; watch pharma segment growth"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capex delays (pilot plant, electrolyte phase 2)",
+        "Operational",
+        "Already slipped one quarter"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Raw material / shipping disruption (Gulf conflict)",
+        "Operational",
+        "Managed so far"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Inventory build-up",
+        "Financial",
+        "149 days in FY26"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹31,700 Cr",
+       "sub": "FY28 market cap · about +24%",
+       "text": "Revenue grows 30% a year to ~₹2,260 Cr in FY28 at a 28% net margin (₹634 Cr), valued at 50x."
+      },
+      {
+       "name": "Base",
+       "value": "₹21,800 Cr",
+       "sub": "FY28 market cap · about –15%",
+       "text": "25% growth to ~₹2,090 Cr at a 26% net margin (₹544 Cr), valued at 40x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹10,600 Cr",
+       "sub": "FY28 market cap · about –58%",
+       "text": "Anchor product plateaus: 15% growth to ~₹1,770 Cr at a 20% net margin (₹354 Cr), valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "66.2x",
+       "label": "P/E, trailing (Neuland 56x)"
+      },
+      {
+       "value": "~47x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "15.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~37%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A high-quality chemistry business with a clean balance sheet and a credible growth record. The price already assumes 25%+ growth and today's margins for years; even our base case points lower in two years, so the payoff depends on CDMO and battery chemicals beating guidance.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue growth against 25% (H1 is ~40% of the year)",
+  "EBITDA margin near 36% as battery chemicals ramp",
+  "Revenue from the four validated CDMO products (H2 FY27)",
+  "Indichem plant completion and first orders",
+  "Inventory days"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (30 Apr 2026) and Q1 FY27 (24 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

@@ -1,0 +1,918 @@
+{
+  "symbol": "STLTECH",
+  "name": "Sterlite Technologies Ltd",
+  "screenerUrl": "https://www.screener.in/company/STLTECH/consolidated/",
+  "basis": "consolidated",
+  "companyId": "3209",
+  "warehouseId": "6599019",
+  "ratios": {
+    "market cap": 51527,
+    "current price": 1001,
+    "high": 1003,
+    "low": 84.6,
+    "stock p/e": 218,
+    "book value": 46.5,
+    "dividend yield": 0,
+    "roce": 7.65,
+    "roe": 1.24,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-06-30",
+        "label": "Q1 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        1522,
+        1494,
+        1322,
+        843,
+        872,
+        1074,
+        998,
+        1052,
+        1019,
+        1034,
+        1257,
+        1441,
+        1910
+      ],
+      "expenses": [
+        1308,
+        1281,
+        1232,
+        812,
+        808,
+        957,
+        892,
+        927,
+        887,
+        905,
+        1137,
+        1246,
+        1525
+      ],
+      "operating_profit": [
+        214,
+        213,
+        90,
+        31,
+        64,
+        117,
+        106,
+        125,
+        132,
+        129,
+        120,
+        195,
+        385
+      ],
+      "opm_pct": [
+        14,
+        14,
+        7,
+        3.7,
+        7,
+        11,
+        11,
+        12,
+        13,
+        12,
+        10,
+        14,
+        20
+      ],
+      "other_income": [
+        30,
+        11,
+        12,
+        24,
+        8,
+        5,
+        -4,
+        -24,
+        8,
+        12,
+        -6,
+        54,
+        12
+      ],
+      "interest": [
+        92,
+        95,
+        94,
+        71,
+        56,
+        62,
+        58,
+        65,
+        50,
+        55,
+        56,
+        63,
+        55
+      ],
+      "depreciation": [
+        81,
+        85,
+        84,
+        81,
+        78,
+        79,
+        80,
+        79,
+        77,
+        80,
+        79,
+        77,
+        85
+      ],
+      "pbt": [
+        71,
+        44,
+        -76,
+        -97,
+        -62,
+        -19,
+        -36,
+        -43,
+        13,
+        6,
+        -21,
+        109,
+        257
+      ],
+      "tax_pct": [
+        27,
+        27,
+        -22,
+        -15,
+        -23,
+        -26,
+        -33,
+        -7,
+        23,
+        33,
+        -19,
+        46,
+        23
+      ],
+      "net_profit": [
+        52,
+        32,
+        -59,
+        -82,
+        -48,
+        -14,
+        -24,
+        -40,
+        10,
+        4,
+        -17,
+        59,
+        197
+      ],
+      "eps": [
+        1.35,
+        0.85,
+        -1.43,
+        -2.05,
+        -0.98,
+        -0.29,
+        -0.49,
+        -0.82,
+        0.2,
+        0.08,
+        -0.35,
+        1.21,
+        4.04
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2015,
+        "index": 0,
+        "endDate": "2015-03-31",
+        "label": "FY15"
+      },
+      {
+        "kind": "year",
+        "fy": 2016,
+        "index": 0,
+        "endDate": "2016-03-31",
+        "label": "FY16"
+      },
+      {
+        "kind": "year",
+        "fy": 2017,
+        "index": 0,
+        "endDate": "2017-03-31",
+        "label": "FY17"
+      },
+      {
+        "kind": "year",
+        "fy": 2018,
+        "index": 0,
+        "endDate": "2018-03-31",
+        "label": "FY18"
+      },
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        3097,
+        2144,
+        2449,
+        3177,
+        5087,
+        5154,
+        4825,
+        5437,
+        6925,
+        4083,
+        3996,
+        4745
+      ],
+      "expenses": [
+        2634,
+        1685,
+        1929,
+        2431,
+        3968,
+        4085,
+        4015,
+        4772,
+        6030,
+        3612,
+        3580,
+        4176
+      ],
+      "operating_profit": [
+        463,
+        459,
+        519,
+        746,
+        1120,
+        1069,
+        811,
+        665,
+        895,
+        471,
+        416,
+        569
+      ],
+      "opm_pct": [
+        15,
+        21,
+        21,
+        23,
+        22,
+        21,
+        17,
+        12,
+        13,
+        12,
+        10,
+        12
+      ],
+      "other_income": [
+        49,
+        10,
+        20,
+        38,
+        37,
+        -25,
+        54,
+        -22,
+        -64,
+        74,
+        -15,
+        75
+      ],
+      "interest": [
+        327,
+        119,
+        123,
+        104,
+        105,
+        221,
+        203,
+        238,
+        311,
+        293,
+        241,
+        224
+      ],
+      "depreciation": [
+        185,
+        126,
+        159,
+        182,
+        195,
+        290,
+        285,
+        308,
+        309,
+        314,
+        316,
+        313
+      ],
+      "pbt": [
+        0,
+        225,
+        257,
+        497,
+        856,
+        533,
+        377,
+        97,
+        211,
+        -62,
+        -156,
+        107
+      ],
+      "tax_pct": [
+        3355,
+        29,
+        15,
+        27,
+        32,
+        20,
+        30,
+        54,
+        40,
+        -8,
+        -21,
+        48
+      ],
+      "net_profit": [
+        -4,
+        160,
+        218,
+        364,
+        578,
+        424,
+        265,
+        45,
+        127,
+        -57,
+        -123,
+        56
+      ],
+      "eps": [
+        -0.07,
+        3.89,
+        5.06,
+        8.34,
+        13.98,
+        10.74,
+        6.95,
+        1.51,
+        3.54,
+        -1.28,
+        -2.52,
+        1.15
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46c547c0-9df0-40ce-9faa-1a89a37490b3.pdf",
+      "pptUrl": null,
+      "recordingUrl": "https://www.youtube.com/watch?v=Qpfy9F1Pm64"
+    },
+    {
+      "month": "Jul 2026",
+      "yearMonth": "2026-07",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a08fac5-bc05-4f79-acee-f6a5076525cd.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa18a79-e103-49db-ba78-2e6d478a9a9a.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=gcWLxQjH66E"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9792f14-5da1-407c-988c-72dc2efbbfc7.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2026/05/Investor-Earnings-Presentation.pdf",
+      "recordingUrl": "https://stl.tech/download"
+    },
+    {
+      "month": "Jan 2026",
+      "yearMonth": "2026-01",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0a51053-117e-457b-90f3-4487eed18370.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2026/01/Investor-Earnings-Presentation-1.pdf",
+      "recordingUrl": "https://youtu.be/6bAODWkjoMo"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6103688c-1b5b-4922-b304-d2d348f60fea.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2025/11/Earnings-call_Presentation-Q2_FY26.pdf",
+      "recordingUrl": "https://stl.tech/wp-content/uploads/2025/11/STL-Q2FY26-Earnings-call-audio.mp3"
+    },
+    {
+      "month": "Jul 2025",
+      "yearMonth": "2025-07",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8111472f-4f00-4159-9e5a-70f93bf1b0d8.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a33a16d-778d-4047-8e61-79e95df6983b.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/STLTECH_17052025150212_SEintimationQ4FY25Earningscalloutcome_signed.pdf",
+      "recordingUrl": "https://youtu.be/lENRKnEMIFE?si=TSH19EYSlo3_y8QG"
+    },
+    {
+      "month": "Jan 2025",
+      "yearMonth": "2025-01",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98f6b077-32ee-41f8-b96d-a36366cf2a48.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46ac8e7e-9211-4d2f-beb8-498619b060ec.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2024/11/Earnings_Presentation-Q2_FY25_draft_v2.2_vF.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb5088c5-7916-4e9a-97b1-03812320978e.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2024",
+      "yearMonth": "2024-06",
+      "transcriptUrl": null,
+      "pptUrl": "https://stl.tech/wp-content/uploads/2024/07/Earnings_Presentation-Q1_FY25_vF.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab8a5353-690d-44b9-9a2c-85e662c1313e.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2024/05/3.-Earnings_Presentation-Q4_FY24_v2.7_Final.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2024",
+      "yearMonth": "2024-03",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5000d23-d4f3-41f2-ac2e-af2d6ab05dd4.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2024/03/Project-Success_Investor-Presentation_v3.8.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2024",
+      "yearMonth": "2024-01",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e1c83ea-22bf-46f1-a606-abdce7e0d354.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ada3a160-f761-4b79-bd64-2b5f16f5d072.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2023/10/Earnings_Presentation_Q2_FY24-26Oct2023_vf.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2023",
+      "yearMonth": "2023-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f977511c-8cf8-4307-bb68-3f71b390b31e.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f67a7cf6-07d1-458b-b58b-ae45bfe8cba0.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aabd4116-b256-4030-a0e9-da084287c685.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edb54366-e7d9-4822-a309-b9cd06074de7.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2023",
+      "yearMonth": "2023-03",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ad17e66-dfa4-4a77-bd11-facee1a99fab.pdf",
+      "pptUrl": "https://stl.tech/wp-content/uploads/2023/05/Earnings_Presentation_Q4_FY23_vf.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8250c41e-d77a-4a97-afc5-1bafda8d8550.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad554080-63a5-43aa-a80b-f435232b79b7.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2022",
+      "yearMonth": "2022-07",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d65a7b3-0392-497e-b2bb-38645a1de49b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46f0f4f4-ee5d-4c4c-852b-7ee8bd9a76c8.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2022",
+      "yearMonth": "2022-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c216741d-f554-45fc-9338-d01c13e3fada.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2022",
+      "yearMonth": "2022-03",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c251bd6a-4bf3-4db2-acb9-5107680ce07b.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2022",
+      "yearMonth": "2022-03-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81d82d7e-de27-44df-b8bc-b960c9de427f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2022",
+      "yearMonth": "2022-02",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d3e8e3-8e6b-4115-be68-9e8f0a3363bc.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2021",
+      "yearMonth": "2021-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f51ea93-2584-4ab9-ae64-282e18e77100.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Sep 2021",
+      "yearMonth": "2021-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c163f94-6761-45aa-ac3b-31ca023aad4d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2021",
+      "yearMonth": "2021-07",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Technologies_Q1FY22_Earnings%20Call_22%20July%202021.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6593315f-416d-4b1d-9ed5-ee00c264fd6d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2021",
+      "yearMonth": "2021-03",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript-of-Sterlite-Technologies_Q4FY21_Earnings-Call_29-April-2021.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2021",
+      "yearMonth": "2021-01",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript-of-Sterlite-Technologies_Q3FY21_Earnings-Call_20-January%202021.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2020",
+      "yearMonth": "2020-10",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript-of-Sterlite-Technologies-Q2FY21-Earnings-Call-22-October-2020.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2020",
+      "yearMonth": "2020-07",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript-of-Sterlite-Technologies-Q1-Y21-Earnings-Call-23-July-2020.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2020",
+      "yearMonth": "2020-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaa54b23-f26d-4ca6-a6bc-398182138f93.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2020",
+      "yearMonth": "2020-05-b",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Technologies_%20Q4%20FY20%20Earnings%20Call_12%20May%202020.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6c59285-98b3-473d-a5ab-0689e5dea22f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2020",
+      "yearMonth": "2020-01",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Tech%20Q3FY20%20Earnings%20Call_15%20January%202020%20.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2019",
+      "yearMonth": "2019-10",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Tech%20Q2FY20%20Earnings%20Call_24%20October%202019.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2019",
+      "yearMonth": "2019-07",
+      "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Tech%20Q1FY20%20Earnings%20Call_18%20July%202019.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Apr 2019",
+      "yearMonth": "2019-04",
+      "transcriptUrl": "https://www.stl.tech/pdf/transcript-new/Transcript%20Sterlite%20Tech%20Q4FY19%20Earnings%20Call_23%20April%202019.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2019",
+      "yearMonth": "2019-01",
+      "transcriptUrl": "https://www.stl.tech/pdf/transcript-new/Transcript%20Sterlite%20Tech%20Q3FY19%20Earnings%20Call_24%20Jan.%2019.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Apr 2018",
+      "yearMonth": "2018-04",
+      "transcriptUrl": "https://www.stl.tech/pdf/transcript-of-sterlite-tech-q4fy18-earnings-call-25apr-18.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2018",
+      "yearMonth": "2018-01",
+      "transcriptUrl": "https://www.stl.tech/pdf/transcript_of_sterlite_tech_Q3FY18_earnings_call_17_jan_modified.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2016",
+      "yearMonth": "2016-07",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DABB1B27_26A4_4DFF_9E27_9E8313377647_124455.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2016",
+      "yearMonth": "2016-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F5540A5F_B914_431B_8F6F_06F5B2633734_095736.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2016",
+      "yearMonth": "2016-01",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A3B7AF32_76C5_45FD_8C08_47C9BE2030A1_153617.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2015",
+      "yearMonth": "2015-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91D1A9DD_0E23_4663_8ACB_FACD2FD9D23D_172857.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2015",
+      "yearMonth": "2015-10-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=364ABD3A_ACFD_47F1_A533_FE51B2EACAD7_125231.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jul 2015",
+      "yearMonth": "2015-07",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1842E54A_427D_4581_AF49_549F7210C138_183532.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "Sterlite Tech.",
+      "screenerPath": "/company/STLTECH/consolidated/",
+      "marketCapCr": 51526.64,
+      "pe": 218.13,
+      "salesQtrCr": 1910,
+      "salesGrowthQtrPct": 87.44,
+      "roce": 7.65
+    },
+    {
+      "name": "ITI",
+      "screenerPath": "/company/ITI/",
+      "marketCapCr": 23201.51,
+      "pe": null,
+      "salesQtrCr": 425.03,
+      "salesGrowthQtrPct": -14.65,
+      "roce": 1.43
+    },
+    {
+      "name": "Tejas Networks",
+      "screenerPath": "/company/TEJASNET/consolidated/",
+      "marketCapCr": 8247.05,
+      "pe": null,
+      "salesQtrCr": 402.16,
+      "salesGrowthQtrPct": 99.11,
+      "roce": -14.64
+    },
+    {
+      "name": "Optiemus Infra.",
+      "screenerPath": "/company/OPTIEMUS/consolidated/",
+      "marketCapCr": 7064.28,
+      "pe": 97.22,
+      "salesQtrCr": 882.99,
+      "salesGrowthQtrPct": 102.82,
+      "roce": 10.92
+    },
+    {
+      "name": "Orient Cables",
+      "screenerPath": "/company/ORIENTCABL/consolidated/",
+      "marketCapCr": 4608.89,
+      "pe": 85.65,
+      "salesQtrCr": 489.16,
+      "salesGrowthQtrPct": null,
+      "roce": null
+    },
+    {
+      "name": "Valiant Commun.",
+      "screenerPath": "/company/526775/consolidated/",
+      "marketCapCr": 1971.58,
+      "pe": 72.38,
+      "salesQtrCr": 25.42,
+      "salesGrowthQtrPct": 38.76,
+      "roce": 37.69
+    },
+    {
+      "name": "Birla Cable",
+      "screenerPath": "/company/BIRLACABLE/",
+      "marketCapCr": 1127.3,
+      "pe": 24.4,
+      "salesQtrCr": 266.64,
+      "salesGrowthQtrPct": 51.12,
+      "roce": 8.93
+    }
+  ],
+  "fetchedAt": "2026-10-05T19:41:00.052Z"
+}

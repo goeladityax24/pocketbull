@@ -1,0 +1,280 @@
+{
+  "symbol": "AEROFLEX",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6401402c-a5ca-4785-87db-477dd4e8d73c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=667a7c2b-69e4-4a7c-862a-b051b31878d7.pdf",
+    "recordingUrl": "https://www.aeroflexindia.com/uploads/topics/17852384829298.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:46:07.309Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-28",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin of 25% in a few years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next few years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "the target for the company overall is to achieve an EBITDA margin\nof 25% in the next few years, and we are right now on track to achieve that.",
+        "page": 5,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "EBITDA margin of 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity to 15,000 a year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Capacity raised to 9,000 a year in Q1",
+        "quote": "complete the 15,000 by the start of Q3.",
+        "page": 9,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "complete the 15,000",
+        "revises": "May call: within two quarters; now October-November, depending on machine suppliers"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity at ~60-65% in Q4",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "About 750 skids a month on 15,000 a year capacity",
+        "quote": "So as of now, how the things are playing up, we feel that, that is intact.",
+        "page": 12,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "that is intact",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Flexible hose capacity to 20 million metres",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we have planned to increase the production from 17.5 million meters per annum\ncurrently to 20 million meters per annum and it should be completed by Q3 of this financial\nyear.",
+        "page": 3,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "20 million meters",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid exports this year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "in this financial year, we'll definitely have business\ncoming in from international market.",
+        "page": 9,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "international market",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre fire hose assembly commercial",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "For the largest US customer; 23-26% margin",
+        "quote": "should be commercialized\nby the end of this quarter or latest by the start of next quarter.",
+        "page": 7,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "fire hose",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity used at ~80% in FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Optimum is about 80% of 15,000 a year",
+        "quote": "once it is commissioned, we expect it to be up and running and then to be utilized at the\noptimum level in the next financial year.",
+        "page": 11,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "optimum level",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Flexible hose business revenue at peak",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "at peak use of 20 million metres",
+        "basis": "segment",
+        "segment": "Flexible hoses and assemblies",
+        "condition": null,
+        "quote": "we are looking at a top line of anywhere between INR650\ncrores to INR675 crores.",
+        "page": 5,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "650 crores to INR675",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 72% to ₹146 Cr, with EBITDA up 116% to ₹33.5 Cr (23.0% margin) and PAT of ₹18.8 Cr. Skid assemblies for data-centre liquid cooling brought in ₹32.4 Cr (1,040 skids, about 23% of revenue) and flexible hoses grew 41%. Skid capacity reached 9,000 a year and should hit 15,000 by October-November; management kept its Q4 run-rate target and the 25% EBITDA margin goal.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "15,000-skid capacity now by the start of Q3 (October-November), waiting on machines",
+          "page": 11
+        },
+        {
+          "change": "reiterated",
+          "text": "Q4 exit at about 60-65% of 15,000 skids a year",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Flexible hose capacity to 20 million metres by Q3",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "Data-centre fire hose assemblies for the largest US customer by Q2-Q3",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are pleased to report our highest quarterly performance ever.",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Margins",
+          "answer": "Margin dipped 80 bps on staff for the skid unit, a new plant at Chakan and higher logistics costs from the West Asia crisis.",
+          "page": 14
+        },
+        {
+          "topic": "Skid visibility",
+          "answer": "The customer gives a two-month dispatch plan plus tentative projects for the next quarter; no order book.",
+          "page": 13
+        },
+        {
+          "topic": "Skid pricing",
+          "answer": "Price per skid varies from ₹1 lakh to ₹5 lakh by design; margins are in line with the company average.",
+          "page": 6
+        },
+        {
+          "topic": "Is the skid share target still 25%?",
+          "answer": "Will answer at year end; quarters vary.",
+          "page": 8
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Skid capacity expansion slipped because of machine-supplier delays.",
+          "page": 11
+        },
+        {
+          "text": "No order book for skids; only two months of dispatch visibility from one customer.",
+          "page": 13
+        },
+        {
+          "text": "Employee and other costs rose faster than revenue (expansion and logistics).",
+          "page": 12
+        }
+      ],
+      "watch_next": [
+        "15,000-skid capacity live by October-November",
+        "Q2 skid revenue and volumes",
+        "EBITDA margin moving back above 23%",
+        "First international skid orders"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Flexible stainless-steel hoses and assemblies, metal bellows, fittings, and SFN skid assemblies for data-centre liquid cooling",
+        "customers": "Exports to the US, Europe (Italy, Spain, France, UK) and others; one cooling company for skids in India",
+        "revenue_mix": "Skids ₹32.4 Cr (~23%); hose business 63% assemblies, 37% plain hose; Hyd-Air ₹7 Cr; bellows ₹3 Cr",
+        "demand_drivers": "AI data-centre build-out (about 40 skids per megawatt), switch from rubber to metal hoses, export growth"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6401402c-a5ca-4785-87db-477dd4e8d73c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=667a7c2b-69e4-4a7c-862a-b051b31878d7.pdf",
+    "transcriptPages": 17,
+    "transcriptHasText": true
+  }
+}

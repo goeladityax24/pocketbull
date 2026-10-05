@@ -1,0 +1,737 @@
+{
+  "symbol": "ACUTAAS",
+  "name": "Acutaas Chemicals Ltd",
+  "screenerUrl": "https://www.screener.in/company/ACUTAAS/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1274921",
+  "warehouseId": "70462195",
+  "ratios": {
+    "market cap": 25572,
+    "current price": 3122,
+    "high": 3740,
+    "low": 1374,
+    "stock p/e": 66.2,
+    "book value": 202,
+    "dividend yield": 0.08,
+    "roce": 31.6,
+    "roe": 24,
+    "face value": 5
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-06-30",
+        "label": "Q1 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        154,
+        172,
+        166,
+        225,
+        177,
+        247,
+        275,
+        308,
+        207,
+        306,
+        393,
+        433,
+        330
+      ],
+      "expenses": [
+        120,
+        148,
+        140,
+        182,
+        147,
+        198,
+        206,
+        224,
+        156,
+        211,
+        243,
+        249,
+        217
+      ],
+      "operating_profit": [
+        34,
+        25,
+        27,
+        43,
+        30,
+        49,
+        69,
+        85,
+        51,
+        95,
+        151,
+        184,
+        113
+      ],
+      "opm_pct": [
+        22,
+        14,
+        16,
+        19,
+        17,
+        20,
+        25,
+        28,
+        25,
+        31,
+        38,
+        42,
+        34
+      ],
+      "other_income": [
+        1,
+        -30,
+        3,
+        1,
+        1,
+        8,
+        2,
+        6,
+        16,
+        10,
+        5,
+        11,
+        2
+      ],
+      "interest": [
+        1,
+        1,
+        3,
+        2,
+        4,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "depreciation": [
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        6,
+        7,
+        8,
+        8,
+        10,
+        10,
+        10
+      ],
+      "pbt": [
+        31,
+        -10,
+        24,
+        37,
+        20,
+        50,
+        63,
+        83,
+        58,
+        96,
+        145,
+        184,
+        104
+      ],
+      "tax_pct": [
+        28,
+        71,
+        25,
+        31,
+        26,
+        25,
+        28,
+        24,
+        24,
+        25,
+        27,
+        27,
+        28
+      ],
+      "net_profit": [
+        22,
+        -17,
+        18,
+        26,
+        15,
+        38,
+        45,
+        63,
+        44,
+        72,
+        106,
+        134,
+        75
+      ],
+      "eps": [
+        2.71,
+        -2.55,
+        2.27,
+        3.41,
+        1.71,
+        4.56,
+        5.49,
+        7.63,
+        5.41,
+        8.82,
+        13.19,
+        16.09,
+        9.07
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2017,
+        "index": 0,
+        "endDate": "2017-03-31",
+        "label": "FY17"
+      },
+      {
+        "kind": "year",
+        "fy": 2018,
+        "index": 0,
+        "endDate": "2018-03-31",
+        "label": "FY18"
+      },
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        160,
+        188,
+        239,
+        240,
+        341,
+        520,
+        617,
+        717,
+        1007,
+        1339
+      ],
+      "expenses": [
+        137,
+        157,
+        196,
+        198,
+        260,
+        415,
+        493,
+        589,
+        775,
+        859
+      ],
+      "operating_profit": [
+        23,
+        31,
+        42,
+        42,
+        80,
+        105,
+        123,
+        128,
+        232,
+        480
+      ],
+      "opm_pct": [
+        14,
+        16,
+        18,
+        17,
+        24,
+        20,
+        20,
+        18,
+        23,
+        36
+      ],
+      "other_income": [
+        0,
+        3,
+        0,
+        2,
+        1,
+        3,
+        4,
+        -25,
+        17,
+        42
+      ],
+      "interest": [
+        3,
+        3,
+        5,
+        6,
+        6,
+        6,
+        2,
+        6,
+        6,
+        3
+      ],
+      "depreciation": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        10,
+        12,
+        16,
+        27,
+        36
+      ],
+      "pbt": [
+        19,
+        28,
+        35,
+        35,
+        72,
+        91,
+        112,
+        82,
+        216,
+        483
+      ],
+      "tax_pct": [
+        35,
+        35,
+        34,
+        21,
+        25,
+        21,
+        26,
+        41,
+        26,
+        26
+      ],
+      "net_profit": [
+        12,
+        18,
+        23,
+        27,
+        54,
+        72,
+        83,
+        49,
+        160,
+        356
+      ],
+      "eps": [
+        40.17,
+        61.67,
+        11.1,
+        13.08,
+        8.57,
+        9.87,
+        11.43,
+        5.8,
+        19.38,
+        43.51
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Jul 2026",
+      "yearMonth": "2026-07",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe97c4c1-571f-4e47-bc3c-0980da36d7bb.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4abd0291-38c8-472f-916c-bb450ca8ca24.pdf",
+      "recordingUrl": "https://backend.acutaas.com/resources/investor/10045187-1784897022638.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece102cb-b471-400c-949b-4a85748eb1a1.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f01fe607-5d15-45c1-a630-ad9b4ef4809b.pdf",
+      "recordingUrl": "https://backend.acutaas.com/resources/investor/recording-1777555736851.mp3"
+    },
+    {
+      "month": "Apr 2026",
+      "yearMonth": "2026-04",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a64b98a0-07ec-40de-b2b3-1951a5268396.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e54dbb-1fc1-4a61-bf8e-c25cc36eb18c.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2d8e948-faf3-460a-a9b6-50733ab37377.pdf",
+      "recordingUrl": "https://acutaas.com/static/uploadfiles/downloads/download_5812.mp3?20260128125718"
+    },
+    {
+      "month": "Oct 2025",
+      "yearMonth": "2025-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e95b7ad8-fa66-43b3-93ac-373f01df4050.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30ad017a-17e4-461d-8db5-428fecd374ae.pdf",
+      "recordingUrl": "https://youtu.be/KnctNrwOWVI"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69baf7ec-c42e-4d8f-9254-19012d7a6fc5.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a14c5c5-0bc4-4c39-8ee0-7d53d8b37fee.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c02afa8c-fcc9-43bf-be61-ba12109d1170.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3e0f293-0d8d-428f-abbe-9350103a7159.pdf",
+      "recordingUrl": "https://www.amiorganics.com/static/uploadfiles/downloads/download_5618.mp3?2025050"
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92197edb-3a1b-469f-99e6-de951dc280ba.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89ce6e0b-0a50-4cdc-9f62-969c0d3c4c54.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=yyk_OdxOTJs&t=86s"
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34f75710-e652-47a8-9be6-bb16584c1108.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba58ca59-c75e-4b59-828a-206727a5caa1.pdf",
+      "recordingUrl": "https://www.amiorganics.com/static/uploadfiles/downloads/download_5616.mp3?20241029112843"
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e57f033-2345-4767-8305-87ff3de2fd88.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e221215-7ed8-461c-813e-7fbc90551879.pdf",
+      "recordingUrl": "https://amiorganics.com/static/uploadfiles/downloads/download_2615.mp3?20240812132256"
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bc8d8d2-5e01-400a-9e7d-908510f66e89.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=747620c2-48be-43f8-8669-8b57bff19c17.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63be8a97-3408-4b57-9c67-20cba6a62be2.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f432a92-3af2-4119-8e73-898880099e45.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fada1183-d7e7-4bdc-9abf-2f5802e4b5fe.pdf",
+      "recordingUrl": "https://www.amiorganics.com/static/uploadfiles/downloads/download_4026.mp3?202402121235"
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=570ee6f4-b579-4794-aa50-b6f0d8ad13e6.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09a2cb85-0720-4973-9d6a-d00fa22566cb.pdf",
+      "recordingUrl": "https://amiorganics.com/static/uploadfiles/downloads/download_9798.mp3?2023110909"
+    },
+    {
+      "month": "Aug 2023",
+      "yearMonth": "2023-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a482e17-b6e8-4452-b783-0fffed4326bc.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce93d03e-1487-46bd-b7f0-c72b40643311.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00238623-8d4b-4be6-b28e-e582c787db59.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6bdb2e5-60eb-433f-a7bc-0483be11c40f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f432a92-3af2-4119-8e73-898880099e45.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02-b",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ad61ffc-6ea4-45f4-a276-6de71864fdda.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4a4526e-6f42-4790-a3ab-405ea93005d4.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4cee9ab-53b4-4329-a64b-e3197deb6cb6.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aa72cec-d195-461a-9c36-bc59251d20c5.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2022",
+      "yearMonth": "2022-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4c6d0dc-fc43-4c4a-acab-bab9f25b0214.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=052ac7bf-9d59-46ca-9aa9-ddb955cdaf9a.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2022",
+      "yearMonth": "2022-08-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d27d16a-1243-4973-96b6-488f82075a49.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2022",
+      "yearMonth": "2022-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47b0200f-9a69-42f3-ae42-deb30b3e5561.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=747b2aee-57cb-4b7c-b05a-45bb0eb233b4.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2022",
+      "yearMonth": "2022-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ec5ef21-a97e-4738-ad39-ded0288246e8.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89f56f06-d215-4de4-8bcd-ebb81c8c73a2.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2021",
+      "yearMonth": "2021-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9638af22-cfa3-4334-88bd-0df0bef3cb98.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ed0197f-845f-4416-a716-258214c6a283.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "Sun Pharma.Inds.",
+      "screenerPath": "/company/SUNPHARMA/consolidated/",
+      "marketCapCr": 424886.39,
+      "pe": 33.63,
+      "salesQtrCr": 15299.88,
+      "salesGrowthQtrPct": 10.46,
+      "roce": 20.53
+    },
+    {
+      "name": "Divi's Lab.",
+      "screenerPath": "/company/DIVISLAB/consolidated/",
+      "marketCapCr": 242932.44,
+      "pe": 81.54,
+      "salesQtrCr": 3080,
+      "salesGrowthQtrPct": 27.8,
+      "roce": 21.97
+    },
+    {
+      "name": "Torrent Pharma.",
+      "screenerPath": "/company/TORNTPHARM/consolidated/",
+      "marketCapCr": 181715.47,
+      "pe": 81.44,
+      "salesQtrCr": 4921,
+      "salesGrowthQtrPct": 54.85,
+      "roce": 15.19
+    },
+    {
+      "name": "Zydus Lifesci.",
+      "screenerPath": "/company/ZYDUSLIFE/consolidated/",
+      "marketCapCr": 113660.33,
+      "pe": 23.35,
+      "salesQtrCr": 8017,
+      "salesGrowthQtrPct": 21.96,
+      "roce": 21.14
+    },
+    {
+      "name": "Cipla",
+      "screenerPath": "/company/CIPLA/consolidated/",
+      "marketCapCr": 107662.82,
+      "pe": 30.08,
+      "salesQtrCr": 7119.28,
+      "salesGrowthQtrPct": 2.33,
+      "roce": 15.49
+    },
+    {
+      "name": "Laurus Labs",
+      "screenerPath": "/company/LAURUSLABS/consolidated/",
+      "marketCapCr": 106249.38,
+      "pe": 97.18,
+      "salesQtrCr": 2026.31,
+      "salesGrowthQtrPct": 29.1,
+      "roce": 17.76
+    },
+    {
+      "name": "Mankind Pharma",
+      "screenerPath": "/company/MANKIND/consolidated/",
+      "marketCapCr": 102718.04,
+      "pe": 48.17,
+      "salesQtrCr": 4030.59,
+      "salesGrowthQtrPct": 12.89,
+      "roce": 13.53
+    },
+    {
+      "name": "Acutaas Chemical",
+      "screenerPath": "/company/ACUTAAS/consolidated/",
+      "marketCapCr": 25571.8,
+      "pe": 66.21,
+      "salesQtrCr": 329.67,
+      "salesGrowthQtrPct": 59.08,
+      "roce": 31.56
+    }
+  ],
+  "fetchedAt": "2026-10-05T19:40:19.158Z"
+}
