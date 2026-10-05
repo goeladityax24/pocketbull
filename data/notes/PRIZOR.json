@@ -1,7 +1,7 @@
 {
  "as_of": "2026-10-05",
  "descriptor": "CCTV camera maker (SME)",
- "lede": "A small Indian CCTV brand whose sales doubled as STQC rules pushed out uncertified Chinese cameras. Profit has grown, but cash hasn't, debt jumped, and the company holds no earnings calls; its only guidance comes from broker-conference notes.",
+ "lede": "A small Indian CCTV brand whose sales doubled as STQC rules pushed out uncertified Chinese cameras. Profit has grown, but cash hasn't, debt jumped, and the company holds no earnings calls; its guidance (FY27 revenue up 50-60%) comes only from broker notes on management meets.",
  "market": {
   "price": 1254,
   "mcap_cr": 1354,
@@ -257,7 +257,7 @@
    "blocks": [
     {
      "type": "text",
-     "text": "Prizor holds no earnings calls and gives no numeric guidance in its own documents. At Arihant's Bharat Connect conference (Mar 2026) management spoke of volumes; those claims come from a broker note and attendee notes, not a transcript. The table sets them and the investor-presentation claims against the numbers.",
+     "text": "Prizor holds no earnings calls and gives no numeric guidance in its own documents. Management has spoken at broker events: Arihant's Bharat Connect (Mar 2026) and Choice International's INSIGHTX meet (Jun 2026). Those claims come from broker and attendee notes, not transcripts. The table sets them and the investor-presentation claims against the numbers.",
      "src": null
     },
     {
@@ -278,6 +278,17 @@
       }
      ],
      "rows": [
+      {
+       "cells": [
+        "FY27 revenue growth of ~50-60% (Choice note, Jun 2026)",
+        "On FY26's ₹153 Cr that is about ₹230-245 Cr; first check at H1 FY27",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
       {
        "cells": [
         "Dealer network expansion",
@@ -324,10 +335,10 @@
       },
       {
        "cells": [
-        "7-8 lakh cameras in FY26 (conference notes)",
-        "FY26 CCTV revenue at an average ₹1,200-1,300 a camera implies roughly 9 lakh units",
+        "7-8 lakh cameras in FY26 (Arihant conference, Mar 2026)",
+        "~8 lakh sold in FY26, per the Choice note (Jun 2026); FY26 CCTV revenue agrees",
         {
-         "text": "Likely met",
+         "text": "Met",
          "tag": "kept"
         }
        ],
@@ -631,6 +642,7 @@
   }
  ],
  "watch": [
+  "H1 FY27 revenue against the 50-60% FY27 growth guide (about ₹63-67 Cr if growth is even across the year)",
   "H1 FY27 revenue vs H2 FY26's ₹106 Cr",
   "Operating cash flow and short-term debt",
   "Explanation of the ₹10 Cr advance",
@@ -641,6 +653,7 @@
   "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
   "Investor presentations, H1 FY26 (Nov 2025) and FY26 (Apr 2026)",
   "Arihant Bharat Connect conference, Mar 2026: Arihant post-conference note and attendee notes (posted on X)",
+  "Choice International, INSIGHTX 2026 management meet note (Jun 2026, posted on X)",
   "FY26 annual report",
   "Peer data from Screener"
  ]
