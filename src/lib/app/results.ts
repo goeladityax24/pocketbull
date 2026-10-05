@@ -55,7 +55,7 @@ function direct(view: TrackerView, metric: ResultMetric, p: Period) {
     if (cell?.check.expected) {
       const g = item.tracked.guidance;
       const split = seasonalText(cell.check);
-      return { expected: cell.check.expected, basis: `${split ?? `${said(g)}${g.period ? ` for ${g.period}` : ""}`} · ${item.tracked.source.month} call` };
+      return { expected: cell.check.expected, basis: `${split ?? `${said(g)}${g.period ? ` for ${g.period}` : ""}`} · ${item.tracked.source.label}` };
     }
   }
   return null;
@@ -74,7 +74,7 @@ function fromMargin(view: TrackerView, metric: ResultMetric, p: Period, revenue:
   const hi = g.high ?? lo;
   return {
     expected: { low: (revenue.low * lo) / 100, high: (revenue.high * hi) / 100, unit: "inr_cr" as const },
-    basis: `${said(g)} margin${g.period ? ` for ${g.period}` : ""} · ${item.tracked.source.month} call`,
+    basis: `${said(g)} margin${g.period ? ` for ${g.period}` : ""} · ${item.tracked.source.label}`,
   };
 }
 

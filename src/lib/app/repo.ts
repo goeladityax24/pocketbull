@@ -4,6 +4,7 @@ import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import type { GuidanceItem, InsightReport } from "../pipeline/guidance";
 import type { ResearchNote } from "../pipeline/note";
+import type { ExternalSource } from "../pipeline/source";
 import type { QuoteCheck } from "../pipeline/documents";
 import type { SavedRun } from "../pipeline/store";
 import type { Basis, CompanySnapshot } from "../pipeline/types";
@@ -35,9 +36,12 @@ export interface Link {
   id: string;
   url: string;
   title: string | null;
-  kind: "report" | "news" | "video" | "other";
+  kind: "report" | "news" | "video" | "conference" | "other";
   addedByName: string;
   createdAt: string;
+  /** Conference links: event date, and when a Claude session analysed it */
+  eventDate: string | null;
+  analysedAt: string | null;
 }
 
 export interface CompanyBundle {
@@ -130,6 +134,7 @@ interface RunRow {
   created_by_name: string | null;
   created_at: string;
   docs: SavedRun["docs"] | null;
+  source: ExternalSource | null;
 }
 
 interface GuidanceRow {
@@ -177,6 +182,7 @@ function toRuns(company: CompanyRow, runs: RunRow[], guidance: GuidanceRow[]): S
       extraction: { call_period: r.call_period ?? "", call_date: r.call_date, guidance: rows.map((g) => g.item), insights: r.insights },
       quoteChecks: rows.map((g) => g.quote_check),
       docs: r.docs ?? { transcriptUrl: r.transcript_url, pptUrl: r.ppt_url, transcriptPages: 0, transcriptHasText: false },
+      source: r.source ?? null,
       guidanceIds: rows.map((g) => String(g.id)),
       edited: rows.map((g) => g.edited_item),
     };
@@ -200,7 +206,7 @@ async function dbBundles(symbol: string | null, withNotes: boolean): Promise<Com
       .select("id, guidance_id, period_label, tag, reason, created_at, reverted_at, changed_by_name, guidance!inner(company_id)")
       .in("guidance.company_id", ids),
     symbol
-      ? sb.from("links").select("id, url, title, kind, created_at, company_id, added_by_name").in("company_id", ids).order("created_at", { ascending: false })
+      ? sb.from("links").select("id, url, title, kind, created_at, company_id, added_by_name, event_date, analysed_at").in("company_id", ids).order("created_at", { ascending: false })
       : Promise.resolve({ data: [], error: null }),
     symbol && withNotes
       ? sb.from("notes").select("id, body, author_name, guidance_id, created_at, company_id").in("company_id", ids).order("created_at", { ascending: false })
@@ -226,7 +232,7 @@ async function dbBundles(symbol: string | null, withNotes: boolean): Promise<Com
       })),
     links: (links.data ?? [])
       .filter((l) => l.company_id === c.id)
-      .map((l) => ({ id: String(l.id), url: l.url, title: l.title, kind: l.kind, addedByName: l.added_by_name ?? "Someone", createdAt: l.created_at })),
+      .map((l) => ({ id: String(l.id), url: l.url, title: l.title, kind: l.kind, addedByName: l.added_by_name ?? "Someone", createdAt: l.created_at, eventDate: l.event_date ?? null, analysedAt: l.analysed_at ?? null })),
     notes: withNotes
       ? (notes.data ?? [])
           .filter((n) => n.company_id === c.id)

@@ -38,13 +38,15 @@ export default async function AdminPage() {
   }
 
   const monthStart = new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString();
-  const [settings, bundles, open, monthReqs, log] = await Promise.all([
+  const [settings, bundles, open, monthReqs, log, conf] = await Promise.all([
     getSettings(),
     listBundles(),
     listRequests("open"),
     db().from("analysis_requests").select("id", { count: "exact", head: true }).gte("created_at", monthStart),
     db().from("audit_log").select("id, actor_name, action, entity_id, before, after, created_at").order("created_at", { ascending: false }).limit(25),
+    db().from("links").select("id, url, title, event_date, created_at, companies(symbol)").eq("kind", "conference").is("analysed_at", null).order("created_at"),
   ]);
+  const waiting = (conf.data ?? []).map((l) => ({ ...l, symbol: (l.companies as unknown as { symbol: string } | null)?.symbol ?? "?" }));
   const monthName = new Intl.DateTimeFormat("en-IN", { month: "long", year: "numeric" }).format(new Date());
 
   return (
@@ -84,6 +86,30 @@ export default async function AdminPage() {
                     <td className="sub">{fmtDate(r.createdAt)}</td>
                     <td className="sub">{r.note}</td>
                     <td><RequestActions id={r.id} /></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+
+      <section className="box flex flex-col gap-3 p-5">
+        <h2 className="m-0 text-lg font-semibold">Conference notes waiting</h2>
+        <p className="sub m-0">Links added as &ldquo;Conference / broker note&rdquo;. In a local Claude session say &ldquo;analyse the new conference links&rdquo;; they are marked done once synced.</p>
+        {waiting.length === 0 ? (
+          <p className="m-0 text-sm" style={{ color: "var(--ink-3)" }}>Nothing waiting.</p>
+        ) : (
+          <div className="scroll-x">
+            <table className="tbl" style={{ minWidth: 560 }}>
+              <thead><tr><th>Company</th><th>Event</th><th>Date</th><th>Link</th></tr></thead>
+              <tbody>
+                {waiting.map((l) => (
+                  <tr key={l.id}>
+                    <td className="num font-semibold">{l.symbol}</td>
+                    <td>{l.title}</td>
+                    <td className="sub">{l.event_date ? fmtDate(l.event_date) : "—"}</td>
+                    <td className="sub"><a href={l.url} target="_blank" rel="noreferrer">open</a></td>
                   </tr>
                 ))}
               </tbody>

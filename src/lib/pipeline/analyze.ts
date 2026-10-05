@@ -7,10 +7,11 @@ import { fetchCompany } from "./screener";
 import type { RunStore, SavedRun } from "./store";
 import type { CompanySnapshot, Concall } from "./types";
 import type { Period } from "./periods";
+import { sourceLabel, type ExternalSource } from "./source";
 
 export interface TrackedGuidance extends GuidanceEvaluation {
-  /** Which concall it came from */
-  source: { month: string; yearMonth: string; transcriptUrl: string };
+  /** Which concall (or conference note) it came from */
+  source: { month: string; yearMonth: string; transcriptUrl: string; label: string; external: boolean };
   quoteCheck: QuoteCheck;
   /** Later guidance for the same metric and period replaces this one for future periods */
   superseded: boolean;
@@ -62,7 +63,13 @@ export function buildTracker(snapshot: CompanySnapshot, runs: SavedRun[], opts: 
     );
     return {
       ...evaluateGuidance(g, snapshot, sameRun, opts),
-      source: { month: run.concall.month, yearMonth: run.concall.yearMonth, transcriptUrl: run.docs.transcriptUrl },
+      source: {
+        month: run.concall.month,
+        yearMonth: run.concall.yearMonth,
+        transcriptUrl: run.docs.transcriptUrl,
+        label: run.source ? sourceLabel(run.source) : `${run.concall.month} call`,
+        external: !!run.source,
+      },
       quoteCheck: run.quoteChecks[i] ?? "unverifiable",
       superseded: later,
     };
@@ -163,6 +170,8 @@ export async function importRun(args: {
   transcript?: PdfDoc | null;
   by?: string | null;
   scoring?: ScoringOptions;
+  /** A conference or broker note instead of a Screener concall */
+  source?: ExternalSource;
 }): Promise<{ run: SavedRun; tracker: Tracker; problems: string[] }> {
   const parsed = ExtractionResult.safeParse(args.extraction);
   if (!parsed.success) {
@@ -172,7 +181,18 @@ export async function importRun(args: {
   const s = args.snapshot;
   // Companies without transcripts (some SMEs): an analysis of the investor presentation,
   // with the presentation as the document the quotes are checked against
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const fromSource: Concall | null = args.source
+    ? {
+        month: `${MONTHS[Number(args.source.date.slice(5, 7)) - 1]} ${args.source.date.slice(0, 4)}`,
+        yearMonth: args.source.id,
+        transcriptUrl: args.source.links[0].url,
+        pptUrl: null,
+        recordingUrl: null,
+      }
+    : null;
   const concall =
+    fromSource ??
     pickConcall(s, args.concall) ??
     (args.concall && args.transcript ? (s.concalls.find((c) => c.yearMonth === args.concall && c.pptUrl) ?? null) : null);
   if (!concall) throw new Error(`No concall ${args.concall ?? "with a transcript"} on Screener for ${s.symbol}`);
@@ -200,6 +220,7 @@ export async function importRun(args: {
     usage: { model: "claude-session (Admin's plan)", inputTokens: 0, outputTokens: 0, costUsd: 0 },
     extraction: parsed.data,
     quoteChecks,
+    source: args.source ?? null,
     docs: {
       transcriptUrl: sourceUrl,
       pptUrl: concall.pptUrl,

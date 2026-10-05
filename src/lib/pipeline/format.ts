@@ -79,7 +79,7 @@ export function formatTracker(t: Tracker, run: SavedRun | null): string {
       const implied = c.seasonalShare && c.base
         ? ` · ${c.base.period.label} was ${num(c.seasonalShare.pct, 1)}% of ${c.seasonalShare.year.label}, so that share of the ${it.guidance.period} target`
         : c.impliedGrowthPct && c.period.kind !== "year" ? ` · ${c.impliedGrowthPct[0]}% growth implied by the ${it.guidance.period} target` : "";
-      return `  ${it.guidance.metric_label}: expect ${fmtRange(c.expected)}${inr}${base}${implied} · ${it.source.month} call`;
+      return `  ${it.guidance.metric_label}: expect ${fmtRange(c.expected)}${inr}${base}${implied} · ${it.source.label}`;
     };
     const next = live.flatMap((it) =>
       it.checks.filter((c) => c.tag === "expected" && c.period.label === t.nextPeriod!.label).map((c) => line(it, c)),
@@ -94,7 +94,7 @@ export function formatTracker(t: Tracker, run: SavedRun | null): string {
     }
     live
       .filter((it) => it.guidance.period === t.nextPeriod!.label && (it.guidance.kind === "qualitative" || it.guidance.kind === "date"))
-      .forEach((it) => out.push(`  Also said for ${t.nextPeriod!.label}: “${it.guidance.quote}” (${it.source.month} call, p.${it.guidance.page})`));
+      .forEach((it) => out.push(`  Also said for ${t.nextPeriod!.label}: “${it.guidance.quote}” (${it.source.label}, p.${it.guidance.page})`));
     const years = live.flatMap((it) =>
       it.checks.filter((c) => c.tag === "expected" && c.period.kind === "year").map((c) => ({ it, c })),
     );
@@ -111,7 +111,7 @@ export function formatTracker(t: Tracker, run: SavedRun | null): string {
     const g = it.guidance;
     const said = fmtSaid(g);
     out.push(
-      `\n• ${g.metric_label}${said ? ` ${said}` : ""} · ${g.period ?? g.horizon_text ?? "no period"} · ${it.source.month} call${it.superseded ? " · superseded" : ""}`,
+      `\n• ${g.metric_label}${said ? ` ${said}` : ""} · ${g.period ?? g.horizon_text ?? "no period"} · ${it.source.label}${it.superseded ? " · superseded" : ""}`,
     );
     out.push(`  “${g.quote.slice(0, 160)}${g.quote.length > 160 ? "…" : ""}”${g.page ? ` p.${g.page}` : ""} · quote ${it.quoteCheck}`);
     if (it.note) out.push(`  ${it.note}${g.keyword ? ` · keyword: ${g.keyword}` : ""}`);

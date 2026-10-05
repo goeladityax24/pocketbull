@@ -61,3 +61,23 @@ gh issue close <n> --comment "Done: <SYMBOL> <Mon YYYY> concall. <one-line headl
 ```
 
 Mark the request done on the web app's Admin page (or it closes with the GitHub issue). Then tell the Admin in chat: the headline, numbers to check in the next results, and anything that needs a human tag.
+
+## 7. Conference and broker notes (companies without concalls)
+
+Many small companies give no earnings calls but speak at broker conferences. Notes from those events are often posted on X as images. The Admin adds the post in the company's Research space as a **Conference / broker note**, with the event date. Claude follows this when the Admin says **"analyse the new conference links"**.
+
+1. List what's waiting: `npm run pending-sources`.
+2. Open each post in the browser (X opens without signing in). Save the images to `data/sources/<SYMBOL>/<id>/` with `curl -sL "<pbs.twimg.com image url>&name=4096x4096"`. The `id` is `<YYYY-MM>-<event-slug>`, e.g. `2026-03-arihant-bharat-connect`.
+3. Copy the text out of the images **word for word** into `data/sources/<SYMBOL>/<id>.txt`, with one `[[page N]]` marker per image. Don't fix the note-takers' wording.
+4. Write `data/sources/<SYMBOL>/<id>.json` in the `ExternalSource` shape (`src/lib/pipeline/source.ts`): event, date, and for each link the author, the grade (`broker_note` for a broker's published note, `attendee_note` for someone's own notes, `company` for a company document) and its images and pages. Group notes from the same event into one source.
+5. Extract as in step 3, plus `source_ref` on each item ("Arihant note", "attendee notes", "both notes"). Use speaker "Management (as reported in conference notes)". When two notes disagree, use the more specific one and say so in `condition`. Check numbers against Screener where you can (e.g. units × average price against revenue).
+6. Import and publish:
+
+```bash
+npm run import-run -- <SYMBOL> --file tmp/<SYMBOL>-<id>.json --source data/sources/<SYMBOL>/<id>.json --by "<Admin name>"
+npm run sync-db -- <SYMBOL>        # also marks the matching links "Analysed"
+npm run pending-sources            # should no longer list them
+git add data/sources/<SYMBOL> data/runs/<SYMBOL>
+```
+
+The quote check runs against our own transcription, not the original document. The tracker therefore labels these promises with the event and the note grades, so readers can see they are second-hand. A later company call or presentation on the same metric and period replaces the conference figure.

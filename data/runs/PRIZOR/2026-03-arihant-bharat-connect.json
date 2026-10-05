@@ -1,0 +1,263 @@
+{
+  "symbol": "PRIZOR",
+  "concall": {
+    "month": "Mar 2026",
+    "yearMonth": "2026-03-arihant-bharat-connect",
+    "transcriptUrl": "https://x.com/drprashantmish6/status/2033044600072638825",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T09:11:07.892Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-03-06",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "CCTV camera volumes, lakh units",
+        "kind": "absolute",
+        "low": 7,
+        "high": 8,
+        "unit": "other",
+        "approx": true,
+        "period": "FY26",
+        "horizon_text": "FY26 (\"near term\" in the Arihant note)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Arihant note says \"near term\"; attendee notes say FY26. At an ASP of ₹1,200-1,300, FY26 CCTV revenue implies roughly 9 lakh units.",
+        "quote": "Volume Guidance: On track for 7-8 lakh units in FY26",
+        "page": 2,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "7-8 lakh units",
+        "revises": null,
+        "source_ref": "both notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Long-term target of 1 crore CCTV cameras a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by 2030-31",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "long-term target of selling 1 crore CCTV cameras by 2030-31",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "1 crore cameras",
+        "revises": null,
+        "source_ref": "both notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Committed purchase of 50 lakh SoC units a year from FY28 for 3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": "from FY28, for 3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "committed to purchase 50 lakh SOC units annually from FY28 for 3 years",
+        "page": 2,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "50 lakh SOC",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Price hike of 10-15% in H2 FY26",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "10-15% hike implemented in H2 FY26 due to global cost increases",
+        "page": 2,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "price hike H2",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Pricing 10-15% below competitors",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "prices its products ~10-15% lower than competitors to attract dealers",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "pricing below competitors",
+        "revises": null,
+        "source_ref": "both notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Room for 4-5 assembly lines in the current plant, under ₹1 Cr each",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as demand grows",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Arihant note: four lines can make roughly 30 lakh cameras a year; two are installed",
+        "quote": "existing space allows for up to 4-5 lines without new facilities",
+        "page": 2,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "medium",
+        "keyword": "assembly lines",
+        "revises": null,
+        "source_ref": "both notes"
+      }
+    ],
+    "insights": {
+      "summary": "At Arihant's Bharat Connect conference in March 2026, Prizor said it is on track for 7-8 lakh CCTV cameras in FY26 and wants to sell 1 crore a year by 2030-31, against an Indian market of 5-6 crore cameras growing about 20% a year. The plant runs at only 15-20% utilisation, new assembly lines cost under ₹1 Cr each, and the company has committed to buy 50 lakh made-in-India SoC chips a year from FY28 through its IndieSemic tie-up. No revenue or margin targets were given; prices are 10-15% below rivals, with a 10-15% hike taken in H2 FY26.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Volume guidance of 7-8 lakh cameras for FY26 and a 1 crore cameras target by 2030-31",
+          "page": 2
+        },
+        {
+          "change": "new",
+          "text": "Commitment to buy 50 lakh SoC units a year from FY28 for three years",
+          "page": 2
+        },
+        {
+          "change": "new",
+          "text": "10-15% price hike in H2 FY26 on higher lens and SoC costs",
+          "page": 2
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Ground demand strong; sales growth via network expansion and compliance advantage",
+        "page": 2
+      },
+      "analyst_questions": [
+        {
+          "topic": "Capacity",
+          "answer": "Utilisation is 15-20%; lines can be added for under ₹1 Cr each, with room for 4-5 lines in the current space.",
+          "page": 2
+        },
+        {
+          "topic": "Imports",
+          "answer": "About 20% of components still come from China, none security-critical; PCBs and housings are made in-house.",
+          "page": 2
+        },
+        {
+          "topic": "Financial targets",
+          "answer": "No revenue or margin targets were shared.",
+          "page": 2
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "A 50 lakh SoC units a year purchase commitment from FY28 is several times current volumes (7-8 lakh cameras); it is a large fixed obligation if demand falls short.",
+          "page": 2
+        },
+        {
+          "text": "Competes on price (10-15% below rivals) in the price-sensitive segment, which limits margin room.",
+          "page": 1
+        },
+        {
+          "text": "These are third-party notes, not a company transcript; wording is the note-takers', not management's.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "FY26 camera volumes against 7-8 lakh",
+        "Whether the H2 FY26 price hike shows in realisations",
+        "SoC development progress before the FY28 commitment starts"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CCTV cameras (2 MP standard up to AI and specialised models) made in Gandhinagar, plus TVs and interactive panels for schools",
+        "customers": "100% B2B through 40+ distributors and 9,000+ dealers in 21 states; Gujarat is the largest",
+        "revenue_mix": "Mostly CCTV cameras at an average ₹1,200-1,300 a camera",
+        "demand_drivers": "Ban on non-compliant Chinese IP cameras from 1 Apr 2026, BIS/ER certification, government and institutional sales, exports"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-03-arihant-bharat-connect",
+    "kind": "conference",
+    "event": "Arihant Bharat Connect, Mar 2026",
+    "date": "2026-03-06",
+    "links": [
+      {
+        "url": "https://x.com/drprashantmish6/status/2033044600072638825",
+        "author": "Arihant Capital (posted by @drprashantmish6)",
+        "grade": "broker_note",
+        "images": [
+          "data/sources/PRIZOR/2026-03-arihant-bharat-connect/arihant-note.jpg"
+        ],
+        "pages": [
+          1
+        ]
+      },
+      {
+        "url": "https://x.com/sachprat07/status/2030191163916058656",
+        "author": "@sachprat07 (attendee notes)",
+        "grade": "attendee_note",
+        "images": [
+          "data/sources/PRIZOR/2026-03-arihant-bharat-connect/attendee-notes.jpg"
+        ],
+        "pages": [
+          2
+        ]
+      }
+    ],
+    "text_file": "data/sources/PRIZOR/2026-03-arihant-bharat-connect.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/drprashantmish6/status/2033044600072638825",
+    "pptUrl": null,
+    "transcriptPages": 2,
+    "transcriptHasText": true
+  }
+}

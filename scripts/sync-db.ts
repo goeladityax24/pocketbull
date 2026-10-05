@@ -103,6 +103,7 @@ async function main() {
           created_by_name: run.createdBy,
           created_at: run.createdAt,
           docs: run.docs,
+          source: run.source ?? null,
         })
         .select("id")
         .single();
@@ -118,6 +119,19 @@ async function main() {
       );
       if (gErr) throw new Error(`${symbol} ${run.concall.yearMonth} guidance: ${gErr.message}`);
       added++;
+    }
+
+    // Conference links analysed in a saved run are marked done in the app
+    for (const f of files) {
+      const run = JSON.parse(await readFile(join(DATA, "runs", symbol, f), "utf8")) as SavedRun;
+      const bare = (u: string) => u.split(/[?#]/)[0].replace(/\/$/, "").replace("twitter.com", "x.com");
+      const urls = new Set(run.source?.links.map((l) => bare(l.url)) ?? []);
+      if (!urls.size) continue;
+      const { data: waiting } = await sb.from("links").select("id, url").eq("company_id", company.id).eq("kind", "conference").is("analysed_at", null);
+      const ids = (waiting ?? []).filter((l) => urls.has(bare(l.url))).map((l) => l.id);
+      if (!ids.length) continue;
+      const { error: linkErr } = await sb.from("links").update({ analysed_at: new Date().toISOString() }).in("id", ids);
+      if (linkErr) throw new Error(`${symbol} links: ${linkErr.message}`);
     }
     console.log(`› ${snapshot.name} (${symbol}): snapshot updated${researchNote ? " · research note" : ""} · ${added} new run${added === 1 ? "" : "s"} · ${files.length - added} already there`);
   }

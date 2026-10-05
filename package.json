@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "import-run": "tsx scripts/import-run.ts",
     "snapshot": "tsx scripts/snapshot.ts",
-    "sync-db": "tsx scripts/sync-db.ts"
+    "sync-db": "tsx scripts/sync-db.ts",
+    "pending-sources": "tsx scripts/pending-sources.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

@@ -44,6 +44,7 @@ export function LinkForm({ symbol }: { symbol: string }) {
   const [url, setUrl] = useState("");
   const [title, setTitle] = useState("");
   const [kind, setKind] = useState("report");
+  const [eventDate, setEventDate] = useState("");
   const [m, setM] = useState<{ ok: boolean; message: string } | null>(null);
   const [pending, start] = useTransition();
   return (
@@ -53,11 +54,12 @@ export function LinkForm({ symbol }: { symbol: string }) {
       onSubmit={(e) => {
         e.preventDefault();
         start(async () => {
-          const r = await addLink({ symbol, url, title, kind });
+          const r = await addLink({ symbol, url, title, kind, eventDate });
           setM(r);
           if (r.ok) {
             setUrl("");
             setTitle("");
+            setEventDate("");
           }
         });
       }}
@@ -65,17 +67,32 @@ export function LinkForm({ symbol }: { symbol: string }) {
       <label htmlFor="link-url" className="label">Add a link</label>
       <input id="link-url" className="input" type="url" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="https://" required />
       <label htmlFor="link-title" className="sr-only">Title</label>
-      <input id="link-title" className="input" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Title (optional)" />
+      <input
+        id="link-title"
+        className="input"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        placeholder={kind === "conference" ? "Event, e.g. Arihant Bharat Connect, Mar 2026" : "Title (optional)"}
+        required={kind === "conference"}
+      />
       <div className="flex flex-wrap gap-2">
         <label htmlFor="link-kind" className="sr-only">Link type</label>
         <select id="link-kind" className="input flex-1" value={kind} onChange={(e) => setKind(e.target.value)}>
           <option value="report">Report</option>
           <option value="news">News</option>
           <option value="video">Video</option>
+          <option value="conference">Conference / broker note</option>
           <option value="other">Other</option>
         </select>
         <button type="submit" className="btn btn-primary" disabled={pending}>{pending ? "Adding…" : "Add"}</button>
       </div>
+      {kind === "conference" && (
+        <div className="flex flex-col gap-1">
+          <label htmlFor="link-date" className="label">Event date</label>
+          <input id="link-date" className="input" type="date" value={eventDate} onChange={(e) => setEventDate(e.target.value)} />
+          <span className="sub">Notes or transcripts from a conference (an X post with images, a PDF). The promises are added to the tracker after the next analysis, marked with their source.</span>
+        </div>
+      )}
       <Msg m={m} />
     </form>
   );

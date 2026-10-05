@@ -3,6 +3,7 @@ import { join } from "node:path";
 import type { QuoteCheck } from "./documents";
 import type { ExtractionUsage } from "./extract";
 import type { ExtractionResult } from "./guidance";
+import type { ExternalSource } from "./source";
 import type { Basis, Concall } from "./types";
 
 /** One saved AI run: one company, one concall. Runs are never repeated. */
@@ -17,6 +18,8 @@ export interface SavedRun {
   /** Same order as extraction.guidance */
   quoteChecks: QuoteCheck[];
   docs: { transcriptUrl: string; pptUrl: string | null; transcriptPages: number; transcriptHasText: boolean };
+  /** Set when the run comes from a conference or broker note rather than a concall */
+  source?: ExternalSource | null;
 }
 
 /** Storage seam: a local JSON store now, Supabase in the web app. */

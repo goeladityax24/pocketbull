@@ -148,7 +148,7 @@ export async function deleteNote(input: { symbol: string; noteId: string }): Pro
   return { ok: true, message: "Note deleted." };
 }
 
-export async function addLink(input: { symbol: string; url: string; title: string; kind: string }): Promise<ActionResult> {
+export async function addLink(input: { symbol: string; url: string; title: string; kind: string; eventDate?: string }): Promise<ActionResult> {
   const me = await admin();
   if ("ok" in me) return me;
   let url: URL;
@@ -158,14 +158,16 @@ export async function addLink(input: { symbol: string; url: string; title: strin
   } catch {
     return fail("Enter a full link starting with https://");
   }
-  const kind = ["report", "news", "video", "other"].includes(input.kind) ? input.kind : "other";
+  const kind = ["report", "news", "video", "conference", "other"].includes(input.kind) ? input.kind : "other";
+  const eventDate = kind === "conference" && /^\d{4}-\d{2}-\d{2}$/.test(input.eventDate ?? "") ? input.eventDate : null;
+  if (kind === "conference" && !input.title.trim()) return fail("Name the event, e.g. 'Arihant Bharat Connect, Mar 2026'.");
   const id = await companyId(input.symbol);
   if (!id) return fail("Company not found.");
-  const { error } = await db().from("links").insert({ company_id: id, url: url.toString(), title: input.title.trim() || null, kind, added_by_name: me.name });
+  const { error } = await db().from("links").insert({ company_id: id, url: url.toString(), title: input.title.trim() || null, kind, event_date: eventDate, added_by_name: me.name });
   if (error) return fail(error.message);
   updateTag(DATA_TAG);
   revalidatePath(`/c/${input.symbol}`, "layout");
-  return { ok: true, message: "Link added." };
+  return { ok: true, message: kind === "conference" ? "Added. It will be analysed in the next Claude session." : "Link added." };
 }
 
 export async function deleteLink(input: { symbol: string; linkId: string }): Promise<ActionResult> {

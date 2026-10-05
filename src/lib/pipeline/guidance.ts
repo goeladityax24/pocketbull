@@ -49,6 +49,11 @@ export const GuidanceItem = z.object({
   confidence: z.enum(["high", "medium", "low"]),
   keyword: z.string().describe("Two to four words to find this again, e.g. 'export share'"),
   revises: z.string().nullable().describe("If this changes earlier guidance, what it was"),
+  source_ref: z
+    .string()
+    .nullable()
+    .optional()
+    .describe("For conference notes: which note(s) carry this, e.g. 'Arihant note' or 'both notes'"),
 });
 export type GuidanceItem = z.infer<typeof GuidanceItem>;
 
