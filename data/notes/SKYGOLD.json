@@ -1,0 +1,774 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "B2B gold jewellery manufacturer",
+ "lede": "A fast-growing, design-led supplier to India's biggest jewellery chains that has finally started generating cash. Execution on promises is strong. The price already assumes most of the FY30 plan comes true, while most of today's growth comes from the gold price rather than volume.",
+ "market": {
+  "price": 832,
+  "mcap_cr": 12879,
+  "pe": 38.4,
+  "pb": 10.7,
+  "ev_ebitda": 26
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue up 8x in four years (₹786 Cr → ₹6,295 Cr), EBITDA margin from 2.6% to 7%, ROCE 27%. Most promises from the last two calls were kept or beaten, and operating cash flow turned positive in Q1 FY27 (₹30 Cr), a quarter early."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Q1 revenue grew 78% but volumes only 7–9%; the rest is the gold price. Five years of profit (₹491 Cr) went entirely into working capital. The previous auditor resigned mid-year, and a ₹10.7 Cr fund-diversion incident surfaced in July."
+  },
+  {
+   "lead": "Price",
+   "text": "38x trailing earnings for a 4.5% net-margin business; listed B2B peers trade at 13–17x. On management's FY30 profit target the stock is on about 14x, so the upside depends on that target being met."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Sky Gold designs and makes lightweight gold jewellery (mainly cast 22 kt, increasingly 18/14/9 kt and diamond-studded) for retail chains, with no shops of its own. It works as a co-creation partner: it studies a retailer's product mix, designs collections and supplies them. Customers include Malabar, Kalyan, Joyalukkas, Titan, CaratLane, Reliance Jewels, Senco, Aditya Birla, Thangamayil, PN Gadgil, Lalithaa and Damas (Dubai).",
+     "src": "Jun call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "88% / 12%",
+       "label": "Domestic / export, FY26 (export 18% in Q1 FY27)"
+      },
+      {
+       "value": "9.3%",
+       "label": "Gross margin, Q1 FY27 (6% in FY24)"
+      },
+      {
+       "value": "17%",
+       "label": "Sales under 'advanced gold', where the retailer supplies the gold"
+      },
+      {
+       "value": "~60%",
+       "label": "Use of 1.2 t/month capacity; no new plant needed till FY28"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "22 kt plain gold earns a 5–5.5% gross margin; CZ-studded 22 kt lifts it to 6–6.5%.",
+       "src": "Aug call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Lower-karat pieces (14% of volume) add about 1.4–1.5 points of gross margin; studded jewellery (2% of sales) about 0.3.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Advanced gold books only the making charge as revenue: about 1 point of gross margin, no working capital, less interest.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Gold is hedged on MCX (about 99%), so it earns a making margin, not a gold-price bet.",
+       "src": "Jun call p.17"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "From a Zaveri Bazar workshop (2005) to a 1.5 lakh sq ft Navi Mumbai plant plus acquired units: Sparkling Chains and Starmangalsutra (₹88 Cr, FY25), Speed Bangle (paid in shares at ₹369), 51% of Shri Rishabh Gold.",
+       "src": "AR p.8, p.25"
+      },
+      {
+       "lead": "",
+       "text": "From cash-hungry growth to 'Sky Gold 3.0': growth capped at 30–35% a year so it can be self-funded, net debt-free by FY30.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Shift to lower karat, studded jewellery and exports; a professional CEO (Akash Talesara) and CFO.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        786,
+        1154,
+        1745,
+        3548,
+        6295
+       ]
+      }
+     ],
+     "caption": "3-year CAGR 76%. Trailing 12 months ₹7,176 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        40,
+        133,
+        282
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -158,
+        -273,
+        -45
+       ]
+      }
+     ],
+     "caption": " Operating cash flow turned +₹30 Cr in Q1 FY27."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "47%",
+        "51%",
+        "103%",
+        "77%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "2.6%",
+        "3.2%",
+        "4.5%",
+        "5.6%",
+        "6.9%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "17",
+        "19",
+        "40",
+        "133",
+        "282"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "17%",
+        "18%",
+        "21%",
+        "27%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–7",
+        "–6",
+        "–158",
+        "–273",
+        "–45"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "1.21x",
+        "1.49x",
+        "1.35x",
+        "0.92x",
+        "0.72x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT / interest)",
+        "3.8x",
+        "3.4x",
+        "3.6x",
+        "4.9x",
+        "5.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "55",
+        "49",
+        "80",
+        "88",
+        "77"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Growth is real, but less of it is volume than revenue suggests.",
+       "text": "In Q1 FY27 revenue rose 78% while volumes rose 7–9%. With gold hedged, margins hold in percent, but absolute profit rises and falls with the gold price. Volume guidance was dropped in May.",
+       "src": "Aug call p.12"
+      },
+      {
+       "lead": "Cash conversion has been the weak spot.",
+       "text": "Five-year net profit of ₹491 Cr went entirely into working capital (operating cash flow –₹489 Cr). Growth was funded by about ₹650 Cr of new equity (cash raises and share-swap acquisitions) and debt, which rose from ₹92 Cr to ₹869 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Balance sheet is improving.",
+       "text": "Borrowings/equity fell from 1.49x to 0.72x and interest cover rose to 5.8x. Net debt ₹540 Cr at June 2026; target to halve it in FY27 and be net debt-free by FY30.",
+       "src": "Aug call p.10"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 19%.",
+       "text": "Capital employed rose ₹1,494 Cr from FY24 to FY26 while after-tax operating profit rose about ₹282 Cr: good, but below the 27% headline ROCE because acquisitions and land used new capital.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY27 revenue ₹5,000 Cr, later raised to ₹8,100 Cr",
+        "FY25 → May 26",
+        "Q1 FY27 ₹2,013 Cr vs ₹1,455 Cr expected (Q1's 18% share of the annual target)",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital below 60 days within two years",
+        "FY25",
+        "59 days at Mar 2026, 60 at Jun 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow near neutral in FY26, positive by Q4 FY27",
+        "FY25",
+        "–₹45 Cr in FY26; +₹30 Cr in Q1 FY27",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Appoint a global audit firm",
+        "FY25",
+        "MSKA (BDO) appointed, filling the vacancy left when the previous auditor resigned (AR p.22)",
+        {
+         "text": "Kept, with context",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Sell Navi Mumbai land by Aug–Sep 2026; promoters buy it if unsold",
+        "May 26",
+        "Not completed as of the 10 Aug call",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cut net debt by more than 50% in FY27",
+        "May 26",
+        "Net debt ₹540 Cr at Jun 2026",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Receivable days back to 22–23 in 4–6 quarters",
+        "May 26",
+        "33 days in FY26",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Zero promoter salary from FY27; dividends only from operating cash",
+        "May 26",
+        "In effect from FY27",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoter stake fell from 73.6% (2023) to 51.7% (Jun 2026), mostly through new share issues for fund-raising and share-swap acquisitions.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions went from 0% to 14.2%, foreign from 0% to 2.8%.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "No promoter pledge found in the FY26 annual report.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "The previous statutory auditor resigned mid-year; the 'upgrade to a global auditor' framing leaves this out.",
+       "src": "AR p.22"
+      },
+      {
+       "lead": "",
+       "text": "Standalone sales to related parties rose from nil to 4.7% of sales, most likely to its own subsidiaries such as the Dubai arm. Worth confirming.",
+       "src": "AR p.59"
+      },
+      {
+       "lead": "",
+       "text": "The annual report's net debt subtracts 'equity shares pledged' (₹44 Cr), a non-standard definition.",
+       "src": "AR p.88"
+      },
+      {
+       "lead": "",
+       "text": "₹10.7 Cr fund-diversion incident in July 2026; ₹3.5 Cr recovered, under legal process.",
+       "src": "Aug call p.13"
+      },
+      {
+       "lead": "",
+       "text": "Positives: BDO as auditor, zero promoter salary, no gold-metal-loan exposure, 99% hedging.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Screener's peer list is jewellery retailers, which are Sky Gold's customers. The real comparison is listed B2B manufacturers; gold pass-through makes margins only roughly comparable.",
+     "src": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Sky Gold & Diamonds",
+        "6,295",
+        "7%",
+        "282",
+        "27%",
+        "38.4x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Shanti Gold International",
+        "2,019",
+        "10%",
+        "140",
+        "—",
+        "15.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Uday Jewellery Industries",
+        "726",
+        "7%",
+        "36",
+        "19%",
+        "16.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "RBZ Jewellers",
+        "636",
+        "15%",
+        "55",
+        "22%",
+        "13.2x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Customers for context: Kalyan Jewellers 39x, Thangamayil 38x, Titan 70x P/E."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Scale and customer access:",
+       "text": "supplies the top 50 retailers; B2B is 80% unorganised, so there is room to take share.",
+       "src": "Aug call p.16"
+      },
+      {
+       "lead": "Design and speed:",
+       "text": "co-created collections improve retailers' sell-through; a leased plant can be set up in 90–120 days.",
+       "src": null
+      },
+      {
+       "lead": "Working capital skill:",
+       "text": "a 60-day cycle and advanced gold give a cost edge over smaller rivals.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Little pricing power:",
+       "text": "gives large buyers 0.25–0.5% discounts on big 22 kt orders.",
+       "src": "Aug call p.14"
+      },
+      {
+       "lead": "Low switching costs:",
+       "text": "retailers use many vendors and can move volume between them.",
+       "src": null
+      },
+      {
+       "lead": "Thin margin of error:",
+       "text": "a 9% gross margin leaves little room for gold loss, fraud or bad debts.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Gold-price fall shrinks revenue and absolute profit (growth is mostly price)",
+        "Macro",
+        "Live: volumes +7–9% vs revenue +78% in Q1"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Import-duty hikes and the government's May 2026 call to curb gold buying",
+        "Regulatory",
+        "No B2B slowdown reported in May; watch Q2"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash burn from working capital",
+        "Operational",
+        "Materialised FY24–FY26; easing (Q1 FY27 +₹30 Cr)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Middle East exports disrupted by the conflict",
+        "Macro",
+        "Materialised (11% → 7–8%), recovered to 18% in Q1"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Controls: fraud, auditor change, related-party sales",
+        "Governance",
+        "₹10.7 Cr incident in July 2026; watch the FY27 audit"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Retailer concentration and bargaining power",
+        "Operational",
+        "Top 15–25 clients drive most sales"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹28,400 Cr",
+       "sub": "FY30 market cap · about 2.2x today",
+       "text": "Management's plan is met: ₹945 Cr net profit by FY30, valued at 30x."
+      },
+      {
+       "name": "Base",
+       "value": "₹16,100 Cr",
+       "sub": "FY30 market cap · about 1.25x today",
+       "text": "Revenue grows 25% a year to ₹15,400 Cr at a 4.75% net margin (₹730 Cr), valued at 22x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹5,900 Cr",
+       "sub": "FY30 market cap · about –54%",
+       "text": "Gold prices fall and growth slows to 12% a year; 4% net margin (₹400 Cr), valued like B2B peers at 15x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "38.4x",
+       "label": "P/E, trailing (B2B peers 13–17x)"
+      },
+      {
+       "value": "~32x",
+       "label": "P/E on FY27 if revenue is ₹8,100 Cr at a 5% net margin"
+      },
+      {
+       "value": "~14x",
+       "label": "Today's market cap on the FY30 target of ₹945 Cr"
+      },
+      {
+       "value": "10.7x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~26x",
+       "label": "EV / EBITDA (EV ≈ ₹13,420 Cr)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The stock is up 185% in a year and has re-rated from a small-cap manufacturer to a retailer-like multiple. Real changes support part of that: cash flow turning positive, debt falling, a better auditor and professional management. But the price already pays for the FY30 plan, and the base case gives only mid-single-digit yearly returns, so the margin of safety is thin. Historical average multiples aren't included yet.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Revised FY27 guidance after Diwali, and whether volumes are disclosed again",
+  "Land sale proceeds, and net debt halved from the March 2026 level (₹540 Cr at June)",
+  "Operating cash flow staying positive through the festive build-up",
+  "Who the related-party sales go to, and the auditor's FY27 report",
+  "Recovery of the remaining ₹7.2 Cr from the July incident",
+  "Volume growth vs revenue growth each quarter"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 concall (28 May 2026) and Q1 FY27 concall (10 Aug 2026) transcripts",
+  "FY26 annual report (BSE)",
+  "Peer data from Screener company pages"
+ ]
+}

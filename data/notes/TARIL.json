@@ -1,0 +1,719 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Power transformer manufacturer",
+ "lede": "A large-transformer maker riding India's grid build-out, with record order inflows but a habit of missing its own targets. FY27 guidance has been cut twice in four months, operating cash flow turned negative, and growth is lagging peers while new capacity is delayed.",
+ "market": {
+  "price": 281,
+  "mcap_cr": 8429,
+  "pe": 32.6,
+  "pb": 5.6,
+  "ev_ebitda": 23
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue doubled in two years (₹1,291 Cr → ₹2,507 Cr), EBITDA margin rose from 10% to 15%, and the order book reached ₹6,630 Cr after a ₹1,000 Cr+ PGCIL order. Backward integration (CTC, pressboard, bushings) should add 2–3 points of margin from FY28."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "FY26 revenue guidance went ₹3,500 Cr → ₹2,500–2,600 Cr; FY27 went 35–40% → 25% growth. Five-year profit of ₹591 Cr turned into only ₹111 Cr of operating cash, and FY26 cash flow was –₹105 Cr. Margin guidance changed several times on one call."
+  },
+  {
+   "lead": "Price",
+   "text": "33x trailing earnings, about the same as Voltamp and Indo Tech, which are growing faster with better cash conversion. The FY29 goal of ₹7,000–8,000 Cr would make it cheap, but the track record argues for caution."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "TARIL makes power, distribution and specialty transformers (furnace, rectifier, reactors) from 33 kV up to 1,200 kV at plants in Moraiya, Changodar and Odhav near Ahmedabad. About 55% of the order book is state and central utilities (PGCIL, GETCO, RRVPNL), 20% EPC contractors, the rest private and export customers.",
+     "src": "Apr call p.18"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹6,630 Cr",
+       "label": "Order book, Jun 2026 (+26% YoY)"
+      },
+      {
+       "value": "75,000 MVA",
+       "label": "Capacity after expansions"
+      },
+      {
+       "value": "10–15%",
+       "label": "Export share of revenue"
+      },
+      {
+       "value": "₹900–1,000 Cr",
+       "label": "Backward-integration capex"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margin depends on the order vintage: orders taken 12–15 months ago at lower prices are still being executed.",
+       "src": "Apr call p.17"
+      },
+      {
+       "lead": "",
+       "text": "Raw materials (CRGO steel, copper, bushings) are the main cost; in-house CTC, pressboard, bushings and fabrication aim to cover 80–85% of needs.",
+       "src": "Jul call p.5"
+      },
+      {
+       "lead": "",
+       "text": "Plant utilisation drives profit: Moraiya ran at 57–65% and Changodar at 27% in Q1 FY27.",
+       "src": "Jul call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue went from ₹1,158 Cr (FY22) to ₹2,507 Cr (FY26) as grid spending rose.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "A QIP in FY25 cut debt/equity from 0.84x to 0.23x and funds backward integration.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Entering HVDC through a PGCIL repair order; empanelment is 15–16 months away.",
+       "src": "Jul call p.14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        1158,
+        1396,
+        1291,
+        2017,
+        2507
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹2,552 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        47,
+        216,
+        272
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        29,
+        157,
+        -105
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "21%",
+        "–8%",
+        "56%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "6%",
+        "9%",
+        "10%",
+        "16%",
+        "15%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "14",
+        "42",
+        "47",
+        "216",
+        "272"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "10%",
+        "15%",
+        "15%",
+        "28%",
+        "23%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "2",
+        "28",
+        "29",
+        "157",
+        "–105"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.91x",
+        "0.84x",
+        "0.46x",
+        "0.23x",
+        "0.30x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover",
+        "1.5x",
+        "2.2x",
+        "2.3x",
+        "6.6x",
+        "8.1x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "139",
+        "141",
+        "188",
+        "94",
+        "200"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash is the weak spot.",
+       "text": "Five years of net profit (₹591 Cr) produced only ₹111 Cr of operating cash. In FY26 receivables rose about ₹410 Cr and inventory was built up to December 2026 to beat supply shortages.",
+       "src": "Apr call p.16"
+      },
+      {
+       "lead": "Margins are real but plateaued.",
+       "text": "EBITDA margin has held at 15–16% for two years; consolidated Q1 FY27 was 19.2% with subsidiaries.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 19%.",
+       "text": "Capital employed rose ₹1,162 Cr from FY24 to FY26 while after-tax operating profit rose about ₹224 Cr; much of the QIP money is still in investments and work in progress.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 revenue ₹3,500 Cr",
+        "Start of FY26",
+        "Cut to ₹2,500–2,600 Cr; delivered ₹2,509 Cr",
+        {
+         "text": "Missed, then met revised",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order book ₹8,000 Cr by March 2026",
+        "FY26",
+        "₹5,000 Cr; management said it chose to be selective",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue about ₹3,250 Cr / 35–40% growth",
+        "Apr 26",
+        "Cut to 25% growth in July",
+        {
+         "text": "Cut",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Q1 FY27 revenue at guided growth",
+        "Apr–Jul 26",
+        "₹572 Cr vs ₹661 Cr implied by 25% growth",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Changodar expansion running by Q2 FY27",
+        "Apr 26",
+        "Pushed to August 2026",
+        {
+         "text": "Slipped",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "World Bank matter closed within 45 days",
+        "Apr 26",
+        "Not updated on the July call",
+        {
+         "text": "Unclear",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "15–17% EBITDA margin",
+        "Apr 26",
+        "Consolidated Q1 FY27 19.2%; standalone 15.6%",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 64.4%, unchanged for a year; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Institutions are leaving: domestic institutions fell from 6.0% to 1.5% and foreign from 11% to 7.8% in a year.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "EY appointed for investor relations after repeated misses.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Guidance credibility: three cuts in a row, and margin guidance changed within one call (16.5–17%, 15–16%, 15–17%).",
+       "src": "Apr call p.15"
+      },
+      {
+       "lead": "",
+       "text": "Open World Bank matter on an earlier project.",
+       "src": "Apr call p.12"
+      },
+      {
+       "lead": "",
+       "text": "ESOP 2024 expense of ₹10.3 Cr; contingent tax liabilities ₹19.1 Cr.",
+       "src": "AR p.62, p.196"
+      },
+      {
+       "lead": "",
+       "text": "Positives: no auditor change, no material related-party transactions reported.",
+       "src": "AR p.84, p.163"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Transformers & Rectifiers",
+        "2,507",
+        "15%",
+        "272",
+        "23%",
+        "32.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Voltamp Transformers",
+        "2,154",
+        "16%",
+        "305",
+        "24%",
+        "33.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Indo Tech Transformers",
+        "782",
+        "17%",
+        "93",
+        "40%",
+        "34.9x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Large-cap peers (Hitachi Energy, Siemens Energy, GE Vernova T&D) trade at 78–118x."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Scale in EHV and UHV:",
+       "text": "one of few Indian makers up to 1,200 kV, with a 20-year 765 kV record.",
+       "src": null
+      },
+      {
+       "lead": "Backward integration:",
+       "text": "CTC, pressboard and bushings in-house should ease the industry's biggest bottlenecks.",
+       "src": "Jul call p.4"
+      },
+      {
+       "lead": "Customer access:",
+       "text": "the PGCIL Ultra Mega order shows it can win large L1 tenders.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "L1 bidding:",
+       "text": "most tenders are won on lowest price, which limits pricing power.",
+       "src": "Jul call p.9"
+      },
+      {
+       "lead": "Execution:",
+       "text": "peers are growing 50–60% while TARIL grew 8% in Q1 FY27.",
+       "src": "Jul call p.14"
+      },
+      {
+       "lead": "Lower margins than smaller peers:",
+       "text": "management attributes it to old orders; peers earn 16–17% without backward integration.",
+       "src": "Apr call p.17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Execution delays at Changodar and Moraiya",
+        "Operational",
+        "Materialised: Changodar at 27% utilisation in Q1"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital strain (receivables, inventory)",
+        "Financial",
+        "Materialised: FY26 cash flow –₹105 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Raw material and gas supply (Middle East)",
+        "Macro",
+        "Mitigated by stocking up to Dec 2026"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "CRGO anti-dumping duty",
+        "Regulatory",
+        "DGTR investigation ongoing"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Credibility of guidance",
+        "Governance",
+        "Three cuts; institutions selling"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹21,000 Cr",
+       "sub": "FY29 market cap · about 2.5x today",
+       "text": "The FY29 goal of ₹7,000 Cr is met at a 10% net margin (₹700 Cr), valued at 30x."
+      },
+      {
+       "name": "Base",
+       "value": "₹12,200 Cr",
+       "sub": "FY29 market cap · about 1.45x today",
+       "text": "Revenue grows 25% a year to ₹4,900 Cr at a 10% net margin (₹490 Cr), valued at 25x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹5,100 Cr",
+       "sub": "FY29 market cap · about –40%",
+       "text": "Growth slows to 12% a year; 8% net margin (₹280 Cr), valued at 18x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "32.6x",
+       "label": "P/E, trailing (Voltamp 33.6x, Indo Tech 34.9x)"
+      },
+      {
+       "value": "~27x",
+       "label": "P/E on FY27 if revenue grows 25% at a 10% net margin"
+      },
+      {
+       "value": "5.6x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~23x",
+       "label": "EV / EBITDA (debt not netted for cash)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The valuation is in line with smaller transformer peers, so the market is not paying extra for TARIL's scale. The base case gives low-teens yearly returns if management finally executes; the stock has fallen from ₹501 to ₹281 as guidance was cut. The key test is whether Changodar and the backward-integration plants deliver growth and cash from H2 FY27.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 and Q3 FY27 revenue tracking 25% growth",
+  "Changodar utilisation after August",
+  "Operating cash flow turning positive",
+  "CTC plant in Q2 and pressboard in Q3 FY27",
+  "World Bank matter",
+  "Order inflow quality and margins"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (21 Apr 2026) and Q1 FY27 (21 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

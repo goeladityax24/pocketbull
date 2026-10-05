@@ -47,7 +47,8 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 - Next.js 16 app in `src/app/`: Companies (list, request form, queue), company Overview, Insight report, Guidance tracker (next results checklist, by quarter / by year, checked-by-hand list, tag changes, promise edits), Research space, Admin (unlock, queue, tolerance setting, recent changes with revert).
 - `src/lib/app/`: data access (`repo.ts`, Supabase or demo mode on `data/` files when no keys), tracker view (`view.ts`, tested), admin check (`auth.ts`), server actions in `src/app/actions.ts`.
 - Data flow: repo files are the source of truth. `npm run snapshot` saves Screener numbers to `data/snapshots/`; `npm run sync-db` copies snapshots and runs into Supabase (runs already there are left alone, so edits and tags survive).
-- Supabase project `tacqwjzpuigclgferpye` (Mumbai) has `0001_init.sql` and `0002_app.sql` applied; Skygold loaded.
+- Supabase project `tacqwjzpuigclgferpye` (Mumbai) has `0001_init.sql`, `0002_app.sql` and `0003_research_notes.sql` applied.
+- Companies (8): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations only, no calls), CPPLUS. Each has two analysed concalls (PRIZOR one deck) and a six-section insight report in `data/notes/`.
 - Env vars: see `.env.example`. Local values in `.env.local` (git-ignored); the same in Vercel (Production and Preview).
 - Local preview: `.claude/launch.json` has `web` (as a visitor) and `web-admin` (port 3001, Admin without a key).
 
@@ -56,7 +57,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 1. Merge the milestone 2 pull request; check the live site on Vercel (unlock `/admin` with `ADMIN_KEY`).
 2. Optional: add `GITHUB_TOKEN` (fine-grained, Issues read/write on the repo) in Vercel so requests open GitHub issues.
 3. Keep Supabase awake: free projects pause after a week idle. Add a scheduled GitHub Action that reads one row every few days.
-4. Analyse 10 companies the group follows, to tune the format and check accuracy.
+4. Keep adding companies the group follows; refresh insight reports after each annual report.
 5. Later: Google sign-in and Editor/Viewer roles, peer view, technical scans, US markets.
 
 ## Status (4 Oct 2026)

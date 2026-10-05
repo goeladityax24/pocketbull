@@ -1,0 +1,351 @@
+{
+  "symbol": "AIMTRON",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_02052026182728_Intimation_InvestorPresentation_Transcripts_02-05-2026.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_29042026180627_Intimation_Investor_Presentation_for_Concall_29-04-2026.pdf",
+    "recordingUrl": "https://www.youtube.com/watch?v=yh_I1oNRQ8U"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T08:39:57.649Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-04-28",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue",
+        "kind": "absolute",
+        "low": 450,
+        "high": 550,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Includes the acquired US business (AIC, about $17 million); management admitted the growth maths doesn't reconcile",
+        "quote": "So, we gave you a range for ₹450 crores to ₹550 crores at the end of the year.",
+        "page": 18,
+        "speaker": "Mukesh Vasani (Chairman)",
+        "confidence": "high",
+        "keyword": "FY27 revenue 450-550",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth (3-5 year CAGR)",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 50,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "3-5 year CAGR",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "IR clarified this is a multi-year CAGR, not one year's growth (p.19)",
+        "quote": "Probably we'll keep our strategy in line with 40%, 50% CAGR growth",
+        "page": 8,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "growth 40-50% CAGR",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 22,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "EBITDA 20% to 22% kind of a range will be intact on the consolidation mode.",
+        "page": 8,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "EBITDA 20-22%",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 17,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So that PAT 15%, like a couple of percentage, 1 or 2 percentage here and there.",
+        "page": 8,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "PAT margin 13-17%",
+        "revises": "Reiterated"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "₹1,000 Cr revenue",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "next couple of years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "next couple of years, we eyeing on ₹1,000 crores kind of a journey.",
+        "page": 8,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "1,000 crore revenue",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "US subsidiary (AIC) revenue",
+        "kind": "absolute",
+        "low": 170,
+        "high": 170,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Aimtron International Controls (US)",
+        "condition": "Said as '₹17 million' but means about $17 million, roughly ₹170 Cr",
+        "quote": "And this year will be somewhere around ₹17 million approximately.",
+        "page": 15,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "AIC 17 million",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "US subsidiary (AIC) EBITDA margin",
+        "kind": "margin_pct",
+        "low": 18,
+        "high": 20,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Aimtron International Controls (US)",
+        "condition": "About 11% at acquisition",
+        "quote": "it will be very close to a lower double-digit to higher double-digits, let's say, 18% to 20%.",
+        "page": 24,
+        "speaker": "Mukesh Vasani (Chairman)",
+        "confidence": "high",
+        "keyword": "AIC EBITDA 18-20%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Box build share of revenue",
+        "kind": "margin_pct",
+        "low": 65,
+        "high": 70,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "where Box Build is going to be around 65% to 70%, and PCBA is going to be in that 30% kind of a range itself.",
+        "page": 20,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "box build 65-70%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Greenfield plant (mechanical setup) running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Probably it will be Q4 this financial year.",
+        "page": 12,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "greenfield Q4",
+        "revises": "Nov 2025 call: first SMT line by Q3 or early Q4"
+      },
+      {
+        "metric": "other",
+        "metric_label": "First new SMT line",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "FY '27 or Q1 next financial year, latest by that time.",
+        "page": 13,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "SMT line FY27-Q1 FY28",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "RDSO railway approval",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": "by H1 or Q3 FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "And RDSO is something that is under progress and probably this year by first half or probably by third quarter, we expect to make a closure on that part.",
+        "page": 4,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "RDSO approval",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 89% to ₹301 Cr and net profit 79% to ₹46 Cr, with EBITDA margin of 22.6%; H2 FY26 revenue was ₹179 Cr. Aimtron bought a US electronics maker (ICS, renamed AIC, Decatur, Illinois) at about 11% EBITDA margin, and the group order book is about ₹600 Cr. For FY27 management gave ₹450-550 Cr revenue, 20-22% EBITDA and about 15% PAT margin, but operating cash flow was negative about ₹40 Cr as inventory and receivables grew.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Acquired ICS in Illinois (now AIC), adding about $17 million of FY27 revenue at lower margins",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "FY27 revenue range ₹450-550 Cr, 20-22% EBITDA margin",
+          "page": 18
+        },
+        {
+          "change": "delayed",
+          "text": "First greenfield SMT line now by end FY27 or Q1 FY28 (was Q3 or early Q4); mechanical setup first",
+          "page": 13
+        },
+        {
+          "change": "new",
+          "text": "$12 million data-centre UPS design order from a Fortune 500 company",
+          "page": 5
+        },
+        {
+          "change": "withdrawn",
+          "text": "Further acquisitions put on hold given the geopolitical situation",
+          "page": 17
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I think we are very conservative and we are very transparent in numbers and commitment.",
+        "page": 15
+      },
+      "analyst_questions": [
+        {
+          "topic": "Does 40-50% growth include the acquisition?",
+          "answer": "FY27 range of ₹450-550 Cr includes AIC; the chairman admitted the maths doesn't fit and called the range conservative.",
+          "page": 18
+        },
+        {
+          "topic": "Negative operating cash flow",
+          "answer": "Fast growth and ODM work need inventory; cash flow expected to stabilise only near ₹1,000 Cr revenue.",
+          "page": 15
+        },
+        {
+          "topic": "AIC margins",
+          "answer": "Costs cut using Indian back-office staff; EBITDA expected from about 11% to 18-20% within a year or two.",
+          "page": 24
+        },
+        {
+          "topic": "Competition from L&T",
+          "answer": "The market is big; Aimtron targets niche, complex, rugged electronics.",
+          "page": 7
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Operating cash flow about –₹40 Cr in FY26; about ₹240 Cr tied up in inventory and receivables.",
+          "page": 14
+        },
+        {
+          "text": "Guidance doesn't reconcile: AIC alone is about ₹170 Cr of the ₹150-250 Cr expected increase.",
+          "page": 18
+        },
+        {
+          "text": "Gross margin fell from about 31% in H1 to 28% in H2 FY26.",
+          "page": 13
+        },
+        {
+          "text": "The lower-margin acquisition will weigh on consolidated margins until it improves.",
+          "page": 8
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue towards the ₹450-550 Cr full-year range",
+        "AIC margin moving from 11% towards 18-20%",
+        "Operating cash flow and inventory",
+        "Greenfield mechanical setup by Q4 FY27"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Electronics system design and manufacturing: PCB assembly, box build (65-70% of revenue), ODM design; rugged and agritech electronics through the US subsidiary",
+        "customers": "Global OEMs (including a Fortune 500 data-centre firm), telecom, power, industrial, drone and defence PSU customers",
+        "revenue_mix": "About 70% domestic and 30% international; India and US the top two markets",
+        "demand_drivers": "China-plus-one, data centres (UPS), Wi-Fi 6/7 telecom gear, railways and defence electronics"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_02052026182728_Intimation_InvestorPresentation_Transcripts_02-05-2026.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_29042026180627_Intimation_Investor_Presentation_for_Concall_29-04-2026.pdf",
+    "transcriptPages": 27,
+    "transcriptHasText": true
+  }
+}

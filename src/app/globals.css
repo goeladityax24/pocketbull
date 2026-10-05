@@ -21,6 +21,9 @@
   --blue: #1e4fb5;
   --blue-bg: #e3ecfb;
   --grey-bg: #eef0f3;
+  --chart-1: #0b6e4f;
+  --chart-2: #8a919e;
+  --chart-neg: #b3362f;
 }
 
 @theme inline {
@@ -222,3 +225,7 @@ details > summary { cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   .skel { animation: none; }
 }
+
+/* Research note charts */
+.chart-val { fill: var(--ink); font: 500 11px var(--font-plex-mono), monospace; }
+.chart-label { fill: var(--ink-3); font: 11px var(--font-plex-mono), monospace; }

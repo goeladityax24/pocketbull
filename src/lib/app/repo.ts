@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import type { GuidanceItem, InsightReport } from "../pipeline/guidance";
+import type { ResearchNote } from "../pipeline/note";
 import type { QuoteCheck } from "../pipeline/documents";
 import type { SavedRun } from "../pipeline/store";
 import type { Basis, CompanySnapshot } from "../pipeline/types";
@@ -18,6 +19,8 @@ export interface Company {
   screenerUrl: string;
   snapshot: CompanySnapshot;
   snapshotFetchedAt: string | null;
+  /** Six-section analyst report, if one has been written */
+  researchNote: ResearchNote | null;
 }
 
 export interface Note {
@@ -73,6 +76,7 @@ async function fileBundle(symbol: string): Promise<CompanyBundle | null> {
     // no runs yet
   }
   const saved = await Promise.all(files.map((f) => readJson<SavedRun>(join(DATA, "runs", symbol, f))));
+  const researchNote = await readJson<ResearchNote>(join(DATA, "notes", `${symbol}.json`));
   const runs: StoredRun[] = saved
     .filter((r): r is SavedRun => r != null)
     .map((r) => ({
@@ -89,6 +93,7 @@ async function fileBundle(symbol: string): Promise<CompanyBundle | null> {
       screenerUrl: snapshot.screenerUrl,
       snapshot,
       snapshotFetchedAt: snapshot.fetchedAt || null,
+      researchNote,
     },
     runs,
     overrides: [],
@@ -143,6 +148,7 @@ interface CompanyRow {
   screener_url: string;
   snapshot: CompanySnapshot;
   snapshot_fetched_at: string | null;
+  research_note: ResearchNote | null;
 }
 
 function toCompany(c: CompanyRow): Company {
@@ -154,6 +160,7 @@ function toCompany(c: CompanyRow): Company {
     screenerUrl: c.screener_url,
     snapshot: c.snapshot,
     snapshotFetchedAt: c.snapshot_fetched_at,
+    researchNote: c.research_note ?? null,
   };
 }
 
@@ -178,7 +185,7 @@ function toRuns(company: CompanyRow, runs: RunRow[], guidance: GuidanceRow[]): S
 
 async function dbBundles(symbol: string | null, withNotes: boolean): Promise<CompanyBundle[]> {
   const sb = db();
-  let cq = sb.from("companies").select("id, symbol, name, basis, screener_url, snapshot, snapshot_fetched_at").order("name");
+  let cq = sb.from("companies").select("id, symbol, name, basis, screener_url, snapshot, snapshot_fetched_at, research_note").order("name");
   if (symbol) cq = cq.eq("symbol", symbol);
   const { data: companies, error } = await cq;
   if (error) throw new Error(error.message);

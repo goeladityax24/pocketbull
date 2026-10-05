@@ -1,0 +1,182 @@
+{
+  "symbol": "PRIZOR",
+  "concall": {
+    "month": "Apr 2026",
+    "yearMonth": "2026-04",
+    "transcriptUrl": null,
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_23042026190005_Letter.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T08:40:54.664Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": null,
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Indigenous SoC chip with IndieSemic",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Jointly Developing SoC Chip with IndieSemic MOU (In Pipeline)",
+        "page": 14,
+        "speaker": "Company (investor presentation)",
+        "confidence": "medium",
+        "keyword": "IndieSemic SoC",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Camera assembly capacity expandable to 40 lakh units a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Current capacity 16 lakh cameras a year on two lines",
+        "quote": "Expandable up to 40 lakh units per annum",
+        "page": 14,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "capacity 40 lakh",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "In-house PCB manufacturing lifts margins",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "With in-house PCB manufacturing now operational as part of backward integration, the Company is expected to gain operational leverage and enhance resilience against supply chain disruptions.",
+        "page": 35,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "in-house PCB leverage",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New display centres",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Setting up new display centers to boost brand awareness, enhance customer engagement and create selling opportunities.",
+        "page": 18,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "display centres",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue doubled to ₹148 Cr (+108%), with EBITDA of ₹33 Cr (22.5%) and net profit of ₹21 Cr (14%); H2 FY26 alone was ₹106 Cr, up 164%, as CCTV sales jumped after STQC rules barred uncertified foreign camera brands. Display products (TVs, panels) fell 51% in H2. Growth has been funded by working capital and debt: operating cash flow was only ₹0.3 Cr, receivables and inventory rose sharply, and short-term borrowings went from ₹2.8 Cr to ₹31.8 Cr. The company holds no earnings calls and gives no numeric guidance.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "BIS-ER certification through STQC-accredited labs, as STQC rules shut out uncertified (mainly Chinese) brands",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "In-house SMT line for PCBs (50 lakh units a year) and housing moulding at Gandhinagar",
+          "page": 14
+        },
+        {
+          "change": "new",
+          "text": "PRIZOR PLUS AI camera series (face recognition, number-plate reading)",
+          "page": 35
+        },
+        {
+          "change": "cut",
+          "text": "Display products revenue fell 51% in H2 FY26 as focus moved to cameras",
+          "page": 24
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "This is not a cyclical shift. It is structural, and it is irreversible",
+        "page": 23
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Operating cash flow of ₹0.3 Cr against ₹21 Cr of net profit; receivables up from ₹15.7 Cr to ₹38.6 Cr and inventory from ₹28.5 Cr to ₹50 Cr.",
+          "page": 28
+        },
+        {
+          "text": "Short-term borrowings rose from ₹2.8 Cr to ₹31.8 Cr in a year.",
+          "page": 27
+        },
+        {
+          "text": "New ₹10 Cr long-term loans and advances and ₹12 Cr of intangible assets under development, with no explanation in the deck.",
+          "page": 27
+        },
+        {
+          "text": "Growth rides a one-time regulatory switch (STQC); the chairman's quote calls the H2 numbers 'H1 FY26 results'.",
+          "page": 23
+        },
+        {
+          "text": "No earnings calls and no guidance, so management can't be held to targets.",
+          "page": 2
+        }
+      ],
+      "watch_next": [
+        "Whether H1 FY27 holds the H2 FY26 revenue level once the STQC switch is absorbed",
+        "Operating cash flow and receivable days",
+        "Short-term debt",
+        "Who received the ₹10 Cr long-term advance"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Indian-brand CCTV cameras (IP, analog, 4G, AI) assembled in Gandhinagar, plus LED TVs, monitors and touch panels made by partners",
+        "customers": "11,000+ dealers and 150+ distributors across 21 states; retail, government, education and infrastructure buyers",
+        "revenue_mix": "FY26: CCTV ₹114 Cr, display products ₹24 Cr; H2 FY26 CCTV ₹92 Cr vs display ₹8 Cr",
+        "demand_drivers": "STQC/BIS rules favouring certified Indian brands, smart cities, data-sovereignty concerns"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_23042026190005_Letter.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_23042026190005_Letter.pdf",
+    "transcriptPages": 36,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "symbol": "CPPLUS",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e07f6b18-87cd-442e-a8e8-8e1c4c318dd4.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24dd017f-8e5f-4ab0-ac82-21076017c9ea.pdf",
+    "recordingUrl": "https://www.adityagroup.com/assets_web/images/statutory_communications/earning_investor_call/2026_27/q2/Audio_Recording_of_Earnings_call_13_08_2026.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T08:42:15.670Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-13",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 14,
+        "high": 15,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So Naushad, I think we have given our guidance for the year, which is 14% to 15% EBITDA.",
+        "page": 9,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "EBITDA 14-15%",
+        "revises": "Reiterated; may comment more after H1"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Average selling price rise",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "15-20% taken by end of H1",
+        "quote": "For the whole year, we had almost guided that there might be around 25% price increase",
+        "page": 14,
+        "speaker": "Anup Nair (Director, Strategy)",
+        "confidence": "high",
+        "keyword": "price rise 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Housing and enclosure plant running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our housing and enclosure expansion is progressing as planned and is expected to become operational by Q3 of this financial year.",
+        "page": 4,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "housing Q3",
+        "revises": "May call: Phase 1 by Q2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Cable JV plant (Rajasthan) running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "will cover approximately 1 lakh square feet and is expected to start commercial production by end of this financial year.",
+        "page": 5,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "cable JV Q4",
+        "revises": "May call: between Q2 and Q3 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "CP PLUS Pro and home IoT products launched",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "that is the most closest timeline which should be live by the end of Q3 and the beginning of Q4.",
+        "page": 14,
+        "speaker": "Anup Nair (Director, Strategy)",
+        "confidence": "high",
+        "keyword": "Pro series launch",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Domestic share of bill of materials",
+        "kind": "margin_pct",
+        "low": 40,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So I would say a 55%, 60% import solution and a 40% domestic is something we are eyeing probably once all these localization initiatives kick off in the next two quarters.",
+        "page": 11,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "40% domestic BOM",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capacity doubled",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next three years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we have broadly spoken about almost doubling this capacity in the next three years.",
+        "page": 13,
+        "speaker": "Anup Nair (Director, Strategy)",
+        "confidence": "high",
+        "keyword": "capacity double",
+        "revises": "May call: 2x by FY28"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Meaningful export revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "18-24 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "in the next 18 to 24 months is where you will see in terms of significant numbers coming in.",
+        "page": 15,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "exports 18-24 months",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 89.5% to ₹1,402 Cr, with gross margin of 30.8%, EBITDA of ₹208 Cr (14.8%) and adjusted PAT of ₹142 Cr; the cash conversion cycle improved to 64 days and debt/equity is 0.07. Management kept the 14-15% EBITDA guidance for FY27 and said prices have risen 10-20% so far, with about 25% expected for the year. The housing plant moved to Q3 and the cable JV to the end of FY27, while new Pro, home IoT and drone-camera lines are being developed.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 EBITDA margin guidance of 14-15% kept; Q1 at 14.8%",
+          "page": 9
+        },
+        {
+          "change": "delayed",
+          "text": "Housing plant now Q3 FY27 (was Phase 1 in Q2); cable JV by end FY27 (was Q2-Q3)",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "New categories: CP PLUS Pro, home IoT (doorbells, locks), machine vision and drone gimbal cameras",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "New Noida corporate office and R&D centre; Bengaluru R&D to open",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "we'll continue to deliver results that beat the expectations.",
+        "page": 16
+      },
+      "analyst_questions": [
+        {
+          "topic": "Price rises",
+          "answer": "10-20% so far across products, passed on monthly to avoid a demand shock; no visible hit to demand yet.",
+          "page": 6
+        },
+        {
+          "topic": "Competition after STQC",
+          "answer": "40+ brands are now certified; CP PLUS relies on brand, distribution, manufacturing scale and R&D.",
+          "page": 9
+        },
+        {
+          "topic": "Imported content",
+          "answer": "About 35% of the bill of materials is semiconductors from Taiwan; aim for 40% domestic content within two quarters.",
+          "page": 11
+        },
+        {
+          "topic": "Capacity",
+          "answer": "2.5 million units a month at 85-90% utilisation; doubling over three years via Kadapa and Greater Noida.",
+          "page": 13
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Market share quoted as 43.3% for FY26 (Frost & Sullivan) after 'about 45.4%' on the May call.",
+          "page": 4
+        },
+        {
+          "text": "Competition is rising: 40+ certified brands now.",
+          "page": 9
+        },
+        {
+          "text": "Much of the growth is price: 10-20% hikes so far as memory and chip costs rise.",
+          "page": 6
+        },
+        {
+          "text": "Capacity is 85-90% used while new plants slipped by a quarter or two.",
+          "page": 13
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue tracking ₹6,000-6,500 Cr",
+        "EBITDA margin after H1 commentary",
+        "Housing plant by Q3 FY27",
+        "Volume growth vs price growth"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CP PLUS video surveillance cameras, recorders and AI solutions; second brand Nexivue; 42 final-assembly and 12 SMT lines",
+        "customers": "Distribution channel, system integrators, enterprises and government projects",
+        "revenue_mix": "CP PLUS 87% of revenue; IP products 79% of CP PLUS",
+        "demand_drivers": "STQC-driven shift to certified Indian brands, IP and AI upgrades, enterprise and government projects"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e07f6b18-87cd-442e-a8e8-8e1c4c318dd4.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24dd017f-8e5f-4ab0-ac82-21076017c9ea.pdf",
+    "transcriptPages": 16,
+    "transcriptHasText": true
+  }
+}

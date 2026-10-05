@@ -1,0 +1,704 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Defence simulators and anti-drone systems",
+ "lede": "India's leading maker of combat simulators and anti-drone systems, with high margins, ₹1,200 Cr of cash and big ambitions. Orders have dried up while management keeps promising ₹4,000 Cr of revenue over two years, and 40% of purchases go to a company linked to the MD.",
+ "market": {
+  "price": 1576,
+  "mcap_cr": 14231,
+  "pe": 78.3,
+  "pb": 7.5,
+  "ev_ebitda": 59
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Proven products (anti-drone systems used in Operation Sindoor, tank and gunnery simulators), 30%+ net margins, debt-free with about ₹1,217 Cr of cash, and a ₹177.5 Cr MoD order after Q1."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "FY26 revenue fell 29% to ₹688 Cr; Q1 FY27 orders were only ₹44.6 Cr and the order book shrank to ₹1,239 Cr. The ₹4,000 Cr two-year revenue target needs revenue to triple. About 40% of purchases are from related parties, mainly Unistring Tech, where the MD is a director."
+  },
+  {
+   "lead": "Price",
+   "text": "78x trailing earnings (about 59x EV/EBITDA net of cash), on par with Data Patterns (88x) and below Paras (110x), but with falling revenue."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Zen designs combat training simulators (tank, gunnery, naval, flight) and anti-drone systems, and is adding interceptor drones, unmanned ground vehicles, remote weapon stations, smart ammunition and a cyber-security suite. Customers are the Indian armed forces, MoD and friendly foreign governments; subsidiaries ARI and UTS add naval and other simulators.",
+     "src": "May call p.2"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,239 Cr",
+       "label": "Order book, Jun 2026 (₹921 Cr equipment, ₹318 Cr AMC)"
+      },
+      {
+       "value": "72.9%",
+       "label": "Gross margin, Q1 FY27"
+      },
+      {
+       "value": "~₹1,217 Cr",
+       "label": "Cash, debt-free"
+      },
+      {
+       "value": "₹365 Cr",
+       "label": "Subsidiaries' FY27 revenue target"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Gross margins above 70% on in-house designed products; most hardware is outsourced and assembled.",
+       "src": "Jul call p.3"
+      },
+      {
+       "lead": "",
+       "text": "A large fixed cost base: margins swing with revenue (27% EBITDA in Q1 FY27 vs 41% a year earlier).",
+       "src": "Jul call p.3"
+      },
+      {
+       "lead": "",
+       "text": "Annual maintenance contracts (AMC) give years of follow-on revenue after delivery.",
+       "src": "Jul call p.16"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue went from ₹70 Cr (FY22) to ₹974 Cr (FY25) on large anti-drone orders, then fell to ₹688 Cr.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Raised about ₹1,000 Cr through a QIP in FY25; acquired ARI and others.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Arms and ammunition licences received; expanding into weapon systems.",
+       "src": "May call p.14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        70,
+        219,
+        440,
+        974,
+        688
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹671 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        130,
+        299,
+        218
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        13,
+        31,
+        245
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "213%",
+        "101%",
+        "121%",
+        "–29%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "7%",
+        "33%",
+        "41%",
+        "39%",
+        "36%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "3",
+        "50",
+        "130",
+        "299",
+        "218"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Other income, ₹ Cr",
+        "5",
+        "9",
+        "17",
+        "58",
+        "86"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "2%",
+        "23%",
+        "46%",
+        "37%",
+        "16%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–44",
+        "116",
+        "13",
+        "31",
+        "245"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital days",
+        "629",
+        "115",
+        "158",
+        "435",
+        "543"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit increasingly comes from cash in the bank:",
+       "text": "other income (mostly interest) was ₹86 Cr in FY26, about 40% of pre-tax profit.",
+       "src": null
+      },
+      {
+       "lead": "Cash flow improved in FY26 (₹245 Cr)",
+       "text": "as FY25's big orders were collected; working capital is back to 257 days in Q1 FY27.",
+       "src": "Jul call p.4"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 6%.",
+       "text": "Capital employed rose ₹1,454 Cr from FY24 to FY26, mostly idle QIP cash, while operating profit after tax rose about ₹89 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Big orders in Q1 FY27, 'not later than Q2'",
+        "May 26",
+        "₹44.6 Cr of orders in Q1; ₹177.5 Cr in July",
+        {
+         "text": "Missed so far",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "About ₹1,000 Cr delivered in FY27, mostly Q2–Q3",
+        "May 26",
+        "Q1 revenue ₹142 Cr (–10% YoY)",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "35% operational EBITDA margin",
+        "May 26",
+        "Q1 FY27 27.3%; still guiding mid-30s",
+        {
+         "text": "Behind",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital back to 140–150 days",
+        "May 26",
+        "257 days at June 2026",
+        {
+         "text": "Worse",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order book to touch ₹3,000 Cr",
+        "May 26",
+        "₹1,239 Cr at June; target ₹2,500 Cr by March",
+        {
+         "text": "Behind",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹4,000 Cr revenue in FY27–FY28 combined",
+        "FY26",
+        "FY26 revenue ₹688 Cr",
+        {
+         "text": "Unlikely on current orders",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 48.5%; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions rose to 10.4%, foreign 6.5%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "About 40% of purchases (45% in FY25) are from related parties, chiefly Unistring Tech Solutions, where the MD is a director; shareholders approved it as a material related-party transaction.",
+       "src": "AR p.101, p.82"
+      },
+      {
+       "lead": "",
+       "text": "68% of loans and advances went to related parties in FY26.",
+       "src": "AR p.101"
+      },
+      {
+       "lead": "",
+       "text": "The auditor flagged revenue recognition as a key audit matter.",
+       "src": "AR p.130"
+      },
+      {
+       "lead": "",
+       "text": "Promises of orders 'in the first quarter' were also made a year earlier.",
+       "src": "May call p.11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Zen Technologies",
+        "688",
+        "36%",
+        "218",
+        "16%",
+        "78.3x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Data Patterns",
+        "925",
+        "40%",
+        "271",
+        "22%",
+        "87.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Paras Defence",
+        "477",
+        "26%",
+        "89",
+        "17%",
+        "110x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Apollo Micro Systems",
+        "904",
+        "24%",
+        "107",
+        "15%",
+        "123x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ideaForge",
+        "226",
+        "3%",
+        "–17",
+        "–3%",
+        "n/m"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Indigenous IP:",
+       "text": "products designed in-house, which fits the government's IDDM preference.",
+       "src": "May call p.7"
+      },
+      {
+       "lead": "Battle-proven anti-drone systems,",
+       "text": "with detection and jamming across 70 MHz to 12 GHz.",
+       "src": "May call p.5"
+      },
+      {
+       "lead": "Installed base:",
+       "text": "AMC revenue and upgrade orders on existing simulators.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Lumpy government orders:",
+       "text": "revenue depends on when tenders are floated.",
+       "src": "Jul call p.15"
+      },
+      {
+       "lead": "Competition rising:",
+       "text": "more vendors are qualifying for anti-drone tenders.",
+       "src": "Jul call p.15"
+      },
+      {
+       "lead": "Single customer:",
+       "text": "Indian MoD dominates; exports are still small.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Order drought / tender timing",
+        "Operational",
+        "Materialised: Q1 orders ₹44.6 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Related-party purchases (Unistring)",
+        "Governance",
+        "40% of purchases"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital build-up",
+        "Financial",
+        "257 days at Jun 2026"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margin hit from low revenue",
+        "Operational",
+        "Q1 EBITDA 27% vs 35% guided"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹21,000 Cr",
+       "sub": "FY28 market cap · about 1.5x today",
+       "text": "Revenue reaches ₹2,400 Cr in FY28 (the ₹4,000 Cr two-year plan) at a 25% net margin (₹600 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹11,400 Cr",
+       "sub": "FY28 market cap · about –20%",
+       "text": "Half the plan: ₹1,300 Cr revenue in FY28 at a 25% net margin (₹325 Cr), valued at 35x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹5,250 Cr",
+       "sub": "FY28 market cap · about –63%",
+       "text": "Revenue stays near ₹700 Cr; 25% net margin with interest income (₹175 Cr), valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "78.3x",
+       "label": "P/E, trailing (Data Patterns 88x)"
+      },
+      {
+       "value": "~59x",
+       "label": "EV / EBITDA net of ₹1,217 Cr cash"
+      },
+      {
+       "value": "7.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~40%",
+       "label": "Share of pre-tax profit from other income"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The market is still pricing in the order revival management keeps promising. Until simulator and anti-drone tenders actually convert, earnings will lean on interest income, and the base case points to a lower price in two years. The related-party purchases need a clear explanation.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Conversion of the ₹700–800 Cr simulator pipeline",
+  "Anti-drone tenders being floated",
+  "Q2–Q3 FY27 deliveries and EBITDA margin",
+  "Order book towards ₹2,500 Cr by March 2027",
+  "Related-party purchases share"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (4 May 2026) and Q1 FY27 (27 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

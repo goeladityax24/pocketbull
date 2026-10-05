@@ -1,0 +1,330 @@
+{
+  "symbol": "AIMTRON",
+  "name": "Aimtron Electronics Ltd",
+  "screenerUrl": "https://www.screener.in/company/AIMTRON/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1284793",
+  "warehouseId": "137472513",
+  "ratios": {
+    "market cap": 3990,
+    "current price": 1876,
+    "high": 2010,
+    "low": 675,
+    "stock p/e": 86.8,
+    "book value": 114,
+    "dividend yield": 0,
+    "roce": 28.2,
+    "roe": 23.6,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-09-30",
+        "label": "H1 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2026-03-31",
+        "label": "H2 FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        58,
+        102,
+        123,
+        179
+      ],
+      "expenses": [
+        43,
+        82,
+        92,
+        143
+      ],
+      "operating_profit": [
+        15,
+        19,
+        30,
+        36
+      ],
+      "opm_pct": [
+        25,
+        19,
+        25,
+        20
+      ],
+      "other_income": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "interest": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "depreciation": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "pbt": [
+        14,
+        18,
+        28,
+        33
+      ],
+      "tax_pct": [
+        18,
+        21,
+        28,
+        22
+      ],
+      "net_profit": [
+        11,
+        14,
+        20,
+        26
+      ],
+      "eps": [
+        5.48,
+        7.08,
+        9.94,
+        12.47
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        93,
+        159,
+        301
+      ],
+      "expenses": [
+        69,
+        127,
+        240
+      ],
+      "operating_profit": [
+        24,
+        32,
+        61
+      ],
+      "opm_pct": [
+        26,
+        20,
+        20
+      ],
+      "other_income": [
+        1,
+        5,
+        8
+      ],
+      "interest": [
+        2,
+        0,
+        2
+      ],
+      "depreciation": [
+        4,
+        5,
+        7
+      ],
+      "pbt": [
+        19,
+        32,
+        61
+      ],
+      "tax_pct": [
+        27,
+        20,
+        25
+      ],
+      "net_profit": [
+        14,
+        26,
+        46
+      ],
+      "eps": [
+        9.06,
+        12.56,
+        22.31
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_02052026182728_Intimation_InvestorPresentation_Transcripts_02-05-2026.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_29042026180627_Intimation_Investor_Presentation_for_Concall_29-04-2026.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=yh_I1oNRQ8U"
+    },
+    {
+      "month": "Apr 2026",
+      "yearMonth": "2026-04",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_28042026152912_Intimation_Investor_Presentation_for_Concall_28-04-2026.pdf",
+      "recordingUrl": "https://youtu.be/yh_I1oNRQ8U"
+    },
+    {
+      "month": "Jan 2026",
+      "yearMonth": "2026-01",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_28012026093941_Investor_presentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_11112025200524_AEL_Earning_call_Transcript.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_06112025083200_Investor_presentation_H1FY2026.pdf",
+      "recordingUrl": "https://youtu.be/TkLcfbMmNVw"
+    },
+    {
+      "month": "Apr 2025",
+      "yearMonth": "2025-04",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_30042025114126_Post_Earnings_Conference_Call_Transcript.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_24042025163833_Investor_presentation_HY2FY25.pdf",
+      "recordingUrl": "https://youtu.be/UHt2Ov9UX1c"
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.aimtron.in/wp-content/uploads/2024/11/Transcript_H1FY25-Post-earning-conference-call.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_11112024193620_Investor_presentation_11-11-2024_signed.pdf",
+      "recordingUrl": "https://youtu.be/rtdDWg2jDYk"
+    },
+    {
+      "month": "Jul 2024",
+      "yearMonth": "2024-07",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_04072024182505_Intimation_TranscriptPostEarningsCall010724.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_01072024165500_InvestorPresentation.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=itwKNqZW93M"
+    }
+  ],
+  "peers": [
+    {
+      "name": "Indo-MIM",
+      "screenerPath": "/company/INDOMIM/consolidated/",
+      "marketCapCr": 65019.25,
+      "pe": 100.68,
+      "salesQtrCr": 1218.74,
+      "salesGrowthQtrPct": 9.39,
+      "roce": 24.98
+    },
+    {
+      "name": "Aditya Infotech",
+      "screenerPath": "/company/CPPLUS/consolidated/",
+      "marketCapCr": 48916.53,
+      "pe": 102.56,
+      "salesQtrCr": 1402.42,
+      "salesGrowthQtrPct": 89.51,
+      "roce": 28.56
+    },
+    {
+      "name": "Syrma SGS Tech.",
+      "screenerPath": "/company/SYRMA/consolidated/",
+      "marketCapCr": 32756.09,
+      "pe": 88.2,
+      "salesQtrCr": 1588.62,
+      "salesGrowthQtrPct": 68.29,
+      "roce": 16.78
+    },
+    {
+      "name": "Honeywell Auto",
+      "screenerPath": "/company/HONAUT/",
+      "marketCapCr": 29879.2,
+      "pe": 53.48,
+      "salesQtrCr": 1204.4,
+      "salesGrowthQtrPct": 1.8,
+      "roce": 16.95
+    },
+    {
+      "name": "Jyoti CNC Auto.",
+      "screenerPath": "/company/JYOTICNC/consolidated/",
+      "marketCapCr": 23569.05,
+      "pe": 73.3,
+      "salesQtrCr": 508.47,
+      "salesGrowthQtrPct": 23.97,
+      "roce": 21.32
+    },
+    {
+      "name": "Kaynes Tech",
+      "screenerPath": "/company/KAYNES/consolidated/",
+      "marketCapCr": 23020.62,
+      "pe": 66.25,
+      "salesQtrCr": 946.02,
+      "salesGrowthQtrPct": 40.47,
+      "roce": 12.69
+    },
+    {
+      "name": "LMW",
+      "screenerPath": "/company/LMW/consolidated/",
+      "marketCapCr": 17672.9,
+      "pe": 96.75,
+      "salesQtrCr": 860.72,
+      "salesGrowthQtrPct": 24,
+      "roce": 5.58
+    },
+    {
+      "name": "Aimtron",
+      "screenerPath": "/company/AIMTRON/consolidated/",
+      "marketCapCr": 3990.04,
+      "pe": 86.79,
+      "salesQtrCr": 178.58,
+      "salesGrowthQtrPct": 75.94,
+      "roce": 28.15
+    }
+  ],
+  "fetchedAt": "2026-10-05T08:37:29.755Z"
+}

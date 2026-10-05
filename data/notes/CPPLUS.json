@@ -1,0 +1,659 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Video surveillance market leader (CP PLUS)",
+ "lede": "India's largest video-surveillance company, which roughly doubled its market share as STQC rules pushed out Chinese brands. Execution is excellent, but cash has lagged profit, half of this year's growth is price, and the stock trades at about 100x earnings.",
+ "market": {
+  "price": 3989,
+  "mcap_cr": 48917,
+  "pe": 103,
+  "pb": 25.1,
+  "ev_ebitda": 69
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue up 36% to ₹4,221 Cr with EBITDA up 124%; Q1 FY27 revenue up 89.5% to ₹1,402 Cr at a 14.8% EBITDA margin, ahead of the ₹6,000–6,500 Cr FY27 guidance. Market share about 43–45%; debt/equity just 0.07."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Five-year operating cash flow is –₹40 Cr against ₹1,039 Cr of profit. Q4 FY26's 18% margin was helped by cheap inventory now used up, prices are being raised 10–25% as chip costs climb, and 40+ brands are now certified. New plants slipped a quarter or two."
+  },
+  {
+   "lead": "Price",
+   "text": "About 100x trailing and ~87x FY27 earnings: the market cap already exceeds most bull cases three years out."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Aditya Infotech sells CP PLUS surveillance cameras, recorders and AI solutions (87% of revenue), plus distributed brands. Manufacturing is at Kadapa (2.5 million units a month), with housings, cables and lenses being brought in-house and a second cluster planned in Greater Noida.",
+     "src": "Aug call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~43–45%",
+       "label": "Share of India's surveillance market"
+      },
+      {
+       "value": "79%",
+       "label": "IP products in CP PLUS sales, Q1 FY27"
+      },
+      {
+       "value": "85–90%",
+       "label": "Capacity utilisation"
+      },
+      {
+       "value": "15–20%",
+       "label": "Revenue from government projects"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Gross margin about 31% from brand premium, IP mix and localisation; Q4 FY26 was boosted by cheap inventory.",
+       "src": "May call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Chips (35% of bill of materials) come from Taiwan; price rises are passed on monthly with a lag.",
+       "src": "Aug call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Forex is hedged 85–100%.",
+       "src": "Aug call p.12"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed in August 2025; IPO money repaid debt (debt/equity from 1.03x to 0.14x).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "STQC rules (April 2025) barred Chinese chips; market share went from about 25% (own brand) to 43–45%.",
+       "src": "May call p.3"
+      },
+      {
+       "lead": "",
+       "text": "Partnerships with Qualcomm and L&T Semiconductor; cable JV with Orient Cables.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        1646,
+        2285,
+        2782,
+        3112,
+        4221
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹4,883 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        115,
+        351,
+        368
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -180,
+        27,
+        13
+       ]
+      }
+     ],
+     "caption": " FY25 profit includes ₹259 Cr of other income."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "39%",
+        "22%",
+        "12%",
+        "36%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "8%",
+        "7%",
+        "8%",
+        "8%",
+        "13%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "97",
+        "108",
+        "115",
+        "351",
+        "368"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "35%",
+        "28%",
+        "28%",
+        "19%",
+        "29%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "44",
+        "56",
+        "–180",
+        "27",
+        "13"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.66x",
+        "1.37x",
+        "1.03x",
+        "0.50x",
+        "0.14x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover",
+        "7.5x",
+        "7.3x",
+        "6.3x",
+        "11.3x",
+        "17.4x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not turned into cash:",
+       "text": "₹1,039 Cr of profit over five years vs –₹40 Cr of operating cash; FY26 operating cash ₹13 Cr as the company paid suppliers in advance to secure chips.",
+       "src": "May call p.13"
+      },
+      {
+       "lead": "Margins stepped up after STQC:",
+       "text": "EBITDA margin from 8% to 13.7% in FY26 and 14.8% in Q1 FY27.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 19%.",
+       "text": "Capital employed rose ₹1,273 Cr from FY24 to FY26 while after-tax operating profit rose about ₹246 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Own-brand market share about 36% post-STQC",
+        "IPO, 2025",
+        "43–45%",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue ₹6,000–6,500 Cr",
+        "May 26",
+        "Q1 FY27 ₹1,402 Cr vs about ₹1,050–1,140 Cr implied",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "14–15% EBITDA margin",
+        "May 26",
+        "Q1 FY27 14.8%",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Housing plant Phase 1 by Q2 FY27",
+        "May 26",
+        "Now Q3 FY27",
+        {
+         "text": "Slipped",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cable JV running by Q2–Q3 FY27",
+        "May 26",
+        "Now end FY27",
+        {
+         "text": "Slipped",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Khemka family) hold 74.7%, down from 77.1% after the IPO lock-in; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 13.6%, foreign 6.4%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "MD's pay rose 45% in FY26 to 516x the median employee.",
+       "src": "AR p.69"
+      },
+      {
+       "lead": "",
+       "text": "A 2019 income-tax survey led to a ₹19 Cr tax demand, now on appeal.",
+       "src": "AR p.189"
+      },
+      {
+       "lead": "",
+       "text": "The market-share figure moved between calls (45.4% 'as of Q3' vs 43.3% for FY26).",
+       "src": "Aug call p.4"
+      },
+      {
+       "lead": "",
+       "text": "Positives: no auditor change, no material related-party transactions, no fraud reported.",
+       "src": "AR p.65, p.123"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Aditya Infotech (CP PLUS)",
+        "4,221",
+        "13%",
+        "368",
+        "29%",
+        "103x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Prizor Viztech",
+        "153",
+        "22%",
+        "21",
+        "39%",
+        "64.6x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "No other listed Indian peer of similar size; global leaders (Hikvision, Dahua) are now restricted in India."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Brand and reach:",
+       "text": "the category name for CCTV in India, sold across homes, SMBs, enterprises and government.",
+       "src": "May call p.19"
+      },
+      {
+       "lead": "Scale in a shortage:",
+       "text": "volume lets it secure chips and memory ahead of smaller rivals.",
+       "src": "May call p.9"
+      },
+      {
+       "lead": "Manufacturing and R&D:",
+       "text": "third-largest camera factory in the world; R&D in Noida, Ahmedabad and Taiwan.",
+       "src": "Aug call p.9"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Policy dependence:",
+       "text": "the share gain came from a rule change that could be relaxed.",
+       "src": "Aug call p.9"
+      },
+      {
+       "lead": "Rising competition:",
+       "text": "40+ certified brands and global brands with about 10% share.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "Price-led growth:",
+       "text": "about half of FY27's growth is higher prices, which could slow demand.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Memory and chip shortages and cost inflation",
+        "Supply",
+        "Live: costs expected to rise till 2027"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion (advance payments, inventory)",
+        "Financial",
+        "Materialised: FY26 operating cash ₹13 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Competition as more brands certify",
+        "Market",
+        "40+ certified brands"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Policy reversal on Chinese components",
+        "Regulatory",
+        "No sign so far"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹59,200 Cr",
+       "sub": "FY29 market cap · about 1.2x today",
+       "text": "Revenue grows 35% a year to ₹10,400 Cr at a 9.5% net margin (₹990 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹31,500 Cr",
+       "sub": "FY29 market cap · about –36%",
+       "text": "Revenue grows 25% a year to ₹8,200 Cr at an 8.5% net margin (₹700 Cr), valued at 45x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹10,700 Cr",
+       "sub": "FY29 market cap · about –78%",
+       "text": "Growth slows to 12% a year as competition returns; 6% net margin (₹356 Cr), valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~103x",
+       "label": "P/E, trailing"
+      },
+      {
+       "value": "~87x",
+       "label": "P/E on FY27 if revenue is ₹6,250 Cr at 9% net margin"
+      },
+      {
+       "value": "25.1x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~69x",
+       "label": "EV / EBITDA"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "CP PLUS is executing very well and is the clear winner of the STQC shift. But the price already sits above our bull case for FY29: even strong delivery leaves little upside, and any slowdown in growth or margins would hit a 100x multiple hard.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue tracking ₹6,000–6,500 Cr",
+  "EBITDA margin without cheap inventory",
+  "Operating cash flow",
+  "Housing plant in Q3 and cable JV by March 2027",
+  "Volume vs price growth"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (28 May 2026) and Q1 FY27 (13 Aug 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

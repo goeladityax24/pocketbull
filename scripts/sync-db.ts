@@ -12,6 +12,7 @@ import { config } from "dotenv";
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { createClient } from "@supabase/supabase-js";
+import { ResearchNote } from "../src/lib/pipeline/note";
 import type { SavedRun } from "../src/lib/pipeline/store";
 import type { CompanySnapshot } from "../src/lib/pipeline/types";
 
@@ -40,6 +41,18 @@ async function main() {
 
   for (const symbol of symbols) {
     const snapshot = JSON.parse(await readFile(join(DATA, "snapshots", `${symbol}.json`), "utf8")) as CompanySnapshot;
+    // Research note (optional): validated before it reaches the app
+    let researchNote: ResearchNote | null = null;
+    try {
+      const raw = JSON.parse(await readFile(join(DATA, "notes", `${symbol}.json`), "utf8"));
+      const parsed = ResearchNote.safeParse(raw);
+      if (!parsed.success) throw new Error(`${symbol} research note: ${parsed.error.issues.slice(0, 5).map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
+      researchNote = parsed.data;
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+    }
+    const noteFields = researchNote ? { research_note: researchNote, research_note_at: researchNote.as_of } : {};
+
     const { data: company, error } = await sb
       .from("companies")
       .upsert(
@@ -51,6 +64,7 @@ async function main() {
           granularity: snapshot.interim.granularity === "half" ? "half" : "quarter",
           snapshot,
           snapshot_fetched_at: snapshot.fetchedAt || new Date().toISOString(),
+          ...noteFields,
         },
         { onConflict: "symbol" },
       )
@@ -105,7 +119,7 @@ async function main() {
       if (gErr) throw new Error(`${symbol} ${run.concall.yearMonth} guidance: ${gErr.message}`);
       added++;
     }
-    console.log(`› ${snapshot.name} (${symbol}): snapshot updated · ${added} new run${added === 1 ? "" : "s"} · ${files.length - added} already there`);
+    console.log(`› ${snapshot.name} (${symbol}): snapshot updated${researchNote ? " · research note" : ""} · ${added} new run${added === 1 ? "" : "s"} · ${files.length - added} already there`);
   }
 }
 

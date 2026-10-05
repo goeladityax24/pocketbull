@@ -1,7 +1,44 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "web", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 },
-    { "name": "web-admin", "runtimeExecutable": "env", "runtimeArgs": ["ADMIN_KEY=", "npm", "run", "dev", "--", "-p", "3001"], "port": 3001 }
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3000
+    },
+    {
+      "name": "web-admin",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "ADMIN_KEY=",
+        "npm",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3001"
+      ],
+      "port": 3001
+    },
+    {
+      "name": "web-demo",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "NEXT_PUBLIC_SUPABASE_URL=",
+        "SUPABASE_SECRET_KEY=",
+        "ADMIN_KEY=",
+        "npm",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3002"
+      ],
+      "port": 3002
+    }
   ]
 }

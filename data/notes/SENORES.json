@@ -1,0 +1,695 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "US generics and CDMO pharma company",
+ "lede": "A young pharma company that has beaten its own growth guidance since listing, built on acquired US ANDAs, contract manufacturing and emerging markets. Profit is growing fast but cash isn't yet; the price assumes the next three years go to plan.",
+ "market": {
+  "price": 1350,
+  "mcap_cr": 6215,
+  "pe": 49.2,
+  "pb": 6.7,
+  "ev_ebitda": 33
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue grew from ₹215 Cr (FY24) to ₹633 Cr (FY26) with EBITDA margin rising to 27%; FY26 beat guidance (62% revenue growth vs 50% guided, 108% PAT growth vs 100%). Q1 FY27 kept pace with the 30–40% / 50–60% guidance."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Five-year operating cash flow is –₹21 Cr against ₹222 Cr of profit. Profit share is booked before cash arrives (₹172 Cr of 'other financial assets'). IPO money was moved from a sterile injectables plant to oral solids, and the branded-generics target was cut."
+  },
+  {
+   "lead": "Price",
+   "text": "49x trailing earnings vs 29–30x for Marksans and Caplin Point, which have longer records and better cash conversion."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Senores develops and makes generic medicines for the US and other regulated markets, both its own ANDAs and contract work (CDMO-CMO), plus emerging-market exports and a small India branded-generics business. Plants: Atlanta (US), Chhatral (Ahmedabad) and the recently acquired USFDA-approved Apnar plant in Baroda.",
+     "src": "May call p.4"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "58",
+       "label": "Approved ANDAs (23 launched), Jun 2026"
+      },
+      {
+       "value": "~70 / 30",
+       "label": "Regulated / emerging markets revenue"
+      },
+      {
+       "value": "50–53%",
+       "label": "Own products; rest CDMO-CMO"
+      },
+      {
+       "value": "₹180 Cr",
+       "label": "Emerging-markets revenue target, FY27"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "US EBITDA margins run around 40%; emerging markets 18–20%; branded generics aim for 35–40%.",
+       "src": "May call p.17"
+      },
+      {
+       "lead": "",
+       "text": "Acquired ANDAs are cheaper to launch than developing new ones, so margins depend on finding and launching them.",
+       "src": "May call p.16"
+      },
+      {
+       "lead": "",
+       "text": "Profit-share arrangements with partners mean part of income comes months after sale.",
+       "src": "May call p.9"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed in December 2024; ANDA count went from 22 to 58 in 15 months, mostly by acquisition.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Bought 75% of Apnar Pharma (Q4 FY26), Zoraya (US front end) and set up Amerisyn (US government JV).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Moved IPO money from a new sterile plant to oral-solid capacity (pending shareholder approval).",
+       "src": "Aug call p.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        14,
+        35,
+        215,
+        398,
+        633
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹688 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        33,
+        58,
+        122
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -26,
+        -46,
+        62
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "150%",
+        "514%",
+        "85%",
+        "59%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "36%",
+        "19%",
+        "23%",
+        "27%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "8",
+        "33",
+        "58",
+        "122"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "18%",
+        "12%",
+        "11%",
+        "15%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–1",
+        "–26",
+        "–46",
+        "62"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "1.37x",
+        "1.26x",
+        "0.40x",
+        "0.37x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover",
+        "7.5x",
+        "3.9x",
+        "4.2x",
+        "7.4x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash finally turned positive in FY26 (₹62 Cr),",
+       "text": "but free cash flow was –₹203 Cr after the Apnar purchase and capex.",
+       "src": null
+      },
+      {
+       "lead": "Reported EBITDA includes other income (₹47 Cr in FY26);",
+       "text": "excluding it the margin is a few points lower.",
+       "src": "May call p.12"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 14%.",
+       "text": "Capital employed rose ₹813 Cr from FY24 to FY26 (IPO money and acquisitions) while after-tax operating profit rose about ₹112 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26: 50% revenue growth, 100% PAT growth",
+        "FY26",
+        "62% and 108%",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27: 30–40% revenue growth",
+        "May 26",
+        "Q1 FY27 +30% (₹180 Cr vs ₹138 Cr)",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "29–31% EBITDA margin",
+        "May 26",
+        "Q1 FY27 about 30%",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Branded generics ₹60–70 Cr in FY27",
+        "May 26",
+        "Cut to ₹50–60 Cr in August",
+        {
+         "text": "Cut",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 capex about ₹200 Cr incl. injectables",
+        "May 26",
+        "Cut to ₹100–120 Cr; injectables now a pilot",
+        {
+         "text": "Changed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "PIC/S approval by June–July",
+        "May 26",
+        "Now expected Q2–Q3",
+        {
+         "text": "Slipped",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 45.8%, stable; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign holding rose from 3.7% to 6.6% in a year; domestic institutions about 9.8%.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "A new ESOP scheme (2026) is up for approval.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Corporate guarantees of ₹198 Cr given for subsidiaries' borrowings (₹153 Cr a year ago).",
+       "src": "AR p.89"
+      },
+      {
+       "lead": "",
+       "text": "Disputed income-tax demand of ₹20.5 Cr.",
+       "src": "AR p.124"
+      },
+      {
+       "lead": "",
+       "text": "Change in use of IPO proceeds away from the stated sterile plant.",
+       "src": "Aug call p.10"
+      },
+      {
+       "lead": "",
+       "text": "Positives: no auditor change, no material related-party transactions, no fraud reported.",
+       "src": "AR p.37, p.68"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Senores Pharmaceuticals",
+        "633",
+        "27%",
+        "122",
+        "15%",
+        "49.2x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Marksans Pharma",
+        "2,951",
+        "20%",
+        "420",
+        "19%",
+        "29.1x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Caplin Point Laboratories",
+        "2,187",
+        "35%",
+        "650",
+        "24%",
+        "29.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Bliss GVS Pharma",
+        "927",
+        "18%",
+        "135",
+        "17%",
+        "52.2x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Speed to market:",
+       "text": "buying approved ANDAs and launching them through partners and its own US front end.",
+       "src": null
+      },
+      {
+       "lead": "Niche products:",
+       "text": "first-to-market and competitive-generic-therapy opportunities in the US.",
+       "src": "May call p.15"
+      },
+      {
+       "lead": "US plant plus India plant:",
+       "text": "neutral to US tariffs on generics either way.",
+       "src": "Aug call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Price erosion:",
+       "text": "US generics prices fall as competitors launch.",
+       "src": null
+      },
+      {
+       "lead": "Small scale:",
+       "text": "a fifth of Marksans' revenue with similar ambitions.",
+       "src": null
+      },
+      {
+       "lead": "Dependence on partners:",
+       "text": "most US sales go through partners' labels.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Cash conversion (profit share, working capital)",
+        "Financial",
+        "Live: 5-year operating cash flow –₹21 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "USFDA inspection at Atlanta or Apnar",
+        "Regulatory",
+        "No issues reported"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "US generic price erosion and tariffs",
+        "Macro",
+        "Waiting for India-US trade deal"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Acquisition integration (Apnar, Zoraya, Amerisyn)",
+        "Operational",
+        "Apnar ramping; Zoraya/Amerisyn start Sep–Oct"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Seasonal emerging-market margins",
+        "Operational",
+        "Q1 FY27 14% vs 20% in Q4"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹15,800 Cr",
+       "sub": "FY29 market cap · about 2.5x today",
+       "text": "₹2,500 Cr revenue by FY29 at an 18% net margin (₹450 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹7,100 Cr",
+       "sub": "FY29 market cap · about 1.15x today",
+       "text": "Revenue grows 30% a year to ₹1,390 Cr at a 17% net margin (₹236 Cr), valued at 30x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹2,500 Cr",
+       "sub": "FY29 market cap · about –60%",
+       "text": "Growth slows to 15% a year; 13% net margin (₹125 Cr), valued at 20x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "49.2x",
+       "label": "P/E, trailing (Marksans 29x, Caplin 30x)"
+      },
+      {
+       "value": "~33x",
+       "label": "P/E on FY27 if PAT grows 50%"
+      },
+      {
+       "value": "6.7x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~33x",
+       "label": "EV / EBITDA (debt not netted for cash)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Senores has kept its promises on growth, which is why it trades at a premium to larger peers. The premium leaves little room for error while cash flow is still catching up with profit and the US expansion runs through new, untested channels.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Revenue and PAT tracking 30–40% / 50–60% growth",
+  "Operating cash flow and other financial assets",
+  "Apnar revenue (₹80–100 Cr budgeted)",
+  "Zoraya and Amerisyn starting sales",
+  "Shareholder vote on the IPO fund change"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (14 May 2026) and Q1 FY27 (27 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

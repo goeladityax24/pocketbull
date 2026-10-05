@@ -1,0 +1,612 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "CCTV camera maker (SME)",
+ "lede": "A small Indian CCTV brand whose sales doubled as STQC rules pushed out uncertified Chinese cameras. Profit has grown, but cash hasn't, debt jumped, and the company holds no earnings calls and gives no guidance.",
+ "market": {
+  "price": 1254,
+  "mcap_cr": 1354,
+  "pe": 64.6,
+  "pb": 18.2,
+  "ev_ebitda": 41
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue doubled to ₹148–153 Cr with 22.5% EBITDA and 14% net margin; H2 FY26 revenue was up 164%. BIS-ER certification, 11,000+ dealers and in-house PCB manufacturing position it for the STQC era."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was ₹0.3 Cr against ₹21 Cr of profit; short-term debt rose from ₹2.8 Cr to ₹31.8 Cr. A ₹10 Cr long-term advance and ₹12 Cr of intangibles under development are unexplained. There are no calls and no guidance to hold management to."
+  },
+  {
+   "lead": "Price",
+   "text": "65x trailing earnings and 18x book, versus CP PLUS at 103x but with a far weaker market position."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Prizor sells Prizor-brand CCTV cameras (IP, analog, 4G, AI) assembled in Gandhinagar, plus LED TVs, monitors and touch panels made by partners, through 11,000+ dealers in 21 states. CCTV was ₹114 Cr and displays ₹24 Cr of FY26 revenue.",
+     "src": "Apr deck p.25"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "16 lakh",
+       "label": "Camera assembly capacity a year (expandable to 40 lakh)"
+      },
+      {
+       "value": "11,000+",
+       "label": "Dealers (5,200 in FY24)"
+      },
+      {
+       "value": "₹92 Cr",
+       "label": "CCTV revenue in H2 FY26 alone"
+      },
+      {
+       "value": "–51%",
+       "label": "Display products revenue, H2 FY26"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margin is the brand premium on assembled cameras sold through dealers; in-house PCB and housing moulding should lift it.",
+       "src": "Apr deck p.14"
+      },
+      {
+       "lead": "",
+       "text": "Demand jumped when STQC certification became mandatory for CCTV sold in India.",
+       "src": "Apr deck p.35"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Founded 2017; listed on NSE SME in 2024; revenue from ₹14 Cr (FY23) to ₹148 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Shift from TVs and displays to cameras as STQC rules took effect.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        36,
+        71,
+        153
+       ]
+      }
+     ],
+     "caption": "Half-yearly reporter."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        6,
+        10,
+        21
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -2,
+        -14,
+        0.3
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "97%",
+        "115%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "23%",
+        "21%",
+        "22%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "6",
+        "10",
+        "21"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "45%",
+        "39%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–2",
+        "–14",
+        "0.3"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "203",
+        "262",
+        "204"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "1.47x",
+        "0.19x",
+        "0.57x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "No cash from growth:",
+       "text": "three-year profit ₹37 Cr vs operating cash –₹16 Cr; inventory and receivables nearly doubled in FY26.",
+       "src": "Apr deck p.27"
+      },
+      {
+       "lead": "Debt is rising:",
+       "text": "borrowings went from ₹8 Cr to ₹42 Cr in FY26.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 18%,",
+       "text": "on a small base (capital employed up ₹99 Cr from FY24 to FY26).",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Prizor holds no earnings calls and gives no numeric guidance, so there is no track record to test. The table lists what its investor presentations claim and what the numbers show.",
+     "src": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What the company says",
+       "numeric": false
+      },
+      {
+       "label": "Evidence",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Dealer network expansion",
+        "5,200 (FY24) → 11,000+ (FY26)",
+        {
+         "text": "Delivered",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "In-house PCB manufacturing operational",
+        "Stated in the FY26 deck; capex visible in fixed assets",
+        {
+         "text": "Plausible",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "SoC chip with IndieSemic",
+        "'In pipeline', no date",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Growth is 'structural and irreversible'",
+        "Based on one regulatory change",
+        {
+         "text": "Untested",
+         "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (the Gauswami family) hold 67.9%; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "No domestic institutions; foreign 1.2%.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "₹7.7 Cr received against share warrants in FY26.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "₹10 Cr of new long-term loans and advances, and ₹12.2 Cr of intangible assets under development, are not explained in the deck.",
+       "src": "Apr deck p.27"
+      },
+      {
+       "lead": "",
+       "text": "The chairman's quote calls the H2 FY26 figures 'H1 FY26 results'.",
+       "src": "Apr deck p.23"
+      },
+      {
+       "lead": "",
+       "text": "Remuneration of both promoter-directors was revised for FY27.",
+       "src": "AR p.33"
+      },
+      {
+       "lead": "",
+       "text": "Auditor's report is unmodified; no fraud reported.",
+       "src": "AR p.58"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Prizor Viztech",
+        "153",
+        "22%",
+        "21",
+        "39%",
+        "64.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Aditya Infotech (CP PLUS)",
+        "4,221",
+        "13%",
+        "368",
+        "29%",
+        "103x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "CP PLUS has about 43–45% of India's surveillance market; 40+ brands are now STQC certified."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Certified early:",
+       "text": "BIS-ER through STQC-accredited labs.",
+       "src": null
+      },
+      {
+       "lead": "Dealer reach:",
+       "text": "11,000+ dealers in Tier 2 and 3 towns.",
+       "src": null
+      },
+      {
+       "lead": "Lean model:",
+       "text": "assembly plus partner manufacturing keeps capex low.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Tiny next to CP PLUS,",
+       "text": "which has 30x the revenue, its own SoC partnerships and a national brand.",
+       "src": null
+      },
+      {
+       "lead": "Rising competition:",
+       "text": "40+ certified brands now.",
+       "src": null
+      },
+      {
+       "lead": "Component shortages:",
+       "text": "memory and chip costs favour large buyers.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "One-time STQC demand boost fades",
+        "Market",
+        "Untested; H1 FY27 results will show"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital and rising short-term debt",
+        "Financial",
+        "Materialised in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Disclosure (no calls, unexplained advances)",
+        "Governance",
+        "Open"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Chip and memory costs",
+        "Supply",
+        "Industry-wide"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹2,500 Cr",
+       "sub": "FY29 market cap · about 1.9x today",
+       "text": "Revenue grows 50% a year to ₹520 Cr at a 14% net margin (₹72 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹1,170 Cr",
+       "sub": "FY29 market cap · about –14%",
+       "text": "Revenue grows 25% a year to ₹300 Cr at a 13% net margin (₹39 Cr), valued at 30x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹300 Cr",
+       "sub": "FY29 market cap · about –78%",
+       "text": "The STQC boost fades; revenue flat near ₹150 Cr at a 10% net margin (₹15 Cr), valued at 20x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "64.6x",
+       "label": "P/E, trailing"
+      },
+      {
+       "value": "18.2x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~41x",
+       "label": "EV / EBITDA"
+      },
+      {
+       "value": "0",
+       "label": "Earnings calls held"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The stock has risen almost sixfold from its low on one strong half-year. With no guidance, weak cash flow and limited disclosure, it is hard to judge how lasting the STQC boost is. The next half-year results are the real test.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue vs H2 FY26's ₹106 Cr",
+  "Operating cash flow and short-term debt",
+  "Explanation of the ₹10 Cr advance",
+  "Whether the company starts holding calls"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Investor presentations, H1 FY26 (Nov 2025) and FY26 (Apr 2026)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

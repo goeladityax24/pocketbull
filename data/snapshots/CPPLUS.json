@@ -1,0 +1,469 @@
+{
+  "symbol": "CPPLUS",
+  "name": "Aditya Infotech Ltd",
+  "screenerUrl": "https://www.screener.in/company/CPPLUS/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1285570",
+  "warehouseId": "141593375",
+  "ratios": {
+    "market cap": 48917,
+    "current price": 3989,
+    "high": 4094,
+    "low": 1301,
+    "stock p/e": 103,
+    "book value": 159,
+    "dividend yield": 0.04,
+    "roce": 28.6,
+    "roe": 25.4,
+    "face value": 1
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        636,
+        669,
+        830,
+        977,
+        740,
+        920,
+        1139,
+        1422,
+        1402
+      ],
+      "expenses": [
+        595,
+        630,
+        760,
+        879,
+        679,
+        811,
+        999,
+        1165,
+        1199
+      ],
+      "operating_profit": [
+        41,
+        39,
+        69,
+        98,
+        61,
+        109,
+        140,
+        257,
+        204
+      ],
+      "opm_pct": [
+        6,
+        6,
+        8,
+        10,
+        8,
+        12,
+        12,
+        18,
+        15
+      ],
+      "other_income": [
+        3,
+        252,
+        4,
+        0,
+        4,
+        3,
+        5,
+        2,
+        4
+      ],
+      "interest": [
+        9,
+        10,
+        11,
+        12,
+        11,
+        7,
+        5,
+        8,
+        4
+      ],
+      "depreciation": [
+        4,
+        6,
+        9,
+        12,
+        10,
+        11,
+        12,
+        23,
+        13
+      ],
+      "pbt": [
+        30,
+        277,
+        53,
+        74,
+        44,
+        94,
+        127,
+        228,
+        191
+      ],
+      "tax_pct": [
+        26,
+        15,
+        24,
+        26,
+        25,
+        25,
+        25,
+        26,
+        25
+      ],
+      "net_profit": [
+        23,
+        234,
+        40,
+        55,
+        33,
+        70,
+        96,
+        169,
+        142
+      ],
+      "eps": [
+        2.2,
+        21.28,
+        3.66,
+        5.01,
+        2.99,
+        5.97,
+        8.17,
+        14.36,
+        12.07
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        1238,
+        1149,
+        1646,
+        2285,
+        2782,
+        3112,
+        4221
+      ],
+      "expenses": [
+        1181,
+        1093,
+        1513,
+        2124,
+        2559,
+        2864,
+        3655
+      ],
+      "operating_profit": [
+        57,
+        56,
+        133,
+        161,
+        223,
+        248,
+        566
+      ],
+      "opm_pct": [
+        4.6,
+        4.9,
+        8,
+        7,
+        8,
+        8,
+        13
+      ],
+      "other_income": [
+        5,
+        12,
+        24,
+        15,
+        -12,
+        259,
+        13
+      ],
+      "interest": [
+        37,
+        26,
+        20,
+        23,
+        31,
+        42,
+        30
+      ],
+      "depreciation": [
+        5,
+        6,
+        8,
+        9,
+        16,
+        31,
+        56
+      ],
+      "pbt": [
+        21,
+        35,
+        129,
+        143,
+        165,
+        434,
+        493
+      ],
+      "tax_pct": [
+        15,
+        28,
+        25,
+        24,
+        30,
+        19,
+        25
+      ],
+      "net_profit": [
+        17,
+        29,
+        97,
+        108,
+        115,
+        351,
+        368
+      ],
+      "eps": [
+        69.72,
+        117.32,
+        387.72,
+        528.34,
+        561.8,
+        32,
+        31.24
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e07f6b18-87cd-442e-a8e8-8e1c4c318dd4.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24dd017f-8e5f-4ab0-ac82-21076017c9ea.pdf",
+      "recordingUrl": "https://www.adityagroup.com/assets_web/images/statutory_communications/earning_investor_call/2026_27/q2/Audio_Recording_of_Earnings_call_13_08_2026.mp3"
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e63fd5d-ff64-43fd-ab64-85f16a4d963a.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f4f027c-6161-4694-9be7-cc740d5d5151.pdf",
+      "recordingUrl": "https://www.adityagroup.com/assets_web/images/statutory_communications/earning_investor_call/2026_27/Earnings_call_Audio_Recording_28_May_2026.mp3"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5a40d0f-53d8-4774-a42a-07d57187b0c8.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f950406f-9a0e-42b0-a334-fbc3b9db63cc.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfc3ed01-7ea5-476c-8246-c0a4ca2c9571.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0a4b2b2-f05e-43b2-901e-2178f5abf7dc.pdf",
+      "recordingUrl": "https://youtu.be/i7Sjs0Gx2HQ"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=049b1218-7309-450a-8095-d9d690a06306.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fec4c0d-ce4d-474c-9876-d7325878a50e.pdf",
+      "recordingUrl": "https://www.adityagroup.com/assets_web/images/statutory_communications/earning_investor_call/earnings_call_audio_recording.mp3"
+    }
+  ],
+  "peers": [
+    {
+      "name": "Indo-MIM",
+      "screenerPath": "/company/INDOMIM/consolidated/",
+      "marketCapCr": 65019.25,
+      "pe": 100.68,
+      "salesQtrCr": 1218.74,
+      "salesGrowthQtrPct": 9.39,
+      "roce": 24.98
+    },
+    {
+      "name": "Aditya Infotech",
+      "screenerPath": "/company/CPPLUS/consolidated/",
+      "marketCapCr": 48916.53,
+      "pe": 102.56,
+      "salesQtrCr": 1402.42,
+      "salesGrowthQtrPct": 89.51,
+      "roce": 28.56
+    },
+    {
+      "name": "Syrma SGS Tech.",
+      "screenerPath": "/company/SYRMA/consolidated/",
+      "marketCapCr": 32756.09,
+      "pe": 88.2,
+      "salesQtrCr": 1588.62,
+      "salesGrowthQtrPct": 68.29,
+      "roce": 16.78
+    },
+    {
+      "name": "Honeywell Auto",
+      "screenerPath": "/company/HONAUT/",
+      "marketCapCr": 29879.2,
+      "pe": 53.48,
+      "salesQtrCr": 1204.4,
+      "salesGrowthQtrPct": 1.8,
+      "roce": 16.95
+    },
+    {
+      "name": "Jyoti CNC Auto.",
+      "screenerPath": "/company/JYOTICNC/consolidated/",
+      "marketCapCr": 23569.05,
+      "pe": 73.3,
+      "salesQtrCr": 508.47,
+      "salesGrowthQtrPct": 23.97,
+      "roce": 21.32
+    },
+    {
+      "name": "Kaynes Tech",
+      "screenerPath": "/company/KAYNES/consolidated/",
+      "marketCapCr": 23020.62,
+      "pe": 66.25,
+      "salesQtrCr": 946.02,
+      "salesGrowthQtrPct": 40.47,
+      "roce": 12.69
+    },
+    {
+      "name": "LMW",
+      "screenerPath": "/company/LMW/consolidated/",
+      "marketCapCr": 17672.9,
+      "pe": 96.75,
+      "salesQtrCr": 860.72,
+      "salesGrowthQtrPct": 24,
+      "roce": 5.58
+    }
+  ],
+  "fetchedAt": "2026-10-05T08:37:32.623Z"
+}
