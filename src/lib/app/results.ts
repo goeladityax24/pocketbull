@@ -45,7 +45,9 @@ function covers(label: string | null, p: Period): boolean {
   return t.kind === "year" ? t.fy === p.fy : samePeriod(t, p);
 }
 
-const newestFirst = (a: ItemView, b: ItemView) => b.tracked.source.yearMonth.localeCompare(a.tracked.source.yearMonth);
+/** The company's own word first, then conference notes; newest first within each */
+const newestFirst = (a: ItemView, b: ItemView) =>
+  Number(a.tracked.source.external) - Number(b.tracked.source.external) || b.tracked.source.yearMonth.localeCompare(a.tracked.source.yearMonth);
 
 /** A ₹ expectation for this metric and period straight from the tracker (growth or ₹ target). */
 function direct(view: TrackerView, metric: ResultMetric, p: Period) {

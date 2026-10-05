@@ -13,8 +13,24 @@ export interface TrackedGuidance extends GuidanceEvaluation {
   /** Which concall (or conference note) it came from */
   source: { month: string; yearMonth: string; transcriptUrl: string; label: string; external: boolean };
   quoteCheck: QuoteCheck;
-  /** Later guidance for the same metric and period replaces this one for future periods */
+  /** Later guidance for the same metric and period, from the same kind of source, replaces this one */
   superseded: boolean;
+  /**
+   * Live guidance on the same target from the other kind of source (company call vs
+   * conference notes). Neither replaces the other; both stay in the tracker side by side.
+   */
+  alsoSaid: { label: string; external: boolean; guidance: GuidanceItem }[];
+}
+
+/** Do two items speak about the same target? */
+function sameTarget(a: GuidanceItem, b: GuidanceItem): boolean {
+  if (a.metric !== b.metric) return false;
+  // For a named metric and period that holds whatever the form ("25% growth" replaces
+  // "₹3,250 Cr" for FY27 revenue). "other" covers unrelated things (tax rate, segment
+  // margin), so those must also carry the same name.
+  if (a.metric === "other") return a.period === b.period && a.metric_label.toLowerCase() === b.metric_label.toLowerCase();
+  if (a.period != null) return a.period === b.period;
+  return a.kind === b.kind && a.keyword.toLowerCase() === b.keyword.toLowerCase();
 }
 
 export interface Tracker {
@@ -47,19 +63,10 @@ export function buildTracker(snapshot: CompanySnapshot, runs: SavedRun[], opts: 
   );
   const items: TrackedGuidance[] = all.map(({ g, run, i }) => {
     const sameRun = run.extraction.guidance;
-    // A later call's word on the same target replaces this one. For a named metric and
-    // period that holds whatever the form ("25% growth" replaces "₹3,250 Cr" for FY27
-    // revenue). "other" covers unrelated things (tax rate, segment margin), so those
-    // must also carry the same name.
+    // A later call's word on the same target replaces this one. Conference notes and the
+    // company's own calls are kept apart: one never replaces the other.
     const later = all.some(
-      (x) =>
-        x.run.concall.yearMonth > run.concall.yearMonth &&
-        x.g.metric === g.metric &&
-        (g.metric === "other"
-          ? x.g.period === g.period && x.g.metric_label.toLowerCase() === g.metric_label.toLowerCase()
-          : g.period != null
-            ? x.g.period === g.period
-            : x.g.kind === g.kind && x.g.keyword.toLowerCase() === g.keyword.toLowerCase()),
+      (x) => x.run.concall.yearMonth > run.concall.yearMonth && !!x.run.source === !!run.source && sameTarget(g, x.g),
     );
     return {
       ...evaluateGuidance(g, snapshot, sameRun, opts),
@@ -72,8 +79,15 @@ export function buildTracker(snapshot: CompanySnapshot, runs: SavedRun[], opts: 
       },
       quoteCheck: run.quoteChecks[i] ?? "unverifiable",
       superseded: later,
+      alsoSaid: [],
     };
   });
+  for (const item of items) {
+    if (item.superseded) continue;
+    item.alsoSaid = items
+      .filter((x) => !x.superseded && x.source.external !== item.source.external && sameTarget(item.guidance, x.guidance))
+      .map((x) => ({ label: x.source.label, external: x.source.external, guidance: x.guidance }));
+  }
   return { snapshot, nextPeriod: nextResultsPeriod(snapshot), items };
 }
 

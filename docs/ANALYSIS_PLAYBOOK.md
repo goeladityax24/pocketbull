@@ -80,4 +80,4 @@ npm run pending-sources            # should no longer list them
 git add data/sources/<SYMBOL> data/runs/<SYMBOL>
 ```
 
-The quote check runs against our own transcription, not the original document. The tracker therefore labels these promises with the event and the note grades, so readers can see they are second-hand. A later company call or presentation on the same metric and period replaces the conference figure.
+The quote check runs against our own transcription, not the original document. The tracker therefore labels these promises with the event and the note grades, so readers can see they are second-hand. When the company's own call or presentation later gives a figure for the same metric and period, both stay in the tracker. Each carries a note pointing to the other ("The company (Jul 2026 call) also gave … Both are kept"), and the Revenue/EBITDA/PAT table uses the company's figure first. A later conference does replace an earlier conference figure, and a later call an earlier call.

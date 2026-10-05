@@ -115,6 +115,7 @@ export function formatTracker(t: Tracker, run: SavedRun | null): string {
     );
     out.push(`  “${g.quote.slice(0, 160)}${g.quote.length > 160 ? "…" : ""}”${g.page ? ` p.${g.page}` : ""} · quote ${it.quoteCheck}`);
     if (it.note) out.push(`  ${it.note}${g.keyword ? ` · keyword: ${g.keyword}` : ""}`);
+    for (const o of it.alsoSaid) out.push(`  Also said (${o.label}): ${fmtSaid(o.guidance) || o.guidance.metric_label} · both kept`);
     for (const c of it.checks) {
       out.push(`  ${c.period.label.padEnd(8)} ${TAG[c.tag].padEnd(9)} actual ${fmtActual(c).padEnd(12)} expected ${fmtRange(c.expected)}${c.gap ? ` · ${c.gap}` : ""}`);
     }

@@ -23,6 +23,12 @@ function Source({ item, transcript }: { item: ItemView; transcript: string }) {
         </span>
       )}
       {item.edited && <span className="src">edited</span>}
+      {item.tracked.alsoSaid.map((o, i) => (
+        <span key={i} className="sub basis-full">
+          {o.external ? "Conference notes" : "The company"} ({o.label}) also gave {said(o.guidance)}
+          {o.guidance.period ? ` for ${o.guidance.period}` : ""}. Both are kept; neither replaces the other.
+        </span>
+      ))}
     </span>
   );
 }

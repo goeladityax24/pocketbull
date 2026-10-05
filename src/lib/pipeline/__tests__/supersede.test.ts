@@ -42,3 +42,35 @@ describe("later guidance replaces earlier guidance", () => {
     ]);
   });
 });
+
+describe("conference notes and company calls", () => {
+  const conf = (r: SavedRun): SavedRun => ({
+    ...r,
+    source: {
+      id: `${r.concall.yearMonth}-test`,
+      kind: "conference",
+      event: "Test Connect",
+      date: `${r.concall.yearMonth}-06`,
+      links: [{ url: "https://x.com/a/status/1", author: "a", grade: "broker_note", images: [], pages: [1] }],
+      text_file: "x.txt",
+    },
+  });
+
+  it("keep both, each pointing at the other", () => {
+    const t = buildTracker(snapshot, [
+      conf(run("2026-03", [item({ metric: "revenue", kind: "absolute", low: 8000, high: 8000, period: "FY27" })])),
+      run("2026-07", [item({ metric: "revenue", kind: "growth_yoy", low: 25, high: 25, unit: "pct", period: "FY27" })]),
+    ]);
+    expect(t.items.map((i) => i.superseded)).toEqual([false, false]);
+    expect(t.items[0].alsoSaid.map((o) => [o.external, o.guidance.kind])).toEqual([[false, "growth_yoy"]]);
+    expect(t.items[1].alsoSaid.map((o) => [o.external, o.guidance.kind])).toEqual([[true, "absolute"]]);
+  });
+
+  it("a later conference still replaces an earlier one", () => {
+    const t = buildTracker(snapshot, [
+      conf(run("2026-03", [item({ metric: "revenue", kind: "absolute", low: 8000, high: 8000, period: "FY27" })])),
+      conf(run("2026-09", [item({ metric: "revenue", kind: "absolute", low: 8200, high: 8200, period: "FY27" })])),
+    ]);
+    expect(t.items.map((i) => [i.superseded, i.alsoSaid.length])).toEqual([[true, 0], [false, 0]]);
+  });
+});
