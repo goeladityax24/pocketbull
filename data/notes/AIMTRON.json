@@ -1,0 +1,650 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Electronics design and manufacturing (SME)",
+ "lede": "A fast-growing electronics manufacturer moving from circuit-board assembly to design and full box builds, now with a US acquisition. Growth and margins are strong, but cash has gone out every year and guidance doesn't add up.",
+ "market": {
+  "price": 1876,
+  "mcap_cr": 3990,
+  "pe": 86.8,
+  "pb": 16.5,
+  "ev_ebitda": 66
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue nearly doubled to ₹301 Cr in FY26 (beating its ₹250–280 Cr guidance) with a steady 20–23% EBITDA and 15% net margin; order book about ₹600 Cr; certifications for aerospace, MedTech, automotive and telecom."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was negative two years running (–₹40 Cr in FY26) as inventory and receivables ballooned. The new US subsidiary runs at about 11% EBITDA, and management admitted its FY27 numbers don't reconcile."
+  },
+  {
+   "lead": "Price",
+   "text": "87x trailing earnings for an SME company, in line with Syrma (88x) and below Avalon (114x), but with negative cash flow."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Aimtron designs and manufactures electronics: PCB assembly, box build and full products to order (ODM), from Vadodara and Bangalore, plus a newly acquired plant in Decatur, Illinois (AIC). Customers include a Fortune 500 US data-centre firm, telecom, power, industrial, drone and defence PSU clients.",
+     "src": "Apr call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~₹600 Cr",
+       "label": "Group order book, Apr 2026"
+      },
+      {
+       "value": "70 / 30",
+       "label": "Domestic / export revenue"
+      },
+      {
+       "value": "9",
+       "label": "SMT lines; capacity about ₹800–900 Cr revenue"
+      },
+      {
+       "value": "~11%",
+       "label": "EBITDA margin at the acquired US unit"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margins hold at 20–22% EBITDA by picking complex, low-volume, high-mix boards (MedTech, power electronics, telecom).",
+       "src": "Apr call p.20"
+      },
+      {
+       "lead": "",
+       "text": "Box build raises order value; ODM design work earns the most but is under 5% of revenue.",
+       "src": "Apr call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Input costs are passed on to customers; chip shortages are the main supply risk.",
+       "src": "Apr call p.7"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed on NSE SME in 2024; revenue went from ₹93 Cr (FY24) to ₹301 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Preferential shares and warrants in FY26 to fund a greenfield plant.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Bought ICS (now AIC) in the US in FY26; plans to move to the main board after three years.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        93,
+        159,
+        301
+       ]
+      }
+     ],
+     "caption": "Half-yearly reporter; H2 FY26 ₹179 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        14,
+        26,
+        46
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        7,
+        -19,
+        -40
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "71%",
+        "89%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "26%",
+        "20%",
+        "20%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "14",
+        "26",
+        "46"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "29%",
+        "28%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "7",
+        "–19",
+        "–40"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "257",
+        "163",
+        "254"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.29x",
+        "0.01x",
+        "0.23x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Growth is being funded, not generated:",
+       "text": "three-year profit ₹86 Cr vs operating cash –₹52 Cr; about ₹240 Cr is tied up in inventory and receivables.",
+       "src": "Apr call p.16"
+      },
+      {
+       "lead": "Margins are steady:",
+       "text": "the company reports 22.6% EBITDA for FY26 (Screener: 20%, a different classification of other income).",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 14%.",
+       "text": "Capital employed rose ₹223 Cr from FY24 to FY26 while after-tax operating profit rose about ₹31 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 revenue ₹250–280 Cr",
+        "Nov 25",
+        "₹301 Cr",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA 20%+, PAT 15% ± 2",
+        "Nov 25",
+        "22.6% and 15.3%",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Box build above 50% of H2 revenue",
+        "Nov 25",
+        "Management gave both 30% and 65–70% as the box-build share",
+        {
+         "text": "Unclear",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "First greenfield SMT line by Q3 or early Q4 FY27",
+        "Nov 25",
+        "Now end FY27 or Q1 FY28",
+        {
+         "text": "Slipped",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Acquisition announcement 'within a short time'",
+        "Nov 25",
+        "ICS (US) acquired",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 68.6% (from 71.4%) after preferential issues; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Institutions own little: foreign 0.2%, domestic 3%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Guidance maths: the ₹450–550 Cr FY27 range implies little organic growth once AIC is included; the chairman said 'mathematic doesn't fit in my mind also'.",
+       "src": "Apr call p.18"
+      },
+      {
+       "lead": "",
+       "text": "Income-tax dispute of ₹7.9 Cr; a ₹13 Cr GST claim was resolved.",
+       "src": "AR p.97"
+      },
+      {
+       "lead": "",
+       "text": "Positives: no auditor change, no loans to promoters or related parties, no fraud reported.",
+       "src": "AR p.72, p.82"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Aimtron Electronics",
+        "301",
+        "20%",
+        "46",
+        "28%",
+        "86.8x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Syrma SGS Technology",
+        "4,819",
+        "11%",
+        "346",
+        "17%",
+        "88.1x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Avalon Technologies",
+        "1,603",
+        "11%",
+        "113",
+        "19%",
+        "114x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Kaynes Technology",
+        "3,626",
+        "16%",
+        "364",
+        "13%",
+        "66x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Margins about double larger peers'",
+       "text": "from high-mix, complex work and design services.",
+       "src": null
+      },
+      {
+       "lead": "Certifications",
+       "text": "(AS9100D, ISO 13485, IATF 16949, trusted telecom) open regulated sectors.",
+       "src": "Apr call p.3"
+      },
+      {
+       "lead": "US presence",
+       "text": "through AIC gives local manufacturing for US customers.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Scale:",
+       "text": "a tenth of Syrma's revenue; large EMS players (and L&T) are entering.",
+       "src": "Apr call p.7"
+      },
+      {
+       "lead": "Working capital:",
+       "text": "ODM and box build need inventory, which eats cash.",
+       "src": null
+      },
+      {
+       "lead": "Customer concentration:",
+       "text": "one US ODM contract was about a fifth of the order book.",
+       "src": "Nov call p.3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Cash burn from working capital",
+        "Financial",
+        "Materialised: –₹40 Cr in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Chip and memory shortages",
+        "Supply",
+        "Inventory built up as a buffer"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Integration of the US acquisition",
+        "Operational",
+        "Margin from 11% towards 18–20% targeted"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Customer concentration",
+        "Operational",
+        "Large single orders"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹6,750 Cr",
+       "sub": "FY29 market cap · about 1.7x today",
+       "text": "₹1,000 Cr revenue by FY29 at a 15% net margin (₹150 Cr), valued at 45x."
+      },
+      {
+       "name": "Base",
+       "value": "₹4,150 Cr",
+       "sub": "FY29 market cap · about flat",
+       "text": "Revenue grows 35% a year to ₹740 Cr at a 14% net margin (₹104 Cr), valued at 40x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹1,400 Cr",
+       "sub": "FY29 market cap · about –66%",
+       "text": "Growth slows to 15% a year; 12% net margin (₹55 Cr), valued at 25x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "86.8x",
+       "label": "P/E, trailing (Syrma 88x, Kaynes 66x)"
+      },
+      {
+       "value": "~55x",
+       "label": "P/E on FY27 if revenue is ₹500 Cr at 14–15% net margin"
+      },
+      {
+       "value": "16.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~66x",
+       "label": "EV / EBITDA"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Aimtron delivers on revenue and margin, which the market has rewarded with a large-cap EMS multiple. That price needs both growth and a turn to positive cash flow; the base case is flat over three years.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue towards the ₹450–550 Cr full-year range",
+  "Operating cash flow turning positive",
+  "AIC margin improvement",
+  "Greenfield plant timeline",
+  "Move to the main board"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "H1 FY26 (6 Nov 2025) and H2 FY26 (28 Apr 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

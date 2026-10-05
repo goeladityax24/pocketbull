@@ -170,13 +170,18 @@ export async function importRun(args: {
     throw new Error(`The analysis does not match the app's format:\n  ${issues.join("\n  ")}`);
   }
   const s = args.snapshot;
-  const concall = pickConcall(s, args.concall);
+  // Companies without transcripts (some SMEs): an analysis of the investor presentation,
+  // with the presentation as the document the quotes are checked against
+  const concall =
+    pickConcall(s, args.concall) ??
+    (args.concall && args.transcript ? (s.concalls.find((c) => c.yearMonth === args.concall && c.pptUrl) ?? null) : null);
   if (!concall) throw new Error(`No concall ${args.concall ?? "with a transcript"} on Screener for ${s.symbol}`);
+  const sourceUrl = concall.transcriptUrl ?? concall.pptUrl!;
 
   let transcript = args.transcript ?? null;
   if (transcript === undefined || transcript === null) {
     try {
-      transcript = await loadPdf(concall.transcriptUrl!);
+      transcript = await loadPdf(sourceUrl);
     } catch {
       transcript = null; // quotes will show as unverifiable
     }
@@ -196,7 +201,7 @@ export async function importRun(args: {
     extraction: parsed.data,
     quoteChecks,
     docs: {
-      transcriptUrl: concall.transcriptUrl!,
+      transcriptUrl: sourceUrl,
       pptUrl: concall.pptUrl,
       transcriptPages: transcript?.pages.length ?? 0,
       transcriptHasText: transcript?.hasText ?? false,

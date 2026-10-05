@@ -64,9 +64,15 @@ export default async function CompanyOverview({ params }: PageProps<"/c/[symbol]
           <Icon d={["M9 18h6", "M10 22h4", "M12 2a7 7 0 0 0-4 12.7V16h8v-1.3A7 7 0 0 0 12 2z"]} />
           <div className="text-[17px] font-semibold">Insight report</div>
           <div className="text-sm leading-normal" style={{ color: "var(--ink-3)" }}>
-            {latest ? latest.extraction.insights.summary.split(/(?<=\.)\s/)[0] : "What changed, management tone, what analysts pushed on, and what to watch next."}
+            {c.researchNote
+              ? c.researchNote.lede.split(/(?<=\.)\s/)[0]
+              : latest
+                ? latest.extraction.insights.summary.split(/(?<=\.)\s/)[0]
+                : "Business, financials, management track record, peers, risks and valuation."}
           </div>
-          {latest && <div className="sub mt-auto">Tone: {latest.extraction.insights.tone.label} · {latest.concall.month} call</div>}
+          <div className="sub mt-auto">
+            {c.researchNote ? `Full report · ${fmtDate(c.researchNote.as_of)}` : latest ? `Tone: ${latest.extraction.insights.tone.label} · ${latest.concall.month} call` : ""}
+          </div>
         </Link>
 
         <Link className="card" href={`${base}/tracker`}>

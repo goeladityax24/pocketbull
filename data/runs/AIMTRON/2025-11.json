@@ -1,0 +1,279 @@
+{
+  "symbol": "AIMTRON",
+  "concall": {
+    "month": "Nov 2025",
+    "yearMonth": "2025-11",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_11112025200524_AEL_Earning_call_Transcript.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_06112025083200_Investor_presentation_H1FY2026.pdf",
+    "recordingUrl": "https://youtu.be/TkLcfbMmNVw"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T08:39:41.123Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY26",
+    "call_date": "2025-11-06",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY26 revenue",
+        "kind": "absolute",
+        "low": 250,
+        "high": 280,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we have given the projections of around ₹250 crore plus, somewhere around ₹270 crores, ₹280 crores.",
+        "page": 12,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "FY26 revenue 250-280",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 50,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "But next year revenue, you can say again 40%, 50% CAGR is something that we are going to eye on.",
+        "page": 17,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "FY27 growth 40-50%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'20% on the northern side': 20% or more",
+        "quote": "So, EBITDA and PAT level probably like 20% on a Northern side of it, probably we can expect that.",
+        "page": 12,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "EBITDA 20%+",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 17,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "But whatever right now, we are targeting 15% plus, minus 1 or 2.",
+        "page": 15,
+        "speaker": "Mukesh Vasani (Chairman)",
+        "confidence": "high",
+        "keyword": "PAT margin 13-17%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Box build share of revenue",
+        "kind": "margin_pct",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": "H2 FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Box build was about 35% in H1 FY26",
+        "quote": "And down the line, that would increase to more than 50% in second half of the year.",
+        "page": 11,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "box build 50%+",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "First greenfield SMT line running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": "end of 2026, Q3 or early Q4",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Initially, one SMT lines, we are planning to get it operational by end of next year, Q3 or early Q4.",
+        "page": 24,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "greenfield SMT line",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Two new SMT lines a year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "like we are planning to have two SMT lines every year once it gets operational.",
+        "page": 24,
+        "speaker": "Sneh Shah (Whole Time Director)",
+        "confidence": "high",
+        "keyword": "two SMT lines a year",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Acquisition announcement",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "within a short time",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, within short time, you will get some answer from us or some announcement from us.",
+        "page": 21,
+        "speaker": "Mukesh Vasani (Chairman)",
+        "confidence": "medium",
+        "keyword": "M&A announcement",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H1 FY26 revenue more than doubled (+112% YoY to about ₹123 Cr) and net profit rose 81%, with box build at about 35% of revenue. The order book hit a record ₹463.5 Cr, about 3x FY25 revenue, helped by a ₹97.5 Cr ODM contract from an $8 billion US infrastructure firm. Management guided FY26 revenue of ₹250-280 Cr, 20%+ EBITDA and 15% ± 2 PAT margin, and is building a greenfield plant and looking at acquisitions.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Record order book of ₹463.5 Cr, including a ₹97.5 Cr ODM contract and a 50,000-unit AI IoT order",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "AS9100D aerospace certification; prototype order from a Texas defence drone customer",
+          "page": 3
+        },
+        {
+          "change": "reiterated",
+          "text": "FY26 revenue of ₹250-280 Cr and 40-50% growth",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Preferential shares and warrants to fund a ₹1,000 Cr-capacity greenfield plant",
+          "page": 24
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Up until now, Aimtron's philosophy has been to let the results speak for themselves.",
+        "page": 26
+      },
+      "analyst_questions": [
+        {
+          "topic": "Falling PAT margin",
+          "answer": "More box build (with bought-in parts) raises cost of goods; management expects margins to hold around 15% PAT.",
+          "page": 14
+        },
+        {
+          "topic": "Defence orders",
+          "answer": "Deliberately cautious: long qualification and high working capital; defence to stay a small share of revenue.",
+          "page": 15
+        },
+        {
+          "topic": "Equity raise after calling equity precious",
+          "answer": "Warrants instead of loans to have capacity ready before moving to the main board; keeps headroom for an acquisition.",
+          "page": 24
+        },
+        {
+          "topic": "Capacity",
+          "answer": "Current lines support about ₹450-500 Cr of revenue; the greenfield adds about ₹500 Cr more (about ₹100 Cr per SMT line).",
+          "page": 22
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "PAT margin fell versus H1 FY25 as cost of goods rose with box build.",
+          "page": 13
+        },
+        {
+          "text": "Preferential warrants issued shortly after saying equity was too precious to dilute.",
+          "page": 24
+        },
+        {
+          "text": "One ODM contract is about a fifth of the order book.",
+          "page": 3
+        }
+      ],
+      "watch_next": [
+        "H2 FY26 revenue in line with ₹250-280 Cr for the year",
+        "Box build above 50% of H2 revenue",
+        "Acquisition announcement",
+        "Greenfield construction progress"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Electronics design and manufacturing: PCB assembly, box build and system integration, ODM product design (power electronics, telecom, IoT, automotive, MedTech)",
+        "customers": "Global and domestic OEMs, including a US data-centre infrastructure firm, Navratna PSUs and drone makers",
+        "revenue_mix": "About 60-65% domestic and 35-40% export in H1 FY26; box build about 35% of revenue",
+        "demand_drivers": "China-plus-one outsourcing, India's EMS growth, ODM demand, data centres and telecom upgrades"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_11112025200524_AEL_Earning_call_Transcript.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/AIMTRON_06112025083200_Investor_presentation_H1FY2026.pdf",
+    "transcriptPages": 27,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "symbol": "PRIZOR",
+  "name": "Prizor Viztech Ltd",
+  "screenerUrl": "https://www.screener.in/company/PRIZOR/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1284848",
+  "warehouseId": "139039698",
+  "ratios": {
+    "market cap": 1354,
+    "current price": 1254,
+    "high": 1254,
+    "low": 217,
+    "stock p/e": 64.6,
+    "book value": 68.8,
+    "dividend yield": 0,
+    "roce": 38.7,
+    "roe": 35.8,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2024-03-31",
+        "label": "H2 FY24"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-09-30",
+        "label": "H1 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        30,
+        31,
+        40,
+        42
+      ],
+      "expenses": [
+        23,
+        25,
+        32,
+        32
+      ],
+      "operating_profit": [
+        7,
+        6,
+        9,
+        10
+      ],
+      "opm_pct": [
+        23,
+        21,
+        21,
+        23
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "interest": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "depreciation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pbt": [
+        6,
+        6,
+        8,
+        8
+      ],
+      "tax_pct": [
+        27,
+        29,
+        23,
+        26
+      ],
+      "net_profit": [
+        5,
+        4,
+        6,
+        6
+      ],
+      "eps": [
+        57.62,
+        4,
+        5.49,
+        5.54
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        36,
+        71,
+        153
+      ],
+      "expenses": [
+        27,
+        56,
+        119
+      ],
+      "operating_profit": [
+        8,
+        15,
+        34
+      ],
+      "opm_pct": [
+        23,
+        21,
+        22
+      ],
+      "other_income": [
+        0,
+        0,
+        0
+      ],
+      "interest": [
+        1,
+        1,
+        4
+      ],
+      "depreciation": [
+        0,
+        0,
+        2
+      ],
+      "pbt": [
+        8,
+        14,
+        28
+      ],
+      "tax_pct": [
+        27,
+        26,
+        26
+      ],
+      "net_profit": [
+        6,
+        10,
+        21
+      ],
+      "eps": [
+        69,
+        9.49,
+        19.4
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Apr 2026",
+      "yearMonth": "2026-04",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_23042026190005_Letter.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_15112025181715_Letter.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/PRIZOR_29052025180211_NSE_LETTER_INVESTOR_PRESENTATION.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "Indo-MIM",
+      "screenerPath": "/company/INDOMIM/consolidated/",
+      "marketCapCr": 65019.25,
+      "pe": 100.68,
+      "salesQtrCr": 1218.74,
+      "salesGrowthQtrPct": 9.39,
+      "roce": 24.98
+    },
+    {
+      "name": "Aditya Infotech",
+      "screenerPath": "/company/CPPLUS/consolidated/",
+      "marketCapCr": 48916.53,
+      "pe": 102.56,
+      "salesQtrCr": 1402.42,
+      "salesGrowthQtrPct": 89.51,
+      "roce": 28.56
+    },
+    {
+      "name": "Syrma SGS Tech.",
+      "screenerPath": "/company/SYRMA/consolidated/",
+      "marketCapCr": 32756.09,
+      "pe": 88.2,
+      "salesQtrCr": 1588.62,
+      "salesGrowthQtrPct": 68.29,
+      "roce": 16.78
+    },
+    {
+      "name": "Honeywell Auto",
+      "screenerPath": "/company/HONAUT/",
+      "marketCapCr": 29879.2,
+      "pe": 53.48,
+      "salesQtrCr": 1204.4,
+      "salesGrowthQtrPct": 1.8,
+      "roce": 16.95
+    },
+    {
+      "name": "Jyoti CNC Auto.",
+      "screenerPath": "/company/JYOTICNC/consolidated/",
+      "marketCapCr": 23569.05,
+      "pe": 73.3,
+      "salesQtrCr": 508.47,
+      "salesGrowthQtrPct": 23.97,
+      "roce": 21.32
+    },
+    {
+      "name": "Kaynes Tech",
+      "screenerPath": "/company/KAYNES/consolidated/",
+      "marketCapCr": 23020.62,
+      "pe": 66.25,
+      "salesQtrCr": 946.02,
+      "salesGrowthQtrPct": 40.47,
+      "roce": 12.69
+    },
+    {
+      "name": "LMW",
+      "screenerPath": "/company/LMW/consolidated/",
+      "marketCapCr": 17672.9,
+      "pe": 96.75,
+      "salesQtrCr": 860.72,
+      "salesGrowthQtrPct": 24,
+      "roce": 5.58
+    },
+    {
+      "name": "Prizor Viztech",
+      "screenerPath": "/company/PRIZOR/consolidated/",
+      "marketCapCr": 1353.53,
+      "pe": 64.64,
+      "salesQtrCr": 42.01,
+      "salesGrowthQtrPct": 35.39,
+      "roce": 38.74
+    }
+  ],
+  "fetchedAt": "2026-10-05T08:37:31.189Z"
+}

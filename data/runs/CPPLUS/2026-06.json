@@ -1,0 +1,388 @@
+{
+  "symbol": "CPPLUS",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e63fd5d-ff64-43fd-ab64-85f16a4d963a.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f4f027c-6161-4694-9be7-cc740d5d5151.pdf",
+    "recordingUrl": "https://www.adityagroup.com/assets_web/images/statutory_communications/earning_investor_call/2026_27/Earnings_call_Audio_Recording_28_May_2026.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T08:42:14.148Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-28",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue",
+        "kind": "absolute",
+        "low": 6000,
+        "high": 6500,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "upping our initial guidance for FY 2027, on the revenue side to INR6,000 crores to INR6,500 crores, which is almost 50% growth over the last year; EBITDA margin to 14% to 15%; and PAT around 8.5% to 9.5%.",
+        "page": 7,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "FY27 revenue 6,000-6,500",
+        "revises": "Raised from the initial FY27 guidance"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 14,
+        "high": 15,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q4 FY26's 18% was helped by low-cost inventory, now used up",
+        "quote": "upping our initial guidance for FY 2027, on the revenue side to INR6,000 crores to INR6,500 crores, which is almost 50% growth over the last year; EBITDA margin to 14% to 15%; and PAT around 8.5% to 9.5%.",
+        "page": 7,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "EBITDA 14-15%",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin",
+        "kind": "margin_pct",
+        "low": 8.5,
+        "high": 9.5,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "upping our initial guidance for FY 2027, on the revenue side to INR6,000 crores to INR6,500 crores, which is almost 50% growth over the last year; EBITDA margin to 14% to 15%; and PAT around 8.5% to 9.5%.",
+        "page": 7,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "PAT 8.5-9.5%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin FY28",
+        "kind": "margin_pct",
+        "low": 14,
+        "high": 15,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "But I think 14%-15% should be the new normal FY27, FY28 as we move forward.",
+        "page": 15,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "EBITDA new normal",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit volume growth",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Industry unit growth expected at 15-16%",
+        "quote": "And the volume growth will be roughly between 25% and 30%.",
+        "page": 14,
+        "speaker": "Anup Nair (Director, Strategy)",
+        "confidence": "high",
+        "keyword": "volume 25-30%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Average selling price rise",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "the average per unit camera recovery is expected to rise by 20% to 25%.",
+        "page": 7,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "ASP 20-25%",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "FY27 capex",
+        "kind": "absolute",
+        "low": 200,
+        "high": 300,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "it will fall in that range of INR 200 to 300 crores kind of thing",
+        "page": 12,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "capex 200-300",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Housing plant Phase 1 running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "with Phase-1 expected to become operational by Quarter 2 FY27 and Phase-2 by Quarter 4 FY27.",
+        "page": 6,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "housing phase 1 Q2",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Housing plant Phase 2 running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "with Phase-1 expected to become operational by Quarter 2 FY27 and Phase-2 by Quarter 4 FY27.",
+        "page": 6,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "housing phase 2 Q4",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Cable JV plant (Rajasthan) running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": "between Q2 and Q3 FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "with commercial operations expected to commence between Quarter 2 and",
+        "page": 4,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "cable JV Q2-Q3",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Noida facility (Sector 68) running",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "In Noida, we have proposed to secure a 3 lakh square feet facility in Sector 68, expected to be operational by Q4 FY 2027.",
+        "page": 6,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "Noida Q4",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Production capacity doubled",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Looking ahead to FY28, our vision is to expand overall production capacity to 2x of the existing capacity",
+        "page": 6,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "high",
+        "keyword": "capacity 2x FY28",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Eyra brand certified and launched",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So hopefully, we'll get certified in another two months and next quarter that may go to market.",
+        "page": 18,
+        "speaker": "Aditya Khemka (MD)",
+        "confidence": "medium",
+        "keyword": "Eyra launch",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue grew 35.6% to ₹4,221 Cr with EBITDA up 124% to ₹579 Cr (13.7%) and adjusted PAT of ₹368 Cr; Q4 alone was ₹1,422 Cr at an 18% EBITDA margin. STQC rules pushed out Chinese brands and CP PLUS's market share rose from about 30% to about 45%. Management raised FY27 guidance to ₹6,000-6,500 Cr revenue (about 50% growth), 14-15% EBITDA and 8.5-9.5% PAT, with growth split between 25-30% volume and a 20-25% rise in average prices as memory and chip costs climb.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 guidance raised to ₹6,000-6,500 Cr revenue, 14-15% EBITDA, 8.5-9.5% PAT",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Market share about 45% (Q3 FY26) vs 36% projected at IPO",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "Partnerships with Qualcomm (AI cameras) and L&T Semiconductor (9 million cameras over three years); cable JV with Orient Cables",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Price rises of a few points every month to pass on memory and chip inflation",
+          "page": 8
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We remain confident, optimistic, and committed to building a stronger, more innovative, and future-ready organization.",
+        "page": 7
+      },
+      "analyst_questions": [
+        {
+          "topic": "Q4 gross margin jump to 31.8%",
+          "answer": "A mix of low-cost inventory, the Q4 price rise and more high-end STQC-certified project SKUs; low-cost inventory is now used up.",
+          "page": 8
+        },
+        {
+          "topic": "Memory and chip shortages",
+          "answer": "DDR3 supply is shrinking as makers move to AI memory; scale lets CP PLUS secure supply ahead of smaller rivals.",
+          "page": 9
+        },
+        {
+          "topic": "Is 14-15% EBITDA the new normal?",
+          "answer": "Yes for FY27 and FY28, from localisation, premium mix and enterprise business; Q4 was a one-off.",
+          "page": 15
+        },
+        {
+          "topic": "Cash conversion",
+          "answer": "Cycle rose as creditors fell with advance payments to secure chips; funded from internal accruals and some debt.",
+          "page": 13
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Q4 FY26 margins were flattered by low-cost inventory that has now run out.",
+          "page": 7
+        },
+        {
+          "text": "Component costs expected to keep rising until 2027; some supply contracts are being voided under force majeure.",
+          "page": 14
+        },
+        {
+          "text": "Almost half of the guided growth is price (20-25% ASP rise), not volume.",
+          "page": 14
+        },
+        {
+          "text": "Cash conversion cycle rising as the company pays suppliers in advance.",
+          "page": 13
+        }
+      ],
+      "watch_next": [
+        "Q1 FY27 revenue run-rate vs ₹6,000-6,500 Cr",
+        "EBITDA margin holding 14-15% without cheap inventory",
+        "Housing plant Phase 1 by Q2 FY27",
+        "Competition as more brands get STQC certified"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Video surveillance: CP PLUS cameras (IP and HD analog), recorders, AI analytics; manufactured at Kadapa (2.5 million units a month), plus distribution of other brands",
+        "customers": "Distributors and dealers, system integrators, enterprises, government (15-20% of revenue) and homes",
+        "revenue_mix": "CP PLUS 86% of revenue, IP products 73% of CP PLUS; mostly domestic",
+        "demand_drivers": "STQC rules favouring Indian brands, IP upgrades, smart cities and AI video analytics"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e63fd5d-ff64-43fd-ab64-85f16a4d963a.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f4f027c-6161-4694-9be7-cc740d5d5151.pdf",
+    "transcriptPages": 21,
+    "transcriptHasText": true
+  }
+}

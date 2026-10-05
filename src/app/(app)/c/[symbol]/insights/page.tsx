@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { InsightNote } from "@/components/InsightNote";
 import { fmtDate, fmtRange, num } from "@/lib/app/format";
 import type { ResultsTable } from "@/lib/pipeline/types";
 import { loadCompany } from "../data";
@@ -40,6 +41,72 @@ export default async function InsightsPage({ params, searchParams }: PageProps<"
 
   const ins = run.extraction.insights;
   const pdf = (page: number | null) => (page ? `${run.docs.transcriptUrl}#page=${page}` : run.docs.transcriptUrl);
+
+  // Full write-up written: show it, with the selected concall's takeaways as the last section
+  if (c.researchNote) {
+    return (
+      <InsightNote note={c.researchNote} basis={c.basis}>
+        <section id="concall" className="flex flex-col gap-4">
+          <div className="flex flex-wrap items-baseline justify-between gap-3">
+            <h2 className="m-0 text-[22px] font-bold">Concall takeaways</h2>
+            {runs.length > 1 && (
+              <nav aria-label="Concalls" className="flex flex-wrap gap-1.5">
+                {runs.map((r) => (
+                  <Link
+                    key={r.concall.yearMonth}
+                    href={`?call=${r.concall.yearMonth}#concall`}
+                    className="btn btn-ghost btn-sm"
+                    aria-current={r === run ? "page" : undefined}
+                    style={r === run ? { background: "var(--muted-bg)", fontWeight: 600 } : undefined}
+                  >
+                    {r.concall.month}
+                  </Link>
+                ))}
+              </nav>
+            )}
+          </div>
+          <div className="eyebrow">
+            {run.concall.month} concall · {run.extraction.call_period} results ·{" "}
+            <a href={run.docs.transcriptUrl} target="_blank" rel="noreferrer">transcript</a>
+          </div>
+          <p className="m-0 max-w-[68ch] leading-relaxed">{ins.summary}</p>
+          <div className="box flex flex-wrap items-baseline gap-3 p-4">
+            <span className="tag t-pending capitalize">{ins.tone.label}</span>
+            <span className="text-[14.5px] italic" style={{ color: "var(--ink-2)" }}>
+              “{ins.tone.quote}” {ins.tone.page && <a className="src not-italic" href={pdf(ins.tone.page)} target="_blank" rel="noreferrer">p.{ins.tone.page}</a>}
+            </span>
+          </div>
+          <div className="grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+            <div className="box flex min-w-0 flex-col gap-2.5 p-5">
+              <h3 className="m-0 text-[15.5px] font-semibold">What changed</h3>
+              <ul className="m-0 flex flex-col gap-2 pl-5 text-[14.5px] leading-normal">
+                {ins.what_changed.map((w, i) => (
+                  <li key={i}>
+                    <span className="capitalize" style={{ fontWeight: 600 }}>{w.change}:</span> {w.text}{" "}
+                    {w.page && <a className="src" href={pdf(w.page)} target="_blank" rel="noreferrer">p.{w.page}</a>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="box flex min-w-0 flex-col gap-2.5 p-5">
+              <h3 className="m-0 text-[15.5px] font-semibold">What analysts pushed on</h3>
+              <ul className="m-0 flex flex-col gap-2 pl-5 text-[14.5px] leading-normal">
+                {ins.analyst_questions.map((q, i) => (
+                  <li key={i}>
+                    <strong>{q.topic}:</strong> {q.answer}{" "}
+                    {q.page && <a className="src" href={pdf(q.page)} target="_blank" rel="noreferrer">p.{q.page}</a>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="sub m-0">
+            Every promise from these calls is scored in the <Link href={`/c/${c.symbol}/tracker`}>guidance tracker</Link>.
+          </p>
+        </section>
+      </InsightNote>
+    );
+  }
   const s = c.snapshot;
   const sales = last(s.interim, "sales");
   const opm = last(s.interim, "opm_pct");

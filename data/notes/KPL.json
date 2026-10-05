@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Injectables and generics exporter",
+ "lede": "An Amritsar-based exporter of injectables and generics to Latin America, Africa and the Gulf, now chasing regulated markets, hormones and biosimilars. It hits its numbers, but cash lags profit, receivables are long, and governance questions are piling up.",
+ "market": {
+  "price": 3564,
+  "mcap_cr": 3698,
+  "pe": 45.3,
+  "pb": 11.1,
+  "ev_ebitda": 28
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue up 36% in FY26 to ₹503 Cr with PAT up 69% to ₹67 Cr; Q1 FY27 (₹162 Cr) met its quarterly guidance, and FY27 guidance was raised to ₹700–720 Cr. ROCE improved to 24%."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was ₹17 Cr against ₹67 Cr of profit, with debtor days at 203. The big-four auditor appointment keeps slipping, a related-party land deal was questioned on the call, and five family directors got 16–20% pay rises."
+  },
+  {
+   "lead": "Price",
+   "text": "45x trailing earnings vs 12x for Lincoln and 30x for Caplin Point, a richer multiple than its cash flow supports."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Kwality makes injectables (oncology, general, beta-lactam, cephalosporin) and oral generics in five plants, selling through partners and government tenders in Mexico, Colombia, Algeria and the wider MENA, GCC, CIS and Southeast Asia. A hormone plant starts in November 2026; biosimilars (EPO, Pembrolizumab) are in trials.",
+     "src": "Aug call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~20–25%",
+       "label": "Oncology share of revenue (₹100–130 Cr)"
+      },
+      {
+       "value": "60–70",
+       "label": "Registrations won in three quarters"
+      },
+      {
+       "value": "$1.5–2m",
+       "label": "Yearly sales per registration"
+      },
+      {
+       "value": "~85%",
+       "label": "Raw materials sourced in India"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margins come from first and second generics of off-patent molecules: 40–45% EBITDA early, falling to 25–30%.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "",
+       "text": "Peptide oncology products earn about 40%; routine oncology about 25%.",
+       "src": "May call p.5"
+      },
+      {
+       "lead": "",
+       "text": "Tender markets (Algeria, MENA) pay well but on full credit, which ties up cash.",
+       "src": "May call p.10"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue fell from ₹456 Cr (FY22, COVID boost) to ₹251 Cr, then rebuilt to ₹503 Cr.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Moving from unregulated to regulated markets (first German registrations).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "New units: hormones (₹65 Cr capex), oncology expansion (₹50 Cr), biologics (Unit 5).",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        456,
+        251,
+        307,
+        370,
+        503
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹554 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        24,
+        40,
+        67
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        43,
+        53,
+        17
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "–45%",
+        "22%",
+        "21%",
+        "36%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "38%",
+        "24%",
+        "22%",
+        "22%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "120",
+        "19",
+        "24",
+        "40",
+        "67"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "98%",
+        "19%",
+        "16%",
+        "18%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "61",
+        "41",
+        "43",
+        "53",
+        "17"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "55",
+        "104",
+        "136",
+        "152",
+        "203"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.30x",
+        "0.45x",
+        "0.44x",
+        "0.42x",
+        "0.39x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Receivables are the problem.",
+       "text": "Debtor days rose from 55 to 203 over four years; ₹60–70 Cr was stuck in Middle East payments during the Hormuz disruption.",
+       "src": "May call p.11"
+      },
+      {
+       "lead": "Profit is growing faster than cash:",
+       "text": "five-year profit ₹270 Cr vs ₹215 Cr of operating cash, but FY26 alone converted only a quarter.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 32%,",
+       "text": "on a small base: capital employed rose ₹139 Cr from FY24 to FY26 while after-tax operating profit rose about ₹44 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Q1 FY27 revenue ₹150–160 Cr",
+        "May 26",
+        "₹162 Cr",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue ₹650–700 Cr",
+        "May 26",
+        "Raised to ₹700–720 Cr in August",
+        {
+         "text": "Raised",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Oncology revenue ₹150 Cr in FY27",
+        "May 26",
+        "Cut to ₹100–110 Cr",
+        {
+         "text": "Cut",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Big-four auditor (KPMG) announced next quarter",
+        "May 26",
+        "Now Q3–Q4 FY27, needs an EGM",
+        {
+         "text": "Slipped",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Stuck receivables collected by June–July",
+        "May 26",
+        "Debtor days still 165–170",
+        {
+         "text": "Partly",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Hormone plant running by November",
+        "May 26",
+        "Reiterated in August",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoter family holds 54.9%; no pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign holding rose from 0% to 3.1% in a year; domestic institutions only 0.6%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Analyst questions on a related-party land purchase (Kaler Biopharma) reportedly at double the price; the plant is on hold.",
+       "src": "Aug call p.5"
+      },
+      {
+       "lead": "",
+       "text": "Five family members on the board; pay rose 16–20% in FY26.",
+       "src": "AR p.50"
+      },
+      {
+       "lead": "",
+       "text": "Contingent tax liabilities of about ₹37 Cr.",
+       "src": "AR p.158"
+      },
+      {
+       "lead": "",
+       "text": "The CFO said he guides low 'so that less of queries come'.",
+       "src": "Aug call p.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Kwality Pharmaceuticals",
+        "503",
+        "24%",
+        "67",
+        "24%",
+        "45.3x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Caplin Point Laboratories",
+        "2,187",
+        "35%",
+        "650",
+        "24%",
+        "29.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Lincoln Pharmaceuticals",
+        "671",
+        "15%",
+        "88",
+        "16%",
+        "11.9x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Gland Pharma",
+        "6,431",
+        "25%",
+        "1,027",
+        "15%",
+        "41.7x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Registration machine:",
+       "text": "60–70 new dossiers a year across 70–80 countries.",
+       "src": "Aug call p.4"
+      },
+      {
+       "lead": "Certified plants:",
+       "text": "PIC/S, EU, COFEPRIS and INVIMA approvals on many injectable lines.",
+       "src": null
+      },
+      {
+       "lead": "First and second generics:",
+       "text": "launches where few competitors have dossiers.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Customer and country risk:",
+       "text": "tender markets with long credit and political risk (GCC, Algeria).",
+       "src": null
+      },
+      {
+       "lead": "Concentrated partners:",
+       "text": "a large share of sales goes through a few partners such as Mana Pharma.",
+       "src": null
+      },
+      {
+       "lead": "Unproven bets:",
+       "text": "biosimilars and hormones are years from meaningful revenue.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Receivables in tender and conflict-affected markets",
+        "Financial",
+        "Materialised: debtor days 203 in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Registration delays (oncology, LatAm)",
+        "Regulatory",
+        "Materialised: oncology target cut"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Governance (related parties, auditor, family board)",
+        "Governance",
+        "Open questions"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Biosimilar trials",
+        "Operational",
+        "EPO trials start Nov–Dec 2026"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹5,950 Cr",
+       "sub": "FY29 market cap · about 1.6x today",
+       "text": "₹1,000 Cr revenue by FY29 at a 17% net margin (₹170 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹3,400 Cr",
+       "sub": "FY29 market cap · about –8%",
+       "text": "Revenue grows 20% a year to ₹870 Cr at a 14% net margin (₹122 Cr), valued at 28x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹1,200 Cr",
+       "sub": "FY29 market cap · about –67%",
+       "text": "Growth slows to 10% a year; 10% net margin (₹67 Cr), valued at 18x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "45.3x",
+       "label": "P/E, trailing (Lincoln 12x, Caplin 30x)"
+      },
+      {
+       "value": "~37x",
+       "label": "P/E on FY27 if PAT reaches ₹100 Cr"
+      },
+      {
+       "value": "11.1x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~28x",
+       "label": "EV / EBITDA (debt not netted for cash)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The stock has quadrupled in a year as growth returned. Delivery against quarterly guidance is good, but the price already assumes the FY29 plan, while cash conversion and governance haven't caught up. The base case is roughly flat over three years.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 FY27 revenue ₹160–170 Cr",
+  "Debtor days towards 165",
+  "KPMG appointment at an EGM",
+  "Hormone plant start in November",
+  "Outcome of the Kaler Biopharma land"
+ ],
+ "sources": [
+  "Screener consolidated financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (19 May 2026) and Q1 FY27 (10 Aug 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}
