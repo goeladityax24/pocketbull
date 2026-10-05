@@ -1,0 +1,682 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Refurbished laptops and desktops (Electronics Bazaar)",
+ "lede": "A global refurbisher of business laptops that is riding a memory-chip shortage: new PCs got 40-57% dearer in six months, sending buyers to its warrantied refurbished machines. Profits doubled and guidance keeps rising, but growth eats cash and margins lean on inventory bought before prices rose.",
+ "market": {
+  "price": 695,
+  "mcap_cr": 7924,
+  "pe": 55.6,
+  "pb": 10.5,
+  "ev_ebitda": 39
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue +34% to ₹1,891 Cr and PAT nearly doubled to ₹132 Cr in FY26, beating guidance; Q1 FY27 gross margin jumped to 24.7%, and guidance was raised to 30% growth with PAT margin up 75-100 bps."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was negative in FY25 and FY26 (–₹215 Cr) as inventory rose to ~₹700-740 Cr; net debt rose to ₹406 Cr in Q1 despite the IPO. Part of the margin gain is inventory profit in a price boom management expects to last until early 2028."
+  },
+  {
+   "lead": "Price",
+   "text": "56x trailing earnings and ~39x EV/EBITDA; IT distributors Redington and Rashi trade near 18-20x, but at 2-3% margins."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "GNG buys used business laptops and desktops in bulk from banks, leasing firms and corporates, refurbishes them in Mumbai and the UAE, and sells them under the 'Electronics Bazaar' brand with 1-3 year warranties to dealers, distributors, enterprises and schools in 49 countries.",
+     "src": "Aug call p.5"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "727,000",
+       "label": "Units sold in FY26 (~81% laptops)"
+      },
+      {
+       "value": "~₹30,700",
+       "label": "Laptop average price, Q1 FY27 (+12% YoY)"
+      },
+      {
+       "value": "49",
+       "label": "Countries; 5,130 customer touchpoints"
+      },
+      {
+       "value": "~150,000",
+       "label": "Units a month refurbishing capacity"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Buys whole lots (e.g. 60,000 desktops from a US bank) cheaply and sells with warranty at ~30% of new-PC prices.",
+       "src": "Aug call p.14"
+      },
+      {
+       "lead": "",
+       "text": "International gross margin near 30% vs 21% in India.",
+       "src": "Aug call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Asset-light (few fixed assets) but working-capital heavy.",
+       "src": "May call p.4"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "IPO in July 2025; revenue from ₹519 Cr (FY22) to ₹1,891 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "National distributors Redington, Ingram Micro and Supertron signed in 2026.",
+       "src": "Aug call p.14"
+      },
+      {
+       "lead": "",
+       "text": "UAE facilities grew from three to eight.",
+       "src": "May call p.15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        519,
+        661,
+        1138,
+        1411,
+        1891
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹1,991 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        20,
+        33,
+        52,
+        69,
+        132
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -17,
+        1,
+        97,
+        -114,
+        -215
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "27%",
+        "72%",
+        "24%",
+        "34%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "6%",
+        "7%",
+        "7%",
+        "8%",
+        "10%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "20",
+        "33",
+        "52",
+        "69",
+        "132"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "20%",
+        "22%",
+        "21%",
+        "20%",
+        "20%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–17",
+        "1",
+        "97",
+        "–114",
+        "–215"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "110",
+        "128",
+        "122",
+        "162",
+        "213"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not turned into cash:",
+       "text": "₹306 Cr of profit over FY22-26 against –₹248 Cr of operating cash flow.",
+       "src": null
+      },
+      {
+       "lead": "Interest cover only ~4.5x",
+       "text": "(₹42 Cr interest in FY26); borrowings ₹445 Cr, debt-to-equity 0.6x after the IPO.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 12%.",
+       "text": "Capital employed rose ₹708 Cr from FY24 to FY26, mostly inventory; post-tax operating profit rose ~₹82 Cr.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 growth and margin guidance (original and raised in Q3)",
+        "FY26",
+        "Revenue +34%, PAT margin 7.0%: beat both",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "~25% revenue growth in FY27",
+        "May 26",
+        "Raised to 30% in July; Q1 +32%",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "PAT margin +50 bps in FY27",
+        "May 26",
+        "Raised to +75-100 bps; Q1 7.0% (vs 5.9%)",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net debt to stay around ₹300 Cr",
+        "May 26",
+        "₹406 Cr at June 2026",
+        {
+         "text": "Higher",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margins above Q4 from Q1",
+        "May 26",
+        "Q1 EBITDA margin 12.8% vs 9.8% in Q4",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Receivable days held at 40-45",
+        "May 26",
+        "Not disclosed for Q1",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 74.8% after selling ~3.9% in Q1 FY27; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions 5.3%, domestic 6.8%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Shareholders asked to approve up to ₹200 Cr of personal guarantees from the MD to lenders as a material related-party transaction.",
+       "src": "AR p.44"
+      },
+      {
+       "lead": "",
+       "text": "Material related-party transactions with the UAE subsidiary Electronics Bazaar FZC, in which the MD holds 0.4%.",
+       "src": "AR p.27"
+      },
+      {
+       "lead": "",
+       "text": "₹202 Cr of corporate guarantees and ₹76 Cr of standby letters of credit for subsidiaries.",
+       "src": "AR p.182"
+      },
+      {
+       "lead": "",
+       "text": "No auditor change; no fraud reported.",
+       "src": "AR p.129"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "GNG Electronics",
+        "1,891",
+        "10%",
+        "132",
+        "20%",
+        "55.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Rashi Peripherals",
+        "15,827",
+        "3%",
+        "282",
+        "17%",
+        "19.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Redington",
+        "1,19,162",
+        "2%",
+        "1,284",
+        "18%",
+        "17.9x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "There is no listed refurbishing peer in India; IT distributors are shown for scale and valuation, but they earn far thinner margins. GNG's real competition is new entry-level PCs and unorganised refurbishers.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Sourcing network:",
+       "text": "773 suppliers and bulk deals with banks and lessors that rivals can't match.",
+       "src": "Aug call p.5"
+      },
+      {
+       "lead": "Warranty and trust:",
+       "text": "1-3 year replacement warranty, accepted by national distributors.",
+       "src": "Aug call p.14"
+      },
+      {
+       "lead": "Global reach:",
+       "text": "sells in 49 countries with stock held in the US, Europe and the UAE.",
+       "src": "May call p.12"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Component cycle:",
+       "text": "new-PC price inflation could reverse; management says not before January 2028.",
+       "src": "May call p.17"
+      },
+      {
+       "lead": "Supply of used PCs:",
+       "text": "companies may keep laptops longer, shrinking disposals.",
+       "src": "Aug call p.16"
+      },
+      {
+       "lead": "UAE concentration:",
+       "text": "main facilities sit in Sharjah during the Gulf conflict.",
+       "src": "Aug call p.12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Working capital and rising debt",
+        "Financial",
+        "Net debt ₹406 Cr; CFO negative two years"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Memory-price boom reverses",
+        "Market",
+        "Prices still rising 5-10% a quarter"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Inventory losses if prices fall",
+        "Financial",
+        "~₹700 Cr inventory"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Opex growing faster than revenue",
+        "Operational",
+        "Other expenses +68% in Q1"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹10,900 Cr",
+       "sub": "FY28 market cap · about +37%",
+       "text": "30% growth for two years to ~₹3,200 Cr at an 8.5% net margin (₹272 Cr), valued at 40x."
+      },
+      {
+       "name": "Base",
+       "value": "₹7,400 Cr",
+       "sub": "FY28 market cap · about –7%",
+       "text": "30% then 20% growth to ~₹2,950 Cr at a 7.8% net margin (₹230 Cr), valued at 32x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹2,900 Cr",
+       "sub": "FY28 market cap · about –64%",
+       "text": "PC prices normalise: revenue ~₹2,300 Cr at a 5% net margin (₹115 Cr), valued at 25x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "55.6x",
+       "label": "P/E, trailing (Rashi 20x)"
+      },
+      {
+       "value": "~39x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "10.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "–₹248 Cr",
+       "label": "Operating cash flow, FY22-26 combined"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Management has beaten every target so far and the shortage of new PCs is a genuine tailwind. But today's margins partly reflect a price boom and cheaply bought stock, and the business burns cash as it grows. The base case is roughly flat over two years.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Quarterly growth near 30% and PAT margin near 7.75-8%",
+  "Net debt and inventory levels",
+  "Gross margin as old inventory runs down",
+  "Revenue from Redington, Ingram and Supertron",
+  "Memory and SSD prices"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (5 May 2026) and Q1 FY27 (30 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

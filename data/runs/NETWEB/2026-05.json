@@ -1,0 +1,284 @@
+{
+  "symbol": "NETWEB",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b266d6-defa-46f0-acbc-b53b9debed80.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c766e2f-8676-4806-82e4-91a4fe495b42.pdf",
+    "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2025-26/Q4/Earning_Call_recording.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-05T19:49:30.351Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-04",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 35,
+        "high": 40,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "CFO called it enterprise-level (p.13); the IR adviser later said it excludes strategic (India AI Mission) orders (p.15). Also guided for FY28.",
+        "quote": "So\nthat's why we are guiding this 13% to 14% range for the next couple of years. And on the\nrevenue growth, we are guiding 35% to 40% growth.",
+        "page": 7,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "guiding 35% to 40% growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Operating EBITDA margin",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 14,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "For 'the next couple of years'",
+        "quote": "So -- Renu, so on the operating EBITDA margins, we are guiding 13% to 14%.",
+        "page": 7,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "operating EBITDA margins",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Strategic orders executed within 3 quarters",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹1,600 Cr strategic (AI) order book",
+        "quote": "within the next 3 quarters, I think we expect it to be done",
+        "page": 8,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "next 3 quarters",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Cash conversion cycle 90-110 days",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "84 days at March 2026",
+        "quote": "but we will stay within the range of 90 to 110. That's what we feel.",
+        "page": 8,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "90 to 110",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "No major capex in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Routine ₹20-25 Cr",
+        "quote": "No significant capex is expected in this financial year '27.",
+        "page": 7,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "No significant capex",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports around 5% of revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "near term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, it will remain around the 5%, which we have been currently doing.",
+        "page": 14,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "remain around the 5%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "AI around 35% of revenue long term",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "in future",
+        "basis": "segment",
+        "segment": "AI systems",
+        "condition": null,
+        "quote": "I can tell you that AI will remain around\n35% of my business.",
+        "page": 15,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "around\n35% of my business",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No promoter selling for 12 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "to February 2027",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "this stake sale\nwas done in the month of February. We are not going to dilute 12 months from there.",
+        "page": 10,
+        "speaker": "Sanjeev Sancheti (IR adviser)",
+        "confidence": "high",
+        "keyword": "not going to dilute",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 90% to ₹2,184 Cr and PAT 81% to ₹206 Cr, as AI systems grew 460% to 43% of revenue on large India AI Mission (strategic) orders. Management guided 35-40% revenue growth and a 13-14% operating EBITDA margin for the next couple of years, and starts FY27 with an order book of ₹2,100 Cr (₹2,400 Cr with L1 positions), more than last year's revenue. Inventory rose to 86 days to secure scarce components, and short-term borrowing rose to fund strategic orders.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "35-40% revenue growth and 13-14% operating EBITDA margin for the next couple of years",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "AI systems now 43% of revenue (from ~15%)",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "New 15,000 sq ft facility for dense, liquid-cooled GPU systems",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "Promoters sold ~4% in February; no more sales for 12 months",
+          "page": 10
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We see a\nlong runway of growth ahead.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Does guidance include strategic orders?",
+          "answer": "Conflicting: CFO said enterprise-level; IR adviser said organic only, about 35%.",
+          "page": 15
+        },
+        {
+          "topic": "Gross margin flat",
+          "answer": "Adjusted for forex MTM, margins improved and are within guidance.",
+          "page": 6
+        },
+        {
+          "topic": "Hyperscalers",
+          "answer": "Not targeting them now; India is still a sovereign / neocloud market.",
+          "page": 9
+        },
+        {
+          "topic": "Borrowings up ₹270 Cr",
+          "answer": "Short-term working capital for strategic orders.",
+          "page": 16
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Inventory days up to 86 from 60; short-term borrowings up ~₹270 Cr.",
+          "page": 5
+        },
+        {
+          "text": "Growth relies on lumpy government AI (strategic) orders.",
+          "page": 8
+        },
+        {
+          "text": "Promoters sold about 4% in February 2026.",
+          "page": 10
+        },
+        {
+          "text": "Confusing answers on whether guidance includes strategic orders.",
+          "page": 15
+        }
+      ],
+      "watch_next": [
+        "Quarterly growth of 35-40% or more",
+        "Operating EBITDA margin within 13-14%",
+        "Execution of the ₹1,600 Cr strategic order book",
+        "Inventory and working-capital days"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Indian-designed high-end computing systems: AI GPU servers and clusters, HPC supercomputers, private cloud / HCI, plus software stacks (Tyrone brand)",
+        "customers": "Government (India AI Mission, NSM), research institutions, cloud providers like Yotta, large enterprises; ~50% government, 50% enterprise",
+        "revenue_mix": "FY26: AI systems 43%, HPC ~24%, private cloud ~24%, others; exports ~5%",
+        "demand_drivers": "Sovereign AI compute, India AI Mission GPU tenders, data-centre build-out, NSM 2.0"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b266d6-defa-46f0-acbc-b53b9debed80.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c766e2f-8676-4806-82e4-91a4fe495b42.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

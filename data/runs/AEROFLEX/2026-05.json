@@ -1,0 +1,347 @@
+{
+  "symbol": "AEROFLEX",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5153911e-87f3-4042-8b66-02da375d52f6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b663af0-2caa-4855-99ec-8f9fe3f2bb1e.pdf",
+    "recordingUrl": "https://www.aeroflexindia.com/wp-content/uploads/Q4-Audio-Recording.mp4"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:46:06.931Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-06",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 35,
+        "high": 35,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "He said 'FY '26' but was asked for this year's guidance after FY26 had ended, so this is FY27. Base business 15-20%, the rest from skid assemblies.",
+        "quote": "you can say about 35-odd percent\ngrowth is something that we are looking at in the financial year FY '26.",
+        "page": 20,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "35-odd percent growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "kind": "margin_pct",
+        "low": 23,
+        "high": 23,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I think this year, the full year target is to have an EBITDA margin of around 23% in terms of\nEBITDA.",
+        "page": 17,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "EBITDA margin of around 23%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin in a couple of years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next couple of years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "our aim is that ultimately, over the next couple of years, the EBITDA margin\nshould reach to about 25% annually.",
+        "page": 17,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "25% annually",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid assemblies share of FY27 revenue",
+        "kind": "absolute",
+        "low": 20,
+        "high": 22,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Skid assemblies (liquid cooling)",
+        "condition": "Skids were 5% of FY26 (₹21.2 Cr from 617 units)",
+        "quote": "20% to 22% contribution of the entire business would be through skid assemblies.",
+        "page": 18,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "20% to 22% contribution",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Base business growth",
+        "kind": "absolute",
+        "low": 15,
+        "high": 20,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Hoses, assemblies, bellows (ex skids)",
+        "condition": null,
+        "quote": "Base business growth would be somewhere in the range of about 15% to 20%.",
+        "page": 20,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "base business growth",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity to 15,000 a year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Raised from 2,000 to 6,000 a year already",
+        "quote": "we are on track to further expand the same by the next two quarter to\n15,000 skids per annum.",
+        "page": 4,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "15,000 skids per annum",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity at ~60% in March 2027",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "On 15,000 a year, i.e. about 750 skids in March 2027",
+        "quote": "we expect that in the month of March, we will be hoping to achieve 60% utilization.",
+        "page": 14,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "60% utilization",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid revenue at peak",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "at 75% use of 15,000 skids a year",
+        "basis": "segment",
+        "segment": "Skid assemblies",
+        "condition": null,
+        "quote": "we can expect a total revenue for the business to come in at about INR325\ncrores to about INR330-odd crores.",
+        "page": 11,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "325 crores to about INR330",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Metal bellows at 50-60% use in 2-3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "2-3 years",
+        "basis": "segment",
+        "segment": "Metal bellows",
+        "condition": "₹8 Cr revenue in FY26, ₹12 Cr annual run rate; up to ₹80 Cr at peak",
+        "quote": "We are looking to grow that\nsignificantly over the next two years so that we reach at least 50% to 60% of our capacity\nutilization.",
+        "page": 18,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "50% to 60% of our capacity",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Annealing furnace commissioned",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "a new annealing furnace facility targeted for\ncommissioning by the end of this year.",
+        "page": 4,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "annealing furnace",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "First skid exports",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "our aim is to have or to start at least some supply of skid\nassemblies in the international market in the current financial year.",
+        "page": 15,
+        "speaker": "Asad Daud (Managing Director)",
+        "confidence": "high",
+        "keyword": "international market",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 17% to ₹443 Cr with EBITDA of ₹100 Cr (22.6%) and PAT of ₹55.5 Cr; Q4 grew 38% with a 23.9% EBITDA margin. The new liquid-cooling skid business for data centres sold 617 skids worth ₹21 Cr in four months, and capacity goes from 6,000 to 15,000 skids a year in the next two quarters. Management guided about 35% revenue growth and a ~23% EBITDA margin for FY27, with skids at 20-22% of sales and the base business growing 15-20%.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "About 35% revenue growth for FY27, base business 15-20%",
+          "page": 20
+        },
+        {
+          "change": "new",
+          "text": "FY27 EBITDA margin about 23%, 25% in a couple of years",
+          "page": 17
+        },
+        {
+          "change": "new",
+          "text": "Skid capacity 2,000 → 6,000 → 15,000 a year; skids 20-22% of FY27 revenue",
+          "page": 4
+        },
+        {
+          "change": "cut",
+          "text": "Capital for miniature bellows moved to liquid cooling",
+          "page": 13
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I'm happy to report that FY26 has been a great year for the company",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Skid execution",
+          "answer": "Design work (now done in-house) and strict end-customer audits slowed dispatches against the ₹42 Cr mentioned last quarter.",
+          "page": 10
+        },
+        {
+          "topic": "Customer concentration",
+          "answer": "Skids go to one US-headquartered cooling company's India arm under an exclusive deal; largest export customer is 25-26% of sales.",
+          "page": 7
+        },
+        {
+          "topic": "₹40 Cr tax demand",
+          "answer": "Relates to an interest waiver from AY 2018-19 that was reopened; management expects to win on appeal.",
+          "page": 14
+        },
+        {
+          "topic": "Skid price",
+          "answer": "Average ₹3-3.25 lakh a skid; varies with data-centre design.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "All skid revenue comes through one customer under an exclusive contract; no order book disclosed.",
+          "page": 6
+        },
+        {
+          "text": "₹40 Cr income-tax demand, roughly a year's profit, under appeal.",
+          "page": 14
+        },
+        {
+          "text": "Skid dispatches lagged supply because of design and quality-audit bottlenecks.",
+          "page": 10
+        },
+        {
+          "text": "Metal bellows ran below 20% utilisation in FY26 after US tariffs hurt the plan.",
+          "page": 18
+        }
+      ],
+      "watch_next": [
+        "Quarterly revenue growth near 35% and EBITDA margin near 23%",
+        "Skid revenue share and the 15,000 capacity going live",
+        "Metal bellows sales picking up",
+        "Outcome of the ₹40 Cr tax appeal"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Stainless-steel flexible hoses and hose assemblies, metal bellows, fittings (Hyd-Air subsidiary), and skid assemblies for liquid cooling in data centres",
+        "customers": "Exports to 80+ countries (US largest customer ~25% of sales) across HVAC, industrial, oil & gas; skids to one global cooling company in India",
+        "revenue_mix": "Value-added products 52% of FY26; exports ~69% for the year, domestic rising; skids 5%",
+        "demand_drivers": "Data-centre liquid cooling, replacement of rubber hoses, export demand, new products"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5153911e-87f3-4042-8b66-02da375d52f6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b663af0-2caa-4855-99ec-8f9fe3f2bb1e.pdf",
+    "transcriptPages": 21,
+    "transcriptHasText": true
+  }
+}

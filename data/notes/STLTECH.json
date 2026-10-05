@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Optical fibre, cable and data-centre connectivity",
+ "lede": "One of the few fully integrated optical-fibre makers outside China, turned around by AI data-centre demand: a $1.1 billion hyperscaler deal, a record Q1 and a new target of ₹20,000 Cr revenue by FY29. The stock is up more than 10x from its low and prices in much of that plan.",
+ "market": {
+  "price": 1001,
+  "mcap_cr": 51527,
+  "pe": 218,
+  "pb": 21.5,
+  "ev_ebitda": 62
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q1 FY27 revenue +87% to ₹1,910 Cr with a 20.8% reported EBITDA margin and record PAT of ₹197 Cr; order book ₹18,618 Cr; net cash after a ₹1,500 Cr QIP; margin guidance raised to 23%."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Five years of near-zero profits before this (cumulative ₹48 Cr), ROCE of 8% in FY26, a ~$100 million US litigation under appeal (auditors' emphasis of matter), and an order book now concentrated in one hyperscaler contract. FY29 needs revenue to grow 4x."
+  },
+  {
+   "lead": "Price",
+   "text": "218x trailing earnings and ~62x EV/EBITDA, against HFCL at 67x earnings; even on Q1 annualised profit it trades near 65x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "STL (Sterlite Technologies, a Vedanta group company) makes glass preform, optical fibre, fibre-optic cable (including high-fibre-count IBR cables) and connectivity products such as pre-terminated data-centre assemblies (Neuralis). It sells to telecom operators, hyperscalers and neoclouds, and rural broadband programmes like BharatNet and BEAD, with plants in India, the US (South Carolina), Europe and elsewhere.",
+     "src": "Jul call p.2"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~9%",
+       "label": "Global optical cable share outside China"
+      },
+      {
+       "value": "₹18,618 Cr",
+       "label": "Open order book, June 2026"
+      },
+      {
+       "value": "54%",
+       "label": "North America share of Q1 FY27 revenue"
+      },
+      {
+       "value": "16%",
+       "label": "Connectivity attach rate (target 25% by Q4)"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Vertical integration from glass to cable lowers cost and secures supply.",
+       "src": "May call p.3"
+      },
+      {
+       "lead": "",
+       "text": "Data-centre products earn higher margins than telecom; enterprise and data centre to be ~50% of FY27 revenue.",
+       "src": "Jul call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Sells on long-term contracts, avoiding the spot market.",
+       "src": "May call p.14"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Demerged the global services business (STL Networks) and exited other non-core businesses.",
+       "src": "Jul call p.15"
+      },
+      {
+       "lead": "",
+       "text": "Revenue fell from ₹6,925 Cr (FY23) to ~₹4,000 Cr before recovering to ₹4,745 Cr in FY26.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Announced 'Lakshya': ₹20,000 Cr revenue and 27%+ EBITDA margin by FY29.",
+       "src": "Sep meet p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        5437,
+        6925,
+        4083,
+        3996,
+        4745
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹5,642 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        45,
+        127,
+        -57,
+        -123,
+        56
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        584,
+        228,
+        791,
+        348,
+        520
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "27%",
+        "–41%",
+        "–2%",
+        "19%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "12%",
+        "13%",
+        "12%",
+        "10%",
+        "12%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "45",
+        "127",
+        "–57",
+        "–123",
+        "56"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "8%",
+        "11%",
+        "3%",
+        "3%",
+        "8%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest, ₹ Cr",
+        "238",
+        "311",
+        "293",
+        "241",
+        "224"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "584",
+        "228",
+        "791",
+        "348",
+        "520"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash flow was always better than profit:",
+       "text": "₹2,471 Cr of operating cash flow over FY22-26 against ₹48 Cr of profit, used to cut borrowings from ₹3,834 Cr (FY23) to ₹1,942 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Interest cover was only ~1.5x in FY26;",
+       "text": "the QIP and Q1 cash flow made the company net cash (₹483 Cr) by June 2026.",
+       "src": "Jul call p.8"
+      },
+      {
+       "lead": "Return on new capital is not meaningful yet:",
+       "text": "capital employed shrank FY24-26 as debt was repaid; the turn shows only from Q1 FY27.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "20% reported EBITDA margin by end of FY27",
+        "Apr 26",
+        "20.8% in Q1 FY27; target raised to 23%",
+        {
+         "text": "Beat early",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Enterprise & data centre 30% of FY27 revenue",
+        "Apr 26",
+        "Raised to 50%; data centre 21% in Q1",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹1,468 Cr of order book executed in Q1",
+        "Apr 26",
+        "Q1 revenue ₹1,910 Cr",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net debt / EBITDA below 1.2x",
+        "Apr 26",
+        "Net cash ₹483 Cr after QIP",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Connectivity attach rate rising (~50% long-term)",
+        "FY25",
+        "Fell to 15% in FY26; 16% in Q1",
+        {
+         "text": "Behind",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹20,000 Cr revenue by FY29",
+        "Sep 26",
+        "FY26 revenue ₹4,745 Cr",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Vedanta group) hold 42.3% after the QIP; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions up to 19.7% from 11.3% a year ago; domestic 13.3%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Auditors added an emphasis of matter on the US litigation against Sterlite Technologies Inc (the Prysmian case, ~$100 million); the impact is 'not determinable'.",
+       "src": "AR p.141"
+      },
+      {
+       "lead": "",
+       "text": "Key audit matter on impairment of investments in and loans to subsidiaries; ₹194 Cr of goodwill tested.",
+       "src": "AR p.236"
+      },
+      {
+       "lead": "",
+       "text": "A banker wrongly paid ₹25 Cr under a letter of credit in an earlier year; recovery being pursued.",
+       "src": "AR p.211"
+      },
+      {
+       "lead": "",
+       "text": "No capacity or utilisation numbers disclosed.",
+       "src": "May call p.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Sterlite Technologies",
+        "4,745",
+        "12%",
+        "56",
+        "8%",
+        "218x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "HFCL",
+        "4,949",
+        "15%",
+        "329",
+        "11%",
+        "67.0x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Birla Cable",
+        "771",
+        "6%",
+        "17",
+        "9%",
+        "24.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Tejas Networks",
+        "1,103",
+        "–62%",
+        "–909",
+        "–15%",
+        "n/m"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Global leaders Corning, Prysmian and Fujikura are larger; STL competes with them for hyperscaler contracts. HFCL is the closest Indian peer and also signed a ~$1.1 billion hyperscaler deal.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "End-to-end integration",
+       "text": "from glass preform to connectivity, which few makers outside China have.",
+       "src": "Sep meet p.4"
+      },
+      {
+       "lead": "IP:",
+       "text": "785+ patents; hollow-core and multi-core fibre; won a European patent dispute with Fujikura.",
+       "src": "Jul call p.6"
+      },
+      {
+       "lead": "Customers:",
+       "text": "already supplies almost all major hyperscalers.",
+       "src": "Sep meet p.4"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Raw materials:",
+       "text": "germanium and helium scarce and expensive; limits output.",
+       "src": "Jul call p.9"
+      },
+      {
+       "lead": "Cyclical history:",
+       "text": "optical fibre has had sharp boom-bust cycles (FY24 revenue fell 41%).",
+       "src": null
+      },
+      {
+       "lead": "Customer concentration:",
+       "text": "the order book leans on one $1.1 billion contract.",
+       "src": "Jul call p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "US litigation (~$100 million)",
+        "Legal",
+        "Under appeal; auditors' emphasis of matter"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Data-centre capex cycle turns",
+        "Market",
+        "Demand strong for now"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Germanium / helium supply",
+        "Operational",
+        "Improving quarter by quarter, per management"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Execution of ₹3,000 Cr capex",
+        "Operational",
+        "Planned over FY27-FY29"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹88,000 Cr",
+       "sub": "FY29 market cap · about +71%",
+       "text": "Lakshya delivered: ₹20,000 Cr revenue at 27% EBITDA, ~₹3,500 Cr net profit, valued at 25x."
+      },
+      {
+       "name": "Base",
+       "value": "₹37,300 Cr",
+       "sub": "FY29 market cap · about –28%",
+       "text": "Revenue ₹12,000 Cr at 22% EBITDA, ~₹1,500 Cr net profit, valued at 25x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹10,200 Cr",
+       "sub": "FY29 market cap · about –80%",
+       "text": "Data-centre cycle turns: revenue ₹7,000 Cr at 15% EBITDA, ~₹340 Cr net profit, valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "218x",
+       "label": "P/E, trailing (HFCL 67x)"
+      },
+      {
+       "value": "~62x",
+       "label": "EV / trailing EBITDA, net of cash"
+      },
+      {
+       "value": "21.5x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "₹48 Cr",
+       "label": "Cumulative profit, FY22-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The turnaround is real: record orders, margins above target and a repaired balance sheet. But the price already discounts most of the FY29 plan, which needs 4x revenue in three years in a historically cyclical industry. Only full delivery of Lakshya makes today's price look cheap.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Quarterly revenue on the path to ₹20,000 Cr by FY29",
+  "EBITDA margin moving from ~21% to 23%",
+  "Execution of the $1.1 billion hyperscaler order",
+  "US litigation appeal",
+  "Connectivity attach rate above 20%"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (29 Apr 2026) and Q1 FY27 (24 Jul 2026) concall transcripts; investor meet (3 Sep 2026)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

@@ -1,0 +1,242 @@
+{
+  "symbol": "STLTECH",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9792f14-5da1-407c-988c-72dc2efbbfc7.pdf",
+    "pptUrl": "https://stl.tech/wp-content/uploads/2026/05/Investor-Earnings-Presentation.pdf",
+    "recordingUrl": "https://stl.tech/download"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:47:47.025Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-04-29",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 20% by the end of FY27",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Company-reported EBITDA differs slightly from Screener's operating profit (e.g. FY26 13.2% reported vs 12.0% on Screener).",
+        "quote": "our structural margin profile\ncontinues to expand in line with our guidance of 20% at reported level by end\nof the current fiscal.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "20% at reported level",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Enterprise & data centre share of revenue",
+        "kind": "absolute",
+        "low": 30,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Enterprise and data centre",
+        "condition": "19% in FY26; brought forward from 12-18 months",
+        "quote": "we expect the Enterprise and Data Center segment to scale up to\n30% of revenues in the current fiscal.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "30% of revenues",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex for data-centre products",
+        "kind": "absolute",
+        "low": 500,
+        "high": 500,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "near term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "which can have an\napproximate investment of INR 500 crores.",
+        "page": 12,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "INR 500 crores",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Net debt to EBITDA below 1.2x",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "1.3x at March 2026; net debt ₹1,128 Cr",
+        "quote": "comfortably below our earlier target of 2x with\na revised ambition of moving below 1.2x.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "below 1.2x",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed in Q1 FY27",
+        "kind": "absolute",
+        "low": 1468,
+        "high": 1468,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Open order book ₹7,309 Cr",
+        "quote": "Of this, INR 1,468 crores are slated for execution in Q1 FY27",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "slated for execution",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Raw material constraints ease each quarter",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Germanium and helium availability",
+        "quote": "we do expect it to improve quarter-on-quarter.",
+        "page": 11,
+        "speaker": "Ankit Agarwal (Managing Director)",
+        "confidence": "high",
+        "keyword": "improve quarter-on-quarter",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose to ₹4,745 Cr with reported EBITDA of ₹628 Cr (13.2%), and PAT turned positive; Q4 revenue grew 37% with a 15.1% margin. Order inflows more than doubled to ₹7,687 Cr, largely North American data-centre projects and Indian telecom contracts, taking the open order book to ₹7,309 Cr. Management kept its target of a 20% reported EBITDA margin by the end of FY27 and expects enterprise and data centres to reach 30% of revenue this year.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "20% reported EBITDA margin by the end of FY27",
+          "page": 9
+        },
+        {
+          "change": "raised",
+          "text": "Enterprise and data centre to be 30% of revenue in FY27 (earlier 12-18 months away)",
+          "page": 9
+        },
+        {
+          "change": "new",
+          "text": "About ₹500 Cr capex for data-centre products and technology",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Net debt to EBITDA ambition cut to below 1.2x",
+          "page": 9
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "This is not a cyclical uptick. It is a durable high visibility\ngrowth opportunity playing out right here in our home market in India.",
+        "page": 5
+      },
+      "analyst_questions": [
+        {
+          "topic": "Raw materials",
+          "answer": "Germanium and helium remain costly and scarce; availability expected to improve quarter by quarter.",
+          "page": 11
+        },
+        {
+          "topic": "Hyperscaler deals",
+          "answer": "Supplying data centres already; working on long-term contracts, no names or sizes.",
+          "page": 15
+        },
+        {
+          "topic": "Spot prices",
+          "answer": "STL avoids the spot market and sells on long-term contracts.",
+          "page": 14
+        },
+        {
+          "topic": "Prysmian litigation",
+          "answer": "Appeal filed in September 2025; two more appeal stages possible on the ~$100 million liability.",
+          "page": 18
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "About $100 million Prysmian judgment under appeal.",
+          "page": 18
+        },
+        {
+          "text": "Germanium and helium shortages limit output; polymer costs up with the West Asia war.",
+          "page": 9
+        },
+        {
+          "text": "Connectivity attach rate fell to 15% from 22%.",
+          "page": 8
+        },
+        {
+          "text": "No revenue guidance and no capacity or utilisation disclosure.",
+          "page": 12
+        }
+      ],
+      "watch_next": [
+        "EBITDA margin moving towards 20% through FY27",
+        "Data-centre share of revenue",
+        "Large hyperscaler contracts",
+        "Germanium supply"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Optical fibre, fibre-optic cables (including high-fibre-count IBR cables), connectivity products and pre-terminated data-centre solutions (Neuralis); STL Digital IT services",
+        "customers": "Telecom operators, data centres and hyperscalers, citizen networks (BharatNet, BEAD) in North America, Europe and India",
+        "revenue_mix": "FY26: North America 39%, Europe 40%; enterprise and data centre 19%",
+        "demand_drivers": "AI data centres, FTTH roll-outs, 5G densification, government rural broadband"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9792f14-5da1-407c-988c-72dc2efbbfc7.pdf",
+    "pptUrl": "https://stl.tech/wp-content/uploads/2026/05/Investor-Earnings-Presentation.pdf",
+    "transcriptPages": 20,
+    "transcriptHasText": true
+  }
+}

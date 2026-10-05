@@ -1,0 +1,469 @@
+{
+  "symbol": "EBGNG",
+  "name": "GNG Electronics Ltd",
+  "screenerUrl": "https://www.screener.in/company/EBGNG/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1285555",
+  "warehouseId": "141308239",
+  "ratios": {
+    "market cap": 7924,
+    "current price": 695,
+    "high": 730,
+    "low": 239,
+    "stock p/e": 55.6,
+    "book value": 66.5,
+    "dividend yield": 0,
+    "roce": 20.2,
+    "roe": 26.8,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        255,
+        353,
+        347,
+        456,
+        312,
+        440,
+        487,
+        652,
+        412
+      ],
+      "expenses": [
+        230,
+        320,
+        317,
+        428,
+        280,
+        393,
+        433,
+        588,
+        363
+      ],
+      "operating_profit": [
+        26,
+        33,
+        31,
+        28,
+        32,
+        47,
+        54,
+        63,
+        49
+      ],
+      "opm_pct": [
+        10,
+        9,
+        9,
+        6,
+        10,
+        11,
+        11,
+        10,
+        12
+      ],
+      "other_income": [
+        2,
+        3,
+        1,
+        3,
+        3,
+        0,
+        1,
+        1,
+        4
+      ],
+      "interest": [
+        10,
+        10,
+        9,
+        10,
+        11,
+        8,
+        9,
+        14,
+        14
+      ],
+      "depreciation": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "pbt": [
+        16,
+        24,
+        21,
+        18,
+        22,
+        36,
+        43,
+        46,
+        36
+      ],
+      "tax_pct": [
+        23,
+        2,
+        9,
+        18,
+        18,
+        10,
+        10,
+        9,
+        19
+      ],
+      "net_profit": [
+        12,
+        23,
+        19,
+        15,
+        19,
+        33,
+        39,
+        42,
+        29
+      ],
+      "eps": [
+        3131.44,
+        5943.3,
+        1.96,
+        1.52,
+        1.91,
+        2.86,
+        3.39,
+        3.7,
+        2.54
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        245,
+        344,
+        519,
+        661,
+        1138,
+        1411,
+        1891
+      ],
+      "expenses": [
+        239,
+        331,
+        489,
+        616,
+        1059,
+        1294,
+        1695
+      ],
+      "operating_profit": [
+        6,
+        13,
+        31,
+        45,
+        79,
+        117,
+        196
+      ],
+      "opm_pct": [
+        2.4,
+        3.9,
+        6,
+        7,
+        7,
+        8,
+        10
+      ],
+      "other_income": [
+        1,
+        2,
+        1,
+        3,
+        6,
+        9,
+        4
+      ],
+      "interest": [
+        5,
+        6,
+        8,
+        12,
+        24,
+        38,
+        42
+      ],
+      "depreciation": [
+        0,
+        1,
+        1,
+        1,
+        4,
+        9,
+        10
+      ],
+      "pbt": [
+        2,
+        8,
+        23,
+        36,
+        57,
+        78,
+        148
+      ],
+      "tax_pct": [
+        15,
+        11,
+        11,
+        8,
+        9,
+        12,
+        11
+      ],
+      "net_profit": [
+        2,
+        7,
+        20,
+        33,
+        52,
+        69,
+        132
+      ],
+      "eps": [
+        null,
+        null,
+        5213.92,
+        8440.72,
+        13438.14,
+        7.09,
+        11.55
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0732000-2fc4-4a4d-99b5-f3554f9bec36.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6c26cd1-befb-4b36-b397-d0af3720e440.pdf",
+      "recordingUrl": "https://www.electronicsbazaar.com/pub/media/investor/i/Q1FY27_Earnings_Call_Recording.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e89154-c5aa-4a84-8bf1-854b53a121e3.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a3131c3-f8cd-4d3a-8039-c74904220bc4.pdf",
+      "recordingUrl": "https://www.electronicsbazaar.com/media/investor/i/Q4_FY26_Earnings_Call_Recording.mp3"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7593f65-1111-4a0f-8c99-56dbc5048724.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb40513-4b80-4af6-b52f-e01c55df3243.pdf",
+      "recordingUrl": "https://youtu.be/rcfpkRojyC8"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9134f00c-9a1a-4334-b1fc-e82aa120e800.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6f3bd39-786b-449f-aa88-ecb064b29d0f.pdf",
+      "recordingUrl": "https://youtu.be/nTB1KRjPnv4"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae03b5ef-0184-4c29-a37f-ea59240fa4b2.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56ce9ff5-df6c-4e7a-9d9d-cf14f50ecaed.pdf",
+      "recordingUrl": "https://youtu.be/3iYBySlYC4Y"
+    }
+  ],
+  "peers": [
+    {
+      "name": "GNG Electronics",
+      "screenerPath": "/company/EBGNG/consolidated/",
+      "marketCapCr": 7924.43,
+      "pe": 55.64,
+      "salesQtrCr": 412.46,
+      "salesGrowthQtrPct": 32.08,
+      "roce": 20.18
+    },
+    {
+      "name": "Rashi Peripheral",
+      "screenerPath": "/company/RPTECH/consolidated/",
+      "marketCapCr": 6255.2,
+      "pe": 19.61,
+      "salesQtrCr": 5101.85,
+      "salesGrowthQtrPct": 61.85,
+      "roce": 17
+    },
+    {
+      "name": "Moschip Tech.",
+      "screenerPath": "/company/MOSCHIP/consolidated/",
+      "marketCapCr": 3821.12,
+      "pe": 119.9,
+      "salesQtrCr": 116.21,
+      "salesGrowthQtrPct": -14.29,
+      "roce": 10.97
+    },
+    {
+      "name": "NELCO",
+      "screenerPath": "/company/NELCO/consolidated/",
+      "marketCapCr": 2020.25,
+      "pe": 338.4,
+      "salesQtrCr": 80.03,
+      "salesGrowthQtrPct": 7.01,
+      "roce": 7.21
+    },
+    {
+      "name": "D-Link India",
+      "screenerPath": "/company/DLINKINDIA/consolidated/",
+      "marketCapCr": 1463.53,
+      "pe": 13.64,
+      "salesQtrCr": 456.96,
+      "salesGrowthQtrPct": 30.5,
+      "roce": 25.89
+    },
+    {
+      "name": "Bharat Global",
+      "screenerPath": "/company/521238/",
+      "marketCapCr": 1155.37,
+      "pe": null,
+      "salesQtrCr": 0,
+      "salesGrowthQtrPct": -100,
+      "roce": -0.01
+    },
+    {
+      "name": "Control Print",
+      "screenerPath": "/company/CONTROLPR/consolidated/",
+      "marketCapCr": 989.08,
+      "pe": 25.43,
+      "salesQtrCr": 115.56,
+      "salesGrowthQtrPct": 3.84,
+      "roce": 16.45
+    }
+  ],
+  "fetchedAt": "2026-10-05T19:40:46.388Z"
+}

@@ -1,0 +1,200 @@
+{
+  "symbol": "NETWEB",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82b379a4-fa41-4ea7-bce4-dabe60795fa0.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f61d7f70-daf7-4f03-a7e8-28a8eeb8996a.pdf",
+    "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2026-27/Q1/recording.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-05T19:49:30.739Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-29",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Operating EBITDA margin",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 14,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We have\nalways been saying that our margins will remain between 13% to 14%.",
+        "page": 8,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "between 13% to 14%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Pipeline converts ~60% in 18-24 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "18-24 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Pipeline ₹10,410 Cr; order book ₹2,507 Cr plus ₹848 Cr L1",
+        "quote": "the funnel will be --\nbasically conversion rate will be around 60% and the conversion time will be around 18 to 24\nmonths.",
+        "page": 17,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "conversion rate will be around 60%",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "No major capex",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Facilities built for ₹3,000 Cr+ of revenue",
+        "quote": "But\nbasically, I'm not guiding on any new capex as such recently.",
+        "page": 6,
+        "speaker": "Sanjay Lodha (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "not guiding on any new capex",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capital raised only for working capital",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "12-month enabling resolution",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "If we raise anything, it will be for working capital, you're right.",
+        "page": 15,
+        "speaker": "Sanjeev Sancheti (IR adviser)",
+        "confidence": "high",
+        "keyword": "for working capital",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue jumped 172% to ₹820 Cr with operating EBITDA of ₹120.5 Cr (14.7%) and PAT of ₹85 Cr; AI systems were 62% of revenue. The order book is ₹2,507 Cr plus ₹848 Cr of L1 positions, and the pipeline (now including strategic AI deals) is ₹10,410 Cr, expected to convert about 60% over 18-24 months. Management kept the 13-14% margin range; inventory rose to 110 days and the company moved to net debt of ₹200 Cr, with an enabling resolution to raise capital for working capital.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Strategic AI orders now treated as normal business; pipeline ₹10,410 Cr",
+          "page": 8
+        },
+        {
+          "change": "reiterated",
+          "text": "Operating EBITDA margin 13-14%",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "Net debt ₹200 Cr; enabling resolution for capital (working capital only)",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "R&D into physical AI and quantum simulators",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I'm pleased to share that Netweb\nTechnologies delivered a record quarter",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Margin up despite memory prices",
+          "answer": "Advance planning and supplier relationships; no overcharging; margins within 13-14%.",
+          "page": 8
+        },
+        {
+          "topic": "Capacity",
+          "answer": "Facilities can support ₹3,000 Cr+ revenue; only routine capex.",
+          "page": 6
+        },
+        {
+          "topic": "Funding growth",
+          "answer": "May raise debt or equity for working capital; no M&A.",
+          "page": 15
+        },
+        {
+          "topic": "Strategic orders executed",
+          "answer": "About ₹430 Cr of the ₹1,600 Cr strategic order book in Q1.",
+          "page": 14
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Moved from net cash to ₹200 Cr net debt; inventory days rose to 110.",
+          "page": 5
+        },
+        {
+          "text": "Possible equity raise to fund working capital.",
+          "page": 15
+        },
+        {
+          "text": "Prior-period balance sheet restated after an inventory valuation change.",
+          "page": 17
+        },
+        {
+          "text": "No full-year revenue guidance repeated on this call.",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "Q2 revenue from the ₹3,355 Cr order book plus L1",
+        "Margin within 13-14%",
+        "Net debt and any capital raise",
+        "Order wins from the ₹10,410 Cr pipeline"
+      ],
+      "business_snapshot": {
+        "what_they_make": "AI GPU systems, HPC supercomputers, private cloud / HCI, in-house designed and manufactured in India",
+        "customers": "Government AI and supercomputing programmes, Indian cloud and colocation providers, enterprises",
+        "revenue_mix": "Q1 FY27: AI ₹511 Cr (62%), HPC ₹125 Cr, private cloud ₹135 Cr",
+        "demand_drivers": "Sovereign AI compute, India AI Mission, enterprise and CSP data centres"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82b379a4-fa41-4ea7-bce4-dabe60795fa0.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f61d7f70-daf7-4f03-a7e8-28a8eeb8996a.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

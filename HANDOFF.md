@@ -48,7 +48,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 - `src/lib/app/`: data access (`repo.ts`, Supabase or demo mode on `data/` files when no keys), tracker view (`view.ts`, tested), admin check (`auth.ts`), server actions in `src/app/actions.ts`.
 - Data flow: repo files are the source of truth. `npm run snapshot` saves Screener numbers to `data/snapshots/`; `npm run sync-db` copies snapshots and runs into Supabase (runs already there are left alone, so edits and tags survive).
 - Supabase project `tacqwjzpuigclgferpye` (Mumbai) has `0001_init.sql`, `0002_app.sql` and `0003_research_notes.sql` applied.
-- Companies (8): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations only, no calls), CPPLUS. Each has two analysed concalls (PRIZOR one deck) and a six-section insight report in `data/notes/`.
+- Companies (15): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations and conference notes, no calls), CPPLUS, ACUTAAS, AEROFLEX, EBGNG, STLTECH (plus its Sep 2026 'Lakshya' investor meet), HFCL, NETWEB and E2E (both standalone basis). Each has two analysed concalls and a six-section insight report in `data/notes/`.
 - Env vars: see `.env.example`. Local values in `.env.local` (git-ignored); the same in Vercel (Production and Preview).
 - Local preview: `.claude/launch.json` has `web` (as a visitor) and `web-admin` (port 3001, Admin without a key).
 

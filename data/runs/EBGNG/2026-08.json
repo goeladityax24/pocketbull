@@ -1,0 +1,200 @@
+{
+  "symbol": "EBGNG",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0732000-2fc4-4a4d-99b5-f3554f9bec36.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6c26cd1-befb-4b36-b397-d0af3720e440.pdf",
+    "recordingUrl": "https://www.electronicsbazaar.com/pub/media/investor/i/Q1FY27_Earnings_Call_Recording.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:46:48.075Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-30",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 30,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we would like to revise our revenue guidance from earlier 25% to 30%",
+        "page": 10,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "revise our revenue guidance",
+        "revises": "May call: about 25%"
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin up 75-100 bps",
+        "kind": "margin_pct",
+        "low": 7.75,
+        "high": 8,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 PAT margin was 7.0%",
+        "quote": "at the PAT level margin growth, we would like to increase it from 0.5% to 0.75% -1%.",
+        "page": 10,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "0.75% -1%",
+        "revises": "May call: at least +50 bps"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Effective tax rate 10-12%",
+        "kind": "absolute",
+        "low": 10,
+        "high": 12,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "the tax rate you should assume on a similar basis at\nbetween 10% to 12% for the full year on a consol basis",
+        "page": 12,
+        "speaker": "Ajay Pancholi (Director)",
+        "confidence": "high",
+        "keyword": "tax rate",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Opex grows slower than revenue soon",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "soon",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "the operating leverage will\nobviously kick in very soon.",
+        "page": 17,
+        "speaker": "Sharad Khandelwal (Founder & MD)",
+        "confidence": "high",
+        "keyword": "operating leverage",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue grew 32% to ₹412.5 Cr and gross margin jumped to 24.65%, giving EBITDA of ₹52.8 Cr (12.8%) and PAT of ₹28.9 Cr (7.0%). Management raised FY27 guidance to 30% revenue growth and a 75-100 bps rise in PAT margin, crediting higher realisations (laptop ASP up 12% YoY), wider distribution and gains on inventory bought before component prices rose. Volumes grew 18%; inventory was about ₹700 Cr and net debt about ₹406 Cr.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "Revenue growth guidance raised to 30% from 25%",
+          "page": 10
+        },
+        {
+          "change": "raised",
+          "text": "PAT margin expansion raised to 75-100 bps from 50 bps",
+          "page": 10
+        },
+        {
+          "change": "new",
+          "text": "Redington added to Ingram and Supertron as national distributors",
+          "page": 14
+        },
+        {
+          "change": "new",
+          "text": "Now in 49 countries; staff 2,420",
+          "page": 6
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We have started the year comfortably ahead of our FY27 guidance",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Where the margin came from",
+          "answer": "International gross margin near 30% vs 21% in India; more sales in the US and Europe (47% of revenue).",
+          "page": 9
+        },
+        {
+          "topic": "Inventory gains",
+          "answer": "Yes, buying ahead of price rises is lifting gross margin; inventory ~₹700 Cr.",
+          "page": 11
+        },
+        {
+          "topic": "Procurement",
+          "answer": "Used-laptop buying prices trail new-laptop prices; contracts let it buy at old prices for now.",
+          "page": 16
+        },
+        {
+          "topic": "Growth slowdown",
+          "answer": "Q1 is a seasonally weak quarter; management does not expect growth to slow.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Net debt rose about ₹100 Cr in the quarter to ~₹406 Cr.",
+          "page": 8
+        },
+        {
+          "text": "Part of the margin gain is from inventory bought before prices rose, which may not last.",
+          "page": 11
+        },
+        {
+          "text": "Other expenses up 68% YoY on sales incentives.",
+          "page": 12
+        },
+        {
+          "text": "Volume growth (18%) much lower than revenue growth (32%).",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Q2 growth near 30%",
+        "Gross margin holding near 24-25%",
+        "Net debt and inventory",
+        "Employee and other costs vs revenue"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Premium refurbished laptops and desktops with 1-3 year warranties (Electronics Bazaar)",
+        "customers": "Businesses and education buyers through dealers and distributors (Redington, Ingram, Supertron) in 49 countries",
+        "revenue_mix": "Q1 FY27: India 36%, Middle East 12%, US 24%, Europe 23%, others 5%; 108,000 laptops and 42,000 others",
+        "demand_drivers": "New-PC price inflation from the memory shortage, students and SMEs needing affordable computers, trust in warranties"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0732000-2fc4-4a4d-99b5-f3554f9bec36.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6c26cd1-befb-4b36-b397-d0af3720e440.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

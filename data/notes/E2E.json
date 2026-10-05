@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Indian GPU cloud (neocloud) provider",
+ "lede": "A listed Indian AI cloud that rents out NVIDIA GPUs, now about 5,100 of them, with L&T as an 18% shareholder and partner. Q1 FY27 revenue jumped 334% at a 75% EBITDA margin once B200s went live, but the business is capital hungry, FY26 was loss-making after depreciation, and management gives no guidance.",
+ "market": {
+  "price": 656,
+  "mcap_cr": 13484,
+  "pe": 433,
+  "pb": 8.0,
+  "ev_ebitda": 58
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q1 FY27 revenue ₹157 Cr (+334%), EBITDA ₹118 Cr (75%) and PAT ₹44 Cr after the first 1,024 B200 GPUs went live near full use; GPU rental prices are rising and another 1,024 B200s are coming."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "FY26 free cash flow was –₹1,140 Cr and depreciation (₹169 Cr) wiped out profit; debt is rising (~₹450 Cr). The uses of ₹1,485 Cr of preferential issue money were changed and pledging of unused proceeds authorised; no revenue or MRR guidance."
+  },
+  {
+   "lead": "Price",
+   "text": "433x trailing earnings and ~58x trailing EV/EBITDA; on Q1 annualised profit about 77x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "E2E Networks runs a cloud platform in India that rents GPU (NVIDIA H100, H200, B200) and CPU capacity by the hour, month or year, with its TIR and Jarvis Labs software for training, fine-tuning and inference. Customers are AI start-ups and LLM teams, enterprises, India AI Mission users and international clients (~37%). L&T owns 18.45% and partners on data centres.",
+     "src": "Jul call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~5,100",
+       "label": "GPUs live (another 1,024 B200 due)"
+      },
+      {
+       "value": "75.2%",
+       "label": "EBITDA margin, Q1 FY27"
+      },
+      {
+       "value": "~37%",
+       "label": "International share of revenue"
+      },
+      {
+       "value": "18.45%",
+       "label": "L&T stake, March 2026"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margins come from high utilisation of owned GPUs; costs are mostly fixed (depreciation over 6 years, power).",
+       "src": "Apr call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Mix of hourly, monthly and multi-year contracts; customers now taking 1-3 year terms to lock prices.",
+       "src": "Jul call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Depreciation is the main cost below EBITDA, so profit depends on keeping GPUs busy.",
+       "src": "Apr call p.5"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Moved from NSE Emerge to the main board; raised ~₹1,485 Cr through preferential issues including L&T.",
+       "src": "AR p.75"
+      },
+      {
+       "lead": "",
+       "text": "Fixed assets rose from ₹42 Cr (FY23) to ₹1,036 Cr plus ₹533 Cr CWIP (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "New subsidiaries: SovCloud (infrastructure) and a Delaware company for international sales.",
+       "src": "Jul call p.7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        52,
+        66,
+        94,
+        164,
+        246
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹366 Cr; Q1 FY27 alone ₹157 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "EBITDA vs depreciation, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "EBITDA",
+       "values": [
+        23,
+        33,
+        48,
+        97,
+        126
+       ]
+      },
+      {
+       "name": "Depreciation",
+       "values": [
+        18,
+        20,
+        16,
+        60,
+        169
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "27%",
+        "42%",
+        "74%",
+        "50%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "44%",
+        "50%",
+        "51%",
+        "59%",
+        "51%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "6",
+        "10",
+        "22",
+        "47",
+        "–16"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "15%",
+        "29%",
+        "25%",
+        "8%",
+        "–1%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "26",
+        "36",
+        "43",
+        "88",
+        "122"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Free cash flow, ₹ Cr",
+        "5",
+        "17",
+        "–103",
+        "–37",
+        "–1,140"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash from operations is real",
+       "text": "(₹122 Cr in FY26, close to EBITDA), but GPU purchases far exceed it.",
+       "src": null
+      },
+      {
+       "lead": "Funding:",
+       "text": "₹1,485 Cr of equity in FY25-26, now debt (~₹450 Cr) for B200s.",
+       "src": "Jul call p.14"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): negative FY24-26",
+       "text": "as capital employed rose ₹1,630 Cr before the new GPUs earned; Q1 FY27 is the first quarter of payback.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "First 1,024 B200 cluster live mid-May",
+        "Apr 26",
+        "Went live in Q1 and on revenue",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Second 1,024 B200 'in a couple of months'",
+        "Apr 26",
+        "July: 'next couple of months'",
+        {
+         "text": "Slipping",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "At least ~6,000 GPUs by end of FY27",
+        "Apr 26",
+        "~5,100 live plus 1,024 due",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Revenue to outpace depreciation",
+        "Apr 26",
+        "Q1 FY27 PAT ₹44 Cr after a FY26 loss",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Q4 FY26 MRR target from earlier calls",
+        "FY26",
+        "Management says met and exceeded",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "B200 cluster originally due earlier in FY26",
+        "FY26",
+        "Delayed by supply chain to May 2026",
+        {
+         "text": "Late",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 39.5%; L&T 18.45%; no pledge of promoter shares.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions 1.3%, domestic 6.1%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Shareholders approved changing the use of ₹406 Cr and ₹1,079 Cr of preferential-issue money and authorised pledging unused proceeds.",
+       "src": "AR p.75"
+      },
+      {
+       "lead": "",
+       "text": "Internal auditors resigned in January 2026 citing pre-occupation.",
+       "src": "AR p.34"
+      },
+      {
+       "lead": "",
+       "text": "Revenue recognition flagged as a key audit matter.",
+       "src": "AR p.127"
+      },
+      {
+       "lead": "",
+       "text": "Related-party purchases 1.7% and sales 0.9% of totals.",
+       "src": "AR p.111"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "E2E Networks",
+        "246",
+        "51%",
+        "–16",
+        "–1%",
+        "433x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Netweb Technologies",
+        "2,184",
+        "13%",
+        "206",
+        "37%",
+        "109x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Anant Raj (data centres)",
+        "2,512",
+        "26%",
+        "559",
+        "12%",
+        "36.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Techno Electric (data centres)",
+        "3,252",
+        "14%",
+        "474",
+        "15%",
+        "26.4x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "E2E has no close listed peer in India; Yotta and global neoclouds (CoreWeave, Nebius) are private or overseas. Listed data-centre plays are shown for valuation.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Own software platform (TIR)",
+       "text": "that lets customers train and serve models without managing hardware.",
+       "src": "Jul call p.3"
+      },
+      {
+       "lead": "Indian, 'sovereign' cloud",
+       "text": "for customers who want data and models kept in India.",
+       "src": "Jul call p.4"
+      },
+      {
+       "lead": "16 years of running cloud infrastructure;",
+       "text": "L&T as partner and shareholder.",
+       "src": "Jul call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Capital intensity:",
+       "text": "each GPU generation needs fresh capital; depreciation is heavy.",
+       "src": "Apr call p.11"
+      },
+      {
+       "lead": "GPU pricing cycles:",
+       "text": "rental prices could fall as supply catches up.",
+       "src": "Jul call p.8"
+      },
+      {
+       "lead": "Scale:",
+       "text": "~5,000 GPUs is small next to hyperscalers and global neoclouds.",
+       "src": "Jul call p.7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "GPU rental prices fall",
+        "Market",
+        "Rising for now"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Funding new GPUs (debt, dilution)",
+        "Financial",
+        "Debt ~₹450 Cr and rising"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Customer concentration on large clusters",
+        "Operational",
+        "Not disclosed"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Changes to use of issue proceeds",
+        "Governance",
+        "Approved by shareholders"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹19,500 Cr",
+       "sub": "FY28 market cap · about +45%",
+       "text": "~8,000+ GPUs; revenue ~₹1,500 Cr at 70% EBITDA, ~₹390 Cr net profit after depreciation, valued at 50x."
+      },
+      {
+       "name": "Base",
+       "value": "₹8,100 Cr",
+       "sub": "FY28 market cap · about –40%",
+       "text": "Revenue ~₹1,000 Cr at 65% EBITDA, ~₹180 Cr net profit, valued at 45x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹4,000 Cr",
+       "sub": "FY28 market cap · about –70%",
+       "text": "GPU prices fall: revenue ~₹700 Cr at 50% EBITDA, about break-even after depreciation, valued near 2x book."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "433x",
+       "label": "P/E, trailing (~77x on Q1 annualised)"
+      },
+      {
+       "value": "~58x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "8.0x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "–₹1,140 Cr",
+       "label": "Free cash flow, FY26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "E2E has proved it can fill new GPUs at high margins, and Q1 shows the earnings power. But each step needs more capital, depreciation is heavy, and there is no guidance to hold management to. The price assumes rapid, well-funded expansion at today's GPU prices.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Second B200 lot live and Q2 revenue",
+  "EBITDA margin near 75% as capacity grows",
+  "Debt and any equity raise; use of preferential proceeds",
+  "GPU rental prices",
+  "Profit after depreciation"
+ ],
+ "sources": [
+  "Screener standalone financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (20 Apr 2026) and Q1 FY27 (22 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

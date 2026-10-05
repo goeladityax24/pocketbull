@@ -1,0 +1,331 @@
+{
+  "symbol": "ACUTAAS",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece102cb-b471-400c-949b-4a85748eb1a1.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f01fe607-5d15-45c1-a630-ad9b4ef4809b.pdf",
+    "recordingUrl": "https://backend.acutaas.com/resources/investor/recording-1777555736851.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-05T19:45:15.734Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-04-30",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 is usually ~40% of the year and H2 ~60%; Q1 is the weakest quarter",
+        "quote": "I'm confident of\ndelivering 25% revenue growth in FY '27.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "25% revenue growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin similar to FY26",
+        "kind": "margin_pct",
+        "low": 35.9,
+        "high": 35.9,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 EBITDA margin was 35.9% (₹480 Cr on ₹1,339 Cr); 'Similar level as FY '26. Q4 is too ambitious.' (p.15)",
+        "quote": "We are confident in our ability to maintain EBITDA margin at a\nsimilar level in the coming year.",
+        "page": 6,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "EBITDA margin similar",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "CDMO revenue of ₹1,000 Cr by FY28",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": null,
+        "quote": "Yes, that is the guidance, correct.",
+        "page": 16,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "CDMO 1,000 crore",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Two more battery-chemical products commercial in FY27",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We expect to bring two\nadditional products to commercial scale in FY27",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "two additional products",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Electrolyte additive phase 2 capex complete",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "The second phase of capex is currently ongoing and expected to get completed by\nQ1 FY '27.",
+        "page": 5,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "second phase capex",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Pilot plant complete",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "It is now\nexpected to get completed by Q2 FY '27.",
+        "page": 5,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "pilot plant Q2",
+        "revises": "Earlier timeline; delayed by equipment arrival"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Four validated CDMO products, ₹50-100 Cr each at peak",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "at peak; ramp-up mostly FY28",
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": null,
+        "quote": "we are expecting those products to be\nbetween INR50 crores to INR100 crores each at a peak level.",
+        "page": 11,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "50 to 100 crores each",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Indichem (Korea) plant complete",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "it should get completed in second half of calendar year '26.",
+        "page": 16,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "Indichem second half",
+        "revises": "Earlier: on stream by the start of CY27"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Planned FY27 capex",
+        "kind": "absolute",
+        "low": 90,
+        "high": 90,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Excludes the new R&D centre and land, not yet finalised",
+        "quote": "our capex will be the sum of the spillover of FY '26 capex, which is around INR50 crores\nand around INR40 crores will be maintenance capex.",
+        "page": 16,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "capex spillover maintenance",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Battery chemicals and semiconductors self-sustaining by FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "by FY '28, our both business verticals, which are in investment phase\nnow, battery chemicals and semiconductors will evolved into independent self-sustaining\ngrowth engines.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "self-sustaining growth engines",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 33% to ₹1,339 Cr, with EBITDA doubling to ₹480 Cr (35.9% margin) and record PAT of ₹356 Cr; Q4 alone had a 42.4% EBITDA margin on the CDMO (darolutamide intermediate) ramp-up. Management guided 25% revenue growth for FY27 with margins similar to FY26, and repeated ₹1,000 Cr of CDMO revenue by FY28. Battery-chemical additives (VC, FEC) started production, and the Korean semiconductor JV Indichem got ₹190 Cr of investment.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "25% revenue growth for FY27",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "EBITDA margin in FY27 similar to FY26 (not Q4's 42%)",
+          "page": 15
+        },
+        {
+          "change": "reiterated",
+          "text": "₹1,000 Cr CDMO revenue by FY28",
+          "page": 16
+        },
+        {
+          "change": "delayed",
+          "text": "Pilot plant pushed to Q2 FY27 because equipment arrived late",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "10x larger R&D centre and land purchase planned; capex not yet finalised",
+          "page": 5
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I'm confident of\ndelivering 25% revenue growth in FY '27.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Goodwill on Indichem",
+          "answer": "25% of the ₹190 Cr investment went to goodwill because the Korean partner got 25% equity at par; management says it is recoverable.",
+          "page": 9
+        },
+        {
+          "topic": "Is 25% growth conservative?",
+          "answer": "25% is the long-run CAGR; it would be revised up later in the year if the business runs ahead.",
+          "page": 17
+        },
+        {
+          "topic": "Battery chemicals in FY27",
+          "answer": "A 'meaningful' contribution ramping from Q1 to Q4; capacity of 2,000 t each of VC and FEC is contracted for three years. No number given.",
+          "page": 8
+        },
+        {
+          "topic": "Segment margins",
+          "answer": "Q4 EBITDA margin about 44% in pharma intermediates and 29% in specialty chemicals (helped by BFC recovery).",
+          "page": 11
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Growth depends heavily on one CDMO anchor product (darolutamide intermediate for Fermion/Bayer).",
+          "page": 16
+        },
+        {
+          "text": "₹48 Cr of goodwill booked on the new Korean JV, which has no revenue yet.",
+          "page": 9
+        },
+        {
+          "text": "Gulf conflict pushed raw material prices up and disrupted shipping.",
+          "page": 3
+        },
+        {
+          "text": "Working capital rose to 120 days from 114.",
+          "page": 6
+        }
+      ],
+      "watch_next": [
+        "FY27 revenue growth tracking 25%, with H1 about 40% of the year",
+        "EBITDA margin staying near 36% as battery chemicals (lower margin) ramp up",
+        "Revenue from the four validated CDMO products",
+        "Indichem plant completion in H2 CY26"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Advanced pharma intermediates and CDMO (~87% of FY26 revenue); specialty chemicals including battery electrolyte additives (VC, FEC) and semiconductor chemicals via Baba Fine Chemicals",
+        "customers": "600+ customers, global innovators and generic makers (Fermion/Orion for the anchor CDMO product), Heraeus for BFC, battery-cell makers in North America and Korea",
+        "revenue_mix": "Pharma intermediates ₹392 Cr and specialty chemicals ₹40 Cr in Q4 FY26",
+        "demand_drivers": "Ramp-up of the darolutamide (Nubeqa) intermediate, new CDMO molecules, EV battery demand, memory-chip demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece102cb-b471-400c-949b-4a85748eb1a1.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f01fe607-5d15-45c1-a630-ad9b4ef4809b.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,688 @@
+{
+ "as_of": "2026-10-05",
+ "descriptor": "Optical fibre cable, telecom equipment and defence",
+ "lede": "A telecom-equipment and EPC company that has become an optical-fibre exporter to US hyperscalers, with a defence arm on the side. Margins and orders have jumped and the MD raised FY27 growth to 40%+, but cash flow has not followed, receivables top ₹2,000 Cr and the promoter stake keeps falling.",
+ "market": {
+  "price": 250,
+  "mcap_cr": 38372,
+  "pe": 67.0,
+  "pb": 7.8,
+  "ev_ebitda": 35
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q1 FY27 revenue +120% to ₹1,915 Cr with a 23.3% reported EBITDA margin and PAT of ₹246 Cr; order book ₹26,665 Cr (5x FY26 revenue) including a ~$1.1 billion OFC contract; exports now over half of revenue."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was –₹378 Cr in FY26 and cumulative cash flow covers only ~28% of FY22-26 profit; debtor days ~163 and inventory days 191. Promoter holding fell to 28.3%, with warrants and a defence restructuring that leaves HFCL with part ownership."
+  },
+  {
+   "lead": "Price",
+   "text": "67x trailing earnings (about 35x EV/EBITDA); on Q1 annualised profit nearer 39x, cheaper than Sterlite."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "HFCL makes optical fibre and fibre-optic cable (including high-fibre-count IBR cables for data centres), data-centre connectivity products (via subsidiary HTL), telecom equipment (radios, routers, Wi-Fi), and defence products (radars, thermal sights, fuzes, aerostructures after an acquisition). It also runs telecom EPC projects such as BharatNet and the Army's network.",
+     "src": "Jul call p.2"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹26,665 Cr",
+       "label": "Order book, June 2026"
+      },
+      {
+       "value": "~55%",
+       "label": "Exports share of Q1 FY27 revenue"
+      },
+      {
+       "value": "28 → 34 mn fkm",
+       "label": "Fibre capacity by Dec 2026"
+      },
+      {
+       "value": "₹800 Cr",
+       "label": "Expected FY27 data-centre connectivity revenue"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Telecom products (mainly OFC) earn ~30% segment margins; EPC has been loss-making on the Army network warranty.",
+       "src": "Jul call p.10"
+      },
+      {
+       "lead": "",
+       "text": "Keeps some capacity unsold to capture higher spot prices.",
+       "src": "May call p.12"
+      },
+      {
+       "lead": "",
+       "text": "A ₹580 Cr preform plant should cut preform cost ~30% vs buying.",
+       "src": "Jul call p.18"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Exports rose from 4.5% of revenue (FY21) to 41% (FY26); products from 27% to 62%.",
+       "src": "May call p.6"
+      },
+      {
+       "lead": "",
+       "text": "Government share of the order book fell from 51% to 37%.",
+       "src": "May call p.6"
+      },
+      {
+       "lead": "",
+       "text": "Defence consolidated into HFCL Advance Systems with an aerospace acquisition.",
+       "src": "May call p.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        4727,
+        4743,
+        4465,
+        4065,
+        4949
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹5,993 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        326,
+        318,
+        338,
+        173,
+        329
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        205,
+        235,
+        -45,
+        396,
+        -378
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "0%",
+        "–6%",
+        "–9%",
+        "22%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "14%",
+        "13%",
+        "13%",
+        "11%",
+        "15%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "326",
+        "318",
+        "338",
+        "173",
+        "329"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "19%",
+        "15%",
+        "13%",
+        "8%",
+        "11%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "205",
+        "235",
+        "–45",
+        "396",
+        "–378"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "72",
+        "127",
+        "175",
+        "141",
+        "218"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit is not converting to cash:",
+       "text": "₹1,484 Cr of profit over FY22-26 against ₹413 Cr of operating cash flow; FY26 free cash flow –₹723 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Borrowings rose to ₹1,896 Cr",
+       "text": "(debt-to-equity 0.4x); interest cover ~2.8x in FY26.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 3%.",
+       "text": "Capital employed rose ₹1,840 Cr from FY24 to FY26 while post-tax operating profit rose ~₹51 Cr; Q1 FY27 profit should lift this.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "20% revenue growth in FY26",
+        "FY26",
+        "FY26 revenue +22%",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "20-25% growth in FY27 ('expectation')",
+        "Apr 26",
+        "Raised to 40%+; Q1 +120%",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin up 3-4 points (~20%)",
+        "Apr 26",
+        "23.25% in Q1; 23% now the floor",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Data-centre connectivity ₹400 Cr in FY27",
+        "Apr 26",
+        "Raised to ~₹800 Cr; ~₹100 Cr in Q1",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Army AMC signed and EPC profitable from Q2",
+        "Apr 26",
+        "'Mid-Q2', not yet confirmed",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Electronic fuzes passing trials",
+        "FY26",
+        "Needed upgrades after Balasore trials",
+        {
+         "text": "Delayed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 28.3%, down from 31.6% a year ago; ₹555 Cr of promoter warrants approved. No pledge shown.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions doubled to 15.7% in Q1 FY27.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Sales to related parties were 31% of standalone sales (3% a year earlier), mainly exports routed through its US subsidiary; 61% of loans and advances went to related parties.",
+       "src": "AR p.168"
+      },
+      {
+       "lead": "",
+       "text": "Key audit matters on revenue from long contracts and on intangible assets under development.",
+       "src": "AR p.211"
+      },
+      {
+       "lead": "",
+       "text": "Defence restructuring moves businesses into a subsidiary where HFCL may own about 51%.",
+       "src": "Jul call p.26"
+      },
+      {
+       "lead": "",
+       "text": "Receivables above ₹2,000 Cr; the MD could not split EPC or overdue amounts on the call.",
+       "src": "May call p.25"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "HFCL",
+        "4,949",
+        "15%",
+        "329",
+        "11%",
+        "67.0x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Sterlite Technologies",
+        "4,745",
+        "12%",
+        "56",
+        "8%",
+        "218x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Birla Cable",
+        "771",
+        "6%",
+        "17",
+        "9%",
+        "24.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Tejas Networks",
+        "1,103",
+        "–62%",
+        "–909",
+        "–15%",
+        "n/m"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "High-fibre-count cables:",
+       "text": "one of two Indian makers of 7,000-fibre cables; 14,000-fibre under development.",
+       "src": "Jul call p.15"
+      },
+      {
+       "lead": "US hyperscaler relationships",
+       "text": "with five-year contracts and a 35% US duty on Chinese fibre.",
+       "src": "Jul call p.11"
+      },
+      {
+       "lead": "Diversification",
+       "text": "into connectivity, defence and aerospace beyond OFC.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Preform dependence:",
+       "text": "buys most preform; contracts reset at higher prices.",
+       "src": "Jul call p.21"
+      },
+      {
+       "lead": "Fibre price cycle:",
+       "text": "prices rose sharply; MD thinks they are near the top.",
+       "src": "May call p.13"
+      },
+      {
+       "lead": "Working capital:",
+       "text": "EPC and exports tie up cash.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Weak cash conversion and rising receivables",
+        "Financial",
+        "FY26 CFO –₹378 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Fibre prices fall from the peak",
+        "Market",
+        "MD expects stable prices"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Promoter dilution and subsidiary minority stakes",
+        "Governance",
+        "Promoters 28.3%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EPC losses",
+        "Operational",
+        "Waiting on the Army AMC"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹50,600 Cr",
+       "sub": "FY28 market cap · about +32%",
+       "text": "Revenue ~₹9,500 Cr in FY28 at 23% EBITDA, ~₹1,260 Cr net profit, valued at 40x."
+      },
+      {
+       "name": "Base",
+       "value": "₹30,500 Cr",
+       "sub": "FY28 market cap · about –21%",
+       "text": "40% growth in FY27 then 20%, ~₹8,300 Cr revenue at 20% EBITDA, ~₹870 Cr net profit, valued at 35x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹8,900 Cr",
+       "sub": "FY28 market cap · about –77%",
+       "text": "Fibre prices normalise: revenue ~₹6,500 Cr at 15% EBITDA, ~₹356 Cr net profit, valued at 25x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "67x",
+       "label": "P/E, trailing (~39x on Q1 annualised)"
+      },
+      {
+       "value": "~35x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "7.8x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~28%",
+       "label": "Operating cash flow / profit, FY22-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "HFCL's earnings have stepped up sharply on data-centre fibre and the guidance keeps rising. It is cheaper than Sterlite on current profit, but cash conversion is poor, the promoter is diluting, and earnings depend on fibre prices staying high. Delivery of the 40% growth with cash coming in is the key test.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Quarterly revenue near ₹1,900 Cr and EBITDA margin at or above 23%",
+  "Operating cash flow and receivables",
+  "Army AMC signing and EPC losses",
+  "Fibre and cable capacity additions by December",
+  "Closing of the aerospace acquisition"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (5 Oct 2026)",
+  "Q4 FY26 (30 Apr 2026) and Q1 FY27 (22 Jul 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}
