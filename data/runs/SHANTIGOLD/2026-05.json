@@ -1,0 +1,269 @@
+{
+  "symbol": "SHANTIGOLD",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=719fa4d3-b400-4abe-b1a7-8acf9842724c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbf40f35-41fa-4d91-a95f-8ee0e74c6556.pdf",
+    "recordingUrl": "https://shantigold.in/wp-content/uploads/2026/05/10043647.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:01:58.980Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-22",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth 60-70% (value)",
+        "kind": "growth_yoy",
+        "low": 60,
+        "high": 70,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "At a gold price of ~₹1,50,000 per 10 g; also said 'around INR 3,000 crores to INR 3,500 crores' (p.9)",
+        "quote": "So this year, i.e current coming year, it will be around 30% to 40% growth in terms of volume and around 60%-70% growth in terms of value",
+        "page": 6,
+        "speaker": "Pankajkumar Jagawat (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "60%-70% growth in terms of value",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Volume growth 30-40%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 volume growth ~15%",
+        "quote": "So this year, i.e current coming year, it will be around 30% to 40% growth in terms of volume",
+        "page": 6,
+        "speaker": "Pankajkumar Jagawat (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "30% to 40% growth in terms of volume",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "Core PAT margin 3.5-4%",
+        "kind": "margin_pct",
+        "low": 3.5,
+        "high": 4,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Excludes inventory gains from gold price moves; FY26 PAT margin 6.9% included ~3-3.5 points of such gains",
+        "quote": "Hello. Just to answer to your question more specifically, see basically my core margin is around 3.5% to 4%, that's for sure.",
+        "page": 15,
+        "speaker": "Shriram Iyengar (CFO)",
+        "confidence": "high",
+        "keyword": "core margin is around 3.5% to 4%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Marol plant in about a month; Jaipur Sept-Oct",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Marol adds ~4,000 kg a year, Jaipur ~1,200 kg; total ~7,900 kg",
+        "quote": "So see, our new factory is almost ready, which is going to be like in a month or so for Marol factory, and I guess Jaipur factory should be starting by around September, October now.",
+        "page": 7,
+        "speaker": "Pankajkumar Jagawat (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Jaipur factory should be starting",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Full 7,900 kg capacity in 3-4 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "three to four years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~₹11,850 Cr revenue at ₹1,50,000 per 10 g",
+        "quote": "Yes, three to four years, we should achieve full 7,900 kilos or maybe more.",
+        "page": 9,
+        "speaker": "Pankajkumar Jagawat (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "full 7,900 kilos",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports from ~10% to ~20%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Via a Dubai subsidiary delayed by the West Asia war",
+        "quote": "Sorry, from 10% to 20%.",
+        "page": 9,
+        "speaker": "Pankajkumar Jagawat (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "from 10% to 20%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Debt/equity at most ~1x",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "0.36x at March 2026",
+        "quote": "To answer your question, maximum at this point if I say, we should be comfortable at going at 1:1.",
+        "page": 13,
+        "speaker": "Shriram Iyengar (CFO)",
+        "confidence": "high",
+        "keyword": "going at 1:1",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 82% to ₹2,019 Cr and PAT to ₹140 Cr (7% margin), helped by gold bought outright with IPO money before prices rallied; volumes grew only ~15%. Management guided 30-40% volume and 60-70% value growth for FY27 (₹3,000-3,500 Cr) but a core PAT margin of only 3.5-4%, i.e. it does not expect last year's inventory gains to repeat. The Marol plant (4,000 kg a year) was about to start and Jaipur (1,200 kg) by September-October; inventory accounting moved from FIFO to weighted average with retrospective effect.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27: 30-40% volume growth, 60-70% value growth",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Core PAT margin guided at 3.5-4%, well below FY26's 7%",
+          "page": 15
+        },
+        {
+          "change": "new",
+          "text": "Inventory valuation changed from FIFO to weighted average, retrospective from April 2024",
+          "page": 3
+        },
+        {
+          "change": "delayed",
+          "text": "Dubai subsidiary delayed to mid-2026 by the war",
+          "page": 9
+        },
+        {
+          "change": "new",
+          "text": "Entered machine-made plain gold, mangalsutras and Turkish jewellery",
+          "page": 5
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So sky is the limit for us.",
+        "page": 11
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why will PAT margin fall from 7% to 4%?",
+          "answer": "FY26 included ~3-3.5 points of gains on gold bought outright with IPO money; core margin is 3.5-4%.",
+          "page": 15
+        },
+        {
+          "topic": "Is value growth a bet on gold prices?",
+          "answer": "Says it uses current price (~₹1,50,000/10 g), though also said it expects some increase.",
+          "page": 14
+        },
+        {
+          "topic": "Working capital and debt",
+          "answer": "Debt/equity 0.36x; comfortable up to 1:1 to fund growth.",
+          "page": 13
+        },
+        {
+          "topic": "Titan as a customer",
+          "answer": "Not a customer yet; will approach after new factories start.",
+          "page": 12
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "FY26 profit inflated by unhedged gold held outright; core margin about half the reported one.",
+          "page": 15
+        },
+        {
+          "text": "Change in inventory accounting method in the year after IPO.",
+          "page": 3
+        },
+        {
+          "text": "Value-growth guidance partly relies on gold prices staying high or rising.",
+          "page": 14
+        },
+        {
+          "text": "Operating cash flow –₹261 Cr in FY26 as gold inventory was built.",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Q1 volume growth vs 30-40%",
+        "PAT margin vs 3.5-4% core",
+        "Marol plant start and Jaipur by September-October",
+        "Debt and working capital",
+        "Gold-price-driven inventory gains"
+      ],
+      "business_snapshot": {
+        "what_they_make": "22-carat CZ-studded gold jewellery (bridal, designer), plus new plain machine-made gold, mangalsutras and Turkish jewellery",
+        "customers": "400+ organised jewellery retailers across India (mainly South, expanding North) and some exports; top customer ~7%",
+        "revenue_mix": "FY26: studded ~70%, plain ~30%; exports ~5-10%",
+        "demand_drivers": "Organised retailers outsourcing manufacturing, wedding demand, gold prices"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=719fa4d3-b400-4abe-b1a7-8acf9842724c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbf40f35-41fa-4d91-a95f-8ee0e74c6556.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

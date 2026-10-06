@@ -1,0 +1,693 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "B2B maker of CZ-studded gold jewellery",
+ "lede": "A Mumbai manufacturer of 22-carat studded gold jewellery for organised retailers that doubled revenue after its 2025 IPO and is tripling capacity. It looks cheap at ~14x trailing earnings, but much of last year's profit came from gold bought before the price rally; on management's own 4% core margin the stock is closer to 26x, and cash flow has been negative for years.",
+ "market": {
+  "price": 337,
+  "mcap_cr": 2583,
+  "pe": 13.9,
+  "pb": 4.3,
+  "ev_ebitda": 11
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue +82% to ₹2,019 Cr in FY26 and +145% to ₹716 Cr in Q1 FY27 on 61% higher volumes; the new Marol plant (4,000 kg a year) started in June and Jaipur (1,200 kg) follows by December. ROCE 34%."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "FY26's 6.9% PAT margin included ~3 points of gold-price gains; management guides a core 3.5-4%. Inventory accounting switched from FIFO to weighted average (FY26 PAT ₹140 Cr vs ₹193 Cr under FIFO), operating cash flow was –₹261 Cr, and a ₹100 Cr rights issue followed the IPO within a year."
+  },
+  {
+   "lead": "Price",
+   "text": "~14x trailing earnings and ~11x EV/EBITDA, against Sky Gold at 38x and RBZ Jewellers at 14x; on core earnings of ~4% of trailing revenue, about 26x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Shanti Gold designs and manufactures 22-carat (and some 18-carat) cubic-zirconia-studded gold jewellery, mainly bridal and designer pieces, in Andheri, Mumbai, and sells to more than 400 organised jewellery retailers. In FY26 it added machine-made plain gold, mangalsutras and Turkish jewellery, and it is setting up a Dubai office for exports.",
+     "src": "May call p.5"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "2,700 → 7,900 kg",
+       "label": "Annual capacity after Marol and Jaipur"
+      },
+      {
+       "value": "~75% / 25%",
+       "label": "Studded / plain jewellery, Q1 FY27"
+      },
+      {
+       "value": "~4%",
+       "label": "Exports share of Q1 FY27 revenue"
+      },
+      {
+       "value": "3.5-4%",
+       "label": "Core PAT margin guided by management"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Earns a making margin on gold it buys from banks and bullion dealers; studded bridal pieces earn more, plain gold less.",
+       "src": "May call p.12"
+      },
+      {
+       "lead": "",
+       "text": "Holds ready stock for retailers rather than working order-to-order, which ties up cash.",
+       "src": "Aug call p.18"
+      },
+      {
+       "lead": "",
+       "text": "Unhedged gold bought with IPO money produced inventory gains in FY26 and Q1 FY27.",
+       "src": "May call p.7"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "IPO in August 2025; revenue from ₹428 Cr (FY22) to ₹2,019 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Promoters also run Utssav CZ Gold Jewels, a separately listed B2B jeweller.",
+       "src": "AR p.52"
+      },
+      {
+       "lead": "",
+       "text": "Inventory valuation moved from FIFO to weighted average cost, retrospective from April 2024.",
+       "src": "May call p.3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        428,
+        679,
+        711,
+        1106,
+        2019
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹2,442 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        3,
+        20,
+        27,
+        54,
+        140
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -16,
+        -4,
+        -13,
+        -15,
+        -261
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "59%",
+        "5%",
+        "56%",
+        "83%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "4%",
+        "6%",
+        "7%",
+        "8%",
+        "10%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "3",
+        "20",
+        "27",
+        "54",
+        "140"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "10%",
+        "20%",
+        "19%",
+        "26%",
+        "34%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–16",
+        "–4",
+        "–13",
+        "–15",
+        "–261"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "130",
+        "101",
+        "110",
+        "107",
+        "134"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has never turned into cash:",
+       "text": "₹244 Cr of profit over FY22-26 against –₹309 Cr of operating cash flow, funded by debt, the IPO and now a rights issue.",
+       "src": null
+      },
+      {
+       "lead": "Accounting choice matters:",
+       "text": "under FIFO, FY26 PAT would have been ₹193 Cr instead of ₹140 Cr; the deferred gain flowed into Q1 FY27 (~2-2.5 points of margin).",
+       "src": "AR p.125"
+      },
+      {
+       "lead": "Leverage fell after the IPO:",
+       "text": "debt/equity 0.36x at March 2026 (from 1.8x), 0.5x by June; management is comfortable up to 1x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 23%,",
+       "text": "on ~₹506 Cr of capital added FY24-26, but helped by gold-price gains.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Marol plant starts in about a month",
+        "May 26",
+        "Started June 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Jaipur plant by September-October",
+        "May 26",
+        "Now mid-November to December",
+        {
+         "text": "Delayed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Volume growth 30-40% in FY27",
+        "May 26",
+        "Q1 FY27 +61%",
+        {
+         "text": "Ahead so far",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Value growth 60-70% in FY27",
+        "May 26",
+        "Trimmed to 50-60% in August despite Q1 +145%",
+        {
+         "text": "Trimmed",
+         "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Core PAT margin 3.5-4%",
+        "May 26",
+        "Q1 FY27 7% including inventory gains",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Exports from ~10% to ~20% via Dubai",
+        "May 26",
+        "4% of Q1 revenue; Dubai awaiting RBI approval",
+        {
+         "text": "Behind",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Jagawat and Jain families) hold 70.4%, down from 74.9% after a stake sale; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions rose to 4.6%; domestic 1.8%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Auditors flagged inventory existence and valuation, including the FIFO-to-WAC change, and pending tax litigation as key audit matters.",
+       "src": "AR p.75"
+      },
+      {
+       "lead": "",
+       "text": "MD and whole-time director paid ₹1.2 Cr each (49x median); several family members on the payroll.",
+       "src": "AR p.45"
+      },
+      {
+       "lead": "",
+       "text": "No trading with group company Utssav CZ in FY26; promoter loans to the company were repaid.",
+       "src": "AR p.131"
+      },
+      {
+       "lead": "",
+       "text": "Disputed tax and GST demands ~₹3 Cr.",
+       "src": "AR p.125"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Shanti Gold International",
+        "2,019",
+        "10%",
+        "140",
+        "34%",
+        "13.9x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Sky Gold & Diamonds",
+        "6,295",
+        "7%",
+        "282",
+        "27%",
+        "37.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "RBZ Jewellers",
+        "636",
+        "15%",
+        "55",
+        "22%",
+        "13.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Motisons Jewellers (retail)",
+        "490",
+        "18%",
+        "64",
+        "18%",
+        "29.8x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Long relationships:",
+       "text": "15-20 years with key retailers; 400+ customers, top customer ~7%.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "Design speed and range",
+       "text": "in CZ-studded bridal jewellery, now widening to plain, Turkish and mangalsutra lines.",
+       "src": "Aug call p.4"
+      },
+      {
+       "lead": "Organised retailers outsourcing",
+       "text": "manufacturing to scaled, reliable partners.",
+       "src": "May call p.3"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Thin core margins",
+       "text": "(3.5-4% PAT) leave little room for error; gold-price falls hit inventory.",
+       "src": "May call p.15"
+      },
+      {
+       "lead": "Working-capital heavy:",
+       "text": "growth needs gold, so needs capital, so dilutes or borrows.",
+       "src": "Aug call p.11"
+      },
+      {
+       "lead": "Not yet a supplier to Titan;",
+       "text": "large retailers can also make in-house.",
+       "src": "May call p.12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Gold price fall erodes inventory value",
+        "Financial",
+        "Partly hedged again via gold metal loans"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margins revert to the 3.5-4% core",
+        "Financial",
+        "Guided by management"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Further equity dilution to fund gold",
+        "Financial",
+        "₹100 Cr rights issue opened Aug 2026"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New plants fill slowly",
+        "Operational",
+        "Jaipur delayed to December"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹3,460 Cr",
+       "sub": "FY28 market cap · about +34%",
+       "text": "Volumes keep growing ~35% a year: ~₹4,800 Cr revenue in FY28 at a 4.5% PAT margin (₹216 Cr), valued at 16x."
+      },
+      {
+       "name": "Base",
+       "value": "₹2,280 Cr",
+       "sub": "FY28 market cap · about –12%",
+       "text": "Guidance met then 30%: ~₹4,070 Cr revenue at the 4% core margin (₹163 Cr), valued at 14x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹990 Cr",
+       "sub": "FY28 market cap · about –62%",
+       "text": "Gold falls and volumes slow: ~₹3,300 Cr at a 3% margin (₹99 Cr), valued at 10x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "13.9x",
+       "label": "P/E, trailing (Sky Gold 38x)"
+      },
+      {
+       "value": "~26x",
+       "label": "P/E on 4% core margin of trailing revenue"
+      },
+      {
+       "value": "4.3x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~11x",
+       "label": "EV / trailing EBITDA"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Shanti Gold is growing fast and adding capacity in a market that is shifting to organised retail. But the low headline P/E flatters it: last year's profit leaned on gold-price gains, the business has never generated operating cash, and growth requires repeated capital raises. Value it on the 4% core margin, not the reported one.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Volume growth vs 30-40% guidance",
+  "EBITDA margin vs 7.5-8% once inventory gains end",
+  "Rights issue, debt/equity and operating cash flow",
+  "Jaipur plant by December",
+  "Export ramp-up through Dubai"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 (22 May 2026) and Q1 FY27 (14 Aug 2026) concall transcripts and presentations",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

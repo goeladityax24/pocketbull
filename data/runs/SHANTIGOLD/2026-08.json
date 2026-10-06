@@ -1,0 +1,252 @@
+{
+  "symbol": "SHANTIGOLD",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0a0dbca-5780-4e79-9674-998f5ad9af9e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f359160-d86a-4505-8a0b-210e309d0478.pdf",
+    "recordingUrl": "https://shantigold.in/wp-content/uploads/2026/08/10046619.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:01:59.379Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-14",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth 50-60% (value)",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 60,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Also said 'sticking to the guidance of INR3,500 crores' (p.8), which would be ~73% growth; may revise at Q3",
+        "quote": "And the top line, we stick to our guidance of around 50% to 60% growth this year.",
+        "page": 8,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "50% to 60% growth this year",
+        "revises": "60-70% value growth (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Volume growth 30-40%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 volume +61%",
+        "quote": "volume will remain largely in the 30% to 40% range and the value will remain in the 50% to 60% range as compared to last year.",
+        "page": 8,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "30% to 40% range",
+        "revises": "30-40% volume growth (May 2026)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 7.5-8%",
+        "kind": "margin_pct",
+        "low": 7.5,
+        "high": 8,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1's 10% included ~2-2.5 points of unrealised inventory gains released after the FIFO-to-WAC change",
+        "quote": "so we expect the margin should be around 7.5% to 8% EBITDA this year.",
+        "page": 8,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "7.5% to 8% EBITDA",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin ~4%",
+        "kind": "margin_pct",
+        "low": 4,
+        "high": 4,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Around 4% operating margin. PAT.",
+        "page": 6,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "Around 4% operating margin",
+        "revises": "Core PAT margin 3.5-4% (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Jaipur plant by mid-November or December",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So capex is around INR47 crores what we have allotted for Jaipur facility, and it should be operational around November, mid-November or December, because the factory work is still going on.",
+        "page": 12,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "mid-November or December",
+        "revises": "Jaipur by September-October (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Debt/equity below 1x",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "0.50x at June 2026; ₹100 Cr rights issue opened 14 August",
+        "quote": "So there will be debt -- there will be a mix of both debt, equity, so overall the debt equity should not be more than 1x of the proportion.",
+        "page": 15,
+        "speaker": "Management (CMD/CFO)",
+        "confidence": "high",
+        "keyword": "not be more than 1x",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 145% to ₹716 Cr on 61% higher volumes, with EBITDA of ₹71 Cr (10%) and PAT of ₹50 Cr; about 2-2.5 points of the margin came from inventory gains released after the change to weighted-average costing. Management kept FY27 guidance at 30-40% volume growth but trimmed value growth to 50-60% (while also citing ₹3,500 Cr), and guided a 7.5-8% EBITDA and ~4% PAT margin. The Marol plant started in June, Jaipur slipped to November-December, and a ₹100 Cr rights issue opened a year after the IPO.",
+      "what_changed": [
+        {
+          "change": "cut",
+          "text": "Value growth guidance to 50-60% (from 60-70%)",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "EBITDA margin guidance 7.5-8%",
+          "page": 8
+        },
+        {
+          "change": "delayed",
+          "text": "Jaipur plant to mid-November or December (from September-October)",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "₹100 Cr rights issue (46.4 lakh shares) for gold and working capital",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Resumed gold metal loans for hedging",
+          "page": 12
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So sky is the limit.",
+        "page": 20
+      },
+      "analyst_questions": [
+        {
+          "topic": "Is the 10% EBITDA margin sustainable?",
+          "answer": "No: ~2-2.5 points were inventory gains; expect 7.5-8%.",
+          "page": 8
+        },
+        {
+          "topic": "Why a rights issue a year after the IPO?",
+          "answer": "To fund gold inventory and working capital for growth; debt/equity to stay below 1x.",
+          "page": 18
+        },
+        {
+          "topic": "Negative operating cash flow",
+          "answer": "Business model: keeps ready stock rather than working order-to-order.",
+          "page": 18
+        },
+        {
+          "topic": "Group company Utssav CZ",
+          "answer": "Separate listed B2B jeweller with a different product line and management.",
+          "page": 18
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Equity raise a year after the IPO despite ₹244 Cr of trailing profit.",
+          "page": 18
+        },
+        {
+          "text": "Reported margins inflated by inventory gains after an accounting change.",
+          "page": 8
+        },
+        {
+          "text": "Operating cash flow negative for five years running.",
+          "page": 18
+        },
+        {
+          "text": "Related listed company (Utssav CZ) in a similar business.",
+          "page": 18
+        },
+        {
+          "text": "Exports only 4% of revenue despite the Dubai plan.",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Q2 volume growth vs 30-40%",
+        "EBITDA margin vs 7.5-8% once inventory gains end",
+        "Rights issue completion and debt/equity",
+        "Jaipur start by December",
+        "Gold price moves and hedging"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CZ-studded and designer 22/18-carat gold jewellery, plain gold, Turkish jewellery and mangalsutras",
+        "customers": "Organised jewellery retailers across India, newly in the North; small exports",
+        "revenue_mix": "Q1 FY27: studded/designer ~75%, plain ~25%; exports ~4%",
+        "demand_drivers": "Retailers outsourcing manufacturing, wedding demand, new designs, gold prices"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0a0dbca-5780-4e79-9674-998f5ad9af9e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f359160-d86a-4505-8a0b-210e309d0478.pdf",
+    "transcriptPages": 22,
+    "transcriptHasText": true
+  }
+}
