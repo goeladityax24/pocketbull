@@ -1,0 +1,358 @@
+{
+  "symbol": "KRN",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da91a495-e4aa-44f6-acc9-eb65e2975e49.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b32fe7d-a237-4b81-a9df-3210c2bfa6c1.pdf",
+    "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/05/KRN-Heat-Exchanger-and-Refrigeration-Limited-Q4-FY26-Earnings-Concall-Audio-Recording.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T12:50:59.233Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-15",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "New plant utilisation ~50% in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Plant II (KRN HVAC) is 6x the old plant; presentation puts Plant II peak revenue at ₹1,800-2,400 Cr and FY27 utilisation at ~50%. Old plant (~₹450 Cr) already full.",
+        "quote": "So, this year our old facility is fully utilized and new facility this year we are able to achieve 50% and next year 80%.",
+        "page": 11,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "new facility this year",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New plant utilisation ~80% in FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Presentation: combined peak revenue ₹2,250-2,850 Cr at full ramp",
+        "quote": "So, this year our old facility is fully utilized and new facility this year we are able to achieve 50% and next year 80%.",
+        "page": 11,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "next year 80%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports to roughly double from ~₹100 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 exports about ₹100 Cr; export order book ₹120 Cr+ at the time of the call",
+        "quote": "this year we are planning to achieve almost double compared to last year, including like all geographies, especially North America, Europe and UAE.",
+        "page": 6,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "almost double",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Bus AC: at least 15% market share",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Bus AC",
+        "condition": "Bus AC revenue ~₹10 Cr in FY26; presentation targets ~₹160 Cr in FY27",
+        "quote": "And this year, whatever is the market size, so we are expecting at least 15% market share.",
+        "page": 6,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "at least 15% market share",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margins to rise slightly",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From PLI (5% on heat-exchanger production), RIPS state incentive (~1.56% of new-plant top line for 10 years), more exports and solar; offset by higher depreciation and overheads",
+        "quote": "So, if I club all these things, so of course, we can be able to slightly increase.",
+        "page": 11,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "slightly increase",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Balancing capex ₹30-40 Cr",
+        "kind": "absolute",
+        "low": 30,
+        "high": 40,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "next two years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Line balancing on the existing facility; the 6x plant itself is complete",
+        "quote": "So, still like paper is not in front of me, but roughly you can say I think maybe Rs.30 crores to Rs.40 crores will be there.",
+        "page": 14,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Rs.30 crores to Rs.40",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Inventory under control within three quarters",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Inventory days 242 at March 2026 (UAE order stuck by the war, BIS stocking, new product lines)",
+        "quote": "Of course, we feel inventory is quite high but in the coming quarters or maybe maximum from now to the three quarters you can able to see it under control.",
+        "page": 16,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "three quarters",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Record revenue every quarter for eight quarters",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next eight quarters",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Yes, even I can say next eight quarters will be highest ever.",
+        "page": 15,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "next eight quarters",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Microchannel heat exchangers in portfolio",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "end of 2026 or early 2027",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we are already working on micro-channel and by the end of this year or early next year, we will have this product in our portfolio.",
+        "page": 5,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "micro-channel",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Railway HVAC revenue from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Railway HVAC",
+        "condition": null,
+        "quote": "So, this financial year, I think we will not have much expectation from this business, but next year for sure we will have some numbers.",
+        "page": 12,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "next year for sure",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Vertiv supplies to start",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "June 2026",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Vertiv QMS audit passed; drawings and proto approval pending",
+        "quote": "So, in this coming month I think it will start.",
+        "page": 17,
+        "speaker": "Santosh Kumar Yadav (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "coming month",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue rose 40% to ₹600 Cr and PAT 45% to ₹76 Cr, as the new Neemrana plant (6x the old one) began contributing; the old plant is full and the new one ran at only ~15% utilisation. Management expects the new plant at ~50% utilisation in FY27 and ~80% in FY28 (the presentation puts combined peak revenue at ₹2,250-2,850 Cr), exports to double from ~₹100 Cr, and Bus AC to take 15% market share. Inventory tripled to 242 days and operating cash flow was –₹114 Cr; the board approved a fund-raise of up to ₹500 Cr, mainly for working capital.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "New plant utilisation roadmap: ~50% in FY27, ~80% in FY28",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "Exports to roughly double to ~₹200 Cr in FY27",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Entered Bus AC (Sphere acquisition); targeting 15% market share",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Enabling resolution to raise up to ₹500 Cr (QIP), mainly for working capital",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Approved for railways bar-and-plate heat exchangers; L1 in three tenders",
+          "page": 12
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Yes, even I can say next eight quarters will be highest ever.",
+        "page": 15
+      },
+      "analyst_questions": [
+        {
+          "topic": "Inventory tripled, receivables up",
+          "answer": "UAE order stuck by the war (₹15-20 Cr), ₹8 Cr shipped but not billed, BIS stock-up on inner-groove tube, new product lines; should be under control within three quarters.",
+          "page": 16
+        },
+        {
+          "topic": "Why raise equity after an IPO?",
+          "answer": "IPO money and more went into the new plant; working capital is now short. Purpose 'not concluded'.",
+          "page": 14
+        },
+        {
+          "topic": "Slow new-plant ramp in Q4",
+          "answer": "Plant fully commissioned only in March 2026; customer approvals for eight new products now done.",
+          "page": 15
+        },
+        {
+          "topic": "Raw-material pass-through",
+          "answer": "Copper, aluminium LME and USD/INR passed through quarterly, with a one-quarter lag.",
+          "page": 10
+        },
+        {
+          "topic": "Data-centre share",
+          "answer": "~16% of FY26 revenue, 18.7% in Q4; Schneider Electric the largest DC customer; Vertiv approval done.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Operating cash flow –₹114 Cr in FY26; inventory 242 days, debtor days 106.",
+          "page": 9
+        },
+        {
+          "text": "Equity raise of up to ₹500 Cr soon after the IPO, with the purpose 'still not concluded'.",
+          "page": 7
+        },
+        {
+          "text": "Only ~5% of revenue is from products other than fin-and-tube heat exchangers.",
+          "page": 12
+        },
+        {
+          "text": "Several answers vague ('number I cannot disclose', data 'not prepared').",
+          "page": 12
+        }
+      ],
+      "watch_next": [
+        "Quarterly revenue from the new plant (KRN HVAC) and its utilisation",
+        "Exports on track for ~₹200 Cr",
+        "Inventory and receivable days",
+        "Size and use of the QIP",
+        "PLI and RIPS incentives booked"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Fin-and-tube heat exchangers (95% of revenue) for HVAC&R, plus new lines: bar-and-plate, refrigeration condensers and evaporators, dry coolers, ammonia evaporators and Bus AC systems",
+        "customers": "Commercial and residential HVAC OEMs (Daikin-type majors), data-centre cooling makers such as Schneider Electric and soon Vertiv, refrigeration OEMs, Indian Railways, export customers in UAE, US and Europe",
+        "revenue_mix": "FY26: domestic 83%, exports 17% (UAE 38%, USA 31% of exports); data centres ~16%",
+        "demand_drivers": "Data-centre and commercial HVAC build-out, import substitution, Bus AC and railway HVAC, export wins in North America and Europe"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da91a495-e4aa-44f6-acc9-eb65e2975e49.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b32fe7d-a237-4b81-a9df-3210c2bfa6c1.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}
