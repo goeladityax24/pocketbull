@@ -1,0 +1,290 @@
+{
+  "symbol": "SHREEREF",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e03070fc-2650-4efd-b33d-574e52a0395b.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6851ba0f-4e6d-43c1-b2bf-f903fd1c8997.pdf",
+    "recordingUrl": "https://www.youtube.com/watch?v=aVKm2O06q5U"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T13:11:25.002Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-05-26",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "~40% growth a year for 3-5 years",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "FY27 guidance excludes data centres (p.23); multi-year ambition",
+        "quote": "We are still saying that we will continue to grow 40% CAGR rate for three to five years easily without much of an issue.",
+        "page": 8,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "40% CAGR rate",
+        "revises": "40-50% a year for 4-5 years (Nov 2025)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 20-24%",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 24,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Includes some hit from metal inflation on fixed-price orders",
+        "quote": "So, for next going forward, we expect that our EBITDA margin will remain somewhere between 20% to 24%.",
+        "page": 14,
+        "speaker": "Manoj Kothale (CFO)",
+        "confidence": "high",
+        "keyword": "20% to 24%",
+        "revises": "20-22% (Nov 2025)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Spares and service to 15-20% of revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "going forward",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "7% in FY26 vs ~30% in FY25",
+        "quote": "Going forward, we are continuously working on it to increase our spares and service revenue to 15% to 20%.",
+        "page": 20,
+        "speaker": "Manoj Kothale (CFO)",
+        "confidence": "high",
+        "keyword": "15% to 20%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "₹1,000 Cr revenue in five years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 5 years (FY30-31)",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Earlier deck: ₹1,000 Cr revenue and ₹120-130 Cr PAT by FY30-31",
+        "quote": "INR1,000 crore is the ladder which we are here in next 5 years and it will happen, sir.",
+        "page": 24,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "INR1,000 crore",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre reference installation in FY27, revenue from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Data-centre cooling",
+        "condition": null,
+        "quote": "That is our goal is to create a reference installation in FY27. And we expect a major revenue coming in from a data centre in FY28.",
+        "page": 12,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "reference installation in FY27",
+        "revises": "Major data-centre business from FY28 (Nov 2025)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "New Hanbarwadi plant running from June",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Phase 1 capex ₹25 Cr; leased unit to close",
+        "quote": "Most of the CapEx has been done and the plant will be up and running by June.",
+        "page": 16,
+        "speaker": "Manoj Kothale (CFO)",
+        "confidence": "high",
+        "keyword": "up and running by June",
+        "revises": "50,000 sq ft plant from start of FY27 (Nov 2025)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Existing plants support ~₹400 Cr revenue; no major capex for two years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next couple of years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'we don't expect a major CapEx involvement for the next couple of years at least'",
+        "quote": "We are still seeing up to INR400 crore kind of revenue we can generate out of existing infrastructure.",
+        "page": 12,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "INR400 crore",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "FY27 less skewed to H2",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Going forward in FY27, we see H1 and H2 will not be as skewed as it was in FY26.",
+        "page": 13,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "not be as skewed",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H2 FY26 revenue doubled to ₹103 Cr with a 26% EBITDA margin, taking FY26 to ₹153 Cr (+55%), a 22% EBITDA margin and ₹21 Cr PAT (14%), in line with or above guidance; working capital fell from 570 to 370 days after the IPO. Management guides ~40% annual growth for three to five years (FY27 excluding data centres), a 20-24% EBITDA margin, ₹1,000 Cr revenue in five years, and spares rising back to 15-20% of revenue; the order book is ₹270 Cr (1.8x revenue) with 64% share of naval HVAC. The new Hanbarwadi plant starts in June, and a first data-centre reference installation is targeted in FY27.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "~40% growth a year for 3-5 years (Nov: 40-50%)",
+          "page": 8
+        },
+        {
+          "change": "raised",
+          "text": "EBITDA margin 20-24% (from 20-22%)",
+          "page": 14
+        },
+        {
+          "change": "reiterated",
+          "text": "₹1,000 Cr revenue in five years",
+          "page": 24
+        },
+        {
+          "change": "new",
+          "text": "Authorised service partner for Danfoss Turbocor oil-free compressors",
+          "page": 18
+        },
+        {
+          "change": "new",
+          "text": "Working capital down to 370 days from 570",
+          "page": 8
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So, as a management of this company, we definitely are standing by our word.",
+        "page": 24
+      },
+      "analyst_questions": [
+        {
+          "topic": "H1/H2 skew",
+          "answer": "FY27 less skewed, but shipyard delivery schedules still make H2 bigger.",
+          "page": 13
+        },
+        {
+          "topic": "Other current assets up 6x",
+          "answer": "Supplier advances and GST credit (18% input vs 5% output on warships); refund expected in H1.",
+          "page": 20
+        },
+        {
+          "topic": "TAM",
+          "answer": "~₹2,500 Cr naval HVAC over two years from ₹2.3-2.4 lakh Cr of approvals; ~₹500 Cr merchant marine.",
+          "page": 6
+        },
+        {
+          "topic": "Funding growth",
+          "answer": "Working capital from internal accruals and banks; balance sheet not leveraged.",
+          "page": 24
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Working capital still ~370 days; receivables ~250 days.",
+          "page": 9
+        },
+        {
+          "text": "Fixed-price contracts; unprecedented metal inflation will dent margins a little.",
+          "page": 21
+        },
+        {
+          "text": "Lost some new-build tenders; growth relies on Navy ordering pace.",
+          "page": 20
+        },
+        {
+          "text": "Half-yearly reporting only; numbers swing sharply between halves.",
+          "page": 12
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue (less H2-skewed than FY26)",
+        "EBITDA margin within 20-24%",
+        "Spares share of revenue",
+        "Hanbarwadi plant ramp-up",
+        "First data-centre order"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Naval AC plants, refrigeration plants, HVAC systems and control panels; marinised split ACs; test rooms and calorimeters",
+        "customers": "Indian Navy shipyards and retrofit programmes; merchant shipbuilders; data-centre operators via Smardt; Danfoss compressor users",
+        "revenue_mix": "FY26: equipment for new builds and retrofits ~93%, spares and service ~7%",
+        "demand_drivers": "Navy growing from ~150 to ~230 ships, retrofits, merchant shipbuilding push, data-centre cooling"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e03070fc-2650-4efd-b33d-574e52a0395b.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6851ba0f-4e6d-43c1-b2bf-f903fd1c8997.pdf",
+    "transcriptPages": 27,
+    "transcriptHasText": true
+  }
+}

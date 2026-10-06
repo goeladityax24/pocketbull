@@ -1,0 +1,311 @@
+{
+  "symbol": "YASHO",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bd06ac0-5757-451a-93a4-ef8b42f196e7.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a40a6029-52fb-4588-af78-d69b034f543b.pdf",
+    "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/10044957.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:00:00.369Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-03",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY28 revenue above ₹1,600 Cr",
+        "kind": "absolute",
+        "low": 1600,
+        "high": 1600,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Excludes the two new Pakhajan buildings (2.5x asset turn on ₹250 Cr capex)",
+        "quote": "our company has revised our FY28 revenue target to more than Rs. 1,600 crores.",
+        "page": 3,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "more than Rs. 1,600 crores",
+        "revises": "₹1,500 Cr in FY28 (May 2026)"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "30-40% annual growth for the next few years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next few years",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "Based on current market conditions, customer inquiries and commitments, we are targeting 30% to 40% annual revenue growth over the next few years.",
+        "page": 3,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "30% to 40% annual revenue growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Sustain Q1's ~24% EBITDA margin",
+        "kind": "margin_pct",
+        "low": 24,
+        "high": 24,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 FY27 margin 24.2% on utilisation (65%), product mix and customer commitments",
+        "quote": "I think we should be able to maintain this margin for FY27. We will try our best to maintain this margin.",
+        "page": 18,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "maintain this margin for FY27",
+        "revises": "EBITDA margin ~20% (May 2026)"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex raised to ₹250 Cr",
+        "kind": "absolute",
+        "low": 250,
+        "high": 250,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Two new Pakhajan buildings; ~₹100 Cr of new borrowing in FY27",
+        "quote": "Accordingly, we have decided to enhance our planned capital expenditure for FY27 from Rs. 125 crores to Rs. 250 crores.",
+        "page": 3,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "from Rs. 125 crores to Rs. 250",
+        "revises": "₹125 Cr capex (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "New buildings: phase 1 in Q1 FY28, phase 2 in Q4 FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Management confirmed phase 1 (~₹100 Cr) in Q1 FY28 and phase 2 (~₹150 Cr) in Q4 FY28",
+        "quote": "Part of it will be FY28 and part will be somewhere in the last quarter of FY28. So, it will take a time because construction of building and then the machinery erection and stabilization will take at least from here minimum 15 months.",
+        "page": 7,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "last quarter of FY28",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Utilisation ~75% in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~65% in Q1",
+        "quote": "FY27, we are expecting to ramp up to 75% utilization.",
+        "page": 9,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "ramp up to 75% utilization",
+        "revises": "Over 75% utilisation (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "MNC contract commercial in Q1 FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We also continue to make good progress on our long-term agreement, and the project remains on track with commercialization expected in Q1 FY28, in line with the planned execution schedule.",
+        "page": 4,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "commercialization expected in Q1 FY28",
+        "revises": "Revenue from FY28 (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports 70-75% of revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY27-FY28",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We want to be on a grounded and we don't expect anything to go beyond 70%-75% exports.",
+        "page": 7,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "70%-75% exports",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Borrow ~₹100 Cr to fund capex",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "To fund this expansion, the company expects to raise approximately Rs. 100 crores through borrowings during FY27.",
+        "page": 5,
+        "speaker": "Chirag Shah (CFO)",
+        "confidence": "high",
+        "keyword": "Rs. 100 crores through borrowings",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue jumped 56% to a record ₹308 Cr (volumes +42%), the EBITDA margin rose to 24.2% from 17% and PAT was ₹36 Cr, as new industrial chemicals with better margins ramped up and utilisation reached ~65%. Management raised the FY28 revenue target to over ₹1,600 Cr, targets 30-40% annual growth for the next few years, expects to hold Q1's margin through FY27, and doubled FY27 capex to ₹250 Cr for two new buildings (part funded by ~₹100 Cr of new debt). Net debt/EBITDA fell to 1.86x and working capital to 143 days; credit ratings were upgraded to A-.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY28 revenue target to over ₹1,600 Cr (from ₹1,500 Cr)",
+          "page": 3
+        },
+        {
+          "change": "raised",
+          "text": "EBITDA margin: hold Q1's ~24% (from ~20%)",
+          "page": 18
+        },
+        {
+          "change": "raised",
+          "text": "FY27 capex doubled to ₹250 Cr; ~₹100 Cr new borrowing",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "30-40% annual revenue growth over the next few years",
+          "page": 3
+        },
+        {
+          "change": "reiterated",
+          "text": "MNC contract commercial in Q1 FY28",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Number two, we do have some commitment from our marquee customers, which is helping us to confidence to give the guidance that we will be able to maintain in the coming quarters also the similar EBITDA margins.",
+        "page": 5
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why is a 24% margin sustainable?",
+          "answer": "Higher utilisation (50% to 65%), new products with ~10-12 points better margins, customer commitments; not inventory gains.",
+          "page": 7
+        },
+        {
+          "topic": "Pricing",
+          "answer": "Formula-based quarterly pricing keeps EBITDA percentage, not per-kg, constant.",
+          "page": 10
+        },
+        {
+          "topic": "New capex payback",
+          "answer": "~2.5x asset turn; 60-65% of new capacity already committed by customers.",
+          "page": 18
+        },
+        {
+          "topic": "Supply chain",
+          "answer": "Genuine raw-material shortages and container booking delays; inventory fell partly for that reason.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Margin jump to 24% from a historic 17-18% after a single quarter, with price increases of 10-15% in April.",
+          "page": 7
+        },
+        {
+          "text": "Lower inventory partly because raw materials did not arrive, not only better management.",
+          "page": 17
+        },
+        {
+          "text": "New debt of ~₹100 Cr soon after deleveraging; capex doubled.",
+          "page": 5
+        },
+        {
+          "text": "Management declines to give plant-level utilisation or capacity.",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Q2 EBITDA margin vs ~24%",
+        "Revenue growth vs 30-40% target",
+        "Utilisation toward 75%",
+        "Net debt as capex rises",
+        "Raw-material and shipping disruptions"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Lubricant additives, rubber chemicals and other industrial chemicals (89% of Q1 revenue), plus food and aroma chemicals",
+        "customers": "Global lubricant and rubber-chemical majors and MNC formulators; US and European subsidiaries; new customers in Asia and Africa",
+        "revenue_mix": "Q1 FY27: industrial chemicals 89%; exports 69%; contracted pricing now >50% of revenue",
+        "demand_drivers": "MNC supplier diversification, US demand after tariff cuts, new R&D-led molecules"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bd06ac0-5757-451a-93a4-ef8b42f196e7.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a40a6029-52fb-4588-af78-d69b034f543b.pdf",
+    "transcriptPages": 20,
+    "transcriptHasText": true
+  }
+}

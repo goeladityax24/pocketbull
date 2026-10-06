@@ -1,0 +1,290 @@
+{
+  "symbol": "SUSAN",
+  "name": "Susan Electricals India Ltd",
+  "screenerUrl": "https://www.screener.in/company/544793/",
+  "basis": "standalone",
+  "companyId": "1286004",
+  "warehouseId": "156654969",
+  "ratios": {
+    "market cap": 612,
+    "current price": 301,
+    "high": 367,
+    "low": 181,
+    "stock p/e": 24.4,
+    "book value": null,
+    "dividend yield": 0,
+    "roce": 37,
+    "roe": 64.6,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        25.16,
+        153.75,
+        115.61,
+        95.36
+      ],
+      "expenses": [
+        24.11,
+        137.82,
+        99.45,
+        83.99
+      ],
+      "operating_profit": [
+        1.05,
+        15.93,
+        16.16,
+        11.37
+      ],
+      "opm_pct": [
+        4.17,
+        10.36,
+        13.98,
+        11.92
+      ],
+      "other_income": [
+        0.01,
+        0.37,
+        0.24,
+        0.06
+      ],
+      "interest": [
+        1.25,
+        4.49,
+        2.06,
+        2.33
+      ],
+      "depreciation": [
+        0.25,
+        1.07,
+        0.45,
+        0.51
+      ],
+      "pbt": [
+        -0.44,
+        10.74,
+        13.89,
+        8.59
+      ],
+      "tax_pct": [
+        -6.82,
+        26.16,
+        25.63,
+        25.49
+      ],
+      "net_profit": [
+        -0.42,
+        7.93,
+        10.32,
+        6.39
+      ],
+      "eps": [
+        -0.84,
+        5.09,
+        6.62,
+        3.14
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        49,
+        55,
+        78,
+        103,
+        135,
+        269
+      ],
+      "expenses": [
+        48,
+        54,
+        77,
+        99,
+        123,
+        237
+      ],
+      "operating_profit": [
+        1,
+        1,
+        1,
+        4,
+        12,
+        32
+      ],
+      "opm_pct": [
+        1.8,
+        2.2,
+        1.7,
+        3.5,
+        9,
+        12
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "interest": [
+        1,
+        1,
+        1,
+        2,
+        4,
+        7
+      ],
+      "depreciation": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "pbt": [
+        0,
+        0,
+        1,
+        1,
+        8,
+        25
+      ],
+      "tax_pct": [
+        -33,
+        11,
+        -3,
+        31,
+        28,
+        26
+      ],
+      "net_profit": [
+        0,
+        0,
+        1,
+        1,
+        6,
+        18
+      ],
+      "eps": [
+        1.07,
+        2.54,
+        3.19,
+        2.55,
+        11.25,
+        11.71
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7368078d-c2ba-41e2-ae5a-edf27464e03d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09-b",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=587aa8e9-0422-42c8-b53e-bbec8ba76b57.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82c770c5-64c0-4cb1-b682-70501515e6a0.pdf",
+      "recordingUrl": "https://seil.net.in/investor/audio/q1-fy27-earnings-call.m4a"
+    },
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcfeb1ae-78d4-4ec6-9710-1fd477308201.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a5747ec-3604-4bbd-ac5b-8b28403056a5.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:17.504Z"
+}

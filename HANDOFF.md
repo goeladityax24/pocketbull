@@ -1,6 +1,6 @@
 # PocketBull handoff
 
-Read this first in any new session. Last updated 4 Oct 2026 (evening).
+Read this first in any new session. Last updated 6 Oct 2026.
 
 ## What PocketBull is
 
@@ -48,13 +48,13 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 - `src/lib/app/`: data access (`repo.ts`, Supabase or demo mode on `data/` files when no keys), tracker view (`view.ts`, tested), admin check (`auth.ts`), server actions in `src/app/actions.ts`.
 - Data flow: repo files are the source of truth. `npm run snapshot` saves Screener numbers to `data/snapshots/`; `npm run sync-db` copies snapshots and runs into Supabase (runs already there are left alone, so edits and tags survive).
 - Supabase project `tacqwjzpuigclgferpye` (Mumbai) has `0001_init.sql`, `0002_app.sql` and `0003_research_notes.sql` applied.
-- Companies (15): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations and conference notes, no calls), CPPLUS, ACUTAAS, AEROFLEX, EBGNG, STLTECH (plus its Sep 2026 'Lakshya' investor meet), HFCL, NETWEB and E2E (both standalone basis). Each has two analysed concalls and a six-section insight report in `data/notes/`.
+- Companies (26): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations and conference notes, no calls), CPPLUS, ACUTAAS, AEROFLEX, EBGNG, STLTECH (plus its Sep 2026 'Lakshya' investor meet), HFCL, NETWEB and E2E (both standalone basis). Added 6 Oct: KRN, QPOWER, SANSERA, YASHO, SHANTIGOLD, SOTL (presentations only, no calls held), AFCOM, LTELEVATOR, SHREEREF, SUSAN and VIVIDEL (one presentation only so far; no calls held). SANSERA, YASHO, SHANTIGOLD, SOTL, AFCOM, SUSAN and VIVIDEL are standalone basis. Each has its analysed calls or presentations and a six-section insight report in `data/notes/`.
+- BSE SME companies that Screener knows only by BSE code (AFCOM 544224, LTELEVATOR 544518, SHREEREF 544458, SUSAN 544793) use their BSE symbol in `data/`; snapshot them with `npm run snapshot -- AFCOM --page tmp/AFCOM.html --url https://www.screener.in/company/544224/` so the Screener link keeps working.
 - Env vars: see `.env.example`. Local values in `.env.local` (git-ignored); the same in Vercel (Production and Preview).
 - Local preview: `.claude/launch.json` has `web` (as a visitor) and `web-admin` (port 3001, Admin without a key).
 
 ## Next steps
 
-0. Analyse the 11 companies asked for on 6 Oct (local session, Screener is blocked in the cloud): AFCOM (544224), KRN, LT Elevator (544518), Shree Refrigerations (544458), QPOWER, Susan (544793), VIVIDEL, SANSERA, SHANTIGOLD, SOTL (Savita Oil), YASHO.
 1. Merge the milestone 2 pull request; check the live site on Vercel (unlock `/admin` with `ADMIN_KEY`).
 2. Optional: add `GITHUB_TOKEN` (fine-grained, Issues read/write on the repo) in Vercel so requests open GitHub issues.
 3. Keep Supabase awake: free projects pause after a week idle. Add a scheduled GitHub Action that reads one row every few days.

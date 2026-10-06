@@ -1,0 +1,332 @@
+{
+  "symbol": "SANSERA",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bca74005-e7a1-4d23-8c08-a19fde934a0d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80162d21-8f16-4256-89d2-9ca1a065374d.pdf",
+    "recordingUrl": "https://sansera.in/wp-content/uploads/2026/05/Sansera-Earnings-Call-Audio-recording-Q4FY26.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T12:57:58.409Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-21",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Similar growth trajectory in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "FY26 consolidated revenue grew 16% to ₹3,498 Cr; auto H1 FY27 expected stronger than H2 on base effect",
+        "quote": "Looking ahead, we remain confident of sustaining a similar growth trajectory in the coming year while maintaining healthy profitability.",
+        "page": 4,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "similar growth trajectory",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "ADS revenue ~₹600 Cr",
+        "kind": "absolute",
+        "low": 550,
+        "high": 600,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Aerospace, defence & semiconductor (ADS)",
+        "condition": "Presentation guidance ₹550-600 Cr; FY26 ADS revenue ₹350 Cr incl. scrap",
+        "quote": "And with the execution of this year's current order book, which should be around INR600 crores plus/minus, the thing.",
+        "page": 7,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "around INR600 crores",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "ADS margin towards 25-30% at full utilisation",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as the ADS facility fills",
+        "basis": "segment",
+        "segment": "ADS",
+        "condition": "Analyst cited 25-30%",
+        "quote": "I think it is -- the margin profile should move towards the number that you indicated.",
+        "page": 7,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "margin profile should move",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex similar to FY26 (~₹510 Cr)",
+        "kind": "absolute",
+        "low": 510,
+        "high": 510,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "On the capex front, during FY '26, we incurred a capex of INR5,097 million, and we expect a similar level of investment in FY '27 as well.",
+        "page": 5,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "similar level of investment",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Further ADS capex ~₹250 Cr for the order backlog",
+        "kind": "absolute",
+        "low": 250,
+        "high": 250,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "to FY31",
+        "basis": "segment",
+        "segment": "ADS",
+        "condition": "ADS asset turn ~2x",
+        "quote": "And we have given an indication that we would be incurring another INR250 crores of capex, more or less to clear the current order backlog of INR4,500 crores.",
+        "page": 8,
+        "speaker": "Hari Krishnan (CEO, ADS)",
+        "confidence": "high",
+        "keyword": "another INR250 crores",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "₹8,000-9,000 Cr revenue by end of decade",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by end of decade (~FY31)",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "'could vary by a year or 2'; target mix 60% auto ICE, 40% non-auto plus tech-agnostic/xEV",
+        "quote": "So as we go towards the end of this decade, we already have a visibility of closer to, as you said, about INR8,000 crores, INR8,200 crores on the order book front for the execution.",
+        "page": 6,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "end of this decade",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Energy-storage programme ₹80-100 Cr a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "annual, from FY27",
+        "basis": "segment",
+        "segment": "Energy storage (North American customer)",
+        "condition": null,
+        "quote": "Currently, for this program, it is anywhere between INR80 crores to INR100 crores is the annual revenue that we expect out of this program that has come to us.",
+        "page": 10,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "INR80 crores to INR100",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Nichidai JV facility running by Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~₹50 Cr Sansera contribution this year",
+        "quote": "So we are working on getting this up and running towards the third quarter of this financial year.",
+        "page": 15,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "third quarter",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New ADS building complete July-August",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Revenue from it in Q3-Q4",
+        "quote": "And as we speak -- we expect it -- to complete the construction by July, August.",
+        "page": 7,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "July, August",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Fully machined blisk delivered in ~2 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by July 2026",
+        "basis": "segment",
+        "segment": "ADS (aero-engine)",
+        "condition": null,
+        "quote": "But right now, the focus is to deliver the fully machined blisk in about 2 months' time.",
+        "page": 11,
+        "speaker": "Hari Krishnan (CEO, ADS)",
+        "confidence": "high",
+        "keyword": "fully machined blisk",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue rose 16% to ₹3,498 Cr with EBITDA margin up to 18.1% and PAT up 51% to ₹327 Cr; Q4 was a record at ₹999 Cr with a 19.3% margin. The aerospace, defence and semiconductor (ADS) business grew 155% to ₹316 Cr of product sales and is guided to ~₹550-600 Cr in FY27, backed by a ₹4,460 Cr five-year backlog; management expects a similar growth trajectory overall and ~₹510 Cr of capex again. New orders for the core auto business were soft because international customers held back.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "ADS revenue ~₹550-600 Cr in FY27",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Capex ~₹510 Cr in FY27, similar to FY26; 10 acres bought near Bengaluru airport",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "Energy-storage components for a North American customer (₹80-100 Cr a year)",
+          "page": 10
+        },
+        {
+          "change": "new",
+          "text": "Blisk machining order from a large aero-engine maker",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "Rahul Kale made CEO of the automotive division; three new independent directors",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Looking ahead, we remain confident of sustaining a similar growth trajectory in the coming year while maintaining healthy profitability.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Path to ₹8,000-9,000 Cr",
+          "answer": "Order visibility of ~₹8,000-8,200 Cr by end of decade; non-auto may exceed 20% of the mix.",
+          "page": 6
+        },
+        {
+          "topic": "Working capital",
+          "answer": "ADS build-up pushed operating cash flow to 11% of revenue from 12%; should ease as semicon raw materials are localised.",
+          "page": 16
+        },
+        {
+          "topic": "US exports after tariffs",
+          "answer": "No one-off restocking; export offtake improving but order conversions 1-2 quarters away.",
+          "page": 9
+        },
+        {
+          "topic": "Semicon capacity",
+          "answer": "Customers are booking machining capacity; machine lead times of 7-9 months are the bottleneck.",
+          "page": 12
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "New auto order bookings soft in Q4 as international customers held back.",
+          "page": 4
+        },
+        {
+          "text": "Labour availability and attrition flagged as a key execution challenge.",
+          "page": 16
+        },
+        {
+          "text": "Free cash flow negative as capex stays ~₹500 Cr a year.",
+          "page": 5
+        },
+        {
+          "text": "Large investment in MMRFIC, a long-gestation defence-electronics company (45-50% stake).",
+          "page": 17
+        }
+      ],
+      "watch_next": [
+        "ADS revenue run-rate toward ₹550-600 Cr",
+        "Overall growth vs FY26's 16%",
+        "EBITDA margin vs 18.1%",
+        "New auto order bookings",
+        "Capex and working capital"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Precision-forged and machined engine and chassis parts (crankshafts, connecting rods, rocker arms), xEV and tech-agnostic parts, and machined aerospace, semiconductor-equipment and defence components",
+        "customers": "Bajaj, TVS, Honda, Maruti, Tata Motors, Yamaha, Suzuki, Daimler, Volvo Eicher, global PV OEMs, Boeing/Airbus tier-1s, semiconductor equipment makers",
+        "revenue_mix": "FY26: auto ICE ~70%, tech-agnostic and xEV ~13%, non-auto ~17% (ADS ~10%); India 65%, exports and Sweden 35%",
+        "demand_drivers": "Domestic two-wheeler and PV growth, OEM outsourcing of crankshafts, aerospace build rates, AI-driven semiconductor equipment demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bca74005-e7a1-4d23-8c08-a19fde934a0d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80162d21-8f16-4256-89d2-9ca1a065374d.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

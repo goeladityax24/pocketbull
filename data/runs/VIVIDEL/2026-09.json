@@ -1,0 +1,195 @@
+{
+  "symbol": "VIVIDEL",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": null,
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_05092026151358_Intimation_of_updated_presentation_1.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:18:17.136Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-09-05",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "New Ambernath plant in commercial operation by end-October 2026",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No earnings call held; presentation for a 10 Sep 2026 analyst meet. ~119,800 sq ft facility, 600+ workers",
+        "quote": "COMMERCIAL OPERATIONS EXPECTED : End of October 2026",
+        "page": 14,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "End of October 2026",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capacity roughly triples to 22,500 verticals a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "after Phase I (from late 2026)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Existing plants: Navi Mumbai 94% and Pune 70% utilised in FY26",
+        "quote": "Upon completion of Phase I, annual capacity will increase by 14,300 LV verticals and 700 MV verticals, taking total installed capacity to 22,500 verticals per annum",
+        "page": 18,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "22,500 verticals per annum",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "₹205 Cr executable order book, 2-9 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "2-9 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹205 Cr: data centres ₹98 Cr, metro ₹32 Cr, others ₹75 Cr",
+        "quote": "Executable Order Book data is as on 31 August 2026",
+        "page": 23,
+        "speaker": "Company (investor presentation)",
+        "confidence": "medium",
+        "keyword": "Executable Order Book",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Mechtech (Siemens SIEPAN partner) to start panel manufacturing",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "not dated",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "99% bought for ₹99 lakh from the promoter couple",
+        "quote": "The entity is now planning to expand into manufacturing of electrical panels, including LT/HT panels and customized control panels.",
+        "page": 15,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "expand into manufacturing",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Type-tested data-centre PDUs up to 1,000 kW",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "future growth area",
+        "basis": "segment",
+        "segment": "Data-centre PDUs",
+        "condition": null,
+        "quote": "Upgraded and higher capacity of PDU/RPP panels up to 1000 KW with total type tested ASTA Certification",
+        "page": 5,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "PDU/RPP panels up to 1000 KW",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Vivid held no earnings call; this is from its September 2026 investor presentation, its first since the April 2026 NSE Emerge listing. FY26 revenue rose 29% to ₹200 Cr with EBITDA margin up to 23% and PAT of ₹32 Cr, as data-centre switchboards grew to half of revenue (₹100 Cr, 70% hyperscale projects); H2 FY26 alone was ₹130 Cr at a 25% margin. With the Navi Mumbai plant 94% utilised, a ~120,000 sq ft automated plant at Ambernath should start by end-October 2026 and roughly triple capacity, backed by a ₹205 Cr executable order book.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Ambernath plant to start by end-October 2026, capacity to 22,500 verticals a year",
+          "page": 14
+        },
+        {
+          "change": "new",
+          "text": "Bought 99% of Mechtech Infrasolutions (Siemens SIEPAN partner) from the promoters for ₹99 lakh",
+          "page": 15
+        },
+        {
+          "change": "new",
+          "text": "Executable order book ₹205 Cr at 31 August 2026",
+          "page": 23
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Strong secular growth driven by infrastructure, renewable integration, urbanization and digital transformation",
+        "page": 30
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Half of revenue from data-centre projects, 70% of that hyperscale; average project ₹20-25 Cr.",
+          "page": 22
+        },
+        {
+          "text": "92% of revenue from Maharashtra.",
+          "page": 19
+        },
+        {
+          "text": "Related-party acquisition of the promoters' firm Mechtech.",
+          "page": 15
+        },
+        {
+          "text": "No earnings call; investors get presentations and closed-door meets only.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue and margin (H1 FY26 was ₹71 Cr at 19%)",
+        "Ambernath plant start by end-October",
+        "Execution of the ₹205 Cr order book",
+        "Receivable days (213 in FY26)"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Low- and medium-voltage switchboards and panels (PCC, MCC, VFD, APFC, VCB, RMU), data-centre PDUs and automation systems, mostly on ABB ArTu K designs",
+        "customers": "Data-centre developers (hyperscale, colocation), metro and infrastructure EPCs, industrial plants, renewables; 113 customers in FY26",
+        "revenue_mix": "FY26: data centres 50%, industrial 21%, infrastructure/metro 20%, solar 9%; LV panels 80%, MV 15%",
+        "demand_drivers": "Data-centre build-out in Mumbai, metro and infrastructure projects, grid and renewable investment"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_05092026151358_Intimation_of_updated_presentation_1.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_05092026151358_Intimation_of_updated_presentation_1.pdf",
+    "transcriptPages": 41,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "symbol": "SUSAN",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7368078d-c2ba-41e2-ae5a-edf27464e03d.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:14:47.307Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-09-06",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Sustain multifold growth through FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Presentation for the Alpha Idea SME Stars 2026 investor event; FY26 revenue ₹269 Cr",
+        "quote": "Going forward, supported by strong demand visibility, faster execution capabilities, an improving product mix, and better operating leverage, we expect to sustain our multifold growth trajectory through FY27.",
+        "page": 7,
+        "speaker": "Vishal Jain (Chairman & MD), in the presentation",
+        "confidence": "high",
+        "keyword": "multifold growth trajectory",
+        "revises": "Growth similar to the last 2-3 years (Aug 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capacity +60% from February 2027",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We are making steady progress on our capacity expansion plans, which remain on track for commercial operations from February 2027.",
+        "page": 7,
+        "speaker": "Vishal Jain (Chairman & MD), in the presentation",
+        "confidence": "high",
+        "keyword": "on track for commercial operations",
+        "revises": "Commercial operations from Feb 2027 (Aug 2026)"
+      }
+    ],
+    "insights": {
+      "summary": "Investor presentation for the Alpha Idea SME Stars event (6 September 2026), mostly a restatement of Q1 FY27: revenue ₹95 Cr, EBITDA margin 11.9%, unexecuted order book ₹142 Cr plus a ₹150 Cr pipeline. The chairman now says the company expects to 'sustain our multifold growth trajectory through FY27' and that the 60% capacity expansion remains on track for February 2027. FY26 revenue was ₹269 Cr (2.6x FY24) and PAT ₹18 Cr (24x FY24).",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "Wording moved to 'multifold growth' through FY27",
+          "page": 7
+        },
+        {
+          "change": "reiterated",
+          "text": "Capacity expansion on track for February 2027",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "we expect to sustain our multifold growth trajectory through FY27.",
+        "page": 7
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Deck is mostly images with few numbers in text; no new data beyond Q1.",
+          "page": 4
+        },
+        {
+          "text": "Growth language ('multifold') stronger than on the call a month earlier.",
+          "page": 7
+        }
+      ],
+      "watch_next": [
+        "Q2/H1 FY27 revenue vs 'multifold' growth",
+        "Margins as cables replace winding wires",
+        "Capacity start in February 2027"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Winding wires, conductors and LT/HT/MVCC power cables",
+        "customers": "Power utilities, DISCOMs and EPC contractors",
+        "revenue_mix": "Shifting from winding wires toward cables",
+        "demand_drivers": "Power distribution investment and RDSS"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7368078d-c2ba-41e2-ae5a-edf27464e03d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7368078d-c2ba-41e2-ae5a-edf27464e03d.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

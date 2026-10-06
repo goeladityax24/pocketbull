@@ -1,0 +1,251 @@
+{
+  "symbol": "VIVIDEL",
+  "name": "Vivid Electromech Ltd",
+  "screenerUrl": "https://www.screener.in/company/VIVIDEL/",
+  "basis": "standalone",
+  "companyId": "1285936",
+  "warehouseId": "152857752",
+  "ratios": {
+    "market cap": 1529,
+    "current price": 1720,
+    "high": 1990,
+    "low": 556,
+    "stock p/e": 48.4,
+    "book value": null,
+    "dividend yield": 0,
+    "roce": 58.9,
+    "roe": 54.9,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2026-03-31",
+        "label": "H2 FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        101,
+        71,
+        130
+      ],
+      "expenses": [
+        81,
+        57,
+        98
+      ],
+      "operating_profit": [
+        20,
+        13,
+        32
+      ],
+      "opm_pct": [
+        20,
+        19,
+        24
+      ],
+      "other_income": [
+        0,
+        0,
+        1
+      ],
+      "interest": [
+        0,
+        0,
+        1
+      ],
+      "depreciation": [
+        0,
+        1,
+        1
+      ],
+      "pbt": [
+        20,
+        13,
+        31
+      ],
+      "tax_pct": [
+        22,
+        26,
+        28
+      ],
+      "net_profit": [
+        16,
+        9,
+        22
+      ],
+      "eps": [
+        446.6,
+        13.48,
+        31.64
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        32,
+        59,
+        59,
+        89,
+        155,
+        200
+      ],
+      "expenses": [
+        31,
+        57,
+        57,
+        81,
+        127,
+        155
+      ],
+      "operating_profit": [
+        1,
+        1,
+        2,
+        8,
+        28,
+        45
+      ],
+      "opm_pct": [
+        3.2,
+        2.5,
+        3.4,
+        9,
+        18,
+        23
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "interest": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "depreciation": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "pbt": [
+        0,
+        1,
+        0,
+        6,
+        26,
+        44
+      ],
+      "tax_pct": [
+        -2,
+        28,
+        72,
+        27,
+        26,
+        28
+      ],
+      "net_profit": [
+        0,
+        0,
+        0,
+        4,
+        20,
+        32
+      ],
+      "eps": [
+        20.56,
+        16.7,
+        6,
+        122.22,
+        557.4,
+        45.13
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_05092026151358_Intimation_of_updated_presentation_1.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:18.450Z"
+}

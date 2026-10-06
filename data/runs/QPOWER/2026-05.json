@@ -1,0 +1,332 @@
+{
+  "symbol": "QPOWER",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=809e466a-252f-4978-98a1-869a865f2aa6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=318a4a42-f88a-4732-a393-c35c0cbc3350.pdf",
+    "recordingUrl": "https://qualitypower.com/wp-content/uploads/2026/05/Q4-and-FY2026-Earnings-Call.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T12:54:28.802Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-14",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth 15-20%",
+        "kind": "growth_yoy",
+        "low": 15,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "'Muted' because the new Sangli plant needs ~6 months of customer audits; growth comes mostly from Endoks. Confirmed as growth on p.16 and p.20.",
+        "quote": "The guidance is around 15% and 20%.",
+        "page": 10,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "around 15% and 20%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Growth above 50% in FY28",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "S-curve: FY27 stabilise, FY28 scale as Sangli fills",
+        "quote": "And the next year, I think we should be going north of 50% again.",
+        "page": 16,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "north of 50%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margins: a couple of points' dip in Q1-Q2",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Commodity spike from the West Asia conflict; no price-variation clauses, pass-through with a lag",
+        "quote": "I believe the entire industry has not factored in, but I believe Q1, Q2 can be hit.",
+        "page": 20,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "Q1, Q2 can be hit",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book ₹1,500-1,800 Cr by start of FY28",
+        "kind": "absolute",
+        "low": 1500,
+        "high": 1800,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Order book ₹1,400 Cr+ at March 2026",
+        "quote": "But I think we should be targeting at least INR 1,500 crores to INR 1,800 crores of order book before the start of next year.",
+        "page": 16,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "INR 1,500 crores to INR 1,800",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "BESS / PCS orders US$60-80 Mn this year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Energy storage (Endoks)",
+        "condition": "US$31 Mn already booked; revenue to follow mostly in FY28",
+        "quote": "So, we believe this year we should be targeting anywhere between US$60 and US$80 million in order, and it's a billion- dollar opportunity really to be realistic.",
+        "page": 9,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "US$60 and US$80 million",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Sangli plant trial production July-August 2026",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Peak revenue ~₹1,500 Cr once CTC cable expansion done and insulator supply clears",
+        "quote": "July end, August is what we are guiding in.",
+        "page": 9,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "July end, August",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "1,725 kW PCS inverter launch within two quarters",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Thus, we expect to launch the 1,725 KW PCS inverter within the next two quarters at Endoks, as Mr. Bharanidharan Pandyan just mentioned.",
+        "page": 6,
+        "speaker": "Sanjog Mhatre (CEO)",
+        "confidence": "high",
+        "keyword": "1,725 KW PCS inverter",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "GIS first prototypes July-August 2026",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Mehru (GIS)",
+        "condition": null,
+        "quote": "The GIS product line is progressing well, with the first prototypes expected around July-August 2026.",
+        "page": 6,
+        "speaker": "Sanjog Mhatre (CEO)",
+        "confidence": "high",
+        "keyword": "first prototypes",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Endoks PCS facility at Nigde by December 2026",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "and the new Endoks PCS facility at Nigde targeted for December 2026.",
+        "page": 8,
+        "speaker": "Rajesh Jayaraman (CFO)",
+        "confidence": "high",
+        "keyword": "targeted for December 2026",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Sukrut revenue +70-75% without losses",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Sukrut",
+        "condition": null,
+        "quote": "We are anticipating at least about 70%-75% growth this year without losing money because we are building the team and technology out there.",
+        "page": 22,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "70%-75% growth",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue rose ~157% to ₹1,007 Cr (Mehru and Endoks acquisitions) with a 23.5% EBITDA margin and PAT of ₹185 Cr, beating the ₹800 Cr guidance (raised to ₹900 Cr) set at the start of the year. Q4 margins fell to 19% because of a ₹25.7 Cr non-cash hyperinflation (Ind AS 29) charge at the Turkish subsidiary and labour-code provisions. For FY27 management guided a muted 15-20% growth while the new Sangli plant goes through ~6 months of customer audits, then 50%+ in FY28; the order book is ₹1,400 Cr+ and the board approved an enabling raise of up to US$75 Mn.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 growth 15-20%, then 50%+ in FY28 (S-curve)",
+          "page": 10
+        },
+        {
+          "change": "new",
+          "text": "Energy storage (PCS) push: US$60-80 Mn of orders targeted this year",
+          "page": 9
+        },
+        {
+          "change": "delayed",
+          "text": "Sangli plant trial production moved from June to July-August 2026",
+          "page": 9
+        },
+        {
+          "change": "new",
+          "text": "Enabling resolution to raise up to US$75 Mn; promoters waive dividend and pay rises",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "Second US hyperscaler data-centre order (₹49 Cr)",
+          "page": 9
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We executed the plan, we hit the numbers we said we would hit, the cash came in, the orders shipped",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why only 15-20% growth with a ₹1,400 Cr order book?",
+          "answer": "New plant needs 6 months of audits; main plant gets new ovens only by September; insulators have 18-24 month lead times.",
+          "page": 16
+        },
+        {
+          "topic": "Q4 margin drop",
+          "answer": "₹25.7 Cr Ind AS 29 monetary loss at Endoks plus freight (₹12 Cr) and liquidated damages (₹5 Cr) at Mehru.",
+          "page": 15
+        },
+        {
+          "topic": "Fund-raise with ₹250 Cr cash",
+          "answer": "Enabling only; acquisitions under study are larger than cash in hand; group avoids debt.",
+          "page": 18
+        },
+        {
+          "topic": "Segment split",
+          "answer": "FY26 revenue: Quality Power ₹246 Cr (EBIT 33%), Mehru ₹318 Cr (15%), Endoks ₹468 Cr (23%, ~29-30% before Ind AS 29).",
+          "page": 19
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Profit swings with Turkish hyperinflation accounting (gains in earlier quarters, ₹25.7 Cr loss in Q4).",
+          "page": 8
+        },
+        {
+          "text": "Supply-chain bottlenecks (insulators with 18-24 month lead times, CTC cable) cap execution.",
+          "page": 16
+        },
+        {
+          "text": "Lost most US transformer bids; strategy for transformers unclear.",
+          "page": 12
+        },
+        {
+          "text": "Possible US$75 Mn equity raise for acquisitions in addition to ₹250 Cr cash.",
+          "page": 8
+        }
+      ],
+      "watch_next": [
+        "Q1 FY27 revenue growth vs 15-20% guidance",
+        "Gross margin after the commodity spike",
+        "Sangli trial production in July-August",
+        "BESS order wins toward US$60-80 Mn",
+        "Use of the fund-raise"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Reactors and coils for HVDC, FACTS and grid connection, instrument transformers (Mehru), STATCOM/SVC power electronics and battery-storage converters (Endoks, Turkey), transformer components (Sukrut)",
+        "customers": "Hitachi Energy, Siemens, GE and other global OEMs, Indian utilities (Power Grid, Adani), renewable developers, US data-centre operators; top 10 customers ~35% of revenue",
+        "revenue_mix": "FY26: Endoks ₹468 Cr, Mehru ₹318 Cr, Quality Power ₹246 Cr; most revenue from exports and overseas subsidiaries",
+        "demand_drivers": "HVDC and transmission build-out, renewable integration, battery storage, data-centre grid connections"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=809e466a-252f-4978-98a1-869a865f2aa6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=318a4a42-f88a-4732-a393-c35c0cbc3350.pdf",
+    "transcriptPages": 25,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "symbol": "KRN",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/08/transcript-for-Q1fy27.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17aada7c-c1ea-47c2-917f-ace1793f26e6.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T12:56:41.458Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-14",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Exports ~₹200 Cr (double FY26)",
+        "kind": "absolute",
+        "low": 200,
+        "high": 200,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Exports",
+        "condition": "Q1 exports ₹50 Cr+ despite lower UAE sales",
+        "quote": "So, last year we achieve around INR100 crores of export and this year, we are planning to achieve around INR200 crore, so almost double.",
+        "page": 6,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "around INR200 crore",
+        "revises": "Exports to roughly double (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "80% utilisation in FY28 (~₹2,000 Cr revenue) reaffirmed",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Analyst framed it as 80% utilisation by FY28 'which translates to INR2,000 crores in revenue'; management replied 'Still same.'",
+        "quote": "Still same.",
+        "page": 9,
+        "speaker": "Management (CMD answering)",
+        "confidence": "medium",
+        "keyword": "Still same",
+        "revises": "New plant ~80% utilisation in FY28 (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Fin-and-tube exports ~50% in 2-3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next two, three year",
+        "basis": "segment",
+        "segment": "Fin-and-tube",
+        "condition": null,
+        "quote": "As of now total business we are on 20%, but if you only like separate fin and tube, then we are planning to achieve in next two, three year around 50%.",
+        "page": 6,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "around 50%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Bus AC: 15% market share, bulk from Q3-Q4",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Bus AC",
+        "condition": "Run-rate ₹5-6 Cr a month in Q1",
+        "quote": "And we are on track we will achieve around 15% market share because we have did one MOU with one big customer, but that supply will start from next month and then quantity is quite big.",
+        "page": 8,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "15% market share",
+        "revises": "At least 15% market share (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Oil coolers ~₹40 Cr",
+        "kind": "absolute",
+        "low": 40,
+        "high": 40,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Oil coolers (railway and industrial)",
+        "condition": null,
+        "quote": "So, this financial year we are planning to achieve around INR40 crores from this oil and cooler and then it will be maybe a multi-fold in coming year.",
+        "page": 11,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "INR40 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Railway coach and cab HVAC revenue from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Railway HVAC",
+        "condition": null,
+        "quote": "But bogie this HVAC system will use. So, that cabin AC and then bogie AC we are developing. So, that will be come in business next year.",
+        "page": 12,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "come in business next year",
+        "revises": "Railway HVAC revenue from FY28 (May 2026)"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "New capex ~₹100 Cr (Bangalore + Bus AC/railway plant)",
+        "kind": "absolute",
+        "low": 100,
+        "high": 100,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "within one year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Bangalore plant (10-15% addition, serving southern customers) operating in about a year; funded from profits",
+        "quote": "So, this both like complete from now I think within one year around including land, building, and machine should be around INR100 crore.",
+        "page": 12,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "around INR100 crore",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 20%+",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "as revenue scales to ~₹2,000 Cr",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "RIPS incentive for 10 years; PLI shorter",
+        "quote": "But it should be around 20-plus EBITDA will be there.",
+        "page": 13,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "20-plus EBITDA",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No new borrowing for two years after QIP",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next two years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹350 Cr QIP received end-June 2026",
+        "quote": "So, for next two year I think it will be maybe what last quarter it will be much, much less maybe because we have money for next two year at least.",
+        "page": 13,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "money for next two year",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Apply for PLI after ₹400 Cr fin-and-tube sales",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we are assuming by end of quarter third or maybe early fourth quarter it will be achieve, so during that time we will apply.",
+        "page": 7,
+        "speaker": "Management (CMD answering)",
+        "confidence": "high",
+        "keyword": "end of quarter third",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 consolidated revenue more than doubled (+119%) to ₹252 Cr, with EBITDA of ₹49 Cr (19.4% margin) and PAT of ₹33 Cr; the new plant contributed about ₹115 Cr and exports rose 177% to ₹50 Cr+. Management kept the ~₹2,000 Cr revenue goal at 80% utilisation in FY28, expects exports of ~₹200 Cr and ~₹40 Cr from oil coolers this year, and guided EBITDA margin of 20%+ at scale. A ₹350 Cr QIP closed in late June; the company plans ~₹100 Cr of new capex (Bangalore and a Bus AC/railway plant) and says it needs no new debt for two years.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "~₹2,000 Cr revenue at 80% utilisation in FY28 ('still same')",
+          "page": 9
+        },
+        {
+          "change": "reiterated",
+          "text": "Exports ~₹200 Cr in FY27; Q1 ₹50 Cr+",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "~₹100 Cr capex for a Bangalore plant and a Bus AC/railway plant",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Oil coolers ~₹40 Cr in FY27; L1 in a CLW tender",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "EBITDA margin 20%+ at scale",
+          "page": 13
+        },
+        {
+          "change": "delayed",
+          "text": "Bus AC bulk revenue now in Q3-Q4 after a new MOU",
+          "page": 8
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So, we are on in line to achieve around INR200 crores.",
+        "page": 6
+      },
+      "analyst_questions": [
+        {
+          "topic": "Employee costs up",
+          "answer": "Headcount now 1,500+ with full teams for Bus AC and the new plant.",
+          "page": 5
+        },
+        {
+          "topic": "Liquid cooling as a threat",
+          "answer": "Liquid cooling uses plate heat exchangers inside, but fin-and-tube still needed outside the rack.",
+          "page": 5
+        },
+        {
+          "topic": "UAE exports",
+          "answer": "Freight up from ~$1,500 to ~$6,000 a container; UAE still slow, North America and Europe making up for it.",
+          "page": 7
+        },
+        {
+          "topic": "Cash after QIP",
+          "answer": "QIP covers two years of growth; ₹100 Cr capex from profits; no plan given for surplus cash.",
+          "page": 14
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Equity dilution: promoters down to 65.7% from 70.8% after the ₹350 Cr QIP (Screener shareholding).",
+          "page": null
+        },
+        {
+          "text": "Standalone EBITDA rose only 25% on 59% higher revenue; margin gains came from the subsidiary.",
+          "page": 2
+        },
+        {
+          "text": "New ₹100 Cr capex announced soon after saying capex was largely done.",
+          "page": 12
+        },
+        {
+          "text": "PLI and RIPS incentives not yet booked; eligibility depends on reaching ₹400 Cr fin-and-tube sales.",
+          "page": 7
+        }
+      ],
+      "watch_next": [
+        "Q2 revenue growth and new-plant contribution (Q1 ~₹115 Cr)",
+        "Exports on track for ~₹200 Cr",
+        "Bus AC revenue after the new MOU supply starts",
+        "EBITDA margin near 20% and any RIPS/PLI income",
+        "Inventory days after the QIP"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Fin-and-tube and bar-and-plate heat exchangers, refrigeration components, oil coolers, dry coolers and complete Bus AC systems",
+        "customers": "HVAC&R OEMs, data-centre cooling makers, bus OEMs and body-builders, Indian Railways (CLW), export customers in North America and Europe",
+        "revenue_mix": "Q1 FY27: old plant ~₹140 Cr, new plant ~₹115 Cr; exports ~21% of revenue",
+        "demand_drivers": "Data-centre cooling, exports to North America and Europe, Bus AC and railway HVAC"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/08/transcript-for-Q1fy27.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17aada7c-c1ea-47c2-917f-ace1793f26e6.pdf",
+    "transcriptPages": 14,
+    "transcriptHasText": true
+  }
+}

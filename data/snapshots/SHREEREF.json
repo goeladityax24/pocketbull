@@ -1,0 +1,290 @@
+{
+  "symbol": "SHREEREF",
+  "name": "Shree Refrigerations Ltd",
+  "screenerUrl": "https://www.screener.in/company/544458/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1285566",
+  "warehouseId": "141536306",
+  "ratios": {
+    "market cap": 1383,
+    "current price": 386,
+    "high": 439,
+    "low": 161,
+    "stock p/e": 64.2,
+    "book value": 60.6,
+    "dividend yield": 0,
+    "roce": 13.8,
+    "roe": 13,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-09-30",
+        "label": "H1 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2026-03-31",
+        "label": "H2 FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        51,
+        48,
+        50,
+        103
+      ],
+      "expenses": [
+        36,
+        36,
+        45,
+        76
+      ],
+      "operating_profit": [
+        15,
+        12,
+        6,
+        27
+      ],
+      "opm_pct": [
+        30,
+        24,
+        11,
+        26
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "interest": [
+        3,
+        2,
+        2,
+        1
+      ],
+      "depreciation": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "pbt": [
+        11,
+        7,
+        1,
+        24
+      ],
+      "tax_pct": [
+        27,
+        40,
+        -44,
+        16
+      ],
+      "net_profit": [
+        8,
+        4,
+        2,
+        20
+      ],
+      "eps": [
+        null,
+        1.6,
+        0.44,
+        5.6
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        10,
+        45,
+        51,
+        80,
+        99,
+        154
+      ],
+      "expenses": [
+        8,
+        33,
+        38,
+        55,
+        72,
+        121
+      ],
+      "operating_profit": [
+        3,
+        12,
+        12,
+        25,
+        27,
+        33
+      ],
+      "opm_pct": [
+        26,
+        26,
+        25,
+        31,
+        27,
+        21
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "interest": [
+        3,
+        4,
+        5,
+        5,
+        5,
+        4
+      ],
+      "depreciation": [
+        0,
+        4,
+        4,
+        4,
+        4,
+        6
+      ],
+      "pbt": [
+        0,
+        4,
+        4,
+        17,
+        19,
+        25
+      ],
+      "tax_pct": [
+        58,
+        27,
+        40,
+        32,
+        32,
+        14
+      ],
+      "net_profit": [
+        0,
+        3,
+        3,
+        12,
+        13,
+        22
+      ],
+      "eps": [
+        null,
+        null,
+        null,
+        null,
+        4.49,
+        6.04
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa3347e8-1476-44cd-90b7-b5a37e7a397d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e03070fc-2650-4efd-b33d-574e52a0395b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6851ba0f-4e6d-43c1-b2bf-f903fd1c8997.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=aVKm2O06q5U"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=065127a7-a0a7-43d7-937a-1ac298187924.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caec6199-7892-4ad9-a12c-010ecd93ee66.pdf",
+      "recordingUrl": "http://www.shreeref.com/img/Webcast/GMT20251112-100118_Recording_1920x1080.mp4"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33090e45-7f43-4166-bae6-3dad65bc8981.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:17.188Z"
+}

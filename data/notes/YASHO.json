@@ -1,0 +1,704 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Lubricant additives, rubber chemicals and aroma chemicals",
+ "lede": "A Vapi chemical maker whose big new Pakhajan plant crushed profits for two years under interest and depreciation, and has now started to fill: Q1 FY27 revenue rose 56% and the EBITDA margin jumped to 24%. If that margin holds, earnings re-rate sharply; if Q1 was a peak, the stock at ~99x trailing earnings has far to fall.",
+ "market": {
+  "price": 4283,
+  "mcap_cr": 5163,
+  "pe": 98.7,
+  "pb": 11.7,
+  "ev_ebitda": 32
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q1 FY27 revenue ₹308 Cr (+56%) on 42% higher volumes, EBITDA margin 24.2% (from ~17%), PAT ₹36 Cr against ₹21 Cr for all of FY26. Net debt/EBITDA fell to 1.86x, working capital to 143 days, ratings upgraded to A-, and a 15-year MNC supply contract starts in FY28."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "One quarter of 24% margins against a 15-17% history, partly helped by April price rises; capex doubled to ₹250 Cr with ~₹100 Cr of new debt; ROCE was 7-8% in FY25-26. Three family directors are paid 45-60x the median employee."
+  },
+  {
+   "lead": "Price",
+   "text": "~99x trailing earnings but ~32x EV/EBITDA; Vinati Organics trades at 27x, NOCIL at 41x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Yasho makes specialty chemicals in Gujarat: lubricant additives, rubber antioxidants and accelerators, and other industrial chemicals (87-89% of revenue), plus a smaller food and aroma chemicals line. It sells pure chemicals, not formulations, to global lubricant and rubber majors, with subsidiaries in Europe and the US. A second plant at Pakhajan (commissioned FY25) multiplied capacity.",
+     "src": "May call p.8"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "62-69%",
+       "label": "Exports share of revenue"
+      },
+      {
+       "value": "~65%",
+       "label": "Utilisation in Q1 FY27 (75% targeted)"
+      },
+      {
+       "value": "₹51.4 Cr",
+       "label": "Advance from an MNC under a 15-year supply deal"
+      },
+      {
+       "value": "~7%",
+       "label": "Revenue from the largest customer"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "New products launched in the last year earn ~10-12 points more margin than older ones.",
+       "src": "Aug call p.16"
+      },
+      {
+       "lead": "",
+       "text": "More than half of revenue is now on formula-based quarterly or six-monthly pricing, which keeps the EBITDA percentage stable.",
+       "src": "Aug call p.10"
+      },
+      {
+       "lead": "",
+       "text": "Utilisation drives margins: fixed costs of the Pakhajan plant spread over more volume.",
+       "src": "Aug call p.7"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue from ₹614 Cr (FY22) to ₹817 Cr (FY26, standalone); FY24 dipped 11%.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Pakhajan plant and R&D centre (50+ scientists) built with debt; borrowings rose from ₹179 Cr to ~₹580 Cr.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Shut R&D at Vapi and moved it to Pakhajan; Vapi plant runs near full.",
+       "src": "Aug call p.14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        614,
+        670,
+        596,
+        680,
+        817
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹934 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        53,
+        64,
+        57,
+        6,
+        21
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        16,
+        14,
+        90,
+        -44,
+        151
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "9%",
+        "–11%",
+        "14%",
+        "20%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "15%",
+        "17%",
+        "17%",
+        "17%",
+        "17%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "53",
+        "64",
+        "57",
+        "6",
+        "21"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "29%",
+        "22%",
+        "13%",
+        "7%",
+        "8%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "16",
+        "14",
+        "90",
+        "–44",
+        "151"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "99",
+        "154",
+        "150",
+        "246",
+        "191"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "The new plant hit profits hard:",
+       "text": "interest rose from ₹15 Cr to ₹60 Cr and depreciation from ₹16 Cr to ₹50 Cr in FY25; interest cover fell to ~1.1-1.5x.",
+       "src": null
+      },
+      {
+       "lead": "Leverage is high but falling:",
+       "text": "borrowings ₹558 Cr against ₹441 Cr of equity (1.27x) at March; net debt/EBITDA 1.86x by June.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): negative so far.",
+       "text": "Capital employed rose ~₹127 Cr from FY24 to FY26 while operating profit after depreciation fell; Q1 FY27 is the first sign of payback.",
+       "src": null
+      },
+      {
+       "lead": "Cash flow turned:",
+       "text": "operating cash flow ₹151 Cr in FY26 after –₹44 Cr in FY25.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin in a 17-19% band",
+        "FY25-26",
+        "FY26 17.4%",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin ~20% in FY27",
+        "May 26",
+        "Q1 FY27 24.2%; now 'maintain this margin'",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Volume growth 35-45% in FY27",
+        "May 26",
+        "Q1 FY27 +42%",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital down to 170-175 days in 6-12 months",
+        "May 26",
+        "143 days at June 2026 (partly raw-material shortages)",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Utilisation above 75% in FY27",
+        "May 26",
+        "~65% in Q1",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 capex ₹125 Cr from internal accruals",
+        "May 26",
+        "Doubled to ₹250 Cr with ~₹100 Cr of new debt",
+        {
+         "text": "Changed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Jhaveri family holds 67.9%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions 5.7% (down from 7.0%), domestic 2.2%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Directors' pay: Parag Jhaveri 60x and two other family directors ~45x the median employee, in a year of ₹21 Cr profit.",
+       "src": "AR p.23"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged inventory valuation (standalone) and the accounting for the MNC advance (consolidated) as key audit matters.",
+       "src": "AR p.81"
+      },
+      {
+       "lead": "",
+       "text": "Sales to related parties 5.2% of total (subsidiaries); no related-party purchases.",
+       "src": "AR p.37"
+      },
+      {
+       "lead": "",
+       "text": "Management declines to give plant-level utilisation or capacity.",
+       "src": "Aug call p.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Yasho Industries (standalone)",
+        "817",
+        "17%",
+        "21",
+        "8%",
+        "98.7x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Vinati Organics",
+        "2,227",
+        "29%",
+        "444",
+        "20%",
+        "27.3x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "NOCIL (rubber chemicals)",
+        "1,303",
+        "8%",
+        "56",
+        "4%",
+        "41.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Camlin Fine Sciences",
+        "1,723",
+        "7%",
+        "24",
+        "5%",
+        "—"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Oriental Aromatics",
+        "1,031",
+        "7%",
+        "3",
+        "4%",
+        "323x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Supplier diversification away from China:",
+       "text": "MNC customers sign long-term contracts and fund capacity.",
+       "src": "Aug call p.9"
+      },
+      {
+       "lead": "R&D-led product pipeline;",
+       "text": "only molecules worth ₹50 Cr+ a year are pursued.",
+       "src": "May call p.11"
+      },
+      {
+       "lead": "Does not compete with customers:",
+       "text": "sells chemicals, never formulations.",
+       "src": "May call p.8"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Chinese competition is 'very strong'",
+       "text": "in lubricant additives and rubber chemicals.",
+       "src": "May call p.14"
+      },
+      {
+       "lead": "Supply chain:",
+       "text": "raw-material delays of 8-12 weeks and container shortages.",
+       "src": "Aug call p.17"
+      },
+      {
+       "lead": "Balance sheet",
+       "text": "is more stretched than peers', limiting room for error.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Q1 margins prove to be a peak",
+        "Operational",
+        "Management says ~24% is sustainable"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debt rises again with ₹250 Cr capex",
+        "Financial",
+        "~₹100 Cr new borrowing in FY27"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Chinese price competition",
+        "Operational",
+        "'Very strong'"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Raw-material and shipping disruption",
+        "Operational",
+        "Ongoing"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹6,800 Cr",
+       "sub": "FY28 market cap · about +32%",
+       "text": "Target met: ~₹1,600 Cr revenue in FY28 at a 24% EBITDA margin, PAT ~₹195 Cr after interest and depreciation, valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹4,000 Cr",
+       "sub": "FY28 market cap · about –23%",
+       "text": "Revenue ~₹1,300 Cr at a 21% EBITDA margin, PAT ~₹113 Cr, valued at 35x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹1,400 Cr",
+       "sub": "FY28 market cap · about –73%",
+       "text": "Margins revert to 17% and growth slows: ~₹1,050 Cr revenue, PAT ~₹47 Cr, valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "98.7x",
+       "label": "P/E, trailing (Vinati 27x)"
+      },
+      {
+       "value": "~32x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "11.7x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "Negative",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Yasho is at an inflection: the heavy plant investment is finally earning, and a 24% margin on rising volumes would transform profits. The stock already prices much of that in after a near-4x rise from its low. Watch whether margins hold for two or three more quarters before trusting the FY28 target.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "EBITDA margin vs ~24% in Q2-Q3",
+  "Revenue growth vs 30-40% target",
+  "Net debt as capex doubles",
+  "Utilisation toward 75%",
+  "MNC contract plant on track for Q1 FY28"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 (19 May 2026) and Q1 FY27 (3 Aug 2026) concall transcripts and presentations",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

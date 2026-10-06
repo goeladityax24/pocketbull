@@ -1,0 +1,680 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Transformer oils, white oils and Savsol lubricants",
+ "lede": "A debt-free, 65-year-old Mumbai maker of transformer oils, white oils and Savsol lubricants whose profits swing with crude and base-oil prices. Q1 FY27 delivered more profit than all of FY26 thanks to inventory gains in the West Asia oil spike, which makes the trailing 12x P/E look cheaper than the business really is.",
+ "market": {
+  "price": 776,
+  "mcap_cr": 5318,
+  "pe": 12.4,
+  "pb": 2.9,
+  "ev_ebitda": 10
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Record volumes above 5 lakh KL in FY26 (+17%), EBITDA per KL up to ₹4,555 and PAT +61% to ₹182 Cr (consolidated); Q1 FY27 PAT ₹288 Cr. No debt, ~₹508 Cr of cash and investments at March, an unbroken dividend record since 1994, and a growing premium ester-lubricant range."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Q1's 26% EBITDA margin came from inventory gains on a crude spike; normal margins have been 4-7% for three years, down from 12-13% in FY22. ROCE fell from 31% to 14%, cash conversion is patchy, and the company holds no earnings calls."
+  },
+  {
+   "lead": "Price",
+   "text": "12.4x trailing earnings (inflated by Q1) and ~10x EV/EBITDA; on FY26 profit about 27x. Panama Petrochem trades at 6x, Gandhar at 9x, Gulf Oil at 14x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Savita refines base oils and additives into petroleum specialties: transformer oils (Transol, the only maker of mineral, natural and synthetic-ester transformer oils), white and mineral oils for cosmetics, pharma and plastics, cable-filling compounds and waxes (73% of sales), plus Savsol lubricants for vehicles and industry (26%). It has four plants in Maharashtra and Silvassa, 53 MW of wind power, and exports to 75+ countries.",
+     "src": "May ppt p.10"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "5 lakh KL+",
+       "label": "Record volume in FY26 (+17%)"
+      },
+      {
+       "value": "₹4,555",
+       "label": "EBITDA per KL in FY26 (₹9,137 in FY22)"
+      },
+      {
+       "value": "83% / 17%",
+       "label": "Domestic / exports, FY26"
+      },
+      {
+       "value": "~₹508 Cr",
+       "label": "Cash and investments, March 2026; no debt"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Margins depend on the spread between base-oil costs and product prices; inventory gains when crude rises, losses when it falls.",
+       "src": "Sep ppt p.5"
+      },
+      {
+       "lead": "",
+       "text": "Transformer oils ride grid and power build-out; white oils ride personal care and pharma.",
+       "src": "May ppt p.14"
+      },
+      {
+       "lead": "",
+       "text": "Savsol Ester5 lubricants grew 4-5x faster than the industry, premiumising the mix.",
+       "src": "Sep ppt p.5"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Commercialised its own synthetic-ester plant in August 2023.",
+       "src": "May ppt p.28"
+      },
+      {
+       "lead": "",
+       "text": "Margins fell from 13% (FY22) to 5% (FY25) as base-oil spreads normalised; FY26 recovered to 6.6%.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Siddharth Mehra (son of the chairman) to become Joint MD from October 2026.",
+       "src": "AR p.22"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        2937,
+        3629,
+        3740,
+        3813,
+        4360
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹4,853 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        260,
+        226,
+        204,
+        124,
+        194
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        369,
+        -64,
+        177,
+        64,
+        138
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "24%",
+        "3%",
+        "2%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "12%",
+        "9%",
+        "7%",
+        "4%",
+        "6%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "260",
+        "226",
+        "204",
+        "124",
+        "194"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "31%",
+        "24%",
+        "19%",
+        "10%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "369",
+        "–64",
+        "177",
+        "64",
+        "138"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "67",
+        "87",
+        "87",
+        "97",
+        "88"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash lags profit:",
+       "text": "₹684 Cr of operating cash flow against ₹1,008 Cr of profit over FY22-26; working capital swings with oil prices.",
+       "src": null
+      },
+      {
+       "lead": "Fortress balance sheet:",
+       "text": "no borrowings, ₹1,841 Cr of equity, interest cover 14x (finance costs are mostly bill discounting).",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): negative.",
+       "text": "Capital employed rose ~₹218 Cr from FY24 to FY26 while operating profit fell; returns depend on oil spreads more than investment.",
+       "src": null
+      },
+      {
+       "lead": "Q1 FY27 was exceptional:",
+       "text": "PAT ₹288 Cr on a 26% EBITDA margin, from inventory gains as crude spiked.",
+       "src": "Sep ppt p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Double-digit growth in India and exports",
+        "May 26",
+        "Q1 FY27 income +49% (prices); volumes up double digits in lubricants and exports, white oils down",
+        {
+         "text": "Mixed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Export demand to stay buoyant",
+        "Sep 26",
+        "To be seen in Q2",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Scale Savsol Ester5 and premiumise",
+        "FY24-26",
+        "Growing 4-5x the industry",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Dividend every year since listing",
+        "1994-",
+        "₹5 a share for FY26; three buybacks",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Mehra family holds 68.9%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 13.2%, foreign 1.0%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Chairman & MD paid 68x the median employee; whole-time director Siddharth Mehra's pay rose 57% in FY26 ahead of his elevation to Joint MD.",
+       "src": "AR p.45"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged inventory valuation and tax/litigation provisions as key audit matters.",
+       "src": "AR p.109"
+      },
+      {
+       "lead": "",
+       "text": "Disputed excise, sales-tax and GST demands of ~₹70 Cr.",
+       "src": "AR p.162"
+      },
+      {
+       "lead": "",
+       "text": "No earnings calls; investors get only presentations.",
+       "src": "Sep ppt p.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Savita Oil Technologies (standalone)",
+        "4,360",
+        "6%",
+        "194",
+        "14%",
+        "12.4x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Gandhar Oil Refinery",
+        "4,241",
+        "6%",
+        "137",
+        "13%",
+        "9.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Panama Petrochem",
+        "3,064",
+        "9%",
+        "212",
+        "19%",
+        "6.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Gulf Oil Lubricants",
+        "4,056",
+        "13%",
+        "345",
+        "26%",
+        "13.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Castrol India",
+        "5,722",
+        "24%",
+        "950",
+        "60%",
+        "18.4x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Approvals and scale in transformer oils;",
+       "text": "the only maker of mineral, natural and synthetic-ester transformer oils.",
+       "src": "May ppt p.14"
+      },
+      {
+       "lead": "Top-two supplier of white oils in India",
+       "text": "to personal-care and pharma brands.",
+       "src": "May ppt p.15"
+      },
+      {
+       "lead": "Own ester molecule",
+       "text": "for premium lubricants, EV and immersion cooling.",
+       "src": "May ppt p.28"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Commodity exposure:",
+       "text": "base oils are imported; margins swing with crude and supply shocks.",
+       "src": "Sep ppt p.5"
+      },
+      {
+       "lead": "Lubricant brand is small",
+       "text": "against Castrol, Gulf and the oil majors.",
+       "src": null
+      },
+      {
+       "lead": "Competition from Gandhar and Panama",
+       "text": "in white oils and specialties.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Crude or base-oil price fall reverses inventory gains",
+        "Financial",
+        "Q1 FY27 gains large"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Feedstock supply disruption (Middle East)",
+        "Operational",
+        "April volumes hit"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Domestic white-oil weakness",
+        "Operational",
+        "Volumes fell in Q1"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Tax disputes",
+        "Financial",
+        "~₹70 Cr contingent"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹7,500 Cr",
+       "sub": "FY28 market cap · about +41%",
+       "text": "Volumes grow ~12% a year and margins hold above normal: revenue ~₹5,600 Cr in FY28 at a 6% PAT margin (₹336 Cr), valued at 20x, plus ~₹800 Cr of cash."
+      },
+      {
+       "name": "Base",
+       "value": "₹5,100 Cr",
+       "sub": "FY28 market cap · about –4%",
+       "text": "~10% growth to ₹5,300 Cr at a 4.5% PAT margin (₹240 Cr), valued at 18x, plus ~₹800 Cr of cash."
+      },
+      {
+       "name": "Bear",
+       "value": "₹3,000 Cr",
+       "sub": "FY28 market cap · about –44%",
+       "text": "Oil prices fall and spreads compress: ₹4,800 Cr at a 3% margin (₹144 Cr), valued at 15x, plus ~₹800 Cr of cash."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "12.4x",
+       "label": "P/E, trailing incl. Q1 windfall"
+      },
+      {
+       "value": "~27x",
+       "label": "P/E on FY26 profit"
+      },
+      {
+       "value": "2.9x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~10x",
+       "label": "EV / trailing EBITDA"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A well-run, cash-rich specialty-oil business with a strong position in transformer and white oils. But Q1 FY27 profits are largely a one-off from the oil spike; on normal margins the stock is fairly priced, and the next leg depends on ester products and volumes rather than commodity luck.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "EBITDA margin in Q2-Q3 as inventory gains fade",
+  "Volume growth by division",
+  "Crude and base-oil prices",
+  "Ester-based fluids and OEM approvals",
+  "Use of the growing cash pile"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 (May 2026) and Q1 FY27 (Sep 2026) investor presentations; the company holds no earnings calls",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

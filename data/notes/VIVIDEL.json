@@ -1,0 +1,667 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "LV/MV electrical panels and data-centre switchboards (NSE SME)",
+ "lede": "A Navi Mumbai panel builder, licensed by ABB, whose data-centre switchboards went from 5% to half of revenue in two years, lifting EBITDA margin from 9% to 23%. A plant that roughly triples capacity starts this month; the risks are customer concentration, slow-paying receivables, dealings with promoter-owned firms, and a company that holds no earnings calls.",
+ "market": {
+  "price": 1720,
+  "mcap_cr": 1529,
+  "pe": 48.4,
+  "pb": null,
+  "ev_ebitda": 35
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue +29% to ₹200 Cr, EBITDA margin 23% and PAT ₹32 Cr; H2 FY26 ₹130 Cr at 25%. Data centres (70% hyperscale) were ₹100 Cr of revenue, the executable order book is ₹205 Cr, and a 120,000 sq ft automated plant at Ambernath should start by end-October 2026."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Receivable days jumped to 213 and free cash flow was –₹26 Cr in FY26; 92% of revenue comes from Maharashtra and half from a few data-centre projects. ₹13 Cr of purchases and sales ran through firms owned by the promoters, one of which Vivid then bought from them; there is no earnings call."
+  },
+  {
+   "lead": "Price",
+   "text": "~48x trailing earnings and ~35x EV/EBITDA, against RMC Switchgears at 10x, S&S Power at 44x and Marine Electricals at 103x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Vivid designs, builds, tests and commissions low-voltage (up to 1,000 V) and medium-voltage (3.3-33 kV) switchboards and control panels: PCC, MCC, VFD, APFC and DG-synchronising panels, VCB and RMU panels, and data-centre PDUs. Most LV panels use ABB's licensed ArTu K design; it is also an ABB MV system integrator, a Siemens SIEPAN licensee and an L&T/Schneider accredited builder.",
+     "src": "Sep deck p.11"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "50%",
+       "label": "FY26 revenue from data centres (₹100 Cr)"
+      },
+      {
+       "value": "94%",
+       "label": "Navi Mumbai plant utilisation, FY26"
+      },
+      {
+       "value": "7,500 → 22,500",
+       "label": "Panel verticals a year after the new plant"
+      },
+      {
+       "value": "₹205 Cr",
+       "label": "Executable order book, 31 Aug 2026"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Data-centre projects average ₹20-25 Cr with 8-week to 9-month delivery; 70% hyperscale.",
+       "src": "Sep deck p.22"
+      },
+      {
+       "lead": "",
+       "text": "Manufactured panels are 95% of revenue; LV 80%, MV 15%.",
+       "src": "Sep deck p.24"
+      },
+      {
+       "lead": "",
+       "text": "Margin jumped as data-centre volumes filled the plant (utilisation 46% in FY23 to 94% in FY26).",
+       "src": "Sep deck p.18"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Founded 1990; listed on NSE Emerge in April 2026.",
+       "src": "Sep deck p.4"
+      },
+      {
+       "lead": "",
+       "text": "Revenue from ₹59 Cr (FY23) to ₹200 Cr (FY26); data centres from ₹9 Cr to ₹100 Cr.",
+       "src": "Sep deck p.21"
+      },
+      {
+       "lead": "",
+       "text": "Bought 99% of Mechtech Infrasolutions (Siemens SIEPAN partner) from the promoter couple for ₹99 lakh.",
+       "src": "Sep deck p.15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        59,
+        59,
+        89,
+        155,
+        200
+       ]
+      }
+     ],
+     "caption": "Half-yearly reporter: H1 FY26 ₹71 Cr, H2 FY26 ₹130 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        0,
+        0,
+        4,
+        20,
+        32
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        3,
+        5,
+        3,
+        7,
+        9
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "0%",
+        "51%",
+        "74%",
+        "29%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "3%",
+        "3%",
+        "9%",
+        "18%",
+        "23%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "0",
+        "0",
+        "4",
+        "20",
+        "32"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "12%",
+        "7%",
+        "24%",
+        "75%",
+        "59%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "3",
+        "5",
+        "3",
+        "7",
+        "9"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "156",
+        "98",
+        "108",
+        "142",
+        "213"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash lags profit:",
+       "text": "₹56 Cr of profit over FY22-26 against ₹27 Cr of operating cash flow; receivables rose to 213 days in FY26.",
+       "src": null
+      },
+      {
+       "lead": "Borrowed for the new plant before the IPO:",
+       "text": "borrowings ₹33 Cr (from ₹4 Cr) and capex ₹40 Cr in FY26.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 35%,",
+       "text": "on ~₹79 Cr of capital added FY24-26, thanks to the margin jump.",
+       "src": null
+      },
+      {
+       "lead": "Indian GAAP, not Ind AS (SME exemption);",
+       "text": "investment property revaluation reversed in FY26.",
+       "src": "AR p.39"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Ambernath plant (Phase I) commissioned in H2 2026, commercial by end-October",
+        "Sep 26",
+        "Facility photos at 31 Aug show construction advanced",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹205 Cr order book executed over 2-9 months",
+        "Sep 26",
+        "To be seen in H1/H2 FY27",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Mechtech to start panel manufacturing",
+        "Sep 26",
+        "No date given",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Vivid gives no earnings calls and no numeric guidance, so there is little track record to judge yet.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Attavar family holds 73.5%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 15.5%, foreign 1.4%; only ~680 shareholders.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Bought ₹5.6 Cr and sold ₹7.5 Cr of goods to promoter firms Vivid Green Energy and Mechtech in FY26, then bought Mechtech from the promoters.",
+       "src": "AR p.30"
+      },
+      {
+       "lead": "",
+       "text": "CMD and whole-time director (his wife) paid ~20x median employee; pay rose 69% and 55%.",
+       "src": "AR p.31"
+      },
+      {
+       "lead": "",
+       "text": "Disputed customer claim (₹19 lakh) and a cheque-dishonour notice (₹31 lakh) disclosed.",
+       "src": "AR p.62"
+      },
+      {
+       "lead": "",
+       "text": "Analyst meetings held privately with no transcript or presentation shared.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Vivid Electromech",
+        "200",
+        "23%",
+        "32",
+        "59%",
+        "48.4x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "RMC Switchgears",
+        "402",
+        "12%",
+        "22",
+        "22%",
+        "10.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "S&S Power Switchgear",
+        "260",
+        "4%",
+        "10",
+        "10%",
+        "44.0x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Marine Electricals",
+        "877",
+        "11%",
+        "59",
+        "18%",
+        "103x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Panel building is fragmented, with many licensed builders using ABB, Siemens, Schneider or L&T designs; Vivid's edge is data-centre references in Mumbai, India's largest data-centre market.",
+     "src": "Sep deck p.22"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "OEM licences and type tests",
+       "text": "(ABB ArTu K, Siemens SIEPAN, IEC 61439 and internal-arc tests).",
+       "src": "Sep deck p.9"
+      },
+      {
+       "lead": "Data-centre track record",
+       "text": "with hyperscale and colocation clients.",
+       "src": "Sep deck p.22"
+      },
+      {
+       "lead": "Repeat business:",
+       "text": "72% of revenue from existing customers.",
+       "src": "Sep deck p.23"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Concentration:",
+       "text": "50% data centres, 92% Maharashtra, large projects.",
+       "src": "Sep deck p.19"
+      },
+      {
+       "lead": "Dependent on OEM component makers",
+       "text": "who also sell panels directly.",
+       "src": null
+      },
+      {
+       "lead": "Margins may normalise",
+       "text": "as competition for data-centre work rises.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Data-centre order slowdown",
+        "Operational",
+        "Half of revenue"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Receivables",
+        "Financial",
+        "213 days in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New plant ramp-up and 600 new workers",
+        "Operational",
+        "Start by end-October"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Related-party dealings",
+        "Governance",
+        "Promoter firms on both sides of trades"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹2,360 Cr",
+       "sub": "FY28 market cap · about +54%",
+       "text": "New plant fills: ~₹450 Cr revenue in FY28 at a 15% net margin (₹68 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹1,370 Cr",
+       "sub": "FY28 market cap · about –10%",
+       "text": "~₹350 Cr revenue at a 13% margin (₹46 Cr), valued at 30x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹500 Cr",
+       "sub": "FY28 market cap · about –67%",
+       "text": "Data-centre orders pause and margins fall: ~₹250 Cr at 10% (₹25 Cr), valued at 20x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "48.4x",
+       "label": "P/E, trailing (RMC 10x, S&S 44x)"
+      },
+      {
+       "value": "~35x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "~35%",
+       "label": "Return on incremental capital, FY24-26"
+      },
+      {
+       "value": "213 days",
+       "label": "Receivables, FY26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vivid has ridden Mumbai's data-centre boom to high margins and is tripling capacity. The price assumes the new plant fills quickly at today's margins; concentration, rising receivables and related-party dealings mean investors should see H1 FY27 numbers and the plant running before paying up.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Ambernath plant start by end-October 2026",
+  "H1 FY27 revenue and EBITDA margin",
+  "Receivable days",
+  "Related-party purchases and sales",
+  "Share of revenue outside data centres and Maharashtra"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "September 2026 investor presentation (no earnings calls held)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

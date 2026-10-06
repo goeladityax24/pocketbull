@@ -1,0 +1,376 @@
+{
+  "symbol": "AFCOM",
+  "name": "Afcom Holdings Ltd",
+  "screenerUrl": "https://www.screener.in/company/544224/",
+  "basis": "standalone",
+  "companyId": "1284883",
+  "warehouseId": "123950563",
+  "ratios": {
+    "market cap": 4346,
+    "current price": 1503,
+    "high": 1711,
+    "low": 638,
+    "stock p/e": 29.6,
+    "book value": 240,
+    "dividend yield": 0,
+    "roce": 28,
+    "roe": 36.8,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        40,
+        50,
+        100,
+        119,
+        121,
+        153,
+        190,
+        176
+      ],
+      "expenses": [
+        38,
+        36,
+        53,
+        72,
+        83,
+        88,
+        118,
+        105
+      ],
+      "operating_profit": [
+        1,
+        13,
+        47,
+        47,
+        39,
+        65,
+        73,
+        71
+      ],
+      "opm_pct": [
+        3.6,
+        27,
+        47,
+        40,
+        32,
+        43,
+        38,
+        40
+      ],
+      "other_income": [
+        0,
+        0,
+        2,
+        0,
+        4,
+        1,
+        2,
+        1
+      ],
+      "interest": [
+        0,
+        0,
+        5,
+        5,
+        1,
+        7,
+        10,
+        4
+      ],
+      "depreciation": [
+        0,
+        1,
+        13,
+        12,
+        3,
+        13,
+        17,
+        17
+      ],
+      "pbt": [
+        1,
+        12,
+        31,
+        31,
+        38,
+        46,
+        48,
+        52
+      ],
+      "tax_pct": [
+        34,
+        24,
+        18,
+        32,
+        26,
+        25,
+        6,
+        25
+      ],
+      "net_profit": [
+        1,
+        9,
+        26,
+        21,
+        28,
+        34,
+        45,
+        39
+      ],
+      "eps": [
+        0.34,
+        3.64,
+        10.4,
+        8.48,
+        11.42,
+        13.22,
+        17.13,
+        13.67
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        14,
+        48,
+        84,
+        148,
+        239,
+        583
+      ],
+      "expenses": [
+        20,
+        39,
+        66,
+        112,
+        164,
+        349
+      ],
+      "operating_profit": [
+        -6,
+        10,
+        18,
+        36,
+        75,
+        234
+      ],
+      "opm_pct": [
+        -43,
+        20,
+        22,
+        24,
+        31,
+        40
+      ],
+      "other_income": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        5
+      ],
+      "interest": [
+        0,
+        1,
+        1,
+        2,
+        11,
+        33
+      ],
+      "depreciation": [
+        0,
+        0,
+        0,
+        0,
+        14,
+        53
+      ],
+      "pbt": [
+        -6,
+        8,
+        18,
+        34,
+        52,
+        153
+      ],
+      "tax_pct": [
+        -31,
+        39,
+        25,
+        26,
+        28,
+        20
+      ],
+      "net_profit": [
+        -4,
+        5,
+        14,
+        25,
+        37,
+        122
+      ],
+      "eps": [
+        -19.74,
+        20.61,
+        7.78,
+        14.12,
+        14.86,
+        46.76
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee828fbc-7c13-4492-b00b-3d23f0b962c7.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198dbace-ec39-433e-ad76-c53fb48eeecf.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130f79cc-6e61-48af-97af-7779f856076e.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?reload=9&v=hBvBCanROYo"
+    },
+    {
+      "month": "Mar 2026",
+      "yearMonth": "2026-03",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7a2d3f0-3e9a-406e-a256-f5645fad6fea.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=226c9595-5885-42fa-a6e9-67813edd79be.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Mar 2025",
+      "yearMonth": "2025-03",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0104f1f-b698-4853-9a6a-c95432442161.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4120cc5-32b9-44b5-b72e-047959629ce8.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95d38ad5-1843-48ab-be3e-a87abc40245b.pdf",
+      "recordingUrl": "https://afcomcargo.com/investors/corporate-announcements/earnings-call-analyst-calls-presentations/"
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:16.552Z"
+}

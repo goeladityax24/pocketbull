@@ -1,0 +1,263 @@
+{
+  "symbol": "SHREEREF",
+  "concall": {
+    "month": "Nov 2025",
+    "yearMonth": "2025-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=065127a7-a0a7-43d7-937a-1ac298187924.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caec6199-7892-4ad9-a12c-010ecd93ee66.pdf",
+    "recordingUrl": "http://www.shreeref.com/img/Webcast/GMT20251112-100118_Recording_1920x1080.mp4"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T13:11:24.599Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY26",
+    "call_date": "2025-11-12",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY26 revenue ₹140-150 Cr",
+        "kind": "absolute",
+        "low": 140,
+        "high": 150,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "H1 FY26 revenue only ₹50 Cr; deliveries scheduled in H2",
+        "quote": "We will be probably in the range of around 140 to 150 crores of a top line with a similar percentage of a bottom line as compared to last year.",
+        "page": 11,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "140 to 150 crores",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "PAT margin 13-15%",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 15,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "FY25 PAT margin ~13-14%; H1 FY26 only 2.9%",
+        "quote": "PAT margin will remain somewhere between 13% to 15% this year.",
+        "page": 18,
+        "speaker": "Manoj Kothale (CFO)",
+        "confidence": "high",
+        "keyword": "13% to 15%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 20-22%",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 22,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Lower than FY24-25 (27-31%) as spares fell to ~8% of revenue",
+        "quote": "EBITDA margin is somewhere between 20% to 22%.",
+        "page": 15,
+        "speaker": "Manoj Kothale (CFO)",
+        "confidence": "high",
+        "keyword": "20% to 22%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "40-50% growth a year for 4-5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next four to five years",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Excludes data centres and merchant marine",
+        "quote": "We are expected to grow around 40% to 50% CAGR rates for next four to five years easily.",
+        "page": 15,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "40% to 50% CAGR",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New 50,000 sq ft plant from start of FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Capacity for ₹550-600 Cr of revenue once 100,000 sq ft is built; funded",
+        "quote": "The second part of the question, the first phase of it, which is what we are saying is 50,000 square feet, will be up and running from next financial year.",
+        "page": 21,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "50,000 square feet",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No fresh equity until revenue passes ₹500 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So as of today, we believe that once we cross the threshold limit of a 500 plus crores, we will not need any more capital raise from the market.",
+        "page": 20,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "500 plus crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre revenue a trickle now, major from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Data-centre cooling (with Smardt)",
+        "condition": null,
+        "quote": "We expect a trickling business in FY 2026. Major business coming in 2028 from a data centre.",
+        "page": 28,
+        "speaker": "Abhijit Saoji (CEO)",
+        "confidence": "high",
+        "keyword": "Major business coming in 2028",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H1 FY26 revenue was only ₹50 Cr with an 11% EBITDA margin and 2.9% PAT margin, because Navy shipyards schedule most deliveries in H2 and the company front-loaded hiring (247 to 323 people). Management guided FY26 revenue of ₹140-150 Cr, a 20-22% EBITDA margin and a 13-15% PAT margin, and 40-50% annual growth for four to five years from a ₹327 Cr order book and a ~₹1,000 Cr bid pipeline to March 2027. It is entering data-centre cooling through a partnership with Smardt (oil-free chillers), with major revenue expected from FY28.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY26 revenue ₹140-150 Cr with PAT margin similar to FY25",
+          "page": 11
+        },
+        {
+          "change": "cut",
+          "text": "EBITDA margin guided at 20-22% (FY24-25: 27-31%) as spares share fell",
+          "page": 15
+        },
+        {
+          "change": "new",
+          "text": "Data-centre cooling via Smardt partnership; major revenue from FY28",
+          "page": 28
+        },
+        {
+          "change": "new",
+          "text": "Order book ₹327 Cr after ₹162 Cr of new orders in H1",
+          "page": 7
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are expected to grow around 40% to 50% CAGR rates for next four to five years easily.",
+        "page": 15
+      },
+      "analyst_questions": [
+        {
+          "topic": "Weak H1",
+          "answer": "Shipyards take most deliveries in H2 (70%); a second rented factory and more staff added.",
+          "page": 11
+        },
+        {
+          "topic": "Lower margins",
+          "answer": "Spares fell from ~40% to ~8% of revenue; on-site execution costs.",
+          "page": 15
+        },
+        {
+          "topic": "Data-centre edge",
+          "answer": "Smardt is already approved by hyperscalers; Shree provides local support and service near cable-landing cities.",
+          "page": 12
+        },
+        {
+          "topic": "Market share",
+          "answer": "Naval HVAC is ~0.5-0.9% of a ship's cost; Shree wins 50%+ among 3-4 players.",
+          "page": 28
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Working capital ~570 days; receivables ~350 days.",
+          "page": 19
+        },
+        {
+          "text": "Very lumpy half-yearly revenue tied to shipyard schedules.",
+          "page": 14
+        },
+        {
+          "text": "Fixed-price contracts expose margins to raw-material costs.",
+          "page": 32
+        },
+        {
+          "text": "Data-centre business initially commission plus service only.",
+          "page": 27
+        }
+      ],
+      "watch_next": [
+        "H2 FY26 revenue (~₹90-100 Cr needed for guidance)",
+        "Full-year EBITDA margin vs 20-22%",
+        "Working-capital days",
+        "New plant start in early FY27"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Air-conditioning plants, refrigeration plants, ship HVAC systems and control panels for Indian Navy warships and submarines; test equipment for refrigeration makers",
+        "customers": "Indian Navy and shipyards (Mazagon Dock, GRSE, Hindustan Shipyard, Cochin Shipyard), retrofit programmes; refrigeration OEMs for test rigs",
+        "revenue_mix": "FY26: new-build and retrofit systems; retrofit ~32%; spares ~8%",
+        "demand_drivers": "Navy fleet expansion, indigenisation, retrofits, merchant shipbuilding, data-centre cooling"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=065127a7-a0a7-43d7-937a-1ac298187924.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caec6199-7892-4ad9-a12c-010ecd93ee66.pdf",
+    "transcriptPages": 34,
+    "transcriptHasText": true
+  }
+}

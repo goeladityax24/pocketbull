@@ -1,0 +1,415 @@
+{
+  "symbol": "KRN",
+  "name": "KRN Heat Exchanger and Refrigeration Ltd",
+  "screenerUrl": "https://www.screener.in/company/KRN/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1285002",
+  "warehouseId": "126672423",
+  "ratios": {
+    "market cap": 9551,
+    "current price": 1462,
+    "high": 1687,
+    "low": 590,
+    "stock p/e": 98.5,
+    "book value": 92.4,
+    "dividend yield": 0,
+    "roce": 16,
+    "roe": 14.1,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        71,
+        66,
+        82,
+        96,
+        91,
+        111,
+        132,
+        115,
+        152,
+        153,
+        179,
+        252
+      ],
+      "expenses": [
+        58,
+        54,
+        64,
+        78,
+        73,
+        96,
+        113,
+        98,
+        122,
+        122,
+        146,
+        203
+      ],
+      "operating_profit": [
+        13,
+        12,
+        18,
+        18,
+        18,
+        16,
+        19,
+        18,
+        30,
+        31,
+        34,
+        49
+      ],
+      "opm_pct": [
+        19,
+        18,
+        21,
+        18,
+        20,
+        14,
+        14,
+        15,
+        20,
+        20,
+        19,
+        19
+      ],
+      "other_income": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        5,
+        4,
+        4,
+        2,
+        2,
+        2,
+        3
+      ],
+      "interest": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "depreciation": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        5,
+        6,
+        6,
+        6
+      ],
+      "pbt": [
+        12,
+        11,
+        17,
+        17,
+        17,
+        19,
+        21,
+        18,
+        27,
+        26,
+        27,
+        42
+      ],
+      "tax_pct": [
+        29,
+        29,
+        30,
+        29,
+        29,
+        28,
+        30,
+        32,
+        33,
+        12,
+        13,
+        22
+      ],
+      "net_profit": [
+        9,
+        8,
+        12,
+        12,
+        12,
+        14,
+        15,
+        12,
+        18,
+        23,
+        23,
+        33
+      ],
+      "eps": [
+        1.96,
+        1.71,
+        2.61,
+        2.59,
+        1.98,
+        2.21,
+        2.39,
+        2,
+        2.9,
+        3.65,
+        3.76,
+        5.03
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        307,
+        430,
+        600
+      ],
+      "expenses": [
+        249,
+        359,
+        487
+      ],
+      "operating_profit": [
+        59,
+        70,
+        112
+      ],
+      "opm_pct": [
+        19,
+        16,
+        19
+      ],
+      "other_income": [
+        5,
+        12,
+        10
+      ],
+      "interest": [
+        4,
+        3,
+        6
+      ],
+      "depreciation": [
+        4,
+        5,
+        19
+      ],
+      "pbt": [
+        56,
+        74,
+        98
+      ],
+      "tax_pct": [
+        30,
+        29,
+        22
+      ],
+      "net_profit": [
+        39,
+        53,
+        76
+      ],
+      "eps": [
+        8.54,
+        8.51,
+        12.3
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/08/transcript-for-Q1fy27.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17aada7c-c1ea-47c2-917f-ace1793f26e6.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da91a495-e4aa-44f6-acc9-eb65e2975e49.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b32fe7d-a237-4b81-a9df-3210c2bfa6c1.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/05/KRN-Heat-Exchanger-and-Refrigeration-Limited-Q4-FY26-Earnings-Concall-Audio-Recording.mp3"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c27f0b9c-fa7a-4a99-8bd3-51342ee57af7.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84a9f490-5097-4447-bafb-5f1620fc2460.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/02/Q3-9M-FY-26.mp3"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a772d44c-a118-4f40-83fd-d0384da20a24.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=522b4759-086d-4e69-8399-18870e5d236e.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2025/11/Q2-FY26-Concall-Audio-KRN-Heat-Exchanger-and-Refrigeration-Limited.mp3"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=450a832c-d5ad-43f0-acf4-98f40b3dcd9b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0235048-2b52-4eab-9d29-408b5345ec77.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afeaa6b4-850d-419d-b200-ede5c8fac533.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25068932-737e-4463-9b51-c8c4158af96b.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2025/05/KRN-Heat-Exchanger-and-Refrigeration-Q4-FY25-Earnings-Call-Audio.mp3"
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=243421f3-f86f-4685-a870-3cbbc50bc1c1.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91288254-8107-4c27-96fb-2e703213cd66.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af7d1b8c-583d-4f5f-a845-8b3bd80bd484.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2025/02/Recording-of-Earning-conference-Call-held-on-03-02-2025.mp3"
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4df637ab-eded-4140-8f50-36330b93b197.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45d7b08c-00ff-42be-9f6b-b82ef4f99133.pdf",
+      "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2024/11/Earning-conference-Call-Recording-held-on-06-11-2024.mp3"
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:17.822Z"
+}

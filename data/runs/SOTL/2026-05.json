@@ -1,0 +1,128 @@
+{
+  "symbol": "SOTL",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26842aa8-e666-4de8-9fec-08247f1847a1.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:04:12.555Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": null,
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Double-digit growth in India and exports",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No call held; presentation only. 'for the existing business' (key highlights, p.5)",
+        "quote": "Looking ahead, we remain focused on strengthening our brand, expanding B2C reach, and aim for double-digit growth across domestic and international markets.",
+        "page": 5,
+        "speaker": "Gautam N. Mehra (Chairman & MD), in the presentation",
+        "confidence": "high",
+        "keyword": "double-digit growth",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New ester and advanced fluids for cooling and renewables",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "long term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Focus remains on new business around the central themes of energy transition and developing newer ester and advanced fluids across verticals like Cooling and Renewable Energies.",
+        "page": 5,
+        "speaker": "Company (investor presentation)",
+        "confidence": "medium",
+        "keyword": "newer ester and advanced fluids",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Savita held no earnings call; this is from its Q4 FY26 investor presentation. FY26 consolidated total income rose 14% to ₹4,408 Cr on record volumes above 5 lakh KL (+17%), and PAT rose 61% to ₹182 Cr as EBITDA per KL recovered to ₹4,555 from ₹3,691. The company is debt-free with ~₹508 Cr of cash and investments; the chairman aims for double-digit growth in India and exports, led by the Savsol Ester5 lubricant range and new ester-based fluids.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Aim for double-digit growth in India and international markets",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Multi-year deal to supply Mahindra tractor genuine engine oils",
+          "page": 27
+        },
+        {
+          "change": "new",
+          "text": "Exploring ester fluids for EV battery and data-centre immersion cooling",
+          "page": 29
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "We are pleased to report a record performance for both the quarter and for the full year, with total income growing 22% YoY in Q4FY26 and 14% for FY26",
+        "page": 5
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "No earnings call or Q&A; guidance limited to a line in the presentation.",
+          "page": 5
+        },
+        {
+          "text": "EBITDA margin of 6.6% is still well below FY22's 13%; earnings swing with base-oil prices.",
+          "page": 33
+        },
+        {
+          "text": "Receivables rose 18% to ₹914 Cr, faster than revenue.",
+          "page": 7
+        }
+      ],
+      "watch_next": [
+        "Volume growth by division (transformer oils, white oils, lubricants, exports)",
+        "EBITDA per KL vs ₹4,555 in FY26",
+        "Effect of the West Asia crisis on base-oil supply and prices",
+        "Savsol Ester5 growth"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Petroleum specialty oils (transformer oils, white and mineral oils, cable-filling compounds, waxes) and Savsol lubricants for vehicles and industry",
+        "customers": "Transformer makers and electricity boards, personal-care and pharma firms, optic-fibre cable makers, auto OEMs (Mahindra and others), 1,500 franchise dealers and 20,000 retailers, exports to 75+ countries",
+        "revenue_mix": "FY26: petroleum specialty oils 73%, lubricating oils 26%; domestic 83%, exports 17%",
+        "demand_drivers": "Power transmission and transformer build-out, personal care and pharma, vehicle population, exports"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26842aa8-e666-4de8-9fec-08247f1847a1.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26842aa8-e666-4de8-9fec-08247f1847a1.pdf",
+    "transcriptPages": 37,
+    "transcriptHasText": true
+  }
+}

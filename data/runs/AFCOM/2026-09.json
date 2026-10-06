@@ -1,0 +1,179 @@
+{
+  "symbol": "AFCOM",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee828fbc-7c13-4492-b00b-3d23f0b962c7.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:06:52.384Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-09-25",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Two more 737-800 freighters to reach five",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Still three aircraft at the AGM (25 Sep 2026)",
+        "quote": "Two additional Boeing 737-800 converted freighter aircraft are planned for induction to reach the target fleet of 5.",
+        "page": 24,
+        "speaker": "Company (AGM presentation)",
+        "confidence": "high",
+        "keyword": "target fleet of 5",
+        "revises": "Fourth and fifth operational before Q2 FY27 (Jun 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Boeing 777 freighters now a 'future' strategy",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Deck calls the 777 a 'proposed aircraft' not currently operated",
+        "quote": "Trunk-route capacity to connect Japan and Korea directly with India, and India directly with deep South and West Africa markets",
+        "page": 23,
+        "speaker": "Company (AGM presentation)",
+        "confidence": "medium",
+        "keyword": "Long-Haul Ambition",
+        "revises": "First 777 operating by Q4 FY27 (Jun 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Third aircraft's full quarter to lift utilisation from Q2",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "VT-AFJ inducted June 2026, 16% utilised in Q1",
+        "quote": "Full-quarter contribution from Q2 FY27 onwards is expected to lift fleet-average utilisation materially and expand the revenue base.",
+        "page": 13,
+        "speaker": "Company (AGM presentation)",
+        "confidence": "high",
+        "keyword": "Full-quarter contribution",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Convert charter relationships into contracted business",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Management is converting charter relationships into longer-term contracted business",
+        "page": 30,
+        "speaker": "Company (AGM presentation)",
+        "confidence": "high",
+        "keyword": "longer-term contracted business",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "From the September 2026 AGM presentation: Q1 FY27 total income rose 49% to ₹178 Cr with a 40.8% EBITDA margin and PAT of ₹39 Cr, below the war-boosted Q4 but 10% above Q3 FY26. The fleet is still three 737 freighters (the third only joined in June), the two more promised by Q2 are described as 'planned', and the Boeing 777s are now presented as a 'future' long-haul strategy for a Japan/Korea-India-Africa corridor. A ₹200 Cr QIP in May took money raised since listing to ~₹479 Cr; cash was ₹153 Cr at June.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Fourth and fifth 737s still 'planned' (promised before Q2)",
+          "page": 24
+        },
+        {
+          "change": "delayed",
+          "text": "Boeing 777s described as a future, 'proposed' aircraft",
+          "page": 26
+        },
+        {
+          "change": "new",
+          "text": "Corridor strategy: Japan/Korea/ASEAN to Africa via Chennai and Dubai",
+          "page": 21
+        },
+        {
+          "change": "new",
+          "text": "₹200 Cr QIP completed (May 2026)",
+          "page": 5
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "AFCOM's long-haul strategy is not aspirational geography, it is a distance the proposed aircraft type is built to fly.",
+        "page": 27
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Fleet expansion behind the timeline given in June; no new dates in the AGM deck.",
+          "page": 24
+        },
+        {
+          "text": "Much of the deck is industry statistics and an 'illustrative' route network rather than firm plans.",
+          "page": 27
+        },
+        {
+          "text": "Q1 revenue fell 8% from Q4 as war charters faded.",
+          "page": 11
+        },
+        {
+          "text": "Repeated equity raises (~₹479 Cr since 2024 listing).",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Revenue with three aircraft for a full quarter (Q2)",
+        "Dates for the fourth and fifth 737s and the first 777",
+        "EBITDA margin near 40%",
+        "Use of QIP money"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Cargo airline: three Boeing 737-800 freighters, regional network from Chennai to ASEAN, Maldives, Sri Lanka and Dubai",
+        "customers": "Global freight forwarders through GSSA TTK Group; interline airline partners",
+        "revenue_mix": "Q1 FY27 total income ₹178 Cr; yield ₹271/kg",
+        "demand_drivers": "Asia air cargo growth, India transshipment policy, freighter shortages"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee828fbc-7c13-4492-b00b-3d23f0b962c7.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee828fbc-7c13-4492-b00b-3d23f0b962c7.pdf",
+    "transcriptPages": 31,
+    "transcriptHasText": true
+  }
+}

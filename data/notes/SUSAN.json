@@ -1,0 +1,668 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Winding wires, conductors and power cables (BSE SME)",
+ "lede": "A Delhi-based maker of aluminium and copper winding wires, conductors and power cables that doubled revenue in FY26 and listed on BSE SME in 2026, riding India's power-distribution spending. Margins have risen from 2% to 12% in three years, but the business burns cash, leans on promoter loans and a promoter-group trading firm, and its first earnings call left more questions than answers.",
+ "market": {
+  "price": 301,
+  "mcap_cr": 612,
+  "pe": 24.4,
+  "pb": null,
+  "ev_ebitda": 21
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Revenue doubled to ₹269 Cr in FY26 and Q1 FY27 rose 279% to ₹95 Cr at a ~12% EBITDA margin; order book ₹142 Cr plus ₹150 Cr pipeline, and capacity rises 60% from February 2027 for only ₹15-20 Cr of capex."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow negative three years running (–₹10 Cr in FY26), debt/equity ~1.7x before the IPO, ₹17 Cr owed to small suppliers at year end, and purchases from a promoter-group firm jumped to ₹11 Cr. The edited call transcript contradicts itself on margins and product mix."
+  },
+  {
+   "lead": "Price",
+   "text": "~24x trailing earnings and ~21x EV/EBITDA, against Ram Ratna Wires at 46x and Diamond Power at 111x; cheaper, but much smaller and less proven."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Susan Electricals makes aluminium and copper winding wires (used in transformers and motors), aluminium conductors, and LT, HT and MVCC power cables, selling to state utilities and DISCOMs, EPC contractors such as Montecarlo and RVNL, and private buyers. Orders are mostly tender-based, with supply starting 45-60 days after order.",
+     "src": "Aug call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "7,500 → 12,000 km",
+       "label": "Annual cable capacity from Feb 2027"
+      },
+      {
+       "value": "₹142 Cr",
+       "label": "Unexecuted orders, June 2026 (≈3 months)"
+      },
+      {
+       "value": "~50:50",
+       "label": "Government/DISCOM vs private/EPC orders"
+      },
+      {
+       "value": "15-20%",
+       "label": "Expected win rate on ₹800-1,200 Cr of bids"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Moving from winding wires to higher-value HT and MVCC cables, which management says can earn ~20% at product level.",
+       "src": "Aug call p.6"
+      },
+      {
+       "lead": "",
+       "text": "Blended EBITDA margin ~12% in Q1 FY27, up from ~2% in FY23.",
+       "src": "Aug call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Aluminium price swings are handled through pricing, with little detail given.",
+       "src": "Aug call p.10"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue from ₹55 Cr (FY22) to ₹269 Cr (FY26); PAT from ₹0.8 Cr (FY24) to ₹18 Cr.",
+       "src": "Sep deck p.16"
+      },
+      {
+       "lead": "",
+       "text": "Listed on BSE SME in 2026; IPO money for capacity and working capital.",
+       "src": "AR p.15"
+      },
+      {
+       "lead": "",
+       "text": "Board reshuffled in late 2025: new whole-time directors, CFO and company secretary.",
+       "src": "AR p.80"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        55,
+        78,
+        103,
+        135,
+        269
+       ]
+      }
+     ],
+     "caption": "Q1 FY27 ₹95 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        0,
+        1,
+        1,
+        6,
+        18
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        0,
+        4,
+        -5,
+        -18,
+        -10
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "42%",
+        "32%",
+        "31%",
+        "99%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "2%",
+        "2%",
+        "4%",
+        "9%",
+        "12%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "0",
+        "1",
+        "1",
+        "6",
+        "18"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "11%",
+        "7%",
+        "12%",
+        "24%",
+        "37%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "0",
+        "4",
+        "–5",
+        "–18",
+        "–10"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "50",
+        "38",
+        "63",
+        "135",
+        "115"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Growth has consumed cash:",
+       "text": "₹26 Cr of profit since FY21 against –₹29 Cr of operating cash flow; borrowings rose to ₹67 Cr (1.7x equity) before the IPO.",
+       "src": null
+      },
+      {
+       "lead": "Small suppliers waiting:",
+       "text": "₹17 Cr owed to micro and small enterprises at March 2026, with interest accruing.",
+       "src": "AR p.83"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 28%,",
+       "text": "on ~₹75 Cr of capital added FY24-26, as margins rose sharply.",
+       "src": null
+      },
+      {
+       "lead": "Accounts under Indian GAAP (AS),",
+       "text": "with some sloppy figures in the related-party note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Capacity +60% from February 2027",
+        "Aug 26",
+        "'On track' in the September deck",
+        {
+         "text": "On track",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order book of ₹142 Cr executed in ~3 months",
+        "Aug 26",
+        "To be seen in Q2",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin ~12%, to hold or improve",
+        "Aug 26",
+        "Q1 FY27 11.9%",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Growth like the last 2-3 years, later 'multifold'",
+        "Aug / Sep 26",
+        "Q1 FY27 +279% YoY",
+        {
+         "text": "Ahead so far",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Susan has given only one earnings call since listing, so the record is short.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Jain family) hold 67.0%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 13.5%, foreign 2.1%; ~1,250 shareholders.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Purchases from promoter-group firm SMV Enterprises rose to ₹11.2 Cr (from ₹0.6 Cr), plus sales, rent and job work; AGM asked to approve these as material related-party transactions.",
+       "src": "AR p.81"
+      },
+      {
+       "lead": "",
+       "text": "Funded by promoter loans: CMD lent ₹9.2 Cr and was repaid ₹9.6 Cr during FY26; ₹4 Cr still outstanding.",
+       "src": "AR p.81"
+      },
+      {
+       "lead": "",
+       "text": "The 'transcript' is an edited summary with contradictory numbers; analysts asked for clearer disclosure.",
+       "src": "Aug call p.9"
+      },
+      {
+       "lead": "",
+       "text": "Modest pay: CMD ₹19.5 lakh in FY26.",
+       "src": "AR p.80"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Susan Electricals",
+        "269",
+        "12%",
+        "18",
+        "37%",
+        "24.4x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Ram Ratna Wires (winding wires)",
+        "5,177",
+        "5%",
+        "109",
+        "24%",
+        "46.0x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Diamond Power (conductors, cables)",
+        "1,910",
+        "12%",
+        "143",
+        "27%",
+        "111x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Large cable makers (Polycab, KEI, RR Kabel) dominate branded cables; Susan competes in utility tenders where price and approvals matter most.",
+     "src": "Aug call p.4"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Approved for utility tenders",
+       "text": "and EPC contractors; often L1/L2 on bids.",
+       "src": "Aug call p.4"
+      },
+      {
+       "lead": "Low-cost capacity additions:",
+       "text": "60% more capacity for ₹15-20 Cr.",
+       "src": "Aug call p.7"
+      },
+      {
+       "lead": "Strong demand",
+       "text": "from RDSS, reconductoring and grid expansion.",
+       "src": "Aug call p.3"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Commodity product:",
+       "text": "thin margins in winding wires and conductors; aluminium price swings.",
+       "src": "Aug call p.10"
+      },
+      {
+       "lead": "Government customers",
+       "text": "pay slowly and buy on price.",
+       "src": "Aug call p.4"
+      },
+      {
+       "lead": "Small scale and stretched balance sheet",
+       "text": "against much larger rivals.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Working capital and debt",
+        "Financial",
+        "OCF negative; MSME dues ₹17 Cr"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Related-party trading with SMV Enterprises",
+        "Governance",
+        "AGM approval sought"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Aluminium and copper price swings",
+        "Operational",
+        "Pass-through unclear"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Disclosure quality",
+        "Governance",
+        "Contradictory call figures"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹1,140 Cr",
+       "sub": "FY28 market cap · about +86%",
+       "text": "New capacity fills: ~₹650 Cr revenue in FY28 at a 7% net margin (₹46 Cr), valued at 25x."
+      },
+      {
+       "name": "Base",
+       "value": "₹600 Cr",
+       "sub": "FY28 market cap · about –2%",
+       "text": "~₹500 Cr revenue at a 6% margin (₹30 Cr), valued at 20x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹210 Cr",
+       "sub": "FY28 market cap · about –66%",
+       "text": "Utility orders slow and margins slip: ~₹350 Cr at 4% (₹14 Cr), valued at 15x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "24.4x",
+       "label": "P/E, trailing (Ram Ratna 46x)"
+      },
+      {
+       "value": "~21x",
+       "label": "EV / FY26 EBITDA"
+      },
+      {
+       "value": "~28%",
+       "label": "Return on incremental capital, FY24-26"
+      },
+      {
+       "value": "–₹10 Cr",
+       "label": "Operating cash flow, FY26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Susan is growing fast in a strong market and is cheaper than listed cable peers, but it is a small, cash-hungry, newly listed company with related-party trading and patchy disclosure. Treat the growth as unproven until cash flow turns positive and a second call gives consistent numbers.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 revenue as the order book is executed",
+  "Operating cash flow and MSME dues",
+  "Related-party purchases from SMV Enterprises",
+  "Share of HT/MVCC cables and margins",
+  "Capacity start in February 2027"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q1 FY27 concall transcript (14 Aug 2026) and SME Stars investor presentation (6 Sep 2026)",
+  "FY26 annual report (company website)",
+  "Peer data from Screener"
+ ]
+}

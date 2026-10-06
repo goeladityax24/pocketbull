@@ -1,0 +1,269 @@
+{
+  "symbol": "LTELEVATOR",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15584598-4179-4a5d-9a5b-b3760ff4c6c7.pdf",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T13:09:17.285Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-05-14",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth ~80%+",
+        "kind": "growth_yoy",
+        "low": 80,
+        "high": 80,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Includes Ricardo orders executed by L.T. from April (₹70-80 Cr order book); H1 usually ~40% of the year",
+        "quote": "The target is to grow roughly 80% plus this year.",
+        "page": 14,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "80% plus this year",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin similar to FY26 (~24%)",
+        "kind": "margin_pct",
+        "low": 24,
+        "high": 24,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Long-term blended ~25% (p.15); steel price rises being passed on",
+        "quote": "It's too early in the year. So similar to FY26, I would think.",
+        "page": 10,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "similar to FY26",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "FY27 mix: 35% B2C, 30-35% B2G, 30% B2B, 5% exports",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "FY27 we are targeting 35% from B2C, roughly 30% to 35% from B2G and about 30% from B2B.",
+        "page": 15,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "35% from B2C",
+        "revises": "B2C 50-60% by FY28 (Jan 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exit FY27 at 100+ home lifts a month",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We want to exit the financial year at 100 plus elevators per month from B2C alone.",
+        "page": 6,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "100 plus elevators per month",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "New plant ~₹25 Cr, commissioned by Q4 FY27",
+        "kind": "absolute",
+        "low": 25,
+        "high": 25,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "6.5-acre site two hours from Kolkata; capacity for ₹350-400 Cr revenue; move by March 2027",
+        "quote": "Roughly INR25 crores. Total cumulative. Yes.",
+        "page": 6,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "Roughly INR25 crores",
+        "revises": "New plant live Dec 2026-Mar 2027 (Jan 2026)"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "₹350-400 Cr revenue by FY28-29",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY28-FY29",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Full use of the new plant",
+        "quote": "The target is to get there by FY28, ‘29.",
+        "page": 10,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "FY28, ‘29",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "International car-parking acquisition before H1 ends",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Analyst asked if it would complete before H1 FY27 ends; target has patented technology and western approvals. In August the company signed to buy 66.45% of Dongyang PC (Korea) at US$2.85 a share",
+        "quote": "Most certainly, yes.",
+        "page": 18,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "medium",
+        "keyword": "Most certainly",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue roughly doubled to ₹112 Cr with PAT of ₹17 Cr, driven by government car-parking projects in the North-East (Shillong Smart City) and elevators, but operating cash flow was –₹17 Cr as government payments slowed. Management targets ~80%+ growth in FY27 as L.T. now executes Ricardo's home-lift orders (₹70-80 Cr order book, merger filing end-May) on top of a ₹250 Cr order book, with EBITDA margin similar to FY26's ~24%, and is building a new plant (~₹25 Cr) for ₹350-400 Cr of revenue by March 2027. It is also in talks to buy an international car-parking technology company.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 revenue growth target ~80%+",
+          "page": 14
+        },
+        {
+          "change": "cut",
+          "text": "B2C share target for FY27 set at ~35% (Jan call talked of 50-60% by FY28)",
+          "page": 15
+        },
+        {
+          "change": "reiterated",
+          "text": "New plant for ₹350-400 Cr revenue by Q4 FY27",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "Exports started: Malaysia and Australia under the Ricardo brand at ~50% higher prices",
+          "page": 16
+        },
+        {
+          "change": "new",
+          "text": "Exploring an international car-parking acquisition",
+          "page": 18
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We feel that now we are just at the starting line and the best is going to come in the years ahead.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Capacity bottleneck before the new plant",
+          "answer": "Outsourcing some processes, extra machines and a rented shed; must exceed the ₹150-160 Cr capacity.",
+          "page": 12
+        },
+        {
+          "topic": "Goodwill impairment ₹7 Cr and 17x jump in other current assets",
+          "answer": "CFO absent; could not answer.",
+          "page": 11
+        },
+        {
+          "topic": "Government receivables",
+          "answer": "Bills take 3-4 months to clear; March payments slipped into April.",
+          "page": 7
+        },
+        {
+          "topic": "Steel prices",
+          "answer": "Prices raised from April; escalation clauses on government contracts.",
+          "page": 10
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Could not explain a ₹7 Cr goodwill impairment or a 17x rise in other current assets; CFO absent.",
+          "page": 11
+        },
+        {
+          "text": "Results were re-uploaded because of errors.",
+          "page": 13
+        },
+        {
+          "text": "Operating cash flow negative for three years; slow government payments.",
+          "page": 7
+        },
+        {
+          "text": "Ricardo orders executed before the merger is approved ('at arm's length').",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue (normally ~40% of the year) vs ~80% growth",
+        "Ricardo merger approval and dilution",
+        "Korean acquisition closing",
+        "Receivables and operating cash flow",
+        "New plant by March 2027"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Elevators (passenger, home and goods) and mechanised car-parking systems",
+        "customers": "Government smart-city projects (Shillong and other North-East states), large developers (Tata Realty, Godrej), homeowners via Ricardo, export partners in Malaysia and Australia",
+        "revenue_mix": "FY26: B2G ~43-44%, B2B ~56%, B2C negligible; order book ₹250 Cr (elevators 55%, parking 45%) plus ₹70-80 Cr Ricardo",
+        "demand_drivers": "Home lifts in independent houses, urban parking shortage, smart-city projects, South-East Asian exports"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15584598-4179-4a5d-9a5b-b3760ff4c6c7.pdf",
+    "pptUrl": null,
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

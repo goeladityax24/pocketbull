@@ -1,0 +1,242 @@
+{
+  "symbol": "LTELEVATOR",
+  "concall": {
+    "month": "Jan 2026",
+    "yearMonth": "2026-01",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1aae577-c39e-48dd-b62f-74c37299a32d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3dacd80-4eb7-4f4b-af3c-4db3f4b68df5.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T13:09:16.879Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY26",
+    "call_date": "2026-01-19",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Home-lift (B2C) share of revenue 50-60% by FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Via the Ricardo Elevators merger; B2C customers pay 95-100% before dispatch",
+        "quote": "50%, 60% mix, maybe in 2028 is when it should certainly happen.",
+        "page": 9,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "50%, 60% mix",
+        "revises": null
+      },
+      {
+        "metric": "pat_margin",
+        "metric_label": "Net margin 13-16% in elevators and parking",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 16,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, both businesses between 13% to 15%, 16% is the net margin one should expect and both businesses are quite similar.",
+        "page": 9,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "medium",
+        "keyword": "13% to 15%, 16%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New plant live between Dec 2026 and Mar 2027",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Built for ₹300-400 Cr of revenue; current plant tops out at ₹170-180 Cr",
+        "quote": "So, it will go live between December this year to March next year, so in another 12 months roughly.",
+        "page": 15,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "December this year to March",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Make ~2,000 elevators in FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Johnson Lifts, India's largest, makes 11,000-12,000 a year",
+        "quote": "So, in FY28 now we probably have to produce around 2,000 elevators.",
+        "page": 14,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "around 2,000 elevators",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ricardo merger dilution 2-3%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "merger filing after March 2026 results",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Ricardo shares locked for 3-4 years",
+        "quote": "So, we are talking between 2-3% dilution for L.T. Elevator shareholders.",
+        "page": 6,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "2-3% dilution",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Preferential issue to fund bigger capex",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "when markets improve",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Yes, we would probably look to do a preferential once the markets are slightly better because right now the way the markets are it would be difficult to raise the money we want to.",
+        "page": 14,
+        "speaker": "Yash Gupta (Director)",
+        "confidence": "high",
+        "keyword": "do a preferential",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "L.T. Elevator's first call after its September 2025 BSE SME listing was about merging Ricardo Elevators, a two-year-old Hyderabad direct-to-consumer home-lift brand that wins 50-60 orders a month through Meta ads (₹46 Cr order book, growing 15-20% a month), for a 2-3% equity dilution. L.T. would make and install the lifts; management expects home lifts (paid fully in advance) to reach 50-60% of revenue by FY28 and plans a new plant for ₹300-400 Cr of revenue by March 2027, possibly funded by a preferential issue. Net margins of 13-16% are expected across elevators and car parking.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Merger with Ricardo Elevators (D2C home lifts) for 2-3% dilution",
+          "page": 6
+        },
+        {
+          "change": "new",
+          "text": "B2C to reach 50-60% of revenue by FY28",
+          "page": 9
+        },
+        {
+          "change": "new",
+          "text": "New plant for ₹300-400 Cr revenue, live Dec 2026-Mar 2027",
+          "page": 15
+        },
+        {
+          "change": "new",
+          "text": "Likely preferential issue to fund a larger capex",
+          "page": 14
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "So, this is a space which is completely new. It is going to grow very significantly, and we felt that it still gives us an early-mover advantage to try and capture this.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Ricardo's scale",
+          "answer": "FY25 revenue ~₹5.5 Cr; now 50-60 orders a month (₹10-11 lakh each), 2,000-2,500 enquiries a month, 2% conversion.",
+          "page": 5
+        },
+        {
+          "topic": "Margins",
+          "answer": "B2C could earn ~5 points more than B2B if selling costs stay within 12.5%; Ricardo itself ~8-10% net in FY26.",
+          "page": 13
+        },
+        {
+          "topic": "Working capital in government work",
+          "answer": "B2C advances offset slow government payments.",
+          "page": 9
+        },
+        {
+          "topic": "Competition",
+          "answer": "Nibav (Chennai, ~₹350-400 Cr) pioneered D2C home lifts; Ricardo is the second-largest by orders.",
+          "page": 16
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Ricardo relied on outsourced vendors and had delivery and service problems.",
+          "page": 6
+        },
+        {
+          "text": "Possible equity raise soon after the IPO to fund a bigger plant.",
+          "page": 14
+        },
+        {
+          "text": "Cash conversion is weak: government projects pay slowly.",
+          "page": 9
+        },
+        {
+          "text": "Merger terms not final; based on March 2026 numbers.",
+          "page": 6
+        }
+      ],
+      "watch_next": [
+        "H2 FY26 results (H2 is ~60% of the year)",
+        "Ricardo merger filing and terms",
+        "New plant progress",
+        "Monthly B2C order run-rate"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Passenger and goods elevators and mechanised multi-level car parking systems (Park Smart), made in Kolkata; now home lifts via Ricardo",
+        "customers": "Real-estate developers (incl. Tata Realty, Godrej), government smart-city projects in East and North-East India, and homeowners (B2C)",
+        "revenue_mix": "FY26: B2G ~43-44%, B2B the rest; B2C negligible",
+        "demand_drivers": "Urban housing and builder floors, smart-city parking projects, D2C digital marketing"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1aae577-c39e-48dd-b62f-74c37299a32d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3dacd80-4eb7-4f4b-af3c-4db3f4b68df5.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

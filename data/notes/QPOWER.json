@@ -1,0 +1,698 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "HVDC reactors, instrument transformers and grid power electronics",
+ "lede": "A Sangli maker of reactors and coils for HVDC and grid projects that tripled its revenue in a year by buying control of Mehru (instrument transformers) and Endoks (Turkish power electronics and battery storage). Orders are strong and margins high, but a third of profit belongs to minority partners, a big new plant is late, and the stock trades near 96x earnings.",
+ "market": {
+  "price": 1649,
+  "mcap_cr": 12749,
+  "pe": 95.6,
+  "pb": 23.6,
+  "ev_ebitda": 69
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue ₹1,007 Cr (company figure) against ₹800 Cr guided at the start of the year, at a 23.5% EBITDA margin; Q1 FY27 margin 25% and the order book jumped to ₹1,945 Cr (1.9x revenue). Debt-free with ~₹250 Cr cash at March."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Endoks and Mehru are only 51% owned: ₹186 Cr consolidated profit in FY26, but ~₹121 Cr (EPS ₹15.67) for Quality Power shareholders. Profit swings with Turkish hyperinflation accounting, the Sangli plant has slipped, and another raise of under ₹500 Cr is planned for acquisitions."
+  },
+  {
+   "lead": "Price",
+   "text": "~96x trailing earnings and ~69x EV/EBITDA, against 34x for Voltamp, 33x for Transformers & Rectifiers and 118x for Hitachi Energy India."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Quality Power makes air-core reactors, coils and line traps used in HVDC links, FACTS and grid connections, mostly for global OEMs such as Hitachi Energy, Siemens and GE, and exports most of its output. Through 51% stakes it owns Mehru (high-voltage instrument transformers, supplying about one in two used in India) and Endoks in Turkey (STATCOMs, SVCs and now battery-storage power conversion systems). Sukrut (transformer components) is a 50% associate.",
+     "src": "May call p.24"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,945 Cr",
+       "label": "Order book, June 2026 (1.9x FY26 revenue)"
+      },
+      {
+       "value": "₹468 / 318 / 246 Cr",
+       "label": "FY26 revenue: Endoks / Mehru / Quality Power"
+      },
+      {
+       "value": "51%",
+       "label": "Stake in Endoks and in Mehru"
+      },
+      {
+       "value": "₹1,500-1,800 Cr",
+       "label": "Peak revenue of the new Sangli plant"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Coil products earn the highest margins: Quality Power EBIT 33% in FY26, orders booked above 25%.",
+       "src": "May call p.19"
+      },
+      {
+       "lead": "",
+       "text": "Endoks ~32% EBITDA in Turkish lira terms; battery-storage converters start at 10-12% and should rise to 17-18% with volume.",
+       "src": "May call p.10"
+      },
+      {
+       "lead": "",
+       "text": "Mehru 15% EBIT in FY26, guided to ~18%.",
+       "src": "Aug call p.12"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "IPO in February 2025; revenue from ₹183 Cr (FY22) to ₹947 Cr (FY26, Screener).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Bought 51% of Mehru (March 2025); Endoks consolidated as a 51% step-down subsidiary.",
+       "src": "AR p.195"
+      },
+      {
+       "lead": "",
+       "text": "Building a new Sangli coil plant, a CTC magnet-wire line and a PCS factory in Turkey; acquiring Winwin (ex-WS) Insulators at an EV of ~₹315 Cr.",
+       "src": "Aug call p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        183,
+        253,
+        302,
+        338,
+        947
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹1,003 Cr. FY26 includes Mehru and Endoks for the full year."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        42,
+        40,
+        55,
+        100,
+        186
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        9,
+        44,
+        52,
+        55,
+        80
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "38%",
+        "19%",
+        "12%",
+        "180%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "13%",
+        "13%",
+        "13%",
+        "20%",
+        "19%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr (incl. minorities)",
+        "42",
+        "40",
+        "55",
+        "100",
+        "186"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "28%",
+        "31%",
+        "28%",
+        "32%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "9",
+        "44",
+        "52",
+        "55",
+        "80"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "154",
+        "82",
+        "23",
+        "166",
+        "63"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Minority interests matter:",
+       "text": "FY26 EPS ₹15.67 implies ~₹121 Cr for shareholders out of ₹186 Cr consolidated profit; the rest belongs to partners in Endoks and Mehru.",
+       "src": null
+      },
+      {
+       "lead": "Cash lags profit:",
+       "text": "₹240 Cr of operating cash flow against ₹423 Cr of profit over FY22-26; other income (interest, forex) was ₹58 Cr in FY26, about a quarter of pre-tax profit.",
+       "src": null
+      },
+      {
+       "lead": "Balance sheet is light:",
+       "text": "borrowings ₹40 Cr against ₹542 Cr of equity; interest cover above 30x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 30%.",
+       "text": "Capital employed rose ~₹391 Cr from FY24 to FY26 (IPO and acquisitions) and post-tax operating profit rose ~₹118 Cr, before minority shares.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "~₹800 Cr revenue in FY26, later raised to ₹900 Cr at ~22% EBITDA",
+        "FY26",
+        "₹1,007 Cr at 23.5%",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "15-20% revenue growth in FY27",
+        "May 26",
+        "Q1 FY27 +32% YoY (Screener)",
+        {
+         "text": "Ahead so far",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margins may dip a couple of points in Q1-Q2",
+        "May 26",
+        "Q1 FY27 EBITDA 25.2% (28.3% before Ind AS 29)",
+        {
+         "text": "Better",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order book ₹1,500-1,800 Cr by start of FY28",
+        "May 26",
+        "₹1,945 Cr at June 2026",
+        {
+         "text": "Already passed",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New Sangli plant trial production by June, then July-August",
+        "FY26 / May 26",
+        "Trial in August; revenue only from Q3, meaningful in Q4",
+        {
+         "text": "Delayed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "US$60-80 Mn of battery-storage converter orders this year",
+        "May 26",
+        "~US$60 Mn in hand by August",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Pandyan family) hold 73.9%, unchanged; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions 3.4%, domestic institutions 6.5%; shareholders up to 85,700 from 58,100 a year ago.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Promoters waived dividends and pay rises for a second year ahead of the planned fund-raise.",
+       "src": "May call p.3"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged contract-asset balances (revenue recognised before billing) as a key audit matter.",
+       "src": "AR p.120"
+      },
+      {
+       "lead": "",
+       "text": "Group companies trade with each other (e.g. purchases from a wholly owned projects subsidiary), approved under shareholder limits.",
+       "src": "AR p.73"
+      },
+      {
+       "lead": "",
+       "text": "Some Endoks directors own stakes in Inavitas, a related software company.",
+       "src": "Aug call p.21"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Quality Power",
+        "947",
+        "19%",
+        "186",
+        "32%",
+        "95.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Hitachi Energy India",
+        "8,148",
+        "16%",
+        "988",
+        "29%",
+        "118x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Transformers & Rectifiers",
+        "2,507",
+        "15%",
+        "272",
+        "23%",
+        "32.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Voltamp Transformers",
+        "2,154",
+        "16%",
+        "305",
+        "24%",
+        "33.6x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Its nearest global rivals are Trench (reactors) and Arteche (instrument transformers); Hitachi, Siemens and GE are mostly customers, not competitors.",
+     "src": "May call p.12"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Niche, qualified products:",
+       "text": "HVDC reactors and instrument transformers need years of type tests and customer audits.",
+       "src": "Aug call p.14"
+      },
+      {
+       "lead": "Complements the giants:",
+       "text": "supplies parts they don't make, so global OEMs buy rather than compete.",
+       "src": "May call p.24"
+      },
+      {
+       "lead": "Low-cost bases in India and Turkey",
+       "text": "for exports to Europe and the US.",
+       "src": "May call p.18"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Supply chain:",
+       "text": "insulators (18-24 month lead times), CTC cable and IGBTs cap how much it can deliver.",
+       "src": "May call p.16"
+      },
+      {
+       "lead": "Acquisition-led growth:",
+       "text": "three deals in two years, each needing integration and a turnaround.",
+       "src": "Aug call p.19"
+      },
+      {
+       "lead": "Battery-storage converters",
+       "text": "compete with Chinese suppliers at thin margins.",
+       "src": "May call p.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Sangli plant audits take longer",
+        "Operational",
+        "~60 customer audits; revenue from Q3"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Turkish lira and hyperinflation accounting",
+        "Financial",
+        "₹25.7 Cr charge in Q4 FY26, ₹7.8 Cr in Q1 FY27"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Equity dilution for acquisitions",
+        "Financial",
+        "Raise of under ₹500 Cr planned"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Commodity costs on fixed-price orders",
+        "Operational",
+        "Q3 standalone margin warning"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹15,100 Cr",
+       "sub": "FY28 market cap · about +18%",
+       "text": "Guidance met plus Winwin: revenue ~₹1,800 Cr in FY28, 14% of revenue reaching shareholders after minorities (₹252 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹9,700 Cr",
+       "sub": "FY28 market cap · about –24%",
+       "text": "20% then ~40% growth to ~₹1,550 Cr, 12.5% to shareholders (₹194 Cr), valued at 50x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹4,800 Cr",
+       "sub": "FY28 market cap · about –62%",
+       "text": "Sangli slow and margins slip: ~₹1,250 Cr revenue, 11% to shareholders (₹138 Cr), valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "95.6x",
+       "label": "P/E, trailing, on shareholders' profit (Voltamp 34x)"
+      },
+      {
+       "value": "~69x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "23.6x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~30%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Management has beaten its own guidance and holds a strong order book in a scarce niche. But the price assumes FY28's 50% growth arrives on time, a big plant ramps smoothly, and acquisitions keep paying off; a third of group profit also goes to minority partners. The margin for error is thin.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 revenue growth vs ~20% and EBITDA margin vs 20%",
+  "Sangli commercial production and customer audits",
+  "Size and price of the fund-raise; Winwin closing",
+  "Ind AS 29 charges at Endoks",
+  "Profit attributable to shareholders vs consolidated"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 (14 May 2026) and Q1 FY27 (10 Aug 2026) concall transcripts",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

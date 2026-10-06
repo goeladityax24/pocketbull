@@ -1,0 +1,332 @@
+{
+  "symbol": "SANSERA",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77f7cc20-4d72-40a6-abb9-646324dde54e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc9009a4-0863-4c4a-b2e6-2f97d9dc8c13.pdf",
+    "recordingUrl": "https://sansera.in/wp-content/uploads/2026/08/10045973.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T12:57:58.850Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-13",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "High-teens revenue growth",
+        "kind": "growth_yoy",
+        "low": 16,
+        "high": 19,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Later on the call: 'between high-teens to 20%' if momentum holds (p.10)",
+        "quote": "With this, we expect to end FY27 with high-teens top-line growth with continuous focus on improving margin profile.",
+        "page": 3,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "high-teens top-line growth",
+        "revises": "Similar growth trajectory (May 2026)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin inching toward 19%",
+        "kind": "margin_pct",
+        "low": 19,
+        "high": 19,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q1 at 19.2% helped by exports mix and forex",
+        "quote": "But otherwise, we have maintained in the beginning of our year that last year, our overall margin was 18.1%, and we would be more happier that if we are able to inch towards 19%.",
+        "page": 11,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "inch towards 19%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "ADS growth ~75-80%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "ADS",
+        "condition": "Presentation keeps FY27 ADS guidance at ₹550-600 Cr",
+        "quote": "I can only answer to the current years, which I said that we will be very close to high-teens to 20%, considering our growth, which will be about 75%-80% in ADS.",
+        "page": 10,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "75%-80% in ADS",
+        "revises": "ADS ~₹550-600 Cr (May 2026)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "ADS and exports margin 25-30%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as utilisation improves",
+        "basis": "segment",
+        "segment": "ADS and exports",
+        "condition": null,
+        "quote": "I don't want to put a figure into it, but then definitely this would be between 25% and 30% margins.",
+        "page": 11,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "between 25% and 30%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "ADS capacity for ~₹3,500 Cr by FY31",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by FY31",
+        "basis": "segment",
+        "segment": "ADS",
+        "condition": "ADS backlog ₹5,700 Cr executable by FY31 after a ~₹1,250 Cr semicon order in Q2",
+        "quote": "So overall, by FY '31, our base plan as per the current visibility is to create a facility which will -- through which we can generate a revenue of about INR3,500 crores.",
+        "page": 8,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "INR3,500 crores",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "₹8,000-9,000 Cr revenue by FY31",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by FY31",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "Probably by end of decade is what we said that we will have an opportunity to look at overall revenue of about INR8,000 crore to INR 9,000 crore.",
+        "page": 14,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "INR8,000 crore to INR 9,000",
+        "revises": "₹8,000-9,000 Cr by end of decade (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "New semicon order: revenue from CY2027, peak CY2029",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "CY2027-CY2029",
+        "basis": "segment",
+        "segment": "ADS (semicon)",
+        "condition": null,
+        "quote": "Taking that into account, we would start seeing revenues in this new order, significant revenues, calendar year 2027, and it will peak calendar year 2029.",
+        "page": 13,
+        "speaker": "Hari Krishnan (CEO, ADS)",
+        "confidence": "high",
+        "keyword": "calendar year 2027",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New ADS and auto capacity from Q3, done within a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "The project that I mentioned on both ADS and auto sites will come on stream beginning of Q3 FY27 onwards, and we will get it completed within a year from now.",
+        "page": 5,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "beginning of Q3 FY27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No fund-raise needed for now",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "near term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Inorganic opportunities in non-auto being watched",
+        "quote": "As far as our fund requirement are concerned, currently, we keep monitoring our cash flows and we don't think at this moment it is necessary for us to look at any additional fundraise.",
+        "page": 15,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "additional fundraise",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Energy-storage revenue from Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Energy storage (North American customer)",
+        "condition": null,
+        "quote": "That should also start giving us sustained revenues from Q3.",
+        "page": 7,
+        "speaker": "B.R. Preetham (ED & Group CEO)",
+        "confidence": "high",
+        "keyword": "sustained revenues from Q3",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 consolidated revenue rose 33% to a record ₹1,021 Cr with a 19.2% EBITDA margin; non-auto sales more than doubled to ₹200 Cr (21% of sales) and ADS revenue more than tripled to ₹145 Cr. A ~₹1,250 Cr semiconductor-equipment order after the quarter lifted the ADS backlog to ~₹5,700 Cr executable by FY31, and management guided high-teens to 20% growth with margins inching toward 19%. A ₹17 Cr US litigation settlement and a ₹13 Cr provision for US tariff duty hit the quarter.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 growth now high-teens to 20% (from 'similar trajectory')",
+          "page": 10
+        },
+        {
+          "change": "raised",
+          "text": "ADS backlog up to ~₹5,700 Cr after a ~₹1,250 Cr semicon order",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "ADS capacity plan for ~₹3,500 Cr revenue by FY31",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "Dedicated defence facility and entry into sheet metal",
+          "page": 13
+        },
+        {
+          "change": "new",
+          "text": "US litigation settled for ₹17 Cr (exceptional)",
+          "page": 5
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "I think, overall, if you see our non-ADS business, all other businesses put together, non-ADS business itself, we should be able to look at a mid-teen kind of growth easily.",
+        "page": 10
+      },
+      "analyst_questions": [
+        {
+          "topic": "Is 20%+ growth possible?",
+          "answer": "High-teens to 20% this year with ADS up 75-80%; too early to promise 20%+ for FY27-29.",
+          "page": 11
+        },
+        {
+          "topic": "Margin benchmark",
+          "answer": "Q1 helped by 40% international mix and forex; aims to inch toward 19%; ADS and exports earn 25-30%.",
+          "page": 11
+        },
+        {
+          "topic": "Raw material pass-through",
+          "answer": "Steel and labour cost claims with customers in progress, nothing booked yet; forex gave cushion.",
+          "page": 10
+        },
+        {
+          "topic": "ADS revenue next year",
+          "answer": "Not ₹1,500 Cr next year; ramp depends on machine arrivals and validations; guidance at year-end.",
+          "page": 15
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "₹12.6 Cr provision for US tariff duty from last year that may not be recovered.",
+          "page": 5
+        },
+        {
+          "text": "Q1 margin flattered by forex and export mix; cost pass-through not yet received.",
+          "page": 10
+        },
+        {
+          "text": "Supply-chain strain from strong demand; forging and heat-treatment expansion takes 18-24 months.",
+          "page": 11
+        },
+        {
+          "text": "Mother-machine lead times (7-9 months) limit how fast ADS can scale.",
+          "page": 13
+        }
+      ],
+      "watch_next": [
+        "Q2 growth vs high-teens to 20% for the year",
+        "EBITDA margin near 19% once forex gains fade",
+        "ADS revenue run-rate vs ₹550-600 Cr",
+        "Recovery of US tariff duty and steel pass-through",
+        "Capex and free cash flow"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Crankshafts, connecting rods and other precision engine/chassis parts; xEV parts; machined aerospace, semiconductor-equipment and defence components",
+        "customers": "Indian two-wheeler and PV OEMs, global PV and off-road OEMs, Boeing/Airbus supply chain, a large aero-engine maker, semiconductor-equipment makers",
+        "revenue_mix": "Q1 FY27: auto ICE 65%, tech-agnostic/xEV 14%, non-auto 21% (ADS ₹145 Cr); India 60%, international 40%",
+        "demand_drivers": "Domestic auto demand and OEM outsourcing, aircraft build rates, AI-led semiconductor equipment, energy storage"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77f7cc20-4d72-40a6-abb9-646324dde54e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc9009a4-0863-4c4a-b2e6-2f97d9dc8c13.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

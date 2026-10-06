@@ -1,0 +1,698 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Elevators, home lifts and mechanised car parking (BSE SME)",
+ "lede": "A Kolkata maker of elevators and mechanised car-parking systems that doubled revenue in its listing year on government parking projects, and is now remaking itself as a national home-lift brand by merging Ricardo Elevators and buying a Korean parking-technology firm. Growth targets are bold (80%+ this year) but cash flow is negative and the company is small and thinly disclosed.",
+ "market": {
+  "price": 322,
+  "mcap_cr": 684,
+  "pe": 40.2,
+  "pb": 6.7,
+  "ev_ebitda": 26
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue doubled to ₹112 Cr with a 24% EBITDA margin and ₹17 Cr PAT; order book ₹250 Cr plus ₹70-80 Cr of Ricardo home-lift orders, which are paid largely in advance. A new plant for ₹350-400 Cr of revenue is due by March 2027, and a Korean parking-technology company (Dongyang PC, 35 countries) is being acquired."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Operating cash flow was –₹17 Cr in FY26 and negative for three years as government bills take 3-4 months; working capital ~315 days. On the May call management could not explain a ₹7 Cr goodwill impairment, results were re-uploaded with errors, and two promoter directors take ~₹2 Cr in pay on ₹17 Cr of profit."
+  },
+  {
+   "lead": "Price",
+   "text": "~40x trailing earnings and ~26x EV/EBITDA; there is no listed Indian elevator peer (Otis India delisted), and SME engineering peers trade at 48-64x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "L.T. Elevator designs, makes and installs passenger, goods and home elevators, and through its subsidiary Park Smart builds mechanised multi-level car parking, mainly for government smart-city projects and developers in East and North-East India. In 2026 it began executing orders for Ricardo Elevators, a Hyderabad direct-to-consumer home-lift brand that sells through Meta ads and 21 experience centres, ahead of a share-swap merger.",
+     "src": "May call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹250 Cr",
+       "label": "Order book, March 2026 (55% elevators, 45% parking)"
+      },
+      {
+       "value": "₹70-80 Cr",
+       "label": "Ricardo home-lift order book"
+      },
+      {
+       "value": "~35%",
+       "label": "Targeted B2C share of FY27 revenue"
+      },
+      {
+       "value": "2,000+",
+       "label": "Elevators a year capacity after the new plant"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Home lifts sell at ₹10-11 lakh with ~58-60% gross margin vs ~50% for B2B and government work.",
+       "src": "May call p.4"
+      },
+      {
+       "lead": "",
+       "text": "B2C customers pay ~50% before production and 90% before dispatch; government pays on milestones, 3-4 months after billing.",
+       "src": "May call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Government parking projects carry higher margins and are billed mostly in H2.",
+       "src": "May call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed on BSE SME in September 2025; revenue from ₹25 Cr (FY22) to ₹112 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Ricardo merger by share swap: ~4.6 lakh new shares (~2.4% dilution).",
+       "src": "AR p.8"
+      },
+      {
+       "lead": "",
+       "text": "Signed to buy 66.45% of Dongyang PC (Seoul) at US$2.85 a share, rising to 100% after a buyback; expected to add ~₹30 Cr revenue in the rest of FY27.",
+       "src": "Aug deck p.8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        25,
+        34,
+        40,
+        55,
+        111
+       ]
+      }
+     ],
+     "caption": "Half-yearly reporter; H2 is usually ~60% of the year."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        0,
+        1,
+        3,
+        7,
+        17
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        4,
+        3,
+        -3,
+        -4,
+        -17
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "36%",
+        "18%",
+        "38%",
+        "102%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "7%",
+        "11%",
+        "17%",
+        "23%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "0",
+        "1",
+        "3",
+        "7",
+        "17"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "5%",
+        "15%",
+        "27%",
+        "27%",
+        "30%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "4",
+        "3",
+        "–3",
+        "–4",
+        "–17"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "224",
+        "141",
+        "221",
+        "520",
+        "315"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not turned into cash:",
+       "text": "₹28 Cr of profit over FY22-26 against –₹17 Cr of operating cash flow; the IPO money funded working capital.",
+       "src": null
+      },
+      {
+       "lead": "Low debt after the IPO:",
+       "text": "borrowings ₹20 Cr against ₹92 Cr of equity (0.22x); interest cover ~9x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 16%,",
+       "text": "on ~₹87 Cr of capital added FY24-26, much of it IPO cash and receivables.",
+       "src": null
+      },
+      {
+       "lead": "Margins swing by half-year",
+       "text": "(13% in H1 FY25, 34% in H2 FY25) with the timing of government billing.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Net margin of 13-16%",
+        "Jan 26",
+        "FY26 15.3%",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Merger filing after March 2026 results",
+        "Jan 26",
+        "Share-swap resolution put to the 2026 AGM",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "International car-parking acquisition before H1 FY27 ends",
+        "May 26",
+        "Share purchase agreement for Dongyang PC signed in August",
+        {
+         "text": "Signed",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "~80%+ revenue growth in FY27",
+        "May 26",
+        "H1 FY27 results not yet out",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New plant live by March 2027",
+        "Jan / May 26",
+        "Construction under way",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Home lifts 50-60% of revenue by FY28",
+        "Jan 26",
+        "FY27 target set at ~35%",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Gupta family holds 56.8%, down from 62.9% after new shares; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 13.0%; only ~1,200 shareholders (SME lot sizes).",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "MD Arvind Gupta paid ₹1.17 Cr (82x median employee) and whole-time director Usha Gupta ₹0.85 Cr (59x), together ~12% of FY26 profit.",
+       "src": "AR p.54"
+      },
+      {
+       "lead": "",
+       "text": "Could not explain a ₹7 Cr goodwill impairment or a 17x rise in other current assets on the results call; CFO absent.",
+       "src": "May call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Results were uploaded more than once to fix errors.",
+       "src": "May call p.13"
+      },
+      {
+       "lead": "",
+       "text": "Ricardo orders executed by L.T. 'at arm's length' before the merger is approved.",
+       "src": "May call p.11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "L.T. Elevator",
+        "111",
+        "24%",
+        "17",
+        "30%",
+        "40.2x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Vivid Electromech (SME panels)",
+        "200",
+        "23%",
+        "32",
+        "59%",
+        "48.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Shree Refrigerations (SME naval HVAC)",
+        "154",
+        "21%",
+        "22",
+        "14%",
+        "64.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ICE Make Refrigeration",
+        "668",
+        "7%",
+        "12",
+        "12%",
+        "95.7x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "There is no listed Indian elevator or parking peer; the market is led by Otis, Kone, Schindler, TK Elevator and Johnson Lifts, and home lifts by Nibav (~₹350-400 Cr). The table compares other small listed engineering firms.",
+     "src": "Jan call p.16"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "In-house manufacturing",
+       "text": "where most regional and D2C players buy kits.",
+       "src": "May call p.9"
+      },
+      {
+       "lead": "A digital sales engine:",
+       "text": "Ricardo generates 2,000-2,500 enquiries a month at low ad spend.",
+       "src": "Jan call p.4"
+      },
+      {
+       "lead": "Government parking credentials",
+       "text": "in the North-East, now extending to West Bengal.",
+       "src": "May call p.5"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Scale:",
+       "text": "tiny against MNC elevator makers; brand still being built.",
+       "src": "Jan call p.11"
+      },
+      {
+       "lead": "Government dependence:",
+       "text": "slow payments and lumpy billing.",
+       "src": "May call p.7"
+      },
+      {
+       "lead": "Execution risk:",
+       "text": "a merger, an overseas acquisition and a plant move in one year.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Receivables from government projects",
+        "Financial",
+        "Bills take 3-4 months; OCF negative"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Integrating Ricardo and Dongyang PC",
+        "Operational",
+        "Merger and acquisition pending"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capacity squeeze before the new plant",
+        "Operational",
+        "Outsourcing and rented shed in use"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Disclosure quality",
+        "Governance",
+        "Unanswered accounting questions"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹2,000 Cr",
+       "sub": "FY28 market cap · about +190%",
+       "text": "Home lifts and parking scale: ~₹380 Cr revenue in FY28 at a 15% net margin (₹57 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹840 Cr",
+       "sub": "FY28 market cap · about +23%",
+       "text": "Growth slows after FY27: ~₹250 Cr revenue at a 12% margin (₹30 Cr), valued at 28x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹290 Cr",
+       "sub": "FY28 market cap · about –58%",
+       "text": "Working capital and integration bite: ~₹160 Cr revenue at a 9% margin (₹14 Cr), valued at 20x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "40.2x",
+       "label": "P/E, trailing"
+      },
+      {
+       "value": "~26x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "6.7x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~16%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A small company with genuine growth levers: home lifts sold digitally, government parking and a Korean technology buy. The price assumes much of that growth arrives, while cash generation and disclosure lag. Wait for H1 FY27 to show whether the 80% growth target and B2C advances are improving cash flow.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue vs ~80% growth target",
+  "Operating cash flow and receivable days",
+  "Ricardo merger approval and Dongyang PC closing",
+  "New plant by March 2027",
+  "Answers on goodwill impairment and other current assets"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Investor call (19 Jan 2026), H2 FY26 call (14 May 2026) and Dongyang PC acquisition deck (4 Aug 2026)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

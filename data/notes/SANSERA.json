@@ -1,0 +1,704 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Precision engine parts plus aerospace and semiconductor machining",
+ "lede": "A Bengaluru maker of crankshafts and connecting rods for two-wheelers and cars that is turning into an aerospace and semiconductor-equipment machinist. Its ADS business tripled in a year and has a ₹5,700 Cr backlog, while the auto core keeps growing in the mid-teens. Returns on capital are still middling and the stock trades at 76x standalone earnings.",
+ "market": {
+  "price": 4233,
+  "mcap_cr": 26395,
+  "pe": 75.7,
+  "pb": 8.6,
+  "ev_ebitda": 42
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q1 FY27 consolidated revenue +33% to a record ₹1,021 Cr at a 19.2% EBITDA margin; ADS (aerospace, defence, semiconductor) revenue more than tripled, and a ~₹1,250 Cr semicon order took the ADS backlog to ~₹5,700 Cr. Net debt is low after a ₹1,200 Cr QIP in 2024."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "ROCE has stayed at 13-16% for six years; capex of ~₹500 Cr a year keeps free cash flow negative, and return on capital added since FY24 is only ~6% (much of the QIP cash is still idle). Q1 margins were helped by forex and export mix."
+  },
+  {
+   "lead": "Price",
+   "text": "~76x trailing standalone earnings and ~42x EV/EBITDA, against 58x for Craftsman, 57x for Happy Forgings and 91x for Bharat Forge."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Sansera forges and machines critical engine and chassis parts: crankshafts, connecting rods, rocker arms and gear-shift forks for two-wheelers, cars, trucks and off-road vehicles, in India and Sweden. Its ADS division machines complex parts for aircraft (Boeing and Airbus programmes, an engine blisk), semiconductor-capital-equipment makers and defence. We use standalone figures, as Screener's link was standalone; consolidated revenue is about 13% higher.",
+     "src": "May call p.10"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~₹5,700 Cr",
+       "label": "ADS backlog executable by FY31"
+      },
+      {
+       "value": "₹550-600 Cr",
+       "label": "FY27 ADS revenue guidance (FY26 ₹336 Cr)"
+      },
+      {
+       "value": "~40%",
+       "label": "International share of Q1 FY27 revenue"
+      },
+      {
+       "value": "~75%",
+       "label": "Share of Maruti's volumes for the parts it supplies"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "ADS and exports earn 25-30% EBITDA, against 17-18% for the domestic auto business.",
+       "src": "Aug call p.11"
+      },
+      {
+       "lead": "",
+       "text": "Often single or majority source for crankshafts and connecting rods; OEMs are outsourcing crankshaft lines to it.",
+       "src": "Aug call p.9"
+      },
+      {
+       "lead": "",
+       "text": "ADS asset turns ~2-2.25x, auto ~1.25-1.3x.",
+       "src": "Aug call p.7"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed in 2021; standalone revenue from ₹1,745 Cr (FY22) to ₹3,098 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Raised ₹1,200 Cr in a QIP in October 2024; debt/equity down to ~0.1x.",
+       "src": "AR p.184"
+      },
+      {
+       "lead": "",
+       "text": "Non-auto plus tech-agnostic/xEV now ~32% of sales, from ~12% at IPO; JV with Nichidai (Japan) for precision forging.",
+       "src": "May call p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        1745,
+        2099,
+        2548,
+        2719,
+        3098
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹3,341 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        128,
+        150,
+        190,
+        206,
+        298
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        186,
+        231,
+        358,
+        321,
+        320
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "20%",
+        "21%",
+        "7%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "17%",
+        "17%",
+        "18%",
+        "17%",
+        "18%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "128",
+        "150",
+        "190",
+        "206",
+        "298"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "14%",
+        "15%",
+        "16%",
+        "13%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "186",
+        "231",
+        "358",
+        "321",
+        "320"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "89",
+        "107",
+        "83",
+        "106",
+        "108"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash backs the profit:",
+       "text": "₹1,416 Cr of operating cash flow against ₹972 Cr of profit over FY22-26; but capex kept free cash flow negative in FY25 and FY26.",
+       "src": null
+      },
+      {
+       "lead": "Debt is low:",
+       "text": "borrowings ₹370 Cr against ₹3,061 Cr of equity; interest cover 17x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 6%.",
+       "text": "Capital employed rose ~₹1,339 Cr from FY24 to FY26, mostly QIP money, while post-tax operating profit rose ~₹76 Cr. ROCE has never been above 16%.",
+       "src": null
+      },
+      {
+       "lead": "Inventory days rose to 170",
+       "text": "as ADS working capital built up; operating cash flow fell to 11% of revenue.",
+       "src": "May call p.16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 ADS revenue guidance",
+        "FY25",
+        "₹316 Cr of product sales, +155%; guidance met",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Similar growth to FY26 (16%) in FY27",
+        "May 26",
+        "Q1 FY27 +33%; guidance raised to high-teens to 20%",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ADS revenue ₹550-600 Cr in FY27",
+        "May 26",
+        "Q1 FY27 ₹145 Cr (~₹580 Cr run-rate)",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin inching toward 19%",
+        "Aug 26",
+        "Q1 FY27 19.2% (with forex help)",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Fully machined blisk in about two months",
+        "May 26",
+        "In August: first samples 'in a month'",
+        {
+         "text": "Late",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New ADS building ready July-August",
+        "May 26",
+        "Hangar to be commissioned 'in a month or two' (Aug)",
+        {
+         "text": "Slightly late",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Sekhar Vasan family) hold 29.2%; no pledge. Institutions own most of the rest: FIIs 21.5%, DIIs 31.0%.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "DIIs cut holdings from 36.9% to 31.0% over the last year while retail rose to 18%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Related-party purchases 6% of total; sales 0.3%.",
+       "src": "AR p.134"
+      },
+      {
+       "lead": "",
+       "text": "Auditors' key audit matter was revenue cut-off (export lead times).",
+       "src": "AR p.195"
+      },
+      {
+       "lead": "",
+       "text": "Contingent liabilities: ₹9 Cr tax, ₹9 Cr customer claims, ₹64 Cr corporate guarantees for subsidiaries.",
+       "src": "AR p.244"
+      },
+      {
+       "lead": "",
+       "text": "₹17 Cr US litigation settled in Q1 FY27 (disclosed at IPO), plus ₹13 Cr provision for US tariff duty.",
+       "src": "Aug call p.4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Sansera Engineering (standalone)",
+        "3,098",
+        "18%",
+        "298",
+        "14%",
+        "75.7x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Bharat Forge",
+        "16,812",
+        "17%",
+        "1,089",
+        "13%",
+        "91.1x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Craftsman Automation",
+        "8,069",
+        "15%",
+        "384",
+        "14%",
+        "58.0x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Happy Forgings",
+        "1,546",
+        "30%",
+        "302",
+        "18%",
+        "57.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Azad Engineering",
+        "603",
+        "37%",
+        "134",
+        "12%",
+        "142x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Integrated forging to finished part,",
+       "text": "with in-house machine building and automation.",
+       "src": "May call p.14"
+      },
+      {
+       "lead": "Qualified on hard aerospace and semicon parts",
+       "text": "(4-metre 5-axis machining, blisks, monocrystalline parts) that few Indian firms make.",
+       "src": "Aug call p.16"
+      },
+      {
+       "lead": "Sticky auto relationships:",
+       "text": "majority supplier for many crankshaft and connecting-rod programmes.",
+       "src": "May call p.10"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Auto ICE is still ~65% of sales;",
+       "text": "EV shift risks some legacy parts, though xEV parts grow 20%+.",
+       "src": "Aug call p.3"
+      },
+      {
+       "lead": "Semicon demand is cyclical",
+       "text": "and tied to AI capex; one customer drives most semicon orders.",
+       "src": "Aug call p.6"
+      },
+      {
+       "lead": "Labour and machine lead times",
+       "text": "constrain how fast it can scale.",
+       "src": "May call p.16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Semiconductor equipment downturn",
+        "Operational",
+        "Customers say demand outstrips supply until FY29-30"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Low returns on heavy capex",
+        "Financial",
+        "ROCE 14%; ~₹500 Cr capex a year"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "US tariffs on exports",
+        "Operational",
+        "₹13 Cr duty provision; US plant on hold"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Steel and labour cost inflation",
+        "Operational",
+        "Pass-through claims pending"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹29,700 Cr",
+       "sub": "FY28 market cap · about +13%",
+       "text": "~20% growth a year to ~₹4,500 Cr standalone revenue in FY28, ADS mix lifts net margin to 11% (₹495 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹21,000 Cr",
+       "sub": "FY28 market cap · about –20%",
+       "text": "High-teens growth to ~₹4,200 Cr at a 10% net margin (₹420 Cr), valued at 50x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹11,000 Cr",
+       "sub": "FY28 market cap · about –58%",
+       "text": "Auto slows and semicon pauses: ~₹3,700 Cr at an 8.5% net margin (₹315 Cr), valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "75.7x",
+       "label": "P/E, trailing standalone (Craftsman 58x)"
+      },
+      {
+       "value": "~42x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "8.6x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~6%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sansera is executing well on a credible pivot into aerospace and semiconductor machining, with backlog to show for it. But the stock is priced as a high-growth, high-return business while its overall ROCE remains mid-teens; the payoff depends on ADS reaching its FY31 ambitions and lifting returns, not just revenue.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "ADS revenue vs ₹550-600 Cr for FY27",
+  "Growth vs high-teens to 20% guidance",
+  "EBITDA margin once forex gains fade",
+  "ROCE and free cash flow as capex continues",
+  "Steel and labour cost pass-through"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 (21 May 2026) and Q1 FY27 (13 Aug 2026) concall transcripts and presentations",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}
