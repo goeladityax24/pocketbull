@@ -4,6 +4,8 @@
  *
  *   npm run snapshot -- SKYGOLD
  *   npm run snapshot -- SKYGOLD --page tmp/SKYGOLD.html   (a page saved through the browser)
+ *   npm run snapshot -- AFCOM --page tmp/AFCOM.html --url https://www.screener.in/company/544224/
+ *     (BSE SME companies: Screener knows them by BSE code; --url keeps the "Open on Screener" link working)
  */
 import { readFileSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
@@ -16,8 +18,10 @@ async function main() {
   const input = args.find((a, i) => !a.startsWith("--") && !args[i - 1]?.startsWith("--"));
   const pageIdx = args.indexOf("--page");
   const page = pageIdx >= 0 ? args[pageIdx + 1] : undefined;
+  const urlIdx = args.indexOf("--url");
+  const pageUrl = urlIdx >= 0 ? args[urlIdx + 1] : undefined;
   if (!input) {
-    console.error("Usage: npm run snapshot -- <SYMBOL> [--page saved-screener-page.html]");
+    console.error("Usage: npm run snapshot -- <SYMBOL> [--page saved-screener-page.html [--url screener-link]]");
     process.exit(1);
   }
 
@@ -26,7 +30,7 @@ async function main() {
     const html = readFileSync(page, "utf8");
     const { symbol } = normaliseSymbol(input);
     const basis = /data-consolidated="true"/.test(html) ? "consolidated" : "standalone";
-    const url = `https://www.screener.in/company/${symbol}/${basis === "consolidated" ? "consolidated/" : ""}`;
+    const url = pageUrl ?? `https://www.screener.in/company/${symbol}/${basis === "consolidated" ? "consolidated/" : ""}`;
     snapshot = { ...parseCompanyPage(html, symbol, basis, url), peers: [], fetchedAt: new Date().toISOString() };
   } else {
     snapshot = await fetchCompany(input);
