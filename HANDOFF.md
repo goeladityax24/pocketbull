@@ -15,7 +15,7 @@ A private research tool for 4–5 friends investing in Indian equities: insights
 - **No API bill.** Analyses run in a Claude session on the Admin's own plan (see `docs/ANALYSIS_PLAYBOOK.md`). Members request; the Admin is notified through a GitHub issue labelled `analysis-request`. The paid API path (`npm run analyze`) stays in the code for later.
 - **Run once per concall.** Saved runs live in `data/runs/<SYMBOL>/<YYYY-MM>.json`, committed to the repo. Opening saved results is free.
 - **No sign-in for now (4 Oct).** Anyone with the link views read-only. One Admin edits (tags with a reason, promise corrections, notes, links, settings) after entering `ADMIN_KEY` once on `/admin` (httpOnly cookie). Notes are Admin-only. The server reads and writes Supabase with the secret key; visitors never get a key. Roles (Editor/Viewer) and Google sign-in come back later; `0001_init.sql` still has the RLS draft for them.
-- **Requests:** anyone can request an analysis by typing their name; it lands in the Admin console queue (and opens a GitHub issue if `GITHUB_TOKEN` is set). Per-person monthly limits are off until sign-in returns; at most 20 open requests.
+- **Requests:** only the Admin adds companies. The home page is a search over saved companies (partial match on name or NSE symbol); the request button shows only when nothing matches (6 Oct). Anyone can then request by typing their name; it lands in the Admin console queue (and opens a GitHub issue if `GITHUB_TOKEN` is set). Per-person monthly limits are off until sign-in returns; at most 20 open requests.
 - **Tags:** Met = inside the range, or within ±3% of a single-number target (shown as a tooltip). Above = Exceeded, below = Missed. Whole-number Screener values get ±0.5 rounding slack.
 - **Expected numbers:** growth guidance: same period last year × (1 + guided growth). An annual ₹ target is split by season, never evenly: each quarter (or half, for half-yearly reporters) gets the share it had of last year's total (Skygold: Q2 FY26 was 23.6% of FY26, so Q2 FY27 = 23.6% × ₹8,100 Cr). EBITDA/PAT with no guidance get an estimate (expected revenue × last 4 quarters' margin), labelled and never scored.
 - **Basis:** consolidated by default, standalone when a company has no consolidated numbers. SME companies report half-yearly; the tracker then works in halves.
@@ -54,6 +54,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 
 ## Next steps
 
+0. Analyse the 11 companies asked for on 6 Oct (local session, Screener is blocked in the cloud): AFCOM (544224), KRN, LT Elevator (544518), Shree Refrigerations (544458), QPOWER, Susan (544793), VIVIDEL, SANSERA, SHANTIGOLD, SOTL (Savita Oil), YASHO.
 1. Merge the milestone 2 pull request; check the live site on Vercel (unlock `/admin` with `ADMIN_KEY`).
 2. Optional: add `GITHUB_TOKEN` (fine-grained, Issues read/write on the repo) in Vercel so requests open GitHub issues.
 3. Keep Supabase awake: free projects pause after a week idle. Add a scheduled GitHub Action that reads one row every few days.
