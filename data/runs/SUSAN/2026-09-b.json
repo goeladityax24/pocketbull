@@ -1,0 +1,259 @@
+{
+  "symbol": "SUSAN",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09-b",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=587aa8e9-0422-42c8-b53e-bbec8ba76b57.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82c770c5-64c0-4cb1-b682-70501515e6a0.pdf",
+    "recordingUrl": "https://seil.net.in/investor/audio/q1-fy27-earnings-call.m4a"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:14:46.913Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-14",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin ~12%, to hold or improve",
+        "kind": "margin_pct",
+        "low": 12,
+        "high": 12,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Edited, summary-style transcript; FY26 margin 12%",
+        "quote": "Blended operating margin improved to ~11.9% in Q1; expected to maintain/improve with mix shift and operating leverage",
+        "page": 3,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "maintain/improve",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "HT and MVCC cables rising to ~15% of revenue by year-end",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Transcript is inconsistent: p.6 says '~50% by the end of FY27' and also a ~30-35% balanced mix",
+        "quote": "HT & MVCC contribution targeted to rise (from ~5-10% currently toward ~15% by year-end and higher thereafter).",
+        "page": 3,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "low",
+        "keyword": "toward ~15% by year-end",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "FY27 mix ~30-35% each: HT/MVCC, LT/conductors, winding wires",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Expected FY27 revenue mix roughly balanced ~30-35% each across HT/MVCC, LT/conductors, and winding wires",
+        "page": 3,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "roughly balanced ~30-35%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New capacity commercial from February 2027 (+60%)",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Peak revenue potential ~₹700-800 Cr",
+        "quote": "Capacity Expansion: On track for commercial operations from Feb 2027. Adding 4,500 Km p.a. (existing 7,500 Km → 12,000 Km p.a., +60%)",
+        "page": 4,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "commercial operations from Feb 2027",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹15-20 Cr",
+        "kind": "absolute",
+        "low": 15,
+        "high": 20,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We are currently planning capex of approximately INR 15 crore to INR 20 crore during FY27.",
+        "page": 7,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "INR 15 crore to INR 20",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed over ~3 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Plus ₹150 Cr active pipeline; bids of ₹800-1,200 Cr at 15-20% expected conversion",
+        "quote": "Unexecuted order book: ₹142.39 Cr as of 30 June 2026 (expected to execute over next ~3 months)",
+        "page": 4,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "next ~3 months",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Growth to continue as in the last 2-3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Declined to give a revenue number; FY24-26 revenue grew ~2.6x",
+        "quote": "We expect the business to continue growing in a similar manner.",
+        "page": 7,
+        "speaker": "Vishal Jain (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "continue growing in a similar manner",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose 279% to ₹95 Cr with an ~12% EBITDA margin and PAT of ₹6.4 Cr (a loss a year ago), helped by a shift from winding wires toward LT, HT and MVCC power cables for utilities and EPC contractors. The order book is ₹142 Cr (to be executed in about three months) plus a ₹150 Cr pipeline, and capacity rises 60% to 12,000 km a year from February 2027 for ₹15-20 Cr of capex. Management declined to give a revenue number but expects growth similar to the last two to three years; the edited transcript contradicts itself on segment margins and the target share of HT/MVCC cables.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Capacity +60% to 12,000 km a year from February 2027",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "FY27 capex ₹15-20 Cr",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "Push into HT and MVCC cables; railways and defence explored",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "With strong demand visibility, an expanding manufacturing base and improving operating metrics, we remain confident of sustaining our growth momentum through FY27.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Segment margins",
+          "answer": "Q1: LT/conductors ~6.5%, HT ~7%, winding wires ~24%; contradicts the opening remarks (winding wires 10-15%, HT/MVCC ~20%).",
+          "page": 5
+        },
+        {
+          "topic": "FY27 revenue",
+          "answer": "No number; growth to continue like the last 2-3 years.",
+          "page": 7
+        },
+        {
+          "topic": "Debt",
+          "answer": "Funding needs to be evaluated with growth; no clear plan.",
+          "page": 10
+        },
+        {
+          "topic": "Raw materials",
+          "answer": "Aluminium price swings handled through pricing; no detail.",
+          "page": 10
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Transcript is an edited summary with contradictory figures (HT/MVCC share 15% vs 50%; segment margins).",
+          "page": 6
+        },
+        {
+          "text": "Operating cash flow negative three years running; borrowings up to ₹67 Cr.",
+          "page": null
+        },
+        {
+          "text": "Vague answers on debt, raw materials and margins; analysts asked for clearer disclosure.",
+          "page": 9
+        },
+        {
+          "text": "Half of orders from government utilities and DISCOMs.",
+          "page": 4
+        }
+      ],
+      "watch_next": [
+        "Q2 revenue as the ₹142 Cr order book is executed",
+        "EBITDA margin vs ~12%",
+        "Share of HT/MVCC cables",
+        "Working capital and borrowings",
+        "Capacity start in February 2027"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Aluminium and copper winding wires, aluminium conductors, LT, HT and MVCC power cables",
+        "customers": "Central and state utilities and DISCOMs, EPC contractors (e.g. Montecarlo, RVNL), private customers",
+        "revenue_mix": "Order book ~30% HT+MVCC, ~35% LT cables and conductors, ~35% winding wires; ~50:50 government vs private",
+        "demand_drivers": "Power T&D expansion, RDSS, reconductoring, replacement demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=587aa8e9-0422-42c8-b53e-bbec8ba76b57.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82c770c5-64c0-4cb1-b682-70501515e6a0.pdf",
+    "transcriptPages": 11,
+    "transcriptHasText": true
+  }
+}
