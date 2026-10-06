@@ -1,0 +1,149 @@
+{
+  "symbol": "SOTL",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6534d55-1d6f-4431-b022-7d00f4d30776.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:04:12.956Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": null,
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Export demand to stay buoyant",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "coming quarters",
+        "basis": "segment",
+        "segment": "Exports",
+        "condition": "No call held; presentation only",
+        "quote": "We expect the export demand to remain buoyant in the coming quarters as well.",
+        "page": 5,
+        "speaker": "Gautam N. Mehra (Chairman & MD), in the presentation",
+        "confidence": "high",
+        "keyword": "export demand to remain buoyant",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ester-based fluids to grow on OEM approvals",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "coming years",
+        "basis": "segment",
+        "segment": "Ester-based fluids",
+        "condition": null,
+        "quote": "The Company's newly launched portfolio of Ester based fluids is rapidly gaining traction with several significant important OEM approvals and we remain very optimistic about the future growth volumes for this range.",
+        "page": 5,
+        "speaker": "Gautam N. Mehra (Chairman & MD), in the presentation",
+        "confidence": "high",
+        "keyword": "Ester based fluids",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New products for data centres, storage and EVs",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "years ahead",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "The Company is now focused on developing innovative new products to address the emerging opportunities in Data Centres, Energy Storage and Electric Vehicles",
+        "page": 5,
+        "speaker": "Gautam N. Mehra (Chairman & MD), in the presentation",
+        "confidence": "medium",
+        "keyword": "Data Centres, Energy Storage",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "From the Q1 FY27 investor presentation (no call held): total income rose 49% to a record ₹1,513 Cr and PAT jumped to ₹288 Cr (19% margin) from ₹56 Cr, more than all of FY26, because crude and base-oil prices spiked during the Middle East crisis and the company booked large inventory gains. Volumes grew in double digits in lubricants and exports but fell in domestic white oils, and April volumes were hit by feedstock and port disruption. The chairman expects exports to stay buoyant and is 'optimistic but cautious' given daily feedstock volatility.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Record quarter driven by inventory gains from the crude spike (EBITDA margin 26% vs 6-8% normally)",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Exports expected to stay buoyant in coming quarters",
+          "page": 5
+        },
+        {
+          "change": "new",
+          "text": "Ester-based fluids gaining OEM approvals",
+          "page": 5
+        }
+      ],
+      "tone": {
+        "label": "cautious",
+        "quote": "The Company remains optimistic but cautious as it manages a period of significant daily volatility in key feedstock supplies.",
+        "page": 5
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Q1 profit is mostly one-off inventory gains; reverses if crude and base-oil prices fall.",
+          "page": 5
+        },
+        {
+          "text": "Domestic white-oil volumes fell; April volumes hit by feedstock and port disruption.",
+          "page": 5
+        },
+        {
+          "text": "No earnings call or Q&A to explain the quarter.",
+          "page": 5
+        }
+      ],
+      "watch_next": [
+        "EBITDA margin as inventory gains fade (normal 6-8%)",
+        "Crude and base-oil prices",
+        "Export and lubricant volume growth",
+        "Domestic white-oil recovery"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Transformer oils, white oils, specialty petroleum products and Savsol lubricants, including ester-based fluids",
+        "customers": "Transformer and cable makers, personal care and pharma, auto and tractor OEMs, retail lubricant buyers, export customers",
+        "revenue_mix": "Petroleum specialty oils ~73%, lubricants ~26%; exports ~17%",
+        "demand_drivers": "Transformer and grid build-out, exports, lubricant premiumisation, base-oil prices"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6534d55-1d6f-4431-b022-7d00f4d30776.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6534d55-1d6f-4431-b022-7d00f4d30776.pdf",
+    "transcriptPages": 38,
+    "transcriptHasText": true
+  }
+}
