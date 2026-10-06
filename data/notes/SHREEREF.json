@@ -1,0 +1,701 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "Air-conditioning and refrigeration for Navy warships and submarines (BSE SME)",
+ "lede": "A Karad company that indigenised air-conditioning for Scorpene submarines and now holds about 64% of naval HVAC orders, riding India's warship build-out. FY26 met every guidance number, but cash stays tied up for a year in working capital, the founding family is paid generously, and the stock trades at 64x earnings.",
+ "market": {
+  "price": 386,
+  "mcap_cr": 1383,
+  "pe": 64.2,
+  "pb": 6.4,
+  "ev_ebitda": 43
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue +55% to ₹154 Cr, EBITDA margin 21-22% and PAT ₹22 Cr, all within or above guidance; H2 alone ₹103 Cr at a 26% margin. Order book ₹271 Cr (1.8x revenue), a ~₹1,000 Cr bid pipeline, and approvals from all three naval directorates that few rivals hold."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Working capital ~370 days and operating cash flow negative in three of four years; EBITDA margin has fallen from 31% (FY24) as high-margin spares shrank to 7% of sales. Key managers' pay was ₹4.6 Cr (about a fifth of profit), and shareholders are asked to lift the managerial pay cap to 15% of profit."
+  },
+  {
+   "lead": "Price",
+   "text": "~64x trailing earnings and ~43x EV/EBITDA, against Marine Electricals at 103x, Blue Star at 62x and ICE Make at 96x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Shree Refrigerations designs, makes, installs and services AC plants, refrigeration plants, ship-wide HVAC and control panels for Indian Navy warships and submarines, both new builds and retrofits, plus test rooms and calorimeters for refrigeration makers. It is entering data-centre cooling as Smardt's partner for oil-free chillers and is Danfoss Turbocor's authorised service partner.",
+     "src": "Jun call p.3"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "~64%",
+       "label": "Share of naval HVAC orders"
+      },
+      {
+       "value": "₹271 Cr",
+       "label": "Order book, March 2026 (1.8x revenue)"
+      },
+      {
+       "value": "3 of 3",
+       "label": "Naval directorate approvals: AC/ref, HVAC and panels"
+      },
+      {
+       "value": "~₹400 Cr",
+       "label": "Revenue the existing plants can support"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Spares and service earn the highest margins; they fell from ~30-40% of revenue to 7% in FY26 and are targeted back at 15-20%.",
+       "src": "Jun call p.8"
+      },
+      {
+       "lead": "",
+       "text": "Most contracts are fixed-price over 2-3 years, so metal inflation hurts.",
+       "src": "Jun call p.12"
+      },
+      {
+       "lead": "",
+       "text": "Deliveries follow shipyard schedules, so H2 has been ~70% of the year.",
+       "src": "Nov call p.14"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Moved from test equipment into naval HVAC in 2012-17; supplied P-17A frigates and Scorpene submarines.",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "IPO on BSE SME in 2025 (₹95 Cr fresh issue); revenue from ₹45 Cr (FY22) to ₹154 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "New 50,000 sq ft plant at Karad (₹25 Cr) from June 2026, expandable to 1 lakh sq ft.",
+       "src": "Jun call p.15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        45,
+        51,
+        80,
+        99,
+        154
+       ]
+      }
+     ],
+     "caption": "Half-yearly reporter: H1 FY26 ₹50 Cr, H2 FY26 ₹103 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        3,
+        12,
+        13,
+        22
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -4,
+        -5,
+        -25,
+        14
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "13%",
+        "57%",
+        "24%",
+        "56%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "26%",
+        "25%",
+        "31%",
+        "27%",
+        "21%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "3",
+        "3",
+        "12",
+        "13",
+        "22"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "17%",
+        "13%",
+        "25%",
+        "18%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "—",
+        "–4",
+        "–5",
+        "–25",
+        "14"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "414",
+        "534",
+        "474",
+        "583",
+        "377"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash lags profit:",
+       "text": "₹50 Cr of profit over FY23-26 against –₹20 Cr of operating cash flow; the IPO funded the gap.",
+       "src": null
+      },
+      {
+       "lead": "Working capital improved but is still heavy:",
+       "text": "receivable days 251 and inventory days 249 at March 2026, down from 352 and 361.",
+       "src": null
+      },
+      {
+       "lead": "Light debt:",
+       "text": "borrowings ₹37 Cr against ₹216 Cr of equity; interest cover ~7x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 3%,",
+       "text": "on ~₹154 Cr of capital added FY24-26, mostly IPO money and working capital; ROCE fell to 14%.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 revenue ₹140-150 Cr",
+        "Nov 25",
+        "₹154 Cr",
+        {
+         "text": "Beat",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY26 EBITDA margin 20-22%",
+        "Nov 25",
+        "21% (company: 22%)",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY26 PAT margin 13-15%",
+        "Nov 25",
+        "14%",
+        {
+         "text": "Met",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New 50,000 sq ft plant from early FY27",
+        "Nov 25",
+        "Commissioned around June 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No equity raise until revenue passes ₹500 Cr",
+        "Nov 25",
+        "None since the IPO",
+        {
+         "text": "Kept so far",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Data-centre reference installation in FY27, revenue from FY28",
+        "Jun 26",
+        "No order announced yet",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Shende family holds 44.6%; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions 8.7% (including the Maharashtra Defence and Aerospace Venture Fund).",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Key managers' pay ₹4.6 Cr in FY26 (up 61%); CMD 38x and four family members on the board.",
+       "src": "AR p.31"
+      },
+      {
+       "lead": "",
+       "text": "AGM resolution to raise the managerial pay ceiling from 11% to 15% of net profit.",
+       "src": "AR p.72"
+      },
+      {
+       "lead": "",
+       "text": "Bought a building (₹1.2 Cr) and a vehicle (₹0.4 Cr) from key managers; auditors made related-party disclosure a key audit matter.",
+       "src": "AR p.34"
+      },
+      {
+       "lead": "",
+       "text": "ESOPs of ~7 lakh shares at ₹2 (near-free) to managers.",
+       "src": "AR p.52"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Shree Refrigerations",
+        "154",
+        "21%",
+        "22",
+        "14%",
+        "64.2x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Marine Electricals (naval electricals)",
+        "877",
+        "11%",
+        "59",
+        "18%",
+        "103x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ICE Make Refrigeration",
+        "668",
+        "7%",
+        "12",
+        "12%",
+        "95.7x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Blue Star",
+        "12,402",
+        "8%",
+        "527",
+        "21%",
+        "61.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "KRN Heat Exchanger",
+        "600",
+        "19%",
+        "76",
+        "16%",
+        "98.5x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Approvals take 5+ years to earn:",
+       "text": "type-tested on most Navy-standard capacities; the only firm cleared for AC plants, HVAC and panels together.",
+       "src": "Jun call p.4"
+      },
+      {
+       "lead": "Shipyards now prefer turnkey AC + HVAC orders,",
+       "text": "which suits a single supplier of both.",
+       "src": "Jun call p.15"
+      },
+      {
+       "lead": "Installed base on ships",
+       "text": "creates decades of spares and retrofit work.",
+       "src": "Nov call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "One customer group:",
+       "text": "the Navy and its shipyards; order timing depends on government approvals.",
+       "src": "Jun call p.6"
+      },
+      {
+       "lead": "Lost some new-build tenders;",
+       "text": "three to four competitors.",
+       "src": "Jun call p.20"
+      },
+      {
+       "lead": "Data centres are a new market",
+       "text": "where global chiller makers dominate.",
+       "src": "Nov call p.11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Navy order delays",
+        "Operational",
+        "₹2.3-2.4 lakh Cr of approvals still to become orders"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital",
+        "Financial",
+        "~370 days"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Metal inflation on fixed-price contracts",
+        "Financial",
+        "Small margin hit flagged"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Family pay and related-party dealings",
+        "Governance",
+        "Pay cap increase proposed"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹2,030 Cr",
+       "sub": "FY28 market cap · about +47%",
+       "text": "40% growth a year to ~₹300 Cr revenue in FY28 at a 15% net margin (₹45 Cr), valued at 45x."
+      },
+      {
+       "name": "Base",
+       "value": "₹1,240 Cr",
+       "sub": "FY28 market cap · about –10%",
+       "text": "~27% growth to ~₹250 Cr at a 13% margin (₹33 Cr), valued at 38x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹430 Cr",
+       "sub": "FY28 market cap · about –69%",
+       "text": "Navy orders slip: ~₹190 Cr at a 9% margin (₹17 Cr), valued at 25x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "64.2x",
+       "label": "P/E, trailing (Blue Star 62x)"
+      },
+      {
+       "value": "~43x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "6.4x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~3%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A real niche leader with credible delivery against guidance and a long naval runway. The valuation already prices ~40% growth, while cash conversion, falling margins and generous family pay argue for caution; a data-centre win or a return of spares revenue would change the picture.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue (less skewed to H2)",
+  "EBITDA margin within 20-24%",
+  "Spares share of revenue",
+  "Working-capital days",
+  "First data-centre order"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "H1 FY26 (12 Nov 2025) and H2 FY26 (26 May 2026) concall transcripts and presentations",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}
