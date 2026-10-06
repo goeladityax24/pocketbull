@@ -1,0 +1,273 @@
+{
+  "symbol": "AFCOM",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198dbace-ec39-433e-ad76-c53fb48eeecf.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130f79cc-6e61-48af-97af-7779f856076e.pdf",
+    "recordingUrl": "https://www.youtube.com/watch?reload=9&v=hBvBCanROYo"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T13:06:51.988Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-06-12",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue at least double FY26",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "CMD added 'It'll be much more than double.' FY26 revenue ₹583 Cr; depends on fleet growing from 2-3 to 5 narrow-bodies plus wide-bodies",
+        "quote": "And as the resources, even it becomes double, you can extrapolate it's going to be minimum double.",
+        "page": 12,
+        "speaker": "Kannan Ramakrishnan (Whole-time Director)",
+        "confidence": "medium",
+        "keyword": "minimum double",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "4th and 5th 737 freighters operational before next quarter",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Aircraft 'on the way'; payments done",
+        "quote": "Sir, all I would say is that they will be operational, the third aircraft is operational, fourth and fifth will be operational definitely before the next quarter.",
+        "page": 10,
+        "speaker": "Capt. Deepak Parasuraman (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "fourth and fifth will be operational",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "First Boeing 777 freighter operating by Q4 FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Four 777s planned and financially closed; full nine-aircraft fleet by second half of CY2027",
+        "quote": "By the end of the calendar year, this year, it will be inducted, so at least one aircraft will be operational by the end of FY27 last quarter.",
+        "page": 10,
+        "speaker": "Capt. Deepak Parasuraman (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "end of FY27 last quarter",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Full fleet of nine aircraft by H2 CY2027",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "second half of calendar 2027",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Sometime by the mid of next year, sir. That is the second half of next calendar year, we will have the entire fleet operational.",
+        "page": 25,
+        "speaker": "Capt. Deepak Parasuraman (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "entire fleet operational",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Each 777 to earn ~3x a 737's revenue (~₹75 Cr a month)",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "once inducted",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Management confirmed ~₹75 Cr a month per 777 as 'a very conservative estimate' (p.25)",
+        "quote": "So given that and the sectors what we plan to operate on, and with the cargo load factor taken conservatively as 75%, we estimate each of the aircraft, the 777 will provide an average the revenue of three times from the current level of the 737-800's the revenue -- recorded revenue.",
+        "page": 23,
+        "speaker": "Kannan Ramakrishnan (Whole-time Director)",
+        "confidence": "high",
+        "keyword": "three times",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "No further fund-raise needed for the fleet plan",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "fleet plan",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~₹205 Cr preferential issue (Dec 2025) and ₹200 Cr QIP (May 2026)",
+        "quote": "So we don't require any further, you know, the fundraise, you know, for the fleet expansion whatever we have envisaged and communicated.",
+        "page": 18,
+        "speaker": "Kannan Ramakrishnan (Whole-time Director)",
+        "confidence": "high",
+        "keyword": "don't require any further",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "ATF VAT benefit cuts fuel cost 5-7%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Designated Indian Carrier status (Feb 2026)",
+        "quote": "As I mentioned, sir, I mean, it will have an impact of, close to around 5% to 7% on an overall cost of the fuel.",
+        "page": 12,
+        "speaker": "Kannan Ramakrishnan (Whole-time Director)",
+        "confidence": "high",
+        "keyword": "5% to 7%",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 revenue rose 144% to ₹583 Cr and PAT 230% to ₹122 Cr (40% EBITDA margin) on just two Boeing 737 freighters, helped in March by charter demand when the Middle East war stranded cargo; it was the first year under Ind AS, which brought aircraft leases on balance sheet. Management says FY27 revenue will be 'minimum double' as the fleet grows to five 737s (fourth and fifth 'before the next quarter') and the first of four Boeing 777 freighters flies by Q4 FY27, each expected to earn about three times a 737. Earlier FY26 targets of ₹1,000 Cr, then ₹700 Cr, were missed because aircraft arrived late.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 revenue to at least double",
+          "page": 12
+        },
+        {
+          "change": "delayed",
+          "text": "FY26 revenue ₹583 Cr vs ₹1,000 Cr target (cut to ₹700 Cr at the AGM)",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Four Boeing 777 freighters financed; first operating by Q4 FY27",
+          "page": 25
+        },
+        {
+          "change": "new",
+          "text": "Designated Indian Carrier status: ATF VAT exemption saves 5-7% of fuel cost",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "First freighter into Noida airport; Middle East contract flying from end-June",
+          "page": 15
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Sir, to put it in brief, sir, the demand is high, we are short of capacity.",
+        "page": 22
+      },
+      "analyst_questions": [
+        {
+          "topic": "Missed FY26 revenue targets",
+          "answer": "Only two aircraft for most of the year; numbers will follow as capacity arrives.",
+          "page": 12
+        },
+        {
+          "topic": "ATF prices doubled",
+          "answer": "Fuel surcharge passes 100% to customers; VAT exemption brought ATF to ₹1.69 lakh/KL vs ₹2.24 lakh.",
+          "page": 16
+        },
+        {
+          "topic": "Aircraft seen idle on trackers",
+          "answer": "Third aircraft held back after C-check for a large Middle East contract from end-June.",
+          "page": 13
+        },
+        {
+          "topic": "Unpaid tax ₹33 Cr",
+          "answer": "Advance tax was underpaid; will improve this year.",
+          "page": 16
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "FY26 revenue missed targets twice because of fleet delays.",
+          "page": 12
+        },
+        {
+          "text": "March quarter boosted by one-off war charters; yields may normalise.",
+          "page": 6
+        },
+        {
+          "text": "₹33 Cr of income tax unpaid at year end, attracting interest.",
+          "page": 16
+        },
+        {
+          "text": "Lease liabilities ₹338 Cr and USD-linked costs; Ind AS forex losses hit Q4.",
+          "page": 5
+        },
+        {
+          "text": "Promoters' stake has fallen to ~36% after repeated equity issues.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Fourth and fifth 737s flying in Q2 FY27",
+        "Q1 revenue vs a doubling for the year",
+        "Yield per kg as war charters fade",
+        "Progress on 777 induction",
+        "Tax payments and lease costs"
+      ],
+      "business_snapshot": {
+        "what_they_make": "International air cargo airline flying Boeing 737-800 freighters on dry-lease and charter, hub at Chennai",
+        "customers": "Freight forwarders (DHL, Kuehne+Nagel, DSV, DB Schenker, Geodis) via GSSA TTK Group; airline interline partners",
+        "revenue_mix": "FY26: dry-lease flying ₹529 Cr; 1,923 trips, 59% charters; >60% billed in USD",
+        "demand_drivers": "India-ASEAN-Middle East trade, shortage of freighter capacity, transshipment via Chennai, war-related disruption"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198dbace-ec39-433e-ad76-c53fb48eeecf.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130f79cc-6e61-48af-97af-7779f856076e.pdf",
+    "transcriptPages": 26,
+    "transcriptHasText": true
+  }
+}

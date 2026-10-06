@@ -1,0 +1,687 @@
+{
+ "as_of": "2026-10-06",
+ "descriptor": "International air cargo airline (Boeing 737 freighters)",
+ "lede": "A Chennai cargo airline that grew revenue twelvefold in four years flying leased Boeing 737 freighters to South-East Asia, the Maldives and the Gulf, with 40% EBITDA margins. The ambition is a nine-aircraft fleet including wide-body 777s, but aircraft have repeatedly arrived later than promised, and FY26 revenue fell well short of the targets management set.",
+ "market": {
+  "price": 1503,
+  "mcap_cr": 4346,
+  "pe": 29.6,
+  "pb": 6.3,
+  "ev_ebitda": 19
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue ₹583 Cr (+144%) and PAT ₹122 Cr (+230%) on just two aircraft, utilisation of 9-11 hours a day, yields above the IATA average, and Designated Indian Carrier status that cuts fuel cost 5-7%. Q1 FY27 revenue +49% with a 41% EBITDA margin; ~₹479 Cr raised since listing funds the fleet plan."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Targets of ₹1,000 Cr, then ₹700 Cr, for FY26 were missed; the fourth and fifth 737s promised 'before the next quarter' in June were still only 'planned' at the September AGM, and the 777s became a 'future strategy'. March-quarter profits were boosted by war charters, and the business has burnt cash over five years."
+  },
+  {
+   "lead": "Price",
+   "text": "~30x trailing earnings and ~19x EV/EBITDA, about double the QIP price of ₹760 in May 2026. Blue Dart trades at 34x; there is no listed pure cargo airline in India."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "AFCOM flies international air cargo from Chennai using leased Boeing 737-800 converted freighters (about 20-24 tonnes each), selling capacity by weight or as whole-aircraft charters through its general sales agent TTK Group to forwarders such as DHL, Kuehne+Nagel and DSV. Routes cover Singapore, Bangkok, Hanoi, the Maldives, Sri Lanka and, since FY26, Dubai.",
+     "src": "Sep AGM p.22"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "3",
+       "label": "Boeing 737-800 freighters flying (target 5, plus 777s)"
+      },
+      {
+       "value": "$2.54/kg",
+       "label": "FY26 yield vs $1.58/kg cost"
+      },
+      {
+       "value": "1,923",
+       "label": "Trips in FY26, 59% charters"
+      },
+      {
+       "value": "60%+",
+       "label": "Revenue billed in US dollars"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "High aircraft utilisation (up to 11.5 hours a day) and charters lift revenue per trip.",
+       "src": "Jun call p.7"
+      },
+      {
+       "lead": "",
+       "text": "Fuel is passed through as a surcharge; leases and maintenance reserves are the main fixed costs.",
+       "src": "Jun call p.15"
+      },
+      {
+       "lead": "",
+       "text": "Designated Indian Carrier status exempts ATF from Tamil Nadu VAT.",
+       "src": "Sep AGM p.10"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed on BSE SME in August 2024 (₹74 Cr IPO); revenue from ₹48 Cr (FY22) to ₹583 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "Raised ~₹205 Cr in a preferential issue with warrants (Dec 2025) and ₹200 Cr in a QIP (May 2026).",
+       "src": "Sep AGM p.10"
+      },
+      {
+       "lead": "",
+       "text": "Moved to Ind AS in FY26: aircraft leases now on balance sheet (₹338 Cr), so EBITDA is not comparable with earlier years.",
+       "src": "Jun call p.4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        48,
+        84,
+        148,
+        239,
+        583
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹640 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        5,
+        14,
+        25,
+        37,
+        122
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        -4,
+        -33,
+        31,
+        -45,
+        36
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "75%",
+        "76%",
+        "61%",
+        "144%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin (FY26 under Ind AS)",
+        "20%",
+        "22%",
+        "24%",
+        "31%",
+        "40%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "5",
+        "14",
+        "25",
+        "37",
+        "122"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "59%",
+        "39%",
+        "37%",
+        "21%",
+        "28%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "–4",
+        "–33",
+        "31",
+        "–45",
+        "36"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "118",
+        "62",
+        "56",
+        "90",
+        "85"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not become cash:",
+       "text": "₹203 Cr of profit over FY22-26 against –₹15 Cr of operating cash flow; growth was funded by equity.",
+       "src": null
+      },
+      {
+       "lead": "Lease-heavy:",
+       "text": "₹401 Cr of borrowings including leases at March 2026 (0.88x equity), interest cover ~5.6x; bank debt only ₹49 Cr by June.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 15%,",
+       "text": "on ~₹737 Cr of capital added from FY24 to FY26 (mostly leased aircraft and equity).",
+       "src": null
+      },
+      {
+       "lead": "₹33 Cr of tax was unpaid at year end",
+       "text": "because advance tax fell short.",
+       "src": "Jun call p.16"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 revenue ~₹1,000 Cr, cut to ₹700 Cr at the 2025 AGM",
+        "FY26",
+        "₹583 Cr",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Three more aircraft in FY26",
+        "FY26",
+        "One (third aircraft flying from June 2026)",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Fourth and fifth 737s flying before Q2 FY27",
+        "Jun 26",
+        "Still 'planned' at the 25 Sep AGM",
+        {
+         "text": "Late",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "First Boeing 777 operating by Q4 FY27",
+        "Jun 26",
+        "AGM deck calls it a 'future', 'proposed' aircraft",
+        {
+         "text": "Unclear",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue at least double FY26",
+        "Jun 26",
+        "Q1 FY27 +49% YoY",
+        {
+         "text": "Behind so far",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No more fund-raising for the fleet plan",
+        "Jun 26",
+        "None since the May QIP",
+        {
+         "text": "Kept so far",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 35.8%, down from 42.7% a year ago after equity issues; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Domestic institutions rose to 8.0% after the QIP; foreign 0.7%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Modest executive pay: CMD 3.9x and whole-time director 1.9x the median employee, no increase.",
+       "src": "AR p.39"
+      },
+      {
+       "lead": "",
+       "text": "Auditors flagged lease accounting (USD lease terms, maintenance reserves, forex) as a key audit matter.",
+       "src": "AR p.52"
+      },
+      {
+       "lead": "",
+       "text": "No material related-party transactions reported.",
+       "src": "AR p.46"
+      },
+      {
+       "lead": "",
+       "text": "75% of the warrant money is still to come, so more shares will be issued.",
+       "src": "AR p.17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "AFCOM Holdings",
+        "583",
+        "40%",
+        "122",
+        "28%",
+        "29.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Blue Dart Express",
+        "6,141",
+        "15%",
+        "247",
+        "16%",
+        "33.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "InterGlobe Aviation (IndiGo)",
+        "84,962",
+        "14%",
+        "–2,394",
+        "5%",
+        "—"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "India has no other listed freighter airline; Blue Dart runs its own freighters inside an express-logistics business, and IndiGo carries cargo in passenger bellies and a few freighters. Foreign carriers dominate India's international cargo.",
+     "src": "Jun call p.15"
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Rare licence and status:",
+       "text": "an Indian scheduled cargo airline with Designated Indian Carrier benefits.",
+       "src": "Sep AGM p.10"
+      },
+      {
+       "lead": "Flexibility:",
+       "text": "charters and short sectors (Chennai-Colombo-Male) that big carriers do not serve.",
+       "src": "Jun call p.5"
+      },
+      {
+       "lead": "Forwarder network",
+       "text": "through TTK Group and airline interline partners.",
+       "src": "Sep AGM p.29"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Very small fleet:",
+       "text": "one grounded aircraft materially cuts revenue.",
+       "src": "Jun call p.13"
+      },
+      {
+       "lead": "Aircraft availability:",
+       "text": "converted freighters and 777s depend on lessors and DGCA approvals.",
+       "src": "Jun call p.10"
+      },
+      {
+       "lead": "Yields can fall",
+       "text": "when war-related demand fades.",
+       "src": "Jun call p.23"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Fleet induction keeps slipping",
+        "Operational",
+        "Fourth and fifth 737s late; 777s undated"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cargo yields normalise after war charters",
+        "Operational",
+        "Q1 below Q4"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "USD lease costs and forex",
+        "Financial",
+        "₹338 Cr of lease liabilities"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Further dilution (warrants, ESOPs)",
+        "Financial",
+        "75% of warrant money pending; ESOP pool up to 10%"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹9,000 Cr",
+       "sub": "FY28 market cap · about +107%",
+       "text": "Five 737s plus two 777s flying in FY28: revenue ~₹1,800 Cr at a 20% PAT margin (₹360 Cr), valued at 25x."
+      },
+      {
+       "name": "Base",
+       "value": "₹4,360 Cr",
+       "sub": "FY28 market cap · about 0%",
+       "text": "Fleet grows a year late: ~₹1,100 Cr revenue in FY28 at 18% (₹198 Cr), valued at 22x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹1,600 Cr",
+       "sub": "FY28 market cap · about –63%",
+       "text": "Fleet stuck at three or four and yields fall: ~₹750 Cr at 14% (₹105 Cr), valued at 15x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "29.6x",
+       "label": "P/E, trailing (Blue Dart 34x)"
+      },
+      {
+       "value": "~19x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "6.3x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~15%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "AFCOM's unit economics are impressive and it has the capital for its fleet plan. The problem is delivery: aircraft timelines have slipped repeatedly and the stock has doubled since the May QIP. The outcome hinges almost entirely on when the fourth, fifth and wide-body aircraft actually fly.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Dates for the fourth and fifth 737s and the first 777",
+  "Q2 revenue with three aircraft for a full quarter",
+  "Yield per kg as war-related demand fades",
+  "Operating cash flow and tax payments",
+  "Warrant conversion and dilution"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Q4 FY26 concall transcript (12 Jun 2026) and 13th AGM presentation (25 Sep 2026)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}
