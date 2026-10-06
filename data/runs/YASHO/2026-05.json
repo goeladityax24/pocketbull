@@ -1,0 +1,306 @@
+{
+  "symbol": "YASHO",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94c27946-8a3a-411a-9e09-611400c008b2.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b7844c3-851b-4540-8f7e-e0bc307b1544.pdf",
+    "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/q4audio190526.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-06T12:59:59.956Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-19",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "₹1,500 Cr revenue in FY28",
+        "kind": "absolute",
+        "low": 1500,
+        "high": 1500,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "From 85-90% utilisation plus the MNC long-term contract starting early FY28; existing plants' peak potential ~₹1,450 Cr",
+        "quote": "So all these things will help us to achieve INR1,500 crores revenue in FY '28.",
+        "page": 9,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "INR1,500 crores revenue",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin ~20%",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'At least 2%, 3% higher' than FY26's 17.4% (p.5) as utilisation rises above 70%",
+        "quote": "And that's why we are giving a guidance of improvised your EBITDA to 20% or so.",
+        "page": 7,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "EBITDA to 20% or so",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Utilisation above 75%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~60% in FY26",
+        "quote": "With improving sentiment and enhanced customer engagement, we target over 75% utilization in FY '27, supporting EBITDA margin expansion.",
+        "page": 2,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "over 75% utilization",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Volume growth 35-45%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 volume growth 33%",
+        "quote": "We already said that we will grow by about 15% on capacity utilization and volumes are between 35% to 45%, volume growth also will happen in FY27.",
+        "page": 15,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "35% to 45%",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹125 Cr from internal accruals",
+        "kind": "absolute",
+        "low": 125,
+        "high": 125,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "All at Pakhajan; the MNC project is funded separately by the customer's ₹51.4 Cr advance",
+        "quote": "For FY '27, the company has planned a capex of INR125 crores, which will be completely funded through internal accruals.",
+        "page": 2,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "capex of INR125 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Debt/EBITDA toward 2.5x",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "3.75x at March 2026",
+        "quote": "What we are assuming is that debt-to-EBITDA ratio to come down and our comfort zone will be in the 2.5x.",
+        "page": 6,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "comfort zone will be in the 2.5x",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Working capital down to 170-175 days",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 6 to 12 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "~190 days at March 2026",
+        "quote": "So we would like to bring it down to 175, 170 in the next 6 to 12 months rather than drastically bringing down and wait for a raw material to have a production.",
+        "page": 10,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "175, 170",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Gross margin 40-42%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 2-3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "I think 40% -- anything between 40% to 42% should be the right guidance.",
+        "page": 13,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "40% to 42%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "MNC long-term contract revenue from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "15-year agreement; ₹51.4 Cr advance received",
+        "quote": "We expect the revenue from this to start realizing in FY '28.",
+        "page": 3,
+        "speaker": "Chirag Shah (CFO)",
+        "confidence": "high",
+        "keyword": "start realizing in FY '28",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 consolidated revenue rose 23% to ₹830 Cr on 33% higher volumes, with EBITDA margin up to 17.4%, but interest and depreciation from the new Pakhajan plant kept standalone PAT at only ₹21 Cr. Management targets over 75% utilisation and an EBITDA margin of ~20% in FY27, 35-45% volume growth, and ₹1,500 Cr of revenue in FY28 when a 15-year contract with an MNC (₹51.4 Cr advance received) starts. Capex of ₹125 Cr is planned from internal accruals while debt/EBITDA falls from 3.75x toward 2.5x.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "₹1,500 Cr revenue target for FY28",
+          "page": 9
+        },
+        {
+          "change": "raised",
+          "text": "EBITDA margin guidance ~20% (from 17-19%)",
+          "page": 7
+        },
+        {
+          "change": "new",
+          "text": "15-year MNC supply agreement; ₹51.4 Cr advance; revenue from FY28",
+          "page": 3
+        },
+        {
+          "change": "new",
+          "text": "FY27 capex ₹125 Cr at Pakhajan, internally funded",
+          "page": 2
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "Let me be honest. Neither I have a crystal ball nor I have a source from a White House, which can give you that information, what's going to happen tomorrow.",
+        "page": 12
+      },
+      "analyst_questions": [
+        {
+          "topic": "Margin band",
+          "answer": "Expect 2-3 points higher EBITDA as utilisation passes 70%, i.e. ~20%.",
+          "page": 5
+        },
+        {
+          "topic": "Working capital ~190 days",
+          "answer": "High stock helped through the supply crisis; aim for 170-175 days in 6-12 months.",
+          "page": 10
+        },
+        {
+          "topic": "Chinese competition",
+          "answer": "'Strong, very strong.'",
+          "page": 14
+        },
+        {
+          "topic": "EV risk to lubricant additives",
+          "answer": "Not a threat for 10-15 years; industrial lubricants (data centres, wind) growing.",
+          "page": 8
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Debt ~₹558 Cr and debt/EBITDA 3.75x; interest ate most of FY26 operating profit.",
+          "page": 3
+        },
+        {
+          "text": "Working capital ~190 days; inventory high.",
+          "page": 10
+        },
+        {
+          "text": "Raw-material delays (8-12 weeks) and shipping to the US now 60-70 days.",
+          "page": 11
+        },
+        {
+          "text": "Only ~40% of revenue on contracted pricing; 60% spot.",
+          "page": 13
+        }
+      ],
+      "watch_next": [
+        "Utilisation and volume growth in Q1",
+        "EBITDA margin vs ~20%",
+        "Debt/EBITDA and working-capital days",
+        "Progress on the MNC contract plant",
+        "Price increases (10-15%) passed through from April"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Specialty chemicals: lubricant additives, rubber chemicals (antioxidants), other industrial chemicals, and food and aroma chemicals",
+        "customers": "Global lubricant-additive and rubber majors and MNC formulators; ~600 customers; top customer ~7% of revenue",
+        "revenue_mix": "FY26: industrial chemicals 87%, consumer (food/aroma) 13%; exports 62%",
+        "demand_drivers": "Supply-chain diversification from China, industrial lubricants, rubber and tyre demand, long-term MNC contracts"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94c27946-8a3a-411a-9e09-611400c008b2.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b7844c3-851b-4540-8f7e-e0bc307b1544.pdf",
+    "transcriptPages": 17,
+    "transcriptHasText": true
+  }
+}

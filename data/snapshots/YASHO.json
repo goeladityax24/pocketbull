@@ -1,0 +1,742 @@
+{
+  "symbol": "YASHO",
+  "name": "Yasho Industries Ltd",
+  "screenerUrl": "https://www.screener.in/company/YASHO/",
+  "basis": "standalone",
+  "companyId": "1274312",
+  "warehouseId": "20308836",
+  "ratios": {
+    "market cap": 5163,
+    "current price": 4283,
+    "high": 4994,
+    "low": 1130,
+    "stock p/e": 98.7,
+    "book value": 366,
+    "dividend yield": 0.01,
+    "roce": 8.44,
+    "roe": 4.98,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-06-30",
+        "label": "Q1 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        152,
+        139,
+        129,
+        176,
+        176,
+        162,
+        151,
+        190,
+        198,
+        176,
+        198,
+        245,
+        314
+      ],
+      "expenses": [
+        127,
+        118,
+        106,
+        147,
+        150,
+        134,
+        124,
+        157,
+        164,
+        145,
+        166,
+        205,
+        241
+      ],
+      "operating_profit": [
+        25,
+        21,
+        24,
+        29,
+        26,
+        29,
+        27,
+        34,
+        34,
+        31,
+        32,
+        40,
+        73
+      ],
+      "opm_pct": [
+        17,
+        15,
+        18,
+        17,
+        15,
+        18,
+        18,
+        18,
+        17,
+        18,
+        16,
+        16,
+        23
+      ],
+      "other_income": [
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "interest": [
+        3,
+        4,
+        3,
+        4,
+        14,
+        14,
+        16,
+        14,
+        14,
+        14,
+        14,
+        14,
+        11
+      ],
+      "depreciation": [
+        4,
+        4,
+        4,
+        4,
+        12,
+        12,
+        13,
+        13,
+        13,
+        13,
+        14,
+        14,
+        14
+      ],
+      "pbt": [
+        20,
+        16,
+        20,
+        21,
+        1,
+        2,
+        -2,
+        7,
+        8,
+        4,
+        5,
+        13,
+        49
+      ],
+      "tax_pct": [
+        26,
+        23,
+        25,
+        26,
+        34,
+        16,
+        -53,
+        39,
+        25,
+        29,
+        25,
+        26,
+        25
+      ],
+      "net_profit": [
+        15,
+        12,
+        15,
+        16,
+        1,
+        2,
+        -1,
+        4,
+        6,
+        3,
+        4,
+        9,
+        36
+      ],
+      "eps": [
+        12.76,
+        10.47,
+        12.97,
+        13.9,
+        0.56,
+        1.8,
+        -0.82,
+        3.55,
+        4.67,
+        2.38,
+        2.9,
+        7.87,
+        30.22
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2015,
+        "index": 0,
+        "endDate": "2015-03-31",
+        "label": "FY15"
+      },
+      {
+        "kind": "year",
+        "fy": 2016,
+        "index": 0,
+        "endDate": "2016-03-31",
+        "label": "FY16"
+      },
+      {
+        "kind": "year",
+        "fy": 2017,
+        "index": 0,
+        "endDate": "2017-03-31",
+        "label": "FY17"
+      },
+      {
+        "kind": "year",
+        "fy": 2018,
+        "index": 0,
+        "endDate": "2018-03-31",
+        "label": "FY18"
+      },
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        169,
+        180,
+        195,
+        250,
+        340,
+        297,
+        359,
+        614,
+        670,
+        596,
+        680,
+        817
+      ],
+      "expenses": [
+        154,
+        160,
+        174,
+        223,
+        303,
+        258,
+        310,
+        520,
+        560,
+        497,
+        563,
+        679
+      ],
+      "operating_profit": [
+        15,
+        20,
+        22,
+        27,
+        37,
+        39,
+        49,
+        93,
+        111,
+        99,
+        116,
+        138
+      ],
+      "opm_pct": [
+        9,
+        11,
+        11,
+        11,
+        11,
+        13,
+        14,
+        15,
+        17,
+        17,
+        17,
+        17
+      ],
+      "other_income": [
+        2,
+        0,
+        3,
+        4,
+        3,
+        3,
+        10,
+        10,
+        11,
+        8,
+        2,
+        1
+      ],
+      "interest": [
+        13,
+        13,
+        14,
+        15,
+        16,
+        15,
+        16,
+        14,
+        16,
+        15,
+        60,
+        56
+      ],
+      "depreciation": [
+        5,
+        5,
+        5,
+        6,
+        7,
+        9,
+        12,
+        19,
+        20,
+        16,
+        50,
+        55
+      ],
+      "pbt": [
+        0,
+        2,
+        5,
+        10,
+        17,
+        17,
+        31,
+        71,
+        86,
+        76,
+        8,
+        29
+      ],
+      "tax_pct": [
+        50,
+        33,
+        33,
+        22,
+        29,
+        29,
+        30,
+        26,
+        26,
+        25,
+        28,
+        26
+      ],
+      "net_profit": [
+        0,
+        2,
+        4,
+        8,
+        12,
+        12,
+        21,
+        53,
+        64,
+        57,
+        6,
+        21
+      ],
+      "eps": [
+        0.01,
+        0.15,
+        0.37,
+        7.31,
+        10.91,
+        11,
+        19.71,
+        46.26,
+        56.41,
+        50.11,
+        4.99,
+        17.82
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bd06ac0-5757-451a-93a4-ef8b42f196e7.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a40a6029-52fb-4588-af78-d69b034f543b.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/10044957.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94c27946-8a3a-411a-9e09-611400c008b2.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b7844c3-851b-4540-8f7e-e0bc307b1544.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/q4audio190526.mp3"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93666ad6-45ea-44e7-b857-53ccc42bd9d4.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6d90fa5-f837-4a7b-980b-ae323834223e.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0a00674-90c1-4e5d-909c-945966d782ec.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db5bfb9e-ed72-4b6f-aee1-c47b20260c68.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25aa7561-8e35-4cef-b124-e697606512c2.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9673b72-348e-4fe8-bba3-b12ebdb08833.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d379fb2e-6fbc-43e1-ab6b-33f5bc30f458.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07d32d23-b338-4cea-abdb-1cfaddce9e24.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c79e1c4-25f2-460b-92ba-c676925d4a3d.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/fy2025-q4__audio_file_.mp3"
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30c702dd-038b-49b9-9c9a-edd205d7f18b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4507b26d-8f8c-41ec-994e-fe27c013b8af.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=595a8f75-da86-414a-accf-9cda53b8296d.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd20ae5d-b8e3-4167-90ef-5aafe55bed2c.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0d65884-7e93-41af-8a49-ab7b8e95cd7f.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97629235-d3f5-4483-801a-8624131600dd.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_q1fy25_audio.mp3"
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31864945-5066-4c60-a0b0-adc384e3cdb8.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05-b",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31864945-5066-4c60-a0b0-adc384e3cdb8.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d0de03a-b2d3-49e2-ae05-f33965ae0847.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/fy2024-q4__audio_file_.mp3"
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ebd18db-2c47-4112-8b97-d338bac569d8.pdf",
+      "pptUrl": null,
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_-_q3fy24_concall_audio.mp3"
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9deb8dd9-37b3-46e5-b10d-ca5069ed81c1.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_-_q3fy24_concall_audio.mp3"
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b6671f2-356e-41a7-b426-d68c15b9f7a0.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74ad5564-c0ab-4aa8-a55a-bd34571d7ca8.pdf",
+      "recordingUrl": "https://youtu.be/agJ_6PI7Qs8?si=g5ILdOauAmn1yIwF"
+    },
+    {
+      "month": "Aug 2023",
+      "yearMonth": "2023-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da1ffe17-09f9-4661-a879-02feb5dee829.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=078c73ef-e215-4709-be44-dedc7a6dd9d8.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f800c2b-bdf9-448c-af32-0904022c0687.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5712422-2be4-46df-b5a0-0c31828b6522.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ed56e8-74a1-49a4-addc-21211de70dbd.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c5f3248-55cb-4dce-aebf-d185e7a0506e.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2269d47a-7906-4ee7-9726-33d4b3512238.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7aaa8d5-222e-45b6-917a-e6253521278f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2022",
+      "yearMonth": "2022-08",
+      "transcriptUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/_transcripts_fy2023-q1.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b017677-d0e1-4704-a406-fc831fa6af9e.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2022",
+      "yearMonth": "2022-05",
+      "transcriptUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/transcript_fy2022-q4.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3348ddb-24af-462e-baaf-f00c26bee00f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2022",
+      "yearMonth": "2022-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a396247e-c63c-4fbd-babf-1e9e21823590.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a9d40da-ec48-459f-9bb2-3ed30bfd824a.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2021",
+      "yearMonth": "2021-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ef703a0-3f89-4049-bf66-90b7711bd1f1.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=384ff4ec-42b5-4568-83b4-b54ceb7a963f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=369047d3-9255-47eb-bf29-65223a23b8fe.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2021",
+      "yearMonth": "2021-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b221e83c-0b6d-472c-9c42-c070f556c828.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2021",
+      "yearMonth": "2021-02",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9af8ebd-5fdf-4c9c-9bb7-2025baf46328.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2020",
+      "yearMonth": "2020-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66885dd4-e0cb-4041-919d-5ac7e022636c.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Oct 2020",
+      "yearMonth": "2020-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88662c17-aa67-4d01-aa12-a5ea5fc0f50e.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:19.731Z"
+}
