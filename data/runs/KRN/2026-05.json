@@ -8,7 +8,7 @@
     "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/05/KRN-Heat-Exchanger-and-Refrigeration-Limited-Q4-FY26-Earnings-Concall-Audio-Recording.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-10-06T12:50:59.233Z",
+  "createdAt": "2026-10-06T13:17:14.246Z",
   "createdBy": "Claude session (Admin's plan)",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -329,7 +329,7 @@
       ],
       "business_snapshot": {
         "what_they_make": "Fin-and-tube heat exchangers (95% of revenue) for HVAC&R, plus new lines: bar-and-plate, refrigeration condensers and evaporators, dry coolers, ammonia evaporators and Bus AC systems",
-        "customers": "Commercial and residential HVAC OEMs (Daikin-type majors), data-centre cooling makers such as Schneider Electric and soon Vertiv, refrigeration OEMs, Indian Railways, export customers in UAE, US and Europe",
+        "customers": "Commercial and room-AC HVAC OEMs, data-centre cooling makers such as Schneider Electric and soon Vertiv, refrigeration OEMs, Indian Railways, export customers in UAE, US and Europe",
         "revenue_mix": "FY26: domestic 83%, exports 17% (UAE 38%, USA 31% of exports); data centres ~16%",
         "demand_drivers": "Data-centre and commercial HVAC build-out, import substitution, Bus AC and railway HVAC, export wins in North America and Europe"
       }
