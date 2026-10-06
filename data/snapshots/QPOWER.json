@@ -1,0 +1,433 @@
+{
+  "symbol": "QPOWER",
+  "name": "Quality Power Electrical Equipments Ltd",
+  "screenerUrl": "https://www.screener.in/company/QPOWER/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1285329",
+  "warehouseId": "134412951",
+  "ratios": {
+    "market cap": 12749,
+    "current price": 1649,
+    "high": 1681,
+    "low": 581,
+    "stock p/e": 95.6,
+    "book value": 70,
+    "dividend yield": 0.06,
+    "roce": 31.7,
+    "roe": 25.3,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        142,
+        39,
+        61,
+        94,
+        73,
+        108,
+        177,
+        206,
+        284,
+        281,
+        233
+      ],
+      "expenses": [
+        131,
+        26,
+        38,
+        86,
+        55,
+        92,
+        146,
+        170,
+        205,
+        251,
+        192
+      ],
+      "operating_profit": [
+        11,
+        14,
+        24,
+        8,
+        17,
+        16,
+        31,
+        36,
+        79,
+        30,
+        41
+      ],
+      "opm_pct": [
+        8,
+        34,
+        38,
+        9,
+        24,
+        15,
+        18,
+        18,
+        28,
+        11,
+        18
+      ],
+      "other_income": [
+        6,
+        9,
+        18,
+        8,
+        6,
+        21,
+        17,
+        13,
+        0,
+        29,
+        24
+      ],
+      "interest": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "depreciation": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "pbt": [
+        15,
+        22,
+        41,
+        14,
+        22,
+        36,
+        44,
+        44,
+        74,
+        53,
+        59
+      ],
+      "tax_pct": [
+        7,
+        19,
+        18,
+        5,
+        10,
+        14,
+        16,
+        21,
+        15,
+        13,
+        23
+      ],
+      "net_profit": [
+        14,
+        18,
+        33,
+        13,
+        20,
+        30,
+        37,
+        35,
+        63,
+        51,
+        47
+      ],
+      "eps": [
+        74933.33,
+        2.11,
+        4.34,
+        1.62,
+        1.92,
+        2.51,
+        3.12,
+        3.14,
+        5.03,
+        4.38,
+        4.66
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        183,
+        253,
+        302,
+        338,
+        947
+      ],
+      "expenses": [
+        159,
+        221,
+        263,
+        271,
+        769
+      ],
+      "operating_profit": [
+        23,
+        32,
+        39,
+        67,
+        178
+      ],
+      "opm_pct": [
+        13,
+        13,
+        13,
+        20,
+        19
+      ],
+      "other_income": [
+        29,
+        20,
+        30,
+        52,
+        58
+      ],
+      "interest": [
+        1,
+        3,
+        2,
+        2,
+        7
+      ],
+      "depreciation": [
+        2,
+        2,
+        3,
+        5,
+        13
+      ],
+      "pbt": [
+        49,
+        48,
+        63,
+        112,
+        216
+      ],
+      "tax_pct": [
+        14,
+        16,
+        12,
+        11,
+        16
+      ],
+      "net_profit": [
+        42,
+        40,
+        55,
+        100,
+        186
+      ],
+      "eps": [
+        110133.33,
+        137400,
+        5.19,
+        8.54,
+        15.67
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7de2eb0-22dd-4909-96d2-2eee140b2b7c.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b7003bd-b2bd-4606-a182-167d6ba50f69.pdf",
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2026/08/Quality-Power-Q1FY27-Concall-Audio.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=809e466a-252f-4978-98a1-869a865f2aa6.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=318a4a42-f88a-4732-a393-c35c0cbc3350.pdf",
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2026/05/Q4-and-FY2026-Earnings-Call.mp3"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b3a04bb-8757-4475-ae58-446b0c2b51d0.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f5c475d-7d9b-4ca6-b4bf-376e01527630.pdf",
+      "recordingUrl": "https://youtu.be/iZOAb81mXtI"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e73fd5f-71d9-4719-b2ac-c232a62e0203.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=675dd9cd-14de-4031-8dc4-5263c376c807.pdf",
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2025/11/Quality-Power-Q2FY26-Earnings-Call-recording.mp3"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5ef7782-13f4-4cff-885e-3f2a5437561a.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58c803e5-0468-4cc0-a0a8-673659f60a7f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2025",
+      "yearMonth": "2025-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bd06049-c1d9-418d-8b93-634ab3306903.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00338993-50ef-425b-ad6b-360d1de7390b.pdf",
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2025/05/Concall-Recording-Q4-and-FY2025.mp3"
+    },
+    {
+      "month": "Mar 2025",
+      "yearMonth": "2025-03",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afbcc22e-5c5d-44f3-ae25-a1304334788b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4529a0e0-3fc1-4307-98cb-8696a1290d06.pdf",
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2025/03/QualityPower_EarningsCallAudio_18.03.2025.wav"
+    },
+    {
+      "month": "Mar 2025",
+      "yearMonth": "2025-03-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5c81118-1050-42a6-aa50-a62798104f90.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2015",
+      "yearMonth": "2015-08",
+      "transcriptUrl": null,
+      "pptUrl": null,
+      "recordingUrl": "https://qualitypower.com/wp-content/uploads/2025/08/Audio-Recording_Q1FY26-Concall.mp3"
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-06T12:46:18.139Z"
+}

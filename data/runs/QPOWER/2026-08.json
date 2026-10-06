@@ -1,0 +1,400 @@
+{
+  "symbol": "QPOWER",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7de2eb0-22dd-4909-96d2-2eee140b2b7c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b7003bd-b2bd-4606-a182-167d6ba50f69.pdf",
+    "recordingUrl": "https://qualitypower.com/wp-content/uploads/2026/08/Quality-Power-Q1FY27-Concall-Audio.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-06T12:54:34.420Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-10",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth ~20%",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "May revisit at Q3",
+        "quote": "Darshil, I think we have guided to 20% at this moment. We'll stick our guns to it.",
+        "page": 11,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "guided to 20%",
+        "revises": "15-20% growth (May 2026)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin ~20% or high teens",
+        "kind": "margin_pct",
+        "low": 16,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q1 FY27 reported 25.2%; standalone margins to moderate in Q3 as Sangli costs start",
+        "quote": "Please model us at 20% or high teens EBITDA. We will always try to deliver better.",
+        "page": 11,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "20% or high teens",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY28 growth ~50%",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": null,
+        "quote": "FY28, we have given a guidance of 50%.",
+        "page": 18,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "guidance of 50%",
+        "revises": "Above 50% in FY28 (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Sangli revenue from Q3, meaningful in Q4",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Trial production targeted August; ~60 customer audits over ~6 months; peak revenue ₹1,500-1,800 Cr",
+        "quote": "I would say start looking at Q3. Some revenue trickling in, Q4 is when you would see some turnarounds.",
+        "page": 16,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "start looking at Q3",
+        "revises": "Trial production July-August 2026 (May 2026)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed over ~15 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 15 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Order book ₹1,945 Cr at June 2026",
+        "quote": "This order book what we have, Rahul, this order book is slated to completion in the next 15 months, give and take.",
+        "page": 8,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "next 15 months",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "BESS/PCS: another US$40 Mn of orders in 12 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 12 months",
+        "basis": "segment",
+        "segment": "Energy storage (Endoks)",
+        "condition": null,
+        "quote": "And we are anticipating another USD40 million more in the next 12 months at least, which is, which is in line with the guidance that we have given earlier that we see about at least USD80 million of business coming in.",
+        "page": 8,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "another USD40 million",
+        "revises": "US$60-80 Mn of PCS orders this year (May 2026)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Mehru EBITDA margin ~18%",
+        "kind": "margin_pct",
+        "low": 18,
+        "high": 18,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "going forward",
+        "basis": "segment",
+        "segment": "Mehru",
+        "condition": null,
+        "quote": "I think our revised guidance for Mehru would be around 18%.",
+        "page": 12,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "revised guidance for Mehru",
+        "revises": "Mehru above 15%"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Standalone EBITDA margin ~20%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "going forward",
+        "basis": "standalone",
+        "segment": null,
+        "condition": "Analyst asked about ~20% standalone EBITDA margin; coil orders booked above 25%",
+        "quote": "I think standalone we should be good enough for that.",
+        "page": 16,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "standalone we should be good",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Winwin (WS) Insulators consolidated from Q4",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Winwin Speciality Insulators",
+        "condition": "EV ~₹315 Cr; ₹450-500 Cr revenue potential with ~₹50 Cr capex; margins 15-25% to settle in four quarters",
+        "quote": "We will start most probably consolidation Q4 this year. Without a capex, I think it should be doing between INR250 crores and INR300 crores.",
+        "page": 18,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "consolidation Q4",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "₹50 Cr capex at the insulator plant",
+        "kind": "absolute",
+        "low": 50,
+        "high": 50,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "after the Winwin acquisition",
+        "basis": "segment",
+        "segment": "Winwin Speciality Insulators",
+        "condition": null,
+        "quote": "We are also proposing a INR50 crores capex at that location for enhancing capacity.",
+        "page": 13,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "INR50 crores capex",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Fund-raise under ₹500 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "August 2026 onward",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "For the Winwin acquisition, its capex and a US sales entry; road shows from 20 August",
+        "quote": "We have not put numbers to it, but less than INR500 crores.",
+        "page": 13,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "less than INR500 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "CTC magnet-wire facility at full production by Q4",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We are anticipating by Q4 of this year is when we will be able to take up full production out of the facility.",
+        "page": 8,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "by Q4 of this year",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Endoks PCS factory operating in Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "At Endoks in Turkey, civil construction of the power conversion system facility is complete, with operations expected to begin during Q3 this year.",
+        "page": 3,
+        "speaker": "Bharanidharan Pandyan (Joint MD)",
+        "confidence": "high",
+        "keyword": "begin during Q3",
+        "revises": "Nigde PCS facility by December 2026 (May 2026)"
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue rose to ₹256 Cr with a 25.2% EBITDA margin (28.3% before a ₹7.8 Cr Ind AS 29 charge) and PAT of ₹47 Cr; the order book jumped to ₹1,945 Cr (1.9x last year's revenue), led by energy storage at Endoks. Management held FY27 guidance at ~20% growth and an EBITDA margin of 20% or high teens, warned of a dip in standalone margins in Q3 as the new Sangli plant's costs arrive before revenue (expected from Q3, meaningful in Q4), and reiterated ~50% growth for FY28. It is buying Winwin (ex-WS) Insulators at an EV of ~₹315 Cr and plans to raise under ₹500 Cr.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "~20% revenue growth in FY27; may revisit at Q3",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "EBITDA margin guidance: 20% or high teens",
+          "page": 11
+        },
+        {
+          "change": "delayed",
+          "text": "Sangli: trial production in August; revenue from Q3, meaningful only in Q4",
+          "page": 16
+        },
+        {
+          "change": "new",
+          "text": "Acquiring Winwin Speciality Insulators (EV ~₹315 Cr), consolidation from Q4",
+          "page": 6
+        },
+        {
+          "change": "raised",
+          "text": "Mehru margin guidance raised to ~18% from above 15%",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Fund-raise of under ₹500 Cr, road shows from 20 August",
+          "page": 16
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Getting orders is not a worry at this moment for us.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "Q3 margin warning",
+          "answer": "Aluminium bought now reaches coil production ~6 months later; Sangli fixed costs arrive before volumes. Coil business 'stable guidance' ~20%, orders booked above 25%.",
+          "page": 7
+        },
+        {
+          "topic": "Why buy an insulator maker?",
+          "answer": "Insulators are the industry bottleneck; WS is approved in 55+ countries; paid ~₹50-60 Cr for the business plus 40 acres of land.",
+          "page": 15
+        },
+        {
+          "topic": "Sangli delay",
+          "answer": "Awaiting building completion and other statutory approvals; then ~60 customer audits over ~6 months.",
+          "page": 14
+        },
+        {
+          "topic": "Chinese firms allowed to bid",
+          "answer": "Their Indian plants are mostly idle; local-content rules still apply.",
+          "page": 19
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Sangli plant start has slipped from June to August, with revenue only from Q3.",
+          "page": 16
+        },
+        {
+          "text": "Another equity raise (under ₹500 Cr) within 18 months of the IPO, for acquisitions and a US entry.",
+          "page": 13
+        },
+        {
+          "text": "Winwin plant has a troubled history (cyclone write-off, gas-crisis losses) and needs a turnaround.",
+          "page": 19
+        },
+        {
+          "text": "Cash balances fell as expansion is funded internally.",
+          "page": 6
+        }
+      ],
+      "watch_next": [
+        "Q2 revenue growth vs ~20% and EBITDA margin vs 20%",
+        "Standalone margin dip in Q3",
+        "Sangli commercial production and customer audits",
+        "Winwin acquisition closing and size of the fund-raise",
+        "PCS factory start at Endoks in Q3"
+      ],
+      "business_snapshot": {
+        "what_they_make": "HVDC and FACTS reactors and coils, instrument transformers, STATCOMs, battery-storage power conversion systems, and soon insulators",
+        "customers": "Global OEMs (Hitachi Energy, Siemens, GE), Indian HVDC projects (Adani, Power Grid), European renewable developers, US data centres",
+        "revenue_mix": "Q1 FY27: Quality Power ~₹69 Cr, Mehru ~₹83 Cr, Endoks ~₹107 Cr; order book Endoks ₹801 Cr, Mehru ₹585 Cr, Quality Power ₹553 Cr",
+        "demand_drivers": "Grid expansion, HVDC, energy storage, data-centre power infrastructure"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7de2eb0-22dd-4909-96d2-2eee140b2b7c.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b7003bd-b2bd-4606-a182-167d6ba50f69.pdf",
+    "transcriptPages": 24,
+    "transcriptHasText": true
+  }
+}
