@@ -1,0 +1,318 @@
+{
+  "symbol": "SHREEREF",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-09-arihant-bharat-connect",
+    "transcriptUrl": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=392",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-07T11:22:56.091Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-10-05",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "~40% revenue CAGR for 3-5 years",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "The company (May 2026 call) also gave ~40%. Both are kept. Excludes data centres.",
+        "quote": "Management maintained its target of ~40% revenue CAGR for the next 3-5 years, which it has sustained over the past few years.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "~40% revenue CAGR",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Working capital 325-330 days in FY27, ~250 days in 3-5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "370 days at March 2026 (570 a year earlier)",
+        "quote": "Management targets a further improvement in working capital days to 325-330 in FY27 and ~250 over the next 3-5 years.",
+        "page": 393,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "325-330 in FY27",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "May need another plant in ~1.5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "~1.5 years (around FY28)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The company (May 2026 call) said no major capex for the next couple of years; existing plants support ~₹400 Cr revenue",
+        "quote": "At the current 40% growth trajectory, management expects the company to outgrow the existing capacity in ~1.5 years, potentially requiring another plant.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "outgrow the existing capacity",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book 1.5-2.0x projected invoicing",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Order book ~₹270 Cr; ₹208 Cr of orders won in FY26",
+        "quote": "The company expects to maintain an order-book-to-projected-invoicing ratio of around 1.5-2.0x.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "1.5-2.0x",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "H1 FY27 less muted than H1 FY26",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The company (May 2026 call) also said FY27 would be less skewed to H2. Both are kept.",
+        "quote": "H1FY27 is expected to be less muted than H1FY26, with lower lumpiness as a larger portion of orders has already moved beyond design, QAP and approval stages.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "less muted than H1FY26",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Navy vendor orders from approved shipbuilding to flow by end-FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "A similar pool awaiting approval could reach vendors from FY28-FY29; Shree uses ~1% of ship value as its opportunity",
+        "quote": "Of the ~INR 1,500-1,600 bn of government-approved shipbuilding orders, vendor orders are expected to flow down towards the end of FY28.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "towards the end of FY28",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "First data-centre revenue from FY28, outside guidance",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Data-centre cooling",
+        "condition": "No confirmed order yet; the company (May 2026 call) also said FY28. Both are kept.",
+        "quote": "Initial revenue contribution is expected from FY28.",
+        "page": 392,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "Initial revenue contribution",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Spares and service back to 15-20% of revenue",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "going forward",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The company (May 2026 call) also gave 15-20%. Both are kept.",
+        "quote": "Management expects to increase the contribution of spares and services from the current 7% towards 15-20%.",
+        "page": 393,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "towards 15-20%",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "New Aquilon subsidiary for sub-zero industrial cooling",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "not dated",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "The newly incorporated Aquilon subsidiary will target food & beverage, pharma and chemical industries requiring sub-zero temperature cooling.",
+        "page": 393,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "Aquilon subsidiary",
+        "revises": null,
+        "source_ref": "Arihant note"
+      }
+    ],
+    "insights": {
+      "summary": "From Arihant's Bharat Connect compendium (September 2026 conference, published 5 October): management reiterated a ~40% revenue CAGR for 3-5 years (excluding data centres), a ~₹270 Cr order book with a 1.5-2.0x order-to-invoicing ratio, and spares rising back to 15-20% of revenue. New since the May call: working-capital targets of 325-330 days in FY27 and ~250 days in 3-5 years, a warning that the two plants (~₹400 Cr revenue capacity) may be outgrown in about 1.5 years, and a new Aquilon subsidiary for sub-zero industrial cooling. Navy vendor orders from ₹1.5-1.6 lakh Cr of approved ships are expected to flow toward end-FY28; there is still no confirmed data-centre order.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "~40% revenue CAGR for 3-5 years",
+          "page": 392
+        },
+        {
+          "change": "new",
+          "text": "Working capital to 325-330 days in FY27, ~250 days in 3-5 years",
+          "page": 393
+        },
+        {
+          "change": "new",
+          "text": "Another plant may be needed in ~1.5 years (May call: no major capex for two years)",
+          "page": 392
+        },
+        {
+          "change": "new",
+          "text": "Aquilon subsidiary for sub-zero cooling in food, pharma and chemicals",
+          "page": 393
+        },
+        {
+          "change": "reiterated",
+          "text": "Data-centre revenue from FY28; no confirmed order yet",
+          "page": 392
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Management maintained its target of ~40% revenue CAGR for the next 3-5 years, which it has sustained over the past few years.",
+        "page": 392
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "The note states FY26 revenue as INR 2.53 bn; reported revenue was ₹153 Cr (the note itself says ~INR 1.53 bn was executed). Treat its figures with care.",
+          "page": 392
+        },
+        {
+          "text": "Second-hand: a broker's summary, not a company filing.",
+          "page": 392
+        },
+        {
+          "text": "Possible new plant soon after saying no major capex for two years.",
+          "page": 392
+        },
+        {
+          "text": "Loans of ~₹33 Cr plus ₹5 Cr machinery debt; more debt may be raised.",
+          "page": 393
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue (should be less muted than H1 FY26's ₹50 Cr)",
+        "Working-capital days toward 325-330",
+        "Any announcement of a third plant",
+        "First data-centre order"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Naval AC and refrigeration plants, HVAC and control panels; data-centre chillers with Smardt; sub-zero industrial cooling (Aquilon)",
+        "customers": "Indian Navy shipyards and retrofits; data-centre operators (in talks); food, pharma and chemical plants (planned)",
+        "revenue_mix": "FY26 spares and service ~7% of revenue (FY25 ~30%)",
+        "demand_drivers": "Navy shipbuilding approvals, retrofits, data-centre cooling, industrial sub-zero cooling"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-09-arihant-bharat-connect",
+    "kind": "conference",
+    "event": "Arihant Bharat Connect Rising Stars, Sep 2026",
+    "date": "2026-10-05",
+    "links": [
+      {
+        "url": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=392",
+        "author": "Arihant Capital (post-conference compendium)",
+        "grade": "broker_note",
+        "images": [
+          "data/conferences/2026-09-arihant-bharat-connect/compendium.pdf"
+        ],
+        "pages": [
+          392,
+          393
+        ]
+      }
+    ],
+    "text_file": "data/sources/SHREEREF/2026-09-arihant-bharat-connect.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=392",
+    "pptUrl": null,
+    "transcriptPages": 2,
+    "transcriptHasText": true
+  }
+}
