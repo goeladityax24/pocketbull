@@ -1,0 +1,86 @@
+[[page 182]]
+
+Arihant Capital Markets Ltd
+Bharat Connect Conference CompendiumPost Conference Note
+HFCL Ltd
+Outlook: HFCL is poised for a structural multi-year growth cycle driven by hyperscaler and data centre demand, with optical fibre
+capacity expanding to 43 mn fibre kilometres and cable capacity to 62 mn fibre kilometres by July 2028, alongside 600 tonnes of
+preform capacity by October 2028. Revenue growth guidance has been raised to a minimum of 60% for FY27, with ~50%+ growth
+considered sustainable, supported by a ~INR 280 bn order book and improving margins (23.25% EBITDA in Q1FY27 versus 16.7% in
+FY26). The defence segment offers a second growth pillar, targeting ~INR 40-50 bn by FY30, while data centre interconnect is set
+to rise to 18-20% of the OFC segment next year. With firm global demand, sustained pricing, no tariff impact, and ~INR 25 bn
+capex underway, HFCL appears well-positioned to capitalise on a long runway of opportunities through FY29 and beyond.
+Capacity Expansion Roadmap
+• HFCL is undertaking a major capacity buildout across the optical fibre value chain. Optical fibre capacity stands at 28 mn fibre
+kilometres, expanding to 34 mn by December 2026 and 43 mn by July 2028. Optical fibre cable capacity is currently 39 mn
+fibre kilometres, rising to 43 mn by December 2026 and 62 mn by July 2028. The company is also setting up 600 tonnes of
+preform capacity at a capex of ~INR 12.5 bn, operational by October 2028. This will meet ~50% of captive preform
+requirements, with the balance continuing to be outsourced from Japanese suppliers Sumitomo and Shin-Etsu.
+Demand-Supply Dynamics
+• Global annual optical fibre cable demand stands at ~750 mn fibre kilometres against supply of ~600-625 mn fibre kilometres.
+The shortage is primarily driven by preform availability constraints. Demand is split across hyperscaler data centres at ~400-
+450 mn fibre kilometres, telcos at ~200 mn fibre kilometres, and defence applications (drones) at ~100 mn fibre kilometres.
+Demand is expected to reach ~900 mn fibre kilometres by FY29, with the shortage expected to persist. Unlike previous cycles
+tied to the 2G, 3G and 4G rollouts, this cycle is structural and driven by hyperscalers and data centres, with a runway of at least
+seven to eight years.
+Pricing Trends
+• Optical fibre prices have risen sharply. D2 fibre for telcos has moved from ~USD 4-5 per fibre kilometre to ~USD 13-14 per fibre
+kilometre. A2 fibre for hyperscalers has moved from ~USD 7-8 per fibre kilometre to ~USD 25 per fibre kilometre. Pricing is
+expected to sustain given the structural demand shift. Telcos have held back capex for the past one to one-and-a-half years
+expecting price softening, but with prices sustaining, large telcos globally have begun inquiries. The next phase of demand is
+expected from telcos densifying networks, 6G rollout by FY29, and defence applications.
+Geographic Demand Shift
+• Current demand is predominantly from US hyperscalers. This is expected to shift to Europe, Southeast Asia, the Middle East,
+and Asia including India. India has announced significant data centre capex, with cable requirements expected to begin in one
+to one-and-a-half years. Fibre, cable and data centre interconnect constitute ~5% of total data centre capex, split 50-50
+between cable and data centre interconnect products.
+Defence Segment Growth
+• HFCL has developed land-based defence products including electronic fuses, thermal weapon sights, radars, and multimode
+hand grenades under a DRDO technology tie-up. The company acquired an aerospace company manufacturing fuel tanks and
+pylons for fighter jets, with a confirmed export order book of ~INR 16 bn at acquisition, now ~INR 20.5 bn. Defence revenue
+was ~INR 770 mn last year, with aspirations of ~INR 5 bn this year, ~INR 15 bn next year, and ~INR 40-50 bn by FY30. A defence
+tender financial bid is likely to open in February 2027. The board has approved ~INR 2.75 bn of capex for ammunition facilities.
+Financial Performance and Guidance
+• HFCL reported turnover of INR 49.49 bn in FY26, and Q1FY27 revenue was INR 19.15 bn. FY27 growth guidance was revised
+from 20% to 40%, and now to a minimum of 60% over FY26. EBITDA margin was 16.7% in FY26, improving to 23.25% in
+Q1FY27; this is seen as sustainable, with further quarterly improvement expected. The operating margin for the OFC,
+interconnect and telecom networking segment is ~30%, and preform backward integration is expected to improve segment
+margins by ~2-3 percentage points to ~32-33%. Blended EBITDA is lower due to EPC losses of ~INR 800-900 mn per quarter,
+which are likely to continue for one to two more quarters.
+Order Book
+• The total order book stands at ~INR 280 bn. Optical fibre cable and data centre interconnect account for ~INR 190 bn, telecom
+and networking products ~INR 78 bn, defence electronics ~INR 3 bn, and EPC including O&M ~INR 35 bn. The ~INR 20 bn
+aerospace export order book is not included, as the acquisition is underway, with consolidation expected by Q4FY27. Two
+large OFC orders are long-term in nature, with prices revisited annually, while the remainder are short-term (2-6 months). Last
+quarter alone saw ~INR 40 bn of orders.
+Back to Index | 182
+
+
+[[page 183]]
+
+Arihant Capital Markets Ltd
+Bharat Connect Conference CompendiumPost Conference Note
+Data Centre Interconnect Opportunity
+• Data centre interconnect revenue is currently 8-10% of the OFC segment, expected to rise to 18-20% next year. Assembly lines
+are expanding from 8 to 14, then to 28 by the end of FY27, and eventually to 56. Margins in interconnect solutions are
+relatively better than optical fibre cable due to higher labour intensity and precision requirements. Approximately 85-90% of
+revenue is from AI and data centre hyperscalers, predominantly export, with better realisations.
+Capex Plans
+• Total capex is ~INR 25 bn including ~INR 2.75 bn for defence, to be spent over two to two-and-a-half years: ~INR 10 bn this
+year, ~INR 10 bn next year, and ~INR 5 bn the year after. Debt currently stands at ~INR 17 bn (INR 13 bn short-term plus INR 4
+bn long-term), and is likely to remain at similar levels in H1 before declining substantially by the end of next financial year as
+cash generation improves.
+Competitive Positioning and Tariff Impact
+• HFCL is competitive globally on scale, bulk buying, power costs, and economies of scale. Hyperscalers do not buy Chinese
+products for this segment, limiting competition from China. There is no tariff impact on the company. During the initial 52% US
+tariff period, customers were willing to reimburse, and the amount was refunded in Q1FY27 as a balance sheet receivable, not
+a P&L entry. Products are being airlifted with cost reimbursement from customers. No order cancellations have been seen, and
+customers are firm on commitments given that fibre and cable are only ~5% of their capex.
+Revenue Potential
+• Peak revenue from the expanded capacity could range between ~INR 110-140 bn depending on market dynamics, pricing, and
+product mix. Growth of ~50%+ is considered sustainable going forward given order flow, capacity utilisation, raw material
+availability, and customer engagements. The preform facility, operational from October 2028, will aid margin improvement,
+with blended EBITDA potentially reaching ~25-26% or better as EPC revenue share declines and interconnect and defence
+revenue increases.
+Back to Index | 183
+
