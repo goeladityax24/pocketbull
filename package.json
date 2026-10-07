@@ -14,7 +14,8 @@
     "import-run": "tsx scripts/import-run.ts",
     "snapshot": "tsx scripts/snapshot.ts",
     "sync-db": "tsx scripts/sync-db.ts",
-    "pending-sources": "tsx scripts/pending-sources.ts"
+    "pending-sources": "tsx scripts/pending-sources.ts",
+    "conference-notes": "tsx scripts/conference-notes.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

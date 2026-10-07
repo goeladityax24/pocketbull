@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "descriptor": "Air-conditioning and refrigeration for Navy warships and submarines (BSE SME)",
  "lede": "A Karad company that indigenised air-conditioning for Scorpene submarines and now holds about 64% of naval HVAC orders, riding India's warship build-out. FY26 met every guidance number, but cash stays tied up for a year in working capital, the founding family is paid generously, and the stock trades at 64x earnings.",
  "market": {
@@ -93,6 +93,11 @@
        "lead": "",
        "text": "New 50,000 sq ft plant at Karad (₹25 Cr) from June 2026, expandable to 1 lakh sq ft.",
        "src": "Jun call p.15"
+      },
+      {
+       "lead": "",
+       "text": "New Aquilon subsidiary to sell sub-zero cooling to food, pharma and chemical plants.",
+       "src": "Bharat Connect note p.393"
       }
      ]
     }
@@ -267,7 +272,7 @@
       },
       {
        "lead": "Working capital improved but is still heavy:",
-       "text": "receivable days 251 and inventory days 249 at March 2026, down from 352 and 361.",
+       "text": "receivable days 251 and inventory days 249 at March 2026, down from 352 and 361. Management now targets 325-330 days in FY27 and ~250 in 3-5 years (Sep conference note).",
        "src": null
       },
       {
@@ -378,6 +383,30 @@
         {
          "text": "Pending",
          "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital 325-330 days in FY27, ~250 in 3-5 years (conference note)",
+        "Sep 26",
+        "370 days at March 2026",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No major capex for two years (May) vs another plant possibly in ~1.5 years (Sep)",
+        "May / Sep 26",
+        "Message shifted within four months",
+        {
+         "text": "Changed",
+         "tag": "neutral"
         }
        ],
        "highlight": false
@@ -690,11 +719,14 @@
   "EBITDA margin within 20-24%",
   "Spares share of revenue",
   "Working-capital days",
-  "First data-centre order"
+  "First data-centre order",
+  "Working-capital days vs 325-330 target",
+  "Any decision on a third plant"
  ],
  "sources": [
   "Screener financials, shareholding and prices (6 Oct 2026)",
   "H1 FY26 (12 Nov 2025) and H2 FY26 (26 May 2026) concall transcripts and presentations",
+  "Arihant Bharat Connect Rising Stars compendium (Sep 2026 conference, published 5 Oct 2026; broker note)",
   "FY26 annual report",
   "Peer data from Screener"
  ]

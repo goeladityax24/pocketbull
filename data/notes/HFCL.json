@@ -1,7 +1,7 @@
 {
- "as_of": "2026-10-05",
+ "as_of": "2026-10-07",
  "descriptor": "Optical fibre cable, telecom equipment and defence",
- "lede": "A telecom-equipment and EPC company that has become an optical-fibre exporter to US hyperscalers, with a defence arm on the side. Margins and orders have jumped and the MD raised FY27 growth to 40%+, but cash flow has not followed, receivables top ₹2,000 Cr and the promoter stake keeps falling.",
+ "lede": "A telecom-equipment and EPC company that has become an optical-fibre exporter to US hyperscalers, with a defence arm on the side. Margins and orders have jumped and the MD raised FY27 growth to 40%+ in July and, at Arihant's September conference, to at least 60%, but cash flow has not followed, receivables top ₹2,000 Cr and the promoter stake keeps falling.",
  "market": {
   "price": 250,
   "mcap_cr": 38372,
@@ -70,8 +70,8 @@
       },
       {
        "lead": "",
-       "text": "A ₹580 Cr preform plant should cut preform cost ~30% vs buying.",
-       "src": "Jul call p.18"
+       "text": "A preform plant, now planned at 600 tonnes (~₹1,250 Cr) by October 2028, should cut preform cost ~30% and lift segment margins 2-3 points; it was ₹580 Cr in the July call.",
+       "src": "Bharat Connect note p.182"
       }
      ]
     },
@@ -324,10 +324,22 @@
        "cells": [
         "20-25% growth in FY27 ('expectation')",
         "Apr 26",
-        "Raised to 40%+; Q1 +120%",
+        "Raised to 40%+ (Jul), then at least 60% (Sep conference); Q1 +120%",
         {
          "text": "Ahead",
          "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "At least 60% growth in FY27 (broker's conference note)",
+        "Sep 26",
+        "Not yet confirmed by the company; Q1 FY27 +120%",
+        {
+         "text": "Pending",
+         "tag": "pending"
         }
        ],
        "highlight": false
@@ -360,10 +372,10 @@
        "cells": [
         "Army AMC signed and EPC profitable from Q2",
         "Apr 26",
-        "'Mid-Q2', not yet confirmed",
+        "'Mid-Q2', not confirmed; Sep conference note: EPC losses of ₹80-90 Cr a quarter for 1-2 more quarters",
         {
-         "text": "Pending",
-         "tag": "pending"
+         "text": "Late",
+         "tag": "partial"
         }
        ],
        "highlight": false
@@ -376,6 +388,18 @@
         {
          "text": "Delayed",
          "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capex ~₹1,000 Cr in each of FY27 and FY28 (conference note)",
+        "Sep 26",
+        "Up from ₹640 Cr / ₹615 Cr on the July call",
+        {
+         "text": "Raised",
+         "tag": "neutral"
         }
        ],
        "highlight": false
@@ -666,22 +690,25 @@
     },
     {
      "type": "text",
-     "text": "HFCL's earnings have stepped up sharply on data-centre fibre and the guidance keeps rising. It is cheaper than Sterlite on current profit, but cash conversion is poor, the promoter is diluting, and earnings depend on fibre prices staying high. Delivery of the 40% growth with cash coming in is the key test.",
+     "text": "HFCL's earnings have stepped up sharply on data-centre fibre and the guidance keeps rising. It is cheaper than Sterlite on current profit, but cash conversion is poor, the promoter is diluting, and earnings depend on fibre prices staying high. Delivery of 40-60%+ growth with cash coming in is the key test; the September 60% figure comes from a broker's conference note and still needs the company's own confirmation.",
      "src": null
     }
    ]
   }
  ],
  "watch": [
+  "Whether the Q2 FY27 call confirms the 'at least 60%' growth from the September conference",
   "Quarterly revenue near ₹1,900 Cr and EBITDA margin at or above 23%",
   "Operating cash flow and receivables",
   "Army AMC signing and EPC losses",
   "Fibre and cable capacity additions by December",
-  "Closing of the aerospace acquisition"
+  "Closing of the aerospace acquisition",
+  "Capex step-up to ~₹1,000 Cr a year and debt"
  ],
  "sources": [
   "Screener financials, shareholding and prices (5 Oct 2026)",
   "Q4 FY26 (30 Apr 2026) and Q1 FY27 (22 Jul 2026) concall transcripts",
+  "Arihant Bharat Connect Rising Stars compendium (Sep 2026 conference, published 5 Oct 2026; broker note)",
   "FY26 annual report",
   "Peer data from Screener"
  ]
