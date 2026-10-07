@@ -1,0 +1,2266 @@
+{
+ "id": "2026-09-arihant-bharat-connect",
+ "event": "Arihant Bharat Connect Rising Stars, Sep 2026",
+ "date": "2026-10-05",
+ "publisher": "Arihant Capital (post-conference compendium)",
+ "grade": "broker_note",
+ "pdf": "data/conferences/2026-09-arihant-bharat-connect/compendium.pdf",
+ "text": "data/conferences/2026-09-arihant-bharat-connect/compendium.txt",
+ "url": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf",
+ "companies": [
+  {
+   "name": "Accord Transformer & Switchgear Ltd",
+   "pages": [
+    18,
+    18
+   ]
+  },
+  {
+   "name": "Adani Power Ltd",
+   "pages": [
+    19,
+    20
+   ]
+  },
+  {
+   "name": "Admach Systems Ltd",
+   "pages": [
+    21,
+    21
+   ]
+  },
+  {
+   "name": "Afcons Infrastructure Ltd",
+   "pages": [
+    22,
+    22
+   ]
+  },
+  {
+   "name": "Akiko Global Services Ltd",
+   "pages": [
+    23,
+    24
+   ]
+  },
+  {
+   "name": "Akme Fintrade (India) Ltd",
+   "pages": [
+    25,
+    26
+   ]
+  },
+  {
+   "name": "AllDigitech Ltd",
+   "pages": [
+    27,
+    29
+   ]
+  },
+  {
+   "name": "All E Technologies Ltd",
+   "pages": [
+    30,
+    31
+   ]
+  },
+  {
+   "name": "Allied Digital Services Ltd",
+   "pages": [
+    32,
+    33
+   ]
+  },
+  {
+   "name": "All Time Plastics Ltd",
+   "pages": [
+    34,
+    36
+   ]
+  },
+  {
+   "name": "Almonds Global Securities Ltd",
+   "pages": [
+    37,
+    37
+   ]
+  },
+  {
+   "name": "Aluwind Infra-Tech Ltd",
+   "pages": [
+    38,
+    38
+   ]
+  },
+  {
+   "name": "Amir Chand Jagdish Kumar (Exports) Ltd",
+   "pages": [
+    39,
+    39
+   ]
+  },
+  {
+   "name": "Anand Rathi Share and Stock Brokers Ltd",
+   "pages": [
+    40,
+    40
+   ]
+  },
+  {
+   "name": "Anawil Wire & Engineering Ltd",
+   "pages": [
+    41,
+    41
+   ]
+  },
+  {
+   "name": "Anlon Healthcare Ltd",
+   "pages": [
+    42,
+    43
+   ]
+  },
+  {
+   "name": "Apeejay Surrendra Park Hotels Ltd",
+   "pages": [
+    44,
+    44
+   ]
+  },
+  {
+   "name": "Aptus Pharma Ltd",
+   "pages": [
+    45,
+    46
+   ]
+  },
+  {
+   "name": "Aptus Value Housing Finance India Ltd",
+   "pages": [
+    47,
+    47
+   ]
+  },
+  {
+   "name": "Arihant Superstructures Ltd",
+   "pages": [
+    48,
+    48
+   ]
+  },
+  {
+   "name": "Arman Financial Services Ltd",
+   "pages": [
+    49,
+    49
+   ]
+  },
+  {
+   "name": "Ashutosh Fiber Ltd",
+   "pages": [
+    50,
+    50
+   ]
+  },
+  {
+   "name": "Astral Ltd",
+   "pages": [
+    51,
+    52
+   ]
+  },
+  {
+   "name": "Ather Energy Ltd",
+   "pages": [
+    53,
+    53
+   ]
+  },
+  {
+   "name": "Australian Premium Solar (India) Ltd",
+   "pages": [
+    54,
+    55
+   ]
+  },
+  {
+   "name": "Avience Biomedical Ltd",
+   "pages": [
+    56,
+    56
+   ]
+  },
+  {
+   "name": "Avonmore Capital & Management Services Ltd",
+   "pages": [
+    57,
+    57
+   ]
+  },
+  {
+   "name": "AVP Infracon Ltd",
+   "pages": [
+    58,
+    58
+   ]
+  },
+  {
+   "name": "Baheti Recycling Industries Ltd",
+   "pages": [
+    59,
+    59
+   ]
+  },
+  {
+   "name": "Bai Kakaji Polymers Ltd",
+   "pages": [
+    60,
+    60
+   ]
+  },
+  {
+   "name": "Bank of India",
+   "pages": [
+    61,
+    61
+   ]
+  },
+  {
+   "name": "Basilic Fly Studio Ltd",
+   "pages": [
+    62,
+    62
+   ]
+  },
+  {
+   "name": "Bhadora Industries Ltd",
+   "pages": [
+    63,
+    64
+   ]
+  },
+  {
+   "name": "Black Box Ltd",
+   "pages": [
+    65,
+    67
+   ]
+  },
+  {
+   "name": "BLS E-Services Ltd",
+   "pages": [
+    68,
+    68
+   ]
+  },
+  {
+   "name": "BLS International Services Ltd",
+   "pages": [
+    69,
+    69
+   ]
+  },
+  {
+   "name": "BlueSpring Enterprises Ltd",
+   "pages": [
+    70,
+    70
+   ]
+  },
+  {
+   "name": "Blue Water Logistics Ltd",
+   "pages": [
+    71,
+    72
+   ]
+  },
+  {
+   "name": "BMW Industries Ltd",
+   "pages": [
+    73,
+    74
+   ]
+  },
+  {
+   "name": "BMW Ventures Ltd",
+   "pages": [
+    75,
+    75
+   ]
+  },
+  {
+   "name": "Bombay Coated and Special Steels Ltd",
+   "pages": [
+    76,
+    76
+   ]
+  },
+  {
+   "name": "Brahmaputra Infrastructure Ltd",
+   "pages": [
+    77,
+    77
+   ]
+  },
+  {
+   "name": "Brand Concepts Ltd",
+   "pages": [
+    78,
+    78
+   ]
+  },
+  {
+   "name": "B.R. Goyal Infrastructure Ltd",
+   "pages": [
+    79,
+    79
+   ]
+  },
+  {
+   "name": "Canarys Automations Ltd",
+   "pages": [
+    80,
+    81
+   ]
+  },
+  {
+   "name": "Capital Small Finance Bank Ltd",
+   "pages": [
+    82,
+    82
+   ]
+  },
+  {
+   "name": "Capri Global Capital Ltd",
+   "pages": [
+    83,
+    83
+   ]
+  },
+  {
+   "name": "Captain Polyplast Ltd",
+   "pages": [
+    84,
+    85
+   ]
+  },
+  {
+   "name": "Career Point Edutech Ltd",
+   "pages": [
+    86,
+    87
+   ]
+  },
+  {
+   "name": "Central Bank of India",
+   "pages": [
+    88,
+    88
+   ]
+  },
+  {
+   "name": "Chamanlal Setia Exports Ltd",
+   "pages": [
+    89,
+    90
+   ]
+  },
+  {
+   "name": "Choice International Ltd",
+   "pages": [
+    91,
+    91
+   ]
+  },
+  {
+   "name": "CIE Automotive Ltd",
+   "pages": [
+    92,
+    93
+   ]
+  },
+  {
+   "name": "Cineline India Ltd",
+   "pages": [
+    94,
+    95
+   ]
+  },
+  {
+   "name": "Claycraft India Ltd",
+   "pages": [
+    96,
+    96
+   ]
+  },
+  {
+   "name": "CMR Green Technologies Ltd",
+   "pages": [
+    97,
+    99
+   ]
+  },
+  {
+   "name": "Confidence Petroleum India Ltd",
+   "pages": [
+    100,
+    101
+   ]
+  },
+  {
+   "name": "Cosmic CRF Ltd",
+   "pages": [
+    102,
+    104
+   ]
+  },
+  {
+   "name": "Crizac Ltd",
+   "pages": [
+    105,
+    105
+   ]
+  },
+  {
+   "name": "Dachepalli Publishers Ltd",
+   "pages": [
+    106,
+    106
+   ]
+  },
+  {
+   "name": "Dain Colour Chem Ltd",
+   "pages": [
+    107,
+    107
+   ]
+  },
+  {
+   "name": "DC Infotech & Communication Ltd",
+   "pages": [
+    108,
+    109
+   ]
+  },
+  {
+   "name": "Dee Development Engineers Ltd",
+   "pages": [
+    110,
+    111
+   ]
+  },
+  {
+   "name": "Deep Industries Ltd",
+   "pages": [
+    112,
+    112
+   ]
+  },
+  {
+   "name": "Denta Water and Infra Solutions Ltd",
+   "pages": [
+    113,
+    114
+   ]
+  },
+  {
+   "name": "Dev Accelerator Ltd",
+   "pages": [
+    115,
+    116
+   ]
+  },
+  {
+   "name": "Dharmaj Crop Guard Ltd",
+   "pages": [
+    117,
+    118
+   ]
+  },
+  {
+   "name": "Diffusion Engineers Ltd",
+   "pages": [
+    119,
+    120
+   ]
+  },
+  {
+   "name": "Digilogic Systems Ltd",
+   "pages": [
+    121,
+    123
+   ]
+  },
+  {
+   "name": "Divine Power Energy Ltd",
+   "pages": [
+    124,
+    125
+   ]
+  },
+  {
+   "name": "Dodla Dairy Ltd",
+   "pages": [
+    126,
+    126
+   ]
+  },
+  {
+   "name": "Dollar Industries Ltd",
+   "pages": [
+    127,
+    127
+   ]
+  },
+  {
+   "name": "D.P. Abhushan Ltd",
+   "pages": [
+    128,
+    129
+   ]
+  },
+  {
+   "name": "DU Digital Global Ltd",
+   "pages": [
+    130,
+    131
+   ]
+  },
+  {
+   "name": "Dynamic Cables Ltd",
+   "pages": [
+    132,
+    133
+   ]
+  },
+  {
+   "name": "Eldeco Housing & Industries Ltd",
+   "pages": [
+    134,
+    134
+   ]
+  },
+  {
+   "name": "Electrosteel Castings Ltd",
+   "pages": [
+    135,
+    136
+   ]
+  },
+  {
+   "name": "Embassy Developments Ltd",
+   "pages": [
+    137,
+    137
+   ]
+  },
+  {
+   "name": "Emmforce Autotech Ltd",
+   "pages": [
+    138,
+    139
+   ]
+  },
+  {
+   "name": "Energy Mission Machinery Ltd",
+   "pages": [
+    140,
+    140
+   ]
+  },
+  {
+   "name": "Entero Healthcare Solutions Ltd",
+   "pages": [
+    141,
+    141
+   ]
+  },
+  {
+   "name": "Excelsoft Technologies Ltd",
+   "pages": [
+    142,
+    142
+   ]
+  },
+  {
+   "name": "Fastwell Engineering Pvt Ltd",
+   "pages": [
+    143,
+    143
+   ]
+  },
+  {
+   "name": "Fineotex Chemical Ltd",
+   "pages": [
+    144,
+    144
+   ]
+  },
+  {
+   "name": "Finkurve Financial Services Ltd",
+   "pages": [
+    145,
+    145
+   ]
+  },
+  {
+   "name": "Foods & Inns Ltd",
+   "pages": [
+    146,
+    147
+   ]
+  },
+  {
+   "name": "Fractal Industries Ltd",
+   "pages": [
+    148,
+    148
+   ]
+  },
+  {
+   "name": "Gala Precision Engineering Ltd",
+   "pages": [
+    149,
+    149
+   ]
+  },
+  {
+   "name": "Gandhar Oil Refinery (India) Ltd",
+   "pages": [
+    150,
+    150
+   ]
+  },
+  {
+   "name": "Ganesh Consumer Products Ltd",
+   "pages": [
+    151,
+    152
+   ]
+  },
+  {
+   "name": "Ganesh Infraworld Ltd",
+   "pages": [
+    153,
+    153
+   ]
+  },
+  {
+   "name": "GEE Ltd",
+   "pages": [
+    154,
+    154
+   ]
+  },
+  {
+   "name": "Genex AI Analytics Ltd",
+   "pages": [
+    155,
+    155
+   ]
+  },
+  {
+   "name": "Genus Power Infrastructure Ltd",
+   "pages": [
+    156,
+    156
+   ]
+  },
+  {
+   "name": "GK Energy Ltd",
+   "pages": [
+    157,
+    158
+   ]
+  },
+  {
+   "name": "Globus Spirits Ltd",
+   "pages": [
+    159,
+    159
+   ]
+  },
+  {
+   "name": "Glottis Ltd",
+   "pages": [
+    160,
+    161
+   ]
+  },
+  {
+   "name": "Godavari Biorefineries Ltd",
+   "pages": [
+    162,
+    163
+   ]
+  },
+  {
+   "name": "Godawari Power & Ispat Ltd",
+   "pages": [
+    164,
+    165
+   ]
+  },
+  {
+   "name": "Goel Construction Ltd",
+   "pages": [
+    166,
+    166
+   ]
+  },
+  {
+   "name": "Gokul Agro Resources Ltd",
+   "pages": [
+    167,
+    167
+   ]
+  },
+  {
+   "name": "GPT Healthcare Ltd",
+   "pages": [
+    168,
+    168
+   ]
+  },
+  {
+   "name": "GPT Infraprojects Ltd",
+   "pages": [
+    169,
+    169
+   ]
+  },
+  {
+   "name": "Grand Continent Hotels Ltd",
+   "pages": [
+    170,
+    170
+   ]
+  },
+  {
+   "name": "Greaves Cotton Ltd",
+   "pages": [
+    171,
+    173
+   ]
+  },
+  {
+   "name": "GSP Crop Sciences Ltd",
+   "pages": [
+    174,
+    174
+   ]
+  },
+  {
+   "name": "Gulf Oil Lubricants India Ltd",
+   "pages": [
+    175,
+    175
+   ]
+  },
+  {
+   "name": "Gulshan Polyols Ltd",
+   "pages": [
+    176,
+    176
+   ]
+  },
+  {
+   "name": "GV Electricals Ltd",
+   "pages": [
+    177,
+    177
+   ]
+  },
+  {
+   "name": "Hariom Pipe Industries Ltd",
+   "pages": [
+    178,
+    179
+   ]
+  },
+  {
+   "name": "Hero MotoCorp Ltd",
+   "pages": [
+    180,
+    181
+   ]
+  },
+  {
+   "name": "HFCL Ltd",
+   "pages": [
+    182,
+    183
+   ]
+  },
+  {
+   "name": "Highness Microelectronics Ltd",
+   "pages": [
+    184,
+    184
+   ]
+  },
+  {
+   "name": "Highway Infrastructure Ltd",
+   "pages": [
+    185,
+    185
+   ]
+  },
+  {
+   "name": "Hindustan Zinc Ltd",
+   "pages": [
+    186,
+    187
+   ]
+  },
+  {
+   "name": "HOAC Foods India Ltd",
+   "pages": [
+    188,
+    188
+   ]
+  },
+  {
+   "name": "HRH Next Services Ltd",
+   "pages": [
+    189,
+    189
+   ]
+  },
+  {
+   "name": "HRS Aluglaze Ltd",
+   "pages": [
+    190,
+    190
+   ]
+  },
+  {
+   "name": "Hubtown Ltd",
+   "pages": [
+    191,
+    191
+   ]
+  },
+  {
+   "name": "Identixweb Ltd",
+   "pages": [
+    192,
+    194
+   ]
+  },
+  {
+   "name": "Imagicaaworld Entertainment Ltd",
+   "pages": [
+    195,
+    195
+   ]
+  },
+  {
+   "name": "India Homes Ltd",
+   "pages": [
+    196,
+    196
+   ]
+  },
+  {
+   "name": "Indian Phosphate Ltd",
+   "pages": [
+    197,
+    197
+   ]
+  },
+  {
+   "name": "IndiQube Spaces Ltd",
+   "pages": [
+    198,
+    198
+   ]
+  },
+  {
+   "name": "Indo Borax & Chemicals Ltd",
+   "pages": [
+    199,
+    200
+   ]
+  },
+  {
+   "name": "Indo Count Industries Ltd",
+   "pages": [
+    201,
+    201
+   ]
+  },
+  {
+   "name": "Indo Gulf Crop Sciences Ltd",
+   "pages": [
+    202,
+    202
+   ]
+  },
+  {
+   "name": "Indo SMC Ltd",
+   "pages": [
+    203,
+    203
+   ]
+  },
+  {
+   "name": "Ind-Swift Laboratories Ltd",
+   "pages": [
+    204,
+    204
+   ]
+  },
+  {
+   "name": "Inflame Appliances Ltd",
+   "pages": [
+    205,
+    207
+   ]
+  },
+  {
+   "name": "Influx Healthtech Ltd",
+   "pages": [
+    208,
+    208
+   ]
+  },
+  {
+   "name": "Infollion Research Services Ltd",
+   "pages": [
+    209,
+    209
+   ]
+  },
+  {
+   "name": "Inox Wind Ltd",
+   "pages": [
+    210,
+    210
+   ]
+  },
+  {
+   "name": "Insecticides India Ltd",
+   "pages": [
+    211,
+    211
+   ]
+  },
+  {
+   "name": "IOL Chemicals and Pharmaceuticals Ltd",
+   "pages": [
+    212,
+    212
+   ]
+  },
+  {
+   "name": "IRCON International Ltd",
+   "pages": [
+    213,
+    214
+   ]
+  },
+  {
+   "name": "Iris Clothing Ltd",
+   "pages": [
+    215,
+    215
+   ]
+  },
+  {
+   "name": "IRM Energy Ltd",
+   "pages": [
+    216,
+    217
+   ]
+  },
+  {
+   "name": "Jainik Power Cables Ltd",
+   "pages": [
+    218,
+    219
+   ]
+  },
+  {
+   "name": "JD Cables Ltd",
+   "pages": [
+    220,
+    220
+   ]
+  },
+  {
+   "name": "Jeena Seekho Life Care Ltd",
+   "pages": [
+    221,
+    222
+   ]
+  },
+  {
+   "name": "Jupiter Wagons Ltd",
+   "pages": [
+    223,
+    223
+   ]
+  },
+  {
+   "name": "Justo Realfintech Ltd",
+   "pages": [
+    224,
+    225
+   ]
+  },
+  {
+   "name": "K2 Infragen Ltd",
+   "pages": [
+    226,
+    227
+   ]
+  },
+  {
+   "name": "Kalpataru Projects International Ltd",
+   "pages": [
+    228,
+    229
+   ]
+  },
+  {
+   "name": "Karbonsteel Engineering Ltd",
+   "pages": [
+    230,
+    230
+   ]
+  },
+  {
+   "name": "Karnika Industries Ltd",
+   "pages": [
+    231,
+    231
+   ]
+  },
+  {
+   "name": "KEC International Ltd",
+   "pages": [
+    232,
+    233
+   ]
+  },
+  {
+   "name": "Khazanchi Jewellers Ltd",
+   "pages": [
+    234,
+    234
+   ]
+  },
+  {
+   "name": "Kheria Autocomp Ltd",
+   "pages": [
+    235,
+    236
+   ]
+  },
+  {
+   "name": "Knack Packaging Ltd",
+   "pages": [
+    237,
+    238
+   ]
+  },
+  {
+   "name": "Krishana Phoschem Ltd",
+   "pages": [
+    239,
+    240
+   ]
+  },
+  {
+   "name": "Krishival Foods Ltd",
+   "pages": [
+    241,
+    242
+   ]
+  },
+  {
+   "name": "Kwick Forensic Solutions Ltd",
+   "pages": [
+    243,
+    243
+   ]
+  },
+  {
+   "name": "LAPL Automotive Ltd",
+   "pages": [
+    244,
+    244
+   ]
+  },
+  {
+   "name": "Lead Reclaim and Rubber Products Ltd",
+   "pages": [
+    245,
+    245
+   ]
+  },
+  {
+   "name": "Lodha Developers Ltd",
+   "pages": [
+    246,
+    246
+   ]
+  },
+  {
+   "name": "Lokesh Machines Ltd",
+   "pages": [
+    247,
+    249
+   ]
+  },
+  {
+   "name": "LT Foods Ltd",
+   "pages": [
+    250,
+    250
+   ]
+  },
+  {
+   "name": "Madhusudan Masala Ltd",
+   "pages": [
+    251,
+    251
+   ]
+  },
+  {
+   "name": "Madhya Bharat Agro Products Ltd",
+   "pages": [
+    252,
+    253
+   ]
+  },
+  {
+   "name": "Mafatlal Industries Ltd",
+   "pages": [
+    254,
+    254
+   ]
+  },
+  {
+   "name": "Magellanic Cloud Ltd",
+   "pages": [
+    255,
+    256
+   ]
+  },
+  {
+   "name": "Maharashtra Seamless Ltd",
+   "pages": [
+    257,
+    258
+   ]
+  },
+  {
+   "name": "Manaksia Coated Metals & Industries Ltd",
+   "pages": [
+    259,
+    260
+   ]
+  },
+  {
+   "name": "Marathon Nextgen Realty Ltd",
+   "pages": [
+    261,
+    261
+   ]
+  },
+  {
+   "name": "Master Trust Ltd",
+   "pages": [
+    262,
+    262
+   ]
+  },
+  {
+   "name": "Maximus International Ltd",
+   "pages": [
+    263,
+    263
+   ]
+  },
+  {
+   "name": "Maxvolt Energy Industries Ltd",
+   "pages": [
+    264,
+    264
+   ]
+  },
+  {
+   "name": "MBL Infrastructure Ltd",
+   "pages": [
+    265,
+    265
+   ]
+  },
+  {
+   "name": "Megatherm Induction Ltd",
+   "pages": [
+    266,
+    266
+   ]
+  },
+  {
+   "name": "Meghmani Organics Ltd",
+   "pages": [
+    267,
+    267
+   ]
+  },
+  {
+   "name": "Mehul Telecom Ltd",
+   "pages": [
+    268,
+    268
+   ]
+  },
+  {
+   "name": "Merritronix Ltd",
+   "pages": [
+    269,
+    269
+   ]
+  },
+  {
+   "name": "Meta Infotech Ltd",
+   "pages": [
+    270,
+    271
+   ]
+  },
+  {
+   "name": "MMP Industries Ltd",
+   "pages": [
+    272,
+    272
+   ]
+  },
+  {
+   "name": "Mobavenue AI Tech Ltd",
+   "pages": [
+    273,
+    274
+   ]
+  },
+  {
+   "name": "Modi Naturals Ltd",
+   "pages": [
+    275,
+    275
+   ]
+  },
+  {
+   "name": "Modis Navnirman Ltd",
+   "pages": [
+    276,
+    276
+   ]
+  },
+  {
+   "name": "Monarch Surveyors and Engineering Consultants Ltd",
+   "pages": [
+    277,
+    278
+   ]
+  },
+  {
+   "name": "Moneyboxx Finance Ltd",
+   "pages": [
+    279,
+    279
+   ]
+  },
+  {
+   "name": "Motilal Oswal Financial Services Ltd",
+   "pages": [
+    280,
+    280
+   ]
+  },
+  {
+   "name": "M-Safe Equipments Ltd",
+   "pages": [
+    281,
+    281
+   ]
+  },
+  {
+   "name": "Muthoot Microfin Ltd",
+   "pages": [
+    282,
+    282
+   ]
+  },
+  {
+   "name": "My Mudra Fincorp Ltd",
+   "pages": [
+    283,
+    283
+   ]
+  },
+  {
+   "name": "Namo E-Waste Management Ltd",
+   "pages": [
+    284,
+    284
+   ]
+  },
+  {
+   "name": "Nanta Tech Ltd",
+   "pages": [
+    285,
+    286
+   ]
+  },
+  {
+   "name": "Neetu Yoshi Ltd",
+   "pages": [
+    287,
+    287
+   ]
+  },
+  {
+   "name": "Nelcast Ltd",
+   "pages": [
+    288,
+    288
+   ]
+  },
+  {
+   "name": "NeoChem Bio Solutions Ltd",
+   "pages": [
+    289,
+    289
+   ]
+  },
+  {
+   "name": "Neogen Chemicals Ltd",
+   "pages": [
+    290,
+    291
+   ]
+  },
+  {
+   "name": "NIIT Learning Systems Ltd",
+   "pages": [
+    292,
+    292
+   ]
+  },
+  {
+   "name": "Nisus Finance Services Co Ltd",
+   "pages": [
+    293,
+    293
+   ]
+  },
+  {
+   "name": "Northern Arc Capital Ltd",
+   "pages": [
+    294,
+    294
+   ]
+  },
+  {
+   "name": "Nupur Recyclers Ltd",
+   "pages": [
+    295,
+    296
+   ]
+  },
+  {
+   "name": "Nuvoco Vistas Corporation Ltd",
+   "pages": [
+    297,
+    297
+   ]
+  },
+  {
+   "name": "Om Power Transmission Ltd",
+   "pages": [
+    298,
+    298
+   ]
+  },
+  {
+   "name": "One Point One Solutions Ltd",
+   "pages": [
+    299,
+    300
+   ]
+  },
+  {
+   "name": "Onward Technologies Ltd",
+   "pages": [
+    301,
+    302
+   ]
+  },
+  {
+   "name": "Oriental Rail Infrastructure Ltd",
+   "pages": [
+    303,
+    303
+   ]
+  },
+  {
+   "name": "Orient Bell Ltd",
+   "pages": [
+    304,
+    304
+   ]
+  },
+  {
+   "name": "Orient Technologies Ltd",
+   "pages": [
+    305,
+    306
+   ]
+  },
+  {
+   "name": "Oswal Pumps Ltd",
+   "pages": [
+    307,
+    307
+   ]
+  },
+  {
+   "name": "Oval Projects Engineering Ltd",
+   "pages": [
+    308,
+    308
+   ]
+  },
+  {
+   "name": "Paisalo Digital Ltd",
+   "pages": [
+    309,
+    309
+   ]
+  },
+  {
+   "name": "Pajson Agro India Ltd",
+   "pages": [
+    310,
+    310
+   ]
+  },
+  {
+   "name": "Paluck Technologies Ltd",
+   "pages": [
+    311,
+    311
+   ]
+  },
+  {
+   "name": "Panache Digilife Ltd",
+   "pages": [
+    312,
+    313
+   ]
+  },
+  {
+   "name": "Parag Milk Foods Ltd",
+   "pages": [
+    314,
+    314
+   ]
+  },
+  {
+   "name": "Paramount Communications Ltd",
+   "pages": [
+    315,
+    316
+   ]
+  },
+  {
+   "name": "Park Medi World Ltd",
+   "pages": [
+    317,
+    317
+   ]
+  },
+  {
+   "name": "Patel Chemical Specialities Ltd",
+   "pages": [
+    318,
+    318
+   ]
+  },
+  {
+   "name": "Patel Engineering Ltd",
+   "pages": [
+    319,
+    320
+   ]
+  },
+  {
+   "name": "PDS Ltd",
+   "pages": [
+    321,
+    321
+   ]
+  },
+  {
+   "name": "PNGS Gargi Fashion Jewellery Ltd",
+   "pages": [
+    322,
+    322
+   ]
+  },
+  {
+   "name": "PNGS Reva Diamond Jewellery Ltd",
+   "pages": [
+    323,
+    323
+   ]
+  },
+  {
+   "name": "Polite Powertech Ltd",
+   "pages": [
+    324,
+    325
+   ]
+  },
+  {
+   "name": "Prataap Snacks Ltd",
+   "pages": [
+    326,
+    326
+   ]
+  },
+  {
+   "name": "Prime Cable Industries Ltd",
+   "pages": [
+    327,
+    328
+   ]
+  },
+  {
+   "name": "Prime Fresh Ltd",
+   "pages": [
+    329,
+    329
+   ]
+  },
+  {
+   "name": "Priority Jewels Ltd",
+   "pages": [
+    330,
+    331
+   ]
+  },
+  {
+   "name": "Pro FX Tech Ltd",
+   "pages": [
+    332,
+    332
+   ]
+  },
+  {
+   "name": "Prostarm Info Systems Ltd",
+   "pages": [
+    333,
+    335
+   ]
+  },
+  {
+   "name": "PSP Projects Ltd",
+   "pages": [
+    336,
+    336
+   ]
+  },
+  {
+   "name": "Pune E-Stock Broking Ltd",
+   "pages": [
+    337,
+    338
+   ]
+  },
+  {
+   "name": "Punjab National Bank",
+   "pages": [
+    339,
+    339
+   ]
+  },
+  {
+   "name": "Puravankara Ltd",
+   "pages": [
+    340,
+    340
+   ]
+  },
+  {
+   "name": "Raama Finance Ltd",
+   "pages": [
+    341,
+    341
+   ]
+  },
+  {
+   "name": "Raj Rayon Industries Ltd",
+   "pages": [
+    342,
+    343
+   ]
+  },
+  {
+   "name": "Rajshree Polypack Ltd",
+   "pages": [
+    344,
+    345
+   ]
+  },
+  {
+   "name": "Ramkrishna Forgings Ltd",
+   "pages": [
+    346,
+    347
+   ]
+  },
+  {
+   "name": "RateGain Travel Technologies Ltd",
+   "pages": [
+    348,
+    349
+   ]
+  },
+  {
+   "name": "Rathi Steel and Power Ltd",
+   "pages": [
+    350,
+    351
+   ]
+  },
+  {
+   "name": "Ratnaveer Precision Engineering Ltd",
+   "pages": [
+    352,
+    352
+   ]
+  },
+  {
+   "name": "Raymond Lifestyle Ltd",
+   "pages": [
+    353,
+    353
+   ]
+  },
+  {
+   "name": "Raymond Ltd",
+   "pages": [
+    354,
+    355
+   ]
+  },
+  {
+   "name": "Raymond Realty Ltd",
+   "pages": [
+    356,
+    356
+   ]
+  },
+  {
+   "name": "RBZ Jewellers Ltd",
+   "pages": [
+    357,
+    358
+   ]
+  },
+  {
+   "name": "Recode Studios Ltd",
+   "pages": [
+    359,
+    359
+   ]
+  },
+  {
+   "name": "Refex Industries Ltd",
+   "pages": [
+    360,
+    360
+   ]
+  },
+  {
+   "name": "Regaal Resources Ltd",
+   "pages": [
+    361,
+    361
+   ]
+  },
+  {
+   "name": "RHI Magnesita India Ltd",
+   "pages": [
+    362,
+    363
+   ]
+  },
+  {
+   "name": "RIR Power Electronics Ltd",
+   "pages": [
+    364,
+    364
+   ]
+  },
+  {
+   "name": "RITES Ltd",
+   "pages": [
+    365,
+    365
+   ]
+  },
+  {
+   "name": "RMC Switchgears Ltd",
+   "pages": [
+    366,
+    366
+   ]
+  },
+  {
+   "name": "Sadhav Shipping Ltd",
+   "pages": [
+    367,
+    368
+   ]
+  },
+  {
+   "name": "Safe Enterprises Retail Fixtures Ltd",
+   "pages": [
+    369,
+    370
+   ]
+  },
+  {
+   "name": "Safety Controls & Devices Ltd",
+   "pages": [
+    371,
+    372
+   ]
+  },
+  {
+   "name": "Sahaj Solar Ltd",
+   "pages": [
+    373,
+    374
+   ]
+  },
+  {
+   "name": "Sanathan Textiles Ltd",
+   "pages": [
+    375,
+    375
+   ]
+  },
+  {
+   "name": "Sathlokhar Synergys E&C Global Ltd",
+   "pages": [
+    376,
+    376
+   ]
+  },
+  {
+   "name": "Satin Creditcare Network Ltd",
+   "pages": [
+    377,
+    377
+   ]
+  },
+  {
+   "name": "Sattva Engineering Construction Ltd",
+   "pages": [
+    378,
+    378
+   ]
+  },
+  {
+   "name": "SEAMEC Ltd",
+   "pages": [
+    379,
+    379
+   ]
+  },
+  {
+   "name": "SG Finserve Ltd",
+   "pages": [
+    380,
+    381
+   ]
+  },
+  {
+   "name": "Shankesh Jewellers Ltd",
+   "pages": [
+    382,
+    382
+   ]
+  },
+  {
+   "name": "Share India Securities Ltd",
+   "pages": [
+    383,
+    383
+   ]
+  },
+  {
+   "name": "Sheela Foam Ltd",
+   "pages": [
+    384,
+    384
+   ]
+  },
+  {
+   "name": "Sheetal Cool Products Ltd",
+   "pages": [
+    385,
+    385
+   ]
+  },
+  {
+   "name": "Shera Energy Ltd",
+   "pages": [
+    386,
+    387
+   ]
+  },
+  {
+   "name": "SPML Infra Ltd",
+   "pages": [
+    388,
+    390
+   ]
+  },
+  {
+   "name": "Shoppers Stop Ltd",
+   "pages": [
+    391,
+    391
+   ]
+  },
+  {
+   "name": "Shree Refrigerations Ltd",
+   "pages": [
+    392,
+    393
+   ]
+  },
+  {
+   "name": "Shri Kanha Stainless Ltd",
+   "pages": [
+    394,
+    394
+   ]
+  },
+  {
+   "name": "Shriram Properties Ltd",
+   "pages": [
+    395,
+    395
+   ]
+  },
+  {
+   "name": "Simplex Castings Ltd",
+   "pages": [
+    396,
+    397
+   ]
+  },
+  {
+   "name": "Singhal Recyclers Pvt Ltd",
+   "pages": [
+    398,
+    398
+   ]
+  },
+  {
+   "name": "SIS Ltd",
+   "pages": [
+    399,
+    400
+   ]
+  },
+  {
+   "name": "SJS Enterprises Ltd",
+   "pages": [
+    401,
+    402
+   ]
+  },
+  {
+   "name": "SKP Bearing Industries Ltd",
+   "pages": [
+    403,
+    403
+   ]
+  },
+  {
+   "name": "Slone Infosystems Ltd",
+   "pages": [
+    404,
+    405
+   ]
+  },
+  {
+   "name": "SMC Global Securities Ltd",
+   "pages": [
+    406,
+    407
+   ]
+  },
+  {
+   "name": "Solarium Green Energy Ltd",
+   "pages": [
+    408,
+    408
+   ]
+  },
+  {
+   "name": "Solex Energy Ltd",
+   "pages": [
+    409,
+    410
+   ]
+  },
+  {
+   "name": "Somany Ceramics Ltd",
+   "pages": [
+    411,
+    411
+   ]
+  },
+  {
+   "name": "Spandana Sphoorty Financial Ltd",
+   "pages": [
+    412,
+    413
+   ]
+  },
+  {
+   "name": "Sri Lotus Developers & Realty Ltd",
+   "pages": [
+    414,
+    415
+   ]
+  },
+  {
+   "name": "Srivari Spices & Foods Ltd",
+   "pages": [
+    416,
+    417
+   ]
+  },
+  {
+   "name": "Star Cement Ltd",
+   "pages": [
+    418,
+    418
+   ]
+  },
+  {
+   "name": "Steelcast Ltd",
+   "pages": [
+    419,
+    420
+   ]
+  },
+  {
+   "name": "Steel Exchange India Ltd",
+   "pages": [
+    421,
+    421
+   ]
+  },
+  {
+   "name": "Sterling Tools Ltd",
+   "pages": [
+    422,
+    423
+   ]
+  },
+  {
+   "name": "Suba Hotels Ltd",
+   "pages": [
+    424,
+    424
+   ]
+  },
+  {
+   "name": "Sumeet Industries Ltd",
+   "pages": [
+    425,
+    425
+   ]
+  },
+  {
+   "name": "Sunlite Recycling Industries Ltd",
+   "pages": [
+    426,
+    426
+   ]
+  },
+  {
+   "name": "Sunteck Realty Ltd",
+   "pages": [
+    427,
+    427
+   ]
+  },
+  {
+   "name": "Suraj Estate Developers Ltd",
+   "pages": [
+    428,
+    428
+   ]
+  },
+  {
+   "name": "Suryoday Small Finance Bank Ltd",
+   "pages": [
+    429,
+    429
+   ]
+  },
+  {
+   "name": "Susan India Electronics Ltd",
+   "pages": [
+    430,
+    430
+   ]
+  },
+  {
+   "name": "Symphony Ltd",
+   "pages": [
+    431,
+    432
+   ]
+  },
+  {
+   "name": "Systematic Industries Ltd",
+   "pages": [
+    433,
+    433
+   ]
+  },
+  {
+   "name": "Talbros Automotive Components Ltd",
+   "pages": [
+    434,
+    435
+   ]
+  },
+  {
+   "name": "Tamilnad Mercantile Bank Ltd",
+   "pages": [
+    436,
+    436
+   ]
+  },
+  {
+   "name": "Tarachand Infra Logistics Solutions Ltd",
+   "pages": [
+    437,
+    438
+   ]
+  },
+  {
+   "name": "Tars Aerospace",
+   "pages": [
+    439,
+    439
+   ]
+  },
+  {
+   "name": "Tarsons Products Ltd",
+   "pages": [
+    440,
+    441
+   ]
+  },
+  {
+   "name": "Technocrats Plasma Systems Ltd",
+   "pages": [
+    442,
+    442
+   ]
+  },
+  {
+   "name": "Telge Projects Ltd",
+   "pages": [
+    443,
+    443
+   ]
+  },
+  {
+   "name": "Texmaco Rail & Engineering Ltd",
+   "pages": [
+    444,
+    445
+   ]
+  },
+  {
+   "name": "Thomas Cook (India) Ltd",
+   "pages": [
+    446,
+    446
+   ]
+  },
+  {
+   "name": "TIPCO Engineering Ltd",
+   "pages": [
+    447,
+    448
+   ]
+  },
+  {
+   "name": "Trident Lifeline Ltd",
+   "pages": [
+    449,
+    450
+   ]
+  },
+  {
+   "name": "Trishakti Industries Ltd",
+   "pages": [
+    451,
+    451
+   ]
+  },
+  {
+   "name": "Uflex Ltd",
+   "pages": [
+    452,
+    452
+   ]
+  },
+  {
+   "name": "UGRO Capital Ltd",
+   "pages": [
+    453,
+    453
+   ]
+  },
+  {
+   "name": "Ujjivan Small Finance Bank Ltd",
+   "pages": [
+    454,
+    454
+   ]
+  },
+  {
+   "name": "UniHealth Hospitals Ltd",
+   "pages": [
+    455,
+    456
+   ]
+  },
+  {
+   "name": "Updater Services Ltd",
+   "pages": [
+    457,
+    458
+   ]
+  },
+  {
+   "name": "Vaibhav Global Ltd",
+   "pages": [
+    459,
+    459
+   ]
+  },
+  {
+   "name": "Vibhor Steel Tubes Ltd",
+   "pages": [
+    460,
+    461
+   ]
+  },
+  {
+   "name": "Vikran Engineering Ltd",
+   "pages": [
+    462,
+    463
+   ]
+  },
+  {
+   "name": "Vilas Transcore Ltd",
+   "pages": [
+    464,
+    465
+   ]
+  },
+  {
+   "name": "Virtual Galaxy Infotech Ltd",
+   "pages": [
+    466,
+    466
+   ]
+  },
+  {
+   "name": "Vishnu Surya Projects and Infra Ltd",
+   "pages": [
+    467,
+    467
+   ]
+  },
+  {
+   "name": "Viviana Power Tech Ltd",
+   "pages": [
+    468,
+    469
+   ]
+  },
+  {
+   "name": "Vivora Labs Pvt Ltd",
+   "pages": [
+    470,
+    470
+   ]
+  },
+  {
+   "name": "Voler Cars Ltd",
+   "pages": [
+    471,
+    471
+   ]
+  },
+  {
+   "name": "Welspun Corp Ltd",
+   "pages": [
+    472,
+    473
+   ]
+  },
+  {
+   "name": "Welspun Enterprises Ltd",
+   "pages": [
+    474,
+    475
+   ]
+  },
+  {
+   "name": "Welspun Living Ltd",
+   "pages": [
+    476,
+    476
+   ]
+  },
+  {
+   "name": "Western Carriers (India) Ltd",
+   "pages": [
+    477,
+    477
+   ]
+  },
+  {
+   "name": "Zodiac Energy Ltd",
+   "pages": [
+    478,
+    480
+   ]
+  }
+ ]
+}
