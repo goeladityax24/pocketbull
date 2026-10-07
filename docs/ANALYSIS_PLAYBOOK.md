@@ -16,6 +16,8 @@ Each issue names a company (NSE symbol or Screener link) and, for a refresh, the
 
 Look at the company's Screener page, Documents › Concalls. Compare the latest concall with the files in `data/runs/<SYMBOL>/`. If there is nothing newer, comment on the issue and close it. **Never analyse the same concall twice.**
 
+**Always also check the conference compendia** (section 8), for new and existing companies: `npm run conference-notes -- <SYMBOL>` (or the company name, before a snapshot exists). A company that presented gets a broker-note run alongside its calls.
+
 Screener and BSE/NSE may block cloud sessions. If `npm run analyze -- <SYMBOL> --check` fails with 403, read them through the browser on the Admin's Mac instead and save:
 
 - the Screener page sections (`#company-info`, `h1`, `#top-ratios`, `#quarters`, `#profit-loss`, `.documents.concalls`) to `tmp/<SYMBOL>.html`
@@ -81,3 +83,28 @@ git add data/sources/<SYMBOL> data/runs/<SYMBOL>
 ```
 
 The quote check runs against our own transcription, not the original document. The tracker therefore labels these promises with the event and the note grades, so readers can see they are second-hand. When the company's own call or presentation later gives a figure for the same metric and period, both stay in the tracker. Each carries a note pointing to the other ("The company (Jul 2026 call) also gave … Both are kept"), and the Revenue/EBITDA/PAT table uses the company's figure first. A later conference does replace an earlier conference figure, and a later call an earlier call.
+
+## 8. Conference compendia (broker PDFs covering many companies)
+
+Some brokers publish one long PDF after a conference with a page or two of notes per company, e.g. Arihant's *Bharat Connect* post-conference compendium (Sep 2026: 480 pages, 322 companies). These are a standing source of guidance. Each is stored once in `data/conferences/<id>/` (`compendium.pdf`, its text as `compendium.txt` with `[[page N]]` markers, and `meta.json` with the event, publisher, grade and the compendium's own index of companies and pages). Claude follows this when the Admin shares a new compendium, and checks it for every company it analyses (step 2).
+
+1. Add a new compendium (text PDFs only; scanned ones go through section 7):
+
+```bash
+npm run conference-notes -- --add <file.pdf> --id <YYYY-MM>-<publisher>-<event> \
+  --event "<Event name, Mon YYYY>" --date <date printed on it, ISO> --publisher "<Broker>"
+npm run conference-notes            # which saved companies presented or are mentioned
+```
+
+2. For each company that **presented**, save its pages as a source note and analyse it as in section 7 (management only, quotes word for word, `source_ref` "Arihant note", speaker "Management (as reported in <broker>'s conference note)", page numbers are the compendium's own):
+
+```bash
+npm run conference-notes -- <SYMBOL> --save      # writes data/sources/<SYMBOL>/<id>.json + .txt
+npm run import-run -- <SYMBOL> --file tmp/<SYMBOL>-<id>.json --source data/sources/<SYMBOL>/<id>.json --by "<Admin name>"
+npm run sync-db -- <SYMBOL>
+```
+
+3. Compare with the company's latest call. Where the note gives a figure for a metric and period the call also covers, keep both (the tracker shows them side by side, the company's first) and say so in `condition`; set `revises` when the note moves the number. Update the insight report where the note changes guidance (lede, walking-the-talk table, watch list, sources).
+4. Companies only **mentioned** (as a customer, supplier or peer) carry no guidance; note anything useful in the insight report only if it matters.
+5. Broker summaries contain slips (the Sep 2026 Shree Refrigerations note gives FY26 revenue as INR 2.53 bn against a reported ₹153 Cr). Check figures against Screener and flag mismatches in `red_flags`.
+

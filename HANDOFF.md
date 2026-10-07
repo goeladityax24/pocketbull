@@ -1,6 +1,6 @@
 # PocketBull handoff
 
-Read this first in any new session. Last updated 6 Oct 2026.
+Read this first in any new session. Last updated 7 Oct 2026.
 
 ## What PocketBull is
 
@@ -50,6 +50,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 - Supabase project `tacqwjzpuigclgferpye` (Mumbai) has `0001_init.sql`, `0002_app.sql` and `0003_research_notes.sql` applied.
 - Companies (26): SKYGOLD, TARIL, SENORES, KPL, ZENTEC, AIMTRON, PRIZOR (presentations and conference notes, no calls), CPPLUS, ACUTAAS, AEROFLEX, EBGNG, STLTECH (plus its Sep 2026 'Lakshya' investor meet), HFCL, NETWEB and E2E (both standalone basis). Added 6 Oct: KRN, QPOWER, SANSERA, YASHO, SHANTIGOLD, SOTL (presentations only, no calls held), AFCOM, LTELEVATOR, SHREEREF, SUSAN and VIVIDEL (one presentation only so far; no calls held). SANSERA, YASHO, SHANTIGOLD, SOTL, AFCOM, SUSAN and VIVIDEL are standalone basis. Each has its analysed calls or presentations and a six-section insight report in `data/notes/`.
 - BSE SME companies that Screener knows only by BSE code (AFCOM 544224, LTELEVATOR 544518, SHREEREF 544458, SUSAN 544793) use their BSE symbol in `data/`; snapshot them with `npm run snapshot -- AFCOM --page tmp/AFCOM.html --url https://www.screener.in/company/544224/` so the Screener link keeps working.
+- Conference compendia (playbook section 8): broker PDFs with notes on many companies live in `data/conferences/<id>/`. First one: Arihant Bharat Connect Rising Stars, Sep 2026 (322 companies). **Check every company against them** with `npm run conference-notes -- <SYMBOL>`. From that compendium, HFCL and SHREEREF have broker-note runs (`data/runs/<SYMBOL>/2026-09-arihant-bharat-connect.json`); QPOWER, SHANTIGOLD and SKYGOLD are only mentioned.
 - Env vars: see `.env.example`. Local values in `.env.local` (git-ignored); the same in Vercel (Production and Preview).
 - Local preview: `.claude/launch.json` has `web` (as a visitor) and `web-admin` (port 3001, Admin without a key).
 
