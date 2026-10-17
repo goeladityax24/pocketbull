@@ -1,0 +1,153 @@
+{
+  "symbol": "TLL",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfcf2c51-070e-4e47-952c-b5ac110e52db.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-17T16:55:41.404Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-05-09",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "300-400 new product registrations a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "each year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No earnings call held; presentation only. 1,091 registered, 2,534 more in process across 46 countries",
+        "quote": "300-400 additional product registrations each year",
+        "page": 24,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "300-400 additional product registrations",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "50-100 registrations in each key market",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Grow product portfolio in a clustered manner, with at least 50-100 registrations in each key market",
+        "page": 24,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "at least 50-100 registrations",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 outlook 'robust'",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No number given; FY26 standalone revenue ₹106 Cr (+50%), consolidated ₹129 Cr",
+        "quote": "The outlook for FY27 remains robust.",
+        "page": 28,
+        "speaker": "Company (investor presentation)",
+        "confidence": "low",
+        "keyword": "outlook for FY27 remains robust",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Trident Lifeline held no earnings call; this is from its H2 FY26 presentation (9 May 2026), which reports standalone numbers. FY26 standalone revenue crossed ₹100 Cr for the first time (₹106 Cr, +50%) with PAT of ₹18 Cr and a 27% EBITDA margin; H2 alone was ₹58 Cr (+47%), with domestic business the main driver. The company exports formulations under its own registrations (1,091 approved, 2,534 pending in 46 countries) using its own and contract plants, and plans 300-400 new registrations a year, but gives no numeric FY27 guidance beyond a 'robust' outlook.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY26 standalone revenue above ₹100 Cr (₹106 Cr)",
+          "page": 28
+        },
+        {
+          "change": "reiterated",
+          "text": "300-400 new registrations a year",
+          "page": 24
+        },
+        {
+          "change": "new",
+          "text": "Domestic share rose to 49% of standalone revenue in FY26 (30% in FY25)",
+          "page": 18
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "With ongoing projects at the standalone and subsidiary levels, and operational strategies coming to fruition, the Company has established a foundation for continued growth.",
+        "page": 28
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "No earnings call; presentation gives standalone figures only, while most growth sits in subsidiaries.",
+          "page": 27
+        },
+        {
+          "text": "Standalone receivables more than doubled to ₹49 Cr (from ₹20 Cr) on 50% revenue growth.",
+          "page": 30
+        },
+        {
+          "text": "Free cash flow negative: ₹8 Cr operating cash flow against ₹20 Cr of investment in FY26.",
+          "page": 31
+        },
+        {
+          "text": "EBITDA margin slipped to 27% from 29% in FY25.",
+          "page": 29
+        }
+      ],
+      "watch_next": [
+        "Q1 FY27 revenue growth",
+        "Receivable days",
+        "Registrations approved vs the 2,534 pending",
+        "Injectables subsidiary start-up"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Pharma formulations (tablets 67% and capsules 30% of standalone revenue; syrups, suspensions, ointments), plus injectables, medical devices, herbal and cosmetics through subsidiaries",
+        "customers": "Distributors and B2B partners in Africa, Latin America, CIS and East Asia; domestic tenders and contract manufacturing",
+        "revenue_mix": "FY26 standalone: domestic 49%, exports 51%; by region Asia ~57%, Africa ~25%, South America ~17%",
+        "demand_drivers": "Export product registrations, off-patent molecules, emerging-market generics demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfcf2c51-070e-4e47-952c-b5ac110e52db.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfcf2c51-070e-4e47-952c-b5ac110e52db.pdf",
+    "transcriptPages": 32,
+    "transcriptHasText": true
+  }
+}

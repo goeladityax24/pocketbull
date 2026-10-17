@@ -1,0 +1,698 @@
+{
+ "as_of": "2026-10-17",
+ "descriptor": "Generic formulations exporter building injectables and medical devices",
+ "lede": "A Surat pharma company that exports generic tablets and capsules under its own registrations to Africa, Latin America and Asia, and is adding injectables, medical devices and consumer brands through part-owned subsidiaries. Revenue has grown about 56% a year for four years and management aims to triple it again in three, but cash flow lags profit, receivables have ballooned and the company holds no earnings calls.",
+ "market": {
+  "price": 420,
+  "mcap_cr": 502,
+  "pe": 23.9,
+  "pb": 5.0,
+  "ev_ebitda": 19
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Consolidated revenue ₹129 Cr in FY26 (+48%) with EBITDA margin up to 21.8% and PAT ₹19 Cr; Q1 FY27 revenue +43% and EBITDA +65%. Plants run at only ~40% utilisation, 2,534 product registrations are pending, and an injectables plant starts in October 2026."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "₹45 Cr of profit over FY22-26 against –₹16 Cr of operating cash flow; debtor days reached ~209 and borrowings ₹73 Cr. Most subsidiaries are 51-60% owned, ₹27 Cr was lent to related parties in FY26, and shareholders are asked to let the chairman's pay rise to ₹25 lakh a month."
+  },
+  {
+   "lead": "Price",
+   "text": "~24x trailing earnings and ~19x EV/EBITDA, against Marksans at 27x, Lincoln at 11x and Kwality Pharma at 45x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Trident Lifeline registers generic formulations (anti-infectives, anti-malarials, anti-diabetics, vitamins and more) in emerging markets and supplies them under its own brands through distributors, using its Surat liquids and ointments plant, a 51%-owned oral-solids subsidiary (TNS Pharma) and contract manufacturers. Newer subsidiaries make IV cannulas and infusion sets (Trident Mediquip, 60%), injectables (TLL Parenterals, 51%, from October 2026), herbal products (TLL Wellness, 51%) and 'YES' cosmetics (TLL Elements, 100%).",
+     "src": "Aug deck p.8"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "1,091",
+       "label": "Product registrations approved; 2,534 pending in 46 countries"
+      },
+      {
+       "value": "~40%",
+       "label": "Utilisation of existing capacity"
+      },
+      {
+       "value": "53% / 24%",
+       "label": "Tablets / capsules share of FY26 consolidated revenue"
+      },
+      {
+       "value": "₹200 Cr",
+       "label": "Stated peak revenue of the injectables plant"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Each export registration costs ~$5,000 and takes 1.5-3 years; once approved it earns for years and keeps rivals out.",
+       "src": "Aug deck p.18"
+      },
+      {
+       "lead": "",
+       "text": "Plants are built only after demand is validated, keeping capital needs low.",
+       "src": "Aug deck p.20"
+      },
+      {
+       "lead": "",
+       "text": "Domestic tenders use spare capacity at thinner margins.",
+       "src": "Bharat Connect note p.449"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed on BSE SME in 2022; revenue from ₹22 Cr (FY22) to ₹129 Cr (FY26).",
+       "src": "Aug deck p.10"
+      },
+      {
+       "lead": "",
+       "text": "Bought or set up TNS Pharma, Trident Mediquip, TLL Parenterals, TLL Wellness and TLL Elements in 2022-25.",
+       "src": "May deck p.9"
+      },
+      {
+       "lead": "",
+       "text": "Acquired 50,000 sq m of land for a five-to-six-unit pharma complex, starting with a cephalosporin plant.",
+       "src": "Bharat Connect note p.450"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        22,
+        32,
+        45,
+        87,
+        129
+       ]
+      }
+     ],
+     "caption": "Trailing 12 months ₹141 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        4,
+        6,
+        6,
+        10,
+        19
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        0,
+        -19,
+        2,
+        -4,
+        5
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "45%",
+        "41%",
+        "93%",
+        "48%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "12%",
+        "20%",
+        "18%",
+        "17%",
+        "22%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "4",
+        "6",
+        "6",
+        "10",
+        "19"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "23%",
+        "15%",
+        "18%",
+        "21%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "0",
+        "–19",
+        "2",
+        "–4",
+        "5"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "44",
+        "182",
+        "173",
+        "224",
+        "199"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not turned into cash:",
+       "text": "₹45 Cr of profit over FY22-26 against –₹16 Cr of operating cash flow; free cash flow negative every year.",
+       "src": null
+      },
+      {
+       "lead": "Debt is rising:",
+       "text": "borrowings ₹73 Cr against ₹100 Cr of equity (0.73x), interest cover ~6x; guarantees of ₹28.6 Cr given for others' borrowings.",
+       "src": "AR p.80"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 17%,",
+       "text": "on ~₹102 Cr of capital added from FY24 to FY26.",
+       "src": null
+      },
+      {
+       "lead": "Standalone vs consolidated:",
+       "text": "standalone FY26 revenue was ₹102-106 Cr; subsidiaries add the rest, and partners own 40-49% of most of them.",
+       "src": "Aug deck p.33"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY27 outlook 'robust'",
+        "May 26",
+        "Q1 FY27 consolidated revenue +43%, EBITDA +65%",
+        {
+         "text": "On track",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Triple consolidated revenue in three years",
+        "Aug 26",
+        "Needs ~45% a year; Q1 +43%",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "300-400 new registrations a year",
+        "May 26",
+        "Approved count still 1,091 in the August deck",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Injectables plant from October 2026, break-even FY27",
+        "Sep 26",
+        "Not yet reported",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Receivable days back to 100-120",
+        "Sep 26",
+        "~209 days in FY26",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "The company gives no earnings calls; guidance comes from presentations and a broker's conference note, so the record is thin.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 62.5% (Desai family ~38% incl. a family trust, Gajera family ~17%, Jariwala ~5%); no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions cut holdings from 7.7% to 1.2% in a year; shareholders still only ~1,050.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "₹27 Cr lent to related parties in FY26, all repayable on demand: ₹15 Cr to subsidiaries and ₹12 Cr to other related parties (₹7 Cr outstanding).",
+       "src": "AR p.48"
+      },
+      {
+       "lead": "",
+       "text": "AGM resolution lets the chairman be paid up to ₹25 lakh a month, above the profit-linked cap; actual FY26 pay was ~8x the median employee.",
+       "src": "AR p.129"
+      },
+      {
+       "lead": "",
+       "text": "Auditors made revenue recognition (rebates and discounts) a key audit matter.",
+       "src": "AR p.43"
+      },
+      {
+       "lead": "",
+       "text": "The September deck still carries placeholder 'Lorem ipsum' text on subsidiary pages.",
+       "src": "Aug deck p.12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Trident Lifeline",
+        "129",
+        "22%",
+        "19",
+        "21%",
+        "23.9x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Marksans Pharma",
+        "2,951",
+        "20%",
+        "420",
+        "19%",
+        "27.3x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Lincoln Pharmaceuticals",
+        "671",
+        "15%",
+        "88",
+        "16%",
+        "11.3x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Kwality Pharmaceuticals",
+        "503",
+        "24%",
+        "67",
+        "24%",
+        "45.3x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Medicamen Biotech",
+        "198",
+        "10%",
+        "10",
+        "6%",
+        "35.6x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Registrations as a moat:",
+       "text": "1,091 approved and 2,534 pending; 350+ products with IP rights.",
+       "src": "Aug deck p.17"
+      },
+      {
+       "lead": "Low-capital hybrid model",
+       "text": "mixing own plants, subsidiaries and contract manufacturers.",
+       "src": "Aug deck p.20"
+      },
+      {
+       "lead": "Early moves into off-patent molecules",
+       "text": "and semi-regulated markets like Peru and Panama.",
+       "src": "Bharat Connect note p.449"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Concentrated in a few emerging markets",
+       "text": "(Ghana, Venezuela, Kenya and Cambodia hold ~60% of registrations), with currency and payment risk.",
+       "src": "May deck p.20"
+      },
+      {
+       "lead": "Thin disclosure:",
+       "text": "no calls, and the broker note's revenue mix differs from the company's own deck.",
+       "src": "Bharat Connect note p.449"
+      },
+      {
+       "lead": "Execution of several new plants at once",
+       "text": "by a small team.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Receivables in emerging markets",
+        "Financial",
+        "~209 debtor days in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New subsidiaries miss ramp-up",
+        "Operational",
+        "Injectables from Oct 2026; wellness from FY27"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Related-party loans and guarantees",
+        "Governance",
+        "₹27 Cr lent in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Minority shareholders in subsidiaries",
+        "Financial",
+        "40-49% of most subsidiaries owned by partners"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹1,000 Cr",
+       "sub": "FY28 market cap · about +99%",
+       "text": "On track to triple: ~₹270 Cr revenue in FY28 at a 15% PAT margin (₹40 Cr), valued at 25x."
+      },
+      {
+       "name": "Base",
+       "value": "₹550 Cr",
+       "sub": "FY28 market cap · about +10%",
+       "text": "~28% growth a year to ~₹210 Cr at a 13% margin (₹27 Cr), valued at 20x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹225 Cr",
+       "sub": "FY28 market cap · about –55%",
+       "text": "Collections and new plants stall: ~₹160 Cr at a 10% margin (₹16 Cr), valued at 14x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "23.9x",
+       "label": "P/E, trailing (Marksans 27x)"
+      },
+      {
+       "value": "~19x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "5.0x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~17%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Trident has grown fast from a small base on a registration-led model and has capacity to grow further without much capex. The valuation is not stretched for the growth, but cash conversion, receivables, related-party lending and thin disclosure are real concerns; the injectables start-up and a fall in receivable days are the things to watch.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q2 consolidated revenue growth vs the 'triple in three years' aim",
+  "Injectables plant start in October 2026",
+  "Receivable days vs 100-120 target",
+  "Related-party loans and guarantees",
+  "Medical devices growth vs at least 50%"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (17 Oct 2026)",
+  "H2 FY26 (May 2026) and Q1 FY27 (Aug 2026) investor presentations; the company holds no earnings calls",
+  "Arihant Bharat Connect Rising Stars compendium (Sep 2026 conference, published 5 Oct 2026; broker note)",
+  "FY26 annual report",
+  "Peer data from Screener"
+ ]
+}

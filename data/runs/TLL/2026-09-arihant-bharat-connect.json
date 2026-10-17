@@ -1,0 +1,318 @@
+{
+  "symbol": "TLL",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-09-arihant-bharat-connect",
+    "transcriptUrl": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=449",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-17T16:55:42.156Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-10-05",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Triple revenue in three years from existing capacity",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 3 years (to ~FY29)",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "The company (Aug 2026 presentation) also aims to triple. Both are kept.",
+        "quote": "Management targets 3x top-line growth over the next 3 years from existing capacities, with utilisation expected to increase from the current 40-45% to 80%.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "3x top-line growth",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin at least 22%",
+        "kind": "margin_pct",
+        "low": 22,
+        "high": 22,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "FY26 consolidated 21.8%; Q1 FY27 25.3%",
+        "quote": "Management expects EBITDA margins to remain at 22% or expand further through operating leverage, while PAT margins are expected to improve.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "remain at 22% or expand",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Gross margin 30-40%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Gross margins are targeted at 30-40%.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "Gross margins are targeted",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Injectables plant from October 2026, break-even in FY27",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "TLL Parenterals (injectables)",
+        "condition": "₹40 Cr capex from bank debt and promoters; domestic contract manufacturing first; break-even in FY27; export ramp-up by 2029",
+        "quote": "Commercial operations are expected to commence in October 2026.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "commence in October 2026",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Medical devices growth at least 50%",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Trident Mediquip (medical devices)",
+        "condition": "FY26 revenue ₹27 Cr; margins 10-15%",
+        "quote": "FY27 growth is expected at a minimum of 50% YoY.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "minimum of 50% YoY",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Receivable days back to 100-120",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as collections improve",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Screener shows 209 debtor days in FY26",
+        "quote": "Management expects receivable days to normalise to 100-120 days as collections improve.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "100-120 days",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Existing capacity enough for 3-4 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 3-4 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Management believes existing capacities can support demand for the next 3-4 years and plans to increase utilisation toward 80%.",
+        "page": 449,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "next 3-4 years",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Cephalosporin plant in 18-24 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "18-24 months (~FY28-29)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Pharma complex of 5-6 units on 50,000 sq m over 5-6 years",
+        "quote": "The first planned facility is a cephalosporin unit covering tablets, dry powders and injectable vials, targeted for commissioning within 18-24 months, followed by oncology, ARV and serum facilities.",
+        "page": 450,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "within 18-24 months",
+        "revises": null,
+        "source_ref": "Arihant note"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Wellness range of 21 products from October",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "TLL Wellness",
+        "condition": null,
+        "quote": "The wellness subsidiary has a portfolio of 21 products planned for launch around October.",
+        "page": 450,
+        "speaker": "Management (as reported in Arihant's conference note)",
+        "confidence": "high",
+        "keyword": "planned for launch around October",
+        "revises": null,
+        "source_ref": "Arihant note"
+      }
+    ],
+    "insights": {
+      "summary": "From Arihant's Bharat Connect compendium (September 2026 conference, published 5 October): management targets 3x revenue in three years from existing plants, with utilisation rising from 40-45% to 80%, an EBITDA margin of at least 22% and 30-40% gross margins. The ₹40 Cr injectables plant should start in October 2026 and break even in FY27, medical devices should grow at least 50% in FY27, receivable days should fall back to 100-120, and a cephalosporin unit is planned within 18-24 months on newly bought land. The note's revenue mix (exports 70%, Africa 50-60%) differs from the company's own deck.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "Triple revenue in three years",
+          "page": 449
+        },
+        {
+          "change": "new",
+          "text": "EBITDA margin at least 22%; gross margin 30-40%",
+          "page": 449
+        },
+        {
+          "change": "new",
+          "text": "Injectables plant from October 2026, break-even FY27",
+          "page": 449
+        },
+        {
+          "change": "new",
+          "text": "Medical devices to grow at least 50% in FY27",
+          "page": 449
+        },
+        {
+          "change": "new",
+          "text": "Cephalosporin unit within 18-24 months; later oncology, ARV and serum plants",
+          "page": 450
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Management targets 3x top-line growth over the next 3 years from existing capacities",
+        "page": 449
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Second-hand: a broker's summary, not a company filing.",
+          "page": 449
+        },
+        {
+          "text": "Note says exports are 70% and Africa 50-60% of revenue; the company's May deck shows FY26 standalone revenue 49% domestic and Asia ~57%, Africa ~25%. One of them is wrong or uses a different base.",
+          "page": 449
+        },
+        {
+          "text": "Receivable days rose to ~209 in FY26 (Screener) on Q4 tender execution and disruption.",
+          "page": 449
+        },
+        {
+          "text": "Injectables plant funded with bank debt and promoter money; exports from it only by 2029.",
+          "page": 449
+        }
+      ],
+      "watch_next": [
+        "Injectables plant start in October",
+        "Medical devices growth vs at least 50%",
+        "Receivable days vs 100-120 target",
+        "EBITDA margin at or above 22%"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Pharma formulations, injectables, medical devices (IV cannulas, infusion and blood sets), cosmetics and wellness products",
+        "customers": "100+ distributors across 20 supplied countries (46 with registrations); domestic tenders and private hospitals",
+        "revenue_mix": "Per the note: exports 70% (direct 50%, merchant 20%), domestic 30%; Africa 50-60%, Latin America 30%",
+        "demand_drivers": "Registrations, moves into semi-regulated markets (Peru, Trinidad & Tobago, Panama), off-patent molecules, higher utilisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-09-arihant-bharat-connect",
+    "kind": "conference",
+    "event": "Arihant Bharat Connect Rising Stars, Sep 2026",
+    "date": "2026-10-05",
+    "links": [
+      {
+        "url": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=449",
+        "author": "Arihant Capital (post-conference compendium)",
+        "grade": "broker_note",
+        "images": [
+          "data/conferences/2026-09-arihant-bharat-connect/compendium.pdf"
+        ],
+        "pages": [
+          449,
+          450
+        ]
+      }
+    ],
+    "text_file": "data/sources/TLL/2026-09-arihant-bharat-connect.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=449",
+    "pptUrl": null,
+    "transcriptPages": 2,
+    "transcriptHasText": true
+  }
+}
