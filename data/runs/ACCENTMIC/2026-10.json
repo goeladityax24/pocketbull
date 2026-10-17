@@ -1,0 +1,201 @@
+{
+  "symbol": "ACCENTMIC",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": null,
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_15102026155931_Investors_Presentation.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-17T19:13:48.603Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY27",
+    "call_date": "2026-10-15",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 1 still awaiting approvals",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No call held; presentation only. In May management expected the licences within a month (about end-June 2026). Environment clearance, consent to operate and power are 'in progress' (deck p.13).",
+        "quote": "Trial runs under way; commercial production awaits approvals",
+        "page": 23,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "awaits approvals",
+        "revises": "Unit III Phase 1 start once licences arrive"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase 1: ₹70 Cr in year one, ₹150-160 Cr at peak",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "first year of Phase 1 production",
+        "basis": "segment",
+        "segment": "Unit III Phase 1",
+        "condition": "Same table gives Phase 2 (MCC) a peak of ₹220-250 Cr at ₹180-200/kg. With Phase 1 not yet started, little of the ₹70 Cr can fall in FY27.",
+        "quote": "Revenue Potential ₹70 Cr Year 1 → ₹150–160 Cr peak ₹220–250 Cr peak",
+        "page": 23,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "₹70 Cr Year 1",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase 1 at 50-60% utilisation in its first year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "first year of Phase 1",
+        "basis": "segment",
+        "segment": "Unit III Phase 1",
+        "condition": "May tied this to FY27; the deck now says 'first year' without a fiscal year.",
+        "quote": "The Company expects Phase 1 to run at about 50–60% utilisation in its first year, on roughly nine months of production",
+        "page": 24,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "50–60% utilisation",
+        "revises": "Phase 1 at 50-60% utilisation in FY27, on nine months of production"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 2 targeted for H1 FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "May call said March 2027 'as of now', with H1 FY28 as the conservative case.",
+        "quote": "Phase 2 targeted for H1 FY28; Phase 3 from 2028, subject to performance.",
+        "page": 6,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "H1 FY28",
+        "revises": "Unit III Phase 2 (MCC, 12,000 MTPA) live"
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "No debt for Phase 1 or Phase 2",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "through Unit III Phase 2",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Borrowings ₹0.6 Cr and net cash ₹16.9 Cr at Sep 2026. IPO and rights money for Unit III is already overspent by ₹48.6 Cr, funded from accruals.",
+        "quote": "Debt: none planned for Phase 1 or Phase 2; balance capex from internal accruals.",
+        "page": 24,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "none planned",
+        "revises": "No new debt for Unit III"
+      }
+    ],
+    "insights": {
+      "summary": "From the H1 FY27 presentation (no call held): revenue rose 25% to ₹174.8 Cr and PAT 72% to ₹31.1 Cr, with EBITDA margin up to 25.1% from 19.0% as traded volumes were cut and premium products rose to 13.5% of sales. Exports were 72% of revenue. Receivable days halved to 47 as the large multinational customer's credit terms normalised, lifting operating cash flow to ₹78 Cr. Unit III Phase 1 is still in trial runs awaiting approvals, four months after the date given in May; Phase 2 is now targeted for H1 FY28.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Unit III Phase 1 still waiting for approvals (expected about end-June 2026 in May)",
+          "page": 23
+        },
+        {
+          "change": "delayed",
+          "text": "Phase 2 now H1 FY28 (March 2027 was the May base case)",
+          "page": 6
+        },
+        {
+          "change": "reiterated",
+          "text": "Phase 1: ₹70 Cr in year one, ₹150-160 Cr at peak; Phase 2 ₹220-250 Cr at peak",
+          "page": 23
+        },
+        {
+          "change": "reiterated",
+          "text": "No debt for Unit III",
+          "page": 24
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "Exports account for 56% of FY27 YTD premium mix.",
+        "page": 6
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Unit III Phase 1 delayed again, with no new date; revenue depends on customer approvals that take years.",
+          "page": 24
+        },
+        {
+          "text": "Unit III capex has overrun the IPO and rights money by ₹48.6 Cr so far (₹135.3 Cr deployed vs ₹86.7 Cr earmarked).",
+          "page": 24
+        },
+        {
+          "text": "No call held for H1 FY27 despite investor requests in May.",
+          "page": 23
+        },
+        {
+          "text": "Loans and advances jumped to ₹53.6 Cr from ₹20.9 Cr in six months, unexplained in the deck.",
+          "page": 22
+        }
+      ],
+      "watch_next": [
+        "Unit III Phase 1 consent to operate and first sales",
+        "Whether H1's 25% EBITDA margin holds in H2 as trading returns or not",
+        "Premium share vs 16-17% FY27 target",
+        "Loans and advances of ₹53.6 Cr",
+        "Phase 2 progress toward H1 FY28"
+      ],
+      "business_snapshot": {
+        "what_they_make": "MCC (22 grades) plus premium SMCC, MCC Spheres and MCC-CMC; magnesium stearate and powdered cellulose; CCS, SSG and pulp-based CMC from Unit III",
+        "customers": "200+ customers in 75+ countries: drug and contract manufacturers, nutraceutical, food and cosmetics companies; ~85% through distributors",
+        "revenue_mix": "H1 FY27: exports 72%, domestic 28%; premium products 13.5%",
+        "demand_drivers": "Tablet and capsule volumes, China+1 sourcing, direct-compression grades, specialty disintegrants"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_15102026155931_Investors_Presentation.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_15102026155931_Investors_Presentation.pdf",
+    "transcriptPages": 28,
+    "transcriptHasText": true
+  }
+}
