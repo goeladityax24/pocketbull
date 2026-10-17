@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-arihant-bharat-connect",
+  "kind": "conference",
+  "event": "Arihant Bharat Connect Rising Stars, Sep 2026",
+  "date": "2026-10-05",
+  "links": [
+    {
+      "url": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=449",
+      "author": "Arihant Capital (post-conference compendium)",
+      "grade": "broker_note",
+      "images": [
+        "data/conferences/2026-09-arihant-bharat-connect/compendium.pdf"
+      ],
+      "pages": [
+        449,
+        450
+      ]
+    }
+  ],
+  "text_file": "data/sources/TLL/2026-09-arihant-bharat-connect.txt"
+}
