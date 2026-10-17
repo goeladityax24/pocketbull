@@ -1,0 +1,32 @@
+{
+  "id": "2026-07-rhp",
+  "kind": "conference",
+  "event": "IPO prospectus (RHP), Jul 2026",
+  "date": "2026-07-15",
+  "links": [
+    {
+      "url": "https://metalictechnoforge.com/wp-content/uploads/2026/07/RHP_MTF.pdf",
+      "author": "Metalic Technoforge (Red Herring Prospectus filed with NSE)",
+      "grade": "company",
+      "images": [],
+      "pages": [
+        1,
+        32,
+        37,
+        41,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        130,
+        175,
+        176,
+        177
+      ]
+    }
+  ],
+  "text_file": "data/sources/METALIC/2026-07-rhp.txt"
+}

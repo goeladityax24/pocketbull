@@ -1,0 +1,651 @@
+{
+ "as_of": "2026-10-17",
+ "descriptor": "Rajkot forging and machining SME, listed Jul 2026",
+ "lede": "A Rajkot maker of closed-die forged and machined parts (rings, ball studs, gear blanks, gears) for tractor, auto and industrial OEMs in India and Europe. It listed on NSE Emerge on 28 Jul 2026 after a ₹50 Cr fresh issue at ₹77 and now trades at about twice that. Revenue has grown ~27% a year with margins above 20%, but working capital is heavy, cash flow is weak and there is no track record as a listed company yet.",
+ "market": {
+  "price": 162,
+  "mcap_cr": 389,
+  "pe": 31.6,
+  "pb": 4.9,
+  "ev_ebitda": 19
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue ₹95.5 Cr (+28%), EBITDA margin 23% (14% in FY24), PAT ₹12.4 Cr. Plants run at 90% and IPO money funds a 29% forging-capacity increase by Mar 2028; exports are 35% of revenue."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "₹26 Cr of profit over FY23-26 against ₹4 Cr of operating cash flow; inventory days rose to 257. Top customer 23% and top ten 65% of revenue. Order book only ₹27.6 Cr. No call or presentation yet; a Pune plant was approved two months after listing without details."
+  },
+  {
+   "lead": "Price",
+   "text": "~32x FY26 earnings, above Rolex Rings (24x) and M M Forgings (23x), below Happy Forgings (54x)."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Metalic forges steel billets into near-net shapes on hammers and a 300-ton screw press, heat-treats them, and machines them into finished rings, ball studs, gears and coupling parts in three units at Padavala, Rajkot. It sells to OEMs of tractors, cars, commercial vehicles and farm, hydraulic and construction equipment; Germany alone was 21% of FY26 revenue.",
+     "src": "RHP p.175-176, p.32"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "6,800 t",
+       "label": "Forging capacity; 90% used in FY26"
+      },
+      {
+       "value": "35%",
+       "label": "Export share of FY26 revenue"
+      },
+      {
+       "value": "65%",
+       "label": "Top-ten customers' share of revenue"
+      },
+      {
+       "value": "₹27.6 Cr",
+       "label": "Order book at 30 Jun 2026"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Gear cutting, grinding and machining in-house let it sell finished parts, not just forgings; EBITDA margin rose from 14% in FY24 to 23% in FY26.",
+       "src": "RHP p.176"
+      },
+      {
+       "lead": "",
+       "text": "Job work is outsourced at peak load; bringing it in-house is a stated aim of the capex.",
+       "src": "RHP p.117"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Revenue from ₹47 Cr (FY23) to ₹96 Cr (FY26).",
+       "src": null
+      },
+      {
+       "lead": "",
+       "text": "16:1 bonus issue in Mar 2026, then a ₹49.96 Cr IPO in Jul 2026 (64.88 lakh shares at ₹77).",
+       "src": "RHP p.100"
+      },
+      {
+       "lead": "",
+       "text": "Board approved leasing premises in Pune for new manufacturing on 25 Sep 2026; terms not final.",
+       "src": "NSE filing 25 Sep 2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        47,
+        51,
+        74,
+        96
+       ]
+      }
+     ],
+     "caption": "First half-year results as a listed company (H1 FY27) due by mid-Nov 2026."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        1,
+        4,
+        9,
+        12
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        1,
+        2,
+        2,
+        -1
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "9%",
+        "45%",
+        "30%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "5%",
+        "14%",
+        "22%",
+        "23%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "1",
+        "4",
+        "9",
+        "12"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "49%",
+        "46%",
+        "36%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "1",
+        "2",
+        "2",
+        "–1"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Inventory days",
+        "48",
+        "127",
+        "185",
+        "257"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Screener rounds revenue; the RHP gives FY26 revenue of ₹95.55 Cr and EBITDA of ₹21.95 Cr."
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has not turned into cash:",
+       "text": "₹26 Cr of profit over FY23-26 against ₹4 Cr of operating cash flow; inventory doubled to ₹32 Cr in FY26, mostly work in progress (₹21.6 Cr).",
+       "src": "RHP p.324"
+      },
+      {
+       "lead": "Debt before the IPO:",
+       "text": "borrowings ₹32 Cr against ₹34 Cr of equity (0.94x); ₹6.7 Cr is to be repaid from IPO money. Interest cover ~10x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 20%,",
+       "text": "on ~₹48 Cr added from FY24 to FY26.",
+       "src": null
+      },
+      {
+       "lead": "After the IPO",
+       "text": "equity is roughly ₹80 Cr, so return on equity will fall from FY26's 49%.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Unit IV construction from Sep 2026",
+        "Jul 26",
+        "Not yet reported; a Pune plant was approved instead in Sep",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "₹30.8 Cr capex in FY27 from IPO money",
+        "Jul 26",
+        "First use-of-proceeds report due with H1 results",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Repay ₹6.7 Cr of loans in FY27",
+        "Jul 26",
+        "Not yet reported",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Unit IV running by 31 Mar 2028",
+        "Jul 26",
+        "—",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Listed for under three months, with no results, call or presentation yet, so there is no record to judge. The prospectus is the only source of plans.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Seven promoters (Gajipara, Trambadiya, Vadodariya, Kapadiya and Rupapara families) hold 61.0%; domestic institutions 10.1%; 769 shareholders.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "No pledge shown.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Siddheshwar Technoforge, a group company, is a supplier and job-worker (₹0.7 Cr in FY26) in the same business, a possible conflict.",
+       "src": "RHP p.77"
+      },
+      {
+       "lead": "",
+       "text": "₹3.3 Cr of machinery was bought from group firm Motiontech in FY25; advances to group firms (₹1.4 Cr outstanding at Mar 2025) were repaid by Mar 2026.",
+       "src": "RHP p.77-78"
+      },
+      {
+       "lead": "",
+       "text": "Directors' pay is modest (₹0.99 Cr in FY26), plus ₹0.78 Cr of salaries to promoters and relatives.",
+       "src": "RHP p.77"
+      },
+      {
+       "lead": "",
+       "text": "Only one small tax case (₹5.8 lakh) outstanding.",
+       "src": "RHP p.33"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Metalic Technoforge",
+        "96",
+        "23%",
+        "12",
+        "36%",
+        "31.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Rolex Rings",
+        "1,144",
+        "20%",
+        "141",
+        "21%",
+        "23.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "M M Forgings",
+        "1,590",
+        "18%",
+        "99",
+        "9%",
+        "22.7x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Happy Forgings",
+        "1,546",
+        "30%",
+        "302",
+        "18%",
+        "53.8x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "IATF 16949 and in-house die-making, forging, heat treatment and gear cutting",
+       "text": "give one-stop supply of machined parts.",
+       "src": "RHP p.175-176"
+      },
+      {
+       "lead": "European OEM customers",
+       "text": "(Germany, Finland, Italy) qualified over several years.",
+       "src": "RHP p.32"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Small and concentrated:",
+       "text": "top customer 23%, top five 45%.",
+       "src": null
+      },
+      {
+       "lead": "Steel prices and auto/tractor cycles",
+       "text": "pass through to margins with a lag.",
+       "src": null
+      },
+      {
+       "lead": "Larger peers",
+       "text": "(Rolex Rings in rings, Happy Forgings in tractor parts) have far more scale.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Working capital keeps absorbing cash",
+        "Financial",
+        "Inventory 257 days in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Customer concentration",
+        "Business",
+        "Top customer 23% of revenue"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capex plans change after listing",
+        "Governance",
+        "Pune plant approved, not in the RHP"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Export slowdown in Europe",
+        "Market",
+        "Germany 21% of revenue"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹640 Cr",
+       "sub": "FY28 market cap · about +65%",
+       "text": "30% growth a year to ~₹162 Cr in FY28 at a 14% PAT margin (₹23 Cr), valued at 28x."
+      },
+      {
+       "name": "Base",
+       "value": "₹415 Cr",
+       "sub": "FY28 market cap · about +7%",
+       "text": "20% growth to ~₹138 Cr at 12.5% (₹17 Cr), valued at 24x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹150 Cr",
+       "sub": "FY28 market cap · about –61%",
+       "text": "Growth slows to 8% (~₹112 Cr) and margin falls to 9% (₹10 Cr), valued at 15x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "31.6x",
+       "label": "P/E, FY26 (Rolex Rings 24x)"
+      },
+      {
+       "value": "~19x",
+       "label": "EV / FY26 EBITDA, before IPO cash"
+      },
+      {
+       "value": "~4.9x",
+       "label": "Price / book, with IPO money"
+      },
+      {
+       "value": "~20%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Metalic has grown quickly with good margins for a small forger, and the IPO money funds its next step. At about twice the IPO price and above larger peers' multiples, the stock prices in growth that has not yet shown up in cash. The first listed results, the use of IPO money and the Pune plant details will show whether management does what the prospectus says.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 results (due by 14 Nov 2026)",
+  "Unit IV construction and IPO-money use report",
+  "Pune plant: cost, products, funding",
+  "Inventory and operating cash flow",
+  "First earnings call or presentation"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (17 Oct 2026)",
+  "Red Herring Prospectus dated 15 Jul 2026 (company website)",
+  "NSE filings of 19 Sep, 25 Sep and 13 Oct 2026",
+  "IPO price and listing date from broker IPO pages (HDFC Sky, Trendlyne)",
+  "Peer data from Screener",
+  "Arihant Bharat Connect compendium checked: Metalic not covered"
+ ]
+}
