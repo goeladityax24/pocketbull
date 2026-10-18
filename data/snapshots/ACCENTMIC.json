@@ -1,0 +1,394 @@
+{
+  "symbol": "ACCENTMIC",
+  "name": "Accent Microcell Ltd",
+  "screenerUrl": "https://www.screener.in/company/ACCENTMIC/",
+  "basis": "standalone",
+  "companyId": "1284581",
+  "warehouseId": "111607403",
+  "ratios": {
+    "market cap": 1620,
+    "current price": 675,
+    "high": 732,
+    "low": 253,
+    "stock p/e": 28.5,
+    "book value": 127,
+    "dividend yield": 0.15,
+    "roce": 24.9,
+    "roe": 18.6,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-09-30",
+        "label": "H1 FY24"
+      },
+      {
+        "kind": "half",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2024-03-31",
+        "label": "H2 FY24"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-09-30",
+        "label": "H1 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2026-03-31",
+        "label": "H2 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-09-30",
+        "label": "H1 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        107,
+        139,
+        126,
+        139,
+        139,
+        210,
+        175
+      ],
+      "expenses": [
+        87,
+        119,
+        107,
+        115,
+        115,
+        177,
+        134
+      ],
+      "operating_profit": [
+        20,
+        20,
+        19,
+        23,
+        24,
+        33,
+        41
+      ],
+      "opm_pct": [
+        18,
+        14,
+        15,
+        17,
+        17,
+        16,
+        24
+      ],
+      "other_income": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        3
+      ],
+      "interest": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "depreciation": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "pbt": [
+        17,
+        19,
+        20,
+        24,
+        24,
+        34,
+        41
+      ],
+      "tax_pct": [
+        18,
+        17,
+        16,
+        32,
+        25,
+        25,
+        25
+      ],
+      "net_profit": [
+        14,
+        16,
+        16,
+        17,
+        18,
+        26,
+        31
+      ],
+      "eps": [
+        8.01,
+        6.7,
+        6.86,
+        6.92,
+        7.53,
+        10.75,
+        12.97
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        114,
+        131,
+        133,
+        166,
+        197,
+        246,
+        265,
+        349
+      ],
+      "expenses": [
+        108,
+        122,
+        122,
+        153,
+        178,
+        206,
+        223,
+        292
+      ],
+      "operating_profit": [
+        6,
+        9,
+        11,
+        13,
+        19,
+        39,
+        42,
+        57
+      ],
+      "opm_pct": [
+        4.9,
+        7,
+        8,
+        8,
+        10,
+        16,
+        16,
+        16
+      ],
+      "other_income": [
+        6,
+        4,
+        2,
+        2,
+        2,
+        3,
+        6,
+        7
+      ],
+      "interest": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        0,
+        1
+      ],
+      "depreciation": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ],
+      "pbt": [
+        5,
+        6,
+        6,
+        8,
+        15,
+        37,
+        44,
+        58
+      ],
+      "tax_pct": [
+        24,
+        31,
+        20,
+        22,
+        17,
+        17,
+        24,
+        25
+      ],
+      "net_profit": [
+        4,
+        4,
+        5,
+        6,
+        12,
+        30,
+        33,
+        44
+      ],
+      "eps": [
+        2.46,
+        2.84,
+        3.27,
+        4.01,
+        8.26,
+        12.57,
+        13.78,
+        18.28
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_15102026155931_Investors_Presentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_21052026164310_Investor_Meet_Transcript.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_16052026104910_Presentation.pdf",
+      "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2026/05/GMT20260516-053214_Recording.m4a"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_13082025174352_Schedule_of_Investors_meet_trancript.pdf",
+      "pptUrl": null,
+      "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2025/08/Schedule-of-investors-meet_07082025_Recording.m4a"
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_20052025173721_Investor_Transcript17052025.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_17052025112712_Investor_Presentation_17052025.pdf",
+      "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2025/05/GMT20250517-060326_Recording.m4a"
+    },
+    {
+      "month": "Jan 2025",
+      "yearMonth": "2025-01",
+      "transcriptUrl": null,
+      "pptUrl": null,
+      "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2025/01/Investors-conference-call-dated-09thJanuary2025.mp3"
+    },
+    {
+      "month": "Mar 2024",
+      "yearMonth": "2024-03",
+      "transcriptUrl": null,
+      "pptUrl": null,
+      "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2024/03/Meeting-between-Promoter-of-Accent-Microcell-Tiger-Assets-20240310-0419-1.mp4"
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-17T19:09:25.592Z"
+}

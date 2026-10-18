@@ -1,0 +1,253 @@
+{
+  "symbol": "METALIC",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07-rhp",
+    "transcriptUrl": "https://metalictechnoforge.com/wp-content/uploads/2026/07/RHP_MTF.pdf",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-17T19:15:51.405Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "FY26",
+    "call_date": "2026-07-15",
+    "guidance": [
+      {
+        "metric": "capex",
+        "metric_label": "Capex for Unit IV and upgrades, from IPO money, in FY27",
+        "kind": "absolute",
+        "low": 30.81,
+        "high": 30.81,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. The deployment table (p.114) puts all ₹30.81 Cr in FY 2026-27. Covers a 400-ton servo screw press at Unit IV plus gear-grinding, heat-treatment, cutting and testing equipment at Units I-III.",
+        "quote": "Our Board in its meeting dated March 30, 2026, took note that an amount of ₹3,081.13 Lakhs is proposed to be utilised from the net proceeds for Funding of capital expenditure requirements of the Company towards setting up of the proposed Manufacturing Unit IV and upgradation of existing units at manufacturing facility in Rajkot, Gujarat.",
+        "page": 115,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "high",
+        "keyword": "₹3,081.13 Lakhs",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Forging capacity from 6,800 to 8,800 tonnes a year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "when Unit IV runs (by Mar 2028)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. FY26 production was 6,135 tonnes, 90% of capacity (p.115). A 29% capacity increase.",
+        "quote": "Increase in the Company's installed forging capacity from 6,800.00 metric tons per annum to 8,800.00 metric tons per annum.",
+        "page": 116,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "high",
+        "keyword": "8,800.00 metric tons per annum",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit IV operational by 31 Mar 2028",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. Schedule certified by a chartered engineer: construction from Sep 2026, civil work Mar-Oct 2027, machines Nov-Dec 2027, commissioning Jan-Feb 2028 (p.130).",
+        "quote": "Operationalization of Unit Within 15-18 months of receipt of funds (March 31, 2028)",
+        "page": 130,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "high",
+        "keyword": "March 31, 2028",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit IV construction to start Sep 2026",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. IPO money was received in Jul 2026 (listed 28 Jul).",
+        "quote": "Commencement of Construction Within 1 month of receipt of funds (September, 2026)",
+        "page": 130,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "high",
+        "keyword": "September, 2026",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Repay ₹6.72 Cr of secured loans in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. ₹6.72 Cr of the IPO money, all in FY 2026-27. Borrowings were ₹32 Cr at Mar 2026.",
+        "quote": "Full or part repayment and/or prepayment of certain outstanding secured borrowings availed by our Company. 672.00 672.00",
+        "page": 114,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "high",
+        "keyword": "672.00",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Less outsourcing to lift cost efficiency",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "after Unit IV and the upgrades",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the IPO prospectus (RHP, 15 Jul 2026); the company has held no call. Some forging, machining, heat treatment and testing is now done by job workers because plants run at 90%. FY26 EBITDA margin 23.0%.",
+        "quote": "In addition, the reduction in outsourcing is expected to improve cost efficiency and enhance operational performance.",
+        "page": 117,
+        "speaker": "Company (Red Herring Prospectus)",
+        "confidence": "medium",
+        "keyword": "reduction in outsourcing",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Metalic Technoforge, a Rajkot maker of closed-die forged and machined parts (rings, ball studs, gears, gear blanks) for auto, tractor and industrial OEMs, listed on NSE Emerge on 28 Jul 2026 after a ₹49.96 Cr fresh issue at ₹77. FY26 revenue rose 28% to ₹95.5 Cr, EBITDA margin was 23.0% and PAT ₹12.4 Cr; exports were 35% (Germany alone 21%). It has held no call, so the only forward plans are in the prospectus: ₹30.8 Cr of IPO money for a new forging unit and upgrades in FY27, lifting capacity from 6,800 to 8,800 tonnes a year by 31 Mar 2028, and ₹6.7 Cr to repay loans. On 25 Sep 2026 the board also approved leasing premises in Pune for another plant, which the prospectus did not mention.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "₹30.81 Cr capex in FY27 for Unit IV and upgrades of Units I-III",
+          "page": 115
+        },
+        {
+          "change": "new",
+          "text": "Forging capacity to rise from 6,800 to 8,800 tonnes a year",
+          "page": 116
+        },
+        {
+          "change": "new",
+          "text": "Unit IV operational by 31 Mar 2028",
+          "page": 130
+        },
+        {
+          "change": "new",
+          "text": "₹6.72 Cr of secured loans to be repaid in FY27",
+          "page": 114
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "During FY 2025-26, our Company was is operating at 90.22% level of capacity utilization, which reflects strong demand from its existing customers.",
+        "page": 115
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Top customer is 23% of revenue and the top ten 65% (FY26).",
+          "page": 37
+        },
+        {
+          "text": "Order book was only ₹27.6 Cr at 30 Jun 2026, about three months of sales.",
+          "page": 41
+        },
+        {
+          "text": "Inventory days rose to 257 and the cash cycle to 183 days in FY26; operating cash flow was negative (Screener).",
+          "page": null
+        },
+        {
+          "text": "No earnings call or presentation since listing; first results (H1 FY27) due by mid-Nov 2026.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 results (first as a listed company), due by 14 Nov 2026",
+        "Unit IV construction start (due Sep 2026) and IPO-money use reports",
+        "Details of the Pune plant approved on 25 Sep 2026: cost, products, funding",
+        "Working capital: inventory 257 days in FY26",
+        "Export share and German customer concentration"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Closed-die forged and precision-machined parts: big and small rings, ball studs, gear blanks, gears and coupling assemblies, in carbon, alloy and stainless steel",
+        "customers": "Domestic and overseas OEMs of cars, tractors, commercial vehicles, farm, hydraulic and construction equipment; top ten are 65% of revenue",
+        "revenue_mix": "FY26: exports 35% (Germany 21%, USA 5%, Finland 4%), domestic 65%",
+        "demand_drivers": "Tractor and commercial-vehicle volumes, European OEM sourcing from India, more in-house machining and gears"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-07-rhp",
+    "kind": "conference",
+    "event": "IPO prospectus (RHP), Jul 2026",
+    "date": "2026-07-15",
+    "links": [
+      {
+        "url": "https://metalictechnoforge.com/wp-content/uploads/2026/07/RHP_MTF.pdf",
+        "author": "Metalic Technoforge (Red Herring Prospectus filed with NSE)",
+        "grade": "company",
+        "images": [],
+        "pages": [
+          1,
+          32,
+          37,
+          41,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          130,
+          175,
+          176,
+          177
+        ]
+      }
+    ],
+    "text_file": "data/sources/METALIC/2026-07-rhp.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://metalictechnoforge.com/wp-content/uploads/2026/07/RHP_MTF.pdf",
+    "pptUrl": null,
+    "transcriptPages": 15,
+    "transcriptHasText": true
+  }
+}

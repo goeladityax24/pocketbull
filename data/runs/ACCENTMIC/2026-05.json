@@ -1,0 +1,374 @@
+{
+  "symbol": "ACCENTMIC",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_21052026164310_Investor_Meet_Transcript.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_16052026104910_Presentation.pdf",
+    "recordingUrl": "https://accentmicrocell.com/wp-content/uploads/2026/05/GMT20260516-053214_Recording.m4a"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-17T19:14:11.106Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-05-16",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 1 start once licences arrive",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Phase 1 (CCS, SSG, pulp-based CMC; 2,800 MTPA) was first due Oct 2025, then Apr 2026. Asked if it would be live by end-June 2026, management said yes (p.11). Needs consent to operate and pollution-control licence, then 20-25 days of trial runs (p.21).",
+        "quote": "Only need GPCV license and pollution control license. Will get the license by one month so phase 1 will start.",
+        "page": 8,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "by one month",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 1 revenue in first year (₹70 Cr)",
+        "kind": "absolute",
+        "low": 63,
+        "high": 77,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Unit III Phase 1",
+        "condition": "The 'stated number' is the ₹70 Cr year-1 revenue in the presentation (p.13 of the deck), ±5-10%. Assumes about nine months of production in FY27 at 50-60% utilisation (p.11). Peak ₹150 Cr.",
+        "quote": "At peak capacity, we are assuming revenue of around, 150 crores. So, on a per-ta basis, in red with the number of months for which the production will be available, we'll be able to, achieve, say, the stated number plus, minus 5-10%.",
+        "page": 16,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "stated number plus, minus 5-10%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase 1 at 50-60% utilisation in FY27, on nine months of production",
+        "kind": "absolute",
+        "low": 50,
+        "high": 60,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Unit III Phase 1",
+        "condition": "Confirming an analyst's 50-60% utilisation for FY27; management added that production would run for nine months, not six.",
+        "quote": "Yes, sir, on a per day basis, yes. Say, 9 months of production.",
+        "page": 11,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "medium",
+        "keyword": "9 months of production",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 2 (MCC, 12,000 MTPA) live",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Management called this a conservative date; an analyst then took it as H1 FY28 and management agreed (p.11). Funded from the rights issue and internal accruals.",
+        "quote": "Sir, Phase 2, say, it will be premature for me to give any kind of an exact deadline, but as of now, we are expecting it to go live in the month of, March 27.",
+        "page": 10,
+        "speaker": "Pratik Rugani (Senior Accounts Manager)",
+        "confidence": "high",
+        "keyword": "March 27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase 2 at 75-80% utilisation from year one",
+        "kind": "absolute",
+        "low": 75,
+        "high": 80,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "first year of Phase 2",
+        "basis": "segment",
+        "segment": "Unit III Phase 2",
+        "condition": "MCC is the core product, so ramp-up should be faster than Phase 1.",
+        "quote": "Phase 2 will, say, have an, say, 75% to 80% of capacity residence from first year onwards.",
+        "page": 11,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "75% to 80%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase 1 realisation ₹650-700 per kg",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "once Phase 1 runs",
+        "basis": "segment",
+        "segment": "Unit III Phase 1",
+        "condition": "'utilization' here means realisation per kg; current blended realisation is about ₹250-260/kg (p.9).",
+        "quote": "Unit 3, Phase 1, premium range of products, the average utilization will be around, 650 to 700 rupees.",
+        "page": 24,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "650 to 700 rupees",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Premium products 16-17% of FY27 revenue",
+        "kind": "absolute",
+        "low": 16,
+        "high": 17,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Premium products (SMCC, MCC Spheres) were 13.1% of FY26 revenue.",
+        "quote": "Gradually, it is going to increase, but for H2 or for entire finance year 27, it's going to be, say, more or less 16 to 17%.",
+        "page": 20,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "16 to 17%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Blended margins up at least 2-3 points",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "as premium products grow",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 EBITDA margin was 18.2% (16% on Screener). Management said the rise comes after Phase 2, when traded volumes (2-6% margin) fall (p.13-14); a 20% EBITDA margin in FY28 'can be maintained or achieved' if the premium mix holds (p.16).",
+        "quote": "it is prudent enough to assume that the blended profit margins are going to increase by, say, at least 2-3 percentage.",
+        "page": 13,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "at least 2-3 percentage",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Trading volumes to fall sharply after Phase 2",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "after Phase 2",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "About 25-30% of FY26 volume (~₹95 Cr) was traded MCC, at 2-6% margins.",
+        "quote": "To a certain extent, yes. Post Phase 2, it is going to reduce substantially.",
+        "page": 14,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "reduce substantially",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Receivables back to normal by end of FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Debtor days rose to 95 at Mar 2026 on extended credit to a large multinational customer.",
+        "quote": "Sir, if not by, H1 of financial year 27, surely by, say, end of financial 27, it will be taken care of.",
+        "page": 26,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "end of financial 27",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "No new debt for Unit III",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "near future",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Phase 1 and 2 funded from the IPO, the rights issue and internal accruals; Kotak working-capital limits available if needed.",
+        "quote": "we don't foresee any kind of, new debt, in near future.",
+        "page": 23,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "high",
+        "keyword": "new debt",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit III Phase 3 from 2028 (tentative)",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "2028",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Land bought for six phases; Phase 3 to be announced only after Phase 2 runs at full capacity.",
+        "quote": "Almost in 2028 will start the Phase 3. This is too early to confirm that we will start our phase 3 in 2028 so it’s a tentative date.",
+        "page": 8,
+        "speaker": "Management (Accent Microcell)",
+        "confidence": "low",
+        "keyword": "2028",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "First call in ten months. FY26 revenue rose 32% to ₹349 Cr and PAT 33% to ₹43.9 Cr, but about a quarter of volume (~₹95 Cr) was traded MCC at 2-6% margins, bought in because both plants run at 95-100%. H2 was strong (₹210 Cr) on exports of premium MCC Spheres and SMCC; exports reached 63% of revenue. The new Unit III is late again: Phase 1 (CCS, SSG and pulp-based CMC, ₹70 Cr revenue in year one, ₹150 Cr at peak) waits for operating licences, now expected by end-June 2026; Phase 2 (12,000 MTPA MCC) is put at March 2027 or H1 FY28. Management says it gives no formal guidance but expects margins to rise by at least 2-3 points as premium products grow and trading falls.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Unit III Phase 1 moved from Oct 2025, then Apr 2026, to about end-June 2026 (licences pending)",
+          "page": 6
+        },
+        {
+          "change": "delayed",
+          "text": "Unit III Phase 2 now March 2027 to H1 FY28",
+          "page": 10
+        },
+        {
+          "change": "reiterated",
+          "text": "Phase 1: ₹70 Cr revenue in year one ±5-10%, about ₹150 Cr at peak",
+          "page": 16
+        },
+        {
+          "change": "new",
+          "text": "Premium products to be 16-17% of FY27 revenue (13% in FY26)",
+          "page": 20
+        },
+        {
+          "change": "new",
+          "text": "Phase 3 tentatively from 2028; land bought for six phases",
+          "page": 8
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "So, currency, current, MCC demand outlook is good, taking into account our existing order book.",
+        "page": 6
+      },
+      "analyst_questions": [
+        {
+          "topic": "Unit III delays",
+          "answer": "Several analysts asked why Phase 1 slipped twice. Management blamed two heavy monsoons and slow licensing for a greenfield site.",
+          "page": 6
+        },
+        {
+          "topic": "Trading volumes and margins",
+          "answer": "Analysts worked out that ~₹95 Cr of FY26 sales were traded MCC at 2-6% margin and questioned the Pirana unit's profit; management said trading keeps customers until Phase 2 adds capacity.",
+          "page": 14
+        },
+        {
+          "topic": "Receivables",
+          "answer": "Debtor days of 95 came from long credit to one multinational customer; management expects normal levels by end of FY27.",
+          "page": 26
+        },
+        {
+          "topic": "Disclosure",
+          "answer": "Investors asked for half-yearly calls and quicker exchange updates on delays; management agreed.",
+          "page": 17
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Unit III Phase 1 delayed twice (Oct 2025 → Apr 2026 → Jun 2026); an investor said they learned of it from credit ratings and plant visits before any filing.",
+          "page": 17
+        },
+        {
+          "text": "About 25-30% of FY26 volume was traded at 2-6% margin, flattering revenue growth.",
+          "page": 7
+        },
+        {
+          "text": "Trade receivables of ~₹91 Cr (95 days) tied to extended credit for one multinational customer.",
+          "page": 17
+        },
+        {
+          "text": "Management repeatedly said it gives no forward-looking guidance; figures are given loosely and hedged.",
+          "page": 5
+        }
+      ],
+      "watch_next": [
+        "Unit III Phase 1 consent to operate and first commercial sales",
+        "Traded share of revenue in H1 FY27",
+        "Premium products' share (target 16-17% for FY27)",
+        "Receivable days vs 95 at Mar 2026",
+        "Phase 2 progress toward Mar 2027 / H1 FY28"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Microcrystalline cellulose (MCC), the main tablet filler and binder, plus premium SMCC and MCC Spheres, magnesium stearate and powdered cellulose; CCS, SSG and pulp-based CMC coming from Unit III",
+        "customers": "Pharma, nutraceutical, food and cosmetics makers in 75+ countries; ~85% sold through distributors",
+        "revenue_mix": "FY26: exports 63%, domestic 37%; premium products 13%, regular grades 87%",
+        "demand_drivers": "Oral solid-dose (tablet) volumes, China+1 sourcing of excipients, shift to direct compression"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_21052026164310_Investor_Meet_Transcript.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/ACCENT_16052026104910_Presentation.pdf",
+    "transcriptPages": 27,
+    "transcriptHasText": true
+  }
+}
