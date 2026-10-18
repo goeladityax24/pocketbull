@@ -92,9 +92,9 @@ export function CompanySearch({ rows, request }: { rows: CompanyRow[]; request?:
               </thead>
               <tbody>
                 {shown.map((r) => (
-                  <tr key={r.symbol}>
+                  <tr key={r.symbol} className="row-link">
                     <td>
-                      <Link href={`/c/${r.symbol}`} className="font-semibold no-underline" style={{ color: "var(--ink)" }}>
+                      <Link href={`/c/${r.symbol}`} className="row-target font-semibold no-underline" style={{ color: "var(--ink)" }}>
                         {r.name}
                       </Link>
                       <div className="sub num">{r.symbol}</div>

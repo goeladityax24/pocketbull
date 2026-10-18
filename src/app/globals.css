@@ -123,6 +123,20 @@ a:hover {
 .scroll-x {
   overflow-x: auto;
 }
+/* A table row that opens one link: the link's ::after stretches over the whole row */
+.row-link {
+  position: relative;
+  cursor: pointer;
+}
+.row-link:hover td,
+.row-link:focus-within td {
+  background: var(--surface-2);
+}
+.row-link .row-target::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
 
 /* Controls */
 .btn {
