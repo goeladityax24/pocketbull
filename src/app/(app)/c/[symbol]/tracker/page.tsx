@@ -14,7 +14,8 @@ function pctRange([lo, hi]: [number, number]) {
   return lo === hi ? f(lo) : `${f(lo)}–${f(hi).replace(/^\+/, "")}`;
 }
 
-function Source({ item, transcript }: { item: ItemView; transcript: string }) {
+/** Where a promise came from; `also` adds the same target from the other kind of source */
+function Source({ item, transcript, also = true }: { item: ItemView; transcript: string; also?: boolean }) {
   const g = item.tracked.guidance;
   const q = item.tracked.quoteCheck;
   return (
@@ -29,7 +30,7 @@ function Source({ item, transcript }: { item: ItemView; transcript: string }) {
         </span>
       )}
       {item.edited && <span className="src">edited</span>}
-      {item.tracked.alsoSaid.map((o, i) => (
+      {also && item.tracked.alsoSaid.map((o, i) => (
         <span key={i} className="sub basis-full">
           {o.external ? "Conference notes" : "The company"} ({o.label}) also gave {said(o.guidance)}
           {o.guidance.period ? ` for ${o.guidance.period}` : ""}. Both are kept; neither replaces the other.
@@ -188,12 +189,24 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                 </tr>
               </thead>
               <tbody>
-                {view.next.map(({ item, cell }) => (
+                {view.next.map(({ item, cell, others }) => (
                   <tr key={`${item.id}-${cell.check.period.label}`}>
                     <td className="font-semibold">{item.tracked.guidance.metric_label}</td>
                     <td>
                       {said(item.tracked.guidance)} {item.tracked.guidance.period && `for ${item.tracked.guidance.period}`}
-                      <div className="mt-1"><Source item={item} transcript={tx(item)} /></div>
+                      <div className="mt-1"><Source item={item} transcript={tx(item)} also={others.length === 0} /></div>
+                      {others.map((o) => (
+                        <div key={o.item.id} className="sub mt-1">
+                          {said(o.item.tracked.guidance) === said(item.tracked.guidance) ? (
+                            <>{o.item.tracked.source.label} gave the same figure.</>
+                          ) : (
+                            <>
+                              Also: {said(o.item.tracked.guidance)} ({o.item.tracked.source.label}), which would mean{" "}
+                              <span className="num">{fmtRange(o.cell.check.expected)}</span>
+                            </>
+                          )}
+                        </div>
+                      ))}
                       {seasonalText(cell.check) ? (
                         <div className="sub">{seasonalText(cell.check)}</div>
                       ) : (
@@ -216,7 +229,8 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
                   </tr>
                 ))}
                 {nextResults
-                  .filter((r) => r.metric !== "revenue" && !view.next.some((n) => n.item.tracked.guidance.metric === r.metric))
+                  // Skip EBITDA or PAT when a guided ₹ figure or margin row above already gives it
+                  .filter((r) => r.metric !== "revenue" && !view.next.some((n) => [r.metric, `${r.metric}_margin`].includes(n.item.tracked.guidance.metric)))
                   .map(({ metric, label, cell }) => (
                     <tr key={`results-${metric}`}>
                       <td className="font-semibold">{label}</td>
