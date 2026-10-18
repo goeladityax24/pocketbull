@@ -8,7 +8,7 @@
     "recordingUrl": null
   },
   "basis": "consolidated",
-  "createdAt": "2026-10-07T11:23:05.003Z",
+  "createdAt": "2026-10-18T14:46:43.092Z",
   "createdBy": "Claude session (Admin's plan)",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -39,7 +39,7 @@
         "confidence": "high",
         "keyword": "minimum of 60%",
         "revises": "40% (Jul 2026 call)",
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "ebitda_margin",
@@ -81,7 +81,7 @@
         "confidence": "high",
         "keyword": "aspirations of ~INR 5 bn",
         "revises": null,
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "other",
@@ -102,7 +102,7 @@
         "confidence": "high",
         "keyword": "~INR 15 bn next year",
         "revises": null,
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "other",
@@ -123,7 +123,7 @@
         "confidence": "high",
         "keyword": "~INR 40-50 bn by FY30",
         "revises": "Defence & aerospace ₹3,000 Cr by FY29 (Jul 2026 call)",
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "capex",
@@ -137,7 +137,7 @@
         "horizon_text": null,
         "basis": "unspecified",
         "segment": null,
-        "condition": "Total ~₹2,500 Cr incl. ₹275 Cr for ammunition and ~₹1,250 Cr for preform",
+        "condition": "Total ~₹2,500 Cr incl. ₹275 Cr for ammunition and ~₹1,250 Cr for preform. concall.in's summary also gives ₹2,500 Cr over the next 2.5 years.",
         "quote": "Total capex is ~INR 25 bn including ~INR 2.75 bn for defence, to be spent over two to two-and-a-half years: ~INR 10 bn this year, ~INR 10 bn next year, and ~INR 5 bn the year after.",
         "page": 183,
         "speaker": "Management (as reported in Arihant's conference note)",
@@ -186,7 +186,7 @@
         "confidence": "high",
         "keyword": "34 mn by December 2026",
         "revises": null,
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "other",
@@ -207,7 +207,7 @@
         "confidence": "high",
         "keyword": "62 mn by July 2028",
         "revises": null,
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "other",
@@ -228,7 +228,7 @@
         "confidence": "high",
         "keyword": "operational by October 2028",
         "revises": "300 t preform plant in about 2 years (May 2026 call)",
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "other",
@@ -333,7 +333,7 @@
         "confidence": "high",
         "keyword": "~50%+ is considered sustainable",
         "revises": null,
-        "source_ref": "Arihant note"
+        "source_ref": "both notes"
       },
       {
         "metric": "revenue",
@@ -368,7 +368,7 @@
         "horizon_text": "from FY29",
         "basis": "unspecified",
         "segment": null,
-        "condition": null,
+        "condition": "The two notes differ on the preform's effect: concall.in says it can lift product margins 'by up to 5%' at full integration, Arihant says segment margins rise ~2-3 points to ~32-33%. We use Arihant's more specific figure.",
         "quote": "The preform facility, operational from October 2028, will aid margin improvement, with blended EBITDA potentially reaching ~25-26% or better as EPC revenue share declines and interconnect and defence revenue increases.",
         "page": 183,
         "speaker": "Management (as reported in Arihant's conference note)",
@@ -379,7 +379,7 @@
       }
     ],
     "insights": {
-      "summary": "From Arihant's Bharat Connect compendium (September 2026 conference, published 5 October): management has raised FY27 revenue growth guidance to at least 60% over FY26, from 40% on the July call (20% at the start of the year), calls Q1's 23.25% EBITDA margin sustainable, and sees ~50%+ growth as sustainable beyond FY27 on a ~₹28,000 Cr order book. Capex has been lifted to ~₹2,500 Cr over 2-2.5 years (₹1,000 Cr in each of FY27 and FY28), including a 600-tonne preform plant by October 2028, and defence ambitions to ₹4,000-5,000 Cr by FY30. Fibre prices have roughly tripled on a hyperscaler-driven shortage; EPC losses of ₹80-90 Cr a quarter should end within two quarters.",
+      "summary": "From two accounts of the Bharat Connect conference (September 2026): Arihant's compendium (published 5 October) and a concall.in summary on X (29 September), which agree on every figure except the preform's margin effect. Management has raised FY27 revenue growth guidance to at least 60% over FY26, from 40% on the July call (20% at the start of the year), calls Q1's 23.25% EBITDA margin sustainable, and sees ~50%+ growth as sustainable beyond FY27 on a ~₹28,000 Cr order book. Capex has been lifted to ~₹2,500 Cr over 2-2.5 years (₹1,000 Cr in each of FY27 and FY28), including a 600-tonne preform plant by October 2028, and defence ambitions to ₹4,000-5,000 Cr by FY30. Fibre prices have roughly tripled on a hyperscaler-driven shortage; EPC losses of ₹80-90 Cr a quarter should end within two quarters.",
       "what_changed": [
         {
           "change": "raised",
@@ -473,7 +473,7 @@
   "source": {
     "id": "2026-09-arihant-bharat-connect",
     "kind": "conference",
-    "event": "Arihant Bharat Connect Rising Stars, Sep 2026",
+    "event": "Bharat Connect Rising Stars conference, Sep 2026",
     "date": "2026-10-05",
     "links": [
       {
@@ -487,6 +487,15 @@
           182,
           183
         ]
+      },
+      {
+        "url": "https://x.com/concall_in/status/2104902598386168016",
+        "author": "concall.in on X (summary post, 29 Sep 2026; thread replies need an X login and were not read)",
+        "grade": "attendee_note",
+        "images": [],
+        "pages": [
+          1
+        ]
       }
     ],
     "text_file": "data/sources/HFCL/2026-09-arihant-bharat-connect.txt"
@@ -494,7 +503,7 @@
   "docs": {
     "transcriptUrl": "https://github.com/goeladityax24/pocketbull/blob/main/data/conferences/2026-09-arihant-bharat-connect/compendium.pdf#page=182",
     "pptUrl": null,
-    "transcriptPages": 2,
+    "transcriptPages": 3,
     "transcriptHasText": true
   }
 }
