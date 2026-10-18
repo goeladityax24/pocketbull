@@ -3,7 +3,7 @@ import type { GuidanceItem } from "../pipeline/guidance";
 import { parsePeriodLabel, samePeriod, samePeriodLastYear, type Period } from "../pipeline/periods";
 import type { CompanySnapshot, MetricKey } from "../pipeline/types";
 import { said, seasonalText } from "./format";
-import type { ItemView, TrackerView } from "./view";
+import { newestFirst, type TrackerView } from "./view";
 
 export type ResultMetric = "revenue" | "ebitda" | "pat";
 
@@ -44,10 +44,6 @@ function covers(label: string | null, p: Period): boolean {
   if (!t) return false;
   return t.kind === "year" ? t.fy === p.fy : samePeriod(t, p);
 }
-
-/** The company's own word first, then conference notes; newest first within each */
-const newestFirst = (a: ItemView, b: ItemView) =>
-  Number(a.tracked.source.external) - Number(b.tracked.source.external) || b.tracked.source.yearMonth.localeCompare(a.tracked.source.yearMonth);
 
 /** A ₹ expectation for this metric and period straight from the tracker (growth or ₹ target). */
 function direct(view: TrackerView, metric: ResultMetric, p: Period) {

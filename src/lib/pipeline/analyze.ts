@@ -11,7 +11,15 @@ import { sourceLabel, type ExternalSource } from "./source";
 
 export interface TrackedGuidance extends GuidanceEvaluation {
   /** Which concall (or conference note) it came from */
-  source: { month: string; yearMonth: string; transcriptUrl: string; label: string; external: boolean };
+  source: {
+    month: string;
+    yearMonth: string;
+    /** When it was said, ISO ("2026-07-22", or "2026-07" when the call date is unknown); orders guidance across sources */
+    date: string;
+    transcriptUrl: string;
+    label: string;
+    external: boolean;
+  };
   quoteCheck: QuoteCheck;
   /** Later guidance for the same metric and period, from the same kind of source, replaces this one */
   superseded: boolean;
@@ -23,7 +31,7 @@ export interface TrackedGuidance extends GuidanceEvaluation {
 }
 
 /** Do two items speak about the same target? */
-function sameTarget(a: GuidanceItem, b: GuidanceItem): boolean {
+export function sameTarget(a: GuidanceItem, b: GuidanceItem): boolean {
   if (a.metric !== b.metric) return false;
   // For a named metric and period that holds whatever the form ("25% growth" replaces
   // "₹3,250 Cr" for FY27 revenue). "other" covers unrelated things (tax rate, segment
@@ -73,6 +81,7 @@ export function buildTracker(snapshot: CompanySnapshot, runs: SavedRun[], opts: 
       source: {
         month: run.concall.month,
         yearMonth: run.concall.yearMonth,
+        date: run.source?.date ?? run.extraction.call_date ?? run.concall.yearMonth,
         transcriptUrl: run.docs.transcriptUrl,
         label: run.source ? sourceLabel(run.source) : `${run.concall.month} call`,
         external: !!run.source,

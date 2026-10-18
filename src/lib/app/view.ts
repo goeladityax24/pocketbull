@@ -1,4 +1,4 @@
-import { buildTracker, type TrackedGuidance, type Tracker } from "../pipeline/analyze";
+import { buildTracker, sameTarget, type TrackedGuidance, type Tracker } from "../pipeline/analyze";
 import type { Check, ScoringOptions, Tag } from "../pipeline/expected";
 import type { GuidanceItem } from "../pipeline/guidance";
 import type { Period } from "../pipeline/periods";
@@ -58,8 +58,11 @@ export interface TrackerView {
   numeric: ItemView[];
   /** Live items checked by people: qualitative, timelines, no clear period, not in results */
   byHand: ItemView[];
-  /** Expected numbers for the next results */
-  next: { item: ItemView; cell: CellView }[];
+  /**
+   * Expected numbers for the next results, one row per target: the newest word leads
+   * and the same target from other live promises (a call and conference notes) is in `others`
+   */
+  next: { item: ItemView; cell: CellView; others: { item: ItemView; cell: CellView }[] }[];
   /** Full-year targets still open */
   fullYear: { item: ItemView; cell: CellView }[];
   /** Interim periods with checks, oldest first (including the next, still expected) */
@@ -71,6 +74,10 @@ export interface TrackerView {
 }
 
 const KEPT: Tag[] = ["met", "exceeded"];
+
+/** The newest word first, whether a call or conference notes; on the same date, the company's own */
+export const newestFirst = (a: ItemView, b: ItemView) =>
+  b.tracked.source.date.localeCompare(a.tracked.source.date) || Number(a.tracked.source.external) - Number(b.tracked.source.external);
 const SCORED: Tag[] = ["met", "exceeded", "missed"];
 
 export function isKept(t: Tag) {
@@ -121,9 +128,16 @@ export function buildTrackerView(
   const numeric = live.filter((i) => i.cells.length > 0);
   const byHand = live.filter((i) => i.cells.length === 0);
   const nextLabel = tracker.nextPeriod?.label;
-  const next = numeric.flatMap((item) =>
-    item.cells.filter((c) => c.check.period.label === nextLabel && c.check.tag === "expected").map((cell) => ({ item, cell })),
-  );
+  const next: TrackerView["next"] = [];
+  for (const item of [...numeric].sort(newestFirst)) {
+    for (const cell of item.cells.filter((c) => c.check.period.label === nextLabel && c.check.tag === "expected")) {
+      const lead = next.find((n) => sameTarget(n.item.tracked.guidance, item.tracked.guidance));
+      if (lead) lead.others.push({ item, cell });
+      else next.push({ item, cell, others: [] });
+    }
+  }
+  // Back in tracker order (by call, then position in it)
+  next.sort((a, b) => items.indexOf(a.item) - items.indexOf(b.item));
   const fullYear = numeric.flatMap((item) =>
     item.cells.filter((c) => c.check.period.kind === "year" && c.check.tag === "expected").map((cell) => ({ item, cell })),
   );
