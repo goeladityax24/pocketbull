@@ -104,7 +104,7 @@ npm run import-run -- <SYMBOL> --file tmp/<SYMBOL>-<id>.json --source data/sourc
 npm run sync-db -- <SYMBOL>
 ```
 
-3. Compare with the company's latest call. Where the note gives a figure for a metric and period the call also covers, keep both (the tracker shows them side by side, the company's first) and say so in `condition`; set `revises` when the note moves the number. Update the insight report where the note changes guidance (lede, walking-the-talk table, watch list, sources).
+3. Compare with the company's latest call. Where the note gives a figure for a metric and period the call also covers, keep both (the tracker shows them side by side; the newer figure leads, as in section 7) and say so in `condition`; set `revises` when the note moves the number. Update the insight report where the note changes guidance (lede, walking-the-talk table, watch list, sources).
 4. Companies only **mentioned** (as a customer, supplier or peer) carry no guidance; note anything useful in the insight report only if it matters.
 5. Broker summaries contain slips (the Sep 2026 Shree Refrigerations note gives FY26 revenue as INR 2.53 bn against a reported ₹153 Cr). Check figures against Screener and flag mismatches in `red_flags`.
 
