@@ -1,0 +1,699 @@
+{
+ "as_of": "2026-10-21",
+ "descriptor": "Transformer bushing maker localising resin-impregnated (RIP) cores",
+ "lede": "A Vadodara maker of transformer bushings, the insulated connectors that carry current in and out of every transformer, selling to OEMs and utilities in 60+ countries. Revenue grew 57% in FY26 with a 25.7% EBITDA margin, and management guides 40-45% growth in FY27 as a new plant starts making the RIP cores it now imports. The stock prices in a great deal of that: ~87x earnings and ~60x EBITDA.",
+ "market": {
+  "price": 1138,
+  "mcap_cr": 3401,
+  "pe": 87.3,
+  "pb": 17.7,
+  "ev_ebitda": 60
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue ₹235 Cr (+57%), EBITDA ₹60 Cr (25.7% margin), PAT ₹37 Cr; order book ₹400 Cr+. FY27 guidance: 40-45% growth (the CMD also said ₹360-400 Cr of invoicing) at a 24-25% EBITDA margin, with margins rising from FY28 once the Jarod plant makes RIP cores."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "The Jarod plant slipped from 'ready by March 2026' to trial production by September and commercial output from October. Profit outruns cash (₹90 Cr of profit vs ₹49 Cr of operating cash flow over FY22-26) and inventory days hit 201. A ₹100-110 Cr equity raise is planned, and a ₹2.1 Cr cyber fraud hit FY26."
+  },
+  {
+   "lead": "Price",
+   "text": "~87x trailing earnings against Quality Power at 81x, TARIL at 32x and Shilchar at 31x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Yash makes oil-impregnated (OIP) and resin-impregnated (RIP) bushings up to 245 kV and high-current bushings, and offers retrofit services. RIP bushings are built on capacitive cores it now imports from a European technology partner; the new Jarod plant near Vadodara will make those cores in-house up to 550 kV, which also lifts the partner's restriction on exporting RIP bushings.",
+     "src": "May 2026 call p.4-6, p.14"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "7,200",
+       "label": "Bushings made in FY26, ~75-80% of capacity"
+      },
+      {
+       "value": "~15,000",
+       "label": "Bushing capacity after Jarod and the brownfield expansion"
+      },
+      {
+       "value": "₹400 Cr+",
+       "label": "Order book at 31 Mar 2026"
+      },
+      {
+       "value": "96%",
+       "label": "Repeat-order rate"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Bushings are ~5% of a transformer's cost and need long customer approvals, so qualified suppliers keep business.",
+       "src": "May 2026 call p.4, p.28"
+      },
+      {
+       "lead": "",
+       "text": "Retrofit (6-7% of revenue) and exports carry higher margins.",
+       "src": "May 2026 call p.19, p.26"
+      },
+      {
+       "lead": "",
+       "text": "Localising RIP cores should cut import costs and duty.",
+       "src": "Oct 2025 call p.11"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Listed on BSE SME on 19 Dec 2024; revenue from ₹65 Cr (FY22) to ₹235 Cr (FY26).",
+       "src": "AR p.20"
+      },
+      {
+       "lead": "",
+       "text": "Took a 50% stake in Sukrut Electric with Quality Power; opened Yash HV USA; distribution deals with Weidmann (Europe, North Africa) and Electrolink (UK, Ireland).",
+       "src": "AR p.9"
+      },
+      {
+       "lead": "",
+       "text": "Type-tested its first 245 kV oil-to-oil bushing in-house.",
+       "src": "May 2026 call p.3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        65,
+        90,
+        108,
+        150,
+        235
+       ]
+      }
+     ],
+     "caption": "H1 FY27 results due 21 Oct 2026."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        9,
+        11,
+        12,
+        21,
+        37
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        7,
+        9,
+        14,
+        10,
+        9
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "76%",
+        "38%",
+        "20%",
+        "39%",
+        "57%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "22%",
+        "21%",
+        "20%",
+        "22%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "9",
+        "11",
+        "12",
+        "21",
+        "37"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "52%",
+        "48%",
+        "45%",
+        "28%",
+        "29%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "7",
+        "9",
+        "14",
+        "10",
+        "9"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "102",
+        "82",
+        "82",
+        "112",
+        "187"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Screener's EBITDA margin; the company's own FY26 figure, including other income, is 25.7%."
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit has outrun cash:",
+       "text": "₹90 Cr of profit over FY22-26 against ₹49 Cr of operating cash flow; inventory days rose to 201 as the company built strategic stock.",
+       "src": null
+      },
+      {
+       "lead": "Low debt:",
+       "text": "borrowings ₹38 Cr against ₹184 Cr of equity (0.21x); interest cover ~14x.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 15%,",
+       "text": "on ~₹173 Cr added from FY24 to FY26, mostly IPO money and the Jarod plant (₹52 Cr of work in progress at Mar 2026).",
+       "src": null
+      },
+      {
+       "lead": "Capex:",
+       "text": "~₹153 Cr for the new plant, ~₹80 Cr spent by May 2026; a ₹100-110 Cr equity raise is planned for 550 kV capacity, testing and a brownfield expansion.",
+       "src": "May 2026 call p.11, p.27"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "H2 FY26 revenue above H1's ₹100 Cr",
+        "Oct 25",
+        "H2 FY26 ₹136 Cr",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "35%+ revenue CAGR",
+        "Oct 25",
+        "FY26 +57%",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margins held or slightly up through FY27",
+        "Oct 25",
+        "FY26 EBITDA 25.7% vs 23.1% in FY25",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Jarod plant ready by end of FY26",
+        "Oct 25",
+        "Trial production moved to end of Q2 FY27",
+        {
+         "text": "Late",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Commercial production H2 FY27 (October)",
+        "May 26",
+        "Not yet reported",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue +40-45%, EBITDA margin 24-25%",
+        "May 26",
+        "H1 FY27 results due 21 Oct",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Management gives clear numbers and has met its revenue and margin promises so far; the plant timeline has slipped by about six months. The two FY27 revenue figures from the same call (40-45% growth and ₹360-400 Cr) don't reconcile.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters held 57.9% at Mar 2026 and 53.8% at Sep 2026; we have not checked the reason for the fall.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Foreign institutions rose to 2.3%; domestic institutions 9.7%; shareholders up from ~2,500 to ~6,400 in a year.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "A ₹2.10 Cr cyber fraud by a third party was found in FY26; legal action is under way.",
+       "src": "AR p.96"
+      },
+      {
+       "lead": "",
+       "text": "The CMD's pay rose 107% to 53 times the median employee.",
+       "src": "AR p.87"
+      },
+      {
+       "lead": "",
+       "text": "Auditors reported no key audit matters; the emphasis of matter only covers the first-time move to Ind AS.",
+       "src": "AR p.91"
+      },
+      {
+       "lead": "",
+       "text": "Sukrut Electric is 50% owned jointly with Quality Power, also a listed peer.",
+       "src": "AR p.9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Yash Highvoltage",
+        "235",
+        "24%",
+        "37",
+        "29%",
+        "87.3x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Quality Power Electrical Equipments",
+        "947",
+        "19%",
+        "186",
+        "32%",
+        "80.7x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Transformers & Rectifiers India",
+        "2,507",
+        "15%",
+        "272",
+        "23%",
+        "31.8x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Shilchar Technologies",
+        "652",
+        "29%",
+        "158",
+        "51%",
+        "31.0x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "No listed pure-play bushing maker; these are listed transformer and grid-equipment peers. In India, CG Power, Hitachi India and MIM are also building local RIP capacity (May 2026 call p.20)."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Approvals with utilities and OEMs in 60+ countries",
+       "text": "and a 96% repeat-order rate.",
+       "src": "May 2026 call p.5"
+      },
+      {
+       "lead": "Local RIP cores",
+       "text": "India imports 95% of the capacitive cores it needs; making them in-house should cut costs and open exports.",
+       "src": "AR p.14"
+      },
+      {
+       "lead": "Range up to 550 kV",
+       "text": "from the new plant widens the market.",
+       "src": "May 2026 call p.6"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Three or four Indian rivals",
+       "text": "are localising RIP at the same time.",
+       "src": "May 2026 call p.20"
+      },
+      {
+       "lead": "Supply chain and people",
+       "text": "named by the CMD as the main limits to growth.",
+       "src": "May 2026 call p.24"
+      },
+      {
+       "lead": "Import reliance",
+       "text": "until Jarod's cores pass type tests.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Jarod RIP plant delayed or fails type tests",
+        "Operational",
+        "Trial by Sep, commercial from Oct 2026"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital absorbs cash",
+        "Financial",
+        "Cash cycle 187 days in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Valuation",
+        "Market",
+        "~87x earnings"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Equity raise dilution",
+        "Financial",
+        "₹100-110 Cr planned"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹4,620 Cr",
+       "sub": "FY28 market cap · about +36%",
+       "text": "45% growth in FY27 and FY28 to ~₹494 Cr at a 17% PAT margin (₹84 Cr), valued at 55x."
+      },
+      {
+       "name": "Base",
+       "value": "₹3,000 Cr",
+       "sub": "FY28 market cap · about –12%",
+       "text": "40% then 35% growth to ~₹444 Cr at 15% (₹67 Cr), valued at 45x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹1,270 Cr",
+       "sub": "FY28 market cap · about –63%",
+       "text": "Plant delays: 25% then 20% growth to ~₹352 Cr at 12% (₹42 Cr), valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "87.3x",
+       "label": "P/E, trailing (Quality Power 81x)"
+      },
+      {
+       "value": "~60x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "17.7x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~15%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Yash has delivered on growth and margins, and localising RIP cores could lift both further. But even our bull case barely beats today's price; the stock needs the plant to work on time and growth to stay above 40% for several years. The H1 FY27 results (21 Oct) and the Jarod start are the next tests.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H1 FY27 revenue vs ₹140-145 Cr (40-45% growth)",
+  "EBITDA margin vs 24-25%",
+  "Jarod RIP plant trial and commercial production",
+  "Order inflow toward ₹500 Cr",
+  "Size and price of the equity raise"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (21 Oct 2026)",
+  "H1 FY26 (15 Oct 2025) and H2 FY26 (14 May 2026) earnings call transcripts and presentations",
+  "FY26 annual report",
+  "Peer data from Screener",
+  "Arihant Bharat Connect compendium checked: Yash Highvoltage not covered"
+ ]
+}
