@@ -1,0 +1,110 @@
+{
+  "symbol": "VIVIDEL",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06-vivid-deck",
+    "transcriptUrl": "https://x.com/Vihaan_001_/status/2076555284303265861",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-21T07:16:21.245Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-06-30",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Ambernath plant commercial operations",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Slide 13 of the June 2026 deck, seen only as an image an investor posted on X; the full deck is not on NSE or Screener. Capacity after Phase 1: 14,300 LV and 700 MV verticals a year. The company's Sep 2026 deck later moved commercial operation to end-October 2026.",
+        "quote": "COMMERCIAL OPERATIONS EXPECTED : End of August 2026",
+        "page": 13,
+        "speaker": "Company (June 2026 investor presentation)",
+        "confidence": "high",
+        "keyword": "End of August 2026",
+        "revises": "Ambernath plant commercial operations",
+        "source_ref": "company slide"
+      }
+    ],
+    "insights": {
+      "summary": "Three slides from Vivid's June 2026 investor presentation, posted by an investor on X on 13 Jul 2026 (the full deck isn't on NSE or Screener). They list its OEM partnerships (ABB, Hitachi, Siemens, Lauritz Knudsen) and accreditations, and give the new Ambernath plant's commercial operations as end of August 2026, with Phase 1 capacity of 14,300 LV and 700 MV verticals a year and 600+ staff. The September deck later moved the start to end-October.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Ambernath commercial operations end-August 2026 (June conference notes said July/August; Sep deck later said end-October)",
+          "page": 13
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Strategic partnerships with global OEMs and system integrators reinforce our credibility, enhance our capabilities and enable us to deliver world-class solutions.",
+        "page": 10
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Only three slides seen; the rest of the deck is not available.",
+          "page": 10
+        }
+      ],
+      "watch_next": [
+        "Ambernath start (end-October per the Sep deck)"
+      ],
+      "business_snapshot": {
+        "what_they_make": "LV and MV switchboards and panels under ABB, Siemens, Hitachi and Lauritz Knudsen partnerships",
+        "customers": "Data centres, infrastructure and industrial customers",
+        "revenue_mix": "Not given on these slides",
+        "demand_drivers": "Data-centre build-out, infrastructure and industrial capex"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified"
+  ],
+  "source": {
+    "id": "2026-06-vivid-deck",
+    "kind": "conference",
+    "event": "June 2026 investor presentation (slides 10, 11, 13, shared on X)",
+    "date": "2026-06-30",
+    "links": [
+      {
+        "url": "https://x.com/Vihaan_001_/status/2076555284303265861",
+        "author": "Vivid Electromech investor presentation, June 2026; three slides posted by an investor on X on 13 Jul 2026 (the full deck is not on NSE or Screener; day of month not known)",
+        "grade": "company",
+        "images": [
+          "data/sources/VIVIDEL/2026-06-vivid-deck/1.jpg",
+          "data/sources/VIVIDEL/2026-06-vivid-deck/2.jpg",
+          "data/sources/VIVIDEL/2026-06-vivid-deck/3.jpg"
+        ],
+        "pages": [
+          10,
+          11,
+          13
+        ]
+      }
+    ],
+    "text_file": "data/sources/VIVIDEL/2026-06-vivid-deck.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/Vihaan_001_/status/2076555284303265861",
+    "pptUrl": null,
+    "transcriptPages": 3,
+    "transcriptHasText": true
+  }
+}

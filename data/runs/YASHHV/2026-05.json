@@ -1,0 +1,353 @@
+{
+  "symbol": "YASHHV",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2af3b3d-366c-4653-8307-06e939cb3ca9.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de76e960-a75d-481a-9c67-342f1bf045ff.pdf",
+    "recordingUrl": "https://static.wixstatic.com/mp3/3be98c_82a5597b5f254f8fb0fd2a725ca1e5cf.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-21T07:07:17.223Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-05-14",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth 40-45%",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 45,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Confirmed later: the 40-45% does not count on RIP cores from the new plant (p.16). The CMD separately put FY27 invoicing at ₹360-400 Cr (p.20), which is 53-70% over FY26's ₹235 Cr; the two figures do not reconcile.",
+        "quote": "So, we, we could execute also this year with 40% to 45% growth and also to have a healthy order book for the next year as a opening order book.",
+        "page": 10,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "40% to 45% growth",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 invoicing ₹360-400 Cr",
+        "kind": "absolute",
+        "low": 360,
+        "high": 400,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Higher than the 40-45% growth given earlier in the call (₹329-341 Cr on FY26's ₹235 Cr). Standalone FY26 revenue was ₹235 Cr; Sukrut adds about ₹25 Cr on a consolidated basis.",
+        "quote": "So, I won't be able to give an exact number, but as I told earlier in the part of the call that between INR360 crores to INR400 crores is our target to invoice this year.",
+        "page": 20,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "INR360 crores to INR400 crores",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "FY27 EBITDA margin 24-25%",
+        "kind": "margin_pct",
+        "low": 24,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 EBITDA margin 25.7%. New-plant costs this year; 'from next year onwards, we expect increase in the EBITDA' (p.8). Confirmed as '25%' guidance at p.27-28.",
+        "quote": "We this year also we should be able to maintain around 24%, 25% EBITDA.",
+        "page": 8,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "24%, 25% EBITDA",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin to rise from FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So from next year onwards, we expect increase in the EBITDA.",
+        "page": 8,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "increase in the EBITDA",
+        "revises": "EBITDA margin held or slightly up for 1.5-2 years, then a steep rise"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "40-42% growth for at least 4-5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 4-5 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "And I feel that this growth momentum should continue next five, six years, and we should be able to grow at around 40%, 42% for next four or five years minimum.",
+        "page": 8,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "40%, 42%",
+        "revises": "35%+ revenue CAGR over five years"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order inflow of ₹500 Cr+ in FY27",
+        "kind": "absolute",
+        "low": 500,
+        "high": 500,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Order book was ₹400 Cr+ at 31 Mar 2026.",
+        "quote": "So, we, we have a target to book at least INR500 plus crores order this year also.",
+        "page": 10,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "INR500 plus crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Greenfield RIP plant: commercial production from October",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Trial production by end of Q2 FY27; first fully in-house RIP bushing revenue 'towards the end of this year' (p.8). Design range raised from 220 kV to 550 kV; adds 5,000-7,000 units a year.",
+        "quote": "We, we are targeting October.",
+        "page": 17,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "targeting October",
+        "revises": "Greenfield commercial production in H2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capacity ~15,000 bushings, 65% used in FY27",
+        "kind": "absolute",
+        "low": 65,
+        "high": 65,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "7,000+ bushings made in FY26 on 9,000-10,000 capacity (75-80% used). Full capacity worth ~₹700 Cr of revenue (p.22).",
+        "quote": "Out of this, we target that around 65% we will be able to use in the year 2026-2027.",
+        "page": 11,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "around 65%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports 20%+ of revenue in 2-3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "2-3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our target would be that eventually in next two to three years, we at least do 20% plus from exports.",
+        "page": 15,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "20% plus from exports",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Sukrut Electric revenue ₹150-160 Cr in 4-5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "4-5 years",
+        "basis": "segment",
+        "segment": "Sukrut Electric",
+        "condition": "FY26 revenue about ₹25-26 Cr.",
+        "quote": "So, Sukrut, we assume that in next four to five years, we should be able to cross at least INR150 to INR160 crores of revenue.",
+        "page": 17,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "INR150 to INR160 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Equity raise of ₹100-110 Cr",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY27",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Approval taken for up to ₹150 Cr; for 550 kV capacity, testing, brownfield OIP expansion and possibly repaying ~₹28-30 Cr of working-capital debt.",
+        "quote": "Around INR100 to INR110 is what we are eyeing.",
+        "page": 11,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "INR100 to INR110",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "FY26 was a record: revenue rose 57% to ₹235 Cr, EBITDA 75% to ₹60 Cr (25.7% margin) and PAT 75% to ₹37 Cr, with an order book above ₹400 Cr. The CMD guides FY27 revenue growth of 40-45% and an EBITDA margin around 24-25% as new-plant costs come in, with margins rising from FY28; later in the call he put FY27 invoicing at ₹360-400 Cr, which implies faster growth. The Jarod RIP plant (now designed up to 550 kV) is due for trial production by September and commercial production from October. Order booking of ₹500 Cr+ is targeted for FY27, and an equity raise of ₹100-110 Cr is planned.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "Growth outlook lifted to 40-42% a year for 4-5 years (from 35%+ CAGR)",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "FY27: 40-45% revenue growth and ~24-25% EBITDA margin; ₹360-400 Cr invoicing target",
+          "page": 10
+        },
+        {
+          "change": "reiterated",
+          "text": "Greenfield commercial production in H2 FY27, now targeted for October",
+          "page": 17
+        },
+        {
+          "change": "new",
+          "text": "Equity raise of ₹100-110 Cr (approval for ₹150 Cr)",
+          "page": 11
+        },
+        {
+          "change": "new",
+          "text": "Sukrut Electric acquisition closed; ₹150-160 Cr revenue aim in 4-5 years",
+          "page": 17
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are confident for that growth.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "FY27 growth",
+          "answer": "40-45% without counting on in-house RIP cores; ₹360-400 Cr invoicing target.",
+          "page": 16
+        },
+        {
+          "topic": "Margins",
+          "answer": "~24-25% in FY27 with new-plant costs, rising from FY28 on localisation and exports.",
+          "page": 8
+        },
+        {
+          "topic": "Equity vs debt",
+          "answer": "The CMD prefers to stay debt-free and wants good investors on the cap table.",
+          "page": 25
+        },
+        {
+          "topic": "Cyber incident",
+          "answer": "Funds lost in a cyber fraud were expensed; a police complaint is under investigation.",
+          "page": 28
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Two FY27 revenue figures that don't reconcile: 40-45% growth (₹329-341 Cr) vs ₹360-400 Cr invoicing.",
+          "page": 20
+        },
+        {
+          "text": "Equity raise of ₹100-110 Cr dilutes holders despite low debt.",
+          "page": 11
+        },
+        {
+          "text": "A cyber fraud loss was expensed; amount not given on the call.",
+          "page": 28
+        },
+        {
+          "text": "Supply chain and staff attrition named as the main limits to growth.",
+          "page": 24
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue vs ₹140-145 Cr (40-45% growth)",
+        "EBITDA margin vs 24-25%",
+        "Jarod plant trial and commercial production (Sep-Oct 2026)",
+        "Order inflow toward ₹500 Cr",
+        "Size and price of the equity raise"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Transformer bushings (OIP, RIP, high-current) up to 245 kV today, 550 kV from the new plant; retrofit services; Sukrut Electric adds other transformer components",
+        "customers": "Transformer OEMs and utilities in 60+ countries; 96% repeat-order rate; USA subsidiary and European/UK distributors",
+        "revenue_mix": "FY26: ~half of 7,200 bushings RIP, half OIP; retrofit ~6-7% of revenue",
+        "demand_drivers": "Transformer capacity build-out, grid and renewables capex, data centres, OIP-to-RIP shift and localisation of imported RIP cores"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2af3b3d-366c-4653-8307-06e939cb3ca9.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de76e960-a75d-481a-9c67-342f1bf045ff.pdf",
+    "transcriptPages": 29,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,46 @@
+[[page 1]]
+VIVID ELECTROMECH LIMITED — SAMRUDDHI SEASON 3 NOTES
+
+COMPANY OVERVIEW
+• Business: Leading panel manufacturing and system integration company incorporated in 1991; operations commenced 1998. Provides end-to-end electrical and automation solutions — engineering, design, fabrication, assembly, testing, and commissioning. Manufacturer of Low Voltage and Medium Voltage electrical panels and automation systems. ISO 9001:2015 certified. Headquartered in Navi Mumbai.
+• Journey: Started in trading and Engineering, Procurement and Construction (EPC) contracts; entered switchboard manufacturing ~10 years ago (initially for captive EPC supply); exited EPC ~8 years ago to focus purely on manufacturing; entered prestigious niche projects ~6 years ago. Now 100% manufacturing with in-house Research and Development.
+• Manufacturing facilities: Two plants — Navi Mumbai and Bhosari, Pune; combined carpet area ~34,000 sq ft; installed capacity 7,500 units. Current utilisation ~95%. In-house fabrication (Computer Numerical Control), powder coating, switchgear wiring/integration, and full testing labs — all in Navi Mumbai.
+• Original Equipment Manufacturer partnerships: ABB (primary — Low Voltage and Medium Voltage; largest ABB Low Voltage partner for 3 consecutive years); Hitachi (Medium Voltage Variable Frequency Drive drives); Siemens (8PU Low Voltage products via MacTech acquisition); Lauritz Knudsen (formerly Larsen & Toubro Switchgear — Low Voltage). Multi-vendor strategy deliberately adopted pre-Initial Public Offering to de-risk single-partner dependence.
+• Product revenue split: Low Voltage ~80-85% of revenue; Medium Voltage ~15-20%. Branding is dual (Vivid + Original Equipment Manufacturer name). Low Voltage panels: 60% ABB R2K design, 40% proprietary V-Set (Vivid) design — both type tested.
+• Type testing: Medium Voltage panels type tested under Vivid name (IEC 61439 and IEC 61641) — powered by ABB. Low Voltage panels type tested by Central Power Research Institute Bhopal, Central Power Research Institute Bangalore, and Electrical Research and Development Association.
+• Market data (June 3, 2026): Listed National Stock Exchange Small and Medium Enterprises April 7, 2026 | Initial Public Offering price Rs.555 | Current Market Price Rs.1,041 | Market Cap Rs.804 Cr | Price-to-Earnings 25.4x | 52-Week High Rs.905 | 52-Week Low Rs.556 | Face value Rs.10.
+• Shareholding (March 2026): Promoters 73.53% | Domestic Institutional Investors 15.46% | Public 9.58% | Foreign Institutional Investors 1.42% | Total shareholders: 677.
+
+FINANCIAL PERFORMANCE
+• Revenue trajectory: FY23 Rs.60 Cr | FY24 Rs.90 Cr | FY25 Rs.156 Cr | FY26 Rs.201 Cr — first year crossing Rs.200 Cr milestone. Revenue Compound Annual Growth Rate FY23-FY26 ~50%.
+• Earnings Before Interest Tax Depreciation and Amortisation: FY23 Rs.2.5 Cr | FY24 Rs.7.22 Cr | FY25 Rs.28.73 Cr | FY26 Rs.46.15 Cr (+61.6% Year-on-Year). Earnings Before Interest Tax Depreciation and Amortisation Compound Annual Growth Rate FY23-FY26 ~164% — profitability scaling significantly faster than revenue. Earnings Before Interest Tax Depreciation and Amortisation margin: FY23 ~4% → FY24 8% → FY25 18% → FY26 23% (+450 basis points Year-on-Year).
+• Profit After Tax: FY23 ~breakeven | FY24 Rs.3.81 Cr | FY25 Rs.19.5 Cr | FY26 Rs.31.6 Cr (+62% Year-on-Year). Profit After Tax margin: FY24 4% → FY25 13% → FY26 16%.
+• Second Half FY26 (H2): Total income Rs.130.2 Cr (+28% Year-on-Year vs H2 FY25 Rs.101.6 Cr). Earnings Before Interest Tax Depreciation and Amortisation Rs.32.3 Cr (+56% Year-on-Year vs Rs.20.7 Cr); margin 24.8% vs 20.4%. Profit After Tax Rs.22.16 Cr; margin 17%. Demonstrates accelerating momentum and operating leverage.
+• Operating leverage drivers: Fixed cost absorption on higher volumes; product mix shift toward complex, high-value-add solutions; improved procurement efficiency; repeat order execution optimisation. Deliberately exited low-margin residential and commercial segments in FY22-FY23.
+• Cash flows and balance sheet: Operating cash flow consistently positive throughout growth journey. Company has been debt-free for several years. Working capital limits: Rs.5 Cr (Kotak Mahindra Bank) + Rs.2 Cr (ICICI Bank) — minimal. Initial Public Offering raised ~Rs.20 Cr deployed into working capital in FY27; Rs.11 Cr ring-fenced for April 2027 working capital deployment. No plans for further equity dilution or debt.
+
+REVENUE MIX AND END MARKETS (FY26)
+• Data centres (hyperscalers): ~49% of FY26 revenue. Company works with 6 of India's top 10 hyperscalers on a regular basis, 2 on a case-by-case basis; targeting remaining 2-3 within 3-6 months — covering full top-10 spectrum. Highest-margin segment due to limited vendor competition. NTT Data Centre Excellence Award received for on-time project completion.
+• Industrial manufacturing and machinery: ~21% of FY26 revenue.
+• Metro rail infrastructure: ~20% (overhead and underground metro projects across India).
+• Other (renewable energy, utilities, infrastructure): ~10-15% balance. Vivid operates pan-India with concentration in Maharashtra. Exports currently marginal but targeted to double in FY27 — early-stage but growing.
+• Margin profile by segment: Data centres best margins (lower competition); industrial and infrastructure mid-range; residential/commercial worst margins (exited FY22-23). Management expects data centre margins to hold or improve given vendor scarcity in this supply chain.
+
+PRODUCT EXPANSION
+• Power Distribution Units and Remote Power Panels: New product category for data centre segment — panels placed between Low Voltage panels and servers, directly feeding and monitoring servers. Primarily competing against Original Equipment Manufacturers in this sub-segment (a significant competitive milestone). Type tested for 800V solar applications (completed).
+• Medium Voltage expansion: Added motor starters, automation solutions, and Diesel Generator synchronising panels to Medium Voltage portfolio.
+• Solar panels: 800V type testing completed; added ~2 years ago; growing vertical.
+• MacTech Infrasolutions acquisition: 99% stake acquired for Rs.99 lakh; brings Siemens technology ecosystem and 8PU Low Voltage product capability. Expands industrial automation offerings and cross-selling opportunities. Sameer Atawat retains 1% equity.
+
+AMBERNATH FACILITY — NEXT PHASE OF SCALE
+• Facility: 1,20,000 sq ft built-up area in Ambernath, Maharashtra (~6-7x current footprint of 34,000 sq ft). Phase 1 commissioning targeted July/August 2026. Full ramp-up targeted within 3 years (100% utilisation).
+• Technology upgrade: Robotic fabrication, automated pre-treatment powder coating, higher capacity manufacturing — significant automation step-up versus current manual-intensive facilities.
+• Capacity: Low Voltage capacity increases to 14,300 verticals; Medium Voltage 700 units — total ~22,500 units (vs current ~7,500). In-house fabrication throughput jumps from ~120 tonnes per shift (current) to ~580 tonnes per shift (new machines already on site) — ~5-6x increase.
+• Revenue potential: Current facilities supported Rs.200 Cr revenue. Ambernath designed for next order of scale. Human capital is the binding constraint, not machinery — phased hiring, training, and skills ramp ongoing. 80-90% of first half FY27 revenue will still come from existing facilities given commissioning timeline.
+• Raw material price risk: 80-85% of raw material exposure (primarily copper) hedged via variation clauses in customer contracts (2.5-5% price band at order finalisation, relooked at manufacturing clearance); remaining 15-20% is lower-risk non-ferrous items.
+
+INDUSTRY CONTEXT AND COMPETITIVE MOAT
+• Market size: Global Low Voltage and Medium Voltage switchgear market ~USD 13.7 billion; India ~USD 5.38 billion. Critical infrastructure — switchgear is the first point of power entry for any facility. Structural tailwinds from data centre boom, grid modernisation, renewable energy scale-up, metro rail and infrastructure government spending, industrial automation adoption.
+• Industry structure: Highly fragmented — most players start from residential/commercial and migrate upward. Vivid has completed that journey and now operates exclusively in the premium niche (data centres, infrastructure, metro, industrial). Vendor scarcity in high-complexity segments expected to sustain or expand margins.
+• Competitive advantages: (1) Integrated in-house manufacturing — quality control and margin retention; (2) Diversified product portfolio — multiple categories reducing single-segment risk; (3) Data centre expertise — mission-critical execution track record; (4) Global Original Equipment Manufacturer partnerships — validates technical capability and opens large-scale projects; (5) Type-testing certifications — creates entry barriers; (6) Experienced leadership — management tenured for decades.
+• Key monitorables: Ambernath ramp-up timeline and execution; Earnings Before Interest Tax Depreciation and Amortisation margin sustainability at higher scale and with new product mix; geographic diversification beyond Maharashtra; ability to scale while maintaining quality.

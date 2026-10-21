@@ -1,0 +1,232 @@
+{
+  "symbol": "VIVIDEL",
+  "concall": {
+    "month": "Jun 2026",
+    "yearMonth": "2026-06-hem-samruddhi",
+    "transcriptUrl": "https://x.com/sachprat07/status/2066545616378044688",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-21T07:16:07.209Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-06-15",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Ambernath plant commercial operations",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Takes capacity from ~7,500 to ~22,500 units; full ramp-up (100% utilisation) within 3 years. 80-90% of H1 FY27 revenue to come from the existing plants. The company's Sep 2026 deck later moved commercial operation to end-October 2026.",
+        "quote": "Phase 1 commissioning targeted July/August 2026.",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "July/August 2026",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ambernath at full utilisation within 3 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "3 years from commissioning (to ~FY30)",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Staff, not machinery, is the binding constraint.",
+        "quote": "Full ramp-up targeted within 3 years (100% utilisation).",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "within 3 years",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Remaining top-10 hyperscalers added",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "3-6 months (by about Dec 2026)",
+        "basis": "segment",
+        "segment": "Data centres",
+        "condition": "Works with 6 of India's top 10 hyperscalers regularly and 2 case by case; data centres were ~49% of FY26 revenue.",
+        "quote": "targeting remaining 2-3 within 3-6 months — covering full top-10 spectrum.",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "within 3-6 months",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports to double in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Exports currently marginal but targeted to double in FY27 — early-stage but growing.",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "double in FY27",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Data-centre margins to hold or improve",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "segment",
+        "segment": "Data centres",
+        "condition": "FY26 EBITDA margin 23% (H2 24.8%).",
+        "quote": "Management expects data centre margins to hold or improve given vendor scarcity in this supply chain.",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "hold or improve",
+        "revises": null,
+        "source_ref": "attendee notes"
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "No further equity dilution or debt",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Debt-free; ~₹20 Cr of IPO money goes into FY27 working capital and ₹11 Cr is set aside for April 2027.",
+        "quote": "No plans for further equity dilution or debt.",
+        "page": 1,
+        "speaker": "Management (as reported in conference notes)",
+        "confidence": "high",
+        "keyword": "No plans for further equity dilution or debt",
+        "revises": null,
+        "source_ref": "attendee notes"
+      }
+    ],
+    "insights": {
+      "summary": "Notes from Day 1 of Hem Securities' Samruddhi Season 3 conference (posted 15 Jun 2026 by an attendee, not the company). Vivid repeated its FY26 numbers (revenue ₹201 Cr, EBITDA ₹46 Cr at 23%, PAT ₹32 Cr) and said data centres were ~49% of revenue, metro ~20% and industrial ~21%. The new Ambernath plant was due for Phase 1 commissioning in July/August 2026, lifting capacity from ~7,500 to ~22,500 units, with full use within three years; most of H1 FY27 revenue still comes from the old plants. The company aims to add the remaining 2-3 of India's top-10 hyperscalers within 3-6 months, double exports in FY27, and take on no more equity or debt. No FY27 revenue figure was given.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Ambernath Phase 1 commissioning targeted July/August 2026 (later moved to end-October)",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Remaining 2-3 top-10 hyperscalers to be added within 3-6 months",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Exports to double in FY27; no further equity or debt",
+          "page": 1
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Vendor scarcity in high-complexity segments expected to sustain or expand margins.",
+        "page": 1
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Second-hand: an attendee's typed notes, not a company document.",
+          "page": 1
+        },
+        {
+          "text": "Staff, not machinery, is the binding constraint on using the new plant.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "Ambernath start date (Jul/Aug in these notes; end-Oct in the Sep deck)",
+        "Hyperscaler customer additions",
+        "Export share in FY27"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Low- and medium-voltage switchboards and panels (ABB, Siemens, Hitachi, Lauritz Knudsen designs and its own V-Set), data-centre power distribution units",
+        "customers": "Hyperscale data centres (6 of India's top 10), metro rail projects, industrial plants",
+        "revenue_mix": "FY26: data centres ~49%, industrial ~21%, metro ~20%, other 10-15%; LV ~80-85%, MV ~15-20%",
+        "demand_drivers": "Data-centre build-out, metro rail, industrial automation, grid and renewables"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-06-hem-samruddhi",
+    "kind": "conference",
+    "event": "Hem Securities Samruddhi Season 3 (Nav Bharat ka Caravan), Jun 2026",
+    "date": "2026-06-15",
+    "links": [
+      {
+        "url": "https://x.com/sachprat07/status/2066545616378044688",
+        "author": "STR (@sachprat07) on X, notes from Day 1 of the conference (post dated 15 Jun 2026; the notes quote market data of 3 Jun)",
+        "grade": "attendee_note",
+        "images": [
+          "data/sources/VIVIDEL/2026-06-hem-samruddhi/1.jpg"
+        ],
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "text_file": "data/sources/VIVIDEL/2026-06-hem-samruddhi.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/sachprat07/status/2066545616378044688",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}

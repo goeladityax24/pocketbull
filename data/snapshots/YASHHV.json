@@ -1,0 +1,351 @@
+{
+  "symbol": "YASHHV",
+  "name": "Yash Highvoltage Ltd",
+  "screenerUrl": "https://www.screener.in/company/544310/",
+  "basis": "standalone",
+  "companyId": "1285191",
+  "warehouseId": "131179924",
+  "ratios": {
+    "market cap": 3401,
+    "current price": 1138,
+    "high": 1264,
+    "low": 366,
+    "stock p/e": 87.3,
+    "book value": 64.4,
+    "dividend yield": 0.12,
+    "roce": 28.6,
+    "roe": 23.5,
+    "face value": 5
+  },
+  "interim": {
+    "granularity": "half",
+    "periods": [
+      {
+        "kind": "half",
+        "fy": 2024,
+        "index": 1,
+        "endDate": "2023-09-30",
+        "label": "H1 FY24"
+      },
+      {
+        "kind": "half",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2024-03-31",
+        "label": "H2 FY24"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-09-30",
+        "label": "H1 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2025-03-31",
+        "label": "H2 FY25"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-09-30",
+        "label": "H1 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2026-03-31",
+        "label": "H2 FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        48,
+        60,
+        57,
+        93,
+        100,
+        136
+      ],
+      "expenses": [
+        37,
+        50,
+        46,
+        71,
+        79,
+        100
+      ],
+      "operating_profit": [
+        11,
+        10,
+        11,
+        21,
+        21,
+        36
+      ],
+      "opm_pct": [
+        23,
+        17,
+        19,
+        23,
+        21,
+        26
+      ],
+      "other_income": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "interest": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "depreciation": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        4
+      ],
+      "pbt": [
+        9,
+        9,
+        9,
+        19,
+        19,
+        32
+      ],
+      "tax_pct": [
+        28,
+        33,
+        27,
+        23,
+        26,
+        25
+      ],
+      "net_profit": [
+        6,
+        6,
+        6,
+        15,
+        14,
+        24
+      ],
+      "eps": [
+        2.88,
+        2.68,
+        2.89,
+        5.25,
+        4.91,
+        8.31
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        38,
+        37,
+        65,
+        90,
+        108,
+        150,
+        235
+      ],
+      "expenses": [
+        32,
+        30,
+        51,
+        71,
+        87,
+        117,
+        178
+      ],
+      "operating_profit": [
+        6,
+        7,
+        15,
+        19,
+        22,
+        33,
+        57
+      ],
+      "opm_pct": [
+        16,
+        20,
+        22,
+        21,
+        20,
+        22,
+        24
+      ],
+      "other_income": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        4
+      ],
+      "interest": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "depreciation": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        6
+      ],
+      "pbt": [
+        4,
+        6,
+        12,
+        16,
+        18,
+        28,
+        50
+      ],
+      "tax_pct": [
+        28,
+        30,
+        30,
+        30,
+        31,
+        24,
+        25
+      ],
+      "net_profit": [
+        3,
+        4,
+        9,
+        11,
+        12,
+        21,
+        37
+      ],
+      "eps": [
+        1.27,
+        1.76,
+        3.92,
+        5.14,
+        5.55,
+        7.51,
+        13.08
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2af3b3d-366c-4653-8307-06e939cb3ca9.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de76e960-a75d-481a-9c67-342f1bf045ff.pdf",
+      "recordingUrl": "https://static.wixstatic.com/mp3/3be98c_82a5597b5f254f8fb0fd2a725ca1e5cf.mp3"
+    },
+    {
+      "month": "Oct 2025",
+      "yearMonth": "2025-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71f5f606-6d19-4f46-a2bd-388b975c4076.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75fcb277-6d9c-4c1e-80e6-c7fac0a7d925.pdf",
+      "recordingUrl": "https://static.wixstatic.com/mp3/3be98c_8a81e0d288bc4c648adcf1c9cb307bda.mp3"
+    },
+    {
+      "month": "Jun 2025",
+      "yearMonth": "2025-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f562876-1517-4b7d-8bc8-1d432dafe294.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Jan 2025",
+      "yearMonth": "2025-01",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1aaff71e-dbb4-4d55-8a21-eba3988f9cce.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Sep 2024",
+      "yearMonth": "2024-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.yashhv.com/yashadmin/investor_portal/downloadsfiles/392723yashhighvoltage-companyintroduction-nov2024.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-21T07:04:46.342Z"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "2026-06-vivid-deck",
+ "kind": "conference",
+ "event": "June 2026 investor presentation (slides 10, 11, 13, shared on X)",
+ "date": "2026-06-30",
+ "links": [
+  {
+   "url": "https://x.com/Vihaan_001_/status/2076555284303265861",
+   "author": "Vivid Electromech investor presentation, June 2026; three slides posted by an investor on X on 13 Jul 2026 (the full deck is not on NSE or Screener; day of month not known)",
+   "grade": "company",
+   "images": [
+    "data/sources/VIVIDEL/2026-06-vivid-deck/1.jpg",
+    "data/sources/VIVIDEL/2026-06-vivid-deck/2.jpg",
+    "data/sources/VIVIDEL/2026-06-vivid-deck/3.jpg"
+   ],
+   "pages": [
+    10,
+    11,
+    13
+   ]
+  }
+ ],
+ "text_file": "data/sources/VIVIDEL/2026-06-vivid-deck.txt"
+}

@@ -1,0 +1,132 @@
+{
+  "symbol": "VIVIDEL",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07-vihaan-notes",
+    "transcriptUrl": "https://x.com/Vihaan_001_/status/2076555284303265861",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-21T07:16:07.958Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H2 FY26",
+    "call_date": "2026-07-13",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth ~50%",
+        "kind": "growth_yoy",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From an investor's own post; it does not say whether the company said this on a call, in a meeting or elsewhere, and the June deck slides it shares don't contain it. No company document we hold gives an FY27 revenue figure. FY26 revenue was ₹200 Cr, so 50% means ~₹300 Cr.",
+        "quote": "-Targeting for 50% revenue growth for FY27.",
+        "page": 1,
+        "speaker": "Investor's post (source of the figure not stated)",
+        "confidence": "low",
+        "keyword": "50% revenue growth",
+        "revises": null,
+        "source_ref": "investor post"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Remaining top-10 hyperscalers added",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "2-3 months (by about Oct 2026)",
+        "basis": "segment",
+        "segment": "Data centres",
+        "condition": "The June conference notes said the remaining 2-3 within 3-6 months.",
+        "quote": "Works with 6 out of top 10 India Hyperscale Data center. Planing to add remaining in next 2-3 month.",
+        "page": 1,
+        "speaker": "Investor's post (source of the figure not stated)",
+        "confidence": "low",
+        "keyword": "next 2-3 month",
+        "revises": null,
+        "source_ref": "investor post"
+      }
+    ],
+    "insights": {
+      "summary": "An investor's post on X (13 Jul 2026) saying Vivid is targeting ~50% revenue growth in FY27, that more than half of revenue comes from data centres, that it won ₹50 Cr of data-centre orders in ten days, that it works with 6 of India's top-10 hyperscalers and plans to add the rest in 2-3 months, and that capacity triples to 22,500 units in 1-2 months. The post doesn't say where these figures came from; the 50% target is not in any company document we hold, so treat it as unconfirmed until the company states it.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "~50% FY27 revenue growth target (investor's post; source not stated)",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "₹50 Cr of data-centre orders in ten days (investor's post)",
+          "page": 1
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "-Targeting for 50% revenue growth for FY27.",
+        "page": 1
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "The 50% growth target comes from an investor who holds the stock, with no stated source.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue vs ~₹107 Cr (50% over H1 FY26's ₹71 Cr)",
+        "A company statement of the FY27 target"
+      ],
+      "business_snapshot": {
+        "what_they_make": "LV and MV switchboards and panels",
+        "customers": "Hyperscale data centres (6 of India's top 10), infrastructure and industrial customers",
+        "revenue_mix": "More than half from data centres (per the post)",
+        "demand_drivers": "Data-centre build-out"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-07-vihaan-notes",
+    "kind": "conference",
+    "event": "Investor's post on X, Jul 2026",
+    "date": "2026-07-13",
+    "links": [
+      {
+        "url": "https://x.com/Vihaan_001_/status/2076555284303265861",
+        "author": "Vihaan (@Vihaan_001_) on X, an investor's own summary (source of the figures not stated)",
+        "grade": "attendee_note",
+        "images": [],
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "text_file": "data/sources/VIVIDEL/2026-07-vihaan-notes.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/Vihaan_001_/status/2076555284303265861",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}
