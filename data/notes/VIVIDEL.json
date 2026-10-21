@@ -1,7 +1,7 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-10-21",
  "descriptor": "LV/MV electrical panels and data-centre switchboards (NSE SME)",
- "lede": "A Navi Mumbai panel builder, licensed by ABB, whose data-centre switchboards went from 5% to half of revenue in two years, lifting EBITDA margin from 9% to 23%. A plant that roughly triples capacity starts this month; the risks are customer concentration, slow-paying receivables, dealings with promoter-owned firms, and a company that holds no earnings calls.",
+ "lede": "A Navi Mumbai panel builder, licensed by ABB, whose data-centre switchboards went from 5% to half of revenue in two years, lifting EBITDA margin from 9% to 23%. A plant that roughly triples capacity is due this month, after slipping from July-August; an investor reports a 50% FY27 growth target the company has not stated in any document we hold; the risks are customer concentration, slow-paying receivables, dealings with promoter-owned firms, and a company that holds no earnings calls.",
  "market": {
   "price": 1720,
   "mcap_cr": 1529,
@@ -12,11 +12,11 @@
  "short_version": [
   {
    "lead": "What's going right",
-   "text": "FY26 revenue +29% to ₹200 Cr, EBITDA margin 23% and PAT ₹32 Cr; H2 FY26 ₹130 Cr at 25%. Data centres (70% hyperscale) were ₹100 Cr of revenue, the executable order book is ₹205 Cr, and a 120,000 sq ft automated plant at Ambernath should start by end-October 2026."
+   "text": "FY26 revenue +29% to ₹200 Cr, EBITDA margin 23% and PAT ₹32 Cr; H2 FY26 ₹130 Cr at 25%. Data centres (70% hyperscale) were ₹100 Cr of revenue, the executable order book is ₹205 Cr, and a 120,000 sq ft automated plant at Ambernath should start by end-October 2026. Conference notes from June add plans to win the remaining top-10 hyperscalers and double exports in FY27."
   },
   {
    "lead": "What to be sceptical about",
-   "text": "Receivable days jumped to 213 and free cash flow was –₹26 Cr in FY26; 92% of revenue comes from Maharashtra and half from a few data-centre projects. ₹13 Cr of purchases and sales ran through firms owned by the promoters, one of which Vivid then bought from them; there is no earnings call."
+   "text": "Receivable days jumped to 213 and free cash flow was –₹26 Cr in FY26; 92% of revenue comes from Maharashtra and half from a few data-centre projects. ₹13 Cr of purchases and sales ran through firms owned by the promoters, one of which Vivid then bought from them; there is no earnings call. The Ambernath start has moved from July-August (June notes) to end-August (June deck) to end-October (September deck)."
   },
   {
    "lead": "Price",
@@ -315,6 +315,42 @@
      "rows": [
       {
        "cells": [
+        "Ambernath Phase 1 commissioning July/August 2026",
+        "Jun 26 (conference notes)",
+        "Moved to end-August in the June deck and end-October in the September deck",
+        {
+         "text": "Late",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Add the remaining 2-3 top-10 hyperscalers within 3-6 months",
+        "Jun 26 (conference notes)",
+        "Not yet reported",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "~50% FY27 revenue growth",
+        "Jul 26 (investor's post, source not stated)",
+        "H1 FY27 results due; needs ~₹107 Cr in H1 vs ₹71 Cr a year ago",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
         "Ambernath plant (Phase I) commissioned in H2 2026, commercial by end-October",
         "Sep 26",
         "Facility photos at 31 Aug show construction advanced",
@@ -354,7 +390,7 @@
     },
     {
      "type": "text",
-     "text": "Vivid gives no earnings calls and no numeric guidance, so there is little track record to judge yet.",
+     "text": "Vivid gives no earnings calls. Its plans come from investor decks, an attendee's notes from Hem Securities' June conference and an investor's post on X; only the decks are the company's own words, so treat the 50% growth figure as unconfirmed.",
      "src": null
     },
     {
@@ -653,15 +689,17 @@
  ],
  "watch": [
   "Ambernath plant start by end-October 2026",
-  "H1 FY27 revenue and EBITDA margin",
+  "H1 FY27 revenue vs ~₹107 Cr (the reported 50% growth target)",
+  "Hyperscaler customer additions",
   "Receivable days",
-  "Related-party purchases and sales",
-  "Share of revenue outside data centres and Maharashtra"
+  "Related-party purchases and sales"
  ],
  "sources": [
   "Screener financials, shareholding and prices (6 Oct 2026)",
   "September 2026 investor presentation (no earnings calls held)",
   "FY26 annual report",
-  "Peer data from Screener"
+  "Peer data from Screener",
+  "Hem Securities Samruddhi Season 3 conference notes, Jun 2026 (attendee's notes posted on X)",
+  "Investor's post on X, 13 Jul 2026, with slides from the June 2026 investor presentation"
  ]
 }
