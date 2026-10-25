@@ -1,0 +1,275 @@
+{
+  "symbol": "PERMAGN",
+  "concall": {
+    "month": "May 2026",
+    "yearMonth": "2026-05",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecd32b12-3902-42a2-97cd-6c38e21acb1d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74ce6790-0d85-4c51-b997-ead79faf4071.pdf",
+    "recordingUrl": "https://cdn.shopify.com/s/files/1/0309/7625/files/Audio_Recording_of_Conference_Call___May_18_2026.mp3?v=1779101991"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-25T18:29:49.075Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q4 FY26",
+    "call_date": "2026-05-18",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth 20-30%",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "'between 20% to 30% and then plus something maybe' if large alloy or relay orders come (p.7).",
+        "quote": "On revenue front, you can consider maybe 20% to 30% depending on what orders we click.",
+        "page": 8,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "20% to 30%",
+        "revises": "FY27 revenue growth 20-30%"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "FY27 EBITDA margin 15-18%",
+        "kind": "margin_pct",
+        "low": 15,
+        "high": 18,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'Margins at similar level only' (p.8); FY26 standalone EBITDA margin 17%.",
+        "quote": "Yes, EBITDA, roughly that level, 15%, 17%. 15% to 18% you can say.",
+        "page": 9,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "15% to 18%",
+        "revises": "FY27 EBITDA margin 16-18%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Alloys revenue 3-4x FY26 in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Alloys",
+        "condition": "New furnace commercial in Q4 FY26 and ran at 80-90%. Mostly lower-margin virgin-metal alloy so far (p.6).",
+        "quote": "And now ramp-up, approximately, as per current estimates, we are looking this year to about, let's say, in financial year '27 to maybe about 3 to 4 times what we have done in the last year.",
+        "page": 5,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "3 to 4 times",
+        "revises": "Alloys revenue ₹40-70 Cr in FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Relays commercial ramp-up in H2 FY27",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Testing and customer approvals took longer than expected.",
+        "quote": "On the Relays project, we are behind the original timelines with commercial ramp-up now expected from second half of financial year '27.",
+        "page": 4,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "second half of financial year '27",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Relays revenue ₹25-50 Cr in FY27",
+        "kind": "absolute",
+        "low": 25,
+        "high": 50,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Relays",
+        "condition": "At ~100% use of the first 5 million-unit capacity, from sales after September (p.13).",
+        "quote": "See, the current capacity that we are planning to set up, we can expect maybe in FY27 maybe between INR 25 crores to INR 50 crores, maybe something like this could be possible.",
+        "page": 8,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR 25 crores to INR 50 crores",
+        "revises": "Relays revenue ₹20-50 Cr in FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Rare-earth magnet sales ₹10-15 Cr in Q4 FY27",
+        "kind": "absolute",
+        "low": 10,
+        "high": 15,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "Phase 2 (block cutting, machining, surface treatment) implemented Jul-Nov 2026; sales from December. No rare-earth revenue in FY26 because of China's export curbs (p.4).",
+        "quote": "So that we are estimating maybe about INR10 crores, INR15 crores, something like that may happen in quarter 4.",
+        "page": 10,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR10 crores, INR15 crores",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "FY27 capex ₹40-50 Cr in PML plus ₹40-50 Cr in Quantum",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Includes ~₹20 Cr for a new factory near Vasai combining six Mumbai plants (p.8). Funding by a mix of debt and equity, undecided.",
+        "quote": "For PML business, it could be INR 40 crores to INR 50 crores. And for Quantum business, it could be another INR40 crores to INR50 crores.",
+        "page": 7,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR 40 crores to INR 50 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Quantum Magnetics 5,000 t by FY30-31",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "FY30-FY31",
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "5,000 t could mean ₹3,000-4,000 Cr of revenue depending on price (p.9); each step depends on the previous phase.",
+        "quote": "Right now what we are planning is about, it could be about maybe '30, '31.",
+        "page": 10,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "'30, '31",
+        "revises": "Quantum Magnetics: 5,000 t, ~₹3,700 Cr revenue by FY30"
+      }
+    ],
+    "insights": {
+      "summary": "Q4 FY26 standalone revenue rose 47% to ₹66 Cr and FY26 13% to ₹225 Cr (consolidated ₹226 Cr) at a 17% EBITDA margin, as the new alloy furnace started in Q4 and exports recovered in H2. The MD keeps FY27 guidance at 20-30% consolidated revenue growth with a 15-18% EBITDA margin; alloys should be 3-4x FY26, relays are delayed again to H2 FY27 (₹25-50 Cr possible), and rare-earth magnet sales should start in Q4 FY27 (₹10-15 Cr). Consolidated debt rose to ~₹88 Cr after a $5 million ECB for the subsidiaries' capex.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 revenue growth 20-30% (consolidated)",
+          "page": 8
+        },
+        {
+          "change": "cut",
+          "text": "FY27 EBITDA margin range widened to 15-18% (from 16-18%)",
+          "page": 9
+        },
+        {
+          "change": "delayed",
+          "text": "Relays commercial ramp-up now H2 FY27",
+          "page": 4
+        },
+        {
+          "change": "delayed",
+          "text": "Quantum Magnetics: 5,000 t now FY30-31; magnet sales from Q4 FY27",
+          "page": 10
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "Looking ahead, our focus during the coming year is on scaling up commercial operations across our key growth pillars, which are Alloys, Relays and Quantum Magnetics.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Delays",
+          "answer": "An investor called the last two years 'a very poor show'; the MD agreed relays started much later than expected.",
+          "page": 11
+        },
+        {
+          "topic": "Debt",
+          "answer": "Consolidated debt up because of a $5 million ECB in the subsidiary; standalone debt ~₹20 Cr.",
+          "page": 12
+        },
+        {
+          "topic": "Capex",
+          "answer": "₹40-50 Cr in PML (incl. ~₹20 Cr new factory) and ₹40-50 Cr in Quantum in FY27.",
+          "page": 7
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Relays delayed again; investors called the last two years of execution 'a very poor show'.",
+          "page": 11
+        },
+        {
+          "text": "Consolidated debt rose from ~₹24 Cr to ~₹88 Cr in FY26.",
+          "page": 10
+        },
+        {
+          "text": "No FY28 numbers; the MD said he can't comment.",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "Q1-Q2 FY27 revenue vs 20-30% growth",
+        "EBITDA margin vs 15-18%",
+        "Relays first sales after September",
+        "Quantum Phase 2 start and Q4 magnet sales"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Magnetic components for electricity meters (shunts, CTs), EV and automotive parts, relays, specialty alloys (oil and gas, aerospace); rare-earth magnets via Quantum Magnetics",
+        "customers": "Smart-meter makers, European and US auto and EV makers, oil and gas and aerospace customers",
+        "revenue_mix": "FY26 growth led by alloys in H2; exports recovered in H2",
+        "demand_drivers": "India's 25 crore smart-meter replacement, alloy import substitution, rare-earth magnet localisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecd32b12-3902-42a2-97cd-6c38e21acb1d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74ce6790-0d85-4c51-b997-ead79faf4071.pdf",
+    "transcriptPages": 13,
+    "transcriptHasText": true
+  }
+}

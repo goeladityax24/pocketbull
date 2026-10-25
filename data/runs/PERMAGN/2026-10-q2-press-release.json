@@ -1,0 +1,183 @@
+{
+  "symbol": "PERMAGN",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10-q2-press-release",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2219aa74-fce9-4375-8839-2cadefbaa98a.pdf",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-25T18:33:03.462Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-24",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Relays: pilot supplies in H2 FY27, ramp-up in FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Third delay: relays were first expected in FY26, then H2 FY27 commercial ramp-up (May 2026 call). The May call's ₹25-50 Cr of FY27 relay revenue now looks unlikely.",
+        "quote": "In the Relays business, we expect to make pilot supplies in H2FY27, with a material ramp-up expected in FY28.",
+        "page": 2,
+        "speaker": "Sharad Taparia (Managing Director), in the Q2 FY27 press release",
+        "confidence": "high",
+        "keyword": "material ramp-up expected in FY28",
+        "revises": "Relays commercial ramp-up in H2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "EV demand steady for the rest of FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "EV",
+        "condition": "Q2 FY27 revenue +49% on EV demand and domestic smart-meter orders; EBITDA margin 24.6%.",
+        "quote": "Based on current projections, we expect EV demand to remain at a similar level for the rest of the financial year.",
+        "page": 2,
+        "speaker": "Sharad Taparia (Managing Director), in the Q2 FY27 press release",
+        "confidence": "high",
+        "keyword": "similar level",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Better alloy furnace utilisation in H2 FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Alloys",
+        "condition": "Teething issues at the new furnace kept it from full use in H1 FY27.",
+        "quote": "We expect better utilisation of the new furnace capacity in H2FY27.",
+        "page": 2,
+        "speaker": "Sharad Taparia (Managing Director), in the Q2 FY27 press release",
+        "confidence": "high",
+        "keyword": "better utilisation",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Quantum Magnetics product approvals to start soon",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "Phase 2 was promised for Q3-Q4 FY27 (May 2026 call): kept. Q4 FY27 magnet sales of ₹10-15 Cr also depend on these approvals.",
+        "quote": "For Quantum Magnetics, we commissioned the Phase 2 CAPEX, covering block cutting, machining, and surface treatment, in October 2026, in line with the Q3FY27 timeline we shared earlier. The product approval process is expected to start soon.",
+        "page": 2,
+        "speaker": "Sharad Taparia (Managing Director), in the Q2 FY27 press release",
+        "confidence": "high",
+        "keyword": "commissioned the Phase 2 CAPEX",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "From the company's Q2 FY27 press release (the call transcript is not yet filed). Standalone Q2 revenue rose 49% to ₹72.5 Cr and EBITDA 159% to ₹17.8 Cr (24.6% margin) on strong EV demand and domestic smart-meter orders; PAT ₹10 Cr. The MD expects EV demand to hold for the rest of FY27 and better use of the new alloy furnace in H2 after teething issues. Relays slip again: only pilot supplies in H2 FY27, with a material ramp-up in FY28. Quantum Magnetics' Phase 2 lines were commissioned in October as promised, with product approvals next.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Relays: pilot supplies only in H2 FY27; material ramp-up FY28",
+          "page": 2
+        },
+        {
+          "change": "new",
+          "text": "EV demand expected to hold for the rest of FY27",
+          "page": 2
+        },
+        {
+          "change": "reiterated",
+          "text": "Quantum Phase 2 commissioned in October, on time",
+          "page": 2
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "PML has reported a healthy financial performance in Q2FY27 across key parameters.",
+        "page": 2
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Relays delayed for the third time.",
+          "page": 2
+        },
+        {
+          "text": "Alloy furnace had teething issues; Q2 growth leaned on EV, which management has called variable.",
+          "page": 2
+        }
+      ],
+      "watch_next": [
+        "Call transcript (24 Oct) once filed",
+        "H2 FY27 revenue vs 20-30% FY27 growth",
+        "Relay pilot supplies",
+        "Quantum product approvals"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Magnetic sensing, current sensing, magnetic assemblies, alloys and ZAMAK die-casting for autos, EVs and electricity meters",
+        "customers": "Tier-1 auto companies globally and top electricity-meter makers",
+        "revenue_mix": "Q2 FY27 growth led by EV and domestic smart meters",
+        "demand_drivers": "EV platforms, India's smart-meter rollout, alloys, rare-earth magnets"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-10-q2-press-release",
+    "kind": "conference",
+    "event": "Q2 FY27 results press release, 24 Oct 2026",
+    "date": "2026-10-24",
+    "links": [
+      {
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2219aa74-fce9-4375-8839-2cadefbaa98a.pdf",
+        "author": "Permanent Magnets (press release filed with BSE; MD's comments)",
+        "grade": "company",
+        "images": [],
+        "pages": [
+          2
+        ]
+      }
+    ],
+    "text_file": "data/sources/PERMAGN/2026-10-q2-press-release.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2219aa74-fce9-4375-8839-2cadefbaa98a.pdf",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}

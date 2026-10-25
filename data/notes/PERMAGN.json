@@ -1,0 +1,667 @@
+{
+ "as_of": "2026-10-25",
+ "descriptor": "Magnetic and current-sensing components maker building alloys, relays and rare-earth magnets",
+ "lede": "A 65-year-old Mumbai maker of magnetic and current-sensing parts (shunts and current transformers for electricity meters, sensors and assemblies for EVs and cars) that is adding specialty alloys, relays and, through a subsidiary, rare-earth magnets. H1 FY27 revenue grew 32% at a ~21% EBITDA margin, ahead of guidance, but the new businesses keep arriving later than promised and the rare-earth plan dwarfs the company's size.",
+ "market": {
+  "price": 857,
+  "mcap_cr": 737,
+  "pe": 40.2,
+  "pb": 4.4,
+  "ev_ebitda": 17
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q2 FY27 revenue +49% to ₹72 Cr with a 24.6% EBITDA margin on EV and smart-meter demand; H1 FY27 +32%, above the 20-30% FY27 guidance. FY26 guidance (10-15% growth) was met. Rare-earth Phase 2 lines were commissioned in October, on time."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Relays slipped three times (FY26 → H2 FY27 → pilot only, ramp-up FY28); the alloy furnace had teething issues. Consolidated debt rose from ₹24 Cr to ₹92 Cr for subsidiary capex, return on new capital was negative over FY24-26, and a 2015 winding-up order is still only stayed in court."
+  },
+  {
+   "lead": "Price",
+   "text": "~40x trailing earnings and ~17x EV/EBITDA, against Mishra Dhatu at 50x, Pricol at 29x and HPL Electric at 15x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "PML designs customer-specific magnetic sensing, current sensing, magnetic assemblies, alloys and ZAMAK die-cast parts. It is often the only supplier for a product, selling to tier-1 auto companies (ICE and EV) and top electricity-meter makers worldwide. Its wholly owned subsidiary Quantum Magnetics is localising NdFeB rare-earth magnets in phases, from assemblies to block cutting and machining, then powder-to-block.",
+     "src": "Press release p.3; AR p.11"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "37%",
+       "label": "Energy-meter share of H1 FY26 revenue"
+      },
+      {
+       "value": "22%",
+       "label": "Automotive share of H1 FY26 revenue"
+      },
+      {
+       "value": "750 t",
+       "label": "Alloy capacity after the new furnace"
+      },
+      {
+       "value": "5,000 t",
+       "label": "Rare-earth magnet target by FY30-31"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Being the sole or one of two-three suppliers for custom parts keeps customers.",
+       "src": "Press release p.3"
+      },
+      {
+       "lead": "",
+       "text": "EV exports carry the best margins; they swing with European and US platforms.",
+       "src": "Nov 2025 call p.7"
+      },
+      {
+       "lead": "",
+       "text": "Virgin-metal alloys earn less than recycled alloys; FY27 alloy sales are mostly virgin.",
+       "src": "May 2026 call p.6"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Set up Quantum Magnetics (May 2023); China's export curbs stopped its magnet assembly sales in FY26.",
+       "src": "AR p.11"
+      },
+      {
+       "lead": "",
+       "text": "Commissioned a new alloy furnace in Q4 FY26 for oil and gas and aerospace customers.",
+       "src": "May 2026 call p.3"
+      },
+      {
+       "lead": "",
+       "text": "Bought land near Vasai to combine six Mumbai plants (~₹20 Cr capex).",
+       "src": "May 2026 call p.8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26",
+      "TTM"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        201,
+        205,
+        226,
+        259
+       ]
+      }
+     ],
+     "caption": "H1 FY27 ₹136 Cr, +32% on H1 FY26."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        20,
+        16,
+        15
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        23,
+        39,
+        18
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "2%",
+        "10%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "17%",
+        "15%",
+        "16%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "20",
+        "16",
+        "15"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "15%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "23",
+        "39",
+        "18"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "160",
+        "175",
+        "172"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Consolidated figures start in FY24, when Quantum Magnetics was set up."
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash is fine, growth was not:",
+       "text": "₹80 Cr of operating cash flow against ₹51 Cr of profit over FY24-26, but profit fell as revenue barely grew until H2 FY26.",
+       "src": null
+      },
+      {
+       "lead": "Debt rising:",
+       "text": "borrowings ₹92 Cr at Sep 2026 (₹24 Cr at Mar 2025) against ₹167 Cr of equity (0.55x), mostly a $5 million ECB in Quantum Magnetics; interest cover fell to ~6.5x.",
+       "src": "May 2026 call p.12"
+      },
+      {
+       "lead": "Return on new capital (ROIIC): negative,",
+       "text": "about –3% on ~₹100 Cr added from FY24 to FY26, as alloys, relays and magnets have yet to earn.",
+       "src": null
+      },
+      {
+       "lead": "FY27 capex:",
+       "text": "₹40-50 Cr in PML plus ₹40-50 Cr in Quantum Magnetics; funding mix of debt and equity undecided.",
+       "src": "May 2026 call p.7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY26 revenue growth 10-15% (₹220-230 Cr)",
+        "Nov 25",
+        "₹226 Cr consolidated (+10%), ₹225 Cr standalone (+13%)",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY26 margin similar to FY25",
+        "Nov 25",
+        "16% vs 15%",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Relays ₹20-50 Cr in FY27",
+        "Nov 25",
+        "Only pilot supplies in H2 FY27; ramp-up FY28",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue +20-30%, EBITDA 15-18%",
+        "May 26",
+        "H1 FY27 +32% at ~21% margin",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Quantum Phase 2 in Q3-Q4 FY27",
+        "May 26",
+        "Commissioned Oct 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Alloys 3-4x FY26",
+        "May 26",
+        "Furnace teething issues in H1; better use expected in H2",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "The core business has met its numbers; the new businesses have not met their dates. An investor on the May 2026 call called the last two years of execution 'a very poor show', and the MD agreed relays started much later than expected.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters hold 58.1%, steady for a year; no pledge.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "Institutions hold almost nothing; ~17,500 shareholders, falling.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "Auditors' emphasis of matter: a 2015 Bombay High Court winding-up order (on a freight forwarder's petition) is stayed but still pending; ₹0.19 Cr deposited.",
+       "src": "AR p.66"
+      },
+      {
+       "lead": "",
+       "text": "No key audit matters; no related-party transactions flagged as material.",
+       "src": "AR p.60, p.66"
+      },
+      {
+       "lead": "",
+       "text": "The MD's pay rose 28% to 34 times the median employee.",
+       "src": "AR p.44"
+      },
+      {
+       "lead": "",
+       "text": "PML lent ₹2.73 Cr to and guaranteed ₹0.83 Cr for Quantum Magnetics in FY26.",
+       "src": "AR p.70"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Permanent Magnets",
+        "226",
+        "16%",
+        "15",
+        "14%",
+        "40.2x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Mishra Dhatu Nigam (alloys)",
+        "1,209",
+        "20%",
+        "131",
+        "11%",
+        "50.2x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "HPL Electric & Power (meters)",
+        "1,811",
+        "16%",
+        "91",
+        "14%",
+        "15.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Pricol (auto components)",
+        "4,041",
+        "12%",
+        "251",
+        "25%",
+        "28.7x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "No listed company matches PML's mix; these cover its alloy, meter and auto-component sides."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Custom-engineered parts with long qualification",
+       "text": "for global auto tier-1s and meter makers.",
+       "src": "Press release p.3"
+      },
+      {
+       "lead": "Early mover in localising rare-earth magnets",
+       "text": "with assemblies already approved by customers.",
+       "src": "AR p.11"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Rare-earth magnets:",
+       "text": "5-6 companies plan Indian plants, some with PLI support; PML has not applied.",
+       "src": "May 2026 call p.11"
+      },
+      {
+       "lead": "EV exports",
+       "text": "go to European and US platforms that are losing share to Chinese EVs.",
+       "src": "May 2026 call p.12"
+      },
+      {
+       "lead": "Relays",
+       "text": "need long customer testing and face imports and other new entrants.",
+       "src": "May 2026 call p.6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "New businesses keep slipping",
+        "Execution",
+        "Relays: ramp-up now FY28"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Rare-earth project size and funding",
+        "Financial",
+        "₹550-750 Cr plan vs ₹737 Cr market cap"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EV export demand swings",
+        "Market",
+        "Q2 FY27 strength came from EV"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Winding-up order (2015) still pending",
+        "Legal",
+        "Stayed by Bombay High Court"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹1,400 Cr",
+       "sub": "FY28 market cap · about +90%",
+       "text": "Relays and magnets start selling: ~₹400 Cr revenue in FY28 at a 10% PAT margin (₹40 Cr), valued at 35x."
+      },
+      {
+       "name": "Base",
+       "value": "₹815 Cr",
+       "sub": "FY28 market cap · about +11%",
+       "text": "~26% growth in FY27 and 20% in FY28 to ~₹340 Cr at 8% (₹27 Cr), valued at 30x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹380 Cr",
+       "sub": "FY28 market cap · about –48%",
+       "text": "EV demand fades and new lines stall: ~₹290 Cr at 6% (₹17 Cr), valued at 22x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "40.2x",
+       "label": "P/E, trailing (Mishra Dhatu 50x)"
+      },
+      {
+       "value": "~17x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "4.4x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "Negative",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "PML's core business is profitable, cash-generative and growing again, and H1 FY27 is ahead of guidance. The valuation leans on alloys, relays and rare-earth magnets, which have repeatedly started late and are funded with rising debt. Relay pilot supplies, customer approvals for magnets and whether H2 keeps the EV-led margin are the things to watch.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H2 FY27 revenue vs 20-30% FY27 growth",
+  "EBITDA margin vs 15-18%",
+  "Relay pilot supplies",
+  "Quantum Magnetics product approvals and Q4 sales",
+  "Debt and how the rare-earth plan is funded"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (25 Oct 2026)",
+  "Q2 FY26 (14 Nov 2025) and Q4 FY26 (18 May 2026) call transcripts",
+  "Q2 FY27 press release (24 Oct 2026); the 24 Oct call transcript is not yet filed",
+  "FY26 annual report",
+  "Peer data from Screener",
+  "Arihant Bharat Connect compendium checked: Permanent Magnets not covered"
+ ]
+}

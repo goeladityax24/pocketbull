@@ -1,0 +1,440 @@
+{
+  "symbol": "PERMAGN",
+  "name": "Permanent Magnets Ltd",
+  "screenerUrl": "https://www.screener.in/company/PERMAGN/consolidated/",
+  "basis": "consolidated",
+  "companyId": "2457",
+  "warehouseId": "110125798",
+  "ratios": {
+    "market cap": 737,
+    "current price": 857,
+    "high": 1005,
+    "low": 619,
+    "stock p/e": 40.2,
+    "book value": 194,
+    "dividend yield": 0.26,
+    "roce": 13.8,
+    "roe": 10.5,
+    "face value": 10
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        53.71,
+        50.53,
+        53.6,
+        54.32,
+        56.1,
+        49.35,
+        45.28,
+        53.55,
+        49.13,
+        57.02,
+        66.54,
+        63.23,
+        72.46
+      ],
+      "expenses": [
+        42.47,
+        43.73,
+        47.04,
+        45.89,
+        45.41,
+        43.06,
+        40.23,
+        42.86,
+        43.13,
+        46.51,
+        57.05,
+        52.25,
+        55.37
+      ],
+      "operating_profit": [
+        11.24,
+        6.8,
+        6.56,
+        8.43,
+        10.69,
+        6.29,
+        5.05,
+        10.69,
+        6,
+        10.51,
+        9.49,
+        10.98,
+        17.09
+      ],
+      "opm_pct": [
+        20.93,
+        13.46,
+        12.24,
+        15.52,
+        19.06,
+        12.75,
+        11.15,
+        19.96,
+        12.21,
+        18.43,
+        14.26,
+        17.37,
+        23.59
+      ],
+      "other_income": [
+        0.62,
+        1.06,
+        1.82,
+        1.36,
+        1.29,
+        1.06,
+        0.45,
+        1.24,
+        1.38,
+        -0.84,
+        2.54,
+        0.93,
+        1.03
+      ],
+      "interest": [
+        0.17,
+        0.81,
+        1.12,
+        0.54,
+        0.55,
+        1.03,
+        0.28,
+        0.62,
+        0.47,
+        1.45,
+        1.56,
+        2.37,
+        1.83
+      ],
+      "depreciation": [
+        2.02,
+        1.94,
+        3.08,
+        2.23,
+        2.5,
+        3.17,
+        3.53,
+        2.64,
+        3.21,
+        3.55,
+        5.12,
+        3.54,
+        3.98
+      ],
+      "pbt": [
+        9.67,
+        5.11,
+        4.18,
+        7.02,
+        8.93,
+        3.15,
+        1.69,
+        8.67,
+        3.7,
+        4.67,
+        5.35,
+        6,
+        12.31
+      ],
+      "tax_pct": [
+        26.78,
+        24.85,
+        39.95,
+        28.21,
+        20.49,
+        35.24,
+        6.51,
+        28.84,
+        35.95,
+        51.82,
+        25.42,
+        36.5,
+        38.99
+      ],
+      "net_profit": [
+        7.08,
+        3.84,
+        2.51,
+        5.04,
+        7.1,
+        2.04,
+        1.58,
+        6.17,
+        2.37,
+        2.25,
+        3.99,
+        3.81,
+        7.51
+      ],
+      "eps": [
+        8.23,
+        4.47,
+        2.92,
+        5.86,
+        8.26,
+        2.37,
+        1.84,
+        7.18,
+        2.76,
+        2.62,
+        4.64,
+        4.43,
+        8.73
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        201,
+        205,
+        226
+      ],
+      "expenses": [
+        167,
+        175,
+        189
+      ],
+      "operating_profit": [
+        34,
+        30,
+        37
+      ],
+      "opm_pct": [
+        17,
+        15,
+        16
+      ],
+      "other_income": [
+        4,
+        4,
+        4
+      ],
+      "interest": [
+        2,
+        2,
+        4
+      ],
+      "depreciation": [
+        8,
+        11,
+        15
+      ],
+      "pbt": [
+        28,
+        21,
+        22
+      ],
+      "tax_pct": [
+        29,
+        24,
+        34
+      ],
+      "net_profit": [
+        20,
+        16,
+        15
+      ],
+      "eps": [
+        23.49,
+        18.32,
+        17.18
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": null,
+      "pptUrl": null,
+      "recordingUrl": "https://d14ot07mpjzxe6.cloudfront.net/Audio_Recording_of_Conference_Call_October_24_2026_6a357bfb87.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecd32b12-3902-42a2-97cd-6c38e21acb1d.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74ce6790-0d85-4c51-b997-ead79faf4071.pdf",
+      "recordingUrl": "https://cdn.shopify.com/s/files/1/0309/7625/files/Audio_Recording_of_Conference_Call___May_18_2026.mp3?v=1779101991"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85e507fe-b2df-4ef3-a96f-da803614506a.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ab6a960-afa7-4d56-bf71-24b206f99c2b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36331f40-db65-47dd-b07d-771a240384f2.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36fa5fb0-487b-4773-b992-6b02e0310025.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9285a7a-ac9e-4a65-ba6c-ed0aa786bbec.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ecdae27-b7b1-442d-a62b-04788bb5c44d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad449b51-6a6d-451b-8a13-37f10a5ba11d.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72c83bf8-94bc-4b41-bce5-ee1b160def1c.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89a29565-cde6-45c9-b260-f6c1e507471b.pdf",
+      "recordingUrl": "https://cdn.shopify.com/s/files/1/0309/7625/files/PEM0220230519147113.mp3?v=1684496562"
+    },
+    {
+      "month": "Jun 2022",
+      "yearMonth": "2022-06",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96f94f2a-43b1-4024-8e09-0aafe0bc628f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2021",
+      "yearMonth": "2021-06",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97603a2b-ff86-452f-8ce2-d8390e9b1646.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [],
+  "fetchedAt": "2026-10-25T18:28:10.782Z"
+}
