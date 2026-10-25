@@ -1,0 +1,245 @@
+{
+  "symbol": "PERMAGN",
+  "concall": {
+    "month": "Nov 2025",
+    "yearMonth": "2025-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85e507fe-b2df-4ef3-a96f-da803614506a.pdf",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-25T18:29:35.173Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY26",
+    "call_date": "2025-11-14",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY26 revenue growth 10-15% (₹220-230 Cr)",
+        "kind": "growth_yoy",
+        "low": 10,
+        "high": 15,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 FY26 revenue fell 7% on lower US exports (tariffs) and weak energy-meter demand. Earlier in the call he said 'about 15%' (p.11).",
+        "quote": "Our expectation is roughly about maybe 10% to 15% growth. So we may end up between, let's say, INR220 crores to INR230 crores top line roughly, that is the expectation today, it may change based on the customer demand coming in this quarter.",
+        "page": 13,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "10% to 15% growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "FY26 margin similar to FY25",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY26",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY25 EBITDA margin ~15% (Screener).",
+        "quote": "Margin, similar level as last year, similar level.",
+        "page": 13,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "similar level as last year",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth 20-30%",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "It could be between 20% to 30% is my expectation today, depending on the visibility that we have, it may become higher if we get more alloy orders or EV orders or relay orders and this is my general judgment today.",
+        "page": 10,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "20% to 30%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "FY27 EBITDA margin 16-18%",
+        "kind": "margin_pct",
+        "low": 16,
+        "high": 18,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'should be around between 15% to 18%, 16% to 18%' overall (p.10).",
+        "quote": "Yes, 16% to 18%, something like that, we may expect.",
+        "page": 7,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "16% to 18%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Alloys revenue ₹40-70 Cr in FY27",
+        "kind": "absolute",
+        "low": 40,
+        "high": 70,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Alloys",
+        "condition": "Alloys were ~7% of H1 FY26 revenue; new furnace lifts capacity to 750 t a year.",
+        "quote": "That depends on how much actual offtake customer will take, but we may be in the range of INR40 crores to INR70 crores maybe something like that is my expectation today.",
+        "page": 8,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR40 crores to INR70 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Relays revenue ₹20-50 Cr in FY27",
+        "kind": "absolute",
+        "low": 20,
+        "high": 50,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Relays",
+        "condition": "Relays were first expected in FY26; customer testing took longer. 5 million-unit capacity first, ₹100 Cr at 10 million.",
+        "quote": "I'm a little cautious that we don't know how much they were doing, but my expectation is maybe somewhere between INR20 crores to INR50 crores possibility is there.",
+        "page": 9,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR20 crores to INR50 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Quantum Magnetics: 5,000 t, ~₹3,700 Cr revenue by FY30",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "by FY30",
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "Total investment ₹550-750 Cr, step by step; first 500 t phase ₹50-100 Cr capex for ₹300-350 Cr revenue (p.11-12).",
+        "quote": "Our total plan to FY 2030 is 5,000 tons production which is about INR3,700 crores revenue till FY 2030, that is the plan we have.",
+        "page": 11,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "5,000 tons",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H1 FY26 revenue fell 7% to ₹103 Cr as US tariffs cut exports and energy-meter demand weakened. The MD expects FY26 to close with 10-15% growth (₹220-230 Cr) at similar margins, and FY27 growth of 20-30% at a 16-18% EBITDA margin, led by alloys (₹40-70 Cr) and relays (₹20-50 Cr) as new capacity comes in. Rare-earth magnet assemblies stopped under China's export curbs; the Quantum Magnetics subsidiary plans to build to 5,000 tonnes (~₹3,700 Cr revenue) by FY30.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY26 growth 10-15% (₹220-230 Cr); FY27 growth 20-30% at 16-18% EBITDA",
+          "page": 10
+        },
+        {
+          "change": "delayed",
+          "text": "Relays sales pushed from FY26 to FY27 on longer customer testing",
+          "page": 9
+        },
+        {
+          "change": "new",
+          "text": "Quantum Magnetics plan: 5,000 t and ~₹3,700 Cr revenue by FY30",
+          "page": 11
+        }
+      ],
+      "tone": {
+        "label": "cautious",
+        "quote": "So next year, I would like to be conservative.",
+        "page": 9
+      },
+      "analyst_questions": [
+        {
+          "topic": "FY27 growth",
+          "answer": "20-30%, higher if alloy, EV or relay orders come faster.",
+          "page": 10
+        },
+        {
+          "topic": "Rare-earth magnets",
+          "answer": "No sales while China's export curbs last; assemblies could be ₹5-10 Cr once lifted, block cutting more.",
+          "page": 11
+        },
+        {
+          "topic": "Margins",
+          "answer": "16-18% in FY27 depending on product mix.",
+          "page": 7
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Relays slipped a year after customers' testing took longer.",
+          "page": 9
+        },
+        {
+          "text": "Rare-earth plan (₹550-750 Cr investment) is several times the company's market value; funding undecided.",
+          "page": 11
+        }
+      ],
+      "watch_next": [
+        "H2 FY26 recovery vs ₹220-230 Cr FY26 target",
+        "New alloy furnace start",
+        "Relays customer approvals",
+        "China magnet export rules"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Magnetic and alloy components: shunts and current transformers for electricity meters, EV and automotive parts, relays, specialty alloys; rare-earth magnets via Quantum Magnetics",
+        "customers": "Smart-meter makers (largest US-based), auto and EV makers in Europe and the US, oil and gas and aerospace (alloys)",
+        "revenue_mix": "H1 FY26: energy meter 37%, automotive 22%, CT ~10%, magnetic assemblies ~9%, alloys 7%",
+        "demand_drivers": "Smart-meter rollout in India, EV and auto exports, alloy import substitution, rare-earth magnet localisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85e507fe-b2df-4ef3-a96f-da803614506a.pdf",
+    "pptUrl": null,
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

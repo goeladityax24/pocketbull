@@ -1,0 +1,18 @@
+{
+ "id": "2026-10-q2-press-release",
+ "kind": "conference",
+ "event": "Q2 FY27 results press release, 24 Oct 2026",
+ "date": "2026-10-24",
+ "links": [
+  {
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2219aa74-fce9-4375-8839-2cadefbaa98a.pdf",
+   "author": "Permanent Magnets (press release filed with BSE; MD's comments)",
+   "grade": "company",
+   "images": [],
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "text_file": "data/sources/PERMAGN/2026-10-q2-press-release.txt"
+}
