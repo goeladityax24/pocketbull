@@ -6,13 +6,13 @@
   "companyId": "2457",
   "warehouseId": "110125798",
   "ratios": {
-    "market cap": 737,
-    "current price": 857,
-    "high": 1005,
+    "market cap": 828,
+    "current price": 961,
+    "high": 1145,
     "low": 619,
-    "stock p/e": 40.2,
+    "stock p/e": 45.2,
     "book value": 194,
-    "dividend yield": 0.26,
+    "dividend yield": 0.23,
     "roce": 13.8,
     "roe": 10.5,
     "face value": 10
@@ -367,7 +367,7 @@
     {
       "month": "Oct 2026",
       "yearMonth": "2026-10",
-      "transcriptUrl": null,
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5aff03f-e951-4ab4-8505-46c24a51066b.pdf",
       "pptUrl": null,
       "recordingUrl": "https://d14ot07mpjzxe6.cloudfront.net/Audio_Recording_of_Conference_Call_October_24_2026_6a357bfb87.mp3"
     },
@@ -436,5 +436,5 @@
     }
   ],
   "peers": [],
-  "fetchedAt": "2026-10-25T18:28:10.782Z"
+  "fetchedAt": "2026-10-30T18:09:12.599Z"
 }
