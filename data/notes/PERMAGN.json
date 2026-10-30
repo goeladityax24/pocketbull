@@ -1,7 +1,7 @@
 {
- "as_of": "2026-10-25",
+ "as_of": "2026-10-30",
  "descriptor": "Magnetic and current-sensing components maker building alloys, relays and rare-earth magnets",
- "lede": "A 65-year-old Mumbai maker of magnetic and current-sensing parts (shunts and current transformers for electricity meters, sensors and assemblies for EVs and cars) that is adding specialty alloys, relays and, through a subsidiary, rare-earth magnets. H1 FY27 revenue grew 32% at a ~21% EBITDA margin, ahead of guidance, but the new businesses keep arriving later than promised and the rare-earth plan dwarfs the company's size.",
+ "lede": "A 65-year-old Mumbai maker of magnetic and current-sensing parts (shunts and current transformers for electricity meters, sensors and assemblies for EVs and cars) that is adding specialty alloys, relays and, through a subsidiary, rare-earth magnets. H1 FY27 revenue grew 32% at a ~21% EBITDA margin on EV demand, and management raised its FY27 margin outlook to 20-25%; but alloys, relays and magnets all slipped again in October, and PML's stake in the magnet subsidiary is to fall to about half.",
  "market": {
   "price": 857,
   "mcap_cr": 737,
@@ -12,11 +12,11 @@
  "short_version": [
   {
    "lead": "What's going right",
-   "text": "Q2 FY27 revenue +49% to ₹72 Cr with a 24.6% EBITDA margin on EV and smart-meter demand; H1 FY27 +32%, above the 20-30% FY27 guidance. FY26 guidance (10-15% growth) was met. Rare-earth Phase 2 lines were commissioned in October, on time."
+   "text": "Q2 FY27 revenue +49% to ₹72 Cr with a 24.6% EBITDA margin on EV and smart-meter demand; H1 FY27 +32%. FY27 guidance: 20-30% growth, margin raised to 20-25% (from 15-18%). FY26 guidance was met, and the rare-earth Phase 2 lines were commissioned in October, on time, with a 25% ECMS capex incentive approved."
   },
   {
    "lead": "What to be sceptical about",
-   "text": "Relays slipped three times (FY26 → H2 FY27 → pilot only, ramp-up FY28); the alloy furnace had teething issues. Consolidated debt rose from ₹24 Cr to ₹92 Cr for subsidiary capex, return on new capital was negative over FY24-26, and a 2015 winding-up order is still only stayed in court."
+   "text": "Relays slipped three times (FY26 → H2 FY27 → ramp-up FY28); alloys cut to ₹40-50 Cr for FY27 after furnace breakdowns (with delay penalties); magnet revenue pushed to FY28. EV demand has orders for H2 only. Consolidated debt rose from ₹24 Cr to ₹92 Cr for subsidiary capex, return on new capital was negative over FY24-26, and a 2015 winding-up order is still only stayed in court."
   },
   {
    "lead": "Price",
@@ -325,7 +325,7 @@
        "cells": [
         "FY27 revenue +20-30%, EBITDA 15-18%",
         "May 26",
-        "H1 FY27 +32% at ~21% margin",
+        "H1 FY27 +32% at ~21% margin; margin outlook raised to 20-25% (Oct 26)",
         {
          "text": "Ahead",
          "tag": "ahead"
@@ -349,10 +349,22 @@
        "cells": [
         "Alloys 3-4x FY26",
         "May 26",
-        "Furnace teething issues in H1; better use expected in H2",
+        "Cut to ₹40-50 Cr (H1 ~₹12 Cr) after furnace breakdowns",
         {
-         "text": "Pending",
-         "tag": "pending"
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Rare-earth magnet sales ₹10-15 Cr in Q4 FY27",
+        "May 26",
+        "Pushed to FY28 (₹10-40 Cr) pending customer approval",
+        {
+         "text": "Missed",
+         "tag": "missed"
         }
        ],
        "highlight": false
@@ -404,6 +416,11 @@
        "lead": "",
        "text": "PML lent ₹2.73 Cr to and guaranteed ₹0.83 Cr for Quantum Magnetics in FY26.",
        "src": "AR p.70"
+      },
+      {
+       "lead": "",
+       "text": "PML's stake in Quantum Magnetics is to fall to 49-50%; terms of the new shareholder not disclosed on the call.",
+       "src": "Oct 2026 call p.12"
       }
      ]
     }
@@ -563,7 +580,7 @@
        "cells": [
         "Rare-earth project size and funding",
         "Financial",
-        "₹550-750 Cr plan vs ₹737 Cr market cap"
+        "₹400 Cr machinery approved under ECMS; PML stake to ~50%"
        ],
        "highlight": false
       },
@@ -651,15 +668,16 @@
  ],
  "watch": [
   "H2 FY27 revenue vs 20-30% FY27 growth",
-  "EBITDA margin vs 15-18%",
+  "EBITDA margin vs 20-25%",
+  "Alloy furnace utilisation vs ₹40-50 Cr",
   "Relay pilot supplies",
   "Quantum Magnetics product approvals and Q4 sales",
   "Debt and how the rare-earth plan is funded"
  ],
  "sources": [
-  "Screener financials, shareholding and prices (25 Oct 2026)",
+  "Screener financials, shareholding and prices (30 Oct 2026)",
   "Q2 FY26 (14 Nov 2025) and Q4 FY26 (18 May 2026) call transcripts",
-  "Q2 FY27 press release (24 Oct 2026); the 24 Oct call transcript is not yet filed",
+  "Q2 FY27 press release and call transcript (24 Oct 2026)",
   "FY26 annual report",
   "Peer data from Screener",
   "Arihant Bharat Connect compendium checked: Permanent Magnets not covered"

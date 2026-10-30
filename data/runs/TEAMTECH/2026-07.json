@@ -1,0 +1,301 @@
+{
+  "symbol": "TEAMTECH",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": null,
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/TEAMTECH_18072026191758_LetterPPT18072026.pdf",
+    "recordingUrl": null
+  },
+  "basis": "standalone",
+  "createdAt": "2026-10-30T18:11:40.291Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "FY26",
+    "call_date": "2026-07-18",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "H1 FY27 revenue to match all of FY26 (~₹54 Cr)",
+        "kind": "absolute",
+        "low": 54.23,
+        "high": 54.23,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "H1 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 revenue was ₹54.23 Cr per the deck (₹53 Cr on Screener). The monthly chart projects H1 FY27 at about ₹53.7 Cr.",
+        "quote": "Q1 revenue is ~ 18 Cr, expected to achieve the previous year's total revenue by the end of H1 FY27",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "previous year's total revenue",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue ₹94.6 Cr (projection)",
+        "kind": "absolute",
+        "low": 94.59,
+        "high": 94.59,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held. ₹94.59 Cr is FY27, +74% on FY26.",
+        "quote": "20.06 30.30 32.71 54.23 94.59 140.00",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "94.59",
+        "revises": null
+      },
+      {
+        "metric": "ebitda",
+        "metric_label": "FY27 EBITDA ₹27.9 Cr (projection)",
+        "kind": "absolute",
+        "low": 27.85,
+        "high": 27.85,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held. EBITDA margin 29.44%.",
+        "quote": "4.20 9.11 9.51 17.50 27.85 42.00",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "27.85",
+        "revises": null
+      },
+      {
+        "metric": "pat",
+        "metric_label": "FY27 PAT ₹20 Cr (projection)",
+        "kind": "absolute",
+        "low": 20,
+        "high": 20,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held. PAT margin 21.14%.",
+        "quote": "3.00 7.70 7.80 11.60 20.00 29.40",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "20.00",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY28 revenue ₹140 Cr (projection)",
+        "kind": "absolute",
+        "low": 140,
+        "high": 140,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held.",
+        "quote": "20.06 30.30 32.71 54.23 94.59 140.00",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "140.00",
+        "revises": null
+      },
+      {
+        "metric": "ebitda",
+        "metric_label": "FY28 EBITDA ₹42 Cr (projection)",
+        "kind": "absolute",
+        "low": 42,
+        "high": 42,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held. EBITDA margin 30%.",
+        "quote": "4.20 9.11 9.51 17.50 27.85 42.00",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "42.00",
+        "revises": null
+      },
+      {
+        "metric": "pat",
+        "metric_label": "FY28 PAT ₹29.4 Cr (projection)",
+        "kind": "absolute",
+        "low": 29.4,
+        "high": 29.4,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From the 'Key Financial Metrics' chart (₹ Cr, FY23 to FY28 projected); the quote is the chart's series as printed. No earnings call held. PAT margin 21%.",
+        "quote": "3.00 7.70 7.80 11.60 20.00 29.40",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "29.40",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Exports ~6% of FY27 revenue",
+        "kind": "absolute",
+        "low": 6,
+        "high": 6,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Exports expected to contribute ~6% of FY27 revenue.",
+        "page": 12,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "~6%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Capacity from ~36,000 to ~104,000 sq m",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "new facility plus future expansion; no date given",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The new ~44,000 sq ft unit adds 68,000 sq m (~3x current); IPO money of ₹11.9 Cr was earmarked for plant and machinery in FY27 (RHP).",
+        "quote": "Scale production capacity from ~36,000 sq.m to ~104,000 sq.m through the new manufacturing facility and future plant expansion.",
+        "page": 10,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "~104,000 sq.m",
+        "revises": null
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Growth funded without external debt",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Debt-free after using ₹15.5 Cr of IPO money to repay cash credit and a term loan; borrowings ₹1 Cr at Sep 2026.",
+        "quote": "Existing cash reserves are sufficient to support planned expansion and strategic investments without the need for external debt financing.",
+        "page": 13,
+        "speaker": "Company (investor presentation, 18 Jul 2026)",
+        "confidence": "high",
+        "keyword": "without the need for external debt",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "First investor presentation after the 26 May 2026 listing on NSE Emerge (no call held). Teamtech, a Hyderabad maker of modular steel T-formwork that it sells, rents and refurbishes for infrastructure projects (bullet train, Delhi-Mumbai Expressway, Subansiri dam), reported FY26 revenue of ₹54 Cr (+66%), EBITDA ₹17.5 Cr (32%) and PAT ₹11.6 Cr. The deck projects FY27 revenue of ₹94.6 Cr (EBITDA ₹27.9 Cr, PAT ₹20 Cr) and FY28 of ₹140 Cr (EBITDA ₹42 Cr), with H1 FY27 alone expected to match FY26 after a ₹18 Cr Q1. A new 44,000 sq ft unit roughly triples capacity; the company is debt-free after its IPO.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 projection: revenue ₹94.6 Cr, EBITDA ₹27.9 Cr, PAT ₹20 Cr",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "FY28 projection: revenue ₹140 Cr, EBITDA ₹42 Cr, PAT ₹29.4 Cr",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "H1 FY27 revenue to match FY26's ₹54 Cr",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "Capacity to ~104,000 sq m from ~36,000",
+          "page": 10
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Strategic capacity expansion to ~3x current scale, positioning TeamTech for accelerated growth.",
+        "page": 8
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Projections come from a chart with no call or explanation of assumptions.",
+          "page": 12
+        },
+        {
+          "text": "FY26 operating cash flow was only ₹3 Cr on ₹12 Cr of profit; debtor days were 204 (Screener).",
+          "page": null
+        },
+        {
+          "text": "FY26 annual report: ₹13.5 Cr of sales (about a quarter of revenue) to a related party, apparently Teamtech Formwork Solutions FZC (UAE), in which all three directors are interested.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "H1 FY27 revenue vs ₹54 Cr (filed 29 Oct: ₹48.7 Cr)",
+        "H2 FY27 vs the ₹94.6 Cr full-year projection",
+        "New unit start",
+        "Receivables and related-party sales"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Modular steel T-formwork and custom formwork systems for vertical concrete (piers, walls, shafts, tanks), sold, rented and refurbished; in-house design software",
+        "customers": "Infrastructure EPC contractors (L&T, Tata Projects, Shapoorji Pallonji, Patel Engineering, Cemindia and others) in India and the UAE",
+        "revenue_mix": "Sales, rental and refurbishment; exports ~6% of FY27 revenue expected",
+        "demand_drivers": "Highways, rail, metro, bridges, dams and high-rise construction; shift from timber to modular formwork"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/TEAMTECH_18072026191758_LetterPPT18072026.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/TEAMTECH_18072026191758_LetterPPT18072026.pdf",
+    "transcriptPages": 14,
+    "transcriptHasText": true
+  }
+}

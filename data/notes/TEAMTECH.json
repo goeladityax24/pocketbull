@@ -1,0 +1,661 @@
+{
+ "as_of": "2026-10-30",
+ "descriptor": "Modular steel formwork maker and renter for infrastructure projects",
+ "lede": "A Hyderabad company that designs, makes, rents and refurbishes modular steel formwork, the reusable moulds that hold concrete for bridge piers, walls and tanks, for contractors such as L&T and Tata Projects. It listed on NSE Emerge in May 2026, projects FY27 revenue of ₹95 Cr (+74%), and delivered ₹49 Cr in H1. The catch: a quarter of FY26 sales went to a UAE company its directors are interested in, and cash collection lags profit badly.",
+ "market": {
+  "price": 159,
+  "mcap_cr": 477,
+  "pe": 25.6,
+  "pb": 5.4,
+  "ev_ebitda": 17
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "FY26 revenue ₹53 Cr (+61%) at a 33% EBITDA margin; H1 FY27 revenue ₹48.7 Cr (+3x) and PAT ₹10 Cr. Management projects FY27 at ₹94.6 Cr revenue and ₹20 Cr PAT, and FY28 at ₹140 Cr; a new unit roughly triples capacity and the company is debt-free after its IPO."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "₹13.5 Cr of FY26 sales (about a quarter) went to a related UAE company, which still owed ₹9.7 Cr at year-end; debtor days hit 204 and operating cash flow was ₹3 Cr. Shareholders approved related-party deals of up to ₹200 Cr per party and let a promoter director be paid up to ₹2 Cr a year. H1 FY27 fell ~10% short of the deck's own H1 target."
+  },
+  {
+   "lead": "Price",
+   "text": "~26x trailing earnings and ~17x EV/EBITDA, against Sanghvi Movers at 16x and Action Construction Equipment at 27x."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Teamtech designs project-specific formwork with its own software (3-4 day proposals against ~15 days typical), fabricates modular T-formwork in Telangana, and earns from outright sales, project-length rentals and refurbishment of used panels. Steel modular panels last ~200 reuse cycles against 6-10 for timber, and ~80% of Indian construction still uses timber.",
+     "src": "Jul 2026 deck p.5, p.7"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "36,000 sq m",
+       "label": "Current production capacity"
+      },
+      {
+       "value": "~104,000 sq m",
+       "label": "Target capacity after the new unit and later expansion"
+      },
+      {
+       "value": "100+",
+       "label": "Employees"
+      },
+      {
+       "value": "~6%",
+       "label": "Expected export share of FY27 revenue"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the profit comes from",
+     "items": [
+      {
+       "lead": "",
+       "text": "Rental and refurbishment give recurring income from the same panels.",
+       "src": "Jul 2026 deck p.7"
+      },
+      {
+       "lead": "",
+       "text": "Custom designs for complex structures (bullet train piers, extradosed bridges, dams) earn more than standard systems.",
+       "src": "Jul 2026 deck p.8"
+      },
+      {
+       "lead": "",
+       "text": "Domestic manufacturing undercuts imported European systems on lead time and cost.",
+       "src": "Jul 2026 deck p.7"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3–5 years",
+     "items": [
+      {
+       "lead": "",
+       "text": "Started as a partnership in 2017; revenue from ₹12 Cr (FY22) to ₹53 Cr (FY26).",
+       "src": "Jul 2026 deck p.2"
+      },
+      {
+       "lead": "",
+       "text": "Listed on NSE Emerge on 26 May 2026; IPO money for machinery (₹11.9 Cr), debt repayment (₹15.5 Cr) and working capital (₹13.8 Cr).",
+       "src": "AR p.24; RHP p.86"
+      },
+      {
+       "lead": "",
+       "text": "Building a ~44,000 sq ft unit to add 68,000 sq m of capacity.",
+       "src": "Jul 2026 deck p.8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (standalone)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        12,
+        20,
+        30,
+        33,
+        53
+       ]
+      }
+     ],
+     "caption": "H1 FY27 ₹48.7 Cr (H1 FY26 ₹16 Cr)."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        1,
+        3,
+        8,
+        8,
+        12
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        1,
+        0,
+        4,
+        6,
+        3
+       ]
+      }
+     ],
+     "caption": null
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Standalone",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "67%",
+        "50%",
+        "10%",
+        "61%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "15%",
+        "21%",
+        "30%",
+        "28%",
+        "33%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Net profit, ₹ Cr",
+        "1",
+        "3",
+        "8",
+        "8",
+        "12"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "—",
+        "47%",
+        "64%",
+        "34%",
+        "41%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Operating cash flow, ₹ Cr",
+        "1",
+        "0",
+        "4",
+        "6",
+        "3"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "69",
+        "36",
+        "92",
+        "82",
+        "204"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Profit is not turning into cash:",
+       "text": "₹32 Cr of profit over FY22-26 against ₹14 Cr of operating cash flow; receivables more than doubled in FY26, much of it owed by the related UAE company.",
+       "src": null
+      },
+      {
+       "lead": "Debt-free now:",
+       "text": "borrowings fell from ₹17 Cr (Mar 2026) to ₹1 Cr (Sep 2026) using IPO money, as the prospectus promised.",
+       "src": null
+      },
+      {
+       "lead": "Return on new capital (ROIIC): about 23%,",
+       "text": "on ~₹32 Cr added from FY24 to FY26.",
+       "src": null
+      },
+      {
+       "lead": "Tax rate jumped",
+       "text": "from 2-4% in FY24-25 to 27% in FY26, so past profit growth overstates the pre-tax trend.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": false
+      },
+      {
+       "label": "What happened",
+       "numeric": false
+      },
+      {
+       "label": "Verdict",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Repay ₹15.5 Cr of cash credit and term loans from IPO money in FY27",
+        "May 26 (RHP)",
+        "Borrowings ₹1 Cr at Sep 2026",
+        {
+         "text": "Kept",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "H1 FY27 revenue to match FY26 (~₹54 Cr)",
+        "Jul 26",
+        "₹48.7 Cr, about 10% short",
+        {
+         "text": "Missed",
+         "tag": "missed"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "FY27 revenue ₹94.6 Cr, PAT ₹20 Cr",
+        "Jul 26",
+        "H1: ₹48.7 Cr and ₹10 Cr, about half of each",
+        {
+         "text": "On track",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Capacity ~3x with the new unit",
+        "Jul 26",
+        "No date given; work in progress ₹8 Cr",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "text",
+     "text": "Listed only five months ago, with one presentation and no earnings call. The deck's projections are specific but unexplained.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": null,
+       "text": "Promoters (Eldo Varghese, Chaitanya Prakash Kotagiri, Salinraj Kunnummal and relatives) hold 59.7%; domestic institutions 10.8%, foreign 2.3%; ~700 shareholders.",
+       "src": null
+      },
+      {
+       "lead": null,
+       "text": "No pledge shown.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "",
+       "text": "FY26 sales of ₹13.5 Cr to a related party, apparently Teamtech Formwork Solutions FZC (UAE), in which all three directors are interested; ₹9.7 Cr owed at year-end.",
+       "src": "AR p.82"
+      },
+      {
+       "lead": "",
+       "text": "The AGM approved related-party transactions of up to ₹200 Cr with each related party.",
+       "src": "AR p.8"
+      },
+      {
+       "lead": "",
+       "text": "Pay cap for promoter-director Salinraj Kunnummal raised to ₹2 Cr a year (FY26 pay ₹50 lakh); he also runs Gulf Equipment Hiring in Bahrain.",
+       "src": "AR p.7, p.81"
+      },
+      {
+       "lead": "",
+       "text": "The annual report's text layer is encoded so it can't be searched or copied normally.",
+       "src": "AR"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (FY26)",
+       "numeric": false
+      },
+      {
+       "label": "Revenue, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "EBITDA margin",
+       "numeric": true
+      },
+      {
+       "label": "Net profit, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "ROCE",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Teamtech Formwork",
+        "53",
+        "33%",
+        "12",
+        "41%",
+        "25.6x"
+       ],
+       "highlight": true
+      },
+      {
+       "cells": [
+        "Sanghvi Movers (crane rental)",
+        "1,070",
+        "37%",
+        "184",
+        "16%",
+        "15.5x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Action Construction Equipment",
+        "3,280",
+        "15%",
+        "415",
+        "32%",
+        "27.1x"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "No listed formwork maker in India to compare with; the deck positions Teamtech against imported European systems (p.7). These are listed equipment-rental and construction-equipment companies."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Design software and fast proposals",
+       "text": "win complex infrastructure work.",
+       "src": "Jul 2026 deck p.7"
+      },
+      {
+       "lead": "Track record on landmark projects",
+       "text": "(bullet train, Delhi-Mumbai Expressway, Subansiri) with top EPC contractors.",
+       "src": "Jul 2026 deck p.8-9"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Lumpy, project-based demand",
+       "text": "from a few large contractors.",
+       "src": null
+      },
+      {
+       "lead": "Fabrication is easy to copy;",
+       "text": "the edge is design and execution.",
+       "src": null
+      },
+      {
+       "lead": "Related-party exports",
+       "text": "make it hard to judge true third-party demand.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Related-party sales and receivables",
+        "Governance",
+        "₹13.5 Cr sales, ₹9.7 Cr owed (FY26)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion",
+        "Financial",
+        "Debtor days 204 in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Projections missed",
+        "Execution",
+        "H1 FY27 ~10% below the deck's H1 target"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Infrastructure spending slows",
+        "Market",
+        "Depends on government capex"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹735 Cr",
+       "sub": "FY28 market cap · about +54%",
+       "text": "Meets the deck: ₹140 Cr revenue and ₹29.4 Cr PAT in FY28, valued at 25x."
+      },
+      {
+       "name": "Base",
+       "value": "₹440 Cr",
+       "sub": "FY28 market cap · about –8%",
+       "text": "~₹115 Cr in FY28 at a 19% PAT margin (₹22 Cr), valued at 20x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹170 Cr",
+       "sub": "FY28 market cap · about –65%",
+       "text": "Related-party sales fade and growth stalls: ~₹80 Cr at 15% (₹12 Cr), valued at 14x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our assumptions, not company guidance.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "25.6x",
+       "label": "P/E, trailing"
+      },
+      {
+       "value": "~17x",
+       "label": "EV / trailing EBITDA"
+      },
+      {
+       "value": "5.4x",
+       "label": "Price / book value"
+      },
+      {
+       "value": "~23%",
+       "label": "Return on incremental capital, FY24-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Teamtech earns high margins in a niche that should grow with infrastructure spending, and H1 FY27 shows the step-up the deck projects. But a large slice of revenue and receivables involves a company its own directors are interested in, so the numbers need checking against cash. Receivables, related-party sales and the full-year result against ₹94.6 Cr are what to watch.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "H2 FY27 revenue vs the ₹94.6 Cr full-year projection",
+  "Related-party sales and the FZC receivable",
+  "Debtor days and operating cash flow",
+  "New unit start",
+  "First earnings call"
+ ],
+ "sources": [
+  "Screener financials and shareholding (30 Oct 2026)",
+  "Investor presentation, 18 Jul 2026 (no earnings calls held)",
+  "H1 FY27 results filed 29 Oct 2026",
+  "FY26 annual report (decoded from its shifted font encoding)",
+  "Red Herring Prospectus (May 2026)",
+  "Peer data from Screener",
+  "Arihant Bharat Connect compendium checked: Teamtech not covered"
+ ]
+}

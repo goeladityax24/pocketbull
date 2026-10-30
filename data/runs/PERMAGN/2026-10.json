@@ -1,0 +1,305 @@
+{
+  "symbol": "PERMAGN",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5aff03f-e951-4ab4-8505-46c24a51066b.pdf",
+    "pptUrl": null,
+    "recordingUrl": "https://d14ot07mpjzxe6.cloudfront.net/Audio_Recording_of_Conference_Call_October_24_2026_6a357bfb87.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-10-30T18:09:12.223Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-24",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "FY27 revenue growth 20-30%",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "H1 FY27 grew 32%; relays won't add much this year, EV demand makes up for it (p.6-7).",
+        "quote": "due to EV pickup, now the total overall growth can be somewhere between 20% to 30%. My expectation, it will be around that level in this year.",
+        "page": 7,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "20% to 30%",
+        "revises": "FY27 revenue growth 20-30%"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "FY27 EBITDA margin 20-25%",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Raised from 15-18% (May 2026). H1 FY27 was ~25% standalone; H2 'a little bit lower' as domestic alloys grow. The CFO confirmed '20% to 25%' for the full year (p.8-9).",
+        "quote": "So, between 20% to 25%.",
+        "page": 8,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "between 20% to 25%",
+        "revises": "FY27 EBITDA margin 15-18%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Alloys revenue ₹40-50 Cr in FY27",
+        "kind": "absolute",
+        "low": 40,
+        "high": 50,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Alloys",
+        "condition": "Full-year figure, not H2 alone (p.9); H1 was ~₹12 Cr. Cut from 3-4x FY26 (~₹70-80 Cr) after furnace breakdowns; alloy EBITDA near break-even this year.",
+        "quote": "Second half of the year alloy business, we should expect the total turnover coming out of the alloy business somewhere in the range of INR40 to INR50 crores roughly this year.",
+        "page": 7,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "INR40 to INR50 crores",
+        "revises": "Alloys revenue 3-4x FY26 in FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Alloys revenue ₹70-80 Cr in FY28",
+        "kind": "absolute",
+        "low": 70,
+        "high": 80,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Alloys",
+        "condition": null,
+        "quote": "And next year, yes, it is possible to increase that to maybe INR70 crores, INR80 crores.",
+        "page": 10,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "medium",
+        "keyword": "INR70 crores, INR80 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Relays: pilot supplies in H2 FY27, ramp-up in FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Third delay. The MD would not give FY28 relay revenue; ₹40-50 Cr 'is possible' once approved (p.13). Gross margin 15-20%.",
+        "quote": "On the relays project, we expect to make some pilot supplies in the second half of this year. However, commercial ramp-up will now move to the financial year '28.",
+        "page": 4,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "move to the financial year '28",
+        "revises": "Relays commercial ramp-up in H2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "No rare-earth magnet revenue in FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "Waiting for an international customer's plant visit and product approval.",
+        "quote": "We do not get any revenue this year, but that it will get pushed to next year.",
+        "page": 8,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "pushed to next year",
+        "revises": "Rare-earth magnet sales ₹10-15 Cr in Q4 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Rare-earth magnet revenue ₹10-40 Cr in FY28",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Quantum Magnetics (rare-earth magnets)",
+        "condition": "Phase 2 capacity could earn ₹40-60 Cr at full use (p.13); commercial ramp-up in FY27-28 (p.12).",
+        "quote": "Something like maybe somewhere between INR10 crores to INR30 crores, INR40 crores, something like that which is a very large range because I don't know how much share the customer will give us.",
+        "page": 13,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "low",
+        "keyword": "INR10 crores to INR30 crores, INR40 crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "EV demand steady for the rest of FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "EV",
+        "condition": "Orders in hand for H2 FY27, none yet for H1 FY28 (p.19). Automotive sales ₹24 Cr in Q2 vs ₹15 Cr in Q1 (p.18).",
+        "quote": "The demand from our customers in the West is healthy, and based on current projections, we expect EV demand to remain at similar levels for the rest of the financial year.",
+        "page": 3,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "similar levels",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Move to the new consolidated plant in ~2 years",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "about FY29",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Land (₹25 Cr) held up by legal matters; building ~₹30 Cr; saves ~₹5 Cr a year of rent.",
+        "quote": "So, I'm still expecting 2 more years before we move into the new facility.",
+        "page": 17,
+        "speaker": "Sharad Taparia (Managing Director)",
+        "confidence": "high",
+        "keyword": "2 more years",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 standalone revenue rose 49% to ₹72.5 Cr with a 25% EBITDA margin as EV current-sensing parts (automotive ₹24 Cr vs ₹10.5 Cr a year ago) and domestic smart meters picked up. The MD keeps FY27 growth at 20-30% and lifts the margin outlook to 20-25% (from 15-18%). The new businesses slipped again: alloys cut to ₹40-50 Cr this year (from 3-4x FY26) after furnace breakdowns, relays only pilot supplies with ramp-up in FY28, and rare-earth magnet revenue pushed to FY28 (₹10-40 Cr). Quantum Magnetics won ECMS approval (25% capex incentive on ₹400 Cr of machinery), and PML's stake in it is to fall to about 50%.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 EBITDA margin 20-25% (from 15-18%)",
+          "page": 8
+        },
+        {
+          "change": "cut",
+          "text": "FY27 alloys ₹40-50 Cr (from 3-4x FY26, ~₹70-80 Cr)",
+          "page": 7
+        },
+        {
+          "change": "delayed",
+          "text": "Relays ramp-up to FY28; rare-earth magnet revenue pushed to FY28",
+          "page": 4
+        },
+        {
+          "change": "new",
+          "text": "Quantum Magnetics ECMS approval; PML's stake to fall to ~50%",
+          "page": 12
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "And I am quite bullish about our business and thank you all.",
+        "page": 19
+      },
+      "analyst_questions": [
+        {
+          "topic": "EV sustainability",
+          "answer": "Two or three existing Western customers' programmes; orders for H2, no forecast for FY28.",
+          "page": 5
+        },
+        {
+          "topic": "Alloys",
+          "answer": "Furnace breakdowns cost months; orders pushed back, with delay penalties paid to customers.",
+          "page": 9
+        },
+        {
+          "topic": "Quantum Magnetics",
+          "answer": "ECMS approved for ₹400 Cr of machinery at 25% incentive; PML's stake to be 49-50%; Phase 3 only after Phase 2 succeeds.",
+          "page": 12
+        },
+        {
+          "topic": "Relays",
+          "answer": "Design iterations with customers continue; no FY28 number given.",
+          "page": 12
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Every new business slipped again: alloys cut, relays to FY28, magnets to FY28.",
+          "page": 8
+        },
+        {
+          "text": "Delay penalties paid to alloy customers.",
+          "page": 9
+        },
+        {
+          "text": "PML's stake in Quantum Magnetics to fall from 100% to ~50%.",
+          "page": 12
+        },
+        {
+          "text": "Q2 strength rests on a few Western EV customers with no FY28 orders yet.",
+          "page": 19
+        }
+      ],
+      "watch_next": [
+        "Q3 FY27 revenue and margin vs 20-30% growth, 20-25% margin",
+        "Alloy furnace utilisation",
+        "Relay pilot lots and customer agreements",
+        "Quantum customer approval and the stake sale terms"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Current-sensing parts for EV inverters, shunts and CTs for electricity meters, alloys, relays; rare-earth magnets via Quantum Magnetics",
+        "customers": "Western EV and auto makers, Indian smart-meter makers, oil and gas, industrial and aerospace alloy buyers",
+        "revenue_mix": "Q2 FY27: domestic 51%, exports 49%; automotive ₹24 Cr of ₹72.5 Cr",
+        "demand_drivers": "EV platforms in Europe and the US, India's smart-meter rollout, alloy import substitution, rare-earth localisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5aff03f-e951-4ab4-8505-46c24a51066b.pdf",
+    "pptUrl": null,
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}
