@@ -8,7 +8,7 @@
     "recordingUrl": "https://backend.acutaas.com/resources/investor/10047956-1793102736502.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:34:10.887Z",
+  "createdAt": "2026-11-03T21:46:26.944Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -227,27 +227,27 @@
         {
           "change": "raised",
           "text": "FY27 revenue growth to about 30% from 25%",
-          "page": 5
+          "page": null
         },
         {
           "change": "raised",
           "text": "FY27 EBITDA margin to 38-40% (was similar to FY26's 35.9%)",
-          "page": 5
+          "page": null
         },
         {
           "change": "raised",
           "text": "CDMO ₹1,000 Cr now in FY27, a year early",
-          "page": 4
+          "page": null
         },
         {
           "change": "new",
           "text": "CDMO ₹2,000 Cr target by FY30",
-          "page": 4
+          "page": null
         },
         {
           "change": "raised",
           "text": "FY27 capex about ₹300 Cr (was ₹90-95 Cr), including bulk electronic-grade chemicals plant",
-          "page": 5
+          "page": null
         }
       ],
       "tone": {
@@ -259,40 +259,40 @@
         {
           "topic": "New CDMO products in H2",
           "answer": "No product-wise numbers; 8-9 products enter the revenue stream over 1-1.5 years and the ₹1,000 Cr is backed by orders already in hand.",
-          "page": 7
+          "page": null
         },
         {
           "topic": "Electrolyte additive pricing",
           "answer": "Long-term contracts reset prices with raw materials and currency; realisation can rise to the early teens in dollars but not the $30-35 seen in the spot market.",
-          "page": 9
+          "page": null
         },
         {
           "topic": "Margin sustainability",
           "answer": "38-40% is for FY27 only; CDMO mix and operating leverage (Ankleshwar at 30% use, battery chemicals very low) support it.",
-          "page": 12
+          "page": null
         },
         {
           "topic": "Korea plant economics",
           "answer": "Revenue only from FY28 and small at first while customers qualify the products.",
-          "page": 10
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Working capital stretched to 115 days from 99 days in Q1 because of higher debtor days.",
-          "page": 6
+          "page": null
         },
         {
           "text": "Specialty chemicals revenue down 20% year on year; legacy commodity products still being phased out.",
-          "page": 5
+          "page": null
         },
         {
           "text": "One US customer's acquisition paused BFC shipments in the quarter.",
-          "page": 4
+          "page": null
         },
         {
           "text": "CDMO growth leans on a few large molecules for innovator customers (e.g. Darolutamide); management declined to comment on product-level demand.",
-          "page": 8
+          "page": null
         }
       ],
       "watch_next": [

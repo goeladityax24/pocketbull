@@ -8,7 +8,7 @@
     "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/E2E%20Networks%20Limited_Earnings%20Call%20Audio%20Recording_16-oct-2026.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:35:31.466Z",
+  "createdAt": "2026-11-03T21:46:29.875Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -87,22 +87,22 @@
         {
           "change": "delayed",
           "text": "Second B200 lot now 'this quarter' (Q3), after being slated for Q2",
-          "page": 5
+          "page": null
         },
         {
           "change": "new",
           "text": "Nearly ₹1,000 Cr multi-year sovereign-AI contract through June 2029",
-          "page": 3
+          "page": null
         },
         {
           "change": "new",
           "text": "New Chief Revenue Officer, Field CTO and a strategic advisor",
-          "page": 3
+          "page": null
         },
         {
           "change": "reiterated",
           "text": "70%+ EBITDA margin business over the medium to long term",
-          "page": 5
+          "page": null
         }
       ],
       "tone": {
@@ -114,40 +114,40 @@
         {
           "topic": "Exit MRR / guidance",
           "answer": "'We always say, look back at what we have done rather than giving a future guidance.'",
-          "page": 5
+          "page": null
         },
         {
           "topic": "GPU price rises",
           "answer": "Will not chase short-term hourly rates; some GPUs are kept for own platform R&D; uncontracted capacity expected to earn more.",
-          "page": 6
+          "page": null
         },
         {
           "topic": "Capex / more GPUs",
           "answer": "No forward-looking predictions; plans will be announced once fructified. No upper limit on debt as long as cash flow repays it.",
-          "page": 8
+          "page": null
         },
         {
           "topic": "Customer mix",
           "answer": "India AI Mission was 13-15% of Q2 revenue; international 20-25%; no contracted-revenue share given.",
-          "page": 8
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Next B200 lot is a quarter late and no advance payment shows on the balance sheet, as an analyst noted.",
-          "page": 8
+          "page": null
         },
         {
           "text": "No guidance, no capex plan and no disclosure of contracted versus short-term revenue, so quarterly revenue is hard to forecast.",
-          "page": 5
+          "page": null
         },
         {
           "text": "Part of the GPU fleet is used internally rather than sold, which holds back rentable capacity.",
-          "page": 4
+          "page": null
         },
         {
           "text": "A ₹1,500 Cr fundraise enabling resolution is in place; dilution timing unclear.",
-          "page": 9
+          "page": null
         }
       ],
       "watch_next": [

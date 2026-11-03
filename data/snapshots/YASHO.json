@@ -1,32 +1,25 @@
 {
   "symbol": "YASHO",
   "name": "Yasho Industries Ltd",
-  "screenerUrl": "https://www.screener.in/company/YASHO/",
-  "basis": "standalone",
+  "screenerUrl": "https://www.screener.in/company/YASHO/consolidated/",
+  "basis": "consolidated",
   "companyId": "1274312",
-  "warehouseId": "20308836",
+  "warehouseId": "74198260",
   "ratios": {
-    "market cap": 5163,
-    "current price": 4283,
+    "market cap": 4087,
+    "current price": 3390,
     "high": 4994,
     "low": 1130,
-    "stock p/e": 98.7,
-    "book value": 366,
+    "stock p/e": 47.3,
+    "book value": 424,
     "dividend yield": 0.01,
-    "roce": 8.44,
-    "roe": 4.98,
+    "roce": 8.95,
+    "roe": 5.85,
     "face value": 10
   },
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,73 +103,79 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        152,
-        139,
-        129,
-        176,
-        176,
-        162,
-        151,
-        190,
-        198,
-        176,
-        198,
-        245,
-        314
+        141,
+        130,
+        172,
+        174,
+        167,
+        149,
+        185,
+        199,
+        183,
+        202,
+        246,
+        308,
+        348
       ],
       "expenses": [
-        127,
-        118,
-        106,
-        147,
+        120,
+        108,
+        141,
+        151,
+        136,
+        122,
+        149,
+        165,
         150,
-        134,
-        124,
-        157,
-        164,
-        145,
-        166,
-        205,
-        241
+        168,
+        202,
+        235,
+        275
       ],
       "operating_profit": [
-        25,
         21,
-        24,
-        29,
-        26,
-        29,
-        27,
-        34,
-        34,
+        22,
         31,
-        32,
-        40,
+        23,
+        31,
+        27,
+        36,
+        33,
+        33,
+        33,
+        44,
+        73,
         73
       ],
       "opm_pct": [
-        17,
         15,
-        18,
-        17,
-        15,
-        18,
-        18,
-        18,
         17,
         18,
-        16,
-        16,
-        23
+        13,
+        19,
+        18,
+        19,
+        17,
+        18,
+        17,
+        18,
+        24,
+        21
       ],
       "other_income": [
-        1,
         2,
-        3,
+        4,
         0,
         0,
         0,
@@ -186,28 +185,28 @@
         0,
         0,
         0,
-        1
+        1,
+        0
       ],
       "interest": [
-        3,
         4,
-        3,
+        4,
         4,
         14,
+        15,
+        17,
+        15,
+        15,
         14,
-        16,
         14,
         14,
-        14,
-        14,
-        14,
-        11
+        11,
+        13
       ],
       "depreciation": [
         4,
         4,
         4,
-        4,
         12,
         12,
         13,
@@ -216,115 +215,74 @@
         13,
         14,
         14,
-        14
+        14,
+        15
       ],
       "pbt": [
-        20,
-        16,
-        20,
-        21,
-        1,
-        2,
+        15,
+        18,
+        23,
         -2,
-        7,
-        8,
-        4,
         5,
-        13,
-        49
+        -2,
+        8,
+        6,
+        6,
+        6,
+        17,
+        49,
+        45
       ],
       "tax_pct": [
+        24,
+        27,
+        22,
+        21,
+        11,
+        -56,
+        37,
+        37,
+        19,
+        21,
         26,
-        23,
-        25,
         26,
-        34,
-        16,
-        -53,
-        39,
-        25,
-        29,
-        25,
-        26,
-        25
+        26
       ],
       "net_profit": [
-        15,
         12,
-        15,
-        16,
-        1,
-        2,
+        14,
+        18,
+        -2,
+        4,
         -1,
+        5,
         4,
-        6,
-        3,
+        5,
         4,
-        9,
-        36
+        12,
+        36,
+        34
       ],
       "eps": [
-        12.76,
-        10.47,
-        12.97,
-        13.9,
-        0.56,
-        1.8,
-        -0.82,
-        3.55,
-        4.67,
-        2.38,
-        2.9,
-        7.87,
-        30.22
+        10.23,
+        11.88,
+        15.74,
+        -2.16,
+        3.82,
+        -0.72,
+        4.17,
+        3.02,
+        4.03,
+        3.73,
+        10.17,
+        29.9,
+        27.93
       ]
     }
   },
   "annual": {
     "granularity": "year",
     "periods": [
-      {
-        "kind": "year",
-        "fy": 2015,
-        "index": 0,
-        "endDate": "2015-03-31",
-        "label": "FY15"
-      },
-      {
-        "kind": "year",
-        "fy": 2016,
-        "index": 0,
-        "endDate": "2016-03-31",
-        "label": "FY16"
-      },
-      {
-        "kind": "year",
-        "fy": 2017,
-        "index": 0,
-        "endDate": "2017-03-31",
-        "label": "FY17"
-      },
-      {
-        "kind": "year",
-        "fy": 2018,
-        "index": 0,
-        "endDate": "2018-03-31",
-        "label": "FY18"
-      },
-      {
-        "kind": "year",
-        "fy": 2019,
-        "index": 0,
-        "endDate": "2019-03-31",
-        "label": "FY19"
-      },
-      {
-        "kind": "year",
-        "fy": 2020,
-        "index": 0,
-        "endDate": "2020-03-31",
-        "label": "FY20"
-      },
       {
         "kind": "year",
         "fy": 2021,
@@ -370,54 +328,30 @@
     ],
     "rows": {
       "sales": [
-        169,
-        180,
-        195,
-        250,
-        340,
-        297,
         359,
-        614,
-        670,
-        596,
-        680,
-        817
+        613,
+        672,
+        594,
+        676,
+        830
       ],
       "expenses": [
-        154,
-        160,
-        174,
-        223,
-        303,
-        258,
         310,
         520,
-        560,
-        497,
-        563,
-        679
+        557,
+        494,
+        558,
+        687
       ],
       "operating_profit": [
-        15,
-        20,
-        22,
-        27,
-        37,
-        39,
         49,
         93,
-        111,
-        99,
-        116,
-        138
+        115,
+        100,
+        118,
+        143
       ],
       "opm_pct": [
-        9,
-        11,
-        11,
-        11,
-        11,
-        13,
         14,
         15,
         17,
@@ -426,26 +360,14 @@
         17
       ],
       "other_income": [
-        2,
-        0,
-        3,
-        4,
-        3,
-        3,
         10,
         10,
         11,
-        8,
+        7,
         2,
         1
       ],
       "interest": [
-        13,
-        13,
-        14,
-        15,
-        16,
-        15,
         16,
         14,
         16,
@@ -454,12 +376,6 @@
         56
       ],
       "depreciation": [
-        5,
-        5,
-        5,
-        6,
-        7,
-        9,
         12,
         19,
         20,
@@ -468,64 +384,47 @@
         55
       ],
       "pbt": [
-        0,
-        2,
-        5,
-        10,
-        17,
-        17,
         31,
         71,
-        86,
-        76,
-        8,
-        29
+        91,
+        77,
+        9,
+        34
       ],
       "tax_pct": [
-        50,
-        33,
-        33,
-        22,
-        29,
-        29,
         30,
         26,
-        26,
         25,
-        28,
+        24,
+        32,
         26
       ],
       "net_profit": [
-        0,
-        2,
-        4,
-        8,
-        12,
-        12,
         21,
-        53,
-        64,
-        57,
+        52,
+        68,
+        58,
         6,
-        21
+        25
       ],
       "eps": [
-        0.01,
-        0.15,
-        0.37,
-        7.31,
-        10.91,
-        11,
         19.71,
-        46.26,
-        56.41,
-        50.11,
-        4.99,
-        17.82
+        45.87,
+        59.54,
+        50.83,
+        5.07,
+        20.95
       ]
     }
   },
   "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff0d1a4a-da02-4855-a63d-e7f73a776f58.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=718ebc53-bb4e-4e53-83a7-fb40b0708a12.pdf",
+      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_q2__h1fy27.mp3"
+    },
     {
       "month": "Aug 2026",
       "yearMonth": "2026-08",
@@ -614,13 +513,6 @@
       "month": "Feb 2024",
       "yearMonth": "2024-02",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ebd18db-2c47-4112-8b97-d338bac569d8.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_-_q3fy24_concall_audio.mp3"
-    },
-    {
-      "month": "Feb 2024",
-      "yearMonth": "2024-02-b",
-      "transcriptUrl": null,
       "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9deb8dd9-37b3-46e5-b10d-ca5069ed81c1.pdf",
       "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_-_q3fy24_concall_audio.mp3"
     },
@@ -737,6 +629,79 @@
       "recordingUrl": null
     }
   ],
-  "peers": [],
-  "fetchedAt": "2026-10-06T12:46:19.731Z"
+  "peers": [
+    {
+      "name": "Pidilite Inds.",
+      "screenerPath": "/company/PIDILITIND/consolidated/",
+      "marketCapCr": 153891.23,
+      "pe": 57.34,
+      "salesQtrCr": 4297.59,
+      "salesGrowthQtrPct": 20.91,
+      "roce": 31.02
+    },
+    {
+      "name": "Gujarat Fluoroch",
+      "screenerPath": "/company/FLUOROCHEM/consolidated/",
+      "marketCapCr": 49035.94,
+      "pe": 71.93,
+      "salesQtrCr": 1760,
+      "salesGrowthQtrPct": 45.45,
+      "roce": 9.64
+    },
+    {
+      "name": "Navin Fluo.Intl.",
+      "screenerPath": "/company/NAVINFLUOR/consolidated/",
+      "marketCapCr": 43771.36,
+      "pe": 47.78,
+      "salesQtrCr": 1190.74,
+      "salesGrowthQtrPct": 57,
+      "roce": 20.96
+    },
+    {
+      "name": "Deepak Nitrite",
+      "screenerPath": "/company/DEEPAKNTR/consolidated/",
+      "marketCapCr": 20739.93,
+      "pe": 19.36,
+      "salesQtrCr": 3076.37,
+      "salesGrowthQtrPct": 61.75,
+      "roce": 11.37
+    },
+    {
+      "name": "Aether Industri.",
+      "screenerPath": "/company/AETHER/consolidated/",
+      "marketCapCr": 19923.84,
+      "pe": 79.06,
+      "salesQtrCr": 347.22,
+      "salesGrowthQtrPct": 23.96,
+      "roce": 11.92
+    },
+    {
+      "name": "Aarti Industries",
+      "screenerPath": "/company/AARTIIND/consolidated/",
+      "marketCapCr": 15929.79,
+      "pe": 26.27,
+      "salesQtrCr": 3669,
+      "salesGrowthQtrPct": 74.71,
+      "roce": 6.86
+    },
+    {
+      "name": "Fine Organic",
+      "screenerPath": "/company/FINEORG/consolidated/",
+      "marketCapCr": 15602.86,
+      "pe": 32.39,
+      "salesQtrCr": 729.39,
+      "salesGrowthQtrPct": 22.12,
+      "roce": 21.47
+    },
+    {
+      "name": "Yasho Industries",
+      "screenerPath": "/company/YASHO/consolidated/",
+      "marketCapCr": 4087.48,
+      "pe": 47.26,
+      "salesQtrCr": 347.68,
+      "salesGrowthQtrPct": 89.68,
+      "roce": 8.95
+    }
+  ],
+  "fetchedAt": "2026-11-03T21:43:48.924Z"
 }

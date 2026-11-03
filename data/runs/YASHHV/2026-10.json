@@ -1,0 +1,348 @@
+{
+  "symbol": "YASHHV",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce9c57c4-5b51-4add-b905-499fb935a1dc.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3667933-7e8a-4e7f-aa12-65380aff25ab.pdf",
+    "recordingUrl": "https://static.wixstatic.com/mp3/3be98c_dbf1c4d693c54aa88dc3a5e413d754ea.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-11-03T21:46:18.475Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY27",
+    "call_date": "2026-10-27",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "H2 revenue to stay close to H1",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "MD: 'historical numbers always say that the H2 has always outperformed the H1' but this year they pulled revenue into H1; 'some marginal difference in H2'. He did not confirm an analyst's ₹450-500 Cr for FY27",
+        "quote": "As of now, it seems that we should be able to have a balanced H2 and H1.",
+        "page": 19,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "balanced H1 and H2",
+        "revises": "May call: ₹360-400 Cr for FY27 (H1 alone is now ₹194.5 Cr)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margin to be maintained or better",
+        "kind": "margin_pct",
+        "low": 28,
+        "high": 28,
+        "unit": "pct",
+        "approx": true,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 FY27 EBITDA margin was 28.1%; the answer was to an analyst asking about H2 and FY28 at the 28% level. The MD refused to commit to a higher number ('I would not want to make any tall commitments')",
+        "quote": "Yes, our efforts are to make it better and better or at least maintain it.",
+        "page": 7,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "margin maintained",
+        "revises": "May call: 24-25% for FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "PAT margin to hold despite higher depreciation",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 PAT margin was 18.6%; depreciation in H2 expected at 2.5-3x last year's",
+        "quote": "we might want to still maintain the PAT margin in spite of a higher depreciation",
+        "page": 14,
+        "speaker": "Darshan Thakkar (Executive Director, Finance)",
+        "confidence": "high",
+        "keyword": "PAT margin held",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Brownfield expansion ready by Q3",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Brownfield expansion",
+        "condition": "Extra capacity visible in Q4",
+        "quote": "the Brownfield project should get end by the third quarter.",
+        "page": 8,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "brownfield Q3",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Greenfield ready for up to 245 kV this year; 550 kV in 1-1.5 years",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Greenfield (Jarod)",
+        "condition": "Type test of locally made RIP bushings expected in the next couple of weeks; invoicing from the facility has begun, mainly via the assembly model",
+        "quote": "So, the greenfield facility would be ready by this year for up till 245 kV, and after 1, 1.5 year for localized 550 kV.",
+        "page": 16,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "greenfield 245 kV",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Units 1 and 2 to bill ₹900-1,000 Cr",
+        "kind": "absolute",
+        "low": 900,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY31",
+        "horizon_text": "fully used by 2030-31",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Combination of assembly and localised models across 24 kV to 550 kV; the MD asked not to divide by unit counts",
+        "quote": "Put together, we see that the Unit 1 and Unit 2 would be able to invoice close to INR900 crores to INR1,000 crores of bushings",
+        "page": 16,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "₹900-1,000 Cr",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹220 Cr for greenfield",
+        "kind": "absolute",
+        "low": 220,
+        "high": 220,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "balance over the next 12 months",
+        "basis": "segment",
+        "segment": "Greenfield (Jarod)",
+        "condition": null,
+        "quote": "The total capex planned for the greenfield project is INR220 crores, of which INR106 crores is spent till 30th September '26, and the balance is expected to be deployed over the next 12 months.",
+        "page": 6,
+        "speaker": "Darshan Thakkar (Executive Director, Finance)",
+        "confidence": "high",
+        "keyword": "capex ₹220 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book executed in 15-18 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "15 to 18 months",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Order book ₹760 Cr at 30 Sept 2026 against ₹400 Cr at the start of the year; export about 5-7%",
+        "quote": "The order book is expected to be executed over the next 15 to 18 months.",
+        "page": 6,
+        "speaker": "Darshan Thakkar (Executive Director, Finance)",
+        "confidence": "high",
+        "keyword": "order book timing",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Export orders from mid next year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Exports were 5% of H1 revenue; target 20%+ in 2-3 years was given in May",
+        "quote": "I believe that from the next year mid, we should be able to start booking export orders",
+        "page": 9,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "export orders",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Global market share of at least 5%",
+        "kind": "qualitative",
+        "low": 5,
+        "high": 5,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "4 to 5 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Current global share about 1-1.2%",
+        "quote": "to at least capture 5% in next 4 to 5 years.",
+        "page": 7,
+        "speaker": "Keyur Shah (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "global share 5%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Receivable days about 45",
+        "kind": "qualitative",
+        "low": 45,
+        "high": 45,
+        "unit": "other",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So, we are comfortable with a 45 days kind of a receivable.",
+        "page": 23,
+        "speaker": "Darshan Thakkar (Executive Director, Finance)",
+        "confidence": "medium",
+        "keyword": "receivable days",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H1 FY27 revenue nearly doubled (+95%) to ₹194.5 Cr with EBITDA of ₹55 Cr (28.1%, against the 24-25% guided for the full year) and PAT of ₹36 Cr. Order book is ₹760 Cr (from ₹400 Cr in April) and cash conversion improved to 63 days. The MD said H2 should be balanced with H1 and would not commit to margins above the current level; the brownfield expansion completes in Q3 and the greenfield is ready for up to 245 kV this year.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "H1 revenue ₹194.5 Cr is already about half of the ₹360-400 Cr guided in May; H2 expected 'balanced' with H1",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "EBITDA margin 28.1% in H1 versus the 24-25% FY27 guide; management aims to maintain or improve",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "₹151 Cr preferential issue and warrants; US representation agreements covering 27 states",
+          "page": null
+        },
+        {
+          "change": "reiterated",
+          "text": "Brownfield expansion by Q3; greenfield up to 245 kV this year, localised 550 kV in 1-1.5 years",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Everything is going on track and as expected. No unpleasant surprises.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "28% margin sustainability",
+          "answer": "Product mix, volume (up about 40%), price realisation and cost efficiency; effort to maintain or improve, no number beyond that.",
+          "page": null
+        },
+        {
+          "topic": "32-35% margin after localising the core",
+          "answer": "No commitment; will 'see and then make commitment'.",
+          "page": null
+        },
+        {
+          "topic": "Full-year revenue of ₹450-500 Cr",
+          "answer": "Not confirmed; H2 expected balanced with H1, with some marginal difference.",
+          "page": null
+        },
+        {
+          "topic": "Competition and pricing",
+          "answer": "Bushings are in shortage so customers welcome supply; 25-27% EBITDA is described as good business.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Greenfield core localisation is behind: the new unit mostly assembles imported cores until type tests and approvals are done.",
+          "page": null
+        },
+        {
+          "text": "Depreciation will rise to 2.5-3x last year's, mostly in H2.",
+          "page": null
+        },
+        {
+          "text": "Margin of 28% is well above the 24-25% guide; management refuses to guide higher, so mix or price could reverse it.",
+          "page": null
+        },
+        {
+          "text": "Exports are only 5% of revenue and the export order book is ₹40-50 Cr.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "H2 revenue near H1's ₹195 Cr",
+        "EBITDA margin near 28% against the 24-25% guide",
+        "Type-test result and product approval of the Jarod facility in Q3",
+        "Brownfield capacity in Q4",
+        "Order book staying above ₹700 Cr"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Transformer bushings: resin-impregnated paper (RIP), oil-impregnated paper (OIP) and high-current, up to 420 kV and moving to 550 kV",
+        "customers": "Transformer OEMs and utilities in India (95%) and exports (5%); US subsidiary and representation agreements in 27 states",
+        "revenue_mix": "H1 FY27: RIP 86%, OIP and high-current 14%; retrofit and services 8% of domestic sales",
+        "demand_drivers": "Grid modernisation, shortage of bushings, Green Energy Corridor, data-centre and industrial power demand"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce9c57c4-5b51-4add-b905-499fb935a1dc.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3667933-7e8a-4e7f-aa12-65380aff25ab.pdf",
+    "transcriptPages": 27,
+    "transcriptHasText": true
+  }
+}

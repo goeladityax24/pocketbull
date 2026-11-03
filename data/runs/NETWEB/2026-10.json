@@ -8,7 +8,7 @@
     "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2026-27/Q2/10047913.mp3"
   },
   "basis": "standalone",
-  "createdAt": "2026-11-03T21:36:10.095Z",
+  "createdAt": "2026-11-03T21:46:31.516Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -107,27 +107,27 @@
         {
           "change": "reiterated",
           "text": "EBITDA margin framework 13-14%, with a warning that H1's 15.1% is not to be annualised",
-          "page": 18
+          "page": null
         },
         {
           "change": "new",
           "text": "₹1,200 Cr QIP raised in the quarter; net cash of ₹14 Cr",
-          "page": 3
+          "page": null
         },
         {
           "change": "new",
           "text": "Wholly owned R&D subsidiary in Taiwan approved",
-          "page": 5
+          "page": null
         },
         {
           "change": "new",
           "text": "Vera Rubin systems to be offered for sale from January 2027",
-          "page": 6
+          "page": null
         },
         {
           "change": "new",
           "text": "Cash conversion cycle expected between 90 and 110 days",
-          "page": 9
+          "page": null
         }
       ],
       "tone": {
@@ -139,40 +139,40 @@
         {
           "topic": "Falling gross margin",
           "answer": "Gross margin moves with deal mix and large-deal profile; the company guides on EBITDA, which stays around 14%.",
-          "page": 8
+          "page": null
         },
         {
           "topic": "Customer concentration",
           "answer": "Top-5 and top-10 customers keep changing; 449 new customers were added in H1.",
-          "page": 6
+          "page": null
         },
         {
           "topic": "No operating leverage despite 4x growth",
           "answer": "Management prefers to hold EBITDA at the framework level and reinvest in R&D rather than show higher margins.",
-          "page": 18
+          "page": null
         },
         {
           "topic": "Neocloud and C-DAC demand",
           "answer": "Yotta, E2E and others are customers in the pipeline; no order numbers disclosed.",
-          "page": 9
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Gross margin has fallen as component prices rose; management would not give a steady-state level.",
-          "page": 8
+          "page": null
         },
         {
           "text": "Inventory of about ₹1,900 Cr (117 days) is large relative to a ₹2,629 Cr order book.",
-          "page": 9
+          "page": null
         },
         {
           "text": "Pipeline is ₹11,152 Cr but only ₹2,629 Cr is firm; orders are lumpy and a few customers drive revenue.",
-          "page": 4
+          "page": null
         },
         {
           "text": "No revenue guidance, so next-quarter numbers rest on order book and past conversion.",
-          "page": 18
+          "page": null
         }
       ],
       "watch_next": [

@@ -56,11 +56,15 @@ The Insight report tab shows a six-section analyst write-up when one exists: bus
 ```bash
 npm run snapshot -- <SYMBOL> [--page tmp/<SYMBOL>.html]   # latest Screener numbers → data/snapshots/
 npm run sync-db -- <SYMBOL>                               # copies runs, snapshot and insight report into Supabase
+# sync-db leaves runs already in the database alone, so a corrected run file does not replace the old row.
+# Check the file twice before syncing; replacing a row means deleting it in Supabase first (no manual tags yet).
 git add data/runs/<SYMBOL> data/snapshots/<SYMBOL>.json data/notes/<SYMBOL>.json
 git commit -m "Analyse <SYMBOL> <Mon YYYY> concall"
 git push
 gh issue close <n> --comment "Done: <SYMBOL> <Mon YYYY> concall. <one-line headline>. Next results: <expected numbers>."
 ```
+
+After each concall run, also refresh `data/predictions/<SYMBOL>.json` (the next results): start from the latest quarter, last year's seasonal pattern, any guidance still open (a "₹X Cr for the year" target needs the rest-of-year amount, not an even split), the order book and capacity dates, and strip one-offs out of the base (e.g. STLTECH's ₹161 Cr tariff refund). Keep it on Screener's rows so it can be checked. `npm test` validates the file.
 
 Mark the request done on the web app's Admin page (or it closes with the GitHub issue). Then tell the Admin in chat: the headline, numbers to check in the next results, and anything that needs a human tag.
 

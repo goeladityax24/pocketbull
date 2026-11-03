@@ -1,0 +1,33 @@
+{
+ "symbol": "YASHHV",
+ "as_of": "2026-11-03",
+ "period": "H2 FY27",
+ "results_due": "around May 2027 (half-yearly reporter; H1 was reported on 27 Oct)",
+ "basis": "standalone",
+ "revenue": {
+  "low": 180,
+  "base": 205,
+  "high": 235
+ },
+ "operating_profit": {
+  "low": 45,
+  "base": 56,
+  "high": 68
+ },
+ "net_profit": {
+  "low": 30,
+  "base": 37,
+  "high": 45
+ },
+ "reasoning": [
+  "H1 FY27 revenue was ₹194.5 Cr (+95%). The MD said 'we should be able to have a balanced H2 and H1', with only a marginal difference, so H2 of about ₹205 Cr. That puts FY27 near ₹400 Cr, at the top of the ₹360-400 Cr guided in May. An analyst's ₹450-500 Cr was not confirmed.",
+  "Order book is ₹760 Cr (₹400 Cr in April), executable over 15-18 months, so demand is not the constraint; capacity is. Brownfield expansion finishes in Q3 and adds capacity visible in Q4, and the greenfield plant invoices mainly through assembly of imported cores until local type tests finish.",
+  "EBITDA margin was 28.1% in H1 against a 24-25% FY27 guide. The MD aims 'to maintain it or better' but would not commit. We use 27.5%. Depreciation will rise to 2.5-3x last year's, mostly in H2, which holds PAT growth below EBITDA growth."
+ ],
+ "risks": [
+  "Greenfield type test or customer approval slips, keeping reliance on imported cores",
+  "Margin reverts toward the 24-25% guide",
+  "Customers pulled orders into H1 ('balanced' H2 is a change from past years when H2 was bigger)"
+ ],
+ "caveat": "Half-yearly estimates are on Screener's standalone rows."
+}

@@ -8,7 +8,7 @@
     "recordingUrl": "https://files.hfcl.com/audio/IC_AudioRecoring_19102026.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:38:39.885Z",
+  "createdAt": "2026-11-03T21:46:24.082Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -367,27 +367,27 @@
         {
           "change": "raised",
           "text": "FY27 revenue growth now at least 80% (July: 40%+, May: ~20%)",
-          "page": 5
+          "page": null
         },
         {
           "change": "raised",
           "text": "Defence revenue FY27 ₹500-600 Cr; FY28 at least ₹2,000 Cr; ₹5,000 Cr in 3 years",
-          "page": 8
+          "page": null
         },
         {
           "change": "raised",
           "text": "Fibre capacity target now 38 mn fkm, then 43; cable 39 to 63 mn fkm",
-          "page": 11
+          "page": null
         },
         {
           "change": "new",
           "text": "Capex plan of about ₹1,800 Cr across fibre, cable and preform; own preform by Oct 2028",
-          "page": 5
+          "page": null
         },
         {
           "change": "delayed",
           "text": "EPC profit now expected in Q1 FY28, not FY27; loss of ₹75-100 Cr more in H2",
-          "page": 12
+          "page": null
         }
       ],
       "tone": {
@@ -399,40 +399,40 @@
         {
           "topic": "Is 80% conservative?",
           "answer": "Analyst noted the guide implies flat or lower H2 versus Q2. MD: 'it is always good to be conservative'; no preform or capacity constraint.",
-          "page": 6
+          "page": null
         },
         {
           "topic": "Margin direction",
           "answer": "Margins to get better, not worse, from connectivity mix, higher-spec fibre and own preform; no one-off in Q2.",
-          "page": 6
+          "page": null
         },
         {
           "topic": "Order book depth",
           "answer": "₹28,900 Cr, delivered over up to 4-5 years, unevenly; ₹5,500 Cr of orders came in against ₹2,500 Cr supplied in the quarter.",
-          "page": 19
+          "page": null
         },
         {
           "topic": "Rising US rates / data-centre slowdown",
           "answer": "Sees no slowdown; Europe, Asia and telcos should offset any weakness among debt-reliant data-centre builders.",
-          "page": 7
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "EPC lost about ₹121 Cr in Q2 because BharatNet milestone bills were not raised; profit pushed to Q1 FY28.",
-          "page": 12
+          "page": null
         },
         {
           "text": "Fibre prices up about 20% this quarter; MD calls current preform prices 'insanity' and expects them to fall, which would also pull down fibre pricing.",
-          "page": 24
+          "page": null
         },
         {
           "text": "Very high customer concentration: about 70% of the ₹18,500 Cr fibre and connectivity order book is hyperscalers, under NDA.",
-          "page": 6
+          "page": null
         },
         {
           "text": "Own preform will cover only about half of fibre capacity and needs germanium that is not yet contracted.",
-          "page": 18
+          "page": null
         }
       ],
       "watch_next": [

@@ -8,7 +8,7 @@
     "recordingUrl": "https://www.aeroflexindia.com/uploads/topics/17932714286574.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:35:29.950Z",
+  "createdAt": "2026-11-03T21:46:28.367Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -267,27 +267,27 @@
         {
           "change": "raised",
           "text": "FY27 revenue now almost 60% growth, ₹715-725 Cr at least",
-          "page": 15
+          "page": null
         },
         {
           "change": "raised",
           "text": "Skid revenue target ₹150-200 Cr (initial ₹125 Cr already beaten)",
-          "page": 15
+          "page": null
         },
         {
           "change": "raised",
           "text": "FY29 ₹1,000 Cr target will be 'much more' than met; ₹1,500 Cr expected in FY30",
-          "page": 14
+          "page": null
         },
         {
           "change": "new",
           "text": "₹202 Cr expansion: skids to 30,000 units and hoses to 30 mn metres by March 2028",
-          "page": 4
+          "page": null
         },
         {
           "change": "new",
           "text": "Hyd-Air subsidiary to be merged into Aeroflex",
-          "page": 3
+          "page": null
         }
       ],
       "tone": {
@@ -299,40 +299,40 @@
         {
           "topic": "Merger savings",
           "answer": "At least a couple of percentage points initially mentioned; later said Hyd-Air is only about 3% of turnover, so the margin impact is 'miniscule'.",
-          "page": 7
+          "page": null
         },
         {
           "topic": "Skid order visibility",
           "answer": "A frozen pipeline for about 3 months; no order-book number due to customer confidentiality; one exclusive India customer (a large US multinational).",
-          "page": 7
+          "page": null
         },
         {
           "topic": "Export of liquid cooling",
           "answer": "Advanced talks with the same customer for exports, early talks with others; no exclusivity outside India.",
-          "page": 8
+          "page": null
         },
         {
           "topic": "Margins",
           "answer": "About 25% and slightly upwards, with scale benefits offset by pricing pressure.",
-          "page": 14
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Depreciation method changed from WDV to straight-line from 1 April 2026, cutting depreciation by ₹8.4 Cr in Q2 and H1; PAT growth is flattered.",
-          "page": 6
+          "page": null
         },
         {
           "text": "Liquid-cooling skids depend on one exclusive customer in India.",
-          "page": 7
+          "page": null
         },
         {
           "text": "Customer order visibility is only about 3 months.",
-          "page": 7
+          "page": null
         },
         {
           "text": "Funding of ₹202 Cr could include an equity raise 'if needed'.",
-          "page": 5
+          "page": null
         }
       ],
       "watch_next": [

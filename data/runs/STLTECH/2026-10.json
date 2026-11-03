@@ -8,7 +8,7 @@
     "recordingUrl": "https://www.youtube.com/watch?v=bdyLUlxrcmw"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:38:41.374Z",
+  "createdAt": "2026-11-03T21:46:25.512Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -227,27 +227,27 @@
         {
           "change": "raised",
           "text": "FY29 EBITDA margin target about 30% (was 27%+)",
-          "page": 9
+          "page": null
         },
         {
           "change": "raised",
           "text": "Margin intent: at or above Q2's 27.1% from Q3 (July guide was 23% by Q4)",
-          "page": 12
+          "page": null
         },
         {
           "change": "new",
           "text": "New 5-year agreement worth up to $1.2 billion with a second hyperscaler; H1 order intake ₹32,000 Cr",
-          "page": 6
+          "page": null
         },
         {
           "change": "reiterated",
           "text": "FY29 revenue ₹20,000 Cr; capex ₹1,000 Cr a year; data centres 50% of FY27 revenue",
-          "page": 9
+          "page": null
         },
         {
           "change": "raised",
           "text": "Attach rate hit 24% in H1 (aim was above 20%); now chasing 25%+",
-          "page": 6
+          "page": null
         }
       ],
       "tone": {
@@ -259,40 +259,40 @@
         {
           "topic": "Why raise margin but not revenue?",
           "answer": "Driven by the ₹35,000 Cr order book, richer data-centre mix and attach rate; revenue target stays and will be reviewed as capacity and execution move.",
-          "page": 10
+          "page": null
         },
         {
           "topic": "FY27 margin",
           "answer": "Will aim to match or beat Q2; no new number for the full year.",
-          "page": 12
+          "page": null
         },
         {
           "topic": "Risk from rising US rates",
           "answer": "Hyperscalers still funding from balance sheets; power contracts run to 2031-32; execution delays from land, power and water are likely 'from time to time'.",
-          "page": 16
+          "page": null
         },
         {
           "topic": "Pricing and utilisation",
           "answer": "Does not comment on prices; raw-material supply (germanium, helium) has improved and utilisation is rising each quarter; no numbers shared.",
-          "page": 14
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Reported EBITDA and PAT include a ₹161 Cr one-time US tariff refund; a small further refund is pending.",
-          "page": 8
+          "page": null
         },
         {
           "text": "₹49 Cr impairment on Speedon Networks and higher depreciation; interest up 15% on prepayment penalties.",
-          "page": 11
+          "page": null
         },
         {
           "text": "Payable days fell sharply and working capital rose slightly as suppliers tightened terms.",
-          "page": 14
+          "page": null
         },
         {
           "text": "Order book heavily weighted to two hyperscaler contracts (about $2.3 billion combined); delivery depends on customers' build schedules.",
-          "page": 6
+          "page": null
         }
       ],
       "watch_next": [

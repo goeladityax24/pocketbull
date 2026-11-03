@@ -8,7 +8,7 @@
     "recordingUrl": "https://webcms.transformerindia.com/uploads/10047513_6b91b65360.mp3"
   },
   "basis": "consolidated",
-  "createdAt": "2026-11-03T21:37:08.083Z",
+  "createdAt": "2026-11-03T21:46:32.954Z",
   "createdBy": "Claude session",
   "usage": {
     "model": "claude-session (Admin's plan)",
@@ -167,27 +167,27 @@
         {
           "change": "reiterated",
           "text": "FY27 revenue growth 25% and beyond, about ₹3,200 Cr, PAT margin 9-10%",
-          "page": 13
+          "page": null
         },
         {
           "change": "delayed",
           "text": "Changodar expansion now starts around Diwali (Q3), not Q2",
-          "page": 4
+          "page": null
         },
         {
           "change": "delayed",
           "text": "CTC plant commissioning slips to Q3 with commercial output by Q4 (was Q2)",
-          "page": 17
+          "page": null
         },
         {
           "change": "raised",
           "text": "Working capital target improved to 110-120 days (was 120-130)",
-          "page": 8
+          "page": null
         },
         {
           "change": "new",
           "text": "First nuclear order (NPCIL Kaiga 5 and 6); UK subsidiary set up in Sept 2026",
-          "page": 4
+          "page": null
         }
       ],
       "tone": {
@@ -199,40 +199,40 @@
         {
           "topic": "Is 25% conservative?",
           "answer": "H2 needs about ₹1,930 Cr against ₹1,500 Cr last year; management said it is maintaining ₹3,200 Cr and has not raised it.",
-          "page": 13
+          "page": null
         },
         {
           "topic": "Raw-material prices",
           "answer": "Prices are still high but most orders carry price-variation clauses, so margin is largely protected.",
-          "page": 8
+          "page": null
         },
         {
           "topic": "Free cash flow",
           "answer": "Working capital days to start falling from the end of FY27 as capacity and backward integration come in.",
-          "page": 8
+          "page": null
         },
         {
           "topic": "Competition",
           "answer": "No price war; 'everybody has enough orders in hand'. Inquiries under negotiation are ₹21,000 Cr (80% domestic).",
-          "page": 8
+          "page": null
         }
       ],
       "red_flags": [
         {
           "text": "Net working capital is about 154 days; receivables ₹1,053 Cr, of which ₹228 Cr is non-current.",
-          "page": 7
+          "page": null
         },
         {
           "text": "Backward-integration plants (CTC, pressboard, bushing) keep slipping by a quarter or two.",
-          "page": 17
+          "page": null
         },
         {
           "text": "Retention money of about ₹200 Cr is locked in receivables.",
-          "page": 9
+          "page": null
         },
         {
           "text": "Q2 standalone EBITDA margin of 16.1% is well above the guided FY27 level, so margins may not be sustained if mix or raw-material costs turn.",
-          "page": 6
+          "page": null
         }
       ],
       "watch_next": [
