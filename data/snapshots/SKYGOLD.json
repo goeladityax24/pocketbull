@@ -6,24 +6,20 @@
   "companyId": "1274565",
   "warehouseId": "96632989",
   "ratios": {
-    "market cap": 12555,
-    "current price": 811,
-    "high": 869,
-    "low": 276,
-    "stock p/e": 37.5,
-    "roce": 27,
-    "roe": 29.2
+    "market cap": 13478,
+    "current price": 870,
+    "high": 1084,
+    "low": 285,
+    "stock p/e": 33.6,
+    "book value": 90.8,
+    "dividend yield": 0,
+    "roce": 26.9,
+    "roe": 28.9,
+    "face value": 10
   },
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -107,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        376,
         396,
         460,
         513,
@@ -123,10 +125,10 @@
         1484,
         1768,
         1912,
-        2013
+        2013,
+        2391
       ],
       "expenses": [
-        357,
         381,
         442,
         488,
@@ -138,10 +140,10 @@
         1385,
         1645,
         1771,
-        1856
+        1856,
+        2201
       ],
       "operating_profit": [
-        19,
         15,
         18,
         25,
@@ -153,10 +155,10 @@
         100,
         122,
         141,
-        157
+        157,
+        190
       ],
       "opm_pct": [
-        5,
         3.9,
         3.9,
         4.9,
@@ -168,10 +170,10 @@
         7,
         7,
         7,
+        8,
         8
       ],
       "other_income": [
-        1,
         1,
         0,
         2,
@@ -183,10 +185,10 @@
         8,
         7,
         17,
-        8
+        8,
+        7
       ],
       "interest": [
-        4,
         5,
         5,
         7,
@@ -198,11 +200,11 @@
         18,
         21,
         27,
-        25
+        25,
+        26
       ],
       "depreciation": [
         1,
-        1,
         2,
         2,
         2,
@@ -213,10 +215,10 @@
         2,
         3,
         4,
+        5,
         5
       ],
       "pbt": [
-        14,
         10,
         12,
         18,
@@ -228,10 +230,10 @@
         88,
         106,
         126,
-        135
+        135,
+        166
       ],
       "tax_pct": [
-        25,
         25,
         25,
         25,
@@ -243,10 +245,10 @@
         24,
         24,
         28,
+        22,
         22
       ],
       "net_profit": [
-        11,
         7,
         9,
         14,
@@ -258,10 +260,10 @@
         67,
         81,
         91,
-        105
+        105,
+        129
       ],
       "eps": [
-        0.99,
         0.68,
         0.68,
         1.03,
@@ -273,7 +275,8 @@
         4.33,
         5.2,
         5.44,
-        6.67
+        6.67,
+        8.26
       ]
     }
   },
@@ -322,14 +325,21 @@
         1154,
         1745,
         3548,
-        6295
+        6292
+      ],
+      "expenses": [
+        765,
+        1117,
+        1668,
+        3351,
+        5856
       ],
       "operating_profit": [
         20,
         37,
         78,
         197,
-        434
+        436
       ],
       "opm_pct": [
         2.6,
@@ -338,12 +348,40 @@
         6,
         7
       ],
+      "other_income": [
+        11,
+        1,
+        4,
+        33,
+        36
+      ],
       "interest": [
         8,
         11,
         21,
         45,
-        79
+        80
+      ],
+      "depreciation": [
+        1,
+        1,
+        6,
+        11,
+        13
+      ],
+      "pbt": [
+        22,
+        25,
+        54,
+        174,
+        379
+      ],
+      "tax_pct": [
+        22,
+        26,
+        25,
+        24,
+        26
       ],
       "net_profit": [
         17,
@@ -363,6 +401,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b15f82d8-b8e9-4d69-9ba3-1e79047d3a70.pdf",
+      "recordingUrl": "https://skygold.co.in/wp-content/uploads/2026/10/WhatsApp-Audio-2026-10-31-at-2.32.25-PM.mp3"
+    },
+    {
       "month": "Aug 2026",
       "yearMonth": "2026-08",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=091c957f-979e-48b4-9d83-32deddd85b9a.pdf",
@@ -381,6 +426,34 @@
       "yearMonth": "2026-02",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0a4c69c-e9d0-4a01-91e4-428920f1e81a.pdf",
       "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5db66ca3-58ba-4aa3-9321-4f1f5be1e932.pdf",
+      "recordingUrl": "https://skygold.co.in/wp-content/uploads/2026/02/WhatsApp-Audio-2026-02-10-at-6.18.14-PM.mp3"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce61c976-a8b3-4c73-a2a0-3362bff8aabb.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130eb9c8-4e06-4aae-a43f-791f331029e5.pdf",
+      "recordingUrl": "https://youtu.be/GFuPRT5-nUU"
+    },
+    {
+      "month": "Jul 2025",
+      "yearMonth": "2025-07",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde260c2-25fb-453f-9ae7-a425a6c3fbbc.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a67c6667-2b57-464f-b801-2db75c2adce2.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2025",
+      "yearMonth": "2025-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18335c2c-0804-4cb4-b057-723dd70ce1a7.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4738265d-5130-4140-ae21-0420a00a5954.pdf",
+      "recordingUrl": "http://skygold.co.in/wp-content/uploads/2025/05/10032930.mp4."
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f0365bb-28d9-4b51-bf74-41e041c2b292.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9efcd26a-962a-4bc3-a81a-be5254c59995.pdf",
       "recordingUrl": null
     },
     {
@@ -398,13 +471,126 @@
       "recordingUrl": null
     },
     {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cd72f97-8921-4b3c-acdc-e7affc628f49.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08-b",
+      "transcriptUrl": "https://skygold.co.in/wp-content/uploads/2024/08/LinkIn-SkyGold-Aug12-2024-Final-.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f54f771f-8e1b-49e3-8460-0258874f1010.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Jun 2024",
+      "yearMonth": "2024-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2db9a289-cd31-4463-a684-13d007efa5af.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d8c6ff1-a979-471e-b645-5a5f6d61e983.pdf",
+      "recordingUrl": "https://skygold.co.in/wp-content/uploads/2024/06/LII4920240624153755.mp4"
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ec7209d-1951-4d36-8fb7-eeb39d67ad34.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de026d1a-df02-4855-b0b6-9ce5136f4d12.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://skygold.co.in/wp-content/uploads/2023/11/Transcript-SKY.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92e4c267-d453-42bf-9f62-1f83422a95ca.pdf",
+      "recordingUrl": null
+    },
+    {
       "month": "Aug 2023",
       "yearMonth": "2023-08",
       "transcriptUrl": null,
       "pptUrl": null,
       "recordingUrl": "https://skygold.co.in/wp-content/uploads/2023/08/Sky-Gold-Limited-Investor-Meet-V1.m4a"
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd394a2b-0d2d-4f10-b230-00dbcdfc3fc4.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce77e07d-6257-4387-91bd-1b2f12d267c2.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
     }
   ],
-  "peers": [],
-  "fetchedAt": "2026-10-04T19:14:35.713Z"
+  "peers": [
+    {
+      "name": "Titan Company",
+      "screenerPath": "/company/TITAN/consolidated/",
+      "marketCapCr": 405008.05,
+      "pe": 69.4,
+      "salesQtrCr": 21356,
+      "salesGrowthQtrPct": 29.25,
+      "roce": 20.54
+    },
+    {
+      "name": "Kalyan Jewellers",
+      "screenerPath": "/company/KALYANKJIL/consolidated/",
+      "marketCapCr": 52484.4,
+      "pe": 35.87,
+      "salesQtrCr": 10588.93,
+      "salesGrowthQtrPct": 45.68,
+      "roce": 21.15
+    },
+    {
+      "name": "Lalithaa Jewel",
+      "screenerPath": "/company/LALITHAA/",
+      "marketCapCr": 20317.47,
+      "pe": 21.27,
+      "salesQtrCr": 6039.56,
+      "salesGrowthQtrPct": 26.19,
+      "roce": 37.98
+    },
+    {
+      "name": "PC Jeweller",
+      "screenerPath": "/company/PCJEWELLER/consolidated/",
+      "marketCapCr": 14407.6,
+      "pe": 16.08,
+      "salesQtrCr": 1054.47,
+      "salesGrowthQtrPct": 27.78,
+      "roce": 9.6
+    },
+    {
+      "name": "Thangamayil Jew.",
+      "screenerPath": "/company/THANGAMAYL/",
+      "marketCapCr": 14089.17,
+      "pe": 35.87,
+      "salesQtrCr": 2666.38,
+      "salesGrowthQtrPct": 71.16,
+      "roce": 25.49
+    },
+    {
+      "name": "Sky Gold & Diam.",
+      "screenerPath": "/company/SKYGOLD/consolidated/",
+      "marketCapCr": 13477.9,
+      "pe": 33.57,
+      "salesQtrCr": 2390.66,
+      "salesGrowthQtrPct": 61.05,
+      "roce": 26.9
+    },
+    {
+      "name": "Bluestone Jewel",
+      "screenerPath": "/company/BLUESTONE/consolidated/",
+      "marketCapCr": 10276.93,
+      "pe": 98.02,
+      "salesQtrCr": 745.03,
+      "salesGrowthQtrPct": 45.05,
+      "roce": 6.78
+    }
+  ],
+  "fetchedAt": "2026-11-03T21:30:20.733Z"
 }

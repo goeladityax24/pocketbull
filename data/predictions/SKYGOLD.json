@@ -1,0 +1,33 @@
+{
+ "symbol": "SKYGOLD",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 2400,
+  "base": 2700,
+  "high": 3000
+ },
+ "operating_profit": {
+  "low": 190,
+  "base": 216,
+  "high": 240
+ },
+ "net_profit": {
+  "low": 125,
+  "base": 145,
+  "high": 165
+ },
+ "reasoning": [
+  "H1 FY27 revenue is ₹4,404 Cr, already 54% of the ₹8,100 Cr FY27 target, so the target will be exceeded. Q3 FY26 was 28% of FY26; year-on-year growth slowed from +78% in Q1 to +61% in Q2, and we assume about +53% for Q3.",
+  "Operating margin has crept up from 6% to 8% over five quarters; we hold it at about 8%.",
+  "Revenue depends heavily on the gold price and on the festive and wedding season that falls in Q3."
+ ],
+ "risks": [
+  "A sharp fall in the gold price lowers revenue and can squeeze margins",
+  "Order timing from large retailers",
+  "Working capital strain from growth"
+ ],
+ "caveat": "Skygold's last concall was Aug 2026; its Q2 FY27 call is not yet out, so guidance here predates the Q2 results."
+}

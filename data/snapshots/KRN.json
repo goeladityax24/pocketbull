@@ -6,12 +6,12 @@
   "companyId": "1285002",
   "warehouseId": "126672423",
   "ratios": {
-    "market cap": 9551,
-    "current price": 1462,
+    "market cap": 6778,
+    "current price": 1036,
     "high": 1687,
     "low": 590,
-    "stock p/e": 98.5,
-    "book value": 92.4,
+    "stock p/e": 58.9,
+    "book value": 150,
     "dividend yield": 0,
     "roce": 16,
     "roe": 14.1,
@@ -103,6 +103,13 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
@@ -118,7 +125,8 @@
         152,
         153,
         179,
-        252
+        252,
+        319
       ],
       "expenses": [
         58,
@@ -132,7 +140,8 @@
         122,
         122,
         146,
-        203
+        203,
+        270
       ],
       "operating_profit": [
         13,
@@ -146,6 +155,7 @@
         30,
         31,
         34,
+        49,
         49
       ],
       "opm_pct": [
@@ -160,7 +170,8 @@
         20,
         20,
         19,
-        19
+        19,
+        15
       ],
       "other_income": [
         1,
@@ -174,7 +185,8 @@
         2,
         2,
         2,
-        3
+        3,
+        7
       ],
       "interest": [
         1,
@@ -187,6 +199,7 @@
         1,
         1,
         2,
+        3,
         3,
         3
       ],
@@ -202,7 +215,8 @@
         5,
         6,
         6,
-        6
+        6,
+        7
       ],
       "pbt": [
         12,
@@ -216,7 +230,8 @@
         27,
         26,
         27,
-        42
+        42,
+        46
       ],
       "tax_pct": [
         29,
@@ -230,7 +245,8 @@
         33,
         12,
         13,
-        22
+        22,
+        21
       ],
       "net_profit": [
         9,
@@ -244,7 +260,8 @@
         18,
         23,
         23,
-        33
+        33,
+        36
       ],
       "eps": [
         1.96,
@@ -258,7 +275,8 @@
         2.9,
         3.65,
         3.76,
-        5.03
+        5.03,
+        5.52
       ]
     }
   },
@@ -347,6 +365,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7c2f013-c0f3-4eb4-af5b-5fab55537677.pdf",
+      "recordingUrl": null
+    },
+    {
       "month": "Aug 2026",
       "yearMonth": "2026-08",
       "transcriptUrl": "https://krnheatexchanger.com/wp-content/uploads/2026/08/transcript-for-Q1fy27.pdf",
@@ -410,6 +435,70 @@
       "recordingUrl": "https://krnheatexchanger.com/wp-content/uploads/2024/11/Earning-conference-Call-Recording-held-on-06-11-2024.mp3"
     }
   ],
-  "peers": [],
-  "fetchedAt": "2026-10-06T12:46:17.822Z"
+  "peers": [
+    {
+      "name": "HBL Engineering",
+      "screenerPath": "/company/HBLENGINE/consolidated/",
+      "marketCapCr": 22533.18,
+      "pe": 28.11,
+      "salesQtrCr": 638.03,
+      "salesGrowthQtrPct": 6.03,
+      "roce": 59.3
+    },
+    {
+      "name": "Inox India",
+      "screenerPath": "/company/INOXINDIA/consolidated/",
+      "marketCapCr": 16953.71,
+      "pe": 64.13,
+      "salesQtrCr": 456.48,
+      "salesGrowthQtrPct": 27.43,
+      "roce": 33.48
+    },
+    {
+      "name": "Esab India",
+      "screenerPath": "/company/ESABINDIA/",
+      "marketCapCr": 8405.36,
+      "pe": 40.61,
+      "salesQtrCr": 421.12,
+      "salesGrowthQtrPct": 19.63,
+      "roce": 64.68
+    },
+    {
+      "name": "KRN Heat Exchan",
+      "screenerPath": "/company/KRN/consolidated/",
+      "marketCapCr": 6778.23,
+      "pe": 58.93,
+      "salesQtrCr": 319.14,
+      "salesGrowthQtrPct": 109.86,
+      "roce": 15.98
+    },
+    {
+      "name": "Harsha Engg Intl",
+      "screenerPath": "/company/HARSHA/consolidated/",
+      "marketCapCr": 4006.4,
+      "pe": 24.54,
+      "salesQtrCr": 440.09,
+      "salesGrowthQtrPct": 16.32,
+      "roce": 13
+    },
+    {
+      "name": "Subros",
+      "screenerPath": "/company/SUBROS/consolidated/",
+      "marketCapCr": 3811.07,
+      "pe": 21.68,
+      "salesQtrCr": 1198.9,
+      "salesGrowthQtrPct": 36.26,
+      "roce": 19.16
+    },
+    {
+      "name": "Ador Welding",
+      "screenerPath": "/company/ADOR/",
+      "marketCapCr": 2490.69,
+      "pe": 20.62,
+      "salesQtrCr": 344.2,
+      "salesGrowthQtrPct": 22.93,
+      "roce": 22.71
+    }
+  ],
+  "fetchedAt": "2026-11-03T21:30:29.543Z"
 }

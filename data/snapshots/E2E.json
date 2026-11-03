@@ -1,81 +1,25 @@
 {
   "symbol": "E2E",
   "name": "E2E Networks Ltd",
-  "screenerUrl": "https://www.screener.in/company/E2E/",
-  "basis": "standalone",
+  "screenerUrl": "https://www.screener.in/company/E2E/consolidated/",
+  "basis": "consolidated",
   "companyId": "1274346",
-  "warehouseId": "21038217",
+  "warehouseId": "158720575",
   "ratios": {
-    "market cap": 13484,
-    "current price": 656,
-    "high": 698,
+    "market cap": 10168,
+    "current price": 495,
+    "high": 769,
     "low": 183,
-    "stock p/e": 433,
-    "book value": 82,
+    "stock p/e": 144,
+    "book value": 87.8,
     "dividend yield": 0,
-    "roce": -0.51,
-    "roe": -0.95,
+    "roce": null,
+    "roe": -0.92,
     "face value": 1
   },
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 2,
-        "endDate": "2023-09-30",
-        "label": "Q2 FY24"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 3,
-        "endDate": "2023-12-31",
-        "label": "Q3 FY24"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 4,
-        "endDate": "2024-03-31",
-        "label": "Q4 FY24"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2025,
-        "index": 1,
-        "endDate": "2024-06-30",
-        "label": "Q1 FY25"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2025,
-        "index": 2,
-        "endDate": "2024-09-30",
-        "label": "Q2 FY25"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2025,
-        "index": 3,
-        "endDate": "2024-12-31",
-        "label": "Q3 FY25"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2025,
-        "index": 4,
-        "endDate": "2025-03-31",
-        "label": "Q4 FY25"
-      },
       {
         "kind": "quarter",
         "fy": 2026,
@@ -93,13 +37,6 @@
       {
         "kind": "quarter",
         "fy": 2026,
-        "index": 3,
-        "endDate": "2025-12-31",
-        "label": "Q3 FY26"
-      },
-      {
-        "kind": "quarter",
-        "fy": 2026,
         "index": 4,
         "endDate": "2026-03-31",
         "label": "Q4 FY26"
@@ -110,256 +47,98 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        19,
-        22,
-        24,
-        29,
-        41,
-        48,
-        42,
-        33,
         36,
         44,
-        70,
         96,
-        157
+        157,
+        224
       ],
       "expenses": [
-        9,
-        10,
-        13,
-        14,
-        14,
-        16,
-        17,
-        20,
         26,
         26,
-        30,
         38,
-        39
+        39,
+        52
       ],
       "operating_profit": [
-        10,
-        11,
-        11,
-        15,
-        27,
-        31,
-        25,
-        13,
         11,
         18,
-        40,
         58,
-        118
+        118,
+        171
       ],
       "opm_pct": [
-        53,
-        52,
-        47,
-        52,
-        66,
-        66,
-        59,
-        40,
         29,
         41,
-        57,
         61,
-        75
+        75,
+        77
       ],
       "other_income": [
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        13,
-        25,
         15,
         8,
         5,
-        5,
-        11
+        11,
+        10
       ],
       "interest": [
-        0,
-        0,
-        1,
         2,
-        3,
+        2,
         4,
-        4,
-        2,
-        2,
-        2,
-        5,
-        4,
+        10,
         10
       ],
       "depreciation": [
-        2,
-        3,
-        4,
-        8,
-        11,
-        13,
-        18,
-        19,
         27,
         43,
-        48,
         51,
-        61
+        61,
+        74
       ],
       "pbt": [
-        9,
-        9,
-        7,
-        6,
-        14,
-        16,
-        16,
-        18,
         -4,
         -18,
-        -8,
         9,
-        59
+        59,
+        97
       ],
       "tax_pct": [
-        18,
-        33,
-        25,
-        37,
-        25,
-        25,
-        25,
-        23,
         -24,
         -27,
-        -24,
+        25,
         25,
         25
       ],
       "net_profit": [
-        7,
-        6,
-        6,
-        4,
-        10,
-        12,
-        12,
-        14,
         -3,
         -13,
-        -6,
         6,
-        44
+        44,
+        73
       ],
       "eps": [
-        0.48,
-        0.4,
-        0.39,
-        0.24,
-        0.7,
-        0.72,
-        0.58,
-        0.68,
         -0.14,
         -0.67,
-        -0.28,
         0.31,
-        2.13
+        2.13,
+        3.54
       ]
     }
   },
   "annual": {
     "granularity": "year",
     "periods": [
-      {
-        "kind": "year",
-        "fy": 2015,
-        "index": 0,
-        "endDate": "2015-03-31",
-        "label": "FY15"
-      },
-      {
-        "kind": "year",
-        "fy": 2016,
-        "index": 0,
-        "endDate": "2016-03-31",
-        "label": "FY16"
-      },
-      {
-        "kind": "year",
-        "fy": 2017,
-        "index": 0,
-        "endDate": "2017-03-31",
-        "label": "FY17"
-      },
-      {
-        "kind": "year",
-        "fy": 2018,
-        "index": 0,
-        "endDate": "2018-03-31",
-        "label": "FY18"
-      },
-      {
-        "kind": "year",
-        "fy": 2019,
-        "index": 0,
-        "endDate": "2019-03-31",
-        "label": "FY19"
-      },
-      {
-        "kind": "year",
-        "fy": 2020,
-        "index": 0,
-        "endDate": "2020-03-31",
-        "label": "FY20"
-      },
-      {
-        "kind": "year",
-        "fy": 2021,
-        "index": 0,
-        "endDate": "2021-03-31",
-        "label": "FY21"
-      },
-      {
-        "kind": "year",
-        "fy": 2022,
-        "index": 0,
-        "endDate": "2022-03-31",
-        "label": "FY22"
-      },
-      {
-        "kind": "year",
-        "fy": 2023,
-        "index": 0,
-        "endDate": "2023-03-31",
-        "label": "FY23"
-      },
-      {
-        "kind": "year",
-        "fy": 2024,
-        "index": 0,
-        "endDate": "2024-03-31",
-        "label": "FY24"
-      },
-      {
-        "kind": "year",
-        "fy": 2025,
-        "index": 0,
-        "endDate": "2025-03-31",
-        "label": "FY25"
-      },
       {
         "kind": "year",
         "fy": 2026,
@@ -370,162 +149,48 @@
     ],
     "rows": {
       "sales": [
-        10,
-        21,
-        29,
-        36,
-        34,
-        25,
-        35,
-        52,
-        66,
-        94,
-        164,
         246
       ],
       "expenses": [
-        5,
-        8,
-        13,
-        18,
-        23,
-        26,
-        25,
-        29,
-        33,
-        47,
-        67,
         119
       ],
       "operating_profit": [
-        5,
-        13,
-        17,
-        18,
-        11,
-        -1,
-        10,
-        23,
-        33,
-        48,
-        97,
         126
       ],
       "opm_pct": [
-        47,
-        61,
-        57,
-        50,
-        32,
-        -4.8,
-        29,
-        44,
-        50,
-        51,
-        59,
         51
       ],
       "other_income": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        1,
-        0,
-        1,
-        2,
-        39,
         34
       ],
       "interest": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        13,
         12
       ],
       "depreciation": [
-        3,
-        9,
-        10,
-        10,
-        9,
-        10,
-        12,
-        18,
-        20,
-        16,
-        60,
         169
       ],
       "pbt": [
-        1,
-        3,
-        6,
-        8,
-        2,
-        -9,
-        -1,
-        5,
-        13,
-        30,
-        63,
         -21
       ],
       "tax_pct": [
-        34,
-        33,
-        31,
-        29,
-        29,
-        0,
-        0,
-        -22,
-        25,
-        28,
-        24,
         -27
       ],
       "net_profit": [
-        1,
-        2,
-        4,
-        6,
-        2,
-        -9,
-        -1,
-        6,
-        10,
-        22,
-        47,
         -16
       ],
       "eps": [
-        3.11,
-        8.22,
-        16.56,
-        0.5,
-        0.12,
-        -0.65,
-        -0.09,
-        0.45,
-        0.68,
-        1.51,
-        2.38,
         -0.76
       ]
     }
   },
   "concalls": [
+    {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4caf3327-c04d-41d1-8d14-e92afee37976.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99b94a78-41b2-407f-b337-363b911809e8.pdf",
+      "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/E2E%20Networks%20Limited_Earnings%20Call%20Audio%20Recording_16-oct-2026.mp3"
+    },
     {
       "month": "Jul 2026",
       "yearMonth": "2026-07",
@@ -544,13 +209,6 @@
       "month": "Jan 2026",
       "yearMonth": "2026-01",
       "transcriptUrl": "https://nsearchives.nseindia.com/corporate/E2E_19012026171627_Transcript_Combined.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://youtu.be/vavPLwP1YB4"
-    },
-    {
-      "month": "Jan 2026",
-      "yearMonth": "2026-01-b",
-      "transcriptUrl": null,
       "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_15012026171724_Investor_Presentation_Q3_2025-26.pdf",
       "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/10039246.mp3"
     },
@@ -594,35 +252,21 @@
       "yearMonth": "2024-10",
       "transcriptUrl": "https://nsearchives.nseindia.com/corporate/E2E_04112024221326_Transcriptsigned.pdf",
       "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_28102024105201_Investorpresentationsigned.pdf",
-      "recordingUrl": "https://youtu.be/p547oCzMl2k?si=EEaSczTCX8wqhUs1"
-    },
-    {
-      "month": "Oct 2024",
-      "yearMonth": "2024-10-b",
-      "transcriptUrl": null,
-      "pptUrl": null,
       "recordingUrl": "https://www.youtube.com/watch?v=cQlwid3BeQ8"
     },
     {
       "month": "Jul 2024",
       "yearMonth": "2024-07",
       "transcriptUrl": "https://nsearchives.nseindia.com/corporate/E2E_24072024121741_Transcript.pdf",
-      "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_19072024003353_InvestorPrsentationJuly2024.pdf",
-      "recordingUrl": null
+      "pptUrl": null,
+      "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/Concall-E2E%20Networks-19072024.mp3"
     },
     {
       "month": "Jul 2024",
       "yearMonth": "2024-07-b",
       "transcriptUrl": "https://cdn.prod.website-files.com/6473d8d02a3cf26273f2787d/66a0a52bf52824bb3b37789c_Transcript%20of%20Earning%20(con%20call)%20dated%2019-07-2024.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://www.youtube.com/watch?v=nzm-LfoVAfs&t=12s"
-    },
-    {
-      "month": "Jul 2024",
-      "yearMonth": "2024-07-c",
-      "transcriptUrl": null,
-      "pptUrl": null,
-      "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/Concall-E2E%20Networks-19072024.mp3"
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/E2E_19072024003353_InvestorPrsentationJuly2024.pdf",
+      "recordingUrl": null
     },
     {
       "month": "May 2024",
@@ -818,75 +462,75 @@
     {
       "name": "L&T Technology",
       "screenerPath": "/company/LTTS/consolidated/",
-      "marketCapCr": 34171.2,
-      "pe": 25.43,
-      "salesQtrCr": 2940.1,
-      "salesGrowthQtrPct": 11.47,
+      "marketCapCr": 44814.43,
+      "pe": 32.12,
+      "salesQtrCr": 3040.4,
+      "salesGrowthQtrPct": 12.06,
       "roce": 26.71
     },
     {
       "name": "Inventurus Knowl",
       "screenerPath": "/company/IKS/consolidated/",
-      "marketCapCr": 30337.98,
-      "pe": 39.72,
+      "marketCapCr": 29696.01,
+      "pe": 38.88,
       "salesQtrCr": 893.63,
       "salesGrowthQtrPct": 20.74,
       "roce": 31.51
     },
     {
-      "name": "Netweb Technol.",
-      "screenerPath": "/company/NETWEB/",
-      "marketCapCr": 28333.31,
-      "pe": 108.7,
-      "salesQtrCr": 819.69,
-      "salesGrowthQtrPct": 172.13,
-      "roce": 37.48
-    },
-    {
       "name": "Tata Technolog.",
       "screenerPath": "/company/TATATECH/consolidated/",
-      "marketCapCr": 28328.2,
-      "pe": 43.53,
-      "salesQtrCr": 1664.63,
-      "salesGrowthQtrPct": 33.78,
+      "marketCapCr": 26306.07,
+      "pe": 40.05,
+      "salesQtrCr": 1698.8,
+      "salesGrowthQtrPct": 28.37,
       "roce": 20.9
+    },
+    {
+      "name": "Netweb Technol.",
+      "screenerPath": "/company/NETWEB/",
+      "marketCapCr": 24300.97,
+      "pe": 66.42,
+      "salesQtrCr": 1323.28,
+      "salesGrowthQtrPct": 335.69,
+      "roce": 37.48
     },
     {
       "name": "Affle 3i",
       "screenerPath": "/company/AFFLE/consolidated/",
-      "marketCapCr": 20343.1,
-      "pe": 42.58,
-      "salesQtrCr": 747.16,
-      "salesGrowthQtrPct": 20.37,
+      "marketCapCr": 22777.27,
+      "pe": 45.82,
+      "salesQtrCr": 783.59,
+      "salesGrowthQtrPct": 21.16,
       "roce": 16.84
     },
     {
       "name": "Sagility",
       "screenerPath": "/company/SAGILITY/consolidated/",
-      "marketCapCr": 19951.52,
-      "pe": 19.41,
-      "salesQtrCr": 1963.48,
-      "salesGrowthQtrPct": 27.59,
+      "marketCapCr": 19820.74,
+      "pe": 18.68,
+      "salesQtrCr": 2032.1,
+      "salesGrowthQtrPct": 22.53,
       "roce": 13.41
     },
     {
-      "name": "ESDS Software",
-      "screenerPath": "/company/ESDS/consolidated/",
-      "marketCapCr": 15995.6,
-      "pe": 129.62,
-      "salesQtrCr": 133.66,
-      "salesGrowthQtrPct": 7.28,
-      "roce": 30.19
+      "name": "Black Box",
+      "screenerPath": "/company/BBOX/consolidated/",
+      "marketCapCr": 14167.98,
+      "pe": 49.59,
+      "salesQtrCr": 1718.5,
+      "salesGrowthQtrPct": 23.92,
+      "roce": 21.56
     },
     {
       "name": "E2E Networks",
-      "screenerPath": "/company/E2E/",
-      "marketCapCr": 13483.99,
-      "pe": 432.73,
-      "salesQtrCr": 156.76,
-      "salesGrowthQtrPct": 334.12,
-      "roce": -0.51
+      "screenerPath": "/company/E2E/consolidated/",
+      "marketCapCr": 10168.27,
+      "pe": 144.05,
+      "salesQtrCr": 223.76,
+      "salesGrowthQtrPct": 410.87,
+      "roce": null
     }
   ],
-  "fetchedAt": "2026-10-05T19:49:48.618Z"
+  "fetchedAt": "2026-11-03T21:30:11.736Z"
 }

@@ -1,0 +1,332 @@
+{
+  "symbol": "STLTECH",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde0da46-b120-452c-aefd-38be56db37c6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22dd005a-d464-49ac-a22a-db0a1eeeb0fa.pdf",
+    "recordingUrl": "https://www.youtube.com/watch?v=bdyLUlxrcmw"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:38:41.374Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-23",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Lakshya revenue FY29",
+        "kind": "absolute",
+        "low": 20000,
+        "high": 20000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Unchanged from the Sep 2026 Lakshya plan; MD: 'we continue to target the INR20,000 crores'",
+        "quote": "Accordingly, we are upgrading our FY '29 EBITDA margin target to about 30%, up from 27% earlier, while maintaining our FY '29 revenue target at INR20,000 crores.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "revenue ₹20,000 Cr",
+        "revises": "Sep call: ₹20,000 Cr (reiterated)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Lakshya EBITDA margin FY29 about 30%",
+        "kind": "margin_pct",
+        "low": 30,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Raised on order book of ₹35,274 Cr, data-centre mix and attach rate",
+        "quote": "Accordingly, we are upgrading our FY '29 EBITDA margin target to about 30%, up from 27% earlier, while maintaining our FY '29 revenue target at INR20,000 crores.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "margin 30% FY29",
+        "revises": "Sep call: 27%+"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margin at or above Q2 level from Q3",
+        "kind": "margin_pct",
+        "low": 27,
+        "high": 27,
+        "unit": "pct",
+        "approx": true,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Operational EBITDA (₹685 Cr, 27.1% in Q2) excludes a ₹161 Cr one-time US tariff refund; Screener's operating profit may differ. 'The target of Lakshya aligns with the target of what we plan to try to achieve from Q3 onwards.'",
+        "quote": "So we would definitely like to perform or better what we have reported in Q2 of this financial year.",
+        "page": 12,
+        "speaker": "Ankit Agarwal (MD)",
+        "confidence": "high",
+        "keyword": "margin at least Q2",
+        "revises": "Jul call: 23% by Q4 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data-centre share of revenue",
+        "kind": "absolute",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "MD later: share 'close to around 50%', by design 50-60%",
+        "quote": "Keeping us firmly on track towards scaling this segment to 50% of revenues in the current fiscal.",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "data-centre share 50%",
+        "revises": "Jul call: 50% (reiterated); H1 was 33%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Connectivity attach rate 25% or more",
+        "kind": "absolute",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "We remain fully focused on driving this 25% and beyond for the current financial year.",
+        "page": 6,
+        "speaker": "Ankit Agarwal (MD)",
+        "confidence": "high",
+        "keyword": "attach rate 25%",
+        "revises": "Jul call: 25% by Q4 FY27; H1 reached 24%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order book scheduled for Q3 execution",
+        "kind": "absolute",
+        "low": 3021,
+        "high": 3021,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Open order book ₹35,274 Cr; spot business now 'a negligible share' of revenue. Q2 scheduled execution was ₹2,228 Cr against revenue of ₹2,529 Cr",
+        "quote": "Of this, about INR3,021 crores is scheduled for execution in Q3 FY '27 and the rest over Q4 FY '27 and beyond.",
+        "page": 8,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "Q3 scheduled ₹3,021 Cr",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹1,000 Cr a year",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": "FY27 to FY29, each year",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Our disciplined capital allocation entails a mix of brownfield expansion of preform, fiber and cable capacity by 50% and a greenfield facility for preterm solutions with a total capex of INR1,000 crores per year from 2027 to 2029.",
+        "page": 9,
+        "speaker": "Ajay Jhanjhari (CFO)",
+        "confidence": "high",
+        "keyword": "capex ₹1,000 Cr a year",
+        "revises": "Sep call: ₹1,000 Cr a year (reiterated); Jul call: ₹500 Cr a year"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Net working capital 45-50 days",
+        "kind": "absolute",
+        "low": 45,
+        "high": 50,
+        "unit": "other",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Working capital rose slightly in Q2; debtors and inventory improvement expected 'from next quarter'",
+        "quote": "Broadly, we aim to remain in the range of 45 to 50 days of net working capital cycle.",
+        "page": 14,
+        "speaker": "Ankit Agarwal (MD)",
+        "confidence": "high",
+        "keyword": "working capital days",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Finance cost to fall from Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q2 interest was up 15% year on year on loan prepayment penalties",
+        "quote": "Going forward, we'll look forward to reduce the net finance costs subsequently, and that will be visible from Q3 onwards.",
+        "page": 11,
+        "speaker": "Ankit Agarwal (MD)",
+        "confidence": "high",
+        "keyword": "finance cost lower",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Hollow-core and multi-core fibre scale in 1.5-2 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "1.5 to 2 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "it will be in the time frame of another 1.5 to 2 years where the scale of these starts improving.",
+        "page": 14,
+        "speaker": "Ankit Agarwal (MD)",
+        "confidence": "medium",
+        "keyword": "hollow-core scale",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 was another record: revenue ₹2,529 Cr (up 145% year on year, 32% on the quarter), operational EBITDA ₹685 Cr at a 27.1% margin, and PAT ₹517 Cr (reported EBITDA of ₹846 Cr includes a ₹161 Cr US tariff refund). Open order book is a record ₹35,274 Cr, with ₹3,021 Cr scheduled for Q3. Management raised the FY29 EBITDA margin target to about 30% from 27% and kept FY29 revenue at ₹20,000 Cr.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY29 EBITDA margin target about 30% (was 27%+)",
+          "page": 9
+        },
+        {
+          "change": "raised",
+          "text": "Margin intent: at or above Q2's 27.1% from Q3 (July guide was 23% by Q4)",
+          "page": 12
+        },
+        {
+          "change": "new",
+          "text": "New 5-year agreement worth up to $1.2 billion with a second hyperscaler; H1 order intake ₹32,000 Cr",
+          "page": 6
+        },
+        {
+          "change": "reiterated",
+          "text": "FY29 revenue ₹20,000 Cr; capex ₹1,000 Cr a year; data centres 50% of FY27 revenue",
+          "page": 9
+        },
+        {
+          "change": "raised",
+          "text": "Attach rate hit 24% in H1 (aim was above 20%); now chasing 25%+",
+          "page": 6
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "If Q1 was historic, Q2 has raised the bar again.",
+        "page": 7
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why raise margin but not revenue?",
+          "answer": "Driven by the ₹35,000 Cr order book, richer data-centre mix and attach rate; revenue target stays and will be reviewed as capacity and execution move.",
+          "page": 10
+        },
+        {
+          "topic": "FY27 margin",
+          "answer": "Will aim to match or beat Q2; no new number for the full year.",
+          "page": 12
+        },
+        {
+          "topic": "Risk from rising US rates",
+          "answer": "Hyperscalers still funding from balance sheets; power contracts run to 2031-32; execution delays from land, power and water are likely 'from time to time'.",
+          "page": 16
+        },
+        {
+          "topic": "Pricing and utilisation",
+          "answer": "Does not comment on prices; raw-material supply (germanium, helium) has improved and utilisation is rising each quarter; no numbers shared.",
+          "page": 14
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Reported EBITDA and PAT include a ₹161 Cr one-time US tariff refund; a small further refund is pending.",
+          "page": 8
+        },
+        {
+          "text": "₹49 Cr impairment on Speedon Networks and higher depreciation; interest up 15% on prepayment penalties.",
+          "page": 11
+        },
+        {
+          "text": "Payable days fell sharply and working capital rose slightly as suppliers tightened terms.",
+          "page": 14
+        },
+        {
+          "text": "Order book heavily weighted to two hyperscaler contracts (about $2.3 billion combined); delivery depends on customers' build schedules.",
+          "page": 6
+        }
+      ],
+      "watch_next": [
+        "Q3 revenue at or above the ₹3,021 Cr scheduled from the order book",
+        "Operational EBITDA margin holding 27% or higher",
+        "Net finance cost falling from Q3",
+        "Data-centre share moving from 33% in H1 towards 50% for the year",
+        "Remaining US tariff refund"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Optical fibre, cables and connectivity solutions (Neuralis), from glass preform to pre-terminated trunks",
+        "customers": "Global hyperscalers, telecom operators and neutral-fibre providers; BharatNet and large Indian telcos",
+        "revenue_mix": "H1 FY27: data centres 33%; North America 61%, Europe 21%, rest of world 18%",
+        "demand_drivers": "AI data-centre build-out (CRU raised 2026 data-centre fibre demand growth to 89%), 5G, fibre-to-the-home"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde0da46-b120-452c-aefd-38be56db37c6.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22dd005a-d464-49ac-a22a-db0a1eeeb0fa.pdf",
+    "transcriptPages": 17,
+    "transcriptHasText": true
+  }
+}

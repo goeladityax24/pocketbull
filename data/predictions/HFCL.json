@@ -1,0 +1,35 @@
+{
+ "symbol": "HFCL",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 2500,
+  "base": 2750,
+  "high": 3000
+ },
+ "operating_profit": {
+  "low": 600,
+  "base": 700,
+  "high": 810
+ },
+ "net_profit": {
+  "low": 340,
+  "base": 410,
+  "high": 480
+ },
+ "reasoning": [
+  "Q2 revenue was ₹2,542 Cr, up 33% on Q1. The MD said 'there will definitely be growth in Q3' and that Q2 is not a peak, so we assume a further 8% (base) with a floor of flat.",
+  "The 'at least 80%' FY27 guide only needs H2 of about ₹4,451 Cr, or ₹2,226 Cr a quarter, which is below Q2. Analysts and the MD both called it conservative, so we treat it as a floor, not a forecast.",
+  "Fibre runs at 100% of capacity until the December expansion (28 to 34-38 mn fkm), so Q3 growth comes from price, mix and connectivity (about ₹300 Cr in Q2, ₹800 Cr+ for the year), not new volume.",
+  "Margin: Q2 operating margin was 24.8% on Screener's rows (25.9% as the company reports it). The EPC segment lost about ₹121 Cr in Q2; the MD expects at most ₹75-100 Cr over Q3 and Q4 together, which could add about ₹70 Cr to Q3 profit. We hold margin at about 25.5% because interest and depreciation also rise with capacity."
+ ],
+ "risks": [
+  "Fibre or preform price falls (the MD himself expects preform prices to come down)",
+  "Hyperscaler delivery schedules slip",
+  "Defence revenue must jump from about ₹80 Cr in H1 to ₹420+ Cr in H2 to meet ₹500-600 Cr; a shortfall would not hurt Q3 much but would test the guidance",
+  "Aerospace acquisition accounting in the quarter"
+ ],
+ "caveat": "Screener's operating profit (₹630 Cr in Q2) is a little lower than the company's reported EBITDA (₹658 Cr). Estimates are on Screener's rows."
+}

@@ -1,0 +1,33 @@
+{
+ "symbol": "NETWEB",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "standalone",
+ "revenue": {
+  "low": 1150,
+  "base": 1350,
+  "high": 1650
+ },
+ "operating_profit": {
+  "low": 150,
+  "base": 196,
+  "high": 256
+ },
+ "net_profit": {
+  "low": 105,
+  "base": 135,
+  "high": 175
+ },
+ "reasoning": [
+  "Q2 revenue jumped 61% on the quarter to ₹1,323 Cr. The order book of ₹2,629 Cr (plus ₹653 Cr of L1 positions) rose even after that billing, and the CFO said the ₹1,900 Cr of inventory exists to execute it in Q3-Q4.",
+  "Netweb gives no revenue guidance and its quarters are lumpy (Q2 FY26 ₹304 Cr, Q3 FY26 ₹805 Cr), so we use a wide band around a roughly flat quarter.",
+  "Management's EBITDA framework is 13-14%; H1 ran at 15.1% and Q2 at 14.9%, but they said not to quote H1 for the year. We use 14.5%."
+ ],
+ "risks": [
+  "Large deals are timed by customers",
+  "Gross margin has been falling as component prices rise",
+  "NSM 2.0 and Vera Rubin orders only start from early 2027"
+ ],
+ "caveat": null
+}

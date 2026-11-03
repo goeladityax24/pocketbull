@@ -1,0 +1,33 @@
+{
+ "symbol": "E2E",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 222,
+  "base": 245,
+  "high": 290
+ },
+ "operating_profit": {
+  "low": 166,
+  "base": 186,
+  "high": 221
+ },
+ "net_profit": {
+  "low": 62,
+  "base": 76,
+  "high": 98
+ },
+ "reasoning": [
+  "Management gives no guidance and declined to give an exit MRR. Q2 revenue was ₹224 Cr, close to the roughly ₹75 Cr a month the analysts quoted, so a flat quarter is about ₹225 Cr.",
+  "The second B200 lot is due live 'this quarter' (it already slipped from Q2). If it goes live in December it adds only a few weeks of revenue to Q3, so we add about ₹20 Cr to the base.",
+  "EBITDA margin has been 75-77% and the MD calls it a '70% plus' business. Depreciation and interest rise as the new GPUs arrive, so PAT grows more slowly than revenue."
+ ],
+ "risks": [
+  "GPU lot slips again",
+  "Pricing on short-term contracts",
+  "Internal use of GPUs for the company's own platform takes capacity away from sale"
+ ],
+ "caveat": "Screener's quarterly table for E2E has no Q3 FY26 column, so the year-on-year change cannot be shown."
+}

@@ -43,7 +43,7 @@ function Source({ item, transcript, also = true }: { item: ItemView; transcript:
 export default async function TrackerPage({ params, searchParams }: PageProps<"/c/[symbol]/tracker">) {
   const { symbol } = await params;
   const { view: mode } = await searchParams;
-  const { me, bundle, view, settings } = await loadCompany(symbol);
+  const { me, bundle, view, settings, prediction } = await loadCompany(symbol);
   const c = bundle.company;
   const byYear = mode === "year";
   const transcripts = new Map(bundle.runs.map((r) => [r.concall.month, r.docs.transcriptUrl]));
@@ -55,6 +55,13 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
   const editor = me.isAdmin && !me.demo;
   const results = buildResultsGrid(c.snapshot, view, { tolerancePct: settings.tolerancePct });
   const yearTargets = buildYearTargets(c.snapshot, view);
+  const estimate = prediction && next && prediction.period === next.label ? prediction : null;
+  // Same period last year, for the year-on-year change on the estimate
+  const lastYearLabel = next?.label.replace(/FY(\d+)/, (_, y) => `FY${Number(y) - 1}`);
+  const lastYearAt = (row: "sales" | "operating_profit" | "net_profit") => {
+    const i = c.snapshot.interim.periods.findIndex((p) => p.label === lastYearLabel);
+    return i >= 0 ? (c.snapshot.interim.rows[row]?.[i] ?? null) : null;
+  };
   // EBITDA and PAT for the next results, guided or estimated, for the checklist
   const nextResults = next
     ? results.rows.map((r) => ({ metric: r.metric, label: r.label, cell: r.cells.find((x) => x.period.label === next.label)! })).filter((r) => r.cell)
@@ -161,6 +168,69 @@ export default async function TrackerPage({ params, searchParams }: PageProps<"/
               </tbody>
             </table>
           </div>
+        </section>
+      )}
+
+      {estimate && (
+        <section className="box flex flex-col gap-3 p-5">
+          <div className="flex flex-col gap-1">
+            <div className="eyebrow">Our estimate · {estimate.period}</div>
+            <h2 className="h2">What we expect in the next results</h2>
+            <p className="sub m-0">
+              Our own estimate, not management guidance, and never scored in the tracker. {estimate.basis[0].toUpperCase() + estimate.basis.slice(1)} ₹ Cr, same rows as Screener. Made {estimate.as_of}; results due {estimate.results_due}.
+            </p>
+          </div>
+          <div className="scroll-x">
+            <table className="tbl" style={{ minWidth: 520 }}>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Low</th>
+                  <th>Our base case</th>
+                  <th>High</th>
+                  <th>vs {lastYearLabel}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {([
+                  ["Revenue", "sales", estimate.revenue],
+                  ["Operating profit", "operating_profit", estimate.operating_profit],
+                  ["Net profit", "net_profit", estimate.net_profit],
+                ] as const).map(([label, row, band]) => {
+                  const ly = lastYearAt(row);
+                  return (
+                    <tr key={row}>
+                      <td className="font-semibold">{label}</td>
+                      <td className="num">₹{num(band.low)}</td>
+                      <td className="num font-semibold">₹{num(band.base)}</td>
+                      <td className="num">₹{num(band.high)}</td>
+                      <td className="num">{ly ? `${band.base >= ly ? "+" : "−"}${num(Math.abs((band.base / ly - 1) * 100), 0)}%` : "n/a"}</td>
+                    </tr>
+                  );
+                })}
+                <tr>
+                  <td className="font-semibold">Operating margin</td>
+                  <td colSpan={4} className="num">
+                    {num((estimate.operating_profit.base / estimate.revenue.base) * 100, 1)}% at the base case
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="m-0 flex list-disc flex-col gap-1 pl-5 text-sm">
+            {estimate.reasoning.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
+          </ul>
+          <div className="text-sm">
+            <span className="label">What would make it wrong</span>
+            <ul className="m-0 mt-1 flex list-disc flex-col gap-1 pl-5">
+              {estimate.risks.map((r, i) => (
+                <li key={i}>{r}</li>
+              ))}
+            </ul>
+          </div>
+          {estimate.caveat && <p className="sub m-0">{estimate.caveat}</p>}
         </section>
       )}
 

@@ -6,12 +6,12 @@
   "companyId": "3209",
   "warehouseId": "6599019",
   "ratios": {
-    "market cap": 51527,
-    "current price": 1001,
-    "high": 1003,
+    "market cap": 39062,
+    "current price": 760,
+    "high": 1054,
     "low": 84.6,
-    "stock p/e": 218,
-    "book value": 46.5,
+    "stock p/e": 52.1,
+    "book value": 88.4,
     "dividend yield": 0,
     "roce": 7.65,
     "roe": 1.24,
@@ -20,13 +20,6 @@
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        1522,
         1494,
         1322,
         843,
@@ -126,10 +125,10 @@
         1034,
         1257,
         1441,
-        1910
+        1910,
+        2529
       ],
       "expenses": [
-        1308,
         1281,
         1232,
         812,
@@ -141,10 +140,10 @@
         905,
         1137,
         1246,
-        1525
+        1525,
+        1717
       ],
       "operating_profit": [
-        214,
         213,
         90,
         31,
@@ -156,10 +155,10 @@
         129,
         120,
         195,
-        385
+        385,
+        812
       ],
       "opm_pct": [
-        14,
         14,
         7,
         3.7,
@@ -171,10 +170,10 @@
         12,
         10,
         14,
-        20
+        20,
+        32
       ],
       "other_income": [
-        30,
         11,
         12,
         24,
@@ -186,10 +185,10 @@
         12,
         -6,
         54,
-        12
+        12,
+        34
       ],
       "interest": [
-        92,
         95,
         94,
         71,
@@ -201,10 +200,10 @@
         55,
         56,
         63,
-        55
+        55,
+        63
       ],
       "depreciation": [
-        81,
         85,
         84,
         81,
@@ -216,10 +215,10 @@
         80,
         79,
         77,
-        85
+        85,
+        109
       ],
       "pbt": [
-        71,
         44,
         -76,
         -97,
@@ -231,10 +230,10 @@
         6,
         -21,
         109,
-        257
+        257,
+        674
       ],
       "tax_pct": [
-        27,
         27,
         -22,
         -15,
@@ -246,10 +245,10 @@
         33,
         -19,
         46,
+        23,
         23
       ],
       "net_profit": [
-        52,
         32,
         -59,
         -82,
@@ -261,10 +260,10 @@
         4,
         -17,
         59,
-        197
+        197,
+        517
       ],
       "eps": [
-        1.35,
         0.85,
         -1.43,
         -2.05,
@@ -276,7 +275,8 @@
         0.08,
         -0.35,
         1.21,
-        4.04
+        4.04,
+        10.06
       ]
     }
   },
@@ -527,6 +527,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde0da46-b120-452c-aefd-38be56db37c6.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22dd005a-d464-49ac-a22a-db0a1eeeb0fa.pdf",
+      "recordingUrl": "https://www.youtube.com/watch?v=bdyLUlxrcmw"
+    },
+    {
       "month": "Sep 2026",
       "yearMonth": "2026-09",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46c547c0-9df0-40ce-9faa-1a89a37490b3.pdf",
@@ -747,14 +754,14 @@
       "month": "May 2020",
       "yearMonth": "2020-05",
       "transcriptUrl": null,
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaa54b23-f26d-4ca6-a6bc-398182138f93.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6c59285-98b3-473d-a5ab-0689e5dea22f.pdf",
       "recordingUrl": null
     },
     {
       "month": "May 2020",
       "yearMonth": "2020-05-b",
       "transcriptUrl": "https://www.stl.tech/pdf/Transcript%20of%20Sterlite%20Technologies_%20Q4%20FY20%20Earnings%20Call_12%20May%202020.pdf",
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6c59285-98b3-473d-a5ab-0689e5dea22f.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaa54b23-f26d-4ca6-a6bc-398182138f93.pdf",
       "recordingUrl": null
     },
     {
@@ -853,35 +860,35 @@
     {
       "name": "Sterlite Tech.",
       "screenerPath": "/company/STLTECH/consolidated/",
-      "marketCapCr": 51526.64,
-      "pe": 218.13,
-      "salesQtrCr": 1910,
-      "salesGrowthQtrPct": 87.44,
+      "marketCapCr": 39062,
+      "pe": 52.14,
+      "salesQtrCr": 2529,
+      "salesGrowthQtrPct": 144.58,
       "roce": 7.65
     },
     {
       "name": "ITI",
       "screenerPath": "/company/ITI/",
-      "marketCapCr": 23201.51,
+      "marketCapCr": 25229.95,
       "pe": null,
       "salesQtrCr": 425.03,
       "salesGrowthQtrPct": -14.65,
-      "roce": 1.43
+      "roce": 2.14
     },
     {
       "name": "Tejas Networks",
       "screenerPath": "/company/TEJASNET/consolidated/",
-      "marketCapCr": 8247.05,
+      "marketCapCr": 7367.91,
       "pe": null,
-      "salesQtrCr": 402.16,
-      "salesGrowthQtrPct": 99.11,
+      "salesQtrCr": 405.68,
+      "salesGrowthQtrPct": 54.95,
       "roce": -14.64
     },
     {
       "name": "Optiemus Infra.",
       "screenerPath": "/company/OPTIEMUS/consolidated/",
-      "marketCapCr": 7064.28,
-      "pe": 97.22,
+      "marketCapCr": 7213.32,
+      "pe": 99.27,
       "salesQtrCr": 882.99,
       "salesGrowthQtrPct": 102.82,
       "roce": 10.92
@@ -889,8 +896,8 @@
     {
       "name": "Orient Cables",
       "screenerPath": "/company/ORIENTCABL/consolidated/",
-      "marketCapCr": 4608.89,
-      "pe": 85.65,
+      "marketCapCr": 3840.17,
+      "pe": 71.37,
       "salesQtrCr": 489.16,
       "salesGrowthQtrPct": null,
       "roce": null
@@ -898,21 +905,21 @@
     {
       "name": "Valiant Commun.",
       "screenerPath": "/company/526775/consolidated/",
-      "marketCapCr": 1971.58,
-      "pe": 72.38,
+      "marketCapCr": 1812.51,
+      "pe": 66.54,
       "salesQtrCr": 25.42,
       "salesGrowthQtrPct": 38.76,
       "roce": 37.69
     },
     {
-      "name": "Birla Cable",
-      "screenerPath": "/company/BIRLACABLE/",
-      "marketCapCr": 1127.3,
-      "pe": 24.4,
-      "salesQtrCr": 266.64,
-      "salesGrowthQtrPct": 51.12,
-      "roce": 8.93
+      "name": "ADC India",
+      "screenerPath": "/company/523411/",
+      "marketCapCr": 988.75,
+      "pe": 43.89,
+      "salesQtrCr": 63.42,
+      "salesGrowthQtrPct": 40.59,
+      "roce": 31.44
     }
   ],
-  "fetchedAt": "2026-10-05T19:41:00.052Z"
+  "fetchedAt": "2026-11-03T21:29:58.518Z"
 }

@@ -1,0 +1,268 @@
+{
+  "symbol": "TARIL",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ea7143-b11b-476d-b641-f95e60046a6c.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/TRIL_13102026154828_InvestorPresentationQ2202627.pdf",
+    "recordingUrl": "https://webcms.transformerindia.com/uploads/10047513_6b91b65360.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:37:08.083Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-13",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 25% and beyond",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Standalone H1 grew 35%; analysts called this conservative. PAT margin forecast of 9-10% also kept, confirmed with 'Yes' to an analyst",
+        "quote": "So, our target is to reach a growth of 25% and beyond. So, we are keeping it the same.",
+        "page": 10,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "growth 25%+",
+        "revises": "Jul call: 25% (reiterated)"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue ₹3,200 Cr for FY27",
+        "kind": "absolute",
+        "low": 3200,
+        "high": 3200,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "standalone",
+        "segment": null,
+        "condition": "Standalone H1 revenue ₹1,268 Cr, so H2 needs about ₹1,930 Cr (CFO: 'around INR900-odd crores every quarter')",
+        "quote": "Yes, I think we are maintaining our, you know, INR3,200 crores, so I think we are good at that.",
+        "page": 13,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "medium",
+        "keyword": "FY27 ₹3,200 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Changodar expansion starts commercial production",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Adds about 35,000 MVA for roughly ₹150 Cr, taking capacity to 75,000 MVA",
+        "quote": "Our ongoing transformer manufacturing expansion at Changodar is near completion, with the commercial production expected to commence around Diwali.",
+        "page": 4,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "Changodar Diwali",
+        "revises": "Jul call: running in Q2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "CTC plant makes commercial output by Q4",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Commissioning by Diwali, trials in Nov-Dec; outside sales from Q1 FY28",
+        "quote": "And by quarter four this year, we should be commercially manufacturing CTC, but this CTC will be only for TARIL transformers currently.",
+        "page": 16,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "CTC plant Q4",
+        "revises": "Jul call: CTC commissioned in Q2 FY27"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Margin gain from backward integration",
+        "kind": "absolute",
+        "low": 2,
+        "high": 3,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "CFO agreed full effect will be seen by FY29; some gain visible from FY28",
+        "quote": "we are looking at around 200 basis point to 300 basis point margin expansion through this backward integration.",
+        "page": 9,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "high",
+        "keyword": "200-300 bps",
+        "revises": "Jul call: 2-3 points in FY28"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Working capital days 110-120",
+        "kind": "absolute",
+        "low": 110,
+        "high": 120,
+        "unit": "other",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Was about 154 days (standalone) at Sept 2026; CFO expects the cycle to start falling from the end of FY27",
+        "quote": "It should be below 120 days. We are trying to, you know, reach at 120, and once we reach there, we would like to see close to between 110 days and 120 days this year.",
+        "page": 7,
+        "speaker": "Satyen Mamtora (MD & CEO)",
+        "confidence": "high",
+        "keyword": "working capital days",
+        "revises": "Jul call: 120-130 days"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "USD 1 billion revenue",
+        "kind": "absolute",
+        "low": 8000,
+        "high": 8000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "late FY29 or early FY30",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "USD 1 billion converted at about ₹83-85; includes bushings, pressboard, CRGO, CTC and tank sales, not only transformers",
+        "quote": "It will be late part of FY29 or early 2030.",
+        "page": 15,
+        "speaker": "Mehul Shah (CFO)",
+        "confidence": "medium",
+        "keyword": "USD 1 billion",
+        "revises": "Jul call: ₹7,000-8,000 Cr in FY29"
+      }
+    ],
+    "insights": {
+      "summary": "Standalone Q2 FY27 revenue was ₹709 Cr (up 66% year on year, 27% on the quarter) with EBITDA of ₹114 Cr at 16.1% as utilisation rose. Unexecuted order book is ₹7,237 Cr (up 32%) and Q2 order inflow was ₹1,169 Cr, including a first nuclear order from NPCIL. Management kept FY27 guidance at 25%+ growth and about ₹3,200 Cr revenue, with the Changodar expansion starting around Diwali.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 revenue growth 25% and beyond, about ₹3,200 Cr, PAT margin 9-10%",
+          "page": 13
+        },
+        {
+          "change": "delayed",
+          "text": "Changodar expansion now starts around Diwali (Q3), not Q2",
+          "page": 4
+        },
+        {
+          "change": "delayed",
+          "text": "CTC plant commissioning slips to Q3 with commercial output by Q4 (was Q2)",
+          "page": 17
+        },
+        {
+          "change": "raised",
+          "text": "Working capital target improved to 110-120 days (was 120-130)",
+          "page": 8
+        },
+        {
+          "change": "new",
+          "text": "First nuclear order (NPCIL Kaiga 5 and 6); UK subsidiary set up in Sept 2026",
+          "page": 4
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Following our Q2 performance, we remain confident of achieving FY27 guidance and continue to remain on track with our growth plans for the full year.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Is 25% conservative?",
+          "answer": "H2 needs about ₹1,930 Cr against ₹1,500 Cr last year; management said it is maintaining ₹3,200 Cr and has not raised it.",
+          "page": 13
+        },
+        {
+          "topic": "Raw-material prices",
+          "answer": "Prices are still high but most orders carry price-variation clauses, so margin is largely protected.",
+          "page": 8
+        },
+        {
+          "topic": "Free cash flow",
+          "answer": "Working capital days to start falling from the end of FY27 as capacity and backward integration come in.",
+          "page": 8
+        },
+        {
+          "topic": "Competition",
+          "answer": "No price war; 'everybody has enough orders in hand'. Inquiries under negotiation are ₹21,000 Cr (80% domestic).",
+          "page": 8
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Net working capital is about 154 days; receivables ₹1,053 Cr, of which ₹228 Cr is non-current.",
+          "page": 7
+        },
+        {
+          "text": "Backward-integration plants (CTC, pressboard, bushing) keep slipping by a quarter or two.",
+          "page": 17
+        },
+        {
+          "text": "Retention money of about ₹200 Cr is locked in receivables.",
+          "page": 9
+        },
+        {
+          "text": "Q2 standalone EBITDA margin of 16.1% is well above the guided FY27 level, so margins may not be sustained if mix or raw-material costs turn.",
+          "page": 6
+        }
+      ],
+      "watch_next": [
+        "Q3 revenue near ₹900 Cr or more, as the ₹3,200 Cr target needs about ₹960 Cr a quarter in H2",
+        "Changodar and CTC plants starting on the revised dates",
+        "Working capital days falling towards 120",
+        "Order inflow of about ₹1,000 Cr or more a quarter"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Power, distribution and special transformers, reactors and EHV equipment, with backward integration into CTC, pressboard and bushings",
+        "customers": "State utilities (GETCO, APTRANSCO, DVC), PGCIL, NPCIL, EPC contractors, data-centre and industrial buyers in 40+ countries",
+        "revenue_mix": "About 55-60% of order book is 400 kV and above; export share targeted at 10-15%",
+        "demand_drivers": "Grid expansion, renewable integration, nuclear and data-centre power, replacement of ageing transformers"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ea7143-b11b-476d-b641-f95e60046a6c.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/TRIL_13102026154828_InvestorPresentationQ2202627.pdf",
+    "transcriptPages": 17,
+    "transcriptHasText": true
+  }
+}
