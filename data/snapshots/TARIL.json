@@ -6,13 +6,13 @@
   "companyId": "3458",
   "warehouseId": "6599283",
   "ratios": {
-    "market cap": 8429,
-    "current price": 281,
-    "high": 501,
+    "market cap": 9052,
+    "current price": 302,
+    "high": 422,
     "low": 224,
-    "stock p/e": 32.6,
-    "book value": 50.5,
-    "dividend yield": 0.09,
+    "stock p/e": 29.7,
+    "book value": 55.1,
+    "dividend yield": 0.08,
     "roce": 23.3,
     "roe": 19.1,
     "face value": 1
@@ -20,13 +20,6 @@
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        156,
         257,
         369,
         513,
@@ -126,10 +125,10 @@
         460,
         737,
         783,
-        572
+        572,
+        739
       ],
       "expenses": [
-        151,
         237,
         331,
         441,
@@ -141,10 +140,10 @@
         409,
         612,
         664,
-        479
+        479,
+        611
       ],
       "operating_profit": [
-        4,
         20,
         38,
         72,
@@ -156,10 +155,10 @@
         52,
         125,
         118,
-        93
+        93,
+        129
       ],
       "opm_pct": [
-        2.8,
         8,
         10,
         14,
@@ -171,10 +170,10 @@
         11,
         17,
         15,
-        16
+        16,
+        17
       ],
       "other_income": [
-        1,
         1,
         2,
         1,
@@ -186,10 +185,10 @@
         14,
         4,
         22,
-        16
+        16,
+        3
       ],
       "interest": [
-        15,
         12,
         13,
         11,
@@ -201,13 +200,13 @@
         13,
         13,
         14,
-        15
+        15,
+        14
       ],
       "depreciation": [
         6,
         6,
         6,
-        6,
         7,
         6,
         6,
@@ -215,11 +214,11 @@
         8,
         7,
         8,
+        7,
         7,
         7
       ],
       "pbt": [
-        -15,
         3,
         21,
         56,
@@ -231,10 +230,10 @@
         45,
         108,
         119,
-        88
+        88,
+        110
       ],
       "tax_pct": [
-        -20,
         37,
         24,
         26,
@@ -246,10 +245,10 @@
         18,
         30,
         24,
-        27
+        27,
+        26
       ],
       "net_profit": [
-        -12,
         2,
         16,
         42,
@@ -261,10 +260,10 @@
         37,
         76,
         91,
-        64
+        64,
+        81
       ],
       "eps": [
-        -0.48,
         0.06,
         0.55,
         1.4,
@@ -276,7 +275,8 @@
         1.13,
         2.46,
         2.97,
-        2.05
+        2.05,
+        2.66
       ]
     }
   },
@@ -527,6 +527,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ea7143-b11b-476d-b641-f95e60046a6c.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/TRIL_13102026154828_InvestorPresentationQ2202627.pdf",
+      "recordingUrl": "https://webcms.transformerindia.com/uploads/10047513_6b91b65360.mp3"
+    },
+    {
       "month": "Jul 2026",
       "yearMonth": "2026-07",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c987bf81-abe6-4915-8479-e08fdbb55345.pdf",
@@ -544,13 +551,6 @@
       "month": "Apr 2026",
       "yearMonth": "2026-04",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3148dc8c-2942-459f-a015-7a1e465046e4.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://youtu.be/07mHuE8DLLg"
-    },
-    {
-      "month": "Apr 2026",
-      "yearMonth": "2026-04-b",
-      "transcriptUrl": null,
       "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e18fb6fb-e0dc-47d4-bb13-950610079466.pdf",
       "recordingUrl": "https://webcms.transformerindia.com/uploads/Audio_Recording_Q4_FY_2025_26_d874661ccb.mp3"
     },
@@ -844,77 +844,77 @@
   ],
   "peers": [
     {
-      "name": "B H E L",
-      "screenerPath": "/company/BHEL/consolidated/",
-      "marketCapCr": 146594.87,
-      "pe": 60.27,
-      "salesQtrCr": 7697.72,
-      "salesGrowthQtrPct": 40.29,
-      "roce": 9.14
-    },
-    {
       "name": "A B B",
       "screenerPath": "/company/ABB/",
-      "marketCapCr": 146216.78,
-      "pe": 94.87,
+      "marketCapCr": 139965.48,
+      "pe": 90.81,
       "salesQtrCr": 3558.87,
       "salesGrowthQtrPct": 21.03,
       "roce": 29.93
     },
     {
+      "name": "B H E L",
+      "screenerPath": "/company/BHEL/consolidated/",
+      "marketCapCr": 139282.53,
+      "pe": 48.39,
+      "salesQtrCr": 9300.35,
+      "salesGrowthQtrPct": 23.81,
+      "roce": 9.14
+    },
+    {
+      "name": "CG Power & Ind",
+      "screenerPath": "/company/CGPOWER/consolidated/",
+      "marketCapCr": 127613.39,
+      "pe": 91.28,
+      "salesQtrCr": 3801.54,
+      "salesGrowthQtrPct": 30.07,
+      "roce": 26.71
+    },
+    {
       "name": "Hitachi Energy",
       "screenerPath": "/company/POWERINDIA/",
-      "marketCapCr": 139466.93,
-      "pe": 117.08,
+      "marketCapCr": 121593.41,
+      "pe": 102.08,
       "salesQtrCr": 2493.69,
       "salesGrowthQtrPct": 68.62,
       "roce": 29.36
     },
     {
-      "name": "CG Power & Ind",
-      "screenerPath": "/company/CGPOWER/consolidated/",
-      "marketCapCr": 138483.66,
-      "pe": 108.81,
-      "salesQtrCr": 3280.81,
-      "salesGrowthQtrPct": 13.99,
-      "roce": 26.71
-    },
-    {
       "name": "Siemens",
       "screenerPath": "/company/SIEMENS/consolidated/",
-      "marketCapCr": 135468.24,
-      "pe": 90.11,
+      "marketCapCr": 120625.14,
+      "pe": 80.24,
       "salesQtrCr": 4713.7,
       "salesGrowthQtrPct": 14.75,
       "roce": 21.44
     },
     {
+      "name": "GE Vernova T&D",
+      "screenerPath": "/company/GVT&D/",
+      "marketCapCr": 103700.25,
+      "pe": 69.96,
+      "salesQtrCr": 2026.98,
+      "salesGrowthQtrPct": 31.75,
+      "roce": 77.44
+    },
+    {
       "name": "Siemens Ener.Ind",
       "screenerPath": "/company/ENRIN/",
-      "marketCapCr": 118730.58,
-      "pe": 77.78,
+      "marketCapCr": 101373.26,
+      "pe": 66.41,
       "salesQtrCr": 2485.6,
       "salesGrowthQtrPct": 39.28,
       "roce": 67.75
     },
     {
-      "name": "GE Vernova T&D",
-      "screenerPath": "/company/GVT&D/",
-      "marketCapCr": 108903.19,
-      "pe": 80.65,
-      "salesQtrCr": 1836.14,
-      "salesGrowthQtrPct": 38.04,
-      "roce": 77.44
-    },
-    {
       "name": "T R I L",
       "screenerPath": "/company/TARIL/consolidated/",
-      "marketCapCr": 8428.66,
-      "pe": 32.6,
-      "salesQtrCr": 572.34,
-      "salesGrowthQtrPct": 8.13,
+      "marketCapCr": 9051.5,
+      "pe": 29.73,
+      "salesQtrCr": 739.44,
+      "salesGrowthQtrPct": 60.74,
       "roce": 23.31
     }
   ],
-  "fetchedAt": "2026-10-04T20:20:12.398Z"
+  "fetchedAt": "2026-11-03T21:30:25.128Z"
 }

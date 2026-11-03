@@ -1,0 +1,332 @@
+{
+  "symbol": "ACUTAAS",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ec819ec-0f78-49c7-941a-0dbf3e72979e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85aa424f-711e-4dba-90c3-52c337db279c.pdf",
+    "recordingUrl": "https://backend.acutaas.com/resources/investor/10047956-1793102736502.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:46:26.944Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-27",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 around 30%",
+        "kind": "growth_yoy",
+        "low": 30,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Before I conclude, I would also like to revise our revenue growth guidance for current year from 25% to around 30%.",
+        "page": 5,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "growth around 30%",
+        "revises": "Jul call: 25%"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin 38-40% for FY27",
+        "kind": "margin_pct",
+        "low": 38,
+        "high": 40,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Driven by CDMO mix and operating leverage; applies to FY27 only, not FY28",
+        "quote": "We are also raising our EBITDA margin guidance between 38%-40% range for FY '27.",
+        "page": 5,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "margin 38-40%",
+        "revises": "Jul call: similar to FY26's 35.9%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "CDMO revenue ₹1,000 Cr in FY27",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": null,
+        "quote": "It means in FY '27, we will be achieving this Rs. 1,000 crores.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "CDMO ₹1,000 Cr FY27",
+        "revises": "Jul call: ₹1,000 Cr by FY28 (pulled forward a year)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "CDMO revenue ₹2,000 Cr by FY30",
+        "kind": "absolute",
+        "low": 2000,
+        "high": 2000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": "No further capex needed at Ankleshwar until then, per the Q&A; 8-10 products in the pipeline",
+        "quote": "It means from Rs. 1,000 crores, the new target we had set is Rs. 2,000 crore by FY 2030.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "CDMO ₹2,000 Cr FY30",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex FY27 about ₹300 Cr",
+        "kind": "absolute",
+        "low": 300,
+        "high": 300,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Excludes planned R&D capex and land acquisition; H1 spent ₹124 Cr, H2 plan ₹165 Cr",
+        "quote": "for the full year, we believe our total CAPEX would be around Rs. 3,000 million.",
+        "page": 5,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "capex ₹300 Cr",
+        "revises": "Jul call: ₹90-95 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ankleshwar CDMO unit at about 40% use by March 2027",
+        "kind": "qualitative",
+        "low": 40,
+        "high": 40,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "CDMO",
+        "condition": "Described as an upper limit; Q2 was 30%",
+        "quote": "it should not be more than, let us say, 40% of the total utilization at Unit 2, Ankleshwar.",
+        "page": 11,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "medium",
+        "keyword": "Ankleshwar utilisation",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Electronic-grade chemicals plant starts production",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H1 FY29",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Specialty chemicals",
+        "condition": "New bulk electronic-grade chemicals capex of ₹100 Cr in H2 FY27; about 1.5 years to build",
+        "quote": "So maybe by H1 FY '29, we should be starting the production.",
+        "page": 7,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "electronic-grade plant",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Korea semiconductor plant ramp-up",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Semiconductor chemicals",
+        "condition": "No revenue commitment for FY27; 'not giving any tall commitment'",
+        "quote": "I believe FY '28 will be a year of ramp-up for initial products, while we will continue to add more products into the basket.",
+        "page": 4,
+        "speaker": "Naresh Patel (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Korea ramp-up",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Specialty chemicals revenue to stay near H1 level",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Specialty chemicals",
+        "condition": "Overall FY27 specialty revenue to grow versus FY26 per the answer; old commodity products still being phased out",
+        "quote": "But it will remain in this territory and with a ramp up from the Battery Chemical business.",
+        "page": 18,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "specialty near H1",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Shipments to BFC customer back to normal",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "BFC",
+        "condition": null,
+        "quote": "I am happy to share the shipments have started and we are very much on target to deliver a growth in BFC this year.",
+        "page": 5,
+        "speaker": "Abhishek Patel (VP Strategy)",
+        "confidence": "high",
+        "keyword": "BFC growth",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 revenue rose 42.7% to ₹437 Cr with EBITDA of ₹176 Cr (40.3% margin) and PAT of ₹123 Cr. Pharma intermediates grew 53% on CDMO strength while specialty chemicals fell 20% on commodity phase-out and a pause in BFC shipments. Management raised FY27 revenue growth to about 30% (from 25%) and EBITDA margin to 38-40%, pulled the ₹1,000 Cr CDMO target forward to FY27, and set a new ₹2,000 Cr CDMO target for FY30.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 revenue growth to about 30% from 25%",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "FY27 EBITDA margin to 38-40% (was similar to FY26's 35.9%)",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "CDMO ₹1,000 Cr now in FY27, a year early",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "CDMO ₹2,000 Cr target by FY30",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "FY27 capex about ₹300 Cr (was ₹90-95 Cr), including bulk electronic-grade chemicals plant",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Demand environment remains robust and whatever cost pressures we face due to geopolitical issues, we have been able to pass them on successfully.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "New CDMO products in H2",
+          "answer": "No product-wise numbers; 8-9 products enter the revenue stream over 1-1.5 years and the ₹1,000 Cr is backed by orders already in hand.",
+          "page": null
+        },
+        {
+          "topic": "Electrolyte additive pricing",
+          "answer": "Long-term contracts reset prices with raw materials and currency; realisation can rise to the early teens in dollars but not the $30-35 seen in the spot market.",
+          "page": null
+        },
+        {
+          "topic": "Margin sustainability",
+          "answer": "38-40% is for FY27 only; CDMO mix and operating leverage (Ankleshwar at 30% use, battery chemicals very low) support it.",
+          "page": null
+        },
+        {
+          "topic": "Korea plant economics",
+          "answer": "Revenue only from FY28 and small at first while customers qualify the products.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Working capital stretched to 115 days from 99 days in Q1 because of higher debtor days.",
+          "page": null
+        },
+        {
+          "text": "Specialty chemicals revenue down 20% year on year; legacy commodity products still being phased out.",
+          "page": null
+        },
+        {
+          "text": "One US customer's acquisition paused BFC shipments in the quarter.",
+          "page": null
+        },
+        {
+          "text": "CDMO growth leans on a few large molecules for innovator customers (e.g. Darolutamide); management declined to comment on product-level demand.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 revenue and EBITDA margin consistent with 30% growth and 38-40% for the year",
+        "First CDMO revenue from the new contracts in H2",
+        "Debtor days and working capital falling back",
+        "Battery-chemicals third-product scale-up",
+        "Land acquisition for the next CDMO phase"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Advanced pharmaceutical intermediates and CDMO, specialty chemicals (battery electrolyte additives, semiconductor chemicals, BFC) and legacy commodity chemicals",
+        "customers": "Global innovator pharma companies, US/Korean/Japanese specialty customers",
+        "revenue_mix": "Q2: advanced pharma intermediates ₹402 Cr of ₹437 Cr; specialty chemicals ₹35 Cr",
+        "demand_drivers": "Patent expiries of large generic products, CDMO contracts for innovator drugs, EV battery chemicals, semiconductor supply localisation"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ec819ec-0f78-49c7-941a-0dbf3e72979e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85aa424f-711e-4dba-90c3-52c337db279c.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

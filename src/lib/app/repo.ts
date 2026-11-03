@@ -4,6 +4,7 @@ import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import type { GuidanceItem, InsightReport } from "../pipeline/guidance";
 import type { ResearchNote } from "../pipeline/note";
+import { Prediction } from "../pipeline/prediction";
 import type { ExternalSource } from "../pipeline/source";
 import type { QuoteCheck } from "../pipeline/documents";
 import type { SavedRun } from "../pipeline/store";
@@ -68,6 +69,13 @@ async function readJson<T>(path: string): Promise<T | null> {
   } catch {
     return null;
   }
+}
+
+/** Our estimate of the next results, from data/predictions (in the repo, so it is read in both modes). */
+export async function getPrediction(symbol: string): Promise<Prediction | null> {
+  const raw = await readJson<unknown>(join(DATA, "predictions", `${symbol}.json`));
+  const parsed = Prediction.safeParse(raw);
+  return parsed.success ? parsed.data : null;
 }
 
 async function fileBundle(symbol: string): Promise<CompanyBundle | null> {

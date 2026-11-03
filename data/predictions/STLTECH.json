@@ -1,0 +1,33 @@
+{
+ "symbol": "STLTECH",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 2900,
+  "base": 3150,
+  "high": 3450
+ },
+ "operating_profit": {
+  "low": 754,
+  "base": 866,
+  "high": 983
+ },
+ "net_profit": {
+  "low": 440,
+  "base": 540,
+  "high": 640
+ },
+ "reasoning": [
+  "Management said ₹3,021 Cr of the ₹35,274 Cr order book is scheduled for execution in Q3. Spot business is now 'a negligible share'. In Q2 scheduled execution was ₹2,228 Cr and revenue came in at ₹2,529 Cr (about 13% higher), so Q3 revenue of about ₹3,150 Cr is the base case.",
+  "Operational EBITDA margin was 27.1% in Q2 and the MD wants to 'perform or better' from Q3 (the FY29 target is now about 30%). We use 27.5%.",
+  "Net finance cost should fall from Q3 after the Q2 loan prepayments; Q2 also carried a ₹49 Cr impairment that should not recur."
+ ],
+ "risks": [
+  "Capacity and raw-material (germanium, helium) limits cap volume",
+  "Customer build schedules slip",
+  "Further US tariff refund is small and uncertain"
+ ],
+ "caveat": "Q2 operating profit on Screener (₹812 Cr) and PAT (₹517 Cr) include a one-time ₹161 Cr US tariff refund. Underlying Q2 operating profit was about ₹685 Cr and PAT about ₹430 Cr, which is the right base for comparison."
+}

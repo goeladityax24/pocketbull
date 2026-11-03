@@ -6,13 +6,13 @@
   "companyId": "1285191",
   "warehouseId": "131179924",
   "ratios": {
-    "market cap": 3401,
-    "current price": 1138,
-    "high": 1264,
+    "market cap": 3791,
+    "current price": 1268,
+    "high": 1310,
     "low": 366,
-    "stock p/e": 87.3,
-    "book value": 64.4,
-    "dividend yield": 0.12,
+    "stock p/e": 61.6,
+    "book value": 107,
+    "dividend yield": 0.11,
     "roce": 28.6,
     "roe": 23.5,
     "face value": 5
@@ -61,6 +61,13 @@
         "index": 2,
         "endDate": "2026-03-31",
         "label": "H2 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-09-30",
+        "label": "H1 FY27"
       }
     ],
     "rows": {
@@ -70,15 +77,17 @@
         57,
         93,
         100,
-        136
+        136,
+        195
       ],
       "expenses": [
         37,
         50,
         46,
         71,
-        79,
-        100
+        78,
+        100,
+        141
       ],
       "operating_profit": [
         11,
@@ -86,7 +95,8 @@
         11,
         21,
         21,
-        36
+        36,
+        54
       ],
       "opm_pct": [
         23,
@@ -94,7 +104,8 @@
         19,
         23,
         21,
-        26
+        26,
+        28
       ],
       "other_income": [
         0,
@@ -102,12 +113,14 @@
         0,
         2,
         2,
-        2
+        2,
+        1
       ],
       "interest": [
         1,
         1,
         1,
+        2,
         2,
         2,
         2
@@ -117,7 +130,8 @@
         1,
         1,
         2,
-        2,
+        3,
+        4,
         4
       ],
       "pbt": [
@@ -125,8 +139,9 @@
         9,
         9,
         19,
-        19,
-        32
+        18,
+        32,
+        48
       ],
       "tax_pct": [
         28,
@@ -134,7 +149,8 @@
         27,
         23,
         26,
-        25
+        25,
+        24
       ],
       "net_profit": [
         6,
@@ -142,15 +158,17 @@
         6,
         15,
         14,
-        24
+        24,
+        36
       ],
       "eps": [
         2.88,
         2.68,
         2.89,
         5.25,
-        4.91,
-        8.31
+        4.77,
+        8.31,
+        12.11
       ]
     }
   },
@@ -311,6 +329,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce9c57c4-5b51-4add-b905-499fb935a1dc.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3667933-7e8a-4e7f-aa12-65380aff25ab.pdf",
+      "recordingUrl": "https://static.wixstatic.com/mp3/3be98c_dbf1c4d693c54aa88dc3a5e413d754ea.mp3"
+    },
+    {
       "month": "May 2026",
       "yearMonth": "2026-05",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2af3b3d-366c-4653-8307-06e939cb3ca9.pdf",
@@ -347,5 +372,5 @@
     }
   ],
   "peers": [],
-  "fetchedAt": "2026-10-21T07:04:46.342Z"
+  "fetchedAt": "2026-11-03T21:43:58.486Z"
 }

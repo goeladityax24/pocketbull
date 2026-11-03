@@ -1,0 +1,179 @@
+{
+  "symbol": "E2E",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4caf3327-c04d-41d1-8d14-e92afee37976.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99b94a78-41b2-407f-b337-363b911809e8.pdf",
+    "recordingUrl": "https://objectstore.e2enetworks.net/investor-section/E2E%20Networks%20Limited_Earnings%20Call%20Audio%20Recording_16-oct-2026.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:46:29.875Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-16",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Next B200 lot goes live this quarter",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No revenue timing given",
+        "quote": "the next lot of B200 which we have already announced is expected to go live this quarter, hopefully soon.",
+        "page": 5,
+        "speaker": "Tarun Dua (MD)",
+        "confidence": "high",
+        "keyword": "next B200 lot",
+        "revises": "Jul call: next 1,024 B200 lot in Q2 FY27 (slipped one quarter)"
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "70%+ EBITDA margin business",
+        "kind": "margin_pct",
+        "low": 70,
+        "high": 70,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "medium and long term",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q2 EBITDA margin was 76.6%; this is a floor, not a forecast for next quarter",
+        "quote": "overall, we are looking at this as a 70% plus EBITDA margin business. That's what we feel for the medium term and the long term.",
+        "page": 5,
+        "speaker": "Tarun Dua (MD)",
+        "confidence": "high",
+        "keyword": "70% plus margin",
+        "revises": "Jul call: current margins sustainable"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Revenue visibility from the sovereign-AI contract",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "through June 2029",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Existing B200s moved from pay-as-you-go to a multi-year contract; a signed deal, not guidance",
+        "quote": "we signed a nearly INR1,000 crores deal with a Sovereign AI company for the Blackwell cluster, which lasts through June 2029.",
+        "page": 3,
+        "speaker": "Tarun Dua (MD)",
+        "confidence": "medium",
+        "keyword": "₹1,000 Cr contract",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 revenue was ₹224 Cr (up 411% year on year, 43% on the quarter) with EBITDA of ₹172 Cr at a 76.6% margin and PAT of ₹73 Cr. The MD again declined to give guidance ('we don't give any guidance') and no capex or deployment plan was announced. The next lot of B200 GPUs is expected live this quarter, a slip from the July timeline, and a nearly ₹1,000 Cr contract now covers the first B200 cluster to June 2029.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Second B200 lot now 'this quarter' (Q3), after being slated for Q2",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Nearly ₹1,000 Cr multi-year sovereign-AI contract through June 2029",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "New Chief Revenue Officer, Field CTO and a strategic advisor",
+          "page": null
+        },
+        {
+          "change": "reiterated",
+          "text": "70%+ EBITDA margin business over the medium to long term",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "And this is still day zero of AI for us, as far as we can see.",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Exit MRR / guidance",
+          "answer": "'We always say, look back at what we have done rather than giving a future guidance.'",
+          "page": null
+        },
+        {
+          "topic": "GPU price rises",
+          "answer": "Will not chase short-term hourly rates; some GPUs are kept for own platform R&D; uncontracted capacity expected to earn more.",
+          "page": null
+        },
+        {
+          "topic": "Capex / more GPUs",
+          "answer": "No forward-looking predictions; plans will be announced once fructified. No upper limit on debt as long as cash flow repays it.",
+          "page": null
+        },
+        {
+          "topic": "Customer mix",
+          "answer": "India AI Mission was 13-15% of Q2 revenue; international 20-25%; no contracted-revenue share given.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Next B200 lot is a quarter late and no advance payment shows on the balance sheet, as an analyst noted.",
+          "page": null
+        },
+        {
+          "text": "No guidance, no capex plan and no disclosure of contracted versus short-term revenue, so quarterly revenue is hard to forecast.",
+          "page": null
+        },
+        {
+          "text": "Part of the GPU fleet is used internally rather than sold, which holds back rentable capacity.",
+          "page": null
+        },
+        {
+          "text": "A ₹1,500 Cr fundraise enabling resolution is in place; dilution timing unclear.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Second B200 lot going live and billing in Q3",
+        "Revenue and the 76% margin holding with the full quarter of existing GPUs",
+        "Any capex and deployment announcement or equity raise",
+        "India AI Mission renewals and share of revenue"
+      ],
+      "business_snapshot": {
+        "what_they_make": "GPU cloud and AI platform (TIR, Jarvis) running on NVIDIA H100, H200 and B200 clusters",
+        "customers": "Indian AI start-ups and enterprises, India AI Mission beneficiaries (13-15%), international customers (20-25%), a sovereign-AI company",
+        "revenue_mix": "Not split by training, inference or storage; management declined to break it down",
+        "demand_drivers": "Sovereign AI, India AI Mission, GPU price increases, move from training to inference and agents"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4caf3327-c04d-41d1-8d14-e92afee37976.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99b94a78-41b2-407f-b337-363b911809e8.pdf",
+    "transcriptPages": 18,
+    "transcriptHasText": true
+  }
+}

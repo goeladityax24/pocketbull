@@ -1,0 +1,33 @@
+{
+ "symbol": "AEROFLEX",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 195,
+  "base": 220,
+  "high": 245
+ },
+ "operating_profit": {
+  "low": 44,
+  "base": 53,
+  "high": 62
+ },
+ "net_profit": {
+  "low": 32,
+  "base": 38,
+  "high": 44
+ },
+ "reasoning": [
+  "The MD said FY27 revenue should reach ₹715-725 Cr 'at the least'. H1 was ₹354 Cr, so H2 needs at least ₹361-371 Cr. Q2 alone was ₹207 Cr, so the guide is a floor.",
+  "Skid capacity goes from 12,000 to 15,000 units a year by December and skids are guided at ₹150-200 Cr for the year. We assume revenue grows about 6% on Q2.",
+  "EBITDA margin has sat at 23-24% for four quarters; management talks of about 25%. PAT includes the depreciation change that lowered depreciation by about ₹8 Cr a quarter."
+ ],
+ "risks": [
+  "Visibility is only about three months",
+  "Skid revenue depends on one customer in India",
+  "Hyd-Air merger costs"
+ ],
+ "caveat": null
+}

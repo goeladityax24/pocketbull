@@ -6,13 +6,13 @@
   "companyId": "1284419",
   "warehouseId": "104235517",
   "ratios": {
-    "market cap": 28333,
-    "current price": 4765,
+    "market cap": 24301,
+    "current price": 4088,
     "high": 5813,
     "low": 2920,
-    "stock p/e": 109,
-    "book value": 127,
-    "dividend yield": 0.06,
+    "stock p/e": 66.4,
+    "book value": 354,
+    "dividend yield": 0.07,
     "roce": 37.5,
     "roe": 32.8,
     "face value": 2
@@ -20,13 +20,6 @@
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        60,
         145,
         253,
         266,
@@ -126,10 +125,10 @@
         304,
         805,
         774,
-        820
+        820,
+        1323
       ],
       "expenses": [
-        51,
         126,
         219,
         225,
@@ -141,10 +140,10 @@
         258,
         707,
         677,
-        699
+        699,
+        1126
       ],
       "operating_profit": [
-        9,
         19,
         34,
         40,
@@ -156,10 +155,10 @@
         45,
         98,
         97,
-        121
+        121,
+        197
       ],
       "opm_pct": [
-        14,
         13,
         14,
         15,
@@ -171,10 +170,10 @@
         15,
         12,
         12,
+        15,
         15
       ],
       "other_income": [
-        0,
         3,
         5,
         4,
@@ -186,10 +185,10 @@
         1,
         7,
         10,
-        8
+        8,
+        13
       ],
       "interest": [
-        1,
         1,
         2,
         3,
@@ -201,11 +200,11 @@
         1,
         3,
         8,
-        12
+        12,
+        24
       ],
       "depreciation": [
         1,
-        1,
         2,
         2,
         2,
@@ -216,10 +215,10 @@
         3,
         4,
         4,
-        3
+        3,
+        4
       ],
       "pbt": [
-        7,
         20,
         35,
         40,
@@ -231,10 +230,10 @@
         42,
         98,
         95,
-        114
+        114,
+        183
       ],
       "tax_pct": [
-        25,
         25,
         26,
         26,
@@ -246,10 +245,10 @@
         25,
         25,
         26,
+        25,
         25
       ],
       "net_profit": [
-        5,
         15,
         26,
         30,
@@ -261,10 +260,10 @@
         31,
         73,
         71,
-        85
+        85,
+        137
       ],
       "eps": [
-        0.98,
         2.7,
         4.64,
         5.26,
@@ -276,7 +275,8 @@
         5.55,
         12.94,
         12.4,
-        14.98
+        14.98,
+        22.99
       ]
     }
   },
@@ -442,10 +442,10 @@
         206
       ],
       "eps": [
-        4.74,
-        6.91,
-        14.55,
-        39.68,
+        0.53,
+        0.77,
+        1.62,
+        4.41,
         9.22,
         13.47,
         20.08,
@@ -454,6 +454,13 @@
     }
   },
   "concalls": [
+    {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c829a3-b884-41a9-92ec-2e75367dc142.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df5b0829-df53-4ff0-9c30-b303ab1a323c.pdf",
+      "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2026-27/Q2/10047913.mp3"
+    },
     {
       "month": "Aug 2026",
       "yearMonth": "2026-08",
@@ -472,13 +479,6 @@
       "month": "Jan 2026",
       "yearMonth": "2026-01",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2647f029-f296-4b01-aebb-950882b76c1c.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://youtu.be/3jC0oigpVd0"
-    },
-    {
-      "month": "Jan 2026",
-      "yearMonth": "2026-01-b",
-      "transcriptUrl": null,
       "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73b9cf6a-3d16-48aa-af63-f60830690166.pdf",
       "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2025-26/Q3/10039093.mp3"
     },
@@ -563,14 +563,14 @@
       "month": "May 2024",
       "yearMonth": "2024-05",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e64f466d-de4e-4eeb-a02f-8b22707ed51c.pdf",
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0f5669e-2520-4b49-977f-125cb95df0bd.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2df6fd3b-908c-4322-b37b-484a9a6c94e9.pdf",
       "recordingUrl": null
     },
     {
       "month": "May 2024",
       "yearMonth": "2024-05-b",
       "transcriptUrl": null,
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2df6fd3b-908c-4322-b37b-484a9a6c94e9.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0f5669e-2520-4b49-977f-125cb95df0bd.pdf",
       "recordingUrl": "https://netwebindia.com/investors/Netweb-4QFY-Concall-Audio.m4a"
     },
     {
@@ -634,66 +634,66 @@
     {
       "name": "L&T Technology",
       "screenerPath": "/company/LTTS/consolidated/",
-      "marketCapCr": 34171.2,
-      "pe": 25.43,
-      "salesQtrCr": 2940.1,
-      "salesGrowthQtrPct": 11.47,
+      "marketCapCr": 44814.43,
+      "pe": 32.12,
+      "salesQtrCr": 3040.4,
+      "salesGrowthQtrPct": 12.06,
       "roce": 26.71
     },
     {
       "name": "Inventurus Knowl",
       "screenerPath": "/company/IKS/consolidated/",
-      "marketCapCr": 30337.98,
-      "pe": 39.72,
+      "marketCapCr": 29696.01,
+      "pe": 38.88,
       "salesQtrCr": 893.63,
       "salesGrowthQtrPct": 20.74,
       "roce": 31.51
     },
     {
-      "name": "Netweb Technol.",
-      "screenerPath": "/company/NETWEB/",
-      "marketCapCr": 28333.31,
-      "pe": 108.7,
-      "salesQtrCr": 819.69,
-      "salesGrowthQtrPct": 172.13,
-      "roce": 37.48
-    },
-    {
       "name": "Tata Technolog.",
       "screenerPath": "/company/TATATECH/consolidated/",
-      "marketCapCr": 28328.2,
-      "pe": 43.53,
-      "salesQtrCr": 1664.63,
-      "salesGrowthQtrPct": 33.78,
+      "marketCapCr": 26306.07,
+      "pe": 40.05,
+      "salesQtrCr": 1698.8,
+      "salesGrowthQtrPct": 28.37,
       "roce": 20.9
+    },
+    {
+      "name": "Netweb Technol.",
+      "screenerPath": "/company/NETWEB/",
+      "marketCapCr": 24300.97,
+      "pe": 66.42,
+      "salesQtrCr": 1323.28,
+      "salesGrowthQtrPct": 335.69,
+      "roce": 37.48
     },
     {
       "name": "Affle 3i",
       "screenerPath": "/company/AFFLE/consolidated/",
-      "marketCapCr": 20343.1,
-      "pe": 42.58,
-      "salesQtrCr": 747.16,
-      "salesGrowthQtrPct": 20.37,
+      "marketCapCr": 22777.27,
+      "pe": 45.82,
+      "salesQtrCr": 783.59,
+      "salesGrowthQtrPct": 21.16,
       "roce": 16.84
     },
     {
       "name": "Sagility",
       "screenerPath": "/company/SAGILITY/consolidated/",
-      "marketCapCr": 19951.52,
-      "pe": 19.41,
-      "salesQtrCr": 1963.48,
-      "salesGrowthQtrPct": 27.59,
+      "marketCapCr": 19820.74,
+      "pe": 18.68,
+      "salesQtrCr": 2032.1,
+      "salesGrowthQtrPct": 22.53,
       "roce": 13.41
     },
     {
-      "name": "ESDS Software",
-      "screenerPath": "/company/ESDS/consolidated/",
-      "marketCapCr": 15995.6,
-      "pe": 129.62,
-      "salesQtrCr": 133.66,
-      "salesGrowthQtrPct": 7.28,
-      "roce": 30.19
+      "name": "Black Box",
+      "screenerPath": "/company/BBOX/consolidated/",
+      "marketCapCr": 14167.98,
+      "pe": 49.59,
+      "salesQtrCr": 1718.5,
+      "salesGrowthQtrPct": 23.92,
+      "roce": 21.56
     }
   ],
-  "fetchedAt": "2026-10-05T19:41:27.216Z"
+  "fetchedAt": "2026-11-03T21:30:16.341Z"
 }

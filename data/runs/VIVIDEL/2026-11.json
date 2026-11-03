@@ -1,0 +1,263 @@
+{
+  "symbol": "VIVIDEL",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_03112026125220_Intimation_of_Transcript_of_Earnings_Call_of_H1_FY_27.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_26102026213135_Intimation_Letter_for_Investor_Presentation_30-09-2026.pdf",
+    "recordingUrl": "https://vividgroup.in/wp-content/uploads/2026/10/Earnings-Call-Recording_H2_30-09-2026_FY_2026-27.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-11-03T21:46:34.581Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "H1 FY27",
+    "call_date": "2026-10-28",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 35-40% or better",
+        "kind": "growth_yoy",
+        "low": 35,
+        "high": 40,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "MD said 'we have no doubt in achieving those numbers or bettering those numbers'. An analyst quoted about ₹300 Cr for the year and the MD said 'we are absolutely on track'; H1 was ₹91.5 Cr, so H2 must be about ₹180 Cr+",
+        "quote": "We had given a guidance of 35% to 40% growth on the year-on-year basis and we are very easily, the orders are already come in, they have already started executing.",
+        "page": 12,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "growth 35-40%",
+        "revises": "Jul 2026 investor notes: about 50% growth"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "H2 revenue about double H1",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "A seasonal pattern the MD cites, not a stated target; H2 FY26 was ₹130 Cr against ₹71 Cr in H1 FY26",
+        "quote": "because our H2 is generally double revenue of our H1.",
+        "page": 12,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "H2 double H1",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margin level treated as a floor",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "EBITDA margin was 20.6% in H1 FY27; MD said H2 margins should be at least as good because fixed costs spread over double the revenue. 'We are very mindful about this margins'",
+        "quote": "Yes, it should be like a floor limit right now.",
+        "page": 13,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "margin floor",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ambernath first dispatches from end-November",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Ambernath plant",
+        "condition": "Subject to statutory approvals; phase one only",
+        "quote": "from November-end, the first dispatches will start happening from the new facility.",
+        "page": 8,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Ambernath dispatches",
+        "revises": "Sep 2026: commercial operations by end of October (about a month later)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Phase one adds about 5,000 verticals of capacity",
+        "kind": "qualitative",
+        "low": 5000,
+        "high": 5000,
+        "unit": "other",
+        "approx": true,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Ambernath plant",
+        "condition": "Total capacity to rise from 7,500 to 22,500 verticals a year once phase two is done; no date for phase two",
+        "quote": "the phase one will take our additional capacity to roughly around 5,000",
+        "page": 8,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "phase one 5,000",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Data centres 50-60% of revenue",
+        "kind": "qualitative",
+        "low": 50,
+        "high": 60,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 FY27 data-centre share was about 52%; described as a conscious product mix",
+        "quote": "50% to 60% we are, our revenue will always come from data center",
+        "page": 14,
+        "speaker": "Sameer Attavar (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "data centre share",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Working capital pressure to ease",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "coming quarters",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 operating cash flow was negative ₹55.5 Cr; IPO money of ₹22.9 Cr still unused",
+        "quote": "we expect working capital pressures to gradually ease and operating cash flows to improve over the coming quarters.",
+        "page": 7,
+        "speaker": "Varun Mishra (CFO)",
+        "confidence": "high",
+        "keyword": "working capital eases",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "H1 FY27 revenue rose 30% to ₹91.5 Cr with EBITDA of ₹19 Cr (20.6% margin) and PAT of ₹13.1 Cr, helped by data centres (52% of revenue) and exports of ₹8.1 Cr. The executable order book is ₹307 Cr, enough for about two quarters. Management says it is on track for 35-40% growth for FY27 or better, with H2 generally double H1, and the new Ambernath plant's first dispatches slipped about a month to end-November.",
+      "what_changed": [
+        {
+          "change": "delayed",
+          "text": "Ambernath phase one: first dispatches from end-November (earlier end-October)",
+          "page": null
+        },
+        {
+          "change": "reiterated",
+          "text": "FY27 growth of 35-40%, 'or bettering'; earlier conference note said about 50%",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Order book ₹307 Cr (was ₹205 Cr in September); exports 22% of it",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Acquired 99% of Mechtech Infrasolutions, a Siemens SIEPAN partner",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Yes, we are absolutely on track.",
+        "page": 12
+      },
+      "analyst_questions": [
+        {
+          "topic": "Ambernath timing and capacity",
+          "answer": "Machines installed, first dispatches from end-November; phase one adds about 5,000 verticals, the rest comes with phase two.",
+          "page": null
+        },
+        {
+          "topic": "H2 margins",
+          "answer": "H1 margin is diluted by fixed costs on a small half; H2 is generally double in revenue, so margins hold or improve.",
+          "page": null
+        },
+        {
+          "topic": "Funding for working capital",
+          "answer": "₹11 Cr of IPO money in FD usable from April 2027, higher non-fund limits and better payment terms; unused bank limits available within 10 days.",
+          "page": null
+        },
+        {
+          "topic": "ArTu K (ABB-branded) dependence",
+          "answer": "ABB-branded share has come down and is being replaced by own-design products, which earn better margins.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Operating cash flow was negative ₹55.5 Cr in H1; receivables of ₹119.8 Cr are larger than a year of H1 revenue.",
+          "page": null
+        },
+        {
+          "text": "Capacity utilisation is 95% at Navi Mumbai and Pune, so growth waits on the Ambernath plant, which slipped about a month.",
+          "page": null
+        },
+        {
+          "text": "Data centres are over half of revenue and 65% of FY26 revenue came from ABB-branded ArTu K panels.",
+          "page": null
+        },
+        {
+          "text": "Guidance given is lower than the 50% mentioned in July conference notes.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Ambernath first dispatches in late November",
+        "H2 FY27 revenue near ₹180-200 Cr",
+        "Receivables and operating cash flow improving",
+        "Order book staying above ₹300 Cr"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Low- and medium-voltage electrical panels, power distribution units for data centres and automation systems (ABB, Hitachi, Lauritz Knudsen partnerships)",
+        "customers": "STT GDC, CtrlS, AdaniConneX, NCC, Afcons, JSW, metro rail; exports to Africa",
+        "revenue_mix": "H1 FY27: low-voltage 82%, medium-voltage 17%; data centres 52%, infrastructure 24%, industrial 17%",
+        "demand_drivers": "Data-centre build-out in India, infrastructure and metro rail, renewable plants"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_03112026125220_Intimation_of_Transcript_of_Earnings_Call_of_H1_FY_27.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_26102026213135_Intimation_Letter_for_Investor_Presentation_30-09-2026.pdf",
+    "transcriptPages": 15,
+    "transcriptHasText": true
+  }
+}

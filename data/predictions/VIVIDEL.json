@@ -1,0 +1,33 @@
+{
+ "symbol": "VIVIDEL",
+ "as_of": "2026-11-03",
+ "period": "H2 FY27",
+ "results_due": "around May 2027 (half-yearly reporter; H1 was reported on 28 Oct)",
+ "basis": "standalone",
+ "revenue": {
+  "low": 165,
+  "base": 190,
+  "high": 215
+ },
+ "operating_profit": {
+  "low": 31,
+  "base": 42,
+  "high": 52
+ },
+ "net_profit": {
+  "low": 21,
+  "base": 28,
+  "high": 36
+ },
+ "reasoning": [
+  "Management 'guided 35-40% growth' for FY27 'or bettering' it. FY26 revenue was ₹201 Cr (₹71 Cr in H1, ₹130 Cr in H2), so FY27 of ₹271-281 Cr needs H2 of ₹180-190 Cr after H1's ₹91.5 Cr. The MD also said H2 is 'generally double' H1 and agreed an analyst's ₹300 Cr for the year was 'on track', which would mean about ₹208 Cr. We use ₹190 Cr.",
+  "Executable order book is ₹307 Cr (2-9 month execution), which covers H2 comfortably; existing plants run at 95% utilisation, so growth depends on the Ambernath plant starting dispatches from end-November.",
+  "Operating margin was 20.6% in H1 and 24.6% in H2 FY26. The MD called the current margin a 'floor' and said fixed costs spread over a larger H2, so we use about 22%."
+ ],
+ "risks": [
+  "Ambernath plant starts later than end-November (it already slipped a month)",
+  "Working capital: negative operating cash flow of ₹55 Cr in H1 and receivables of ₹120 Cr",
+  "Data-centre customers delaying deliveries"
+ ],
+ "caveat": "Half-yearly estimates are on Screener's standalone rows."
+}

@@ -6,12 +6,12 @@
   "companyId": "1285936",
   "warehouseId": "152857752",
   "ratios": {
-    "market cap": 1529,
-    "current price": 1720,
+    "market cap": 925,
+    "current price": 1041,
     "high": 1990,
     "low": 556,
-    "stock p/e": 48.4,
-    "book value": null,
+    "stock p/e": 26.2,
+    "book value": 202,
     "dividend yield": 0,
     "roce": 58.9,
     "roe": 54.9,
@@ -40,63 +40,81 @@
         "index": 2,
         "endDate": "2026-03-31",
         "label": "H2 FY26"
+      },
+      {
+        "kind": "half",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-09-30",
+        "label": "H1 FY27"
       }
     ],
     "rows": {
       "sales": [
         101,
         71,
-        130
+        130,
+        92
       ],
       "expenses": [
         81,
         57,
-        98
+        98,
+        73
       ],
       "operating_profit": [
         20,
         13,
-        32
+        32,
+        18
       ],
       "opm_pct": [
         20,
         19,
-        24
+        24,
+        20
       ],
       "other_income": [
         0,
         0,
+        1,
         1
       ],
       "interest": [
         0,
         0,
+        1,
         1
       ],
       "depreciation": [
         0,
+        1,
         1,
         1
       ],
       "pbt": [
         20,
         13,
-        31
+        31,
+        17
       ],
       "tax_pct": [
         22,
         26,
-        28
+        28,
+        25
       ],
       "net_profit": [
         16,
         9,
-        22
+        22,
+        13
       ],
       "eps": [
-        446.6,
+        22.34,
         13.48,
-        31.64
+        31.64,
+        14.72
       ]
     }
   },
@@ -228,16 +246,23 @@
         32
       ],
       "eps": [
-        20.56,
-        16.7,
-        6,
-        122.22,
-        557.4,
+        0.6,
+        0.49,
+        0.18,
+        6.11,
+        27.89,
         45.13
       ]
     }
   },
   "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_03112026125220_Intimation_of_Transcript_of_Earnings_Call_of_H1_FY_27.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/VIVID_26102026213135_Intimation_Letter_for_Investor_Presentation_30-09-2026.pdf",
+      "recordingUrl": "https://vividgroup.in/wp-content/uploads/2026/10/Earnings-Call-Recording_H2_30-09-2026_FY_2026-27.mp3"
+    },
     {
       "month": "Sep 2026",
       "yearMonth": "2026-09",
@@ -246,6 +271,79 @@
       "recordingUrl": null
     }
   ],
-  "peers": [],
-  "fetchedAt": "2026-10-06T12:46:18.450Z"
+  "peers": [
+    {
+      "name": "Waaree Energies",
+      "screenerPath": "/company/WAAREEENER/consolidated/",
+      "marketCapCr": 66677.58,
+      "pe": 17.09,
+      "salesQtrCr": 7517.74,
+      "salesGrowthQtrPct": 23.94,
+      "roce": 38.45
+    },
+    {
+      "name": "Apar Inds.",
+      "screenerPath": "/company/APARINDS/consolidated/",
+      "marketCapCr": 65002.65,
+      "pe": 46.4,
+      "salesQtrCr": 6931.19,
+      "salesGrowthQtrPct": 21.27,
+      "roce": 31.81
+    },
+    {
+      "name": "Premier Energies",
+      "screenerPath": "/company/PREMIERENE/consolidated/",
+      "marketCapCr": 40401.68,
+      "pe": 24.26,
+      "salesQtrCr": 2462.59,
+      "salesGrowthQtrPct": 35.25,
+      "roce": 32.71
+    },
+    {
+      "name": "Diamond Power",
+      "screenerPath": "/company/DIACABS/",
+      "marketCapCr": 21979.11,
+      "pe": 82.69,
+      "salesQtrCr": 1044.21,
+      "salesGrowthQtrPct": 134.49,
+      "roce": 10.38
+    },
+    {
+      "name": "MTAR Technologie",
+      "screenerPath": "/company/MTARTECH/",
+      "marketCapCr": 19416.99,
+      "pe": 100.99,
+      "salesQtrCr": 406.77,
+      "salesGrowthQtrPct": 200,
+      "roce": 15.15
+    },
+    {
+      "name": "Emmvee Photovol.",
+      "screenerPath": "/company/EMMVEE/consolidated/",
+      "marketCapCr": 16011.17,
+      "pe": 11.29,
+      "salesQtrCr": 1576.38,
+      "salesGrowthQtrPct": 39.38,
+      "roce": 44.62
+    },
+    {
+      "name": "Avalon Tech",
+      "screenerPath": "/company/AVALON/consolidated/",
+      "marketCapCr": 13320.15,
+      "pe": 99.7,
+      "salesQtrCr": 484.41,
+      "salesGrowthQtrPct": 49.83,
+      "roce": 19.29
+    },
+    {
+      "name": "Vivid Electromech",
+      "screenerPath": "/company/VIVIDEL/",
+      "marketCapCr": 925.18,
+      "pe": 26.25,
+      "salesQtrCr": 91.53,
+      "salesGrowthQtrPct": 29.7,
+      "roce": 58.88
+    }
+  ],
+  "fetchedAt": "2026-11-03T21:43:45.527Z"
 }

@@ -6,13 +6,13 @@
   "companyId": "1284464",
   "warehouseId": "105982738",
   "ratios": {
-    "market cap": 7203,
-    "current price": 544,
-    "high": 584,
+    "market cap": 6783,
+    "current price": 513,
+    "high": 614,
     "low": 158,
-    "stock p/e": 107,
-    "book value": 33.8,
-    "dividend yield": 0.07,
+    "stock p/e": 75.8,
+    "book value": 37.6,
+    "dividend yield": 0.08,
     "roce": 18.9,
     "roe": 14.1,
     "face value": 2
@@ -20,13 +20,6 @@
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        83,
         84,
         73,
         78,
@@ -126,10 +125,10 @@
         111,
         121,
         126,
-        145
+        145,
+        207
       ],
       "expenses": [
-        67,
         66,
         59,
         63,
@@ -141,10 +140,10 @@
         85,
         93,
         96,
-        112
+        112,
+        157
       ],
       "operating_profit": [
-        16,
         18,
         14,
         14,
@@ -156,10 +155,10 @@
         26,
         28,
         30,
-        33
+        33,
+        50
       ],
       "opm_pct": [
-        19,
         21,
         19,
         19,
@@ -171,10 +170,10 @@
         23,
         23,
         24,
-        23
+        23,
+        24
       ],
       "other_income": [
-        1,
         0,
         1,
         1,
@@ -186,11 +185,11 @@
         0,
         0,
         1,
-        1
+        1,
+        0
       ],
       "interest": [
         1,
-        1,
         0,
         0,
         0,
@@ -201,10 +200,10 @@
         0,
         0,
         0,
-        0
+        0,
+        1
       ],
       "depreciation": [
-        1,
         2,
         2,
         2,
@@ -216,10 +215,10 @@
         6,
         6,
         8,
-        8
+        8,
+        0
       ],
       "pbt": [
-        15,
         15,
         13,
         14,
@@ -231,10 +230,10 @@
         20,
         22,
         23,
-        26
+        26,
+        50
       ],
       "tax_pct": [
-        24,
         24,
         32,
         28,
@@ -246,10 +245,10 @@
         28,
         25,
         22,
-        27
+        27,
+        26
       ],
       "net_profit": [
-        11,
         12,
         9,
         10,
@@ -261,10 +260,10 @@
         14,
         16,
         18,
-        19
+        19,
+        37
       ],
       "eps": [
-        0.97,
         0.9,
         0.7,
         0.78,
@@ -276,7 +275,8 @@
         1.1,
         1.28,
         1.33,
-        1.42
+        1.42,
+        2.76
       ]
     }
   },
@@ -425,9 +425,9 @@
         56
       ],
       "eps": [
-        2.05,
-        2.63,
-        12.03,
+        0.41,
+        0.53,
+        2.41,
         2.64,
         3.23,
         4.06,
@@ -436,6 +436,13 @@
     }
   },
   "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c26bfa06-ac5f-4156-9e28-7c1839fbbf9f.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1a520e0-0759-4e33-9459-54e5f41143d2.pdf",
+      "recordingUrl": "https://www.aeroflexindia.com/uploads/topics/17932714286574.mp3"
+    },
     {
       "month": "Jul 2026",
       "yearMonth": "2026-07",
@@ -503,14 +510,14 @@
       "month": "Aug 2024",
       "yearMonth": "2024-08",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dc6c394-193d-4065-a44a-e50f5145a583.pdf",
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e68ce2e-9f0c-4d0b-8bd3-28e51013065d.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f3c55ad-1c86-47ff-b71d-787dec370820.pdf",
       "recordingUrl": null
     },
     {
       "month": "Aug 2024",
       "yearMonth": "2024-08-b",
       "transcriptUrl": null,
-      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f3c55ad-1c86-47ff-b71d-787dec370820.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e68ce2e-9f0c-4d0b-8bd3-28e51013065d.pdf",
       "recordingUrl": null
     },
     {
@@ -553,35 +560,35 @@
     {
       "name": "Welspun Corp",
       "screenerPath": "/company/WELCORP/consolidated/",
-      "marketCapCr": 65862.76,
-      "pe": 28.52,
-      "salesQtrCr": 4081.12,
-      "salesGrowthQtrPct": 14.91,
+      "marketCapCr": 61080.72,
+      "pe": 25.79,
+      "salesQtrCr": 4643.72,
+      "salesGrowthQtrPct": 6.18,
       "roce": 22.89
     },
     {
       "name": "APL Apollo Tubes",
       "screenerPath": "/company/APLAPOLLO/consolidated/",
-      "marketCapCr": 58187.2,
-      "pe": 47.34,
-      "salesQtrCr": 5606.71,
-      "salesGrowthQtrPct": 8.45,
+      "marketCapCr": 59774.3,
+      "pe": 45.63,
+      "salesQtrCr": 7001.7,
+      "salesGrowthQtrPct": 26.58,
       "roce": 31.75
     },
     {
       "name": "Shyam Metalics",
       "screenerPath": "/company/SHYAMMETL/consolidated/",
-      "marketCapCr": 28511.05,
-      "pe": 25.38,
-      "salesQtrCr": 5455.09,
-      "salesGrowthQtrPct": 23.45,
+      "marketCapCr": 34040.13,
+      "pe": 25.13,
+      "salesQtrCr": 5960.19,
+      "salesGrowthQtrPct": 33.42,
       "roce": 13.01
     },
     {
       "name": "Ratnamani Metals",
       "screenerPath": "/company/RATNAMANI/consolidated/",
-      "marketCapCr": 17989.57,
-      "pe": 41,
+      "marketCapCr": 16681.9,
+      "pe": 38.02,
       "salesQtrCr": 971.63,
       "salesGrowthQtrPct": -15.63,
       "roce": 17.91
@@ -589,17 +596,17 @@
     {
       "name": "Jindal Saw",
       "screenerPath": "/company/JINDALSAW/consolidated/",
-      "marketCapCr": 17583.23,
-      "pe": 26.91,
-      "salesQtrCr": 4452.31,
-      "salesGrowthQtrPct": 9,
+      "marketCapCr": 15794.57,
+      "pe": 28.79,
+      "salesQtrCr": 4471.79,
+      "salesGrowthQtrPct": 5.63,
       "roce": 10.43
     },
     {
       "name": "Usha Martin",
       "screenerPath": "/company/USHAMART/consolidated/",
-      "marketCapCr": 15553.9,
-      "pe": 28.54,
+      "marketCapCr": 14040.98,
+      "pe": 25.76,
       "salesQtrCr": 1033,
       "salesGrowthQtrPct": 16.44,
       "roce": 19.47
@@ -607,8 +614,8 @@
     {
       "name": "Godawari Power",
       "screenerPath": "/company/GPIL/consolidated/",
-      "marketCapCr": 14234.8,
-      "pe": 17.37,
+      "marketCapCr": 12977.88,
+      "pe": 15.83,
       "salesQtrCr": 1750.47,
       "salesGrowthQtrPct": 32.29,
       "roce": 20.53
@@ -616,12 +623,12 @@
     {
       "name": "Aeroflex",
       "screenerPath": "/company/AEROFLEX/consolidated/",
-      "marketCapCr": 7202.73,
-      "pe": 107.26,
-      "salesQtrCr": 145.38,
-      "salesGrowthQtrPct": 72.39,
+      "marketCapCr": 6783.28,
+      "pe": 75.81,
+      "salesQtrCr": 207.36,
+      "salesGrowthQtrPct": 87.03,
       "roce": 18.92
     }
   ],
-  "fetchedAt": "2026-10-05T19:40:32.902Z"
+  "fetchedAt": "2026-11-03T21:30:07.327Z"
 }

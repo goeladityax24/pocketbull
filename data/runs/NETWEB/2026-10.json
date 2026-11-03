@@ -1,0 +1,205 @@
+{
+  "symbol": "NETWEB",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c829a3-b884-41a9-92ec-2e75367dc142.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df5b0829-df53-4ff0-9c30-b303ab1a323c.pdf",
+    "recordingUrl": "https://www.netwebindia.com/investors/board-meeting/2026-27/Q2/10047913.mp3"
+  },
+  "basis": "standalone",
+  "createdAt": "2026-11-03T21:46:31.516Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-26",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin framework 13-14%",
+        "kind": "margin_pct",
+        "low": 13,
+        "high": 14,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Operating EBITDA; H1 was 15.1% and Q2 14.9%, which management says is not to be extrapolated for the year. Standalone basis",
+        "quote": "what we have said that 13%, 14%, we have slightly crossed that in this H1, but not to be quoted for the entire year.",
+        "page": 18,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "margin 13-14%",
+        "revises": "Aug call: 13-14% (reiterated)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Cash conversion cycle 90-110 days",
+        "kind": "absolute",
+        "low": 90,
+        "high": 110,
+        "unit": "other",
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Was 94 days in Sept 2026 and 84 days last year; inventory built deliberately for the ₹2,629 Cr order book",
+        "quote": "what we anticipate that our cash conversion cycle will operate between 90 to 110 days, considering how the quarter growth goes in.",
+        "page": 10,
+        "speaker": "Ankit Kumar Singhal (CFO)",
+        "confidence": "high",
+        "keyword": "cash cycle 90-110",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Vera Rubin systems on sale by January",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'We'll see if we can pull in the timelines'; first system to be set up at the facility 'very soon'",
+        "quote": "So we will be planning to basically start offering this product to be sold to the customers by January.",
+        "page": 8,
+        "speaker": "Hirdey Vikram (Chief Sales & Marketing Officer)",
+        "confidence": "high",
+        "keyword": "Vera Rubin January",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Target more than half of NSM 2.0",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "5-year programme",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Orders from NSM 2.0 expected from early 2027 (CMD agreed with an analyst's 'early 27')",
+        "quote": "more than half of it we should be targeting actually, but it will not come as in one go because basically, that's a 5-year program.",
+        "page": 14,
+        "speaker": "Sanjay Lodha (CMD)",
+        "confidence": "medium",
+        "keyword": "NSM 2.0 share",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 was a record: revenue ₹1,323 Cr (up 336% year on year, 61% on the quarter), operating EBITDA ₹197 Cr at 14.9% and PAT ₹137 Cr. AI systems were 58% of revenue. A ₹1,200 Cr QIP made the company net cash. Order book is ₹2,629 Cr plus ₹653 Cr of L1 positions, a little higher than last quarter despite record billing. Management gave no revenue guidance and repeated that its EBITDA framework is 13-14%.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "EBITDA margin framework 13-14%, with a warning that H1's 15.1% is not to be annualised",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "₹1,200 Cr QIP raised in the quarter; net cash of ₹14 Cr",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Wholly owned R&D subsidiary in Taiwan approved",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Vera Rubin systems to be offered for sale from January 2027",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Cash conversion cycle expected between 90 and 110 days",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Q2 financial year '27 has been another record-breaking quarter for Netweb Technologies",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Falling gross margin",
+          "answer": "Gross margin moves with deal mix and large-deal profile; the company guides on EBITDA, which stays around 14%.",
+          "page": null
+        },
+        {
+          "topic": "Customer concentration",
+          "answer": "Top-5 and top-10 customers keep changing; 449 new customers were added in H1.",
+          "page": null
+        },
+        {
+          "topic": "No operating leverage despite 4x growth",
+          "answer": "Management prefers to hold EBITDA at the framework level and reinvest in R&D rather than show higher margins.",
+          "page": null
+        },
+        {
+          "topic": "Neocloud and C-DAC demand",
+          "answer": "Yotta, E2E and others are customers in the pipeline; no order numbers disclosed.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Gross margin has fallen as component prices rose; management would not give a steady-state level.",
+          "page": null
+        },
+        {
+          "text": "Inventory of about ₹1,900 Cr (117 days) is large relative to a ₹2,629 Cr order book.",
+          "page": null
+        },
+        {
+          "text": "Pipeline is ₹11,152 Cr but only ₹2,629 Cr is firm; orders are lumpy and a few customers drive revenue.",
+          "page": null
+        },
+        {
+          "text": "No revenue guidance, so next-quarter numbers rest on order book and past conversion.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 revenue versus the ₹2,629 Cr order book plus new orders",
+        "Operating EBITDA margin staying within or just above 13-14%",
+        "Use of the remaining ₹403 Cr of QIP money",
+        "NSM 2.0 orders from early 2027 and Vera Rubin launch in January"
+      ],
+      "business_snapshot": {
+        "what_they_make": "High-performance computing: AI systems, supercomputers, private cloud and servers, designed and built in India",
+        "customers": "Government and research institutions, India AI Mission cloud providers, neoclouds and enterprises; 449 new customers in H1",
+        "revenue_mix": "Q2: AI systems ₹773 Cr (58%), HPC ₹248 Cr, private cloud ₹245 Cr",
+        "demand_drivers": "India AI Mission, sovereign compute, National Supercomputing Mission 2.0, GPU cloud build-outs"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c829a3-b884-41a9-92ec-2e75367dc142.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df5b0829-df53-4ff0-9c30-b303ab1a323c.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

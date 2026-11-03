@@ -6,13 +6,13 @@
   "companyId": "1319",
   "warehouseId": "6596249",
   "ratios": {
-    "market cap": 38372,
-    "current price": 250,
-    "high": 257,
+    "market cap": 33260,
+    "current price": 217,
+    "high": 282,
     "low": 59.8,
-    "stock p/e": 67,
-    "book value": 32,
-    "dividend yield": 0.08,
+    "stock p/e": 38.3,
+    "book value": 36.9,
+    "dividend yield": 0.09,
     "roce": 10.8,
     "roe": 6.98,
     "face value": 1
@@ -20,13 +20,6 @@
   "interim": {
     "granularity": "quarter",
     "periods": [
-      {
-        "kind": "quarter",
-        "fy": 2024,
-        "index": 1,
-        "endDate": "2023-06-30",
-        "label": "Q1 FY24"
-      },
       {
         "kind": "quarter",
         "fy": 2024,
@@ -110,11 +103,17 @@
         "index": 1,
         "endDate": "2026-06-30",
         "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
       }
     ],
     "rows": {
       "sales": [
-        995,
         1111,
         1032,
         1326,
@@ -126,10 +125,10 @@
         1043,
         1211,
         1824,
-        1915
+        1915,
+        2542
       ],
       "expenses": [
-        849,
         979,
         916,
         1130,
@@ -141,10 +140,10 @@
         853,
         983,
         1510,
-        1501
+        1501,
+        1912
       ],
       "operating_profit": [
-        146,
         133,
         117,
         196,
@@ -156,10 +155,10 @@
         190,
         228,
         314,
-        414
+        414,
+        630
       ],
       "opm_pct": [
-        15,
         12,
         11,
         15,
@@ -171,10 +170,10 @@
         18,
         19,
         17,
-        22
+        22,
+        25
       ],
       "other_income": [
-        13,
         18,
         47,
         14,
@@ -186,10 +185,10 @@
         13,
         17,
         22,
-        31
+        31,
+        27
       ],
       "interest": [
-        36,
         35,
         37,
         40,
@@ -201,10 +200,10 @@
         61,
         63,
         63,
-        62
+        62,
+        65
       ],
       "depreciation": [
-        21,
         21,
         19,
         20,
@@ -216,10 +215,10 @@
         36,
         44,
         45,
-        51
+        51,
+        54
       ],
       "pbt": [
-        103,
         94,
         108,
         149,
@@ -231,10 +230,10 @@
         106,
         138,
         228,
-        332
+        332,
+        539
       ],
       "tax_pct": [
-        26,
         25,
         24,
         27,
@@ -246,10 +245,10 @@
         32,
         26,
         19,
-        26
+        26,
+        27
       ],
       "net_profit": [
-        76,
         70,
         82,
         109,
@@ -261,10 +260,10 @@
         72,
         102,
         184,
-        246
+        246,
+        394
       ],
       "eps": [
-        0.49,
         0.49,
         0.58,
         0.76,
@@ -276,7 +275,8 @@
         0.47,
         0.64,
         1.17,
-        1.49
+        1.49,
+        2.37
       ]
     }
   },
@@ -527,6 +527,13 @@
   },
   "concalls": [
     {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52bcff6e-34cb-4d4b-88ca-a59046342f27.pdf",
+      "recordingUrl": "https://files.hfcl.com/audio/IC_AudioRecoring_19102026.mp3"
+    },
+    {
       "month": "Jul 2026",
       "yearMonth": "2026-07",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf",
@@ -565,13 +572,6 @@
       "month": "Aug 2025",
       "yearMonth": "2025-08",
       "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=993e2759-0023-47f3-9fa7-62103181d2aa.pdf",
-      "pptUrl": null,
-      "recordingUrl": "https://youtu.be/TZZbUwkhs1M?si=1rlkSG3g7xoPbaJf"
-    },
-    {
-      "month": "Jul 2025",
-      "yearMonth": "2025-07",
-      "transcriptUrl": null,
       "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70085fa5-6a51-4280-a9d1-eeb62d3ec96d.pdf",
       "recordingUrl": "https://youtube.com/watch?v=TZZbUwkhs1M&si=E_B3ol9j3FK5doS0"
     },
@@ -818,17 +818,17 @@
     {
       "name": "Indus Towers",
       "screenerPath": "/company/INDUSTOWER/consolidated/",
-      "marketCapCr": 100369.64,
-      "pe": 14.03,
-      "salesQtrCr": 8431.1,
-      "salesGrowthQtrPct": 4.64,
+      "marketCapCr": 102888.35,
+      "pe": 14.48,
+      "salesQtrCr": 8515.6,
+      "salesGrowthQtrPct": 4,
       "roce": 19.48
     },
     {
       "name": "Altius Telecom",
       "screenerPath": "/company/543225/consolidated/",
-      "marketCapCr": 53329.5,
-      "pe": 42.15,
+      "marketCapCr": 53100.95,
+      "pe": 41.97,
       "salesQtrCr": 6025.1,
       "salesGrowthQtrPct": -0.08,
       "roce": 8.6
@@ -836,26 +836,26 @@
     {
       "name": "HFCL",
       "screenerPath": "/company/HFCL/consolidated/",
-      "marketCapCr": 38372.39,
-      "pe": 67.02,
-      "salesQtrCr": 1914.98,
-      "salesGrowthQtrPct": 119.85,
+      "marketCapCr": 33259.99,
+      "pe": 38.33,
+      "salesQtrCr": 2541.79,
+      "salesGrowthQtrPct": 143.62,
       "roce": 10.76
     },
     {
       "name": "Pace Digitek",
       "screenerPath": "/company/PACEDIGITK/consolidated/",
-      "marketCapCr": 3536.6,
-      "pe": 11.77,
-      "salesQtrCr": 555.36,
-      "salesGrowthQtrPct": 51.29,
+      "marketCapCr": 3362.1,
+      "pe": 10.18,
+      "salesQtrCr": 808.17,
+      "salesGrowthQtrPct": 51.5,
       "roce": 21.4
     },
     {
       "name": "Bondada Engineer",
-      "screenerPath": "/company/543971/consolidated/",
-      "marketCapCr": 3013.46,
-      "pe": 13.82,
+      "screenerPath": "/company/BONDADA/consolidated/",
+      "marketCapCr": 3015.69,
+      "pe": 13.83,
       "salesQtrCr": 691.65,
       "salesGrowthQtrPct": 23.99,
       "roce": 39.43
@@ -863,7 +863,7 @@
     {
       "name": "GTL Infra.",
       "screenerPath": "/company/GTLINFRA/",
-      "marketCapCr": 1345.23,
+      "marketCapCr": 1332.18,
       "pe": null,
       "salesQtrCr": 327.31,
       "salesGrowthQtrPct": -2.16,
@@ -872,12 +872,12 @@
     {
       "name": "Suyog Telematics",
       "screenerPath": "/company/SUYOG/",
-      "marketCapCr": 780.11,
-      "pe": 13.18,
+      "marketCapCr": 567.87,
+      "pe": 9.59,
       "salesQtrCr": 65.27,
       "salesGrowthQtrPct": 2.16,
       "roce": 14.42
     }
   ],
-  "fetchedAt": "2026-10-05T19:41:13.530Z"
+  "fetchedAt": "2026-11-03T21:29:54.113Z"
 }

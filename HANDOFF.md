@@ -1,6 +1,6 @@
 # PocketBull handoff
 
-Read this first in any new session. Last updated 30 Oct 2026.
+Read this first in any new session. Last updated 3 Nov 2026.
 
 ## What PocketBull is
 
@@ -24,6 +24,8 @@ A private research tool for 4–5 friends investing in Indian equities: insights
 - **Free hosting plan (milestone 2):** Supabase free (database, Google sign-in; pauses after a week idle) and Vercel free.
 - **Later:** peer view (curated peers), technical scans (below 50-DMA etc.), US markets.
 
+- **Next-quarter estimates (3 Nov):** `data/predictions/<SYMBOL>.json` (`src/lib/pipeline/prediction.ts`) holds our own low/base/high for the next results (revenue, operating profit, net profit, on Screener's rows) with the reasoning and what would make it wrong. It shows on the Guidance tracker above the next-results checklist. It is not management guidance and is never scored there; check it against the real numbers when they arrive. Made for HFCL, STLTECH, ACUTAAS, AEROFLEX, E2E, NETWEB, SKYGOLD, TARIL, KRN, YASHO (Q3 FY27) and VIVIDEL, YASHHV (H2 FY27).
+
 ## What is built (milestone 1: the pipeline)
 
 - `src/lib/pipeline/`: Screener parser, PDF text and quote check, extraction rules and schema, expected numbers and scoring, run store, text report.
@@ -33,6 +35,8 @@ A private research tool for 4–5 friends investing in Indian equities: insights
 - Tested on Skygold with real data: Screener page, May and Aug 2026 concalls, 31 quotes verified word for word. 31 tests (`npm test`).
 
 ## How to start a new session
+
+**First, `git fetch` and start from `origin/main`.** On 3 Nov the local folder was 51 commits behind (on an old branch), so work was nearly redone on a stale base. Check `git log -1 origin/main` before you begin.
 
 Use the Claude desktop app › **Code** tab › **Local**, and open this repo folder. A local session runs on the Admin's Mac, so it:
 - loads this file automatically (through `CLAUDE.md`),
@@ -57,6 +61,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 
 ## Next steps
 
+0. **Q2 FY27 refresh (3 Nov): done** for HFCL, STLTECH, ACUTAAS, AEROFLEX, E2E, NETWEB, TARIL, VIVIDEL, YASHHV and YASHO (new run each; KRN already had both calls; SKYGOLD has no newer call yet, its Q2 call is due). Snapshots refreshed for all of them. **Not done:** the six-section insight reports in `data/notes/` still describe the pre-Q2 position (HFCL guidance has moved 20% to 40% to 80%+, STLTECH margin target 27% to 30%, YASHO margin 24% to 20%+). Refresh the lede, walking-the-talk table and watch list; mark each estimate against actual Q3 results when they come out (mid-Jan to Feb 2027).
 1. Merge the milestone 2 pull request; check the live site on Vercel (unlock `/admin` with `ADMIN_KEY`).
 2. Optional: add `GITHUB_TOKEN` (fine-grained, Issues read/write on the repo) in Vercel so requests open GitHub issues.
 3. Keep Supabase awake: free projects pause after a week idle. Add a scheduled GitHub Action that reads one row every few days.

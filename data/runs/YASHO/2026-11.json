@@ -1,0 +1,264 @@
+{
+  "symbol": "YASHO",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff0d1a4a-da02-4855-a63d-e7f73a776f58.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=718ebc53-bb4e-4e53-83a7-fb40b0708a12.pdf",
+    "recordingUrl": "https://www.yashoindustries.com/uploads/7/9/4/9/7949862/yasho_industries_ltd_q2__h1fy27.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:46:36.003Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-29",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin above 20%",
+        "kind": "margin_pct",
+        "low": 20,
+        "high": 20,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q2 margin fell about 300 bps to about 21% on freight (₹10 Cr to ₹20 Cr a quarter) and gas costs. MD: '20% will be the lower side'; no assurance of 24-25%",
+        "quote": "So we will always try to maintain EBITDA more than 20-plus percent.",
+        "page": 7,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "margin above 20%",
+        "revises": "Aug call: sustain Q1's ~24%"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Freight and gas costs passed on from Q3",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "CFO: Q2 absorbed freight and gas increases on orders already accepted; MD said freight in November-December is unknown",
+        "quote": "We expect this to be passed on to the customers from this quarter onwards.",
+        "page": 4,
+        "speaker": "Chirag Shah (CFO)",
+        "confidence": "high",
+        "keyword": "cost pass-through",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "FY28 revenue above ₹1,600 Cr",
+        "kind": "absolute",
+        "low": 1600,
+        "high": 1600,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "MD: 'better to be conservative'; an analyst put the FY27 run-rate at about ₹1,400 Cr",
+        "quote": "We are positive even today, but I don't want to commit anything more. And we are very clear, it will be more than 1,600.",
+        "page": 14,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "FY28 above ₹1,600 Cr",
+        "revises": "Aug call: above ₹1,600 Cr (reiterated)"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹250 Cr in FY27",
+        "kind": "absolute",
+        "low": 250,
+        "high": 250,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹100 Cr from accruals and ₹150 Cr of sanctioned term loans; includes some equipment for buildings 1 and 2",
+        "quote": "On capital expenditure, the planned outlay for FY27 stands at INR250 crores.",
+        "page": 4,
+        "speaker": "Chirag Shah (CFO)",
+        "confidence": "high",
+        "keyword": "capex ₹250 Cr",
+        "revises": "Aug call: ₹250 Cr (reiterated)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "MNC supply contract trial production in Q4",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "MNC long-term contract",
+        "condition": "₹120 Cr received to date under the contract (₹120-150 Cr in value)",
+        "quote": "We are expecting trial production by Q4 FY27 and commercialization in Q1 FY28.",
+        "page": 3,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "MNC trial Q4",
+        "revises": "Aug call: commercial in Q1 FY28 (reiterated)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "New buildings 3 and 4 operational",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Buildings 1 and 2 to be full by the end of FY27 or slip into Q1 FY28",
+        "quote": "Building 3 and building 4 will be operational earliest by Q4 of '28 or Q1 of FY29.",
+        "page": 12,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "buildings 3 and 4",
+        "revises": "Aug call: phase 2 in Q4 FY28"
+      },
+      {
+        "metric": "net_debt",
+        "metric_label": "Debt to EBITDA to stay within limit",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Debt to EBITDA was 2.09x in H1 FY27 against 3.74x in FY26; total debt ₹615 Cr",
+        "quote": "Well, we expect to keep it within the limit. As of now, we are well below 2.5.",
+        "page": 14,
+        "speaker": "Parag Jhaveri (MD & CEO)",
+        "confidence": "high",
+        "keyword": "debt to EBITDA",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 total income was ₹348 Cr (up 90% year on year, 13% on the quarter) with EBITDA of ₹73 Cr and PAT of ₹34 Cr. EBITDA margin slipped about 300 bps to roughly 21% as freight doubled to ₹20 Cr and gas prices rose; management now only commits to 'more than 20%' (from about 24% in August) and expects to pass the costs on from Q3. FY28 revenue guidance of more than ₹1,600 Cr, ₹250 Cr capex and the MNC contract timeline (trials in Q4, commercial from Q1 FY28) were reiterated.",
+      "what_changed": [
+        {
+          "change": "cut",
+          "text": "EBITDA margin: now 'more than 20%' (Aug call: sustain ~24%)",
+          "page": null
+        },
+        {
+          "change": "reiterated",
+          "text": "FY28 revenue above ₹1,600 Cr; capex ₹250 Cr; MNC contract commercial in Q1 FY28",
+          "page": null
+        },
+        {
+          "change": "delayed",
+          "text": "Buildings 3 and 4 operational Q4 FY28 or Q1 FY29",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Freight and gas cost increases to be passed on from Q3",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "cautious",
+        "quote": "This is really a challenging time as of today, okay.",
+        "page": 6
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why did margin fall 300 bps in a quarter?",
+          "answer": "About 200 bps from freight and energy costs on orders already accepted and about 100 bps from product mix.",
+          "page": null
+        },
+        {
+          "topic": "Can margin return to 23-24%?",
+          "answer": "'I don't know. I will say I will do more than 20%.' No assurance of 24-25%.",
+          "page": null
+        },
+        {
+          "topic": "Volume versus price",
+          "answer": "Volume up 7% on the quarter and 62-73% year on year; prices up 10-15% since March on raw materials; rest is mix.",
+          "page": null
+        },
+        {
+          "topic": "Why more capex?",
+          "answer": "Existing customers asked for more quantity and a couple of marquee customers were onboarded in the last six months.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Margin fell about 300 bps in Q2 and management declined to say it will recover; the earlier 24% was not held.",
+          "page": null
+        },
+        {
+          "text": "Raw-material availability is a 'challenge' in the current crisis and freight rates are volatile; 70% of sales are exports.",
+          "page": null
+        },
+        {
+          "text": "Net working capital is 149 days and total debt ₹615 Cr (of which short-term ₹329 Cr), while capex doubles to ₹250 Cr.",
+          "page": null
+        },
+        {
+          "text": "Q2 revenue was misstated as ₹147 Cr in the prepared remarks and corrected to ₹348 Cr in a footnote; ROCE also corrected.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 EBITDA margin back above 21% as costs are passed on",
+        "Revenue holding near ₹350 Cr or higher",
+        "Freight cost per quarter",
+        "MNC contract trial production in Q4",
+        "Debt to EBITDA below 2.5x"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Specialty and industrial chemicals: lubricant additives, performance chemicals, over 150 products",
+        "customers": "Global lubricant and chemical MNCs; 70% of revenue from exports",
+        "revenue_mix": "Industrial chemicals about 90% of revenue; exports 70%",
+        "demand_drivers": "China-plus-one sourcing, new MNC supply contract, new buildings at Pakhajan"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff0d1a4a-da02-4855-a63d-e7f73a776f58.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=718ebc53-bb4e-4e53-83a7-fb40b0708a12.pdf",
+    "transcriptPages": 16,
+    "transcriptHasText": true
+  }
+}

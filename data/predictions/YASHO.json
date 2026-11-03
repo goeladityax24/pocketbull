@@ -1,0 +1,34 @@
+{
+ "symbol": "YASHO",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 335,
+  "base": 365,
+  "high": 395
+ },
+ "operating_profit": {
+  "low": 64,
+  "base": 78,
+  "high": 91
+ },
+ "net_profit": {
+  "low": 29,
+  "base": 37,
+  "high": 45
+ },
+ "reasoning": [
+  "Q2 revenue was ₹348 Cr, up 13% on Q1 on 7% more volume and higher prices (10-15% since March). Capacity utilisation was 66% and the plan is to keep raising it, so we assume about 5% sequential growth to ₹365 Cr (+81% on Q3 FY26's ₹202 Cr).",
+  "The CFO expects the higher freight (₹20 Cr in Q2 vs ₹10 Cr in Q1) and gas costs to be passed on from Q3, but the MD warned freight for November-December is unknown and he would only commit to 'more than 20%'. Q2 margin was about 21%, so we assume 21-22% with a wide band.",
+  "Interest and depreciation rise with the ₹250 Cr capex and ₹615 Cr debt, so PAT grows less than EBITDA."
+ ],
+ "risks": [
+  "Freight and raw-material costs rise further and cannot be passed on",
+  "Margin falls toward 20% (management's stated floor)",
+  "Raw-material shortages limit volume",
+  "70% of sales are exports, so currency and shipping disruption matter"
+ ],
+ "caveat": null
+}

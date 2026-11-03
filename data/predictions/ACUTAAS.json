@@ -1,0 +1,33 @@
+{
+ "symbol": "ACUTAAS",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 430,
+  "base": 470,
+  "high": 520
+ },
+ "operating_profit": {
+  "low": 160,
+  "base": 188,
+  "high": 215
+ },
+ "net_profit": {
+  "low": 112,
+  "base": 132,
+  "high": 150
+ },
+ "reasoning": [
+  "FY27 revenue growth guidance is now about 30% on FY26's ₹1,339 Cr, which is about ₹1,740 Cr. H1 was ₹767 Cr, so H2 needs about ₹973 Cr; split by last year's pattern that is about ₹470 Cr in Q3 and ₹503 Cr in Q4.",
+  "EBITDA margin guidance is 38-40% for FY27. H1 was 37.7%, so H2 needs about 40%; Q2 was 40.3%.",
+  "New CDMO contracts start contributing in H2, and the ₹1,000 Cr CDMO target for FY27 depends on it. Specialty chemicals should stay near the H1 level."
+ ],
+ "risks": [
+  "CDMO deliveries are lumpy; a delay moves revenue into Q4",
+  "Working capital is already 115 days",
+  "BFC shipments could pause again"
+ ],
+ "caveat": null
+}

@@ -1,0 +1,33 @@
+{
+ "symbol": "TARIL",
+ "as_of": "2026-11-03",
+ "period": "Q3 FY27",
+ "results_due": "mid-January to mid-February 2027, going by when Q2 was reported (13-29 Oct)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 780,
+  "base": 860,
+  "high": 950
+ },
+ "operating_profit": {
+  "low": 120,
+  "base": 140,
+  "high": 160
+ },
+ "net_profit": {
+  "low": 75,
+  "base": 90,
+  "high": 106
+ },
+ "reasoning": [
+  "Management kept the ₹3,200 Cr FY27 revenue target (standalone). Standalone H1 was ₹1,268 Cr, so H2 needs about ₹1,930 Cr, roughly ₹900-960 Cr a quarter; the CFO said so on the call. Q3 usually starts lower than Q4, so we use ₹860 Cr consolidated.",
+  "The Changodar expansion starts only 'around Diwali' (November), so it adds little to Q3. The order book of ₹7,237 Cr is billable over 18-24 months.",
+  "Margin: Q2 standalone EBITDA was 16.1% against a 14.6% H1; consolidated operating margin has been 15-17%. Backward-integration gains start only in FY28."
+ ],
+ "risks": [
+  "Execution has missed targets before: backward-integration plants slipped a quarter or two",
+  "Raw-material price spikes are mostly passed on through variation clauses but with a lag",
+  "Working capital of about 154 days"
+ ],
+ "caveat": "Management's ₹3,200 Cr is a standalone number; Screener's consolidated revenue runs a little higher (H1 ₹1,311 Cr consolidated vs ₹1,268 Cr standalone)."
+}

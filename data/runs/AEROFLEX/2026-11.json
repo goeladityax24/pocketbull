@@ -1,0 +1,374 @@
+{
+  "symbol": "AEROFLEX",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c26bfa06-ac5f-4156-9e28-7c1839fbbf9f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1a520e0-0759-4e33-9459-54e5f41143d2.pdf",
+    "recordingUrl": "https://www.aeroflexindia.com/uploads/topics/17932714286574.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-03T21:46:28.367Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-29",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 almost 60%",
+        "kind": "growth_yoy",
+        "low": 60,
+        "high": 60,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Said in Q&A; no equivalent figure in the prepared remarks",
+        "quote": "we expect the sales on an overall basis to achieve a growth of almost 60% for the entire company for the entire year.",
+        "page": 15,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "growth almost 60%",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue ₹715-725 Cr for FY27",
+        "kind": "absolute",
+        "low": 715,
+        "high": 725,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'At the least'; H1 total income was ₹354 Cr",
+        "quote": "so we expect this year to close somewhere about INR715 crores to INR725 crores at the least.",
+        "page": 15,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "revenue ₹715-725 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid assembly revenue FY27",
+        "kind": "absolute",
+        "low": 150,
+        "high": 200,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Liquid-cooling skids",
+        "condition": null,
+        "quote": "So the target for this year is to achieve anywhere between INR150 crores to INR200 crores.",
+        "page": 15,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "skid revenue ₹150-200 Cr",
+        "revises": "Initial target: about ₹125 Cr, 'achieved in this quarter itself'"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue ₹1,000 Cr target beaten",
+        "kind": "absolute",
+        "low": 1000,
+        "high": 1000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Stated as a floor ('much more than that')",
+        "quote": "Obviously, the target for FY29, INR1,000 crores, we would now definitely be achieving much more than that.",
+        "page": 14,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "FY29 ₹1,000 Cr beaten",
+        "revises": "Earlier: about ₹1,000 Cr and 25% margin by FY29"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue about ₹1,500 Cr in FY30",
+        "kind": "absolute",
+        "low": 1500,
+        "high": 1500,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY30",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Once the expansions finish in March 2028 and run at peak use in FY30",
+        "quote": "We expect the top line to be close to about INR1,500 crores for FY30.",
+        "page": 14,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "FY30 ₹1,500 Cr",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin about 25%",
+        "kind": "margin_pct",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY30",
+        "horizon_text": "through FY30",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'25% and slightly upwards' offset by pricing pressure as volumes scale; H1 FY27 was 23.8%",
+        "quote": "I think we would maintain at about 25%. That's what we believe.",
+        "page": 14,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "margin about 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity to 15,000 units",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Liquid-cooling skids",
+        "condition": "12,000 units already commissioned",
+        "quote": "our current capacity expansion plan of expansion to 15,000 units per annum is expected to be completed by December 2026.",
+        "page": 4,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "skids 15,000 units",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity to 30,000 units",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Liquid-cooling skids",
+        "condition": "Additional investment of about ₹78 Cr",
+        "quote": "we have planned the next phase of expansion, thereby raising our capacity from 15,000 units per annum to 30,000 skid assemblies per annum, and the same is expected to be completed by March 2028.",
+        "page": 5,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "skids 30,000 units",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Flexible hose capacity to 30 mn metres",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Flexible hoses",
+        "condition": "About ₹124 Cr; capacity is already 20 mn metres",
+        "quote": "we have planned a further expansion of 10 million meters per annum, which will take our total capacity to 30 million meters per annum, and it is estimated to be completed by March 2028.",
+        "page": 4,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "hose 30 mn metres",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Expansion capex ₹202 Cr",
+        "kind": "absolute",
+        "low": 202,
+        "high": 202,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "to March 2028",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Funded by internal accruals, bridge loans and 'equity fund raise if required'",
+        "quote": "we have announced a capacity expansion, which involves total capital expenditure of INR202 crores.",
+        "page": 4,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "high",
+        "keyword": "expansion ₹202 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Incremental revenue potential at peak",
+        "kind": "absolute",
+        "low": 500,
+        "high": 550,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "at peak utilisation",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "these additional capacities are expected to generate incremental revenue potential of approximately INR500 crores to INR550 crores per year.",
+        "page": 5,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "medium",
+        "keyword": "incremental ₹500-550 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Skid capacity use 40-50% this year",
+        "kind": "qualitative",
+        "low": 40,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Liquid-cooling skids",
+        "condition": "MD: projections are revised 'almost on a monthly or maximum on a quarterly basis'",
+        "quote": "we would be reaching closer to about anywhere between 40% to 50% of our utilization of our total capacity utilization.",
+        "page": 11,
+        "speaker": "Asad Daud (MD)",
+        "confidence": "medium",
+        "keyword": "skid utilisation",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 total income was a record ₹207.7 Cr (up 87%), EBITDA ₹50.3 Cr at 24.3% and PAT ₹36.6 Cr (up 157%), helped by a depreciation method change worth ₹8.4 Cr. Liquid cooling was 24% of H1 revenue. Management said FY27 revenue should grow almost 60% to at least ₹715-725 Cr, announced ₹202 Cr of capacity expansion to March 2028 and now sees about ₹1,500 Cr revenue and 25% margin in FY30.",
+      "what_changed": [
+        {
+          "change": "raised",
+          "text": "FY27 revenue now almost 60% growth, ₹715-725 Cr at least",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "Skid revenue target ₹150-200 Cr (initial ₹125 Cr already beaten)",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "FY29 ₹1,000 Cr target will be 'much more' than met; ₹1,500 Cr expected in FY30",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "₹202 Cr expansion: skids to 30,000 units and hoses to 30 mn metres by March 2028",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Hyd-Air subsidiary to be merged into Aeroflex",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are pleased to report that our best ever results with quarterly revenue crossing INR200 crores milestone for the first time ever.",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Merger savings",
+          "answer": "At least a couple of percentage points initially mentioned; later said Hyd-Air is only about 3% of turnover, so the margin impact is 'miniscule'.",
+          "page": null
+        },
+        {
+          "topic": "Skid order visibility",
+          "answer": "A frozen pipeline for about 3 months; no order-book number due to customer confidentiality; one exclusive India customer (a large US multinational).",
+          "page": null
+        },
+        {
+          "topic": "Export of liquid cooling",
+          "answer": "Advanced talks with the same customer for exports, early talks with others; no exclusivity outside India.",
+          "page": null
+        },
+        {
+          "topic": "Margins",
+          "answer": "About 25% and slightly upwards, with scale benefits offset by pricing pressure.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Depreciation method changed from WDV to straight-line from 1 April 2026, cutting depreciation by ₹8.4 Cr in Q2 and H1; PAT growth is flattered.",
+          "page": null
+        },
+        {
+          "text": "Liquid-cooling skids depend on one exclusive customer in India.",
+          "page": null
+        },
+        {
+          "text": "Customer order visibility is only about 3 months.",
+          "page": null
+        },
+        {
+          "text": "Funding of ₹202 Cr could include an equity raise 'if needed'.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 revenue near the run-rate needed for ₹715-725 Cr (H2 about ₹360-370 Cr)",
+        "EBITDA margin around 24-25%",
+        "Skid capacity reaching 15,000 units by December",
+        "Hyd-Air merger approvals",
+        "First export order for liquid-cooling skids"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Stainless steel flexible hoses and assemblies, liquid-cooling skid assemblies (SFN), metal bellows",
+        "customers": "Global industrial and aerospace buyers, and a large US multinational supplying data centres in India",
+        "revenue_mix": "H1 FY27: liquid cooling 24%; hoses +40% and assemblies +44% year on year",
+        "demand_drivers": "AI data-centre liquid cooling, industrial exports, defence and aerospace"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c26bfa06-ac5f-4156-9e28-7c1839fbbf9f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1a520e0-0759-4e33-9459-54e5f41143d2.pdf",
+    "transcriptPages": 17,
+    "transcriptHasText": true
+  }
+}
