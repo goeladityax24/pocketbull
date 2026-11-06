@@ -1,26 +1,26 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-11-06",
  "descriptor": "HVDC reactors, instrument transformers and grid power electronics",
- "lede": "A Sangli maker of reactors and coils for HVDC and grid projects that tripled its revenue in a year by buying control of Mehru (instrument transformers) and Endoks (Turkish power electronics and battery storage). Orders are strong and margins high, but a third of profit belongs to minority partners, a big new plant is late, and the stock trades near 96x earnings.",
+ "lede": "A Sangli maker of reactors and coils for HVDC and grid projects that tripled its revenue in a year by buying control of Mehru (instrument transformers) and Endoks (Turkish power electronics and battery storage). Q2 FY27 revenue was ₹285 Cr (+39%), the order book passed ₹2,000 Cr and both new plants have started, but management warned Q3 would be 'tough' at the standalone business, a ₹700 Cr share sale is due, a third of profit belongs to minority partners, and the stock still trades near 70x earnings.",
  "market": {
-  "price": 1649,
-  "mcap_cr": 12749,
-  "pe": 95.6,
-  "pb": 23.6,
-  "ev_ebitda": 69
+  "price": 1364,
+  "mcap_cr": 10586,
+  "pe": 69.9,
+  "pb": 17.3,
+  "ev_ebitda": 49
  },
  "short_version": [
   {
    "lead": "What's going right",
-   "text": "FY26 revenue ₹1,007 Cr (company figure) against ₹800 Cr guided at the start of the year, at a 23.5% EBITDA margin; Q1 FY27 margin 25% and the order book jumped to ₹1,945 Cr (1.9x revenue). Debt-free with ~₹250 Cr cash at March."
+   "text": "Q2 FY27 revenue ₹285 Cr (company figure; ₹273 Cr on Screener) and profit after tax ₹63 Cr (+80%). Order book above ₹2,000 Cr excluding WS Insulators. The Sangli coil factory started on 20 Oct and the Turkey PCS plant is running, ahead of the December date given in May. FY27 guidance (about 20% growth, margin about 20%) was left unchanged and FY28 growth of at least about 50% repeated."
   },
   {
    "lead": "What to be sceptical about",
-   "text": "Endoks and Mehru are only 51% owned: ₹186 Cr consolidated profit in FY26, but ~₹121 Cr (EPS ₹15.67) for Quality Power shareholders. Profit swings with Turkish hyperinflation accounting, the Sangli plant has slipped, and another raise of under ₹500 Cr is planned for acquisitions."
+   "text": "Endoks and Mehru are only 51% owned: about ₹121 Cr of FY26's ₹186 Cr profit belongs to Quality Power shareholders. The Joint MD says Q3 will be 'a kind of a tough time' at the standalone coil business while it moves between factories, about 60 customer audits run until roughly April, inventory has risen, and ₹300 Cr of the planned ₹700 Cr share sale is for working capital."
   },
   {
    "lead": "Price",
-   "text": "~96x trailing earnings and ~69x EV/EBITDA, against 34x for Voltamp, 33x for Transformers & Rectifiers and 118x for Hitachi Energy India."
+   "text": "About 70x trailing earnings and about 49x EV/EBITDA on Screener's 6 Nov data (price ₹1,364, down from ₹1,649 on 6 Oct), against 34x for Voltamp and 33x for Transformers & Rectifiers as of 6 Oct."
   }
  ],
  "sections": [
@@ -37,8 +37,8 @@
      "type": "tiles",
      "items": [
       {
-       "value": "₹1,945 Cr",
-       "label": "Order book, June 2026 (1.9x FY26 revenue)"
+       "value": "₹2,000 Cr+",
+       "label": "Order book, Sep 2026 (excl. WS Insulators)"
       },
       {
        "value": "₹468 / 318 / 246 Cr",
@@ -49,8 +49,8 @@
        "label": "Stake in Endoks and in Mehru"
       },
       {
-       "value": "₹1,500-1,800 Cr",
-       "label": "Peak revenue of the new Sangli plant"
+       "value": "₹1,500 Cr+",
+       "label": "Peak revenue of the new Sangli plant (management)"
       }
      ]
     },
@@ -72,6 +72,11 @@
        "lead": "",
        "text": "Mehru 15% EBIT in FY26, guided to ~18%.",
        "src": "Aug call p.12"
+      },
+      {
+       "lead": "",
+       "text": "Insulators (WS) orders are booked at 20-25% EBIT after an 8.25% duty; Endoks' traditional power electronics about 25% but battery-storage converters (PCS) only 10-12%; Mehru would have delivered 22-23% but for the copper and oil cost rise.",
+       "src": "Nov call p.15, 26"
       }
      ]
     },
@@ -91,8 +96,8 @@
       },
       {
        "lead": "",
-       "text": "Building a new Sangli coil plant, a CTC magnet-wire line and a PCS factory in Turkey; acquiring Winwin (ex-WS) Insulators at an EV of ~₹315 Cr.",
-       "src": "Aug call p.6"
+       "text": "New Sangli coil factory (started 20 Oct 2026), a CTC magnet-wire line (4-5 months to qualify) and a PCS factory in Turkey (operating); acquiring Winwin (ex-WS) Insulators, completion still pending (the Nov deck gives ₹272 Cr, half cash and half shares).",
+       "src": "Nov call p.3, 14"
       }
      ]
     }
@@ -327,9 +332,9 @@
       },
       {
        "cells": [
-        "15-20% revenue growth in FY27",
+        "15-20% revenue growth in FY27 (about 20% in the Aug call, unchanged on 2 Nov)",
         "May 26",
-        "Q1 FY27 +32% YoY (Screener)",
+        "H1 FY27 +32% YoY (Screener ₹506 Cr vs ₹383 Cr)",
         {
          "text": "Ahead so far",
          "tag": "ahead"
@@ -341,7 +346,7 @@
        "cells": [
         "Margins may dip a couple of points in Q1-Q2",
         "May 26",
-        "Q1 FY27 EBITDA 25.2% (28.3% before Ind AS 29)",
+        "Q1 FY27 EBITDA 25.2% (28.3% before Ind AS 29); Q2 23% on Screener's rows",
         {
          "text": "Better",
          "tag": "ahead"
@@ -353,7 +358,7 @@
        "cells": [
         "Order book ₹1,500-1,800 Cr by start of FY28",
         "May 26",
-        "₹1,945 Cr at June 2026",
+        "Above ₹2,000 Cr at September 2026 (excl. WS)",
         {
          "text": "Already passed",
          "tag": "ahead"
@@ -365,7 +370,7 @@
        "cells": [
         "New Sangli plant trial production by June, then July-August",
         "FY26 / May 26",
-        "Trial in August; revenue only from Q3, meaningful in Q4",
+        "Trial in August; production began 20 Oct; customer audits from end-Nov; revenue shifts over 4-5 months",
         {
          "text": "Delayed",
          "tag": "partial"
@@ -381,6 +386,30 @@
         {
          "text": "On track",
          "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Turkey PCS plant operating by December 2026",
+        "May 26",
+        "Running by October; billing may start in Q3",
+        {
+         "text": "Ahead",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Fund-raise under ₹500 Cr for the acquisition, capex and US entry",
+        "Aug 26",
+        "QIP of about ₹700 Cr (analyst's figure) targeted for November",
+        {
+         "text": "Larger",
+         "tag": "partial"
         }
        ],
        "highlight": false
@@ -427,6 +456,11 @@
        "lead": "",
        "text": "Some Endoks directors own stakes in Inavitas, a related software company.",
        "src": "Aug call p.21"
+      },
+      {
+       "lead": "",
+       "text": "Turkish hyperinflation accounting swings other expenses: ₹8 Cr charge in Q1, ₹4 Cr credit in Q2, so part of Q2's profit is a one-off.",
+       "src": "Nov call p.13"
       }
      ]
     }
@@ -473,7 +507,7 @@
         "19%",
         "186",
         "32%",
-        "95.6x"
+        "69.9x"
        ],
        "highlight": true
       },
@@ -511,7 +545,7 @@
        "highlight": false
       }
      ],
-     "note": null
+     "note": "Quality Power's P/E is Screener's on 6 Nov 2026; peers' figures were taken on 6 Oct 2026."
     },
     {
      "type": "text",
@@ -588,7 +622,7 @@
        "cells": [
         "Sangli plant audits take longer",
         "Operational",
-        "~60 customer audits; revenue from Q3"
+        "Started 20 Oct; about 60 customer audits at one or two a week from end-Nov; Q3 standalone called 'tough'"
        ],
        "highlight": false
       },
@@ -596,7 +630,7 @@
        "cells": [
         "Turkish lira and hyperinflation accounting",
         "Financial",
-        "₹25.7 Cr charge in Q4 FY26, ₹7.8 Cr in Q1 FY27"
+        "₹25.7 Cr charge in Q4 FY26, ₹7.8 Cr in Q1 FY27, a ₹4 Cr credit in Q2"
        ],
        "highlight": false
       },
@@ -604,7 +638,7 @@
        "cells": [
         "Equity dilution for acquisitions",
         "Financial",
-        "Raise of under ₹500 Cr planned"
+        "QIP of about ₹700 Cr targeted for November"
        ],
        "highlight": false
       },
@@ -612,7 +646,15 @@
        "cells": [
         "Commodity costs on fixed-price orders",
         "Operational",
-        "Q3 standalone margin warning"
+        "About 99% fixed price; standalone material cost rose from 35% to 45% of sales in Q2"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital",
+        "Financial",
+        "Inventory has jumped; about ₹300 Cr of the QIP is for working capital"
        ],
        "highlight": false
       }
@@ -625,19 +667,19 @@
       {
        "name": "Bull",
        "value": "₹15,100 Cr",
-       "sub": "FY28 market cap · about +18%",
+       "sub": "FY28 market cap · about +43% on the 6 Nov market cap",
        "text": "Guidance met plus Winwin: revenue ~₹1,800 Cr in FY28, 14% of revenue reaching shareholders after minorities (₹252 Cr), valued at 60x."
       },
       {
        "name": "Base",
        "value": "₹9,700 Cr",
-       "sub": "FY28 market cap · about –24%",
+       "sub": "FY28 market cap · about –8% on the 6 Nov market cap",
        "text": "20% then ~40% growth to ~₹1,550 Cr, 12.5% to shareholders (₹194 Cr), valued at 50x."
       },
       {
        "name": "Bear",
        "value": "₹4,800 Cr",
-       "sub": "FY28 market cap · about –62%",
+       "sub": "FY28 market cap · about –55% on the 6 Nov market cap",
        "text": "Sangli slow and margins slip: ~₹1,250 Cr revenue, 11% to shareholders (₹138 Cr), valued at 35x."
       }
      ]
@@ -657,15 +699,15 @@
      "type": "tiles",
      "items": [
       {
-       "value": "95.6x",
-       "label": "P/E, trailing, on shareholders' profit (Voltamp 34x)"
+       "value": "69.9x",
+       "label": "P/E, Screener, 6 Nov (Voltamp 34x on 6 Oct)"
       },
       {
-       "value": "~69x",
-       "label": "EV / trailing EBITDA"
+       "value": "~49x",
+       "label": "EV / trailing EBITDA (March net cash assumed)"
       },
       {
-       "value": "23.6x",
+       "value": "17.3x",
        "label": "Price / book value"
       },
       {
@@ -676,23 +718,24 @@
     },
     {
      "type": "text",
-     "text": "Management has beaten its own guidance and holds a strong order book in a scarce niche. But the price assumes FY28's 50% growth arrives on time, a big plant ramps smoothly, and acquisitions keep paying off; a third of group profit also goes to minority partners. The margin for error is thin.",
+     "text": "Management has beaten its own guidance, left FY27 guidance unchanged on 2 Nov and holds an order book above ₹2,000 Cr in a scarce niche. The share price has fallen about 17% since 6 Oct while quarterly profit rose, so the multiple is lower than in the October version of this note, but the price still assumes FY28's 50% growth arrives on time, two new plants ramp smoothly, ₹700 Cr of new equity is absorbed and acquisitions keep paying off; a third of group profit also goes to minority partners. The margin for error is thin.",
      "src": null
     }
    ]
   }
  ],
  "watch": [
-  "Q2 revenue growth vs ~20% and EBITDA margin vs 20%",
-  "Sangli commercial production and customer audits",
-  "Size and price of the fund-raise; Winwin closing",
-  "Ind AS 29 charges at Endoks",
+  "Q3 standalone revenue during the move to the new Sangli factory",
+  "QIP closing in November (about ₹700 Cr) and the WS Insulators completion date",
+  "First Turkey PCS billing in Q3 and its margin (10-12% booked)",
+  "End-of-Q3 revision of FY27 guidance",
+  "Inventory and receivables against the ₹300 Cr working-capital allocation",
   "Profit attributable to shareholders vs consolidated"
  ],
  "sources": [
-  "Screener financials, shareholding and prices (6 Oct 2026)",
-  "Q4 FY26 (14 May 2026) and Q1 FY27 (10 Aug 2026) concall transcripts",
-  "FY26 annual report",
-  "Peer data from Screener"
+  "Screener financials and prices (6 Nov 2026); peers and shareholding as of 6 Oct 2026",
+  "Q4 FY26 (14 May 2026), Q1 FY27 (10 Aug 2026) and Q2 FY27 (2 Nov 2026, concall.in AI-generated transcript) concalls",
+  "Q2 FY27 investor presentation (Nov 2026)",
+  "FY26 annual report (not re-read for this refresh)"
  ]
 }
