@@ -1,0 +1,23 @@
+{
+  "symbol": "TONBO",
+  "as_of": "2026-11-06",
+  "period": "Q3 FY27",
+  "results_due": "February 2027, going by Q2 being reported on 5 Nov",
+  "basis": "consolidated",
+  "revenue": { "low": 70, "base": 130, "high": 200 },
+  "operating_profit": { "low": 10, "base": 29, "high": 52 },
+  "net_profit": { "low": -3, "base": 12, "high": 29 },
+  "reasoning": [
+    "Management says quarterly revenue will stay lumpy: Q1 FY27 was ₹36 Cr and Q2 ₹183 Cr. Revenue can only come from the ₹250 Cr order book (at 30 Sep) plus orders that are won and delivered within the quarter, so we do not assume Q2 repeats. Base ₹130 Cr is about half of the order book converting in a quarter, with ₹408 Cr under negotiation as upside.",
+    "H2 FY26 revenue was ₹285 Cr (FY26 ₹363 Cr less H1 ₹78 Cr on Screener's rows), so Q3 FY27 at ₹130 Cr would still be above the H1 FY27 average of ₹110 Cr a quarter.",
+    "Margin: Q2 operating margin was 24% on Screener's rows (24.1% as the company reports it) with a 34% gross margin; Q1 was a -36% loss on tiny revenue. We use 22% in the base, 15% low and 26% high, since fixed costs weigh more at lower revenue.",
+    "Below operating profit we use Q2's run rate: depreciation about ₹10 Cr, interest about ₹5 Cr, other income ₹2 Cr, tax 25%."
+  ],
+  "risks": [
+    "A delivery slipping into Q4 could push revenue below the low case, and a loss for the quarter",
+    "Gross margin has fallen from 51% (FY26) to 34.6% in H1 as platform work grew; a further slide cuts every profit line",
+    "A large export or domestic order delivered inside the quarter would put revenue above the high case",
+    "No numeric guidance, no transcript and only one results presentation so far: this estimate has the widest band of any company here"
+  ],
+  "caveat": "Tonbo's quarters swing by 5x, so this band is wide on purpose. Estimates are on Screener's rows and are our own, not management guidance; the company asks to be judged annually."
+}

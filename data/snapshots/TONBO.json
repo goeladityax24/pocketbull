@@ -1,0 +1,270 @@
+{
+  "symbol": "TONBO",
+  "name": "Tonbo Imaging India Ltd",
+  "screenerUrl": "https://www.screener.in/company/TONBO/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1286262",
+  "warehouseId": "162811884",
+  "ratios": {
+    "market cap": 8416,
+    "current price": 1472,
+    "high": 1644,
+    "low": 1014,
+    "stock p/e": 100,
+    "book value": null,
+    "dividend yield": 0,
+    "roce": 12.8,
+    "roe": 9.75,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        69,
+        9,
+        36,
+        183
+      ],
+      "expenses": [
+        54,
+        12,
+        49,
+        139
+      ],
+      "operating_profit": [
+        15,
+        -3,
+        -13,
+        44
+      ],
+      "opm_pct": [
+        22,
+        -36,
+        -36,
+        24
+      ],
+      "other_income": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "interest": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "depreciation": [
+        7,
+        7,
+        8,
+        10
+      ],
+      "pbt": [
+        8,
+        -11,
+        -24,
+        31
+      ],
+      "tax_pct": [
+        29,
+        -10,
+        -25,
+        25
+      ],
+      "net_profit": [
+        5,
+        -10,
+        -18,
+        24
+      ],
+      "eps": [
+        0.95,
+        -1.68,
+        -3.1,
+        4.11
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        469,
+        363
+      ],
+      "expenses": [
+        329,
+        258
+      ],
+      "operating_profit": [
+        140,
+        105
+      ],
+      "opm_pct": [
+        30,
+        29
+      ],
+      "other_income": [
+        4,
+        7
+      ],
+      "interest": [
+        18,
+        11
+      ],
+      "depreciation": [
+        27,
+        31
+      ],
+      "pbt": [
+        99,
+        70
+      ],
+      "tax_pct": [
+        27,
+        27
+      ],
+      "net_profit": [
+        73,
+        51
+      ],
+      "eps": [
+        9.9,
+        8.88
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da822426-a1e6-4e3e-977c-f253dc16d65b.pdf",
+      "recordingUrl": "https://tonboimaging.com/main/wp-content/uploads/2026/11/Earnings-Call-Recording-Q2-2026-27.mp3"
+    }
+  ],
+  "peers": [
+    {
+      "name": "Hind.Aeronautics",
+      "screenerPath": "/company/HAL/consolidated/",
+      "marketCapCr": 333248.19,
+      "pe": 35.75,
+      "salesQtrCr": 5515.17,
+      "salesGrowthQtrPct": 14.45,
+      "roce": 31.97
+    },
+    {
+      "name": "Bharat Electron",
+      "screenerPath": "/company/BEL/consolidated/",
+      "marketCapCr": 289467.24,
+      "pe": 45.24,
+      "salesQtrCr": 7327.72,
+      "salesGrowthQtrPct": 26.51,
+      "roce": 36.44
+    },
+    {
+      "name": "Bharat Dynamics",
+      "screenerPath": "/company/BDL/",
+      "marketCapCr": 38819.52,
+      "pe": 74.54,
+      "salesQtrCr": 572.24,
+      "salesGrowthQtrPct": 130.81,
+      "roce": 13.86
+    },
+    {
+      "name": "Garden Reach Sh.",
+      "screenerPath": "/company/GRSE/",
+      "marketCapCr": 24438.57,
+      "pe": 30.53,
+      "salesQtrCr": 1814.62,
+      "salesGrowthQtrPct": 38.53,
+      "roce": 42.82
+    },
+    {
+      "name": "Data Pattern",
+      "screenerPath": "/company/DATAPATTNS/",
+      "marketCapCr": 21012.95,
+      "pe": 77.75,
+      "salesQtrCr": 116.03,
+      "salesGrowthQtrPct": 16.81,
+      "roce": 21.92
+    },
+    {
+      "name": "Sigma Advanced System",
+      "screenerPath": "/company/SIGMAADV/consolidated/",
+      "marketCapCr": 17269.29,
+      "pe": 103.84,
+      "salesQtrCr": 374.28,
+      "salesGrowthQtrPct": 7083.88,
+      "roce": 11.74
+    },
+    {
+      "name": "Zen Technologies",
+      "screenerPath": "/company/ZENTEC/consolidated/",
+      "marketCapCr": 15537.16,
+      "pe": 73.11,
+      "salesQtrCr": 345.13,
+      "salesGrowthQtrPct": 98.84,
+      "roce": 16.18
+    },
+    {
+      "name": "Tonbo Imaging",
+      "screenerPath": "/company/TONBO/consolidated/",
+      "marketCapCr": 8415.79,
+      "pe": 100.14,
+      "salesQtrCr": 183.29,
+      "salesGrowthQtrPct": 1964.08,
+      "roce": 12.83
+    }
+  ],
+  "fetchedAt": "2026-11-06T21:09:47.872Z"
+}

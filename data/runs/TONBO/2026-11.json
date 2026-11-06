@@ -1,0 +1,154 @@
+{
+  "symbol": "TONBO",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da822426-a1e6-4e3e-977c-f253dc16d65b.pdf",
+    "recordingUrl": "https://tonboimaging.com/main/wp-content/uploads/2026/11/Earnings-Call-Recording-Q2-2026-27.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T21:10:37.874Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-06",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Positive FY27 and medium-term outlook",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No call transcript on Screener (audio recording only); presentation only. Order book ₹250 Cr plus ₹408 Cr of contracts under negotiation at 30 Sep 2026 (p.9)",
+        "quote": "The ₹2,498 mn order book, expected POs and pipeline support the outlook.",
+        "page": 8,
+        "speaker": "Arvind Kondangi Lakshmikumar (MD & CEO), in the presentation",
+        "confidence": "high",
+        "keyword": "support the outlook",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Quarterly revenue will stay lumpy; judge annually",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 FY27 revenue was ₹36 Cr and Q2 ₹183 Cr (p.18); the company asks to be tracked annually",
+        "quote": "Quarter-on-quarter revenue volatility has been seen historically and will continue, given the nature of the defence business.",
+        "page": 8,
+        "speaker": "Arvind Kondangi Lakshmikumar (MD & CEO), in the presentation",
+        "confidence": "high",
+        "keyword": "volatility",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Platforms expected to grow; directed-energy system over 3-4 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 3-4 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Platform revenue was 43% of H1 FY27 revenue (₹94 Cr of ₹218 Cr, p.19), so the 70-80% tactical share is not the H1 position",
+        "quote": "Tactical systems are 70–80% of business today; platforms are expected to grow, alongside a directed-energy system over the next 3–4 years.",
+        "page": 8,
+        "speaker": "Arvind Kondangi Lakshmikumar (MD & CEO), in the presentation",
+        "confidence": "medium",
+        "keyword": "platforms are expected to grow",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Tonbo Imaging (NSE: TONBO) held its Q2 FY27 analyst meet on 6 Nov, but only the investor presentation and an audio recording are on Screener, so this run uses the presentation. H1 FY27 revenue was ₹219 Cr (+183% YoY on a weak H1 FY26), made of a ₹36 Cr Q1 and a ₹183 Cr Q2 (EBITDA 24.1% margin, PAT ₹23.5 Cr). The order book is ₹250 Cr with ₹408 Cr of contracts under negotiation. Management gives no numeric guidance, only a positive FY27 outlook and a warning that quarters will stay lumpy.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Positive FY27 and medium-term outlook backed by ₹250 Cr order book and expected POs",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Revenue volatility between quarters expected to continue; track annually",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Platforms expected to grow alongside a directed-energy system over 3-4 years",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "cautious",
+        "quote": "Quarter-on-quarter revenue volatility has been seen historically and will continue, given the nature of the defence business.",
+        "page": 8
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Working capital is stretched: inventories ₹266 Cr and receivables ₹235 Cr against cash and bank balances of ₹9 Cr (plus ₹15 Cr in other bank balances); H1 operating cash flow was -₹48 Cr and short-term borrowings rose to ₹147 Cr from ₹116 Cr at March.",
+          "page": null
+        },
+        {
+          "text": "Gross margin fell to 34.6% in H1 from 52.5% a year earlier (FY26: 51%) as lower-margin platform work grew.",
+          "page": null
+        },
+        {
+          "text": "Order book fell to ₹250 Cr from ₹314 Cr at June and ₹279 Cr at March; tactical systems order book is only ₹44.5 Cr.",
+          "page": null
+        },
+        {
+          "text": "Q1 FY27 was an EBITDA loss (₹-13 Cr) and a PAT loss (₹-17.7 Cr); H1 PAT is just ₹5.8 Cr, a 2.6% margin.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 FY27 revenue and whether the order book converts: ₹250 Cr in hand plus ₹408 Cr under negotiation",
+        "Gross margin: 34% in Q2 against 51% for FY26",
+        "Cash flow and borrowings: operating cash flow was -₹48 Cr in H1",
+        "Indian procurement of thermal weapon sights (the deck cites 75,000 units, ₹3-10 lakh each) and any award to Tonbo",
+        "Call transcript, when published: no numeric guidance yet"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Thermal and night-vision sights, EO/IR imaging, gimbals and fire-control systems, with directed-energy (RF, laser) systems in development; fabless, built by partners",
+        "customers": "Armed forces, DRDO, PSUs, OEMs and integrators, and international militaries in 24+ countries",
+        "revenue_mix": "H1 FY27: tactical ₹123 Cr (56%), platform ₹94 Cr (43%); export share 36% (6% in FY26 against 66% in FY25). FY26: tactical 58%, platform 40%",
+        "demand_drivers": "Indian and EU soldier-modernisation programmes, counter-drone and fire-control demand, export orders"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da822426-a1e6-4e3e-977c-f253dc16d65b.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da822426-a1e6-4e3e-977c-f253dc16d65b.pdf",
+    "transcriptPages": 33,
+    "transcriptHasText": true
+  }
+}
