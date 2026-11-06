@@ -61,7 +61,7 @@ Cloud sessions (claude.ai/code) also work for coding once the Claude GitHub App 
 
 ## Next steps
 
-0b. **6 Nov:** the MCX and BSE Nov call transcripts, Nov call transcripts were not on Screener yet: add them when they appear (`npm run analyze -- <SYMBOL> --check`). The insight reports for JYOTICNC, SONACOMS, SYMBIOTEC, MCX and BSE are lean (no annual-report checks, peers named without figures): deepen them after the annual reports are read.
+0b. **6 Nov:** the MCX and BSE Nov call transcripts were not on Screener yet: add them when they appear (`npm run analyze -- <SYMBOL> --check`). The insight reports for JYOTICNC, SONACOMS, SYMBIOTEC, MCX and BSE are lean (no annual-report checks, peers named without figures): deepen them after the annual reports are read.
 0. **Q2 FY27 refresh (3 Nov): done** for HFCL, STLTECH, ACUTAAS, AEROFLEX, E2E, NETWEB, TARIL, VIVIDEL, YASHHV and YASHO (new run each; KRN already had both calls; SKYGOLD has no newer call yet, its Q2 call is due). Snapshots refreshed for all of them. **Not done:** the six-section insight reports in `data/notes/` still describe the pre-Q2 position (HFCL guidance has moved 20% to 40% to 80%+, STLTECH margin target 27% to 30%, YASHO margin 24% to 20%+). Refresh the lede, walking-the-talk table and watch list; mark each estimate against actual Q3 results when they come out (mid-Jan to Feb 2027).
 1. Merge the milestone 2 pull request; check the live site on Vercel (unlock `/admin` with `ADMIN_KEY`).
 2. Optional: add `GITHUB_TOKEN` (fine-grained, Issues read/write on the repo) in Vercel so requests open GitHub issues.
