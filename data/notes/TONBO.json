@@ -1,0 +1,583 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "Thermal imaging and electro-optic systems for defence, fabless and export-led",
+ "lede": "Tonbo Imaging makes thermal sights, gimbals and fire-control sensors for armies and has just reported a ₹183 Cr second quarter after a ₹36 Cr first quarter. The ₹250 Cr order book is smaller than at March, gross margin has dropped to 34.6% from 51%, cash flow is negative, and the stock trades near 100x earnings. Management gives no numeric guidance.",
+ "market": {
+  "price": 1472,
+  "mcap_cr": 8416,
+  "pe": 100.1,
+  "pb": 14.9,
+  "ev_ebitda": 69
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q2 FY27 revenue ₹183 Cr with a 24% EBITDA margin, ₹94 Cr of platform revenue in H1, order inflow of ₹188 Cr in H1, ₹408 Cr of contracts under negotiation and a big addressable list in thermal sights and directed energy."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Two years of negative operating cash flow, working capital days of 454, order book down to ₹250 Cr, gross margin down 17 points, no guidance numbers, and little history as a listed company."
+  },
+  {
+   "lead": "Price",
+   "text": "About 100x earnings and 69x EV/EBITDA; even the illustrative bull case is only about 15% above the price."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Tonbo Imaging designs and sells sensing, targeting and fire-control equipment for soldiers and vehicles: thermal weapon sights, night-vision binoculars, stabilised gimbals, remote weapon stations and seekers, with high-power microwave and laser systems in development. It claims 100% proprietary IP, 136 R&D engineers and about 28,000 systems in 24+ countries. It is fabless: contract manufacturers build to its design.",
+     "src": "Q2 FY27 deck p.3, 5, 6"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹250 Cr",
+       "label": "Order book, 30 Sep 2026"
+      },
+      {
+       "value": "₹408 Cr",
+       "label": "Contracts under negotiation"
+      },
+      {
+       "value": "64%",
+       "label": "India share of H1 FY27 revenue"
+      },
+      {
+       "value": "43%",
+       "label": "Platforms share of H1 FY27 revenue"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What the business is today",
+     "items": [
+      {
+       "lead": "Tactical systems",
+       "text": "Thermal sights and binoculars. 56% of H1 FY27 revenue (₹123 Cr) but only ₹44.5 Cr of the order book.",
+       "src": "deck p.19"
+      },
+      {
+       "lead": "Platform systems",
+       "text": "Remote weapon stations, gimbals, seekers and fire control. 43% of H1 revenue (₹94 Cr) and ₹205 Cr of the order book.",
+       "src": "deck p.19"
+      },
+      {
+       "lead": "Directed energy",
+       "text": "Land, naval and airborne microwave systems at technology readiness level 4, plus 30 kW and 300 kW lasers in development. No revenue yet beyond subsystem orders.",
+       "src": "deck p.5, 12"
+      },
+      {
+       "lead": "Demand cited",
+       "text": "Deck cites a domestic need of 100,000+ tactical units (75,000 thermal weapon sights) and 100+ directed-energy systems; these are indicative, not orders.",
+       "src": "deck p.10, 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue and EBITDA, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26",
+      "H1 FY27"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        428,
+        469,
+        363,
+        219
+       ]
+      },
+      {
+       "name": "EBITDA",
+       "values": [
+        112,
+        139,
+        105,
+        31
+       ]
+      }
+     ],
+     "caption": "Company-reported EBITDA excludes other income. Revenue fell 23% in FY26; H1 FY27 is +183% on a weak H1 FY26 (₹78 Cr)."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY24",
+      "FY25",
+      "FY26",
+      "H1 FY27"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        69,
+        73,
+        51,
+        6
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        78,
+        -136,
+        -63,
+        -48
+       ]
+      }
+     ],
+     "caption": "Profit has not turned into cash since FY24: operating cash flow was -₹247 Cr over FY25, FY26 and H1 FY27 against profit of ₹130 Cr."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      },
+      {
+       "label": "Sep 2026",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Gross margin",
+        "49%",
+        "56%",
+        "51%",
+        "34.6% (H1)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "26%",
+        "30%",
+        "29%",
+        "14.2% (H1)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "68%",
+        "27%",
+        "15%",
+        "2% (H1, not annualised)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT/finance cost)",
+        "13.3x",
+        "6.6x",
+        "7.6x",
+        "1.9x (H1)"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.42x",
+        "0.16x",
+        "0.21x",
+        "0.30x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital days",
+        "152",
+        "280",
+        "517",
+        "454 (H1)"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "FY24-FY26 and H1 from the company's deck (p.18, 28-30); interest cover computed as (profit before tax + finance costs) / finance costs. Borrowings include only bank debt, not leases."
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Poor. Inventories ₹266 Cr and receivables ₹235 Cr against ₹9 Cr of cash and bank balances (plus ₹15 Cr in other bank balances); short-term borrowings rose to ₹147 Cr from ₹116 Cr in March, and a ₹22 Cr long-term loan was added.",
+       "src": "deck p.21-24"
+      },
+      {
+       "lead": "Equity raise",
+       "text": "₹175 Cr of equity was issued in FY25 (cash flow statement), which funded the build-up; there is no later equity line in the deck.",
+       "src": "deck p.32"
+      },
+      {
+       "lead": "One quarter does not make a trend",
+       "text": "Q1 FY27 revenue ₹36 Cr and a ₹13 Cr EBITDA loss; Q2 ₹183 Cr and ₹44 Cr EBITDA. Management itself asks to be tracked annually.",
+       "src": "deck p.8, 18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "FY27 outlook",
+        "Nov 2026",
+        "\"Positive FY27 and medium-term outlook\"; no revenue or margin target",
+        {
+         "text": "Nothing to score",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Lumpy quarters",
+        "Nov 2026",
+        "Quarterly revenue volatility will continue; judge annually",
+        {
+         "text": "Q3 and Q4 FY27 will test it",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Screener shows only one results presentation for Tonbo and no earlier call, so there is no track record yet."
+    },
+    {
+     "type": "text",
+     "text": "What we could not check: the annual report (auditor, related-party dealings, contingent liabilities, key audit matters), shareholding and pledges, and management pay. The audio recording of the 6 Nov call is on the company site but there is no transcript, so what was said in Q&A is not in this report.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Points to read in the annual report",
+     "items": [
+      {
+       "lead": "Share options",
+       "text": "The cash flow adds back ₹12 Cr of share-option cost in FY26 and ₹5 Cr in H1 FY27, so reported profit is after that charge.",
+       "src": "deck p.23, 31"
+      },
+      {
+       "lead": "Restated numbers",
+       "text": "The deck labels FY25 profit before tax as 'restated' and shows FY24 earnings per share of ₹62.61 basic against ₹13.63 diluted, a gap that suggests the share structure changed recently.",
+       "src": "deck p.28"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Industry, peers and competitive position",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (Screener, Nov 2026)",
+       "numeric": false
+      },
+      {
+       "label": "Market cap, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      },
+      {
+       "label": "ROCE %",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Tonbo Imaging",
+        "8,416",
+        "100",
+        "12.8"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Data Patterns",
+        "21,013",
+        "77.8",
+        "21.9"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Zen Technologies",
+        "15,537",
+        "73.1",
+        "16.2"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Sigma Advanced Systems",
+        "17,269",
+        "103.8",
+        "11.7"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Bharat Electronics",
+        "289,467",
+        "45.2",
+        "36.4"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Screener's own figures for each company. Data Patterns, Zen Technologies and Sigma are the closest small-cap defence-electronics names; BEL is the scale incumbent, and Tonbo's customers include state-owned companies and DRDO."
+    },
+    {
+     "type": "bullets",
+     "title": "Positioning",
+     "items": [
+      {
+       "lead": "Where Tonbo is different",
+       "text": "Fabless, export-first (export was 66% of FY25 revenue), strong in thermal imaging and stabilised sensors. Most peers sell mainly to the Indian forces.",
+       "src": null
+      },
+      {
+       "lead": "Where it is weaker",
+       "text": "Revenue is a fraction of Data Patterns' or BEL's, the order book is ₹250 Cr, and ROCE of 13% is below Data Patterns and BEL.",
+       "src": "Screener"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What would change the position",
+     "items": [
+      {
+       "lead": "Procurement route",
+       "text": "The deck points to near-term procurement of thermal sights 'through OCPP' (50,000 units) as the chance, but names no order won.",
+       "src": "deck p.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Severity",
+       "numeric": true
+      },
+      {
+       "label": "What it looks like",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Order lumpiness",
+        "High",
+        "Revenue went from ₹36 Cr to ₹183 Cr in one quarter; a delay moves a whole quarter"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash and working capital",
+        "High",
+        "Operating cash flow -₹48 Cr in H1; inventories and receivables doubled since September 2025"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Falling margin on platforms",
+        "Medium",
+        "Gross margin 34.6% in H1 against 51% in FY26"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Customer concentration",
+        "Medium",
+        "Export share swung from 66% (FY25) to 6% (FY26); a few orders appear to decide each year"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Valuation",
+        "High",
+        "About 100x earnings on a profit that is lumpy and mostly in one quarter"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "≈₹1,690",
+       "sub": "+15%",
+       "text": "FY28 revenue ₹1,000 Cr at 28% EBITDA margin (₹280 Cr) valued at 35x EV/EBITDA, less about ₹150 Cr net debt, on 5.72 Cr shares. Needs platform and export orders to convert and directed energy to start selling."
+      },
+      {
+       "name": "Base",
+       "value": "≈₹1,050",
+       "sub": "-29%",
+       "text": "FY28 revenue ₹700 Cr at 25% margin (₹175 Cr) at 35x, less net debt. Roughly ₹250 Cr of the order book converts plus new wins at last year's pace."
+      },
+      {
+       "name": "Bear",
+       "value": "≈₹450",
+       "sub": "-70%",
+       "text": "FY28 revenue ₹450 Cr at 20% margin (₹90 Cr) at 30x, less net debt. Order delays and lower margins continue."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative arithmetic on stated assumptions, not forecasts; shares are market cap ÷ price (Screener). Even the bull case sits only 15% above the current price.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,472",
+       "label": "Price (52-week ₹1,014-1,644)"
+      },
+      {
+       "value": "100x",
+       "label": "P/E"
+      },
+      {
+       "value": "≈15x",
+       "label": "Price to book"
+      },
+      {
+       "value": "≈69x",
+       "label": "EV/EBITDA on last 4 quarters"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "At about ₹8,400 Cr the market values Tonbo at roughly 17x the last four quarters' revenue (₹504 Cr on Screener's rows). EV/EBITDA is about 69x on Screener's operating profit for the last four quarters (₹124 Cr). At a 35x multiple the price needs about ₹245 Cr of EBITDA, which is revenue of roughly ₹875 Cr at a 28% margin, about 1.7 times the last four quarters. Management has not promised that and the order book does not yet support it. This is a note on valuation, not a buy or sell call.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q3 FY27 revenue against the ₹250 Cr order book and ₹408 Cr under negotiation",
+  "Gross margin back above 40%?",
+  "Operating cash flow and short-term borrowings (₹147 Cr)",
+  "Any award under Indian thermal-sight procurement",
+  "Call transcript and annual report, to fill the gaps in this note"
+ ],
+ "sources": [
+  "Screener financials and peers (6 Nov 2026)",
+  "Q2 and H1 FY27 investor presentation, 5 Nov 2026",
+  "Call audio on the company site was not transcribed",
+  "Annual report not read for this note"
+ ]
+}
