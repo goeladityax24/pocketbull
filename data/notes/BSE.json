@@ -1,0 +1,559 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "Stock exchange with index options, equity, SME and mutual-fund platforms",
+ "lede": "BSE's revenue grew about 60% in FY26 and 49% in H1 FY27 as index-options volumes boomed, lifting the operating margin from 42% to about 67%. Q2 saw the first quarterly decline in options premium turnover before a record October, and the stock trades at 50x earnings.",
+ "market": {
+  "price": 3800,
+  "mcap_cr": 154996,
+  "pe": 50.3,
+  "pb": 19.5,
+  "ev_ebitda": 40.9
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "H1 FY27 revenue ₹3,257 Cr (+49%), operating EBITDA ₹2,019 Cr (67% margin), net profit ₹1,680 Cr, a record 71 mainboard IPOs in H1, 800+ SME listings and all 500 co-location racks allocated."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Options premium ADTV fell 24% in Q2 (₹29,615 Cr to ₹22,531 Cr), cash-equity market share is still short of the double-digit goal and earnings depend on index-options rules."
+  },
+  {
+   "lead": "Price",
+   "text": "50x earnings and 19.5x book price in sustained options volumes."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "BSE runs equity, derivatives and SME markets, the BSE Star MF distribution platform and a co-location data centre. Index options (Sensex and Bankex) drive most profit. Management says a 67-68% EBITDA margin is sustainable and aims for a double-digit cash-equity share by early calendar 2027.",
+     "src": "Q1 FY27 call, Q2 FY27 summary"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹3,257 Cr",
+       "label": "H1 FY27 revenue"
+      },
+      {
+       "value": "67%",
+       "label": "H1 operating EBITDA margin"
+      },
+      {
+       "value": "26.8 crore",
+       "label": "Investor accounts"
+      },
+      {
+       "value": "None",
+       "label": "Promoter (widely held)"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Direction",
+       "text": "More racks (170-190 under construction beyond 500), MSCI-linked derivatives (approval awaited), Star MF at 24.5 crore transactions a quarter.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        841,
+        925,
+        1568,
+        3212,
+        5124
+       ]
+      }
+     ],
+     "caption": "TTM ₹5,806 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        245,
+        206,
+        772,
+        1322,
+        2487
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        1442,
+        -137,
+        2643,
+        414,
+        3104
+       ]
+      }
+     ],
+     "caption": "Cash flow is lumpy because of clearing-corporation balances."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin",
+        "42%",
+        "34%",
+        "45%",
+        "58%",
+        "68%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings, ₹ Cr",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT/interest)",
+        "12.7x",
+        "9.0x",
+        "26.5x",
+        "55.8x",
+        "98.4x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "15%",
+        "12%",
+        "23%",
+        "47%",
+        "60%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "28",
+        "36",
+        "49",
+        "33",
+        "39"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Operating cash flow swings with settlement balances; five-year total ₹7,466 Cr against profit of ₹5,032 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Leverage",
+       "text": "None.",
+       "src": null
+      },
+      {
+       "lead": "Returns",
+       "text": "ROIIC over FY24-FY26 about 51%.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "500 co-location racks",
+        "By Aug 2026",
+        "Take to 500",
+        {
+         "text": "All 500 allocated by Nov",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Racks last 1.5 years",
+        "Aug 2026",
+        "Enough for 1.5 years",
+        {
+         "text": "170-190 more under construction",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Double-digit cash share",
+        "Early CY2027",
+        "Aspiration",
+        {
+         "text": "Still short, per Nov note",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Margin 67-68% sustainable",
+        "FY27",
+        "From Nov summary",
+        {
+         "text": "H1 67%",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Status as at 6 Nov 2026; Nov items are from a social-media summary."
+    },
+    {
+     "type": "text",
+     "text": "Management has built the 500 racks it promised and keeps its margin guide inside the range it is achieving. The cash-equity share goal has been moved out repeatedly and remains an aspiration.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "No promoter; DIIs 25.9%, FIIs 17.1%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "Governance flags",
+       "text": "Regulatory dependence (options-expiry and lot-size rules). Annual-report checks (auditor, related parties, pay) were not made for this note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Competitor",
+       "numeric": false
+      },
+      {
+       "label": "Where they overlap",
+       "numeric": false
+      },
+      {
+       "label": "Note",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "NSE (unlisted)",
+        "Equity and index derivatives",
+        "Dominates volumes"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "MCX",
+        "Listed exchange",
+        "Commodity derivatives"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "CDSL, CAMS",
+        "Market infrastructure businesses",
+        "Different revenue lines"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Peer figures were not pulled in this session; names are the closest listed or global comparables."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Moats that hold up",
+       "text": "Exchange liquidity, regulatory licence and a growing SME and IPO franchise.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Where it is exposed",
+       "text": "Index-options rules from the regulator, competition from NSE and cyclical IPO and options volumes.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "What could happen",
+       "numeric": false
+      },
+      {
+       "label": "How big",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Options curbs",
+        "Regulator reduces expiry days or raises costs",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Volume cycle",
+        "Options and IPO volumes fall",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Market share",
+        "Cash-equity share stays low",
+        "Medium"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Valuation",
+        "50x earnings on peak margins",
+        "High"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹225,000 Cr",
+       "sub": "FY28 market cap · about +45%",
+       "text": "PAT ₹4,500 Cr, valued at 50x."
+      },
+      {
+       "name": "Base",
+       "value": "₹162,000 Cr",
+       "sub": "FY28 market cap · about +5%",
+       "text": "PAT ₹3,600 Cr, valued at 45x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹84,000 Cr",
+       "sub": "FY28 market cap · about −46%",
+       "text": "PAT ₹2,400 Cr, valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our own assumptions, not a forecast or advice.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹3,800",
+       "label": "Price"
+      },
+      {
+       "value": "₹154,996 Cr",
+       "label": "Market cap"
+      },
+      {
+       "value": "50x",
+       "label": "P/E (TTM)"
+      },
+      {
+       "value": "19.5x",
+       "label": "Price/book"
+      },
+      {
+       "value": "40.9x",
+       "label": "EV/EBITDA (TTM)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "BSE has become a very profitable, debt-free business on the back of options volumes. The base case assumes profit holds near the H1 run-rate; the stock has little room if volumes or margins slip.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Index-options premium ADTV above ₹30,000 Cr",
+  "Cash-equity market share",
+  "Co-location revenue as racks are used",
+  "EBITDA margin 67-68%",
+  "MSCI derivatives approval"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Nov 2026)",
+  "Q1 FY27 earnings call transcript (4 Aug 2026)",
+  "Concall summary by concall.in on X (4 Nov 2026; second-hand, no transcript)",
+  "Annual report not read for this note"
+ ]
+}

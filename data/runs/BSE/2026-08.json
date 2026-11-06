@@ -1,0 +1,134 @@
+{
+  "symbol": "BSE",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_10082026115817_NSEIntimation.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_04082026185534_NSEintimation.pdf",
+    "recordingUrl": "https://www.bseindia.com/downloads1/c0b30615-8f4d-4a7c-b8be-0859a6711235.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T20:00:33.727Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-04",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "500 racks to last at least 1.5 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "at least 1.5 years",
+        "basis": "segment",
+        "segment": "Co-location",
+        "condition": null,
+        "quote": "we feel the 500 racks that we have, with the proper off-take that has already happened, will sustain ourselves for at least a minimum of 1.5 years.",
+        "page": 10,
+        "speaker": "Management (BSE)",
+        "confidence": "medium",
+        "keyword": "colocation racks",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Double-digit cash-market share by early 2027",
+        "kind": "qualitative",
+        "low": 10,
+        "high": 10,
+        "unit": "pct",
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Cash equities",
+        "condition": "Described as an aspiration; the speaker said BSE does not measure success by market share",
+        "quote": "maybe by the beginning of the calendar year 2027, we should have touched at least a very meaningfully double-digit market share in cash market.",
+        "page": 14,
+        "speaker": "Management (BSE)",
+        "confidence": "medium",
+        "keyword": "cash share double digit",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 operating EBITDA rose 67% to ₹1,046 Cr (67% margin) and net profit 62% to ₹539 Cr. Management said its 500 co-location racks should last at least 1.5 years, and aspires to a double-digit cash-equity market share by early calendar 2027.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "500 co-location racks now fully built; enough for 1.5 years",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Aspiration of double-digit cash-market share by early CY2027",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Overall, Q1 FY27 was another strong quarter for BSE",
+        "page": null
+      },
+      "analyst_questions": [
+        {
+          "topic": "Co-location monetisation",
+          "answer": "500 racks in place; off-take gradual; charges raised and order-flow charges added.",
+          "page": null
+        },
+        {
+          "topic": "Impact of higher STT on futures",
+          "answer": "Futures are lightly traded on BSE, so the effect is minimal.",
+          "page": null
+        },
+        {
+          "topic": "Cash market share",
+          "answer": "Institutional volumes rising; aspiration to be double-digit by early 2027.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Cash-equity market share is still well short of 10%.",
+          "page": null
+        },
+        {
+          "text": "Earnings are tied to index-options volumes, which are regulated and cyclical.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Cash-equity market share",
+        "Co-location revenue",
+        "Options premium turnover"
+      ],
+      "business_snapshot": {
+        "what_they_make": "BSE stock exchange: equity, derivatives, SME platform, BSE Star MF, co-location and data",
+        "customers": "Brokers, institutions, 26 crore investor accounts, issuers",
+        "revenue_mix": "Transaction charges the largest part",
+        "demand_drivers": "Index options volumes, IPOs, SME listings, mutual-fund distribution"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_10082026115817_NSEIntimation.pdf",
+    "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_04082026185534_NSEintimation.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "SONACOMS",
+ "as_of": "2026-11-06",
+ "period": "Q3 FY27",
+ "results_due": "late January to mid-February 2027, going by when Q2 was reported (28 Oct to 6 Nov)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 1520,
+  "base": 1640,
+  "high": 1760
+ },
+ "operating_profit": {
+  "low": 334,
+  "base": 377,
+  "high": 422
+ },
+ "net_profit": {
+  "low": 205,
+  "base": 236,
+  "high": 268
+ },
+ "reasoning": [
+  "Q2 revenue was a record ₹1,536 Cr (+18% on Q1, +35% on Q2 FY26). Order book is ₹25,100 Cr with ₹3,600 Cr of wins in Q2, BEV revenue grew 40% on the quarter and traction motors about 50%. We assume a smaller step of 7% to ₹1,640 Cr (+37% on Q3 FY26's ₹1,200 Cr).",
+  "Margin: 23.0% in Q2 and 23.1% in H1, at the bottom of the 23-25% range management says it will keep; motor mix is rising and freight and steel costs are high, so we use 23%.",
+  "PAT margin about 14.4%, as in Q2; lower depreciation helped it."
+ ],
+ "risks": [
+  "Further mix shift to lower-margin motors takes margin below 23%",
+  "Input and freight inflation from the West Asia conflict",
+  "US EV programme volumes stay flat",
+  "Denso JV carve-out accounting in the quarter"
+ ],
+ "caveat": null
+}

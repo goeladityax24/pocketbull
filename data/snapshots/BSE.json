@@ -1,0 +1,849 @@
+{
+  "symbol": "BSE",
+  "name": "BSE Ltd",
+  "screenerUrl": "https://www.screener.in/company/BSE/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1273635",
+  "warehouseId": "13264808",
+  "ratios": {
+    "market cap": 154996,
+    "current price": 3800,
+    "high": 4447,
+    "low": 2377,
+    "stock p/e": 50.3,
+    "book value": 195,
+    "dividend yield": 0.26,
+    "roce": 60,
+    "roe": 46,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        362,
+        426,
+        539,
+        602,
+        813,
+        768,
+        847,
+        958,
+        1068,
+        1244,
+        1564,
+        1566,
+        1433
+      ],
+      "expenses": [
+        173,
+        280,
+        388,
+        319,
+        358,
+        533,
+        362,
+        332,
+        388,
+        512,
+        523,
+        520,
+        460
+      ],
+      "operating_profit": [
+        189,
+        146,
+        151,
+        282,
+        456,
+        236,
+        484,
+        625,
+        680,
+        732,
+        1041,
+        1046,
+        973
+      ],
+      "opm_pct": [
+        52,
+        34,
+        28,
+        47,
+        56,
+        31,
+        57,
+        65,
+        64,
+        59,
+        67,
+        67,
+        68
+      ],
+      "other_income": [
+        24,
+        22,
+        29,
+        91,
+        30,
+        83,
+        205,
+        115,
+        91,
+        108,
+        78,
+        160,
+        145
+      ],
+      "interest": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "depreciation": [
+        23,
+        25,
+        26,
+        24,
+        29,
+        30,
+        30,
+        27,
+        32,
+        45,
+        55,
+        43,
+        46
+      ],
+      "pbt": [
+        182,
+        143,
+        154,
+        349,
+        457,
+        288,
+        660,
+        713,
+        739,
+        795,
+        1063,
+        1164,
+        1072
+      ],
+      "tax_pct": [
+        35,
+        26,
+        30,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "net_profit": [
+        118,
+        106,
+        107,
+        264,
+        346,
+        219,
+        494,
+        538,
+        557,
+        597,
+        795,
+        873,
+        808
+      ],
+      "eps": [
+        2.97,
+        2.66,
+        2.64,
+        6.53,
+        8.54,
+        5.41,
+        12.17,
+        13.28,
+        13.75,
+        14.82,
+        19.55,
+        21.43,
+        19.84
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2015,
+        "index": 0,
+        "endDate": "2015-03-31",
+        "label": "FY15"
+      },
+      {
+        "kind": "year",
+        "fy": 2016,
+        "index": 0,
+        "endDate": "2016-03-31",
+        "label": "FY16"
+      },
+      {
+        "kind": "year",
+        "fy": 2017,
+        "index": 0,
+        "endDate": "2017-03-31",
+        "label": "FY17"
+      },
+      {
+        "kind": "year",
+        "fy": 2018,
+        "index": 0,
+        "endDate": "2018-03-31",
+        "label": "FY18"
+      },
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        584,
+        635,
+        572,
+        676,
+        652,
+        609,
+        630,
+        841,
+        925,
+        1568,
+        3212,
+        5124
+      ],
+      "expenses": [
+        293,
+        392,
+        381,
+        401,
+        434,
+        482,
+        429,
+        489,
+        609,
+        857,
+        1336,
+        1644
+      ],
+      "operating_profit": [
+        290,
+        243,
+        190,
+        274,
+        219,
+        127,
+        202,
+        352,
+        316,
+        711,
+        1876,
+        3480
+      ],
+      "opm_pct": [
+        50,
+        38,
+        33,
+        41,
+        34,
+        21,
+        32,
+        42,
+        34,
+        45,
+        58,
+        68
+      ],
+      "other_income": [
+        -10,
+        23,
+        137,
+        529,
+        56,
+        62,
+        19,
+        52,
+        78,
+        417,
+        22,
+        24
+      ],
+      "interest": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        10,
+        28,
+        37,
+        39,
+        32,
+        34
+      ],
+      "depreciation": [
+        59,
+        54,
+        50,
+        45,
+        51,
+        51,
+        58,
+        48,
+        60,
+        95,
+        113,
+        159
+      ],
+      "pbt": [
+        221,
+        212,
+        276,
+        757,
+        223,
+        135,
+        153,
+        327,
+        297,
+        995,
+        1754,
+        3311
+      ],
+      "tax_pct": [
+        20,
+        17,
+        4,
+        7,
+        10,
+        11,
+        7,
+        25,
+        31,
+        22,
+        25,
+        25
+      ],
+      "net_profit": [
+        177,
+        177,
+        265,
+        702,
+        199,
+        121,
+        142,
+        245,
+        206,
+        772,
+        1322,
+        2487
+      ],
+      "eps": [
+        3.33,
+        2.75,
+        4.57,
+        14.22,
+        4.27,
+        3.02,
+        3.58,
+        6.27,
+        5.43,
+        19.17,
+        32.65,
+        61.22
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_04112026181604_NSEIntimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/d5d67180-40be-4816-9ab1-1de5614fcfba.mp3"
+    },
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_10082026115817_NSEIntimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_04082026185534_NSEintimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/c0b30615-8f4d-4a7c-b8be-0859a6711235.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_13052026172037_NSEintimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_07052026174401_NSEintimation.pdf",
+      "recordingUrl": "https://youtu.be/iaNSk3Yh0G0"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_13022026174918_NSEintimation13022026.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_09022026185014_intimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/28323b6b-12c4-4416-ade7-9dc277de2e14.mp3"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_17112025150702_NSEIntimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_11112025180623_Coveringletterinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_11112025201829_Coveringletterinvestorpresentationrevised.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/376a48e7-b081-4fee-996b-d30a6e6b57be.mp3"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_13082025161030_NSEintimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_07082025182504_Coveringletterinvestorpresentation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/dfacf5e0-c8fb-4885-bdb3-262a7fd2a865.mp3"
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_09052025184236_NSEintimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE1_06052025185359_NSEintimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/53de8ce7-065d-4b57-b23e-834b5103ddcc.mp3"
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_12022025170320_NSEIntimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE_06022025181633_NSEintimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/e41e11f6-d13b-450d-b3ef-a0fcb08ac430.mp3"
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_19112024165318_NSEIntimation.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f184c59-c862-4e62-87fd-4ac4e62e233d.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/18aaf764-b0d7-4aa8-aa8e-271c4f2bb3d7.mp3"
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_13082024174714_NSEintimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE_07082024170058_NSEintimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/775793bf-6333-4949-a2ba-ec9a0eb29e8c.mp3"
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_13052024130348_NSEintimation.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE_08052024173719_NSEintimation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_07022024180550_NSEintimationtranscript.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE_05022024170840_NSEINTIMATION.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/188cab8d-7b06-40bc-9c67-14ab40062f3f.mp3"
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d58ed099-db0f-46df-bbae-73f5e0f35369.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11-b",
+      "transcriptUrl": "https://nsearchives.nseindia.com/corporate/BSE_15112023161002_NSEIntimation10112023.pdf",
+      "pptUrl": "https://nsearchives.nseindia.com/corporate/BSE_10112023163513_Nseintimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/356b031a-48a9-4a0d-bb61-8dc8e78a0e55.mp3"
+    },
+    {
+      "month": "Aug 2023",
+      "yearMonth": "2023-08",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_14082023175155_NSEIntimation.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_09082023182258_NSEIntimation.pdf",
+      "recordingUrl": "https://www.bseindia.com/downloads1/98e466f7-2f1b-4cd8-a5db-879afcc7ac9c.mp3"
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_16052023181140_NSEIntimationTranscriptQ4.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_11052023181159_NSeintimationinvestorpresentationsigned.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ee75eea-1814-4eb0-ab17-af143461d1cd.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_10022023171021_NSEintimation.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2023",
+      "yearMonth": "2023-02-b",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75ad5f94-6766-41f5-9628-da92d3be88e1.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_07022023171857_NSEIntimation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_10112022171557_NSEIntimation.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_07112022171521_NSeintimationinvestorpresentationsigned.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2022",
+      "yearMonth": "2022-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_07112022171521_NSeintimationinvestorpresentationsigned.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2022",
+      "yearMonth": "2022-08",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_10082022150745_NSEIntimation.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_03082022150736_NSeintimationinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2022",
+      "yearMonth": "2022-08-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_03082022150736_NSeintimationinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2022",
+      "yearMonth": "2022-05",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_16052022173741_NSEIntimation.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_11052022162315_NSEintimationQ1.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2022",
+      "yearMonth": "2022-05-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_11052022162315_NSEintimationQ1.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2022",
+      "yearMonth": "2022-02",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_15022022121019_NSEIntimationQ3FY22.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_08022022165142_NSEIntimationInvestorPresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2022",
+      "yearMonth": "2022-02-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_08022022165142_NSEIntimationInvestorPresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2021",
+      "yearMonth": "2021-11",
+      "transcriptUrl": "https://archives.nseindia.com/corporate/BSE_18112021153654_NSEIntimation.pdf",
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_12112021175743_InvestorPresentationQ2FY22merged.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2021",
+      "yearMonth": "2021-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_12112021175743_InvestorPresentationQ2FY22merged.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_26082021105015_NSEintimationupdatedinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_26082021105015_NSEintimationupdatedinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08-c",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_06082021173358_NSEintimationinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2021",
+      "yearMonth": "2021-08-d",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_06082021173358_NSEintimationinvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2021",
+      "yearMonth": "2021-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_13052021181832_NSeintimationinvestorpresentationupload.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2021",
+      "yearMonth": "2021-02",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_11022021193940_InvestorpresentationQ3.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2020",
+      "yearMonth": "2020-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_07112020184854_InvestorPPT.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2020",
+      "yearMonth": "2020-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_03082020183635_NSeintimationInvestorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2020",
+      "yearMonth": "2020-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_21052020195357_NSeintimation_investorpresentation.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2020",
+      "yearMonth": "2020-02",
+      "transcriptUrl": null,
+      "pptUrl": "https://archives.nseindia.com/corporate/BSE_11022020170707_NSEInvestorPresentationQ3FY20.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "NSE",
+      "screenerPath": "/company/544937/consolidated/",
+      "marketCapCr": 472316.63,
+      "pe": 46.17,
+      "salesQtrCr": 4066.8,
+      "salesGrowthQtrPct": 10.61,
+      "roce": 40.58
+    },
+    {
+      "name": "BSE",
+      "screenerPath": "/company/BSE/consolidated/",
+      "marketCapCr": 154995.94,
+      "pe": 50.29,
+      "salesQtrCr": 1432.66,
+      "salesGrowthQtrPct": 34.1,
+      "roce": 59.99
+    },
+    {
+      "name": "Multi Comm. Exc.",
+      "screenerPath": "/company/MCX/consolidated/",
+      "marketCapCr": 90013.27,
+      "pe": 50.04,
+      "salesQtrCr": 799.66,
+      "salesGrowthQtrPct": 113.68,
+      "roce": 71.35
+    },
+    {
+      "name": "Indian Energy Ex",
+      "screenerPath": "/company/IEX/",
+      "marketCapCr": 9772.74,
+      "pe": 19.6,
+      "salesQtrCr": 165.03,
+      "salesGrowthQtrPct": 8.4,
+      "roce": 51.79
+    }
+  ],
+  "fetchedAt": "2026-11-06T19:55:27.261Z"
+}

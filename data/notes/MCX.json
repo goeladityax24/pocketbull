@@ -1,0 +1,536 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "India's commodity derivatives exchange",
+ "lede": "MCX earns transaction fees on commodity futures and options. Revenue doubled in FY26 and again in Q2 FY27 as options volumes surged, and the EBITDA margin reached 78%, but earnings track commodity volatility and regulation and the stock trades at about 50x earnings.",
+ "market": {
+  "price": 3528,
+  "mcap_cr": 90013,
+  "pe": 50,
+  "pb": 25.6,
+  "ev_ebitda": 39.8
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q2 FY27 revenue ₹800 Cr (+114%), EBITDA ₹664 Cr at a 78% margin and PAT ₹455 Cr; options ADT +225% and traded clients doubled to 13 lakh; no debt and cash flow above profit."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Q4 FY26 was exceptional, Q2 tax of ₹185 Cr slowed PAT growth, and results depend on gold and silver volatility and on regulator decisions."
+  },
+  {
+   "lead": "Price",
+   "text": "About 50x earnings and 25x book already assume today's volumes persist."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "MCX runs India's main commodity derivatives exchange (bullion, base metals, energy, electricity). Revenue is mostly transaction charges, so profit moves with volumes and volatility. It has been broadening products (Silver 100 Gram futures, electricity, index contracts) and its price is now used by 50+ AMCs for AUM calculation.",
+     "src": "Q1 FY27 call, Q2 FY27 summary"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹12.0 lakh Cr",
+       "label": "Options ADT, Q2 FY27"
+      },
+      {
+       "value": "13.0 lakh",
+       "label": "Options traded clients"
+      },
+      {
+       "value": "78%",
+       "label": "Q2 EBITDA margin"
+      },
+      {
+       "value": "None",
+       "label": "Promoter (widely held)"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Direction",
+       "text": "More metals and index contracts, data services, and technology scale (handled 3 billion transactions a day with room for double).",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        367,
+        514,
+        684,
+        1113,
+        2302
+       ]
+      }
+     ],
+     "caption": "TTM ₹3,056 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        143,
+        149,
+        83,
+        560,
+        1332
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        391,
+        141,
+        442,
+        950,
+        3035
+       ]
+      }
+     ],
+     "caption": "Cash flow comfortably exceeds profit."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin",
+        "44%",
+        "28%",
+        "9%",
+        "60%",
+        "71%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings, ₹ Cr",
+        "1",
+        "2",
+        "2",
+        "1",
+        "5"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "14%",
+        "13%",
+        "7%",
+        "43%",
+        "71%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Debtor days",
+        "11",
+        "10",
+        "33",
+        "9",
+        "10"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Strong; operating cash flow ₹3,035 Cr in FY26 against profit of ₹1,332 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Leverage",
+       "text": "None; borrowings ₹9 Cr.",
+       "src": null
+      },
+      {
+       "lead": "Returns",
+       "text": "ROIIC over FY24-FY26 about 81%. Interest cover is not meaningful.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Traded clients above 20 lakh",
+        "FY27",
+        "'Higher numbers this year'",
+        {
+         "text": "13.72 lakh options clients in Q1; total count not stated in the notes",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Strong growth momentum",
+        "FY27",
+        "Continue",
+        {
+         "text": "Revenue +88% in Q1 and +114% in Q2",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Broaden products and technology",
+        "FY27",
+        "Plans",
+        {
+         "text": "Silver 100 Gram launched",
+         "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Status as at 6 Nov 2026. Management declines numeric targets."
+    },
+    {
+     "type": "text",
+     "text": "Management gives no numbers, so there is little to hold it to. What it said (strong momentum, more clients) has so far been borne out by results.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "No promoter; DIIs 55.2%, FIIs 27.1%.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "Governance flags",
+       "text": "Regulator-driven rules on pricing and margins matter. Annual-report checks (auditor, related parties, pay) were not made for this note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Competitor",
+       "numeric": false
+      },
+      {
+       "label": "Where they overlap",
+       "numeric": false
+      },
+      {
+       "label": "Note",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "BSE",
+        "Index and equity derivatives, listed exchange",
+        "Different asset class"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "NSE (unlisted)",
+        "Equity and some commodity-related products",
+        "Regulated overlap"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "CME, ICE",
+        "Global commodity derivatives",
+        "Different market"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Peer figures were not pulled in this session; names are the closest listed or global comparables."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Moats that hold up",
+       "text": "Liquidity in commodity derivatives is winner-take-most and MCX is the dominant exchange for bullion and base metals.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Where it is exposed",
+       "text": "Regulation, transaction-tax changes and volatility cycles can cut volumes quickly.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "What could happen",
+       "numeric": false
+      },
+      {
+       "label": "How big",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Volatility drops",
+        "Options and futures volumes fall",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Regulation",
+        "Margin, charges or product rules change",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Tax",
+        "Higher tax slows profit growth",
+        "Low"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Valuation",
+        "50x earnings on peak margins",
+        "High"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹125,000 Cr",
+       "sub": "FY28 market cap · about +39%",
+       "text": "PAT ₹2,500 Cr, valued at 50x."
+      },
+      {
+       "name": "Base",
+       "value": "₹90,000 Cr",
+       "sub": "FY28 market cap · about 0%",
+       "text": "PAT ₹2,000 Cr, valued at 45x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹42,000 Cr",
+       "sub": "FY28 market cap · about −53%",
+       "text": "Volumes normalise: PAT ₹1,200 Cr, valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our own assumptions, not a forecast or advice.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹3,528",
+       "label": "Price"
+      },
+      {
+       "value": "₹90,013 Cr",
+       "label": "Market cap"
+      },
+      {
+       "value": "50x",
+       "label": "P/E (TTM)"
+      },
+      {
+       "value": "25.6x",
+       "label": "Price/book"
+      },
+      {
+       "value": "39.8x",
+       "label": "EV/EBITDA (TTM)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "MCX is a high-quality, debt-free franchise, but its latest margins are the best ever and volumes are at records. The base case assumes profit is held near today's run-rate; any normalisation of options volumes would hit the shares hard.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Options ADT near ₹12 lakh Cr",
+  "Tax rate normalising from ₹185 Cr a quarter",
+  "Traded client count versus 20 lakh",
+  "EBITDA margin near 78%",
+  "Regulatory changes"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Nov 2026)",
+  "Q1 FY27 earnings call transcript (5 Aug 2026)",
+  "Results summary by concall.in on X (3 Nov 2026; second-hand, no transcript)",
+  "Annual report not read for this note"
+ ]
+}

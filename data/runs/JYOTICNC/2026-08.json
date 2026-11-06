@@ -1,0 +1,255 @@
+{
+  "symbol": "JYOTICNC",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bedd76e-3923-49ca-b0c3-73f014a8a77d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ef1e735-8b24-40e1-9a77-dad8e04fd467.pdf",
+    "recordingUrl": "https://jyoti.co.in/wp-content/uploads/2026/08/Jyoti-Earnings-call-audio.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:57:53.368Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": null,
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 25-30%",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Huron and Jyoti combined; MD: 'we are absolutely going to deliver 25% to 30%'",
+        "quote": "So, what I said that we will be growing up by 25% to 30% this year, okay?",
+        "page": 13,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "growth 25-30%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin about 25%",
+        "kind": "margin_pct",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q1 consolidated adjusted margin was 23.4% (reported 21.4%); standalone 27-28%. MD says look at the year, not the quarter",
+        "quote": "we are absolutely going to deliver 25% to 30% as the guideline has been given and margin also to be maintained there.",
+        "page": 11,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "margin 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "More than 8,000 machines in FY27",
+        "kind": "absolute",
+        "low": 8000,
+        "high": 8000,
+        "unit": "other",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 was about 5,600 machines; Q1 FY27 was 1,406",
+        "quote": "So, you can say that we are going to cross more than 8,000 machines this year.",
+        "page": 13,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "8,000 machines",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Huron revenue ₹300-325 Cr",
+        "kind": "absolute",
+        "low": 300,
+        "high": 325,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Huron (France)",
+        "condition": "Q1 Huron revenue was about ₹35 Cr after an accounting-method change",
+        "quote": "Huron, we are expecting to have close to INR300 crores to INR325 crores of revenue this full year.",
+        "page": 15,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Huron ₹300-325 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order intake ₹2,500-3,000 Cr",
+        "kind": "absolute",
+        "low": 2500,
+        "high": 3000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 intake was about ₹600 Cr",
+        "quote": "we are expecting to finish this entire year in between INR2,500 crores to INR3,000 crores there.",
+        "page": 20,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "order intake ₹2,500-3,000 Cr",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex about ₹450 Cr for new capacity",
+        "kind": "absolute",
+        "low": 450,
+        "high": 450,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "So we targeted at close to INR450 crores of capex for our new capacity over there.",
+        "page": 7,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "capex ₹450 Cr",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "New 10,000-machine capacity starts by end-September",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Foundry and backward-integration parts follow",
+        "quote": "our new manufacturing facility is scheduled to commence operation by the end of September, which will significantly enhance our production capacity",
+        "page": 6,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "new plant September",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Second half particularly robust",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "As a result, we expect the second half of FY27 to be particularly robust for the company.",
+        "page": 6,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "H2 robust",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 consolidated revenue rose 24% to ₹508.5 Cr with adjusted EBITDA of ₹119 Cr (23.4%) and PAT of ₹57 Cr; standalone margin was 27-28%. Huron (France) revenue was low after an accounting-method change. The MD reiterated 25-30% revenue growth for FY27, a 25% margin, more than 8,000 machines, ₹300-325 Cr from Huron and ₹2,500-3,000 Cr of order intake, with a particularly strong second half once the new 10,000-machine capacity starts.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Guidance for FY27: 25-30% growth, 25% margin, 8,000+ machines, Huron ₹300-325 Cr, order intake ₹2,500-3,000 Cr",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "As a result, we expect the second half of FY27 to be particularly robust for the company.",
+        "page": 6
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why was Q1 consolidated margin only 23%?",
+          "answer": "Huron revenue of about ₹35 Cr, worth about ₹20-22 Cr of margin, was not booked after a change in accounting method; it should come back in later quarters.",
+          "page": null
+        },
+        {
+          "topic": "Capex for FY27",
+          "answer": "About ₹450 Cr for new capacity; on track.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Q1 consolidated EBITDA margin (21.4% reported) is below the 25% target and depends on Huron revenue catching up.",
+          "page": null
+        },
+        {
+          "text": "Interest cost rose with the new capacity and is fully expensed.",
+          "page": null
+        },
+        {
+          "text": "Inventory is elevated ahead of the H2 ramp-up.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Dispatches rising from 1,406 machines in Q1",
+        "Huron revenue recognition and ramp-up",
+        "New plant starting in September",
+        "Order intake of ₹2,500-3,000 Cr for the year"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CNC machine tools: entry-level to high-end turn-mill and 5-axis machines, through Jyoti and its French subsidiary Huron",
+        "customers": "Automotive and components, aerospace and defence, general engineering, electronics and railways",
+        "revenue_mix": "Q1 FY27 machines sold: 1,349 entry-level, 33 mid-range, 24 high-end",
+        "demand_drivers": "Import substitution (about 60% of India's CNC demand is imported), defence and EV capex, capacity expansion"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bedd76e-3923-49ca-b0c3-73f014a8a77d.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ef1e735-8b24-40e1-9a77-dad8e04fd467.pdf",
+    "transcriptPages": 23,
+    "transcriptHasText": true
+  }
+}

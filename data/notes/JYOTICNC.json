@@ -1,0 +1,595 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "CNC machine-tool maker with a French subsidiary",
+ "lede": "Rajkot-based Jyoti CNC makes CNC machines from entry-level to 5-axis, with the French maker Huron as a subsidiary. Profit swung from losses to a 16-17% net margin in three years as defence and auto orders (order book ₹5,082 Cr) arrived, but half of FY27 revenue is still to come in H2 and the 25% margin promise is not yet met.",
+ "market": {
+  "price": 1020,
+  "mcap_cr": 23206,
+  "pe": 75.2,
+  "pb": 10.9,
+  "ev_ebitda": 44.6
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q2 FY27 standalone revenue +31% at a 28% EBITDA margin, a record 1,911 machines dispatched, order book ₹5,082 Cr, and a ₹255 Cr central subsidy approved for in-house controllers and motors."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Consolidated margin is about 22% against the 25% promised, Huron revenue has not ramped, an unresolved French investigation hangs over Huron, and operating cash flow was negative in FY24 and FY25 with inventory above 450 days."
+  },
+  {
+   "lead": "Price",
+   "text": "75x earnings and 45x EBITDA already assume the H2 ramp and the controller strategy work."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Jyoti CNC designs, casts, machines and assembles CNC machines in Rajkot and sells through 15,000+ customers across automotive, aerospace and defence, general engineering and electronics. Its French subsidiary Huron makes large machines for defence and aerospace customers. About 60% of India's CNC demand is imported, so domestic makers are gaining share.",
+     "src": "Q2 FY27 call"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹5,082 Cr",
+       "label": "Order book, Sep 2026"
+      },
+      {
+       "value": "1,911",
+       "label": "Machines dispatched in Q2 FY27"
+      },
+      {
+       "value": "₹32-35 lakh",
+       "label": "Average machine realisation"
+      },
+      {
+       "value": "62.5%",
+       "label": "Promoter holding"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Mix",
+       "text": "Q2 revenue: automotive 36%, general engineering 28%, aerospace and defence 21%, electronics 7%. Order book is 36% aerospace and defence.",
+       "src": null
+      },
+      {
+       "lead": "Direction",
+       "text": "Moving from a mechanical company toward mechatronics (own controllers, motors, drives) and later robotics; ECMS subsidy of 25% on ₹1,020 Cr over five years.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        746,
+        929,
+        1338,
+        1818,
+        2093
+       ]
+      }
+     ],
+     "caption": "TTM ₹2,286 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        -48,
+        -5,
+        151,
+        316,
+        336
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        39,
+        42,
+        -48,
+        -105,
+        54
+       ]
+      }
+     ],
+     "caption": "Five-year profit of ₹750 Cr against operating cash flow of only −₹18 Cr."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin",
+        "10%",
+        "8%",
+        "22%",
+        "27%",
+        "25%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings, ₹ Cr",
+        "792",
+        "835",
+        "304",
+        "497",
+        "853"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT/interest)",
+        "0.5x",
+        "1.1x",
+        "3.0x",
+        "11.0x",
+        "7.7x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "5%",
+        "8%",
+        "21%",
+        "24%",
+        "21%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "392",
+        "327",
+        "336",
+        "304",
+        "359"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Profit has not turned into cash: inventory days of 378-469 and a 359-day cash cycle absorb it. H1 FY27 operating cash flow was reported at about ₹112 Cr, the first strong half.",
+       "src": null
+      },
+      {
+       "lead": "Leverage",
+       "text": "Debt rose from ₹304 Cr (FY24) to ₹946 Cr (Sep 2026) to fund capacity; borrowings/equity 0.44x.",
+       "src": null
+      },
+      {
+       "lead": "Returns",
+       "text": "ROIIC over FY24-FY26 about 17% (additional capital employed ₹1,186 Cr).",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "FY27",
+        "25-30% (Aug, Nov)",
+        {
+         "text": "H1 about +21%",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Consolidated EBITDA margin",
+        "FY27",
+        "25%",
+        {
+         "text": "H1 about 22%",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Machines dispatched",
+        "FY27",
+        "8,000+",
+        {
+         "text": "3,317 in H1; 4,700+ needed",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Huron revenue",
+        "FY27",
+        "₹300-325 Cr, later 'close to ₹300 Cr'",
+        {
+         "text": "Q2 about ₹44 Cr",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order intake",
+        "FY27",
+        "₹2,500-3,000 Cr",
+        {
+         "text": "H1 above ₹1,400 Cr",
+         "tag": "ahead"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New plant",
+        "Q2 FY27",
+        "Start in September",
+        {
+         "text": "In use; foundry only starting Q3",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Status as at the Q2 FY27 call (3 Nov 2026)."
+    },
+    {
+     "type": "text",
+     "text": "The MD repeats the same targets each call and was candid when asked about Huron's export licences and the French probe, but several lines (H2 about 60% of the year, 25% margin) rest on a back-loaded second half.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "Promoters 62.55%, FIIs 5.3% (down from 9.9% a year ago), DIIs 12.9%; no pledge shown on Screener.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "Governance flags",
+       "text": "French authorities opened an investigation into Huron in April 2026 (status quo since); aerospace and defence order intake dipped in Q2 on delayed tenders; annual-report checks (auditor, related-party dealings) were not made for this note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Competitor",
+       "numeric": false
+      },
+      {
+       "label": "Where they overlap",
+       "numeric": false
+      },
+      {
+       "label": "Note",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Bharat Fritz Werner",
+        "Indian CNC and special-purpose machines",
+        "Closest listed domestic peer"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Lakshmi Machine Works",
+        "Machine tools and textile machinery",
+        "Larger industrial group"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Macpower CNC Machines",
+        "Entry-level CNC",
+        "Small cap"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "DMG Mori, Mazak, Okuma, Fanuc",
+        "Imported high-end machines and controllers",
+        "About 60% of Indian demand is imported"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Peer figures were not pulled in this session; names are the closest listed or global comparables."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Moats that hold up",
+       "text": "Vertically integrated casting and machining, a 40,000-machine installed base and a customer base where management says one-third are 'die-hard'.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Where it is exposed",
+       "text": "Controller and spindle supply from Japan and Europe is tight; the controller project has no revenue yet and global peers have struggled to build accepted controllers.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "What could happen",
+       "numeric": false
+      },
+      {
+       "label": "How big",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "H2 ramp falls short",
+        "Margin stays near 22% and growth near 20%",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Huron probe or licences",
+        "Dispatches and revenue delayed",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital",
+        "Inventory and debt keep rising",
+        "Medium"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Defence tender timing",
+        "Orders slip",
+        "Medium"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹28,000 Cr",
+       "sub": "FY28 market cap · about +21%",
+       "text": "₹3,500 Cr revenue at a 16% net margin (₹560 Cr), valued at 50x."
+      },
+      {
+       "name": "Base",
+       "value": "₹18,500 Cr",
+       "sub": "FY28 market cap · about −20%",
+       "text": "₹3,300 Cr revenue at 14% (₹462 Cr), valued at 40x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹9,600 Cr",
+       "sub": "FY28 market cap · about −59%",
+       "text": "₹2,900 Cr at 11% (₹319 Cr), valued at 30x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our own assumptions, not a forecast or advice.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,020",
+       "label": "Price"
+      },
+      {
+       "value": "₹23,206 Cr",
+       "label": "Market cap"
+      },
+      {
+       "value": "75x",
+       "label": "P/E (TTM)"
+      },
+      {
+       "value": "10.9x",
+       "label": "Price/book"
+      },
+      {
+       "value": "44.6x",
+       "label": "EV/EBITDA (TTM)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Jyoti CNC has the order book and the subsidy to support its growth story, but at 75x earnings the stock already pays for a smooth H2 and for success in controllers. The base case assumes growth near the guided 25-30% and a margin that settles near 14% net; the evidence of H1 (about 22% EBITDA margin, thin cash flow) does not yet prove it.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Q3 dispatches above 1,911 machines",
+  "Huron revenue of about ₹80-100 Cr in Q3",
+  "Consolidated margin moving from 22% toward 25%",
+  "Operating cash flow near 50% of EBITDA",
+  "State PLI sanction"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Nov 2026)",
+  "Q1 FY27 (Aug 2026) and Q2 FY27 (Nov 2026) concall transcripts and investor presentations",
+  "Annual report not read for this note"
+ ]
+}
