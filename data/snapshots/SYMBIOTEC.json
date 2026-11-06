@@ -1,0 +1,374 @@
+{
+  "symbol": "SYMBIOTEC",
+  "name": "Symbiotec Pharmalab Ltd",
+  "screenerUrl": "https://www.screener.in/company/SYMBIOTEC/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1286120",
+  "warehouseId": "160153146",
+  "ratios": {
+    "market cap": 9730,
+    "current price": 1514,
+    "high": 1526,
+    "low": 934,
+    "stock p/e": 65.8,
+    "book value": 212,
+    "dividend yield": 0,
+    "roce": 13,
+    "roe": 11.7,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        203,
+        196,
+        245,
+        218,
+        280
+      ],
+      "expenses": [
+        145,
+        145,
+        183,
+        173,
+        188
+      ],
+      "operating_profit": [
+        58,
+        50,
+        62,
+        45,
+        92
+      ],
+      "opm_pct": [
+        29,
+        26,
+        25,
+        21,
+        33
+      ],
+      "other_income": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "interest": [
+        5,
+        6,
+        7,
+        6,
+        6
+      ],
+      "depreciation": [
+        11,
+        11,
+        20,
+        22,
+        22
+      ],
+      "pbt": [
+        45,
+        33,
+        35,
+        18,
+        64
+      ],
+      "tax_pct": [
+        33,
+        43,
+        22,
+        20,
+        19
+      ],
+      "net_profit": [
+        30,
+        19,
+        28,
+        14,
+        52
+      ],
+      "eps": [
+        46.99,
+        30.18,
+        4.39,
+        2.24,
+        8.05
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        633,
+        682,
+        567,
+        716,
+        752,
+        869
+      ],
+      "expenses": [
+        438,
+        550,
+        497,
+        544,
+        549,
+        630
+      ],
+      "operating_profit": [
+        195,
+        131,
+        70,
+        172,
+        203,
+        239
+      ],
+      "opm_pct": [
+        31,
+        19,
+        12,
+        24,
+        27,
+        27
+      ],
+      "other_income": [
+        7,
+        3,
+        6,
+        7,
+        4,
+        -6
+      ],
+      "interest": [
+        7,
+        3,
+        8,
+        8,
+        17,
+        26
+      ],
+      "depreciation": [
+        22,
+        26,
+        29,
+        39,
+        43,
+        53
+      ],
+      "pbt": [
+        173,
+        105,
+        39,
+        132,
+        147,
+        153
+      ],
+      "tax_pct": [
+        28,
+        27,
+        38,
+        23,
+        34,
+        28
+      ],
+      "net_profit": [
+        123,
+        78,
+        23,
+        100,
+        97,
+        110
+      ],
+      "eps": [
+        22.54,
+        14.17,
+        4.29,
+        18.29,
+        151.98,
+        17.51
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdae52cd-e949-4028-ab0f-b8ebc818619f.pdf",
+      "recordingUrl": "https://cornflowerblue-penguin-553951.hostingersite.com/uploads/1793958412966-453926939.mp3"
+    },
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=570e0d3e-4e72-422b-8103-491d75068d61.pdf",
+      "pptUrl": null,
+      "recordingUrl": "https://cornflowerblue-penguin-553951.hostingersite.com/uploads/1790075295390-287263586.mp3"
+    },
+    {
+      "month": "Sep 2026",
+      "yearMonth": "2026-09-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91eed093-577e-4264-babd-546a03192722.pdf",
+      "recordingUrl": "https://cornflowerblue-penguin-553951.hostingersite.com/uploads/1790063932954-543036402.mp3"
+    }
+  ],
+  "peers": [
+    {
+      "name": "Sun Pharma.Inds.",
+      "screenerPath": "/company/SUNPHARMA/consolidated/",
+      "marketCapCr": 447168.69,
+      "pe": 36.34,
+      "salesQtrCr": 16198.71,
+      "salesGrowthQtrPct": 11.88,
+      "roce": 20.53
+    },
+    {
+      "name": "Divi's Lab.",
+      "screenerPath": "/company/DIVISLAB/consolidated/",
+      "marketCapCr": 273720.41,
+      "pe": 91.87,
+      "salesQtrCr": 3080,
+      "salesGrowthQtrPct": 27.8,
+      "roce": 21.97
+    },
+    {
+      "name": "Torrent Pharma.",
+      "screenerPath": "/company/TORNTPHARM/consolidated/",
+      "marketCapCr": 180370.28,
+      "pe": 83.08,
+      "salesQtrCr": 4979,
+      "salesGrowthQtrPct": 50.79,
+      "roce": 15.19
+    },
+    {
+      "name": "Laurus Labs",
+      "screenerPath": "/company/LAURUSLABS/consolidated/",
+      "marketCapCr": 126486.98,
+      "pe": 94.4,
+      "salesQtrCr": 2206.37,
+      "salesGrowthQtrPct": 33.44,
+      "roce": 17.76
+    },
+    {
+      "name": "Zydus Lifesci.",
+      "screenerPath": "/company/ZYDUSLIFE/consolidated/",
+      "marketCapCr": 119151.41,
+      "pe": 26.3,
+      "salesQtrCr": 7909.6,
+      "salesGrowthQtrPct": 29.17,
+      "roce": 21.14
+    },
+    {
+      "name": "Dr Reddy's Labs",
+      "screenerPath": "/company/DRREDDY/consolidated/",
+      "marketCapCr": 115121.03,
+      "pe": 41.12,
+      "salesQtrCr": 8697.8,
+      "salesGrowthQtrPct": -1.48,
+      "roce": 13.04
+    },
+    {
+      "name": "Cipla",
+      "screenerPath": "/company/CIPLA/consolidated/",
+      "marketCapCr": 114181.64,
+      "pe": 36.77,
+      "salesQtrCr": 7403.93,
+      "salesGrowthQtrPct": -2.44,
+      "roce": 15.49
+    },
+    {
+      "name": "Symbiotec Pharma",
+      "screenerPath": "/company/SYMBIOTEC/consolidated/",
+      "marketCapCr": 9730.39,
+      "pe": 65.82,
+      "salesQtrCr": 279.93,
+      "salesGrowthQtrPct": 43.17,
+      "roce": 12.99
+    }
+  ],
+  "fetchedAt": "2026-11-06T19:55:20.406Z"
+}

@@ -1,0 +1,115 @@
+{
+  "symbol": "MCX",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11-q2-results-concall-in",
+    "transcriptUrl": "https://x.com/concall_in/status/2117678759319048413",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T20:00:35.176Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-03",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Broaden participation, products and technology",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The only forward-looking line in the summary; no numbers",
+        "quote": "Management plans to broaden participation, expand products and invest in technology.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "medium",
+        "keyword": "broaden, expand, invest",
+        "revises": null,
+        "source_ref": "concall.in post"
+      }
+    ],
+    "insights": {
+      "summary": "Per a concall.in results summary (3 Nov 2026), MCX's Q2 FY27 revenue was ₹800 Cr (up 114%), EBITDA ₹664 Cr (78.0% margin, from 67.3%) and PAT ₹455 Cr (up 131%), though a jump in tax to ₹185 Cr slowed profit growth on the quarter. Options ADT rose 225% to ₹12.0 lakh Cr and options clients doubled to 13.03 lakh. The only outlook is non-numerical.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "EBITDA margin up to 78.0% from 67.3% a year ago",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Tax expense of ₹185 Cr slowed PAT growth",
+          "page": 1
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "MCX Q2 FY27 results - Revenue doubles, record options volumes, margins expand",
+        "page": 1
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Tax jumped to ₹185 Cr, so PAT grew only 10% on the quarter against 14% revenue growth.",
+          "page": 1
+        },
+        {
+          "text": "Source is a social-media summary of results, not a call transcript; no guidance numbers.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "Options ADT holding near ₹12 lakh Cr",
+        "Tax rate normalising",
+        "EBITDA margin staying near 78%"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Commodity derivatives exchange",
+        "customers": "Trading members and 13.03 lakh options clients",
+        "revenue_mix": "Options and futures transaction charges",
+        "demand_drivers": "Options volumes (ADT ₹12.0 lakh Cr), futures ADT ₹62,819 Cr"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified"
+  ],
+  "source": {
+    "id": "2026-11-q2-results-concall-in",
+    "kind": "conference",
+    "event": "Q2 FY27 results, 3 Nov 2026",
+    "date": "2026-11-03",
+    "links": [
+      {
+        "url": "https://x.com/concall_in/status/2117678759319048413",
+        "author": "concall.in (@concall_in) on X, results summary posted 3 Nov 2026",
+        "grade": "attendee_note",
+        "images": [],
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "text_file": "data/sources/MCX/2026-11-q2-results-concall-in.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/concall_in/status/2117678759319048413",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}

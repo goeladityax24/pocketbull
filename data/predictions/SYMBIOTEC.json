@@ -1,0 +1,33 @@
+{
+ "symbol": "SYMBIOTEC",
+ "as_of": "2026-11-06",
+ "period": "Q3 FY27",
+ "results_due": "late January to mid-February 2027, going by when Q2 was reported (28 Oct to 6 Nov)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 240,
+  "base": 270,
+  "high": 300
+ },
+ "operating_profit": {
+  "low": 60,
+  "base": 78,
+  "high": 99
+ },
+ "net_profit": {
+  "low": 27,
+  "base": 36,
+  "high": 48
+ },
+ "reasoning": [
+  "FY27 guidance is about 20% revenue growth (range 15-25%) on FY26's ₹869 Cr, so about ₹1,043 Cr (₹990-1,090 Cr). H1 was ₹498 Cr, so H2 needs about ₹545 Cr, or about ₹270 Cr a quarter.",
+  "Q2 (₹280 Cr) included ₹53 Cr of milestone revenue; attendee notes say the balance of milestone revenue will be recognised in each upcoming quarter but not evenly. API revenue was ₹227 Cr in Q2 and is guided to grow high single to low double digits.",
+  "Margin: Q2 was 33% with milestones; guidance of 25% EBITDA growth for the year implies H2 at about 29%. We use 29% for Q3."
+ ],
+ "risks": [
+  "Milestone payments are lumpy and may be lower in Q3",
+  "Higher solvent and logistics costs (2-3 points of gross margin)",
+  "New-business opex and depreciation keep rising"
+ ],
+ "caveat": "Screener has no Q3 FY26 column for Symbiotec, so the year-on-year change cannot be shown. Estimates are on Screener's rows, which differ slightly from the company's EBITDA (Q2: ₹92 Cr on Screener vs ₹94 Cr reported ex-IPO costs)."
+}

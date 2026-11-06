@@ -1,0 +1,151 @@
+{
+  "symbol": "SONACOMS",
+  "concall": {
+    "month": "Jul 2026",
+    "yearMonth": "2026-07",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba4be72b-164f-4dd9-b6ae-ff475176e5bc.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e106ee7-f52d-486e-9c43-43810f5e5f60.pdf",
+    "recordingUrl": "https://sonacomstar.com/files/documents/sona-comstar-q1fy27-earnings-call-document-XmtQ0p.mp4"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:58:42.128Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-07-28",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Build another 10x company in the next decade",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 10 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "'Sona Comstar 2.0' vision: about 10x revenue; no year or rupee figure given",
+        "quote": "Over the last 10 years together, we built one 10X company, our ambition for the next decade is to build another 10X company.",
+        "page": 8,
+        "speaker": "Vivek Vikram Singh (MD & Group CEO)",
+        "confidence": "medium",
+        "keyword": "10x in a decade",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "JV1 (2- and 3-wheeler motors with Denso) to kick off first",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Timing not shared ('restricted by confidentiality agreements'); JV2 (high-voltage, with Denso) follows",
+        "quote": "the first JV is the one which will kickstart, faster.",
+        "page": 14,
+        "speaker": "Sat Mohan Gupta (CEO, Motor Business)",
+        "confidence": "high",
+        "keyword": "JV1 first",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margin pressure from input costs and mix",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q1 EBITDA margin was 23.1%; this is a description of the quarter, kept only as context",
+        "quote": "Margins were heavily impacted by input cost inflation, labor cost",
+        "page": 9,
+        "speaker": "Vivek Vikram Singh (MD & Group CEO)",
+        "confidence": "low",
+        "keyword": "margin pressure",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 revenue was about ₹1,310 Cr with EBITDA of ₹303 Cr (23.1% margin), up 49% year on year, though margins were hit by input costs, labour and mix. The net order book stood at ₹240 Bn (₹24,000 Cr). Management unveiled 'Sona Comstar 2.0' (another 10x company in a decade) and a Denso joint-venture structure: JV1 for 2- and 3-wheeler motors and JV2 for high-voltage technology, with no timing disclosed.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Sona Comstar 2.0: ambition to build another 10x company in the next decade",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Two Denso JVs announced; formation timing undisclosed",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Over the last 10 years together, we built one 10X company, our ambition for the next decade is to build another 10X company.",
+        "page": 8
+      },
+      "analyst_questions": [
+        {
+          "topic": "Robotics and physical AI returns",
+          "answer": "New and evolving area; no return-ratio guidance yet.",
+          "page": null
+        },
+        {
+          "topic": "JV timing",
+          "answer": "Confidentiality restricts details; JV1 will lead, JV2 follow.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Margin diluted by input cost inflation, labour cost and lower-margin products.",
+          "page": null
+        },
+        {
+          "text": "Joint-venture terms and timing are undisclosed, so value transfer to Denso cannot be judged.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "JV1 and JV2 formation dates",
+        "EBITDA margin staying inside 23-25%",
+        "Order book growth",
+        "BEV share of revenue"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Driveline (differentials, gears), EV traction and suspension motors, controllers, sensors and railway products",
+        "customers": "Global and Indian automotive OEMs, EV makers, railways",
+        "revenue_mix": "EVs roughly half of automotive revenue by H1 FY27 (BEV revenue Rs 1,042 Cr in H1)",
+        "demand_drivers": "Electrification, robotics and physical AI, railways"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba4be72b-164f-4dd9-b6ae-ff475176e5bc.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e106ee7-f52d-486e-9c43-43810f5e5f60.pdf",
+    "transcriptPages": 25,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "symbol": "JYOTICNC",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87077f47-ba45-41df-b41a-0e2a7604870e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58161cda-04d4-41bd-a52a-ca29e0f13303.pdf",
+    "recordingUrl": "https://jyoti.co.in/wp-content/uploads/2026/11/jyoti-cnc-q2fy27-earning-call-audio.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:57:54.867Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-03",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth FY27 25-30%",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 30,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 consolidated growth was about 21%; MD says H2 will be about 60% of the year",
+        "quote": "we will be in terms of a total numbers, Huron, Jyoti combined will grow by 25% to 30% and we are on the track there.",
+        "page": 13,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "growth 25-30%",
+        "revises": "Aug call: 25-30% (reiterated)"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "25-30% growth for next 2-3 years",
+        "kind": "growth_yoy",
+        "low": 25,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "next 2 to 3 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Controllers (own electronics) are not counted in this",
+        "quote": "we said that we will grow continuously next 2, 3 years by close to 25% to 30%, and will be maintained.",
+        "page": 16,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "2-3 year growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Consolidated EBITDA margin 25%",
+        "kind": "margin_pct",
+        "low": 25,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q2 consolidated margin was 21.8% and H1 about 22%; 'we will not go below 25%' for the business model; a Huron revenue catch-up of about ₹60 Cr in H2 adds 3-4 points",
+        "quote": "we are very much confident to reach to 25% margin, what we have guided to market, and we are about to maintaining those things.",
+        "page": 7,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "margin 25%",
+        "revises": "Aug call: 25% (reiterated)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "More than 8,000 machines in FY27",
+        "kind": "absolute",
+        "low": 8000,
+        "high": 8000,
+        "unit": "other",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "H1 dispatched 3,317 machines; the MD expects 4,700+ in the next two quarters",
+        "quote": "I told you that we will cross 8,000 machines.",
+        "page": 15,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "8,000 machines",
+        "revises": "Aug call: more than 8,000 (reiterated)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Huron revenue about ₹300 Cr",
+        "kind": "absolute",
+        "low": 300,
+        "high": 300,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Huron (France)",
+        "condition": "Huron revenue was about ₹44 Cr in Q2 (about ₹15 Cr recognised in consolidation); an analyst quoted ₹300-325 Cr and the MD agreed it is 'on the same level'",
+        "quote": "And definitely, we are on a track to reach out to close to a INR300 crore of a targets to be there.",
+        "page": 6,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "Huron ₹300 Cr",
+        "revises": "Aug call: ₹300-325 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Huron dispatches from Q3 and Q4",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Huron (France)",
+        "condition": "Export licences: 1-2 machines got permission the previous week; an analyst's ₹80-100 Cr for Q3 was confirmed as a 'right understanding'",
+        "quote": "Dispatches from this expanded capacity are expected to commence during the third and fourth quarter of FY27, providing an additional contribution to our growth in the second half of the year.",
+        "page": 4,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "Huron dispatches",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Order intake already above the full-year guide",
+        "kind": "absolute",
+        "low": 2500,
+        "high": 3000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Analyst: H1 intake above ₹1,400 Cr against a ₹2,500-3,000 Cr guide; Q2 intake was ₹800 Cr; order book ₹5,082 Cr",
+        "quote": "Already, we have been clocked against the guidance is little bit higher.",
+        "page": 6,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "order intake above guide",
+        "revises": "Aug call: ₹2,500-3,000 Cr"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Capex ₹450-500 Cr",
+        "kind": "absolute",
+        "low": 450,
+        "high": 500,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "₹183 Cr spent to date; foundry in last stage",
+        "quote": "So what we have been projected, the total outlays of a close to INR450 crores to INR500 crores, we are going to be very near to that after this all completions over there.",
+        "page": 10,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "capex ₹450-500 Cr",
+        "revises": "Aug call: about ₹450 Cr"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Foundry to start in coming days",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Foundry",
+        "condition": null,
+        "quote": "Our foundry operations will commence operations in the coming days.",
+        "page": 4,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "foundry start",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Inventory days to fall from about 190",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "203 days at March 2026",
+        "quote": "Basically, we are at close to 190 days. And end of the year, we are looking to further lesser than this, basically.",
+        "page": 9,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "inventory days",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Operating cash flow about 50% of EBITDA",
+        "kind": "qualitative",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Currently about 47%",
+        "quote": "So operating cash flow, we will see to a 50% to the EBITDA in the coming days there, and it will be maintained.",
+        "page": 15,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "cash flow 50% of EBITDA",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "H2 about 60% of the year",
+        "kind": "qualitative",
+        "low": 60,
+        "high": 60,
+        "unit": "pct",
+        "approx": true,
+        "period": "H2 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Answer to an analyst's suggestion that H2 would be 70-75% of the year's revenue, EBITDA and PAT",
+        "quote": "Let's say it's not at a 35%, it's a 40%, 60%.",
+        "page": 15,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "H2 60% of year",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "State PLI subsidy on top of the 25% central one",
+        "kind": "qualitative",
+        "low": 50,
+        "high": 50,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "5 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Central capital subsidy of about ₹255 Cr (25%) approved under ECMS; Gujarat matching grant awaited",
+        "quote": "we are expecting very soon, this sanction will come and we will close to 50% plus to the subsidy we will have out of INR1,020 crore there.",
+        "page": 8,
+        "speaker": "Parakramsinh Jadeja (Chairman & MD)",
+        "confidence": "medium",
+        "keyword": "state subsidy",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 consolidated revenue was ₹602 Cr (up 18.5%) with EBITDA of ₹131 Cr (21.8%) and PAT of ₹73 Cr; standalone revenue rose 31% with a 28% margin. A record 1,911 machines were dispatched and the order book is ₹5,082 Cr. The MD kept FY27 guidance (25-30% growth, 25% margin, 8,000+ machines, Huron about ₹300 Cr) and said H2 should be about 60% of the year as the new plant, foundry and Huron dispatches come in.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "25-30% revenue growth, 25% margin, 8,000+ machines for FY27",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "Capex now ₹450-500 Cr (was about ₹450 Cr)",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "ECMS capital subsidy approval of about ₹255 Cr on ₹1,020 Cr of electronics investment",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Order intake of ₹800 Cr in Q2 took the order book to ₹5,082 Cr; H1 intake is already above the ₹2,500-3,000 Cr full-year guide",
+          "page": null
+        },
+        {
+          "change": "delayed",
+          "text": "Huron machine dispatches only from Q3-Q4 as export licences arrive",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "we are very much confident to reach to 25% margin, what we have guided to market, and we are about to maintaining those things.",
+        "page": 7
+      },
+      "analyst_questions": [
+        {
+          "topic": "Order intake pace",
+          "answer": "Intake already above guide; Q2 and Q3 are the heavy intake quarters; aerospace and defence orders delayed by tenders not opening.",
+          "page": null
+        },
+        {
+          "topic": "Margin reaching 25%",
+          "answer": "Confident; H2 is better than H1 and Huron revenue of about ₹60 Cr unrecognised in H1 flows in H2.",
+          "page": null
+        },
+        {
+          "topic": "Huron investigation and controllers",
+          "answer": "French authorities have been silent since April; controller supply from Japan and Europe is tight but inventory was planned.",
+          "page": null
+        },
+        {
+          "topic": "Can India make its own controllers?",
+          "answer": "110+ engineers in controller R&D, 40-50 more to be added; hardware plant planned under the ECMS scheme.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "H1 consolidated margin (about 22%) is well below the 25% promise; H2 must do about 28% to deliver it.",
+          "page": null
+        },
+        {
+          "text": "Aerospace and defence order intake fell in Q2 as tenders were delayed; autos and general engineering rose.",
+          "page": null
+        },
+        {
+          "text": "French investigation into Huron is unresolved (status quo since April); export licences for Huron machines are slow.",
+          "page": null
+        },
+        {
+          "text": "Controller supply from Japan and Europe is stretched; lead times doubled.",
+          "page": null
+        },
+        {
+          "text": "Inventory about 190 days.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q3 dispatches well above 1,911 machines",
+        "Huron revenue ramp (₹80-100 Cr in Q3 is the analyst's expectation)",
+        "Foundry start and capex near ₹450-500 Cr",
+        "Consolidated margin moving toward 25%",
+        "Aerospace and defence order intake recovering"
+      ],
+      "business_snapshot": {
+        "what_they_make": "CNC machine tools, from entry-level to 5-axis turn-mill, with a foundry and in-house machining",
+        "customers": "Automotive, aerospace and defence (21% of Q2 revenue), general engineering, electronics, railways; 15,000+ customers",
+        "revenue_mix": "Q2: automotive 36%, general engineering 28%, aerospace and defence 21%, electronics 7%",
+        "demand_drivers": "Import substitution (about 62% of Indian CNC demand is imported), EV and defence capex, ECMS electronics scheme"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87077f47-ba45-41df-b41a-0e2a7604870e.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58161cda-04d4-41bd-a52a-ca29e0f13303.pdf",
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

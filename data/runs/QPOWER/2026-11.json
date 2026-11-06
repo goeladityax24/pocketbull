@@ -1,0 +1,149 @@
+{
+  "symbol": "QPOWER",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01e01c70-94ed-4e4e-ad75-dd4f791889fe.pdf",
+    "recordingUrl": "https://concalls.screener.in/concalls/85679297-223a-4673-b77b-7d84fee87b9e/recording.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T20:01:01.807Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-01",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "Mehru to at least double instrument-transformer capacity",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "near to medium term",
+        "basis": "segment",
+        "segment": "Mehru (instrument transformers)",
+        "condition": "Existing capacity 'substantially committed'; the plan is still being evaluated",
+        "quote": "while also evaluating alternatives to at least double its manufacturing capacity over the near to medium term.",
+        "page": 6,
+        "speaker": "Management (Q2 FY27 investor presentation)",
+        "confidence": "high",
+        "keyword": "Mehru capacity doubling",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "765 kV instrument transformers launch",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Instrument transformers",
+        "condition": "From the business-overview table; 'Q4 2026' read as calendar Q4 (Oct-Dec 2026)",
+        "quote": "(Launching 765kV Q4 2026)",
+        "page": 3,
+        "speaker": "Management (Q2 FY27 investor presentation)",
+        "confidence": "medium",
+        "keyword": "765 kV launch",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "WS Insulators acquisition to complete",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "WinWin Speciality (insulators)",
+        "condition": "Consideration ₹272 Cr, half cash and half Quality Power shares; type testing for up to 400 kV porcelain insulators done, orders for 800 kV HVDC, 765 kV and 400 kV",
+        "quote": "although the transaction remains under completion.",
+        "page": 6,
+        "speaker": "Management (Q2 FY27 investor presentation)",
+        "confidence": "medium",
+        "keyword": "WS Insulators closing",
+        "revises": "Aug call: consolidated from Q4 FY27"
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 consolidated revenue rose 38.7% to ₹285.5 Cr and PAT 80.1% to ₹63.3 Cr (H1 EBITDA margin 27.0%). Order book is about ₹2,010 Cr. Two new facilities, the Global Coil Factory in Sangli and the PCS plant in Turkey, began operating in October, ahead of the December 2026 date given earlier for the Turkish plant. The WS Insulators acquisition is still to complete.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Global Coil Factory (Sangli) and PCS plant (Turkey) started operations in October 2026",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Mehru evaluating at least doubling its capacity",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "WS Insulators type-tested to 400 kV with orders for 800 kV, 765 kV and 400 kV; deal still under completion",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "The second quarter of FY27 has been an encouraging period for Quality Power",
+        "page": null
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Presentation only; no call transcript yet, so no management answers on margins or FY27-28 targets.",
+          "page": null
+        },
+        {
+          "text": "New plants are in their ramp-up phase, with customer qualifications still to complete, so throughput and supply chain are management's stated priorities.",
+          "page": null
+        },
+        {
+          "text": "WS Insulators is not yet consolidated; completion timing is not given.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Transcript of the 2 Nov call (guidance on FY27 20% growth and FY28 ~50%)",
+        "WS Insulators completion and consolidation",
+        "Sangli coil-factory and Turkey PCS ramp-up",
+        "Order book above ₹2,000 Cr"
+      ],
+      "business_snapshot": {
+        "what_they_make": "High-voltage reactors and coils, instrument transformers (Mehru), power electronics and PCS/BESS (Endoks), insulators (WS), transformer components",
+        "customers": "Global utilities, HVDC and FACTS projects, transformer OEMs in USA, Europe, Middle East, India",
+        "revenue_mix": "Order book ₹2,010 Cr by entity (Endoks, Mehru, Quality Power standalone)",
+        "demand_drivers": "HVDC and grid build-out, renewable integration, data-centre power"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01e01c70-94ed-4e4e-ad75-dd4f791889fe.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01e01c70-94ed-4e4e-ad75-dd4f791889fe.pdf",
+    "transcriptPages": 21,
+    "transcriptHasText": true
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "symbol": "SYMBIOTEC",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11-q2-concall-highlights",
+    "transcriptUrl": "https://x.com/sachprat07/status/2118576271181627555",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:59:39.424Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-06",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth about 20% in FY27",
+        "kind": "growth_yoy",
+        "low": 15,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q2 revenue ₹280 Cr (+43%) included ₹53 Cr of milestone revenue; H1 revenue ₹498 Cr (+25%)",
+        "quote": "FY27 guidance maintained: ~20% revenue growth and ~25% EBITDA growth, with a range of 5 percentage points either side",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "revenue growth 20%",
+        "revises": "Sep call: 20% revenue growth (reiterated)",
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "ebitda",
+        "metric_label": "EBITDA growth about 25% in FY27",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q2 EBITDA ex-IPO costs ₹94 Cr (+88%); H1 ₹140 Cr (+29%)",
+        "quote": "FY27 guidance maintained: ~20% revenue growth and ~25% EBITDA growth, with a range of 5 percentage points either side",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "EBITDA growth 25%",
+        "revises": "Sep call: 25% EBITDA growth (reiterated)",
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Milestone revenue in each upcoming quarter",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Complex injectables",
+        "condition": "Milestones are 'not linear quarter on quarter but similar year on year'; Q2 had ₹53 Cr",
+        "quote": "Balance milestone revenue expected to be recognised in each of the upcoming quarters",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "milestone revenue",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "API growth high single to low double digit",
+        "kind": "growth_yoy",
+        "low": 8,
+        "high": 12,
+        "unit": "pct",
+        "approx": true,
+        "period": null,
+        "horizon_text": "visible future",
+        "basis": "segment",
+        "segment": "API business",
+        "condition": null,
+        "quote": "Management expects high single digit to low double digit growth over the visible future",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "API growth",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Second dual-chamber ANDA in Q4",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Complex injectables",
+        "condition": "First ANDA filed in September and accepted without RTR; goal date July; approval and inspection late CY2027; commercialisation FY28",
+        "quote": "second ANDA to be filed in Q4 FY27",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "second ANDA",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Vegan vitamin D3 sales from early FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Vegan vitamin D3",
+        "condition": null,
+        "quote": "Plant and qualification to complete by end of FY27; sales to nutraceutical and veterinary markets from early FY28",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "vegan D3",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "US alternative-protein commercial batches in Q1 FY28",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q1 FY28",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Fermentation CDMO (US customer)",
+        "condition": null,
+        "quote": "10-year take-or-pay; downstream facility in final stages; commercial batches in Q1 FY28",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "US protein batches",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "European CDMO: FY29 the best year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Fermentation CDMO (European customer)",
+        "condition": "Phase 0 production expected within FY27; Phase 1 takes 12-15 months to build at 750 KL",
+        "quote": "FY29 expected to be the best year, no significant Phase 1 revenue in FY28",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "European CDMO FY29",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Insulin drug substance commissioning in Q4",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q4 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Biologics (insulin)",
+        "condition": "Delayed a couple of months after a biologics expert joined and standards evolved",
+        "quote": "commissioning in Q4 FY27 with validation batches; sales from mid FY28 after regulatory approvals",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "high",
+        "keyword": "insulin commissioning",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Gross capex ₹1,672 Cr by end FY27",
+        "kind": "absolute",
+        "low": 1672,
+        "high": 1672,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Total gross capex ₹1,509 Cr as of 30 Sep 2026; ₹1,672 Cr estimated by end FY27",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "medium",
+        "keyword": "gross capex ₹1,672 Cr",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Corporate capex ₹200-300 Cr a year",
+        "kind": "absolute",
+        "low": 200,
+        "high": 300,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": null,
+        "horizon_text": "annual",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Annual corporate capex of ₹200–300 Cr funded from internal cash flows",
+        "page": 1,
+        "speaker": "Management (as reported in attendee notes)",
+        "confidence": "medium",
+        "keyword": "corporate capex",
+        "revises": null,
+        "source_ref": "Attendee notes"
+      }
+    ],
+    "insights": {
+      "summary": "Per attendee notes of the 6 Nov 2026 call, Symbiotec's Q2 FY27 revenue was ₹280 Cr (+43%, including ₹53 Cr of milestone revenue from a new US dual-chamber vial agreement) and PAT ₹52 Cr. FY27 guidance of about 20% revenue growth and 25% EBITDA growth (plus or minus 5 points) was maintained. New-business revenue is expected in 6-12 months, with the European CDMO's best year in FY29.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 guidance of about 20% revenue and 25% EBITDA growth",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Long-term agreement signed 30 Sep 2026 for two US dual-chamber vial products; ₹53 Cr milestone revenue booked in Q2",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Binding 10-year take-or-pay with a European alternative-protein customer; Phase 1 at 750 KL (up from 600 KL)",
+          "page": 1
+        },
+        {
+          "change": "delayed",
+          "text": "Insulin drug-substance commissioning in Q4 FY27 after a couple of months' delay",
+          "page": 1
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Management view: Injectables and CDMO can scale to a size comparable to the API business over the coming years",
+        "page": 1
+      },
+      "analyst_questions": [
+        {
+          "topic": "Receivables up to ₹268 Cr",
+          "answer": "A large milestone invoice was raised on 30 Sep; to normalise next quarter.",
+          "page": 1
+        },
+        {
+          "topic": "API growth sustainability",
+          "answer": "Price pressure continues; growth is volume-led; 70% regulated markets.",
+          "page": 1
+        },
+        {
+          "topic": "Alternative-protein partner risk",
+          "answer": "Only piloted, funded partners with take-or-pay contracts with large corporates.",
+          "page": 1
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Q2 revenue includes a ₹53 Cr one-off-style milestone; milestones are lumpy.",
+          "page": 1
+        },
+        {
+          "text": "New businesses cost ₹57 Cr of opex and ₹24 Cr of depreciation in H1 with no revenue yet.",
+          "page": 1
+        },
+        {
+          "text": "Net debt ₹314 Cr and capex rising to ₹1,672 Cr gross by FY27-end.",
+          "page": 1
+        },
+        {
+          "text": "Gross margin hit 2-3 points by solvent and logistics costs.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "Milestone revenue continuing each quarter",
+        "Second ANDA filing in Q4 FY27",
+        "Insulin plant commissioning in Q4",
+        "Receivables normalising"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Steroid and hormone APIs, fermentation CDMO, complex injectables (dual-chamber vials)",
+        "customers": "Global pharma (70% regulated markets), a US pharma partner for DCV, alternative-protein CDMO customers",
+        "revenue_mix": "Q2: API ₹227 Cr of ₹280 Cr",
+        "demand_drivers": "Biomanufacturing outsourcing, US generic injectables, vitamin D3"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-11-q2-concall-highlights",
+    "kind": "conference",
+    "event": "Q2 and H1 FY27 concall, 6 Nov 2026",
+    "date": "2026-11-06",
+    "links": [
+      {
+        "url": "https://x.com/sachprat07/status/2118576271181627555",
+        "author": "STR (@sachprat07) on X, concall highlights posted 6 Nov 2026",
+        "grade": "attendee_note",
+        "images": [],
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "text_file": "data/sources/SYMBIOTEC/2026-11-q2-concall-highlights.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/sachprat07/status/2118576271181627555",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}

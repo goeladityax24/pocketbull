@@ -1,0 +1,212 @@
+{
+  "symbol": "BSE",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11-q2-concall-in",
+    "transcriptUrl": "https://x.com/concall_in/status/2117990420089315804",
+    "pptUrl": null,
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T20:00:36.612Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-04",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin of 67-68% sustainable",
+        "kind": "margin_pct",
+        "low": 67,
+        "high": 68,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "H1 FY27 operating EBITDA margin 67% (64% a year ago)",
+        "quote": "Current 67–68% EBITDA margin seen as sustainable.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "high",
+        "keyword": "margin 67-68%",
+        "revises": null,
+        "source_ref": "concall.in post"
+      },
+      {
+        "metric": "other",
+        "metric_label": "All 500 racks allocated; 170-190 more under construction",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Co-location",
+        "condition": null,
+        "quote": "All 500 colocation racks allocated. Another 170–190 under construction.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "medium",
+        "keyword": "colocation racks",
+        "revises": "Aug call: 500 racks to last at least 1.5 years",
+        "source_ref": "concall.in post"
+      },
+      {
+        "metric": "other",
+        "metric_label": "No slowing of technology capex",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "No plan to slow technology capex.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "high",
+        "keyword": "tech capex",
+        "revises": null,
+        "source_ref": "concall.in post"
+      },
+      {
+        "metric": "other",
+        "metric_label": "IPO pipeline over 150 companies",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "coming quarters",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Aug call put the pipeline at over 250 companies; a summary, so the figure may be a different cut",
+        "quote": "IPO pipeline of over 150 companies seeking about ₹1.5 lakh crore.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "medium",
+        "keyword": "IPO pipeline",
+        "revises": null,
+        "source_ref": "concall.in post"
+      },
+      {
+        "metric": "other",
+        "metric_label": "Futures transaction charges revision",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "Futures transaction charges are near nil. A revision will come at the right time.",
+        "page": 1,
+        "speaker": "Management (as reported by concall.in)",
+        "confidence": "low",
+        "keyword": "futures charges",
+        "revises": null,
+        "source_ref": "concall.in post"
+      }
+    ],
+    "insights": {
+      "summary": "Per a concall.in summary (4 Nov 2026), BSE's H1 FY27 revenue rose 49% to ₹3,257 Cr, operating EBITDA 55% to ₹2,019 Cr (67% margin) and net profit 53% to ₹1,680 Cr. Q2 index-options premium ADTV fell to ₹22,531 Cr from ₹29,615 Cr in Q1 (the first quarterly decline) but October hit a record ₹35,481 Cr. Management called the 67-68% margin sustainable.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "First quarterly fall in index-options premium ADTV in Q2, then a record in October",
+          "page": 1
+        },
+        {
+          "change": "reiterated",
+          "text": "67-68% EBITDA margin seen as sustainable",
+          "page": 1
+        },
+        {
+          "change": "new",
+          "text": "Another 170-190 co-location racks under construction beyond the 500",
+          "page": 1
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "Strong H1 growth, options premium dips QoQ",
+        "page": 1
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Index-options premium ADTV fell 24% on the quarter before recovering in October.",
+          "page": 1
+        },
+        {
+          "text": "Still short of the double-digit cash-equity market-share goal.",
+          "page": 1
+        },
+        {
+          "text": "Source is a social-media summary, not a transcript.",
+          "page": 1
+        }
+      ],
+      "watch_next": [
+        "Options premium ADTV staying above ₹30,000 Cr",
+        "Cash-equity market share",
+        "MSCI-linked derivatives approval"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Stock exchange with equity, derivatives, SME, mutual-fund platform and co-location",
+        "customers": "26.8 crore investor accounts; 800+ SME listings",
+        "revenue_mix": "Transaction charges ₹2,456 Cr of H1 revenue ₹3,257 Cr",
+        "demand_drivers": "Index options, IPOs, SME listings"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": {
+    "id": "2026-11-q2-concall-in",
+    "kind": "conference",
+    "event": "Q2 FY27 concall, 4 Nov 2026",
+    "date": "2026-11-04",
+    "links": [
+      {
+        "url": "https://x.com/concall_in/status/2117990420089315804",
+        "author": "concall.in (@concall_in) on X, concall summary posted 4 Nov 2026",
+        "grade": "attendee_note",
+        "images": [],
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "text_file": "data/sources/BSE/2026-11-q2-concall-in.txt"
+  },
+  "docs": {
+    "transcriptUrl": "https://x.com/concall_in/status/2117990420089315804",
+    "pptUrl": null,
+    "transcriptPages": 1,
+    "transcriptHasText": true
+  }
+}

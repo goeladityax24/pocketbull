@@ -1,0 +1,33 @@
+{
+ "symbol": "MCX",
+ "as_of": "2026-11-06",
+ "period": "Q3 FY27",
+ "results_due": "late January to mid-February 2027, going by when Q2 was reported (28 Oct to 6 Nov)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 700,
+  "base": 810,
+  "high": 920
+ },
+ "operating_profit": {
+  "low": 490,
+  "base": 608,
+  "high": 718
+ },
+ "net_profit": {
+  "low": 385,
+  "base": 460,
+  "high": 540
+ },
+ "reasoning": [
+  "Management gives no numbers; it expects 'strong momentum' and more traded clients than last year. Q2 revenue was ₹800 Cr (+14% on Q1) with options ADT of ₹12.0 lakh Cr. We assume roughly flat volumes, so about ₹810 Cr (+22% on Q3 FY26's ₹666 Cr).",
+  "Margin: Screener's operating margin was 76% in Q2 and 70% in Q1; the company reported 78% EBITDA in Q2. We use 75%.",
+  "Tax rose to ₹185 Cr in Q2, so PAT is about 57% of revenue; we keep that ratio."
+ ],
+ "risks": [
+  "Commodity volatility fades and options volumes fall",
+  "Regulatory or tax changes",
+  "Another tax or other-income swing in the quarter"
+ ],
+ "caveat": "MCX's reported EBITDA (₹664 Cr in Q2) is higher than Screener's operating profit (₹611 Cr); estimates are on Screener's rows."
+}

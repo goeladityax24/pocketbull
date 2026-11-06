@@ -1,0 +1,181 @@
+{
+  "symbol": "SYMBIOTEC",
+  "concall": {
+    "month": "Sep 2026",
+    "yearMonth": "2026-09",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=570e0d3e-4e72-422b-8103-491d75068d61.pdf",
+    "pptUrl": null,
+    "recordingUrl": "https://cornflowerblue-penguin-553951.hostingersite.com/uploads/1790075295390-287263586.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:59:37.907Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-09-22",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Revenue growth about 20% in FY27",
+        "kind": "growth_yoy",
+        "low": 15,
+        "high": 25,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "'Plus-minus some percentage, 5%' for global uncertainty. First call after the September 2026 listing",
+        "quote": "we are definitely targeting 20% and 25% growth for this current fiscal year in our revenues and our EBITDA, respectively.",
+        "page": 8,
+        "speaker": "Anil Satwani (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "revenue growth 20%",
+        "revises": null
+      },
+      {
+        "metric": "ebitda",
+        "metric_label": "EBITDA growth about 25% in FY27",
+        "kind": "growth_yoy",
+        "low": 20,
+        "high": 30,
+        "unit": "pct",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "CFO: reported EBITDA already carries new-business opex; PAT growth will be a little lower because of depreciation, but cash PAT (PAT plus depreciation) grows more than 25%",
+        "quote": "we are definitely targeting 20% and 25% growth for this current fiscal year in our revenues and our EBITDA, respectively.",
+        "page": 8,
+        "speaker": "Anil Satwani (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "EBITDA growth 25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Revenue from new businesses in 6-12 months",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "6 to 12 months from Sept 2026",
+        "basis": "segment",
+        "segment": "Complex injectables and fermentation CDMO",
+        "condition": "More than ₹1,000 Cr of cumulative capex in the new businesses; over 90% of FY27 revenue is still API",
+        "quote": "revenues from this new capex is expected to commence in the next 6 months to 12 months.",
+        "page": 9,
+        "speaker": "Anil Satwani (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "new business revenue",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Dual-chamber vial definitive agreement in early Q3",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Complex injectables",
+        "condition": "Term sheet signed in August 2026 with a very large US pharma company",
+        "quote": "this definitive agreement is at the very advanced stage, and we expect it to be signed in early Q3 FY27.",
+        "page": 7,
+        "speaker": "Anil Satwani (Chairman & MD)",
+        "confidence": "high",
+        "keyword": "DCV agreement",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "In its first earnings call after listing, Symbiotec said FY27 should see about 20% revenue growth and 25% EBITDA growth (each plus or minus 5 points), with over 90% of revenue still from steroid and hormone APIs. Two new businesses, complex injectables and fermentation CDMO, have absorbed more than ₹1,000 Cr of capex and should begin earning in 6-12 months. Net debt was about ₹326 Cr after the ₹142 Cr IPO.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "FY27 guidance: about 20% revenue growth and 25% EBITDA growth, plus or minus 5 points",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Dual-chamber vial definitive agreement expected in early Q3 FY27",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are very excited, trust me.",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Is the guidance at consolidated level and what about profit?",
+          "answer": "Consolidated; PAT growth lower because of depreciation, cash PAT up more than 25%.",
+          "page": null
+        },
+        {
+          "topic": "Capex over the next two years",
+          "answer": "Depends on customer visibility and contracts; more capex from internal accruals as cash flow improves.",
+          "page": null
+        },
+        {
+          "topic": "Premarin generic launch timing",
+          "answer": "No timing given.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "New businesses depress profit until revenue starts (opex and depreciation already booked).",
+          "page": null
+        },
+        {
+          "text": "Net debt of about ₹326 Cr and capex still rising.",
+          "page": null
+        },
+        {
+          "text": "Management declines straightforward forward guidance beyond FY27 and does not disclose contract values.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Dual-chamber vial agreement signing in Q3",
+        "Revenue and EBITDA growth tracking 20% and 25%",
+        "First revenue from the new businesses",
+        "Net debt trend"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Steroid and hormone APIs (60 molecules, 44 US DMFs, 25 CEPs), fermentation CDMO and complex injectables",
+        "customers": "200+ customers in 40+ countries; 70% of FY26 revenue from customers of 7+ years",
+        "revenue_mix": "Over 90% API in FY27",
+        "demand_drivers": "Regulated-market API demand, biomanufacturing outsourcing, US injectables"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=570e0d3e-4e72-422b-8103-491d75068d61.pdf",
+    "pptUrl": null,
+    "transcriptPages": 19,
+    "transcriptHasText": true
+  }
+}

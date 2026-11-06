@@ -1,0 +1,550 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "EV drivetrain and motor maker moving into robotics and railways",
+ "lede": "Sona Comstar (Sona BLW Precision Forgings) makes differentials, gears, EV traction and suspension motors and controllers. BEVs now exceed half of automotive revenue and the ₹25,100 Cr order book is the second largest in its history, but margins have slid to 23% at the bottom of the 23-25% range and the stock trades at about 73x earnings.",
+ "market": {
+  "price": 900,
+  "mcap_cr": 56337,
+  "pe": 72.6,
+  "pb": 8.7,
+  "ev_ebitda": 46.3
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Q2 FY27 revenue ₹1,546 Cr (+35%), BEV revenue +129%, free cash flow of ₹446 Cr in H1, 75 EPIC programmes across 37 customers and a Denso joint-venture structure for motors."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "EBITDA margin has fallen 2.3 points year on year on traction-motor mix and input inflation, ROCE has dropped from 24% to 14% as equity rose sharply (reserves doubled in FY25), and the 10x-in-10-years ambition has no rupee target."
+  },
+  {
+   "lead": "Price",
+   "text": "About 73x earnings and 46x EBITDA leave little room for margin disappointment."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Sona Comstar supplies automotive OEMs with differential assemblies, gears, EV traction motors, suspension motors, controllers, sensors and railway products. In H1 FY27 BEV revenue was 48% of automotive sales (30% a year earlier). Management is widening its priority from electrification to 'EPIC' (electric, personalised, intelligent, connected) mobility, including robotics orders.",
+     "src": "Q2 FY27 call"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹25,100 Cr",
+       "label": "Net order book, Sep 2026"
+      },
+      {
+       "value": "51%",
+       "label": "BEV share of Q2 automotive revenue"
+      },
+      {
+       "value": "₹1,966 Cr",
+       "label": "Cash and investments"
+      },
+      {
+       "value": "27.9%",
+       "label": "Promoter holding"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Joint ventures",
+       "text": "Two Denso JVs: JV1 (2- and 3-wheeler motors) to close by about December 2026, JV2 (high-voltage) in H1 CY2027. Terms are not disclosed.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        2131,
+        2655,
+        3185,
+        3546,
+        4449
+       ]
+      }
+     ],
+     "caption": "TTM ₹5,294 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        362,
+        395,
+        518,
+        600,
+        629
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        445,
+        533,
+        693,
+        775,
+        659
+       ]
+      }
+     ],
+     "caption": "Five-year profit ₹2,504 Cr, operating cash flow ₹3,105 Cr."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin",
+        "26%",
+        "25%",
+        "28%",
+        "27%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings, ₹ Cr",
+        "151",
+        "295",
+        "412",
+        "202",
+        "442"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT/interest)",
+        "25.0x",
+        "30.9x",
+        "26.8x",
+        "27.6x",
+        "37.6x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "22%",
+        "22%",
+        "24%",
+        "18%",
+        "14%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "132",
+        "106",
+        "87",
+        "78",
+        "121"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Healthy: cash conversion above 100% of profit over five years; H1 FY27 operating cash flow was 90% of EBITDA.",
+       "src": null
+      },
+      {
+       "lead": "Leverage",
+       "text": "Negligible: borrowings 0.10x equity.",
+       "src": null
+      },
+      {
+       "lead": "Returns",
+       "text": "ROIIC over FY24-FY26 only about 4% because capital employed jumped ₹3,363 Cr (reserves roughly doubled in FY25) while EBIT rose slowly.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin range",
+        "Ongoing",
+        "23-25%",
+        {
+         "text": "23.0% in Q2, 23.1% in H1: bottom of range",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Denso JV1 close",
+        "Q3 FY27",
+        "By December, may slip to January",
+        {
+         "text": "",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Denso JV2 close",
+        "H1 CY2027",
+        "Targeting",
+        {
+         "text": "",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Grow 10x in 10 years",
+        "2036",
+        "Ambition",
+        {
+         "text": "No rupee target",
+         "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Status as at the Q2 FY27 call (28 Oct 2026)."
+    },
+    {
+     "type": "text",
+     "text": "Management is open about weaknesses (it started the Q2 remarks with margins) and has not changed the margin range despite two quarters at the bottom of it. The ambitions are long-dated and not measurable.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "Promoters 27.9%, FIIs 23.9%, DIIs 41.2%; no pledge shown.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "Governance flags",
+       "text": "The Denso JV terms and economics are undisclosed. Annual-report checks (auditor, related parties) were not made for this note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Competitor",
+       "numeric": false
+      },
+      {
+       "label": "Where they overlap",
+       "numeric": false
+      },
+      {
+       "label": "Note",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Bharat Forge, Sundram Fasteners, Uno Minda, Schaeffler India",
+        "Indian auto component suppliers",
+        "Not pure EV drivetrain players"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Denso, Bosch, ZF, Nidec",
+        "Global motors and drivelines",
+        "Denso is now a JV partner"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Peer figures were not pulled in this session; names are the closest listed or global comparables."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Moats that hold up",
+       "text": "Engineering depth (patents, in-house R&D), long OEM qualification cycles and 75 EPIC programmes already won.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Where it is exposed",
+       "text": "US EV deliveries are flat, EV programmes depend on a few OEMs' vehicle launches, and raw-material and freight inflation is running high.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "What could happen",
+       "numeric": false
+      },
+      {
+       "label": "How big",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Margin below 23%",
+        "Traction-motor mix and input costs keep pulling it down",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EV demand",
+        "A key customer's programme weakens",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "JV terms",
+        "Value moved to Denso",
+        "Medium"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Valuation",
+        "73x earnings leaves no cushion",
+        "High"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹70,000 Cr",
+       "sub": "FY28 market cap · about +24%",
+       "text": "₹7,500 Cr revenue at 15.5% net margin (₹1,160 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹54,000 Cr",
+       "sub": "FY28 market cap · about −4%",
+       "text": "₹7,000 Cr at 14% (₹980 Cr), valued at 55x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹32,000 Cr",
+       "sub": "FY28 market cap · about −44%",
+       "text": "₹6,300 Cr at 12.5% (₹790 Cr), valued at 40x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our own assumptions, not a forecast or advice.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹900",
+       "label": "Price"
+      },
+      {
+       "value": "₹56,337 Cr",
+       "label": "Market cap"
+      },
+      {
+       "value": "73x",
+       "label": "P/E (TTM)"
+      },
+      {
+       "value": "8.7x",
+       "label": "Price/book"
+      },
+      {
+       "value": "46.3x",
+       "label": "EV/EBITDA (TTM)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sona has real growth (revenue +42% over the last twelve months) and a strong balance sheet, but the price assumes margins hold at 23-25% while the mix moves to lower-margin motors. The base case treats the stock as roughly fairly priced; the bear case shows how much a de-rating can cost.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "EBITDA margin at or above 23%",
+  "JV1 close by December",
+  "Traction-motor and three-wheeler ramp",
+  "Order book above ₹25,000 Cr",
+  "New products commercialised"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Nov 2026)",
+  "Q1 FY27 (Jul 2026) and Q2 FY27 (Oct 2026) concall transcripts and investor presentations",
+  "Annual report not read for this note"
+ ]
+}

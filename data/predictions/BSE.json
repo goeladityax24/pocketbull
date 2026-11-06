@@ -1,0 +1,33 @@
+{
+ "symbol": "BSE",
+ "as_of": "2026-11-06",
+ "period": "Q3 FY27",
+ "results_due": "late January to mid-February 2027, going by when Q2 was reported (28 Oct to 6 Nov)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 1450,
+  "base": 1650,
+  "high": 1850
+ },
+ "operating_profit": {
+  "low": 943,
+  "base": 1114,
+  "high": 1277
+ },
+ "net_profit": {
+  "low": 790,
+  "base": 925,
+  "high": 1060
+ },
+ "reasoning": [
+  "Q2 revenue fell 8.5% on the quarter to ₹1,433 Cr as index-options premium ADTV dropped from ₹29,615 Cr to ₹22,531 Cr. October's premium ADTV was a record ₹35,481 Cr (57% above the Q2 average), cash-equity ADTV hit a record and a record 71 IPOs came in H1, so Q3 should recover.",
+  "Revenue is less than proportional to options premium (other lines are steadier); we assume +15% on the quarter to ₹1,650 Cr (+33% on Q3 FY26's ₹1,244 Cr).",
+  "Margin: management calls 67-68% sustainable; Screener's Q2 operating margin was 68%. We use 67.5%. PAT was 56% of revenue in Q2."
+ ],
+ "risks": [
+  "Options volumes fade after October's record",
+  "Regulatory curbs on index options",
+  "Treasury and other income swings affect PAT"
+ ],
+ "caveat": "Screener's operating profit (₹973 Cr in Q2) is slightly lower than the company's operating EBITDA including core SGF contribution."
+}

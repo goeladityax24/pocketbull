@@ -1,0 +1,622 @@
+{
+  "symbol": "JYOTICNC",
+  "name": "Jyoti CNC Automation Ltd",
+  "screenerUrl": "https://www.screener.in/company/JYOTICNC/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1284626",
+  "warehouseId": "113069731",
+  "ratios": {
+    "market cap": 23206,
+    "current price": 1020,
+    "high": 1135,
+    "low": 580,
+    "stock p/e": 75.2,
+    "book value": 94,
+    "dividend yield": 0,
+    "roce": 21.3,
+    "roe": 18.2,
+    "face value": 2
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        302,
+        378,
+        450,
+        362,
+        431,
+        450,
+        576,
+        410,
+        508,
+        576,
+        599,
+        508,
+        602
+      ],
+      "expenses": [
+        248,
+        282,
+        316,
+        277,
+        324,
+        337,
+        398,
+        310,
+        383,
+        421,
+        452,
+        400,
+        471
+      ],
+      "operating_profit": [
+        55,
+        96,
+        134,
+        85,
+        107,
+        113,
+        178,
+        100,
+        125,
+        155,
+        147,
+        109,
+        131
+      ],
+      "opm_pct": [
+        18,
+        25,
+        30,
+        23,
+        25,
+        25,
+        31,
+        24,
+        25,
+        27,
+        25,
+        21,
+        22
+      ],
+      "other_income": [
+        1,
+        3,
+        3,
+        4,
+        11,
+        0,
+        0,
+        20,
+        9,
+        6,
+        25,
+        4,
+        2
+      ],
+      "interest": [
+        25,
+        24,
+        21,
+        11,
+        9,
+        11,
+        11,
+        12,
+        14,
+        24,
+        20,
+        24,
+        14
+      ],
+      "depreciation": [
+        8,
+        9,
+        8,
+        8,
+        9,
+        9,
+        10,
+        12,
+        10,
+        13,
+        14,
+        15,
+        16
+      ],
+      "pbt": [
+        23,
+        67,
+        108,
+        70,
+        99,
+        93,
+        156,
+        96,
+        109,
+        124,
+        138,
+        73,
+        104
+      ],
+      "tax_pct": [
+        27,
+        28,
+        7,
+        27,
+        24,
+        14,
+        30,
+        26,
+        22,
+        28,
+        34,
+        22,
+        30
+      ],
+      "net_profit": [
+        17,
+        48,
+        100,
+        51,
+        76,
+        80,
+        109,
+        71,
+        86,
+        89,
+        91,
+        57,
+        73
+      ],
+      "eps": [
+        0.86,
+        2.44,
+        4.38,
+        2.24,
+        3.34,
+        3.53,
+        4.79,
+        3.14,
+        3.76,
+        3.89,
+        3.98,
+        2.51,
+        3.19
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2019,
+        "index": 0,
+        "endDate": "2019-03-31",
+        "label": "FY19"
+      },
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        965,
+        687,
+        532,
+        746,
+        929,
+        1338,
+        1818,
+        2093
+      ],
+      "expenses": [
+        874,
+        680,
+        507,
+        674,
+        852,
+        1038,
+        1327,
+        1566
+      ],
+      "operating_profit": [
+        92,
+        7,
+        25,
+        73,
+        77,
+        301,
+        491,
+        527
+      ],
+      "opm_pct": [
+        9,
+        1,
+        4.7,
+        10,
+        8,
+        22,
+        27,
+        25
+      ],
+      "other_income": [
+        55,
+        44,
+        10,
+        4,
+        54,
+        6,
+        5,
+        60
+      ],
+      "interest": [
+        73,
+        71,
+        76,
+        82,
+        90,
+        90,
+        42,
+        70
+      ],
+      "depreciation": [
+        36,
+        37,
+        38,
+        36,
+        34,
+        33,
+        36,
+        50
+      ],
+      "pbt": [
+        38,
+        -58,
+        -79,
+        -42,
+        7,
+        185,
+        418,
+        467
+      ],
+      "tax_pct": [
+        52,
+        -13,
+        -2,
+        16,
+        175,
+        18,
+        24,
+        28
+      ],
+      "net_profit": [
+        18,
+        -50,
+        -77,
+        -48,
+        -5,
+        151,
+        316,
+        336
+      ],
+      "eps": [
+        1.25,
+        -3.41,
+        -5.24,
+        -3.28,
+        -0.33,
+        6.63,
+        13.9,
+        14.77
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87077f47-ba45-41df-b41a-0e2a7604870e.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58161cda-04d4-41bd-a52a-ca29e0f13303.pdf",
+      "recordingUrl": "https://jyoti.co.in/wp-content/uploads/2026/11/jyoti-cnc-q2fy27-earning-call-audio.mp3"
+    },
+    {
+      "month": "Nov 2026",
+      "yearMonth": "2026-11-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb55fb97-14f3-4ebb-b68a-108e3308055f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bedd76e-3923-49ca-b0c3-73f014a8a77d.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ef1e735-8b24-40e1-9a77-dad8e04fd467.pdf",
+      "recordingUrl": "https://jyoti.co.in/wp-content/uploads/2026/08/Jyoti-Earnings-call-audio.mp3"
+    },
+    {
+      "month": "Jun 2026",
+      "yearMonth": "2026-06",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02fd1d96-4106-481f-b392-617c4a6392d7.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=692a47d3-1a55-4905-b9e7-33b7cefd6756.pdf",
+      "recordingUrl": "https://jyoti.co.in/investors/announcements/investor-meet-and-related-disclosures/"
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33184a0-32c2-459c-b158-7178d8d90e3f.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2c77ae7-aaf5-46d0-b5ad-40ab4584937f.pdf",
+      "recordingUrl": "https://youtu.be/YfBlhpSNl28"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=716dc04e-be5c-4238-9cb5-165be8773a12.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e056e4-628c-4e5c-bf54-e35d12073774.pdf",
+      "recordingUrl": "https://youtu.be/OclUZE0poLQ"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5af75f2-5e24-4389-aa06-c0eb72c720f6.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ed0a134-40ee-4f8f-8213-c989ce173359.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7f46f3e-a4c2-49e9-8e41-1a9624e6b9f7.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34ed73c9-49b8-4ce7-9203-689a46212abb.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7831e973-13c1-4d1b-83aa-ec1843f2c482.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaca7ffe-b801-4f69-80c5-3383cc0d3672.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4afd4baf-3f85-40c6-8ee1-4a22b1cd7ada.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4f11baf-04ce-43ad-b010-59166fa2e152.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d825d163-2c0e-4b90-9c87-3b434089a88b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d601e16c-0f9d-4541-a5ec-9d72b070a82d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c6601f6-727a-4d96-bb57-68f5fb503183.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8896c83-4c65-45d2-9f0f-71bc101f7ba0.pdf",
+      "recordingUrl": "https://youtu.be/DvrZYypRnYA?si=cjGoYv3Y4tbhN14h"
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a516fcf0-bcb7-4519-996c-1271e62edfab.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53cbd9ef-df1e-437d-b106-df3c220be2dd.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2024",
+      "yearMonth": "2024-02-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d88ec1b6-078a-4d6e-b137-5621b292884d.pdf",
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "Indo-MIM",
+      "screenerPath": "/company/INDOMIM/consolidated/",
+      "marketCapCr": 60325.71,
+      "pe": 93.44,
+      "salesQtrCr": 1218.74,
+      "salesGrowthQtrPct": 9.39,
+      "roce": 24.98
+    },
+    {
+      "name": "Aditya Infotech",
+      "screenerPath": "/company/CPPLUS/consolidated/",
+      "marketCapCr": 50640.08,
+      "pe": 81.97,
+      "salesQtrCr": 1745.99,
+      "salesGrowthQtrPct": 89.86,
+      "roce": 28.56
+    },
+    {
+      "name": "Syrma SGS Tech.",
+      "screenerPath": "/company/SYRMA/consolidated/",
+      "marketCapCr": 27982.76,
+      "pe": 65.9,
+      "salesQtrCr": 1989.68,
+      "salesGrowthQtrPct": 73.64,
+      "roce": 16.78
+    },
+    {
+      "name": "Zetwerk Manufacturing",
+      "screenerPath": "/company/ZETWERK/consolidated/",
+      "marketCapCr": 27891.4,
+      "pe": null,
+      "salesQtrCr": null,
+      "salesGrowthQtrPct": null,
+      "roce": 4.05
+    },
+    {
+      "name": "Honeywell Auto",
+      "screenerPath": "/company/HONAUT/",
+      "marketCapCr": 26631.08,
+      "pe": 46.43,
+      "salesQtrCr": 1223.9,
+      "salesGrowthQtrPct": 6.48,
+      "roce": 16.95
+    },
+    {
+      "name": "Jyoti CNC Auto.",
+      "screenerPath": "/company/JYOTICNC/consolidated/",
+      "marketCapCr": 23206.23,
+      "pe": 75.15,
+      "salesQtrCr": 602.01,
+      "salesGrowthQtrPct": 18.53,
+      "roce": 21.32
+    },
+    {
+      "name": "Kaynes Tech",
+      "screenerPath": "/company/KAYNES/consolidated/",
+      "marketCapCr": 21736.34,
+      "pe": 62.59,
+      "salesQtrCr": 946.02,
+      "salesGrowthQtrPct": 40.47,
+      "roce": 12.69
+    }
+  ],
+  "fetchedAt": "2026-11-06T19:55:13.460Z"
+}

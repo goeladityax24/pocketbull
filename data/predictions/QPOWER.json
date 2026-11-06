@@ -1,0 +1,34 @@
+{
+ "symbol": "QPOWER",
+ "as_of": "2026-11-06",
+ "period": "Q3 FY27",
+ "results_due": "late January to mid-February 2027, going by when Q2 was reported (28 Oct to 6 Nov)",
+ "basis": "consolidated",
+ "revenue": {
+  "low": 285,
+  "base": 320,
+  "high": 355
+ },
+ "operating_profit": {
+  "low": 48,
+  "base": 67,
+  "high": 89
+ },
+ "net_profit": {
+  "low": 45,
+  "base": 58,
+  "high": 76
+ },
+ "reasoning": [
+  "The August call guided about 20% FY27 revenue growth on FY26's ₹947 Cr, about ₹1,140 Cr. H1 was ₹506 Cr, so H2 needs about ₹634 Cr, about ₹317 Cr a quarter. Order book is about ₹2,010 Cr. We assume ₹320 Cr in Q3 (+13% on Q3 FY26's ₹284 Cr, +17% on Q2).",
+  "The Global Coil Factory in Sangli and the Turkish PCS plant started in October, but both are still ramping (management's own priority is stabilising throughput), so Q3 gets only part of their output. WS Insulators is expected to be consolidated from Q4, not Q3.",
+  "Margin: guidance is about 20% (16-20% in the August call); Q2 was 23% and Q3 FY26 28%. We use 21%. PAT is helped by other income, so it is close to operating profit."
+ ],
+ "risks": [
+  "New plants ramp slower than planned",
+  "Lumpy export deliveries shift revenue between quarters",
+  "WS Insulators closing timing and costs",
+  "Customer qualification delays"
+ ],
+ "caveat": "The 2 Nov 2026 call transcript was not yet on Screener when this estimate was made; the guidance used is from the August call and the Nov presentation."
+}

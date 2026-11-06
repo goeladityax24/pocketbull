@@ -1,0 +1,571 @@
+{
+ "as_of": "2026-11-06",
+ "descriptor": "Steroid and hormone API maker building injectables and fermentation CDMO",
+ "lede": "Symbiotec (listed Sep 2026) makes steroid and hormone APIs from soyabean sterols and has spent over ₹1,000 Cr building two new businesses: complex injectables (a US dual-chamber-vial deal, ₹53 Cr of milestones in Q2) and fermentation CDMO with take-or-pay customers. FY27 guidance is about 20% revenue and 25% EBITDA growth, but new revenue is 6-12 months away and the stock is at 66x earnings.",
+ "market": {
+  "price": 1514,
+  "mcap_cr": 9730,
+  "pe": 65.8,
+  "pb": 7.1,
+  "ev_ebitda": 42.1
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "API revenue ₹442 Cr in H1 (+11%) at about 30% EBITDA margin, a signed US injectables agreement with milestone payments, and take-or-pay contracts for alternative protein and insulin capacity."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Over 90% of revenue is still API; new businesses cost ₹57 Cr of opex and ₹24 Cr of depreciation in H1 with little revenue, net debt is about ₹314 Cr and ROCE is 13%."
+  },
+  {
+   "lead": "Price",
+   "text": "66x earnings and 42x EBITDA price in the new businesses before they earn."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Symbiotec makes 60+ corticosteroid and hormone APIs (44 US DMFs, 25 European CEPs), is backward-integrated into phytosterol fermentation, and is adding two forward businesses: fermentation CDMO for biopharma and biomanufacturing (Ujjain, 400 KL) and complex injectables (dual-chamber vials, US partner).",
+     "src": "Sep 2026 call and Nov 2026 attendee notes"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹498 Cr",
+       "label": "H1 FY27 revenue (+25%)"
+      },
+      {
+       "value": "₹1,509 Cr",
+       "label": "Gross capex, Sep 2026"
+      },
+      {
+       "value": "₹314 Cr",
+       "label": "Net debt"
+      },
+      {
+       "value": "33%",
+       "label": "Promoter holding"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Direction",
+       "text": "Management says injectables and CDMO can reach a size comparable to the API business over the coming years; best year for the European CDMO is FY29.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        682,
+        567,
+        716,
+        752,
+        869
+       ]
+      }
+     ],
+     "caption": "H1 FY27 ₹498 Cr."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        78,
+        23,
+        100,
+        97,
+        110
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        18,
+        69,
+        188,
+        47,
+        175
+       ]
+      }
+     ],
+     "caption": "Cumulative FY21-FY26: profit ₹531 Cr, operating cash flow ₹671 Cr."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "EBITDA margin",
+        "19%",
+        "12%",
+        "24%",
+        "27%",
+        "27%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings, ₹ Cr",
+        "65",
+        "218",
+        "247",
+        "544",
+        "391"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover (EBIT/interest)",
+        "36.0x",
+        "5.9x",
+        "17.5x",
+        "9.6x",
+        "6.9x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "ROCE",
+        "18%",
+        "6%",
+        "16%",
+        "14%",
+        "13%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash conversion cycle, days",
+        "238",
+        "267",
+        "187",
+        "298",
+        "197"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Operating cash flow tracks profit but inventory is 270-380 days; receivables rose to ₹268 Cr at September on a large milestone invoice.",
+       "src": null
+      },
+      {
+       "lead": "Leverage",
+       "text": "Borrowings/equity 0.25x after the IPO, but gross capex is heading to about ₹1,672 Cr by FY27-end.",
+       "src": null
+      },
+      {
+       "lead": "Returns",
+       "text": "ROIIC over FY24-FY26 about 5%; the new capacity is not yet earning.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "FY27",
+        "About 20%, plus or minus 5 points",
+        {
+         "text": "H1 +25%",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA growth",
+        "FY27",
+        "About 25%, plus or minus 5 points",
+        {
+         "text": "H1 +29%",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "US DCV agreement",
+        "Early Q3 FY27",
+        "Definitive agreement signed",
+        {
+         "text": "Signed 30 Sep 2026 per attendee notes",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "New-business revenue",
+        "6-12 months",
+        "Commence",
+        {
+         "text": "₹53 Cr milestones in Q2",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Insulin plant commissioning",
+        "Q4 FY27",
+        "With validation batches",
+        {
+         "text": "Delayed a couple of months",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Status as at 6 Nov 2026; second-hand notes are labelled in the tracker."
+    },
+    {
+     "type": "text",
+     "text": "Management gave clear FY27 numbers in its first call and hit the signing date for the injectables deal. Customer names and contract values are withheld, so the take-or-pay claims cannot be tested.",
+     "src": null
+    },
+    {
+     "type": "bullets",
+     "title": "Ownership",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "Promoters 33.3%, DIIs 33.2%, FIIs 3.8% after the Sep 2026 IPO; no pledge shown.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Governance flags",
+     "items": [
+      {
+       "lead": "Governance flags",
+       "text": "Recently listed; Q2 includes a one-off IPO expense of about ₹3 Cr; annual-report checks (auditor, related parties) were not made for this note.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Competitive advantage and peer benchmarking",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Competitor",
+       "numeric": false
+      },
+      {
+       "label": "Where they overlap",
+       "numeric": false
+      },
+      {
+       "label": "Note",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Divi's Laboratories, Neuland Laboratories",
+        "API and custom synthesis",
+        "Not steroid-specific"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Piramal Pharma, Syngene",
+        "CDMO and biologics services",
+        "Larger, listed CDMO comparables"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Global steroid API makers (Europe, China)",
+        "Steroid and hormone APIs",
+        "Symbiotec's core market"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Peer figures were not pulled in this session; names are the closest listed or global comparables."
+    },
+    {
+     "type": "bullets",
+     "title": "Moats that hold up",
+     "items": [
+      {
+       "lead": "Moats that hold up",
+       "text": "Regulatory filings (44 DMFs, 25 CEPs) and customer qualification make API supply sticky; 70% of FY26 revenue from customers of seven years or more.",
+       "src": null
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Where it is exposed",
+       "text": "API prices face pressure; new-business partners are small and venture-funded; contract values are undisclosed.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "What could happen",
+       "numeric": false
+      },
+      {
+       "label": "How big",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "New businesses late",
+        "Milestones fade before supply and profit share start",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Partner risk",
+        "Alternative-protein customers fail to fund or ramp",
+        "High"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Leverage",
+        "Capex of ₹1,672 Cr gross by FY27-end",
+        "Medium"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "API pricing",
+        "Growth stays high single digit",
+        "Medium"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "₹12,000 Cr",
+       "sub": "FY28 market cap · about +25%",
+       "text": "₹1,450 Cr revenue at 14% net margin (₹203 Cr), valued at 60x."
+      },
+      {
+       "name": "Base",
+       "value": "₹8,500 Cr",
+       "sub": "FY28 market cap · about −13%",
+       "text": "₹1,300 Cr at 13% (₹170 Cr), valued at 50x."
+      },
+      {
+       "name": "Bear",
+       "value": "₹3,600 Cr",
+       "sub": "FY28 market cap · about −63%",
+       "text": "₹1,150 Cr at 9% (₹104 Cr), valued at 35x."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative, built on our own assumptions, not a forecast or advice.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,514",
+       "label": "Price"
+      },
+      {
+       "value": "₹9,730 Cr",
+       "label": "Market cap"
+      },
+      {
+       "value": "66x",
+       "label": "P/E (TTM)"
+      },
+      {
+       "value": "7.1x",
+       "label": "Price/book"
+      },
+      {
+       "value": "42.1x",
+       "label": "EV/EBITDA (TTM)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Symbiotec has a quality API franchise and has de-risked part of its new capacity with take-or-pay contracts, but the shares already pay for those businesses working, and the first measurable proof (injectable supply, CDMO fees) is a year or more away. The base case is a mild de-rating from today's price.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "Milestone revenue each quarter after Q2's ₹53 Cr",
+  "Second ANDA filing in Q4 FY27",
+  "Insulin plant commissioning in Q4 FY27",
+  "Receivables falling from ₹268 Cr",
+  "Net debt and capex"
+ ],
+ "sources": [
+  "Screener financials, shareholding and prices (6 Nov 2026)",
+  "Q1 FY27 earnings call transcript (22 Sep 2026)",
+  "Attendee notes of the Q2 FY27 call (@sachprat07 on X, 6 Nov 2026; second-hand)",
+  "Annual report not read for this note"
+ ]
+}

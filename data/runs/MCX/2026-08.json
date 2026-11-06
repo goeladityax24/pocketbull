@@ -1,0 +1,159 @@
+{
+  "symbol": "MCX",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5811825-62ee-496e-8783-f248900a283f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b3113f2-04dd-4505-a328-48aa659b87c0.pdf",
+    "recordingUrl": null
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T20:00:32.278Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-05",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "More traded clients than last year's 20 lakh",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "FY26 closed at about 20 lakh traded client codes; no number given ('I don't want to put a number here'); Q1 was slightly below Q4",
+        "quote": "And we do expect to have higher numbers this year.",
+        "page": 8,
+        "speaker": "Praveena Rai (MD & CEO)",
+        "confidence": "high",
+        "keyword": "traded clients higher",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Strong growth momentum through FY27",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q4 FY26 was exceptional; Q1 consolidated at about ₹752 Cr total income. CEO: macro factors 'may or may not' repeat",
+        "quote": "we expect the numbers this year to be on a strong momentum as well.",
+        "page": 20,
+        "speaker": "Praveena Rai (MD & CEO)",
+        "confidence": "high",
+        "keyword": "strong momentum",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Technology capacity to double current peak load",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "ongoing",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Started the year at under 1 billion a day; invests 'smartly and efficiently'",
+        "quote": "we've already handled more than 3 billion transactions a day with the capacity to handle more than double that.",
+        "page": 13,
+        "speaker": "Praveena Rai (MD & CEO)",
+        "confidence": "medium",
+        "keyword": "tech capacity",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 total income rose 85% to ₹752 Cr, revenue from operations 88% to ₹702 Cr, EBITDA more than doubled to ₹544 Cr (72% margin) and PAT was ₹413 Cr. Average daily turnover was ₹10.5 lakh Cr, options notional ADT grew 266% and traded clients doubled to 13.72 lakh. Management gave no numerical guidance, only that growth momentum should stay strong and traded clients should exceed last year's 20 lakh.",
+      "what_changed": [
+        {
+          "change": "new",
+          "text": "Silver 100 Gram futures launched; 50+ AMCs using MCX bullion price for AUM calculations",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Good Delivery norms expanded; coal trading platform plans",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We are pleased to begin FY27 with another quarter of strong operational and financial performance",
+        "page": null
+      },
+      "analyst_questions": [
+        {
+          "topic": "Fall in traded clients",
+          "answer": "Flat on the previous quarter after a very volatile Q4; the trend remains positive; expects higher than last year's 20 lakh.",
+          "page": null
+        },
+        {
+          "topic": "Technology capacity",
+          "answer": "Handled over 3 billion transactions a day and can handle more than double.",
+          "page": null
+        },
+        {
+          "topic": "New metal contracts",
+          "answer": "Headroom in metals after warehouse rationalisation; strong focus.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Earnings depend on commodity volatility and price levels; Q4 FY26 was exceptional and comparisons get harder.",
+          "page": null
+        },
+        {
+          "text": "Regulatory changes (price use, margin rules) can affect volumes; management said impact should not be very detrimental.",
+          "page": null
+        },
+        {
+          "text": "Management would not give numeric targets for clients or revenue.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Traded client count versus 20 lakh",
+        "Options ADT and new metal and index contracts",
+        "Transaction-charge and tax changes"
+      ],
+      "business_snapshot": {
+        "what_they_make": "India's commodity derivatives exchange (bullion, base metals, energy, electricity and index contracts)",
+        "customers": "Members and traded clients (13.72 lakh in Q1)",
+        "revenue_mix": "Mostly transaction charges on futures and options; data and other services small",
+        "demand_drivers": "Commodity volatility, options adoption, new contracts, price-discovery use by AMCs"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5811825-62ee-496e-8783-f248900a283f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b3113f2-04dd-4505-a328-48aa659b87c0.pdf",
+    "transcriptPages": 21,
+    "transcriptHasText": true
+  }
+}

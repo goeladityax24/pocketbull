@@ -1,0 +1,212 @@
+{
+  "symbol": "SONACOMS",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f782ece-88d8-48cd-8fce-33652f389475.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dce7b47-7fc3-40fe-91c3-1b5bd64a232b.pdf",
+    "recordingUrl": "https://sonacomstar.com/files/documents/sona-comstar-q2fy27-earnings-call-document-O5xNeq.mp4"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-06T19:58:43.622Z",
+  "createdBy": "Claude session",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-28",
+    "guidance": [
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "EBITDA margin range 23-25%",
+        "kind": "margin_pct",
+        "low": 23,
+        "high": 25,
+        "unit": "pct",
+        "approx": false,
+        "period": null,
+        "horizon_text": "next 2-3 years",
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Q2 was 23.0% and H1 23.1%, at the bottom of the range on traction-motor mix and input inflation; CFO: holds 'if material prices are flattish'; 'near-term predictability a little difficult'",
+        "quote": "I don't think there is any reason to change our range, I think 23-25 is fair.",
+        "page": 14,
+        "speaker": "Vivek Vikram Singh (MD & Group CEO)",
+        "confidence": "medium",
+        "keyword": "margin 23-25%",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Grow 10x over 10 years",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "10 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Q2 'gives us much higher confidence'; no rupee target",
+        "quote": "our ambition to grow 10x over 10 years under our Sona Comstar 2.0 vision.",
+        "page": 3,
+        "speaker": "Vivek Vikram Singh (MD & Group CEO)",
+        "confidence": "high",
+        "keyword": "10x in 10 years",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Denso JV1 carve-out to close by December",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Denso JV1 (2- and 3-wheeler motors)",
+        "condition": "Could spill into January; JV2 not yet formed",
+        "quote": "we're targeting to close this JV 1 part of it which is carving out of the business by end of December",
+        "page": 10,
+        "speaker": "Rohit Nanda (Group CFO)",
+        "confidence": "high",
+        "keyword": "JV1 by December",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Denso JV2 in first half of calendar 2027",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": "Jan-Jun 2027",
+        "basis": "segment",
+        "segment": "Denso JV2 (high-voltage)",
+        "condition": null,
+        "quote": "JV2 has not yet formed up but we are targeting to close and have it sometime in the 1st half of calendar year 2027.",
+        "page": 10,
+        "speaker": "Sat Mohan Gupta (CEO, Motor Business)",
+        "confidence": "high",
+        "keyword": "JV2 H1 2027",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "More traction-motor products launched this quarter",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Motor business",
+        "condition": null,
+        "quote": "we are launching another product in this current quarter so that will further increase our share in EV business.",
+        "page": 13,
+        "speaker": "Sat Mohan Gupta (CEO, Motor Business)",
+        "confidence": "medium",
+        "keyword": "new motor product",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 revenue was a record ₹1,546 Cr (up 35%) with EBITDA of ₹356 Cr (23.0%, down 2.3 points) and PAT of ₹223 Cr. BEV revenue grew 129% and crossed half of automotive revenue; traction motors grew about 50% on the quarter, which diluted margin along with West Asia-driven inflation. Net order book is ₹25,100 Cr after ₹3,600 Cr of new wins, free cash flow in H1 was ₹446 Cr and management keeps the 23-25% margin range and the 10x-in-10-years ambition.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "EBITDA margin range 23-25% kept despite two quarters at about 23%",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Priority widened from electrification to 'EPIC' mobility (electric, personalised, intelligent, connected)",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Denso JV1 carve-out targeted by end of December; JV2 by H1 CY2027",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Deming Prize for the driveline division; three new products commercialised in one quarter",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "There are times when everything comes together in perfect synchronicity, this was that quarter.",
+        "page": 3
+      },
+      "analyst_questions": [
+        {
+          "topic": "Margins with rising motor mix",
+          "answer": "No reason to change the 23-25% range; mix and material prices decide; margin holds if material prices are flat.",
+          "page": null
+        },
+        {
+          "topic": "Traction-motor growth",
+          "answer": "Wallet share gains and market growth, including three-wheelers.",
+          "page": null
+        },
+        {
+          "topic": "Use of cash",
+          "answer": "Selective M&A (three in a decade) and capex including JV2; a substantial cash balance expected at year-end.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "EBITDA margin fell 2.3 points year on year on mix and inflation; freight nearly doubled in a quarter.",
+          "page": null
+        },
+        {
+          "text": "US EV deliveries are flat and the order book is concentrated in a few large customers.",
+          "page": null
+        },
+        {
+          "text": "Denso JV economics and timing remain unclear.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "EBITDA margin staying at or above 23%",
+        "JV1 carve-out by December",
+        "Traction-motor and three-wheeler ramp",
+        "Order book above ₹25,000 Cr"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Differential assemblies and gears, EV traction and suspension motors, motor controllers, sensors and railway products",
+        "customers": "Global EV and automotive OEMs, Indian two- and three-wheeler makers, railways; 75 EPIC programmes across 37 customers",
+        "revenue_mix": "BEV 51% of Q2 automotive revenue (48% in H1)",
+        "demand_drivers": "EV adoption, robotics and physical AI orders (about 4% of the order book), railways"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f782ece-88d8-48cd-8fce-33652f389475.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dce7b47-7fc3-40fe-91c3-1b5bd64a232b.pdf",
+    "transcriptPages": 20,
+    "transcriptHasText": true
+  }
+}
