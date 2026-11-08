@@ -1,26 +1,26 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-11-08",
  "descriptor": "Precision engine parts plus aerospace and semiconductor machining",
- "lede": "A Bengaluru maker of crankshafts and connecting rods for two-wheelers and cars that is turning into an aerospace and semiconductor-equipment machinist. Its ADS business tripled in a year and has a ₹5,700 Cr backlog, while the auto core keeps growing in the mid-teens. Returns on capital are still middling and the stock trades at 76x standalone earnings.",
+ "lede": "A Bengaluru maker of crankshafts and connecting rods for two-wheelers and cars that is turning into an aerospace and semiconductor-equipment machinist. Q2 FY27 revenue rose 32% to a record ₹1,091 Cr at a 19.4% EBITDA margin and ADS sales tripled (+207%), taking non-auto to 21% of sales. Returns on capital are still middling, about ₹800 Cr of capex is planned for FY27, and the stock trades near 67x consolidated earnings.",
  "market": {
-  "price": 4233,
-  "mcap_cr": 26395,
-  "pe": 75.7,
-  "pb": 8.6,
-  "ev_ebitda": 42
+  "price": 4414,
+  "mcap_cr": 27567,
+  "pe": 67.4,
+  "pb": 8.4,
+  "ev_ebitda": null
  },
  "short_version": [
   {
    "lead": "What's going right",
-   "text": "Q1 FY27 consolidated revenue +33% to a record ₹1,021 Cr at a 19.2% EBITDA margin; ADS (aerospace, defence, semiconductor) revenue more than tripled, and a ~₹1,250 Cr semicon order took the ADS backlog to ~₹5,700 Cr. Net debt is low after a ₹1,200 Cr QIP in 2024."
+   "text": "Q2 FY27 consolidated revenue +32% to ₹1,091 Cr, EBITDA +48% to ₹211 Cr (19.4% margin) and profit after tax +52% to ₹109 Cr. ADS revenue was ₹164 Cr (+207%) and its backlog is ₹5,870 Cr over five years; peak annual revenue from other new orders rose to ₹2,241 Cr from ₹1,690 Cr in March."
   },
   {
    "lead": "What to be sceptical about",
-   "text": "ROCE has stayed at 13-16% for six years; capex of ~₹500 Cr a year keeps free cash flow negative, and return on capital added since FY24 is only ~6% (much of the QIP cash is still idle). Q1 margins were helped by forex and export mix."
+   "text": "ROCE is 14.5% after six years of 13-16%, capex of about ₹800 Cr is planned for FY27 (₹326 Cr spent in H1), finance costs doubled to ₹146 Cr in the quarter, and the Q2 deck has no Q&A, so August's high-teens growth and 19% margin guide is not yet updated."
   },
   {
    "lead": "Price",
-   "text": "~76x trailing standalone earnings and ~42x EV/EBITDA, against 58x for Craftsman, 57x for Happy Forgings and 91x for Bharat Forge."
+   "text": "About 67x consolidated earnings on Screener's 6 Nov data (the October version of this note used 76x standalone), at ₹4,414 per share."
   }
  ],
  "sections": [
@@ -329,7 +329,7 @@
        "cells": [
         "Similar growth to FY26 (16%) in FY27",
         "May 26",
-        "Q1 FY27 +33%; guidance raised to high-teens to 20%",
+        "Q1 FY27 +33% and Q2 +32%; August guidance raised to high-teens to 20%",
         {
          "text": "Ahead",
          "tag": "ahead"
@@ -340,8 +340,8 @@
       {
        "cells": [
         "ADS revenue ₹550-600 Cr in FY27",
-        "May 26",
-        "Q1 FY27 ₹145 Cr (~₹580 Cr run-rate)",
+        "May 26 / Nov 26 deck",
+        "H1 FY27 ₹310 Cr (Q1 ₹145 Cr, Q2 ₹164 Cr); guide repeated in the Q2 deck",
         {
          "text": "On track",
          "tag": "kept"
@@ -353,7 +353,7 @@
        "cells": [
         "EBITDA margin inching toward 19%",
         "Aug 26",
-        "Q1 FY27 19.2% (with forex help)",
+        "Q1 19.2%, Q2 19.4%",
         {
          "text": "On track",
          "tag": "kept"
@@ -602,7 +602,7 @@
        "cells": [
         "Low returns on heavy capex",
         "Financial",
-        "ROCE 14%; ~₹500 Cr capex a year"
+        "ROCE 14.5%; about ₹800 Cr of FY27 capex planned, ₹326 Cr spent in H1; finance costs up to ₹146 Cr in Q2 from ₹81 Cr"
        ],
        "highlight": false
       },
@@ -631,19 +631,19 @@
       {
        "name": "Bull",
        "value": "₹29,700 Cr",
-       "sub": "FY28 market cap · about +13%",
+       "sub": "FY28 market cap · about +8% on the 6 Nov market cap",
        "text": "~20% growth a year to ~₹4,500 Cr standalone revenue in FY28, ADS mix lifts net margin to 11% (₹495 Cr), valued at 60x."
       },
       {
        "name": "Base",
        "value": "₹21,000 Cr",
-       "sub": "FY28 market cap · about –20%",
+       "sub": "FY28 market cap · about –24% on the 6 Nov market cap",
        "text": "High-teens growth to ~₹4,200 Cr at a 10% net margin (₹420 Cr), valued at 50x."
       },
       {
        "name": "Bear",
        "value": "₹11,000 Cr",
-       "sub": "FY28 market cap · about –58%",
+       "sub": "FY28 market cap · about –60% on the 6 Nov market cap",
        "text": "Auto slows and semicon pauses: ~₹3,700 Cr at an 8.5% net margin (₹315 Cr), valued at 35x."
       }
      ]
@@ -663,42 +663,42 @@
      "type": "tiles",
      "items": [
       {
-       "value": "75.7x",
-       "label": "P/E, trailing standalone (Craftsman 58x)"
+       "value": "67.4x",
+       "label": "P/E, Screener consolidated, 6 Nov (76x standalone on 6 Oct)"
       },
       {
-       "value": "~42x",
-       "label": "EV / trailing EBITDA"
+       "value": "~36x",
+       "label": "Market cap / trailing EBITDA (net debt not updated)"
       },
       {
-       "value": "8.6x",
+       "value": "8.4x",
        "label": "Price / book value"
       },
       {
        "value": "~6%",
-       "label": "Return on incremental capital, FY24-26"
+       "label": "Return on incremental capital, FY24-26 (standalone)"
       }
      ]
     },
     {
      "type": "text",
-     "text": "Sansera is executing well on a credible pivot into aerospace and semiconductor machining, with backlog to show for it. But the stock is priced as a high-growth, high-return business while its overall ROCE remains mid-teens; the payoff depends on ADS reaching its FY31 ambitions and lifting returns, not just revenue.",
+     "text": "Sansera is executing well on a credible pivot into aerospace and semiconductor machining, with backlog to show for it. But the stock is priced as a high-growth, high-return business while its overall ROCE remains mid-teens; the payoff depends on ADS reaching its FY31 ambitions and lifting returns, not just revenue. Screener now shows Sansera on a consolidated basis, which is the basis management guides on; the financial tables above are still the standalone figures from the October version and the scenarios use the same standalone profit.",
      "src": null
     }
    ]
   }
  ],
  "watch": [
-  "ADS revenue vs ₹550-600 Cr for FY27",
-  "Growth vs high-teens to 20% guidance",
-  "EBITDA margin once forex gains fade",
-  "ROCE and free cash flow as capex continues",
-  "Steel and labour cost pass-through"
+  "Q2 call transcript: FY27 growth and margin guidance (August: high-teens to 20%, margin toward 19%)",
+  "ADS revenue in H2 against ₹550-600 Cr (₹310 Cr in H1)",
+  "Capex of about ₹800 Cr and returns on it",
+  "Semiconductor-equipment order execution",
+  "Wage and input-cost pressure on the 19% margin"
  ],
  "sources": [
-  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Screener financials and prices (6 Nov 2026), peers and shareholding as of 6 Oct 2026",
   "Q4 FY26 (21 May 2026) and Q1 FY27 (13 Aug 2026) concall transcripts and presentations",
-  "FY26 annual report",
-  "Peer data from Screener"
+  "Q2 FY27 investor presentation (Nov 2026); no Q2 transcript yet",
+  "FY26 annual report (not re-read for this refresh)"
  ]
 }

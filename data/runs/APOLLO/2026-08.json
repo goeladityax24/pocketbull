@@ -1,0 +1,192 @@
+{
+  "symbol": "APOLLO",
+  "concall": {
+    "month": "Aug 2026",
+    "yearMonth": "2026-08",
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79339d93-3a2f-49ab-8391-0f7acc03990f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36a5691a-6ad1-40a0-8d3f-f8f5b33f439b.pdf",
+    "recordingUrl": "https://apollo-micro.in/api/files/reports/ac4e9dc7-57bf-4d52-bb82-d6a1f9bf0bb7-10046199.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-08T13:42:34.470Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q1 FY27",
+    "call_date": "2026-08-08",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Growth of 40-45% this year, consolidated and standalone",
+        "kind": "growth_yoy",
+        "low": 40,
+        "high": 45,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Asked whether on consolidated or standalone: 'both'. Next year's guidance at the end of this financial year",
+        "quote": "Somewhere in between 40% to 45% is the continued growth that we will continue to demonstrate, in this financial year onwards.",
+        "page": 9,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "40% to 45% is the continued growth",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "No EBITDA margin guidance",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "we are not giving EBITDA guidance anytime, sir.",
+        "page": 9,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "not giving EBITDA guidance",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book of ₹3,500-4,000 Cr by end of FY27",
+        "kind": "absolute",
+        "low": 3500,
+        "high": 4000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Needs a single order of ₹2,500-3,000 Cr (MIGM); order book was ₹1,704 Cr (₹1,224 Cr standalone, ₹480 Cr Ideal) on 8 Aug",
+        "quote": "by end of this financial year, we are expecting a single order more than INR2,500 crores, INR3,000 crores, which will cumulatively bring, could bring our order book to INR3,500 crores to INR4,000-odd crores is on a consolidated basis.",
+        "page": 12,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "INR3,500 crores to INR4,000-odd crores",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "MIGM purchase order by December or January",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Total budget about ₹3,500 Cr, 20% advance, Apollo expects about 70% of the order, over about 3 years",
+        "quote": "Like order, we are expecting by December or January, we are expecting the purchase order.",
+        "page": 8,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "high",
+        "keyword": "expecting the purchase order",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit 3 complete production before March 2027",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "First phase already in production; a new plan only after the whole facility is operating",
+        "quote": "Maybe the final production as a complete production activity, I think before March '27, we are going to start.",
+        "page": 9,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "high",
+        "keyword": "before March '27",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q1 FY27 consolidated revenue was ₹251 Cr (+88% YoY), EBITDA ₹54 Cr (+31%) and PAT ₹25 Cr (+43%); standalone revenue was ₹156 Cr (+17%) and PAT ₹28 Cr (18% margin). The consolidated order book was ₹1,704 Cr, of which Ideal Explosives ₹480 Cr. Management held 40-45% growth guidance for the year, gave no EBITDA guidance, and expected the MIGM purchase order (about ₹3,500 Cr, 20% advance) by December or January.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "Growth guidance of 40-45% for the year, consolidated and standalone",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "MIGM purchase order expected December or January",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "steady",
+        "quote": "Given the long procurement cycles and milestone-based execution of defence contracts, revenue recognition can be uneven across quarters.",
+        "page": 4
+      },
+      "analyst_questions": [
+        {
+          "topic": "Revenue guidance and EBITDA margin",
+          "answer": "40-45% growth on both bases; 'we are not giving EBITDA guidance anytime'.",
+          "page": null
+        },
+        {
+          "topic": "Order-book trajectory including Premier",
+          "answer": "₹1,700 Cr now; a single order of ₹2,500-3,000 Cr by year-end could take it to ₹3,500-4,000 Cr; no comment on Premier during CCI review.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "Standalone growth was only 17% in Q1 against 40-45% guided, so the year depends on large orders landing.",
+          "page": null
+        },
+        {
+          "text": "Management says quarterly figures can be uneven because of long procurement cycles and milestone-based recognition.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "MIGM RFQ and purchase order",
+        "Premier Explosives approvals",
+        "Q2 standalone growth against the 40-45% guide"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Defence electronics and subsystems for missiles, naval and air-defence programmes; explosives through Ideal Explosives",
+        "customers": "DRDO, the Indian Navy, Army, BDL and other prime contractors",
+        "revenue_mix": "Standalone ₹156 Cr of ₹251 Cr Q1 consolidated revenue",
+        "demand_drivers": "MIGM, QRSAM, Akash-NG, Pinaka and naval programmes"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79339d93-3a2f-49ab-8391-0f7acc03990f.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36a5691a-6ad1-40a0-8d3f-f8f5b33f439b.pdf",
+    "transcriptPages": 22,
+    "transcriptHasText": true
+  }
+}

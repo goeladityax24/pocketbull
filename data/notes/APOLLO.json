@@ -1,0 +1,656 @@
+{
+ "as_of": "2026-11-08",
+ "descriptor": "Defence electronics and missile subsystems maker moving into explosives and weapon systems",
+ "lede": "Apollo Micro Systems makes guidance, control and fuzing electronics for Indian missile, torpedo and naval programmes and is buying into explosives. Q2 FY27 revenue was a record ₹388 Cr (+72%) and standalone margin 35%, but standalone H1 growth of 29% is below the 40% guided, operating cash flow has been negative for years, the big MIGM order is still to come, and the stock trades near 113x earnings.",
+ "market": {
+  "price": 423,
+  "mcap_cr": 15715,
+  "pe": 113.4,
+  "pb": 10.3,
+  "ev_ebitda": 57
+ },
+ "short_version": [
+  {
+   "lead": "What's going right",
+   "text": "Record Q2: consolidated revenue +72%, EBITDA ₹111 Cr (29% margin), standalone margin 35%. Order book ₹1,765 Cr, MIGM order called certain this financial year and would lift it to ₹4,500-5,000 Cr; new Unit 3 capacity and a CCI-cleared Premier deal."
+  },
+  {
+   "lead": "What to be sceptical about",
+   "text": "Standalone growth is only 29% against 35-45% guided; operating cash flow was -₹130 Cr in FY26 with working-capital days of 359; Ideal Explosives lags; large orders (MIGM, QRSAM, Pinaka) are not yet placed, and no FY28 numbers have been given."
+  },
+  {
+   "lead": "Price",
+   "text": "About 113x earnings and about 57x EV/EBITDA; the illustrative bull case is about 17% above the current market cap."
+  }
+ ],
+ "sections": [
+  {
+   "id": "business",
+   "title": "Company overview and business model",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Apollo Micro Systems, founded in 1985 and led by Karunakar Reddy Baddam, designs and makes defence electronics and subsystems: guidance and onboard computers, fuzes and actuators, power and control electronics and naval systems, mainly for DRDO programmes and prime contractors such as BDL, BEL and MIL. Through acquisitions it has added explosives: Ideal Explosives (a subsidiary) and, pending, Premier Explosives, which the Joint MD says would let it supply a complete missile.",
+     "src": "Oct call p.2, 16"
+    },
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹1,765 Cr",
+       "label": "Order book, 30 Sep 2026"
+      },
+      {
+       "value": "₹388 Cr",
+       "label": "Q2 FY27 consolidated revenue (+72%)"
+      },
+      {
+       "value": "35%",
+       "label": "Q2 standalone EBITDA margin"
+      },
+      {
+       "value": "49.98%",
+       "label": "Promoter holding, Sep 2026"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where the business sits",
+     "items": [
+      {
+       "lead": "Standalone",
+       "text": "Q2 FY27 revenue ₹306 Cr (+36%), EBITDA ₹108 Cr (35% margin), PAT ₹48 Cr. About ₹1,300 Cr of the order book.",
+       "src": "Oct call p.3, 14"
+      },
+      {
+       "lead": "Ideal Explosives",
+       "text": "Commercial explosives subsidiary, loss-making until recently on thin margins; a silo near Asansol was commissioned for Coal India orders. Turnaround 'a couple of quarters more'.",
+       "src": "Oct call p.3-4"
+      },
+      {
+       "lead": "Premier Explosives",
+       "text": "The Competition Commission has cleared the transaction and an open offer to public shareholders follows. Management will not comment on Premier until it closes.",
+       "src": "Oct call p.2, 10"
+      },
+      {
+       "lead": "ShauryAstra",
+       "text": "New company with Dr V. K. Saraswat to design long-range weapons; Apollo holds about 33-34% and will manufacture.",
+       "src": "Oct call p.22"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "What changed in 3-5 years",
+     "items": [
+      {
+       "lead": "Programmes cited",
+       "text": "MIGM (naval mine; about ₹3,500 Cr budget, Apollo expects about 70%), QRSAM and Akash-NG missile subsystems, Pinaka rocket components, Varunastra and heavyweight torpedoes, moored and limpet mines.",
+       "src": "Aug call p.8; Oct call p.8, 17"
+      },
+      {
+       "lead": "Capacity",
+       "text": "Unit 3 is about 12 times the present facility; its first phase is operating and the whole is due before March 2027.",
+       "src": "Oct call p.7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financials",
+   "title": "Financial health and core fundamentals",
+   "blocks": [
+    {
+     "type": "bars",
+     "title": "Revenue and EBITDA, ₹ Cr (consolidated)",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Revenue",
+       "values": [
+        243,
+        298,
+        372,
+        562,
+        904
+       ]
+      },
+      {
+       "name": "EBITDA",
+       "values": [
+        46,
+        64,
+        84,
+        129,
+        218
+       ]
+      }
+     ],
+     "caption": "Company-reported EBITDA excludes other income. Trailing 12 months revenue ₹1,184 Cr; H1 FY27 ₹639 Cr (+78%)."
+    },
+    {
+     "type": "bars",
+     "title": "Net profit vs operating cash flow, ₹ Cr",
+     "labels": [
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25",
+      "FY26"
+     ],
+     "series": [
+      {
+       "name": "Net profit",
+       "values": [
+        15,
+        19,
+        31,
+        56,
+        107
+       ]
+      },
+      {
+       "name": "Operating cash flow",
+       "values": [
+        43,
+        -16,
+        -78,
+        10,
+        -130
+       ]
+      }
+     ],
+     "caption": "Over five years profit was ₹228 Cr and operating cash flow -₹171 Cr, from FY23 onwards: defence stock and receivables are built ahead of delivery."
+    },
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Consolidated",
+       "numeric": false
+      },
+      {
+       "label": "FY22",
+       "numeric": true
+      },
+      {
+       "label": "FY23",
+       "numeric": true
+      },
+      {
+       "label": "FY24",
+       "numeric": true
+      },
+      {
+       "label": "FY25",
+       "numeric": true
+      },
+      {
+       "label": "FY26",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Revenue growth",
+        "—",
+        "22%",
+        "25%",
+        "51%",
+        "61%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "EBITDA margin",
+        "19%",
+        "22%",
+        "23%",
+        "23%",
+        "24%"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Interest cover",
+        "2.1x",
+        "2.4x",
+        "2.4x",
+        "3.3x",
+        "4.1x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Borrowings / equity",
+        "0.36x",
+        "0.37x",
+        "0.40x",
+        "0.55x",
+        "0.42x"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Working capital days",
+        "540",
+        "512",
+        "527",
+        "413",
+        "359"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "From the company's Q2 FY27 deck (p.10-14); borrowings/equity computed from its balance sheet. Screener's ROCE is 14.5%."
+    },
+    {
+     "type": "bullets",
+     "title": null,
+     "items": [
+      {
+       "lead": "Cash",
+       "text": "Poor so far. Inventory ₹795 Cr and receivables ₹481 Cr at March 2026 against ₹156 Cr of cash; operating cash flow was -₹130 Cr in FY26 and +₹22 Cr in H1 FY27. Management expects steady positive operating cash flow only from FY29.",
+       "src": "deck p.12-15; Oct call p.14"
+      },
+      {
+       "lead": "Funding",
+       "text": "Borrowings ₹543 Cr at March 2026 (₹335 Cr a year earlier). Equity rose from about ₹608 Cr to ₹1,308 Cr in FY26, far more than profit, which fits a share issue.",
+       "src": "deck p.14"
+      },
+      {
+       "lead": "Capex",
+       "text": "₹357 Cr of investing cash outflow in FY26 and ₹196 Cr of work in progress at March; Unit 3 and an in-house test facility are being built.",
+       "src": "deck p.14-15"
+      },
+      {
+       "lead": "Returns",
+       "text": "ROCE 14.5%, ROE 11.8% on Screener's current figures. Our ROIIC was not computed because the Sept balance sheet was not read.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "title": "Management and governance: walking the talk",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Promise",
+       "numeric": false
+      },
+      {
+       "label": "When",
+       "numeric": true
+      },
+      {
+       "label": "What they said",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Growth of 40-45% in FY27, consolidated and standalone",
+        "Aug 26",
+        "H1 consolidated +78%; standalone +29%; guidance trimmed to 35-45% on 26 Oct",
+        {
+         "text": "Mixed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "MIGM purchase order by December or January",
+        "Aug 26",
+        "Now 'for sure this financial year', RFQ in November, order before February",
+        {
+         "text": "Delayed",
+         "tag": "partial"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Order book ₹3,500-4,000 Cr by end of FY27",
+        "Aug 26",
+        "₹1,765 Cr now; ₹4,500-5,000 Cr if MIGM is placed",
+        {
+         "text": "Pending",
+         "tag": "pending"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Unit 3 complete production before March 2027",
+        "Aug 26",
+        "First phase running; EMI/EMC test lab within a month",
+        {
+         "text": "On track",
+         "tag": "kept"
+        }
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "No EBITDA guidance",
+        "Aug 26",
+        "Unchanged: 'maintain good momentum' in line with the topline",
+        {
+         "text": "Consistent",
+         "tag": "neutral"
+        }
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Only the Aug and Oct 2026 calls were analysed; earlier calls were not read for this note."
+    },
+    {
+     "type": "bullets",
+     "title": "Points to read in the annual report",
+     "items": [
+      {
+       "lead": "Ownership",
+       "text": "Promoters 49.98%, institutions 7.45% and public 42.58% at September 2026 (company deck). Pledges were not checked.",
+       "src": "deck p.17"
+      },
+      {
+       "lead": "Related-party and audit points",
+       "text": "The annual report was not read for this note: auditor remarks, related-party dealings and the Premier and Ideal accounting are still to be checked.",
+       "src": null
+      },
+      {
+       "lead": "Disclosure",
+       "text": "Management declined to comment on Premier under the share purchase agreement and on its program-level order book; a number of programmes are described as strategic and unnamed.",
+       "src": "Oct call p.8, 10"
+      },
+      {
+       "lead": "Tax",
+       "text": "Standalone effective tax rate was about 51% in Q2 because a lower regime no longer applies (CFO).",
+       "src": "Oct call p.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "title": "Industry, peers and competitive position",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Company (Screener, Nov 2026)",
+       "numeric": false
+      },
+      {
+       "label": "Market cap, ₹ Cr",
+       "numeric": true
+      },
+      {
+       "label": "P/E",
+       "numeric": true
+      },
+      {
+       "label": "ROCE %",
+       "numeric": true
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Apollo Micro Systems",
+        "15,715",
+        "113.4",
+        "14.5"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Data Patterns",
+        "20,730",
+        "85.3",
+        "21.9"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Sigma Advanced Systems",
+        "18,082",
+        "88.1",
+        "11.7"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Bharat Electronics",
+        "291,077",
+        "45.5",
+        "36.4"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Bharat Dynamics (customer)",
+        "39,189",
+        "75.3",
+        "13.9"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": "Screener's figures. Data Patterns and Sigma are the closest listed defence-electronics names; BEL is the scale incumbent and BDL a customer."
+    },
+    {
+     "type": "bullets",
+     "title": "Positioning",
+     "items": [
+      {
+       "lead": "Sole-source positions",
+       "text": "On MIGM the company says it is the only supplier of the electronics; on QRSAM it is sole source on some subsystems and shares others. DRDO policy generally wants two vendors, so second sources can arrive.",
+       "src": "Oct call p.10-11"
+      },
+      {
+       "lead": "Barrier to entry",
+       "text": "Management says new entrants need four to five years to clear quality audits; the Whole-time Director adds that sustaining lumpy business is the real barrier.",
+       "src": "Oct call p.15"
+      }
+     ]
+    },
+    {
+     "type": "bullets",
+     "title": "Where it is exposed",
+     "items": [
+      {
+       "lead": "Order timing",
+       "text": "MoD is splitting QRSAM 50:50 between BDL and private industry; Pralay is only at RFQ stage; large systems orders have been muted.",
+       "src": "Oct call p.7, 14"
+      },
+      {
+       "lead": "Integration risk",
+       "text": "Two explosives acquisitions, a weapon-design venture and a large new factory arrive together.",
+       "src": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risk analysis and bear case",
+   "blocks": [
+    {
+     "type": "table",
+     "title": null,
+     "columns": [
+      {
+       "label": "Risk",
+       "numeric": false
+      },
+      {
+       "label": "Type",
+       "numeric": false
+      },
+      {
+       "label": "Status",
+       "numeric": false
+      }
+     ],
+     "rows": [
+      {
+       "cells": [
+        "MIGM, QRSAM or Pinaka orders slip",
+        "Operational",
+        "MIGM RFQ expected in November; order by February with a 20% advance"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Cash flow stays negative",
+        "Financial",
+        "Working-capital days 359; positive operating cash flow only from FY29"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Premier open offer and funding",
+        "Financial",
+        "Open offer pending; funding not disclosed on the call"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Ideal Explosives losses",
+        "Operational",
+        "Consolidated profit below standalone in Q2; a couple more quarters"
+       ],
+       "highlight": false
+      },
+      {
+       "cells": [
+        "Guidance miss",
+        "Operational",
+        "H1 standalone growth 29% against 35-45% guided"
+       ],
+       "highlight": false
+      }
+     ],
+     "note": null
+    },
+    {
+     "type": "scenarios",
+     "items": [
+      {
+       "name": "Bull",
+       "value": "≈₹18,400 Cr",
+       "sub": "FY28 market cap · about +17%",
+       "text": "Revenue ₹2,100 Cr and PAT margin 12.5% (₹262 Cr) valued at 70x: MIGM lands early and Premier adds profit."
+      },
+      {
+       "name": "Base",
+       "value": "≈₹11,200 Cr",
+       "sub": "FY28 market cap · about –29%",
+       "text": "Revenue ₹1,700 Cr (about +35% on a ₹1,260 Cr FY27) at 11% (₹187 Cr), valued at 60x."
+      },
+      {
+       "name": "Bear",
+       "value": "≈₹5,700 Cr",
+       "sub": "FY28 market cap · about –64%",
+       "text": "Revenue ₹1,400 Cr at 9% (₹126 Cr), valued at 45x: orders slip and working capital absorbs cash."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Scenarios are illustrative arithmetic on stated assumptions, not company guidance (management has not given FY28 numbers); percentages are against the 6 Nov market cap of ₹15,715 Cr.",
+     "src": null
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "title": "Valuation and conclusion",
+   "blocks": [
+    {
+     "type": "tiles",
+     "items": [
+      {
+       "value": "₹423",
+       "label": "Price (52-week ₹180-467)"
+      },
+      {
+       "value": "113x",
+       "label": "P/E, Screener"
+      },
+      {
+       "value": "≈10x",
+       "label": "Price to book"
+      },
+      {
+       "value": "≈57x",
+       "label": "EV / trailing EBITDA (March net debt)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "At about ₹15,700 Cr the market values Apollo at roughly 13x the last four quarters' revenue (₹1,184 Cr on Screener's rows) and about 57x EBITDA of ₹283 Cr, using March net debt of ₹387 Cr. The price already assumes the MIGM order arrives, margins stay above 25% and the energetics acquisitions pay off, while operating cash flow has been negative. This is a note on valuation, not a buy or sell call.",
+     "src": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  "MIGM RFQ (November) and purchase order (by February)",
+  "Pinaka and torpedo orders in Q3",
+  "H2 standalone growth against 35-45%",
+  "Premier open offer and the joint guidance call",
+  "Operating cash flow and working-capital days",
+  "Ideal Explosives profit"
+ ],
+ "sources": [
+  "Screener financials, peers and prices (8 Nov 2026)",
+  "Q1 FY27 (8 Aug 2026) and Q2 FY27 (26 Oct 2026) concall transcripts",
+  "Q2 FY27 earnings presentation (company deck)",
+  "Annual report not read for this note; earlier calls not read"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "SANSERA",
+  "as_of": "2026-11-08",
+  "period": "Q3 FY27",
+  "results_due": "February 2027, going by Q2 being reported on 5-6 Nov",
+  "basis": "consolidated",
+  "revenue": {
+    "low": 1060,
+    "base": 1140,
+    "high": 1200
+  },
+  "operating_profit": {
+    "low": 191,
+    "base": 217,
+    "high": 234
+  },
+  "net_profit": {
+    "low": 88,
+    "base": 104,
+    "high": 121
+  },
+  "reasoning": [
+    "Q3 FY26 revenue was ₹908 Cr, above Q2 FY26's ₹825 Cr, so Q3 is not a seasonally weak quarter for Sansera. Q2 FY27 was ₹1,091 Cr (+32%); a base of ₹1,140 Cr is +26% on last year's Q3 and +4.5% on Q2.",
+    "Management's August guidance was high-teens to 20% growth for FY27, which H1's +33% already beats; we treat it as conservative. ADS revenue has to reach ₹550-600 Cr for FY27 (₹310 Cr in H1), so ADS adds ₹120-145 Cr a quarter in H2.",
+    "Margin: Q1 19.2% and Q2 19.4% on the company's definition; Screener's rows show about 19%. We use 19% in the base with 18% and 19.5% as the range; wage and input-cost pressure are the stated risks.",
+    "Profit after tax was 52% of operating profit in Q2 (higher other income) and 44% in Q1; we use 48%. Finance costs rose to ₹146 Cr in Q2 and depreciation to ₹602 Cr as new capacity entered."
+  ],
+  "risks": [
+    "Auto volumes soften after the festive season or exports slow",
+    "Semiconductor or aerospace deliveries shift between quarters",
+    "US tariff provisions (₹13 Cr in Q1) or litigation items recur",
+    "Rising depreciation and finance costs from the ₹800 Cr capex plan"
+  ],
+  "caveat": "Basis is consolidated (Screener now shows consolidated for Sansera; earlier notes used standalone). Estimates are on Screener's rows, are our own and are never scored."
+}
