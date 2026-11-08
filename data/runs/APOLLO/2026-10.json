@@ -1,0 +1,462 @@
+{
+  "symbol": "APOLLO",
+  "concall": {
+    "month": "Oct 2026",
+    "yearMonth": "2026-10",
+    "transcriptUrl": "https://apollo-micro.in/api/files/reports/f1151a27-3dd7-403a-82c4-7874c20b9016-earnings-call-transcript---october-26,-2026.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=467514a0-26e3-4e5b-a2be-e98c963d7996.pdf",
+    "recordingUrl": "https://ccreservations.com/recordings/data/10047933.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-08T13:42:40.654Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-10-26",
+    "guidance": [
+      {
+        "metric": "revenue",
+        "metric_label": "Growth of 35-45% this year",
+        "kind": "growth_yoy",
+        "low": 35,
+        "high": 45,
+        "unit": "pct",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Analysts called the standing guidance 45-50% for standalone and noted H1 standalone growth of only 29% (₹462 Cr vs ₹359 Cr); consolidated H1 growth was 78%. 'We already gave a guidance. We will continue to keep up with the guidance' (Whole-time Director). In answer to H2 execution: 'Anything 35% to 45% definitely we'll be doing'",
+        "quote": "like what is the guidance, anything 35% to 45% of growth, definitely we are going to meet.",
+        "page": 13,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "35% to 45% of growth",
+        "revises": "40-45% growth, consolidated and standalone (Aug 2026 call)"
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book to grow to about ₹2,000 Cr by March, excluding MIGM",
+        "kind": "absolute",
+        "low": 2000,
+        "high": 2000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "From 'a little over ₹1,700 crores' (₹1,765 Cr consolidated at 30 Sep, of which standalone a little under ₹1,300 Cr and the rest Ideal Explosives)",
+        "quote": "this will grow to around INR2,000-plus- odd crores by March, other than MIGM order, which is we are going to get.",
+        "page": 8,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "medium",
+        "keyword": "INR2,000-plus-odd crores by March",
+        "revises": null
+      },
+      {
+        "metric": "order_book",
+        "metric_label": "Order book of ₹4,500-5,000 Cr by year-end once MIGM is placed",
+        "kind": "absolute",
+        "low": 4500,
+        "high": 5000,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "Depends on the MIGM order being placed; 18-month execution generally, about 2.5 years for MIGM",
+        "quote": "And I am sure by this financial year-end, anything my -- this thing everything, MIGM order once they place, it is going to be anything INR4,500 crores to INR5,000 crores kind of orders we will be holding.",
+        "page": 17,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "INR4,500 crores to INR5,000 crores",
+        "revises": "Order book ₹3,500-4,000 Cr by end of FY27 (Aug 2026 call)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "MIGM order for sure this financial year",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "MD: RFQ expected in November and the purchase order before February, with a 20% advance before 31 March. User trials are complete",
+        "quote": "So MIGM, it is for sure that we are going to get MIGM order in this financial year.",
+        "page": 8,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "MIGM order this financial year",
+        "revises": "MIGM purchase order by December or January (Aug 2026 call)"
+      },
+      {
+        "metric": "other",
+        "metric_label": "MIGM RFQ expected in November",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": null,
+        "quote": "MIGM, we are in touch with headquarter, naval headquarters, and we are expecting RFQ next month. November, anytime we are expecting RFQ.",
+        "page": 6,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "high",
+        "keyword": "expecting RFQ next month",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Pinaka orders before December end",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Indian Army order for about 2,000 rockets to three vendors (MIL, Solar, Bharat Forge); Apollo has submitted its quote for the MIL case (300 numbers)",
+        "quote": "These Pinaka-related orders, we are expecting the next maximum before December end, we are expecting orders.",
+        "page": 8,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "Pinaka-related orders",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Heavyweight torpedo order for 30 numbers in November (BDL)",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "Q3 FY27",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "An order expected by BDL on an emergency basis, to be supplied within nine months; Apollo supplies subsystems. A further 125-number requirement follows",
+        "quote": "I think anytime this November month, they are expecting orders for 30 numbers.",
+        "page": 12,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "high",
+        "keyword": "orders for 30 numbers",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "About ₹100 Cr of Varunastra torpedo subsystem orders expected",
+        "kind": "absolute",
+        "low": 100,
+        "high": 100,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Share expected to flow to Apollo from BDL's ₹1,700 Cr Varunastra order",
+        "quote": "Varunastra thing, we are expecting I think around INR100 crores, INR100 crores-plus order, we are expecting.",
+        "page": 13,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "INR100 crores-plus order",
+        "revises": null
+      },
+      {
+        "metric": "ebitda_margin",
+        "metric_label": "Margin momentum to continue, in line with the topline",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No margin number. 'Quarterly margins keep varying... not an annuity performance'; the product mix changes. Q2 standalone EBITDA margin 35%, consolidated 29%",
+        "quote": "we can give a guidance that, you know, we will continue to, you know, maintain the, you know, good amount of momentum going forward for the further quarters as well, in line with the top-line momentum that we have already given a guidance.",
+        "page": 13,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "maintain good momentum",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Steady positive operating cash flow only from FY29",
+        "kind": "date",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY29",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Current orders mix more development projects than production orders. H1 FY27 operating cash flow was ₹22 Cr consolidated; working-capital days 353",
+        "quote": "you will start seeing it from fully from FY29 onwards, okay, where the anchoring orders majority will be the production orders.",
+        "page": 14,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "from fully from FY29 onwards",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Unit 3 will be about 12 times the present facility",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "First phase of Unit 3 is operating; the complete facility 'before March 2027' (Aug call). In-house EMI/EMC and calibration facility within about a month (p.18)",
+        "quote": "Compared to our present capacity to the expansion once it is ready, it is going to be almost 12 times bigger than the present facility.",
+        "page": 7,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "high",
+        "keyword": "12 times bigger",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Export orders from next financial year",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": "FY28",
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "Only after Unit 3 is fully operating",
+        "quote": "maybe next financial year onwards, I'm sure we'll be doing a good export orders also we’ll be taking and executing.",
+        "page": 7,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "export orders",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Energetics revenue guidance only after the Premier acquisition closes",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Energetics (Premier Explosives and Ideal Explosives)",
+        "condition": "Premier Explosives: CCI approval received, open offer next; 'the acquisition process is due only a month'; a joint call with guidance will follow. Premier and Ideal numbers were not discussed",
+        "quote": "The overall thought process towards the energetics and the guidance related to the revenue of our entire energetics business is concerned, once post-acquisition is complete, we will start giving effectively.",
+        "page": 20,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "once post-acquisition is complete",
+        "revises": null
+      },
+      {
+        "metric": "other",
+        "metric_label": "Ideal Explosives turnaround will take a couple more quarters",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Ideal Explosives",
+        "condition": "Q2 is an off-season quarter for commercial explosives; consolidated profit after tax (₹46 Cr) was below standalone (₹48 Cr)",
+        "quote": "It will take a couple of quarters more for us to make all these changes that has to be brought into the company.",
+        "page": 4,
+        "speaker": "A. Krishna Sai Kumar (Whole-time Director, Operations)",
+        "confidence": "high",
+        "keyword": "couple of quarters more",
+        "revises": null
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Aiming for a group target of ₹25,000 Cr in five years",
+        "kind": "absolute",
+        "low": 25000,
+        "high": 25000,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": null,
+        "horizon_text": "5 years",
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "The figure is the analyst's, from the MD's TV interview; the MD said 'I am aiming for that kind of numbers'. It rests on a 'big expansion in IDL', 15 types of plants and 2,000 more acres. Asked about ₹5,000 Cr of revenue at 20-22% margins: 'Coming years, definitely we are targeting' (p.9)",
+        "quote": "See, it is like this. As total group of companies, we are aiming that.",
+        "page": 16,
+        "speaker": "Karunakar Reddy Baddam (MD)",
+        "confidence": "medium",
+        "keyword": "As total group of companies, we are aiming that",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Q2 FY27 consolidated revenue was a record ₹388 Cr (+72% YoY), EBITDA ₹111 Cr (29% margin) and PAT ₹46 Cr (+40%); H1 revenue ₹639 Cr (+78%). Standalone Q2 revenue was ₹306 Cr (+36%) at a 35% EBITDA margin, but H1 standalone growth was 29%, below the 40-50% guided. Order book ₹1,765 Cr (standalone a little under ₹1,300 Cr). Management says the MIGM order is certain this financial year (RFQ in November, order before February) and would lift the order book to ₹4,500-5,000 Cr. The Premier Explosives acquisition awaits an open offer; energetics guidance comes after it closes.",
+      "what_changed": [
+        {
+          "change": "cut",
+          "text": "Growth guidance now 35-45% (was 40-45%); H1 standalone growth was only 29%",
+          "page": null
+        },
+        {
+          "change": "delayed",
+          "text": "MIGM order expected before February with 20% advance (was December or January)",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "Year-end order book with MIGM now ₹4,500-5,000 Cr (was ₹3,500-4,000 Cr)",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "CCI cleared the Premier Explosives transaction; open offer next",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "ShauryAstra Defense System (with Dr V. K. Saraswat; Apollo holds 33-34%) to design long-range weapon systems",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Technology transfer for the Semi-Active Laser Homing System awarded",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We have delivered our strongest performance in our company's history with record results for both September quarter and first half of FY27.",
+        "page": 2
+      },
+      "analyst_questions": [
+        {
+          "topic": "Why consolidated profit lags standalone",
+          "answer": "Ideal Explosives was loss-making on thin margins; more initiatives planned, 'a couple of quarters more'; Q2 is the off-season.",
+          "page": null
+        },
+        {
+          "topic": "Why standalone gross margin is about 40%",
+          "answer": "Production orders executed in Q2 rather than development projects; mix changes every quarter and margin is not an annuity.",
+          "page": null
+        },
+        {
+          "topic": "Muted large-system order flow",
+          "answer": "MoD is splitting QRSAM, with 50% for BDL and 50% for private industry; other orders are on schedule; naval work is fast-tracked.",
+          "page": null
+        },
+        {
+          "topic": "H2 execution out of the order book",
+          "answer": "Declined a figure; 'anything 35% to 45% definitely'; order book to grow to ₹2,000 Cr+ by March excluding MIGM.",
+          "page": null
+        },
+        {
+          "topic": "Standalone H1 growth of 30% against 45-50% guided",
+          "answer": "'We will continue to keep up with the guidance'; Unit 3 phase 1 started; 35-45% growth will be met.",
+          "page": null
+        },
+        {
+          "topic": "Operating cash flow",
+          "answer": "Steady positive operating cash flow only from FY29, when production orders anchor the business.",
+          "page": null
+        },
+        {
+          "topic": "Peak revenue from the new capacity",
+          "answer": "Not quantifiable; Unit 3 is 'good to go' for the next 5-6 years of subsystem business.",
+          "page": null
+        }
+      ],
+      "red_flags": [
+        {
+          "text": "H1 standalone revenue grew 29%, against the 40-50% growth guided; the guide was trimmed to 35-45% and H2 has to deliver.",
+          "page": null
+        },
+        {
+          "text": "Order book rose only to ₹1,765 Cr from ₹1,704 Cr in August despite a record quarter of execution; the large orders (MIGM, QRSAM, Pinaka) are not yet placed.",
+          "page": null
+        },
+        {
+          "text": "Working-capital days of 353 and operating cash flow of only ₹22 Cr in H1; management expects steady positive cash flow only from FY29.",
+          "page": null
+        },
+        {
+          "text": "Standalone effective tax rate of about 51% in Q2 as the lower tax rate no longer applies.",
+          "page": null
+        },
+        {
+          "text": "Premier Explosives and Ideal Explosives (subsidiary, loss-making until recently) are outside guidance; management declined to comment on Premier under the share purchase agreement.",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "MIGM RFQ in November and the purchase order by February",
+        "Pinaka, QRSAM and heavyweight-torpedo orders (BDL)",
+        "Premier Explosives open offer and the joint guidance call after it closes",
+        "H2 standalone revenue growth against 35-45%",
+        "Ideal Explosives profit and the capex plan for it",
+        "Unit 3 completion before March 2027"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Defence electronics and subsystems: missile guidance and onboard computers, fuzes, actuators, electronic warfare and naval systems, with energetics (explosives) through subsidiaries",
+        "customers": "DRDO, the Indian Navy, Army and Air Force, BDL, BEL, MIL, Solar and other prime contractors; exports planned from FY28",
+        "revenue_mix": "Standalone ₹462 Cr of ₹639 Cr H1 consolidated revenue; order book ₹1,765 Cr (standalone a little under ₹1,300 Cr, Ideal Explosives the rest)",
+        "demand_drivers": "MIGM, QRSAM, Pinaka, torpedo and naval programmes, indigenisation, technology-transfer awards, energetics demand from Coal India subsidiaries"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://apollo-micro.in/api/files/reports/f1151a27-3dd7-403a-82c4-7874c20b9016-earnings-call-transcript---october-26,-2026.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=467514a0-26e3-4e5b-a2be-e98c963d7996.pdf",
+    "transcriptPages": 23,
+    "transcriptHasText": true
+  }
+}

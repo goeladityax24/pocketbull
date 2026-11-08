@@ -1,26 +1,26 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-11-08",
  "descriptor": "Precision engine parts plus aerospace and semiconductor machining",
- "lede": "A Bengaluru maker of crankshafts and connecting rods for two-wheelers and cars that is turning into an aerospace and semiconductor-equipment machinist. Its ADS business tripled in a year and has a ₹5,700 Cr backlog, while the auto core keeps growing in the mid-teens. Returns on capital are still middling and the stock trades at 76x standalone earnings.",
+ "lede": "A Bengaluru maker of crankshafts and connecting rods for two-wheelers and cars that is turning into an aerospace and semiconductor-equipment machinist. Q2 FY27 revenue rose 32% to a record ₹1,091 Cr at a 19.4% EBITDA margin and ADS sales tripled (+207%), taking non-auto to 21% of sales. Returns on capital are still middling, about ₹800 Cr of capex is planned for FY27, and the stock trades near 67x consolidated earnings.",
  "market": {
-  "price": 4233,
-  "mcap_cr": 26395,
-  "pe": 75.7,
-  "pb": 8.6,
-  "ev_ebitda": 42
+  "price": 4414,
+  "mcap_cr": 27567,
+  "pe": 67.4,
+  "pb": 8.4,
+  "ev_ebitda": null
  },
  "short_version": [
   {
    "lead": "What's going right",
-   "text": "Q1 FY27 consolidated revenue +33% to a record ₹1,021 Cr at a 19.2% EBITDA margin; ADS (aerospace, defence, semiconductor) revenue more than tripled, and a ~₹1,250 Cr semicon order took the ADS backlog to ~₹5,700 Cr. Net debt is low after a ₹1,200 Cr QIP in 2024."
+   "text": "Q2 FY27 consolidated revenue +32% to ₹1,091 Cr, EBITDA +48% to ₹211 Cr (19.4% margin) and profit after tax +52% to ₹109 Cr. ADS revenue was ₹164 Cr (+207%) and its backlog is ₹5,870 Cr over five years; peak annual revenue from other new orders rose to ₹2,241 Cr from ₹1,690 Cr in March."
   },
   {
    "lead": "What to be sceptical about",
-   "text": "ROCE has stayed at 13-16% for six years; capex of ~₹500 Cr a year keeps free cash flow negative, and return on capital added since FY24 is only ~6% (much of the QIP cash is still idle). Q1 margins were helped by forex and export mix."
+   "text": "ROCE is 14.5% after six years of 13-16%, capex of about ₹800 Cr is planned for FY27 (₹326 Cr spent in H1), finance costs doubled to ₹146 Cr in the quarter, and the Q2 deck has no Q&A, so August's high-teens growth and 19% margin guide is not yet updated."
   },
   {
    "lead": "Price",
-   "text": "~76x trailing standalone earnings and ~42x EV/EBITDA, against 58x for Craftsman, 57x for Happy Forgings and 91x for Bharat Forge."
+   "text": "About 67x consolidated earnings on Screener's 6 Nov data (the October version of this note used 76x standalone), at ₹4,414 per share."
   }
  ],
  "sections": [
@@ -30,7 +30,7 @@
    "blocks": [
     {
      "type": "text",
-     "text": "Sansera forges and machines critical engine and chassis parts: crankshafts, connecting rods, rocker arms and gear-shift forks for two-wheelers, cars, trucks and off-road vehicles, in India and Sweden. Its ADS division machines complex parts for aircraft (Boeing and Airbus programmes, an engine blisk), semiconductor-capital-equipment makers and defence. We use standalone figures, as Screener's link was standalone; consolidated revenue is about 13% higher.",
+     "text": "Sansera forges and machines critical engine and chassis parts: crankshafts, connecting rods, rocker arms and gear-shift forks for two-wheelers, cars, trucks and off-road vehicles, in India and Sweden. Its ADS division machines complex parts for aircraft (Boeing and Airbus programmes, an engine blisk), semiconductor-capital-equipment makers and defence. Figures in this note are consolidated, as Screener now shows them (the October version used standalone, about 13% lower on revenue).",
      "src": "May call p.10"
     },
     {
@@ -81,12 +81,12 @@
      "items": [
       {
        "lead": "",
-       "text": "Listed in 2021; standalone revenue from ₹1,745 Cr (FY22) to ₹3,098 Cr (FY26).",
+       "text": "Listed in 2021; consolidated revenue from ₹1,989 Cr (FY22) to ₹3,498 Cr (FY26).",
        "src": null
       },
       {
        "lead": "",
-       "text": "Raised ₹1,200 Cr in a QIP in October 2024; debt/equity down to ~0.1x.",
+       "text": "Raised ₹1,200 Cr in a QIP in October 2024; borrowings fell to ₹407 Cr and debt/equity to 0.15x at March 2025 (0.24x at September 2026 after new capex).",
        "src": "AR p.184"
       },
       {
@@ -104,7 +104,7 @@
    "blocks": [
     {
      "type": "bars",
-     "title": "Revenue, ₹ Cr (standalone)",
+     "title": "Revenue, ₹ Cr (consolidated)",
      "labels": [
       "FY22",
       "FY23",
@@ -116,15 +116,15 @@
       {
        "name": "Revenue",
        "values": [
-        1745,
-        2099,
-        2548,
-        2719,
-        3098
+        1989,
+        2338,
+        2811,
+        3017,
+        3498
        ]
       }
      ],
-     "caption": "Trailing 12 months ₹3,341 Cr."
+     "caption": "Trailing 12 months ₹4,019 Cr (+30%)."
     },
     {
      "type": "bars",
@@ -140,32 +140,32 @@
       {
        "name": "Net profit",
        "values": [
-        128,
-        150,
-        190,
-        206,
-        298
+        132,
+        148,
+        188,
+        217,
+        327
        ]
       },
       {
        "name": "Operating cash flow",
        "values": [
-        186,
-        231,
-        358,
-        321,
-        320
+        213,
+        256,
+        374,
+        377,
+        387
        ]
       }
      ],
-     "caption": null
+     "caption": "Five-year profit ₹1,012 Cr, operating cash flow ₹1,607 Cr."
     },
     {
      "type": "table",
      "title": null,
      "columns": [
       {
-       "label": "Standalone",
+       "label": "Consolidated",
        "numeric": false
       },
       {
@@ -194,10 +194,10 @@
        "cells": [
         "Revenue growth",
         "—",
+        "18%",
         "20%",
-        "21%",
         "7%",
-        "14%"
+        "16%"
        ],
        "highlight": false
       },
@@ -205,8 +205,8 @@
        "cells": [
         "EBITDA margin",
         "17%",
+        "16%",
         "17%",
-        "18%",
         "17%",
         "18%"
        ],
@@ -215,11 +215,11 @@
       {
        "cells": [
         "Net profit, ₹ Cr",
-        "128",
-        "150",
-        "190",
-        "206",
-        "298"
+        "132",
+        "148",
+        "188",
+        "217",
+        "327"
        ],
        "highlight": false
       },
@@ -227,32 +227,32 @@
        "cells": [
         "ROCE",
         "14%",
-        "15%",
+        "14%",
         "16%",
-        "13%",
-        "14%"
+        "14%",
+        "15%"
        ],
        "highlight": false
       },
       {
        "cells": [
         "Operating cash flow, ₹ Cr",
-        "186",
-        "231",
-        "358",
-        "321",
-        "320"
+        "213",
+        "256",
+        "374",
+        "377",
+        "387"
        ],
        "highlight": false
       },
       {
        "cells": [
         "Cash conversion cycle, days",
-        "89",
-        "107",
-        "83",
-        "106",
-        "108"
+        "80",
+        "96",
+        "79",
+        "96",
+        "98"
        ],
        "highlight": false
       }
@@ -265,23 +265,23 @@
      "items": [
       {
        "lead": "Cash backs the profit:",
-       "text": "₹1,416 Cr of operating cash flow against ₹972 Cr of profit over FY22-26; but capex kept free cash flow negative in FY25 and FY26.",
-       "src": null
+       "text": "₹1,607 Cr of operating cash flow against ₹1,012 Cr of profit over FY22-26; but capex made free cash flow negative in FY25 (-₹219 Cr) and FY26 (-₹123 Cr).",
+       "src": "Screener, consolidated"
       },
       {
-       "lead": "Debt is low:",
-       "text": "borrowings ₹370 Cr against ₹3,061 Cr of equity; interest cover 17x.",
-       "src": null
+       "lead": "Debt is low but rising:",
+       "text": "borrowings ₹591 Cr against ₹3,087 Cr of equity at March 2026 (0.19x) and ₹793 Cr at September 2026; interest cover (operating profit less depreciation over interest) was 11x in FY26, but finance costs doubled to ₹146 Cr in Q2 FY27 against ₹81 Cr a year earlier.",
+       "src": "Screener; Q2 deck p.11"
       },
       {
        "lead": "Return on new capital (ROIIC): about 6%.",
-       "text": "Capital employed rose ~₹1,339 Cr from FY24 to FY26, mostly QIP money, while post-tax operating profit rose ~₹76 Cr. ROCE has never been above 16%.",
+       "text": "Capital employed rose ~₹1,439 Cr from FY24 to FY26, mostly QIP money, while post-tax operating profit rose ~₹91 Cr. ROCE has been 14-16% for five years.",
        "src": null
       },
       {
-       "lead": "Inventory days rose to 170",
-       "text": "as ADS working capital built up; operating cash flow fell to 11% of revenue.",
-       "src": "May call p.16"
+       "lead": "Inventory days rose to 169",
+       "text": "as ADS working capital built up; operating cash flow was 75% of EBITDA in FY26, down from 105% in FY21.",
+       "src": "Screener, consolidated"
       }
      ]
     }
@@ -329,7 +329,7 @@
        "cells": [
         "Similar growth to FY26 (16%) in FY27",
         "May 26",
-        "Q1 FY27 +33%; guidance raised to high-teens to 20%",
+        "Q1 FY27 +33% and Q2 +32%; August guidance raised to high-teens to 20%",
         {
          "text": "Ahead",
          "tag": "ahead"
@@ -340,8 +340,8 @@
       {
        "cells": [
         "ADS revenue ₹550-600 Cr in FY27",
-        "May 26",
-        "Q1 FY27 ₹145 Cr (~₹580 Cr run-rate)",
+        "May 26 / Nov 26 deck",
+        "H1 FY27 ₹310 Cr (Q1 ₹145 Cr, Q2 ₹164 Cr); guide repeated in the Q2 deck",
         {
          "text": "On track",
          "tag": "kept"
@@ -353,7 +353,7 @@
        "cells": [
         "EBITDA margin inching toward 19%",
         "Aug 26",
-        "Q1 FY27 19.2% (with forex help)",
+        "Q1 19.2%, Q2 19.4%",
         {
          "text": "On track",
          "tag": "kept"
@@ -468,12 +468,12 @@
      "rows": [
       {
        "cells": [
-        "Sansera Engineering (standalone)",
-        "3,098",
+        "Sansera Engineering",
+        "3,498",
         "18%",
-        "298",
-        "14%",
-        "75.7x"
+        "327",
+        "15%",
+        "67.4x"
        ],
        "highlight": true
       },
@@ -522,7 +522,7 @@
        "highlight": false
       }
      ],
-     "note": null
+     "note": "Sansera's figures are consolidated and its P/E is Screener's on 6 Nov 2026; peers' figures and P/E were taken on 6 Oct 2026."
     },
     {
      "type": "bullets",
@@ -602,7 +602,7 @@
        "cells": [
         "Low returns on heavy capex",
         "Financial",
-        "ROCE 14%; ~₹500 Cr capex a year"
+        "ROCE 14.5%; about ₹800 Cr of FY27 capex planned, ₹326 Cr spent in H1; finance costs up to ₹146 Cr in Q2 from ₹81 Cr"
        ],
        "highlight": false
       },
@@ -630,21 +630,21 @@
      "items": [
       {
        "name": "Bull",
-       "value": "₹29,700 Cr",
-       "sub": "FY28 market cap · about +13%",
-       "text": "~20% growth a year to ~₹4,500 Cr standalone revenue in FY28, ADS mix lifts net margin to 11% (₹495 Cr), valued at 60x."
+       "value": "₹35,300 Cr",
+       "sub": "FY28 market cap · about +28% on the 6 Nov market cap",
+       "text": "About 20% growth a year to ~₹5,600 Cr consolidated revenue in FY28 as ADS and exports lift the net margin to 10.5% (₹588 Cr), valued at 60x."
       },
       {
        "name": "Base",
-       "value": "₹21,000 Cr",
-       "sub": "FY28 market cap · about –20%",
-       "text": "High-teens growth to ~₹4,200 Cr at a 10% net margin (₹420 Cr), valued at 50x."
+       "value": "₹24,200 Cr",
+       "sub": "FY28 market cap · about –12% on the 6 Nov market cap",
+       "text": "Growth slows to ~₹5,100 Cr at a 9.5% net margin (₹485 Cr), valued at 50x."
       },
       {
        "name": "Bear",
-       "value": "₹11,000 Cr",
-       "sub": "FY28 market cap · about –58%",
-       "text": "Auto slows and semicon pauses: ~₹3,700 Cr at an 8.5% net margin (₹315 Cr), valued at 35x."
+       "value": "₹12,600 Cr",
+       "sub": "FY28 market cap · about –54% on the 6 Nov market cap",
+       "text": "Auto slows and semicon pauses: ~₹4,500 Cr at an 8% net margin (₹360 Cr), valued at 35x."
       }
      ]
     },
@@ -663,15 +663,15 @@
      "type": "tiles",
      "items": [
       {
-       "value": "75.7x",
-       "label": "P/E, trailing standalone (Craftsman 58x)"
+       "value": "67.4x",
+       "label": "P/E, Screener consolidated, 6 Nov (Craftsman 58x on 6 Oct)"
       },
       {
-       "value": "~42x",
-       "label": "EV / trailing EBITDA"
+       "value": "~36x",
+       "label": "Market cap / trailing EBITDA (₹760 Cr; net debt not updated)"
       },
       {
-       "value": "8.6x",
+       "value": "8.4x",
        "label": "Price / book value"
       },
       {
@@ -689,16 +689,16 @@
   }
  ],
  "watch": [
-  "ADS revenue vs ₹550-600 Cr for FY27",
-  "Growth vs high-teens to 20% guidance",
-  "EBITDA margin once forex gains fade",
-  "ROCE and free cash flow as capex continues",
-  "Steel and labour cost pass-through"
+  "Q2 call transcript: FY27 growth and margin guidance (August: high-teens to 20%, margin toward 19%)",
+  "ADS revenue in H2 against ₹550-600 Cr (₹310 Cr in H1)",
+  "Capex of about ₹800 Cr and returns on it",
+  "Semiconductor-equipment order execution",
+  "Wage and input-cost pressure on the 19% margin"
  ],
  "sources": [
-  "Screener financials, shareholding and prices (6 Oct 2026)",
+  "Screener consolidated financials, balance sheet, cash flow and prices (8 Nov 2026); peers and shareholding as of 6 Oct 2026",
   "Q4 FY26 (21 May 2026) and Q1 FY27 (13 Aug 2026) concall transcripts and presentations",
-  "FY26 annual report",
-  "Peer data from Screener"
+  "Q2 FY27 investor presentation (Nov 2026); no Q2 transcript yet",
+  "FY26 annual report (not re-read for this refresh)"
  ]
 }

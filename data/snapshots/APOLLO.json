@@ -1,0 +1,625 @@
+{
+  "symbol": "APOLLO",
+  "name": "Apollo Micro Systems Ltd",
+  "screenerUrl": "https://www.screener.in/company/APOLLO/consolidated/",
+  "basis": "consolidated",
+  "companyId": "1274254",
+  "warehouseId": "56460137",
+  "ratios": {
+    "market cap": 15715,
+    "current price": 423,
+    "high": 467,
+    "low": 180,
+    "stock p/e": 113,
+    "book value": 40.9,
+    "dividend yield": 0.06,
+    "roce": 14.5,
+    "roe": 11.8,
+    "face value": 1
+  },
+  "interim": {
+    "granularity": "quarter",
+    "periods": [
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 2,
+        "endDate": "2023-09-30",
+        "label": "Q2 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 3,
+        "endDate": "2023-12-31",
+        "label": "Q3 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2024,
+        "index": 4,
+        "endDate": "2024-03-31",
+        "label": "Q4 FY24"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 1,
+        "endDate": "2024-06-30",
+        "label": "Q1 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 2,
+        "endDate": "2024-09-30",
+        "label": "Q2 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 3,
+        "endDate": "2024-12-31",
+        "label": "Q3 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2025,
+        "index": 4,
+        "endDate": "2025-03-31",
+        "label": "Q4 FY25"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 1,
+        "endDate": "2025-06-30",
+        "label": "Q1 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 2,
+        "endDate": "2025-09-30",
+        "label": "Q2 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 3,
+        "endDate": "2025-12-31",
+        "label": "Q3 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2026,
+        "index": 4,
+        "endDate": "2026-03-31",
+        "label": "Q4 FY26"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 1,
+        "endDate": "2026-06-30",
+        "label": "Q1 FY27"
+      },
+      {
+        "kind": "quarter",
+        "fy": 2027,
+        "index": 2,
+        "endDate": "2026-09-30",
+        "label": "Q2 FY27"
+      }
+    ],
+    "rows": {
+      "sales": [
+        87,
+        91,
+        135,
+        91,
+        161,
+        148,
+        162,
+        134,
+        225,
+        252,
+        293,
+        251,
+        388
+      ],
+      "expenses": [
+        69,
+        67,
+        107,
+        69,
+        128,
+        110,
+        126,
+        93,
+        166,
+        202,
+        226,
+        198,
+        277
+      ],
+      "operating_profit": [
+        18,
+        24,
+        29,
+        22,
+        33,
+        38,
+        36,
+        41,
+        59,
+        50,
+        68,
+        54,
+        111
+      ],
+      "opm_pct": [
+        21,
+        26,
+        21,
+        25,
+        20,
+        26,
+        22,
+        31,
+        26,
+        20,
+        23,
+        21,
+        29
+      ],
+      "other_income": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        4
+      ],
+      "interest": [
+        7,
+        7,
+        8,
+        8,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        9,
+        11,
+        15
+      ],
+      "depreciation": [
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "pbt": [
+        9,
+        14,
+        18,
+        12,
+        22,
+        26,
+        22,
+        25,
+        43,
+        32,
+        55,
+        38,
+        92
+      ],
+      "tax_pct": [
+        25,
+        31,
+        29,
+        29,
+        30,
+        30,
+        36,
+        30,
+        30,
+        28,
+        33,
+        33,
+        50
+      ],
+      "net_profit": [
+        7,
+        10,
+        13,
+        8,
+        16,
+        18,
+        14,
+        18,
+        30,
+        23,
+        37,
+        25,
+        46
+      ],
+      "eps": [
+        0.28,
+        0.35,
+        0.46,
+        0.28,
+        0.51,
+        0.6,
+        0.46,
+        0.55,
+        0.93,
+        0.72,
+        1.05,
+        0.72,
+        1.3
+      ]
+    }
+  },
+  "annual": {
+    "granularity": "year",
+    "periods": [
+      {
+        "kind": "year",
+        "fy": 2020,
+        "index": 0,
+        "endDate": "2020-03-31",
+        "label": "FY20"
+      },
+      {
+        "kind": "year",
+        "fy": 2021,
+        "index": 0,
+        "endDate": "2021-03-31",
+        "label": "FY21"
+      },
+      {
+        "kind": "year",
+        "fy": 2022,
+        "index": 0,
+        "endDate": "2022-03-31",
+        "label": "FY22"
+      },
+      {
+        "kind": "year",
+        "fy": 2023,
+        "index": 0,
+        "endDate": "2023-03-31",
+        "label": "FY23"
+      },
+      {
+        "kind": "year",
+        "fy": 2024,
+        "index": 0,
+        "endDate": "2024-03-31",
+        "label": "FY24"
+      },
+      {
+        "kind": "year",
+        "fy": 2025,
+        "index": 0,
+        "endDate": "2025-03-31",
+        "label": "FY25"
+      },
+      {
+        "kind": "year",
+        "fy": 2026,
+        "index": 0,
+        "endDate": "2026-03-31",
+        "label": "FY26"
+      }
+    ],
+    "rows": {
+      "sales": [
+        246,
+        203,
+        243,
+        298,
+        372,
+        562,
+        904
+      ],
+      "expenses": [
+        197,
+        165,
+        198,
+        233,
+        288,
+        433,
+        685
+      ],
+      "operating_profit": [
+        49,
+        39,
+        46,
+        64,
+        84,
+        129,
+        219
+      ],
+      "opm_pct": [
+        20,
+        19,
+        19,
+        22,
+        23,
+        23,
+        24
+      ],
+      "other_income": [
+        2,
+        1,
+        1,
+        -2,
+        2,
+        3,
+        5
+      ],
+      "interest": [
+        15,
+        16,
+        17,
+        22,
+        30,
+        34,
+        47
+      ],
+      "depreciation": [
+        10,
+        9,
+        9,
+        10,
+        11,
+        15,
+        22
+      ],
+      "pbt": [
+        25,
+        14,
+        20,
+        29,
+        44,
+        83,
+        155
+      ],
+      "tax_pct": [
+        45,
+        29,
+        28,
+        35,
+        29,
+        32,
+        31
+      ],
+      "net_profit": [
+        14,
+        10,
+        15,
+        19,
+        31,
+        56,
+        107
+      ],
+      "eps": [
+        0.67,
+        0.49,
+        0.7,
+        0.9,
+        1.1,
+        1.84,
+        3.16
+      ]
+    }
+  },
+  "concalls": [
+    {
+      "month": "Oct 2026",
+      "yearMonth": "2026-10",
+      "transcriptUrl": "https://apollo-micro.in/api/files/reports/f1151a27-3dd7-403a-82c4-7874c20b9016-earnings-call-transcript---october-26,-2026.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=467514a0-26e3-4e5b-a2be-e98c963d7996.pdf",
+      "recordingUrl": "https://ccreservations.com/recordings/data/10047933.mp3"
+    },
+    {
+      "month": "Aug 2026",
+      "yearMonth": "2026-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79339d93-3a2f-49ab-8391-0f7acc03990f.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36a5691a-6ad1-40a0-8d3f-f8f5b33f439b.pdf",
+      "recordingUrl": "https://apollo-micro.in/api/files/reports/ac4e9dc7-57bf-4d52-bb82-d6a1f9bf0bb7-10046199.mp3"
+    },
+    {
+      "month": "May 2026",
+      "yearMonth": "2026-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=626429de-b516-4b83-8f9c-3645cde8e959.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b39c6e-d252-4076-9352-e23339ac9c63.pdf",
+      "recordingUrl": "https://apollo-micro.com/recordings-of-post-earnings-calls.html."
+    },
+    {
+      "month": "Feb 2026",
+      "yearMonth": "2026-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdb31d7c-dc85-4ccf-ac00-1c816ac19b8b.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa916eff-b607-4636-940e-3bbd2ec53ff0.pdf",
+      "recordingUrl": "https://youtu.be/imUn9Ssdifc"
+    },
+    {
+      "month": "Nov 2025",
+      "yearMonth": "2025-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76545772-7478-48d2-8d16-ea529b80d50d.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a55dbdf-d244-4fb5-9147-297d10ee1b1a.pdf",
+      "recordingUrl": "https://youtu.be/mEA7vHUaiho"
+    },
+    {
+      "month": "Aug 2025",
+      "yearMonth": "2025-08",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1daa8ccb-59c9-4707-97f2-a50f8dc5712a.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a814eb-ff96-44b8-8c10-60864da29e5f.pdf",
+      "recordingUrl": "https://youtu.be/nnFrVoq_5Hk?si=3K41rZdYxBfi2VFO"
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=260b9ad6-5cac-4f3a-9b75-a3b42830d898.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e535e81-8f59-4c21-9e37-816a045b6565.pdf",
+      "recordingUrl": "https://apollo-micro.com/investors/"
+    },
+    {
+      "month": "May 2025",
+      "yearMonth": "2025-05-b",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edd73a1f-4536-4351-b5a3-4afe38068d1d.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Feb 2025",
+      "yearMonth": "2025-02",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=740118ba-71f9-408c-83f4-a421540b0ec2.pdf",
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=841a244f-e1e5-43fc-b156-02361487b1dd.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Dec 2024",
+      "yearMonth": "2024-12",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1608b588-35b8-4418-8260-f51b52377146.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2024",
+      "yearMonth": "2024-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4af73ef0-f33c-4810-90b7-1f11b91ec318.pdf",
+      "recordingUrl": "https://apollo-micro.in/api/files/reports/23e28f3a-8039-4e8e-96fc-b12ba5baeb1c-audio-recording-of-conference-call-on-05th-november-2025.mp3"
+    },
+    {
+      "month": "Aug 2024",
+      "yearMonth": "2024-08",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d51a899-9801-4c49-bb51-df13c3a1f978.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2024",
+      "yearMonth": "2024-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa7a7959-5dc5-45b0-8f3f-19b8f0b20457.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2023",
+      "yearMonth": "2023-11",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f35d7db-1ee8-4a6c-afa0-e527cc89a0f7.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Sep 2023",
+      "yearMonth": "2023-09",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f30ac41-274f-4816-8b52-597e242ff527.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "May 2023",
+      "yearMonth": "2023-05",
+      "transcriptUrl": null,
+      "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=829e56b0-4682-418f-838c-f1e291eb791f.pdf",
+      "recordingUrl": null
+    },
+    {
+      "month": "Nov 2018",
+      "yearMonth": "2018-11",
+      "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07450e07-0981-49cb-9a19-f494cb41bb0f.pdf",
+      "pptUrl": null,
+      "recordingUrl": null
+    }
+  ],
+  "peers": [
+    {
+      "name": "Hind.Aeronautics",
+      "screenerPath": "/company/HAL/consolidated/",
+      "marketCapCr": 333541.73,
+      "pe": 35.78,
+      "salesQtrCr": 5515.17,
+      "salesGrowthQtrPct": 14.45,
+      "roce": 31.97
+    },
+    {
+      "name": "Bharat Electron",
+      "screenerPath": "/company/BEL/consolidated/",
+      "marketCapCr": 291077.42,
+      "pe": 45.49,
+      "salesQtrCr": 7327.72,
+      "salesGrowthQtrPct": 26.51,
+      "roce": 36.44
+    },
+    {
+      "name": "Bharat Dynamics",
+      "screenerPath": "/company/BDL/",
+      "marketCapCr": 39189.23,
+      "pe": 75.25,
+      "salesQtrCr": 572.24,
+      "salesGrowthQtrPct": 130.81,
+      "roce": 13.86
+    },
+    {
+      "name": "Garden Reach Sh.",
+      "screenerPath": "/company/GRSE/",
+      "marketCapCr": 24694.48,
+      "pe": 30.84,
+      "salesQtrCr": 1814.62,
+      "salesGrowthQtrPct": 38.53,
+      "roce": 42.82
+    },
+    {
+      "name": "Data Pattern",
+      "screenerPath": "/company/DATAPATTNS/",
+      "marketCapCr": 20729.58,
+      "pe": 85.29,
+      "salesQtrCr": 133.25,
+      "salesGrowthQtrPct": -56.66,
+      "roce": 21.92
+    },
+    {
+      "name": "Sigma Advanced System",
+      "screenerPath": "/company/SIGMAADV/consolidated/",
+      "marketCapCr": 18081.83,
+      "pe": 88.09,
+      "salesQtrCr": 417.07,
+      "salesGrowthQtrPct": 2197.91,
+      "roce": 11.74
+    },
+    {
+      "name": "Apollo Micro Sys",
+      "screenerPath": "/company/APOLLO/consolidated/",
+      "marketCapCr": 15715.19,
+      "pe": 113.35,
+      "salesQtrCr": 388.15,
+      "salesGrowthQtrPct": 72.31,
+      "roce": 14.53
+    }
+  ],
+  "fetchedAt": "2026-11-08T13:40:07.646Z"
+}

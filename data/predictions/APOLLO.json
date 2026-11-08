@@ -1,0 +1,35 @@
+{
+  "symbol": "APOLLO",
+  "as_of": "2026-11-08",
+  "period": "Q3 FY27",
+  "results_due": "late January to February 2027, going by Q2 being reported on 26 Oct",
+  "basis": "consolidated",
+  "revenue": {
+    "low": 290,
+    "base": 350,
+    "high": 410
+  },
+  "operating_profit": {
+    "low": 58,
+    "base": 88,
+    "high": 119
+  },
+  "net_profit": {
+    "low": 24,
+    "base": 37,
+    "high": 50
+  },
+  "reasoning": [
+    "Management guides 35-45% FY27 growth on FY26's ₹904 Cr, which is ₹1,220-1,310 Cr; H1 was ₹639 Cr, so H2 needs ₹580-670 Cr. Asked about a ₹700 Cr H2 (against about ₹400 Cr last year), the MD said 'definitely more than that', so we assume about ₹350 Cr a quarter: base ₹350 Cr is +39% on Q3 FY26's ₹252 Cr and 10% below Q2's record ₹388 Cr.",
+    "Revenue is lumpy: Q1 was ₹251 Cr, Q2 ₹388 Cr. Q2 included production orders executed; defence recognition follows milestones, and the order book rose only from ₹1,704 Cr to ₹1,765 Cr.",
+    "Margin: Q2 operating margin was 29% (Screener's rows), Q1 21%, Q3 FY26 20%. Management says margins vary with the mix and are 'not an annuity', so we use 25% in the base, 20% low and 29% high.",
+    "Profit after tax has been 41-46% of operating profit in recent quarters (interest ₹10 Cr+ a quarter, 30% tax regime on standalone); we use 42%."
+  ],
+  "risks": [
+    "The MIGM order or Pinaka orders slip, so fewer production invoices in Q3",
+    "Product mix with more development projects lowers the margin",
+    "Ideal Explosives losses or Premier acquisition costs enter consolidated profit",
+    "Large execution timing: one big delivery moves ₹50-100 Cr between quarters"
+  ],
+  "caveat": "Screener's operating profit differs slightly from the company's reported EBITDA. Our estimate is not management guidance and is never scored."
+}

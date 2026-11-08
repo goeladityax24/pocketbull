@@ -1,0 +1,150 @@
+{
+  "symbol": "SANSERA",
+  "concall": {
+    "month": "Nov 2026",
+    "yearMonth": "2026-11",
+    "transcriptUrl": null,
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccbf1797-e4a8-4e35-9f4f-daacd0b858c4.pdf",
+    "recordingUrl": "https://sansera.in/wp-content/uploads/2026/11/10047694.mp3"
+  },
+  "basis": "consolidated",
+  "createdAt": "2026-11-08T13:43:03.691Z",
+  "createdBy": "Claude session (Admin's plan)",
+  "usage": {
+    "model": "claude-session (Admin's plan)",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "costUsd": 0
+  },
+  "extraction": {
+    "call_period": "Q2 FY27",
+    "call_date": "2026-11-06",
+    "guidance": [
+      {
+        "metric": "other",
+        "metric_label": "FY27 ADS revenue guidance of ₹550-600 Cr",
+        "kind": "absolute",
+        "low": 550,
+        "high": 600,
+        "unit": "inr_cr",
+        "approx": false,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "segment",
+        "segment": "Aerospace, Defence and Semiconductor (ADS)",
+        "condition": "Unchanged from the Aug 2026 deck. H1 FY27 ADS revenue was ₹310 Cr (Q1 ₹145 Cr, Q2 ₹164 Cr), so H2 needs ₹240-290 Cr. Q2 ADS sales +207% YoY",
+        "quote": "FY27 ADS Revenue guidance of INR 5,500– 6,000 Mn",
+        "page": 9,
+        "speaker": "Company (investor presentation)",
+        "confidence": "high",
+        "keyword": "FY27 ADS Revenue guidance",
+        "revises": null
+      },
+      {
+        "metric": "capex",
+        "metric_label": "Planned capex of about ₹800 Cr in FY27",
+        "kind": "absolute",
+        "low": 800,
+        "high": 800,
+        "unit": "inr_cr",
+        "approx": true,
+        "period": "FY27",
+        "horizon_text": null,
+        "basis": "consolidated",
+        "segment": null,
+        "condition": "H1 FY27 capex was ₹326 Cr (deck p.10). Split by plan: non-auto 33%, passenger and commercial vehicles 33%, legacy 2W 11%, tech-agnostic and xEV 11%",
+        "quote": "With planned capex of approximatelyINR 8,000 million in FY27",
+        "page": 5,
+        "speaker": "B R Preetham (Joint MD & Group CEO), in the presentation",
+        "confidence": "medium",
+        "keyword": "planned capex of approximately",
+        "revises": "Consolidated capex ₹510 Cr and ₹250 Cr at one segment (May 2026 call)"
+      },
+      {
+        "metric": "revenue",
+        "metric_label": "Confident in long-term growth, backed by demand, pipeline and diversification",
+        "kind": "qualitative",
+        "low": null,
+        "high": null,
+        "unit": null,
+        "approx": false,
+        "period": null,
+        "horizon_text": null,
+        "basis": "unspecified",
+        "segment": null,
+        "condition": "No numbers in the deck. The Aug 2026 call guided high-teens to 20% growth and an EBITDA margin inching toward 19% for FY27; Q2 FY27 revenue growth was 32% and the margin 19.4%. No Q2 call transcript is on Screener yet (recording only)",
+        "quote": "Backed by healthy demand,a strong order pipeline and increasing diversification,we remain confident in our long- term growth prospects.",
+        "page": 5,
+        "speaker": "B R Preetham (Joint MD & Group CEO), in the presentation",
+        "confidence": "medium",
+        "keyword": "confident in our long- term growth",
+        "revises": null
+      }
+    ],
+    "insights": {
+      "summary": "Sansera's Q2 FY27 presentation shows a record quarter: revenue ₹1,091.5 Cr (+32% YoY), EBITDA ₹211 Cr (19.4% margin) and profit after tax ₹108.6 Cr (+52%). Non-auto reached 20.9% of sales as ADS revenue rose 207%, and Auto ICE fell to 65.7%. ADS backlog is ₹5,870 Cr over five years and peak annual revenue from other new orders ₹2,241 Cr. Management keeps the FY27 ADS guide at ₹550-600 Cr and plans about ₹800 Cr of capex. There is no call transcript yet, so FY27 growth and margin guidance from August cannot be updated.",
+      "what_changed": [
+        {
+          "change": "reiterated",
+          "text": "FY27 ADS revenue guidance of ₹550-600 Cr",
+          "page": null
+        },
+        {
+          "change": "raised",
+          "text": "FY27 capex plan about ₹800 Cr (₹510 Cr consolidated in May)",
+          "page": null
+        },
+        {
+          "change": "new",
+          "text": "Peak annual revenue from new non-ADS orders ₹2,241 Cr, up from ₹1,690 Cr in March and ₹1,850 Cr in June",
+          "page": null
+        }
+      ],
+      "tone": {
+        "label": "confident",
+        "quote": "We protected our profitability despite an inflationaryinput- cost environment,geopoliticaluncertainties and wage- related cost pressures.",
+        "page": 5
+      },
+      "analyst_questions": [],
+      "red_flags": [
+        {
+          "text": "Presentation only: no Q&A, so margin and tariff questions are untested and August's 'high-teens to 20%' growth guide has not been repeated.",
+          "page": null
+        },
+        {
+          "text": "Capex of ₹326 Cr in H1 and about ₹800 Cr planned for the year; the deck notes input-cost and wage pressures on margins.",
+          "page": null
+        },
+        {
+          "text": "Sweden operations still drag Europe sales growth (23.7% reported, 49.8% excluding Sweden).",
+          "page": null
+        }
+      ],
+      "watch_next": [
+        "Q2 call transcript: FY27 growth and margin guidance",
+        "ADS revenue in H2 against the ₹550-600 Cr guide (₹310 Cr in H1)",
+        "Capex of about ₹800 Cr and returns on it",
+        "Semiconductor-equipment order execution",
+        "Wage and input-cost pressure on the 19% margin"
+      ],
+      "business_snapshot": {
+        "what_they_make": "Precision forged and machined components for motorcycles, passenger vehicles and off-road equipment, plus aerospace, defence and semiconductor (ADS) parts",
+        "customers": "Auto OEMs in India, the US and Europe; aerospace, defence and semiconductor-equipment customers",
+        "revenue_mix": "Q2 FY27: Auto ICE 65.7% (motorcycles 32.0%, passenger vehicles 17.3%, scooters 5.9%), tech-agnostic and xEV 13.4%, non-auto 20.9% (ADS 14.9%); India about 44%, global 56%",
+        "demand_drivers": "Record domestic auto volumes, exports recovery, ADS backlog executable over five years, new capacity"
+      }
+    }
+  },
+  "quoteChecks": [
+    "verified",
+    "verified",
+    "verified"
+  ],
+  "source": null,
+  "docs": {
+    "transcriptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccbf1797-e4a8-4e35-9f4f-daacd0b858c4.pdf",
+    "pptUrl": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccbf1797-e4a8-4e35-9f4f-daacd0b858c4.pdf",
+    "transcriptPages": 39,
+    "transcriptHasText": true
+  }
+}
